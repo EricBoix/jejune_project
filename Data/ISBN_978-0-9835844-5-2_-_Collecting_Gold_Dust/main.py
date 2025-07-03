@@ -33,3 +33,5 @@ for chapter in document.chapters:
             paragraph.text,
             "\n",
         )
+
+document.to_markdown("output.md")

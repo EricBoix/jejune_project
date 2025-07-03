@@ -1,35 +1,22 @@
 import sys
 import re
 import os
-import roman
+
+# To deal with inputs of the Converter class
 from pypdf import PdfReader
-from Model import Chapter, Paragraph
+
+# To deal with outputs of the Converter class
+from Model import Chapter, Paragraph, Sentence
+from PageLayout import PageLayout
+
+# To realize the conversion per se
+from PageInfo import pages_info
+import roman
 import nltk
 
 # Refer to
 # https://stackoverflow.com/questions/78862426/unable-to-use-nltk-functions
 nltk.download("punkt_tab")
-
-
-class PageLayout:
-    """
-    reader_page_number: str
-        The page number as it appears to a human reader on the printed (or
-        rendered by a pdf viewer) page. Note that, some pages might have roman
-        numbering, some pages an integerand some pages may have no numbering
-        at all (e.g. the cover or back-cover or some illustrative pages).
-    """
-
-    def __init__(self, reader_page_number):
-        self.reader_page_number = reader_page_number
-        self._reference_text = None
-
-    @property
-    def reference_text(self):
-        return self._reference_text
-
-    def set_reference_text(self, value):
-        self._reference_text = value
 
 
 class ExtractedPage:
@@ -134,629 +121,7 @@ class Converter:
         # Concerning the format:
         # "type" is the {"chapter", "generic" "illustration"}
         # A page_info of "chapter" type must have a "chapter_info" dictionary
-        self.pages_info = {
-            0: {
-                # Artificial/fake chapter that is not explicitly defined in the
-                # book. This is a technicality for the first pages not to be
-                # devoid of belonging chapter:
-                "type": "chapter",
-                "chapter_info": {
-                    "name": "",
-                    "illumination_delimiter": None,
-                },
-                "paragraph_fits_on_page": True,
-            },
-            1: {
-                "type": "generic",
-                "paragraph_fits_on_page": True,
-            },
-            2: {
-                "type": "illustration",
-            },
-            3: {
-                "type": "generic",
-                "paragraph_fits_on_page": True,
-            },
-            4: {
-                "type": "generic",
-                "paragraph_fits_on_page": True,
-            },
-            5: {
-                "type": "generic",
-                "paragraph_fits_on_page": True,
-            },
-            6: {
-                "type": "generic",
-                "paragraph_fits_on_page": True,
-            },
-            7: {
-                "type": "chapter",
-                "chapter_info": {
-                    "name": "Acknowledgements",
-                    "illumination_delimiter": "MBhaddanta",
-                },
-                "paragraph_fits_on_page": True,
-            },
-            9: {
-                "type": "chapter",
-                "chapter_info": {
-                    "name": "Dear Reader",
-                    "illumination_delimiter": "Iobservation",
-                },
-            },
-            10: {
-                "type": "generic",
-                # Notice that "practice." would be an erroneous delimiter:
-                "first_paragraph_delimiter": "flagging practice.",
-            },
-            11: {
-                "type": "generic",
-                "first_paragraph_delimiter": "view.",
-            },
-            12: {
-                "type": "generic",
-                "first_paragraph_delimiter": "daily life.",
-            },
-            13: {
-                "type": "generic",
-                "first_paragraph_delimiter": "info@wisdomstreams.org.",
-            },
-            14: {
-                "type": "generic",
-                "first_paragraph_delimiter": "Tuck Loon.",
-            },
-            15: {
-                "type": "chapter",
-                "chapter_info": {
-                    "name": "On Language",
-                    "illumination_delimiter": "Wwords",
-                },
-            },
-            16: {
-                "type": "generic",
-                "first_paragraph_delimiter": "wisdom.",
-            },
-            17: {
-                "type": "chapter",
-                "chapter_info": {"name": "Contents", "illumination_delimiter": None},
-                "paragraph_fits_on_page": True,
-            },
-            18: {
-                "type": "generic",
-                "paragraph_fits_on_page": True,
-            },
-            19: {
-                "type": "generic",
-                "paragraph_fits_on_page": True,
-            },
-            20: {
-                "type": "illustration",
-                # By default pages with illustrations (or illustration quotes)
-                # have no headers. The following line is thus implicit
-                # "header": None,
-            },
-            21: {
-                "type": "chapter",
-                "chapter_info": {
-                    "name": "A Note from the Teacher",
-                    "illumination_delimiter": "Ytime",
-                },
-            },
-            22: {
-                "type": "generic",
-                "first_paragraph_delimiter": "wisdom.",
-            },
-            23: {
-                "type": "generic",
-                # Everything shorter would be wrong
-                "first_paragraph_delimiter": "was that I was mindful.",
-            },
-            24: {
-                "type": "illustration",
-            },
-            25: {
-                "type": "generic",
-                "first_paragraph_delimiter": "discoveries.",
-            },
-            26: {
-                "type": "generic",
-                "first_paragraph_delimiter": "thing.",
-            },
-            27: {
-                "type": "generic",
-                "first_paragraph_delimiter": "do it.”",
-            },
-            28: {
-                "type": "generic",
-                "first_paragraph_delimiter": "center.",
-            },
-            29: {
-                "type": "generic",
-                "first_paragraph_delimiter": "depression.",
-            },
-            30: {
-                "type": "illustration",
-            },
-            31: {
-                "type": "generic",
-                "first_paragraph_delimiter": "resort.",
-            },
-            32: {
-                "type": "generic",
-                "first_paragraph_delimiter": "state.",
-            },
-            33: {
-                "type": "generic",
-                "first_paragraph_delimiter": "mind.",
-            },
-            34: {
-                "type": "generic",
-                "first_paragraph_delimiter": "emotions.",
-            },
-            35: {
-                "type": "generic",
-                "first_paragraph_delimiter": "disguise!",
-                # We don't have to look for paragraph continuation on the next
-                # page
-                "paragraph_fits_on_page": True,
-            },
-            36: {
-                "type": "illustration",
-            },
-            37: {
-                "type": "generic",
-                "paragraph_fits_on_page": True,
-            },
-            # 38: well nothing to express
-            39: {
-                "type": "generic",
-                "first_paragraph_delimiter": "time.",
-                "paragraph_fits_on_page": True,
-            },
-            # 40: zilch
-            41: {
-                "type": "generic",
-                "first_paragraph_delimiter": "himself.",
-                "paragraph_fits_on_page": True,
-            },
-            42: {
-                "type": "illustration",
-            },
-            43: {
-                "type": "chapter",
-                "chapter_info": {
-                    "name": "Mindfulness is a Lifestyle Change",
-                    "illumination_delimiter": "WTwo",
-                },
-            },
-            44: {
-                "type": "illustration",
-            },
-            45: {
-                "type": "generic",
-                "first_paragraph_delimiter": "mind.",
-                "paragraph_fits_on_page": True,
-            },
-            46: {
-                "type": "generic",
-                "paragraph_fits_on_page": True,
-            },
-            # 47: zilch
-            48: {
-                "type": "generic",
-                "first_paragraph_delimiter": "business.",
-                "paragraph_fits_on_page": True,
-            },
-            50: {
-                "type": "illustration",
-            },
-            51: {
-                "type": "generic",
-                "first_paragraph_delimiter": "suffering.",
-                "paragraph_fits_on_page": True,
-            },
-            # 52: zilch
-            53: {
-                "type": "generic",
-                "first_paragraph_delimiter": "day.",
-                "paragraph_fits_on_page": True,
-            },
-            # 54: nada
-            55: {
-                "type": "generic",
-                "first_paragraph_delimiter": "understanding.",
-            },
-            56: {
-                "type": "illustration",
-            },
-            57: {
-                "type": "generic",
-                "first_paragraph_delimiter": "habits.",
-            },
-            58: {
-                "type": "generic",
-                "first_paragraph_delimiter": "happen.",
-            },
-            59: {
-                "type": "generic",
-                "first_paragraph_delimiter": "effect.",
-            },
-            60: {
-                "type": "generic",
-                "first_paragraph_delimiter": "Understanding.",
-                "paragraph_fits_on_page": True,
-            },
-            # 61: nichts
-            62: {
-                "type": "illustration",
-            },
-            63: {
-                "type": "generic",
-                "first_paragraph_delimiter": "you.",
-                "paragraph_fits_on_page": True,
-            },
-            64: {
-                "type": "illustration",
-            },
-            65: {
-                "type": "chapter",
-                "chapter_info": {
-                    "name": "Take a Closer Look",
-                    "illumination_delimiter": "Man",
-                },
-            },
-            66: {
-                "type": "generic",
-                "first_paragraph_delimiter": "vedanā.",
-            },
-            67: {
-                "type": "generic",
-                "first_paragraph_delimiter": "experience.",
-                "paragraph_fits_on_page": True,
-            },
-            68: {
-                "type": "illustration",
-            },
-            # 69: this space intentionally left non void
-            70: {
-                "type": "generic",
-                "first_paragraph_delimiter": "effects.",
-                "paragraph_fits_on_page": True,
-            },
-            # 71: default is ok
-            72: {
-                "type": "generic",
-                "first_paragraph_delimiter": "further.",
-                "paragraph_fits_on_page": True,
-            },
-            73: {
-                "type": "generic",
-                "paragraph_fits_on_page": True,
-            },
-            74: {
-                "type": "illustration",
-            },
-            # 75: nothing
-            76: {
-                "type": "generic",
-                "first_paragraph_delimiter": "happening.",
-                "paragraph_fits_on_page": True,
-            },
-            77: {
-                "type": "illustration",
-                # By default illustrations have no header, unless ... they have
-                "header": True,
-            },
-            78: {
-                "type": "illustration",
-            },
-            79: {
-                "type": "chapter",
-                "chapter_info": {
-                    "name": "Reflect. Learn. Keep Going.",
-                    "illumination_delimiter": "Dnot",
-                },
-            },
-            80: {
-                "type": "generic",
-                "first_paragraph_delimiter": "through.",
-                "paragraph_fits_on_page": True,
-            },
-            # 81: nothing to say
-            82: {
-                "type": "illustration",
-            },
-            83: {
-                "type": "generic",
-                "first_paragraph_delimiter": "process.",
-            },
-            84: {
-                "type": "generic",
-                "first_paragraph_delimiter": "uncomfortable.",
-                "paragraph_fits_on_page": True,
-            },
-            # 85: nothing
-            86: {
-                "type": "generic",
-                "first_paragraph_delimiter": "practice.",
-            },
-            87: {
-                "type": "generic",
-                "first_paragraph_delimiter": "or another.",
-                "paragraph_fits_on_page": True,
-            },
-            88: {
-                "type": "illustration",
-            },
-            89: {
-                "type": "generic",
-                "paragraph_fits_on_page": True,
-            },
-            90: {
-                "type": "illustration",
-            },
-            91: {
-                "type": "chapter",
-                "chapter_info": {
-                    "name": "Day-to-Day",
-                    "illumination_delimiter": "Wchange",
-                },
-            },
-            92: {
-                "type": "generic",
-                "first_paragraph_delimiter": "term.",
-                "paragraph_fits_on_page": True,
-            },
-            # 93: nothing to say
-            94: {
-                "type": "illustration",
-            },
-            95: {
-                "type": "generic",
-                "first_paragraph_delimiter": "deepened.",
-            },
-            96: {
-                "type": "generic",
-                "first_paragraph_delimiter": "effect.",
-                "paragraph_fits_on_page": True,
-            },
-            # 97: default
-            98: {
-                "type": "generic",
-                "first_paragraph_delimiter": "people.",
-                "paragraph_fits_on_page": True,
-            },
-            99: {
-                "type": "generic",
-                "paragraph_fits_on_page": True,
-            },
-            100: {
-                "type": "illustration",
-            },
-            # 101: dalmatians
-            102: {
-                "type": "generic",
-                "first_paragraph_delimiter": "automatic.",
-                "paragraph_fits_on_page": True,
-            },
-            # 103: default works
-            104: {
-                "type": "generic",
-                "first_paragraph_delimiter": "time.",
-            },
-            105: {
-                "type": "generic",
-                "first_paragraph_delimiter": "well.",
-            },
-            106: {
-                "type": "illustration",
-            },
-            107: {
-                "type": "generic",
-                "first_paragraph_delimiter": ".",  # Notice the default case
-            },
-            108: {
-                "type": "generic",
-                "first_paragraph_delimiter": "steadier.",
-            },
-            109: {
-                "type": "generic",
-                "first_paragraph_delimiter": "silent?",
-            },
-            110: {
-                "type": "generic",
-                "first_paragraph_delimiter": "it.",
-            },
-            111: {
-                "type": "generic",
-                "first_paragraph_delimiter": "balanced.",
-                "paragraph_fits_on_page": True,
-            },
-            112: {
-                "type": "illustration",
-            },
-            # 113: nothing
-            114: {
-                "type": "generic",
-                "first_paragraph_delimiter": "understanding.",
-                "paragraph_fits_on_page": True,
-            },
-            # 115: nothing
-            116: {
-                "type": "generic",
-                "first_paragraph_delimiter": "violated.",
-            },
-            117: {
-                "type": "generic",
-                "first_paragraph_delimiter": "disappear.",
-                "paragraph_fits_on_page": True,
-            },
-            118: {
-                "type": "illustration",
-            },
-            119: {
-                "type": "generic",
-                "paragraph_fits_on_page": True,
-            },
-            # 120: nothing
-            121: {
-                "type": "generic",
-                "first_paragraph_delimiter": "people.",
-            },
-            122: {
-                "type": "generic",
-                "first_paragraph_delimiter": "deteriorate.",
-            },
-            123: {
-                "type": "generic",
-                "first_paragraph_delimiter": "way!",
-                "paragraph_fits_on_page": True,
-            },
-            124: {
-                "type": "illustration",
-            },
-            125: {
-                "type": "chapter",
-                "chapter_info": {
-                    "name": "A Lighter Approach",
-                    "illumination_delimiter": "Wawareness",
-                },
-                "paragraph_fits_on_page": True,
-            },
-            # 126: nothing
-            127: {
-                "type": "generic",
-                "first_paragraph_delimiter": "life.",
-            },
-            128: {
-                "type": "illustration",
-            },
-            129: {
-                "type": "generic",
-                "first_paragraph_delimiter": "habits.",
-            },
-            130: {
-                "type": "generic",
-                "first_paragraph_delimiter": "solutions.",
-            },
-            131: {
-                "type": "generic",
-                "first_paragraph_delimiter": "truth.",
-            },
-            132: {
-                "type": "generic",
-                "first_paragraph_delimiter": "lives.",
-                "paragraph_fits_on_page": True,
-            },
-            133: {
-                "type": "illustration",
-                # By default illustrations have no header, unless ... they have
-                "header": True,
-            },
-            134: {
-                "type": "illustration",
-            },
-            135: {
-                "type": "chapter",
-                "chapter_info": {
-                    "name": "Continuing the Work",
-                    "illumination_delimiter": "A remember",
-                },
-            },
-            136: {
-                "type": "generic",
-                "first_paragraph_delimiter": "moment.",
-                "paragraph_fits_on_page": True,
-            },
-            137: {
-                "type": "generic",
-                "first_paragraph_delimiter": "Thought.",
-                "paragraph_fits_on_page": True,
-            },
-            138: {
-                "type": "illustration",
-            },
-            # 139
-            140: {
-                "type": "generic",
-                "first_paragraph_delimiter": "perspective.",
-            },
-            141: {
-                "type": "generic",
-                "first_paragraph_delimiter": ".",  # End of first sentence
-            },
-            142: {
-                "type": "generic",
-                "first_paragraph_delimiter": "useful.",
-            },
-            143: {
-                "type": "generic",
-                "first_paragraph_delimiter": "operate.",
-                "paragraph_fits_on_page": True,
-            },
-            144: {
-                "type": "illustration",
-            },
-            145: {
-                "type": "chapter",
-                "chapter_info": {
-                    "name": "Appendix: Mindfulness in Brief",
-                    "illumination_delimiter": "Sour",
-                },
-            },
-            146: {
-                "type": "generic",
-                "first_paragraph_delimiter": "the mind.",
-            },
-            147: {
-                "type": "generic",
-                "first_paragraph_delimiter": "mind.",
-                "paragraph_fits_on_page": True,
-            },
-            148: {
-                "type": "generic",
-                "paragraph_fits_on_page": True,
-            },
-            149: {
-                "type": "generic",
-                "paragraph_fits_on_page": True,
-            },
-            150: {
-                "type": "illustration",
-            },
-            # 151
-            152: {
-                "type": "generic",
-                "first_paragraph_delimiter": ".",
-                "paragraph_fits_on_page": True,
-            },
-            153: {
-                "type": "generic",
-                "paragraph_fits_on_page": True,
-            },
-            154: {
-                "type": "generic",
-                "paragraph_fits_on_page": True,
-            },
-            # 155
-            156: {
-                "type": "illustration",
-            },
-            157: {
-                "type": "generic",
-                "first_paragraph_delimiter": "learn.",
-                "paragraph_fits_on_page": True,
-            },
-            158: {
-                "type": "chapter",
-                "chapter_info": {"name": "Dedication", "illumination_delimiter": None},
-                "paragraph_fits_on_page": True,
-            },
-            159: {
-                # This is the back cover of the book
-                "type": "illustration",
-            },
-        }
+        self.pages_info = pages_info
 
         # Technical (optimisation) variable used to hold the correspondance
         # between a given page number and the chapter to which that page
@@ -788,6 +153,13 @@ class Converter:
             return True
         return False
 
+    def __page_is_dropped(self, page_number):
+        if not page_number in self.pages_info:
+            return False
+        if not "drop_page" in self.pages_info[page_number]:
+            return False
+        return True
+
     def __page_requires_paragraph_continuation(self, page_number):
         if not page_number in self.pages_info:
             return True  # Looks a bit ambitious but let's try it
@@ -799,7 +171,7 @@ class Converter:
 
     def __get_page_number_finishing_last_paragraph(self, page_number):
         """
-        A pages that is followed by an illustration will need to skip that
+        A page that is followed by an illustration will need to skip that
         illustration page in order to retrieve the end of its last paragraph.
         Return the page number of the first page that defines a paragraph
         delimiter.
@@ -1025,6 +397,35 @@ class Converter:
         print("Exiting")
         sys.exit()
 
+    def __chapter_get_first_paragraph_of_given_page(self, chapter, page_number):
+        for paragraph in chapter.paragraphs:
+            if paragraph.page_layout.page_number == page_number:
+                return paragraph
+        print(
+            "Error: unable to find the first paragraph of page number ",
+            page_number,
+            " in chapter ",
+            chapter.name,
+        )
+        print("Exiting.")
+        sys.exit()
+
+    def __chapter_get_last_paragraph_of_given_page(self, chapter, page_number):
+        paragraph_of_that_page = None
+        for paragraph in chapter.paragraphs:
+            if paragraph.page_layout.page_number == page_number:
+                paragraph_of_that_page = paragraph
+        if paragraph_of_that_page is None:
+            print(
+                "Error: unable to find the last paragraph of page number ",
+                page_number,
+                " in chapter ",
+                chapter.name,
+            )
+            print("Exiting.")
+            sys.exit()
+        return paragraph_of_that_page
+
     def build_chapters(self):
         resulting_chapters = []
         current_chapter = Chapter("Preamble")
@@ -1035,10 +436,14 @@ class Converter:
                 current_chapter = Chapter(new_chapter_name)
                 resulting_chapters.append(current_chapter)
 
+            if self.__page_is_dropped(page_number):
+                continue
             original_page = self.reader.pages[page_number]
             new_extracted_page = ExtractedPage(
                 page_number,
-                PageLayout(self.__convert_to_logical_page_number(page_number)),
+                PageLayout(
+                    self.__convert_to_logical_page_number(page_number), page_number
+                ),
                 original_page,
             )
             self.remove_header(new_extracted_page)
@@ -1046,9 +451,11 @@ class Converter:
         for chapter in resulting_chapters:
             self.sanitize_newlines(chapter)
         for chapter in resulting_chapters:
-            self.reconstitute_pages_ending_sentence(chapter)
-        for chapter in resulting_chapters:
             self.break_chapter_into_paragraphs(chapter)
+            for paragraph in chapter.paragraphs:
+                self.break_paragraph_into_sentences(paragraph)
+        for chapter in resulting_chapters:
+            self.reconstitute_paragraphs_spreading_over_two_pages(chapter)
         return resulting_chapters
 
     def sanitize_newlines(self, chapter):
@@ -1070,36 +477,87 @@ class Converter:
 
     def break_chapter_into_paragraphs(self, chapter):
         for page in chapter.pages:
-            paragraphs = re.split("\n    ", page.text)
-            page_number = page.page_layout.reader_page_number
+            paragraphs = re.split("\n    " + "|" + "\n\n\n", page.text)
+            page_layout = page.page_layout
             for paragraph_text in paragraphs:
                 if len(paragraph_text) == 0:
                     # Avoid creating empty paragraphs (resulting from previous
                     # erroneous/careless string manipulations):
                     continue
-                new_paragraph_layout = PageLayout(page_number)
+                new_paragraph_layout = page_layout.__copy__()
                 new_paragraph_layout.set_reference_text(
                     "[Chapter: "
                     + chapter.name
                     + ", reader page number: "
-                    + str(page_number)
+                    + str(page_layout.reader_page_number)
                     + ", page number: "
-                    + str(page.page_number)
+                    + str(page_layout.page_number)
                     + "]"
                 )
                 new_paragraph = Paragraph(new_paragraph_layout)
+                # Note: the text member is a temporary attribute used by the
+                # Converter but is not destined to be a member of the Paragraph
+                # class. We just piggyback it until it is transformed and
+                # cleaned-up.
                 new_paragraph.text = paragraph_text
                 chapter.add_paragraph(new_paragraph)
 
-    def reconstitute_pages_ending_sentence(self, chapter):
+    def break_paragraph_into_sentences(self, paragraph: Paragraph):
+        page_layout = paragraph.page_layout
+
+        # Using the text attribute that was piggybacked from the above
+        # break_chapter_into_paragraphs() method:
+        if paragraph.text is None:
+            print(
+                "Error: trying to break a paragraph into sentences but "
+                "the paragraph text is None."
+            )
+            print("Exiting.")
+            sys.exit()
+        paragraph_text = paragraph.text
+        tokenized_text = nltk.tokenize.sent_tokenize(paragraph_text)
+        for new_sentence_text in tokenized_text:
+            if len(new_sentence_text) == 0:
+                # Avoid creating empty sentences (resulting from previous
+                # erroneous/careless string manipulations):
+                continue
+            # Some original sentences have an embedded newline character ("\n")
+            # that is used to format the original pdf with newlines. Remove
+            # such formatting characters to preserve only the text content:
+            new_sentence_text = re.sub("\n", " ", new_sentence_text)
+            # The above clean-up might create multiple whitespaces, while some
+            # other occurrences of multiple whitespaces are (randomly?)
+            # encountered. Remove them all:
+            new_sentence_text = re.sub(r"\s+", " ", new_sentence_text).strip()
+
+            # Eventually, create a new sentence
+            new_sentence_layout = page_layout.__copy__()
+            new_sentence_layout.set_reference_text(
+                "[Paragraph: "
+                + page_layout.reference_text
+                + ", reader page number: "
+                + str(page_layout.reader_page_number)
+                + "]"
+            )
+            new_sentence = Sentence(new_sentence_text, new_sentence_layout)
+            paragraph.add_sentence(new_sentence)
+
+    def reconstitute_paragraphs_spreading_over_two_pages(self, chapter):
         """
-        When a page ends with un unfinished sentence then the next page begins
-        with the end of that sentence. If we want the page layout to be correct
-        we need to reconstitute the unfinished sentence of the pages. In order
-        to do so, we need to remove the finishing part of the sentence from the
-        next page and for this we need to know were that (partial) sentence
-        ends. By default the delimiter is the dot ("."") character but when this
-        is not the case we use a manually defined delimiter (an ad-hoc string).
+        When a page ends with un unfinished Paragraph then the next page begins
+        with the end of that Paragraph. In order to reconstitute such Paragraphs
+        that were split in two, we need to
+         - find the last Paragraph of a page that is not annotated with the
+           "paragraph_fits_on_page" flag. Such a Paragraph holds the beginning
+            of an original paragraph that got split in two.
+         - the next Paragraph thus holds the end of the original paragraph
+           (that got split in two) and
+           - was standing at the top of the next page
+           - contains a paragraph delimiter.
+         - merge those two paragraphs into a single Paragraph
+         - when doing so make sure that the sentence that got split (and was
+           standing over two ill reconstituted Paragraphs) gets also properly
+           reconstituted.
         """
         if len(chapter.pages) == 1:
             # Nothing to do for a single page
@@ -1122,32 +580,73 @@ class Converter:
                 # collected from the next page
                 continue
 
-            number_skipped_pages = next_page_number - page_number - 1
-            next_page = chapter.pages[page_index + 1 + number_skipped_pages]
-            # Note: when some illustration pages have been skipped in order to
-            # retrieve the page holding the end of the paragraph, it is most
-            # often due to the fact that we found some illustration in between.
-            # We thus could/should advance the page_index in order to skip that
-            # (illustration) page when reconstituting the paragraph. Yet we
-            # leave this non optimal situation for code readability reasons.
-            delimiter = self.__get_first_paragraph_delimiter(next_page_number)
-            try:
-                ending_sentence, remaining_page_text = next_page.text.split(
-                    delimiter, 1
-                )
-                current_page.set_text(current_page.text + ending_sentence + delimiter)
-                next_page.text = remaining_page_text
-            except:
+            ill_ending_paragraph = self.__chapter_get_last_paragraph_of_given_page(
+                chapter, page_number
+            )
+            last_sentence_of_ill_starting_paragraph = ill_ending_paragraph.sentences[-1]
+
+            ill_starting_paragraph = self.__chapter_get_first_paragraph_of_given_page(
+                chapter, next_page_number
+            )
+            first_sentence_of_ill_starting_paragraph = ill_starting_paragraph.sentences[
+                0
+            ]
+
+            #### Asserting some preconditions before merging the two paragraphs:
+
+            # Assert that the page_layout of the two paragraphs do differ
+            if ill_ending_paragraph.page_layout == ill_starting_paragraph.page_layout:
                 print(
-                    "Within page number ",
-                    next_page.page_number,
-                    " unable to find delimiter ",
-                    delimiter,
-                    " within page text: ",
-                    next_page.text,
+                    "Error: the page layout of the two paragraphs to be merged is the same.",
+                    "This is not expected.",
                 )
-                print("Skipping handling of page number ", page_number)
-                continue
+                print(
+                    "Paragraph ending on page number ",
+                    page_number,
+                    " has page layout ",
+                    repr(ill_ending_paragraph.page_layout),
+                )
+                print(
+                    "Paragraph starting on page number ",
+                    next_page_number,
+                    " has page layout ",
+                    repr(ill_starting_paragraph.page_layout),
+                )
+                print("Exiting.")
+                sys.exit()
+
+            # Assert that the ill_starting_paragraph is indeed the one that
+            # holds the prescribed delimiter:
+            last_sentence_of_ill_starting_paragraph = ill_starting_paragraph.sentences[
+                -1
+            ]
+            delimiter = self.__get_first_paragraph_delimiter(next_page_number)
+            if not re.search(
+                delimiter, last_sentence_of_ill_starting_paragraph.sentence
+            ):
+                print(
+                    "Error: the last sentence of the paragraph starting on page number ",
+                    next_page_number,
+                    " does not end with the delimiter ",
+                    repr(delimiter),
+                )
+                print("Last sentence: ", repr(last_sentence_of_ill_starting_paragraph))
+                print("Exiting.")
+                sys.exit()
+
+            #### Proceed with the merging of two paragraphs into a single one:
+
+            # First merge the two sentences:
+            last_sentence_of_ill_starting_paragraph.append(
+                first_sentence_of_ill_starting_paragraph
+            )
+            ill_starting_paragraph.remove_sentence(
+                first_sentence_of_ill_starting_paragraph
+            )
+            # Then merge the two paragraphs:
+            ill_ending_paragraph.concatenate(ill_starting_paragraph)
+            # Finally remove the now empty paragraph:
+            chapter.remove_paragraph(ill_starting_paragraph)
 
     def remove_header(self, extracted_page):
         """
@@ -1195,10 +694,5 @@ class Converter:
             header_less_page_text = self.fix_illumination(
                 page_number, header_less_page_text
             )
-
-        # Break the original streamlined text into sentences.
-        # FIXME FIXME
-        tokenized_text = nltk.tokenize.sent_tokenize(header_less_page_text)
-        # print("Tokenized text: ", nltk.tokenize.sent_tokenize(text))
 
         extracted_page.text = header_less_page_text
