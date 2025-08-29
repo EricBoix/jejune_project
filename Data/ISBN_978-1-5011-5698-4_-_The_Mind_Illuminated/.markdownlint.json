@@ -1,0 +1,10 @@
+{
+  "MD013": {
+    "line_length": 2000
+  },
+  "MD033": {
+    "allowed_elements": [
+      "br", "li", "ul"
+    ]
+  }
+}

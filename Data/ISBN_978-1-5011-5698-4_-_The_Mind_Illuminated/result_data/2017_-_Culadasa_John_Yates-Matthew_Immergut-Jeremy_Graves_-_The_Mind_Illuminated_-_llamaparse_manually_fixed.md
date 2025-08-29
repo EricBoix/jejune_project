@@ -38,82 +38,40 @@ This book does an outstanding job of both constructing a cognitive theory of how
 The Mind Illuminated provides among the greatest syntheses I’ve ever seen of concepts from across the spectrum of psychological research and theory. The book integrates knowledge from areas as diverse as cognition and neural systems, psychoanalytic notions of unconscious processes and catharsis, theories of William James, and third-wave strategies for emotion regulation. It also provides a valuable step-by-step instruction manual for mental training to focus attention while developing self-insight and deep psychological healing. The secular nature of the instructions allows for bringing meditation into the therapy relationship without dogma and without the risk of either supporting or contradicting clients’ religious views.
 —TUCKER PECK, PHD, clinical psychologist and recipient of the Varela Award from the Mind and Life Institute
 
-## Contents (LLAMAPARSE RAW OUTPUT)<!-- omit from toc -->
-
-<!-- extraction-conversion-limit Once the automatic TOC, refer below, is settled then remove this chapter -->
-- List of Figures
-- Foreword
-- Introduction
-- An Overview of the Ten Stages
-- First Interlude: Conscious Experience and the Objectives of Meditation
-- Stage One: Establishing a Practice
-- Second Interlude: The Hindrances and Problems
-- Stage Two: Interrupted Attention and Overcoming Mind-Wandering
-- Stage Three: Extended Continuity of Attention and Overcoming Forgetting
-- Third Interlude: How Mindfulness Works
-- Stage Four: Continuous Attention and Overcoming Gross Distraction and Strong Dullness
-- Fourth Interlude: The Moments of Consciousness Model
-- Stage Five: Overcoming Subtle Dullness and Increasing Mindfulness
-- Fifth Interlude: The Mind-System
-- Stage Six: Subduing Subtle Distractions
-- Sixth Interlude: The Stages of an Adept
-- Stage Seven: Exclusive Attention and Unifying the Mind
-- Seventh Interlude: The Nature of Mind and Consciousness
-- Stage Eight: Mental Pliancy and Pacifying the Senses
-- Stage Nine: Mental and Physical Pliancy and Calming the Intensity of Meditative Joy
-- Stage Ten: Tranquility and Equanimity
-- Final Thoughts
-- Acknowledgments
-- APPENDICES
-  - Appendix A: Walking Meditation
-  - Appendix B: Analytical Meditation
-  - Appendix C: Loving-Kindness Meditation
-  - Appendix D: The Jhānas
-  - Appendix E: Mindful Review
-  - Appendix F: Insight and the “Dark Night”
-- About the Authors
-- Glossary
-- Notes
-- Index
-
 ## Contents<!-- omit from toc -->
 
-- [THE SECOND WHOLE-BODY JHĀNA](#the-second-whole-body-jhāna)
-- [THE THIRD WHOLE-BODY JHĀNA](#the-third-whole-body-jhāna)
-- [THE FOURTH WHOLE-BODY JHĀNA](#the-fourth-whole-body-jhāna)
-- [Practicing the Pleasure Jhānas](#practicing-the-pleasure-jhānas)
-- [ENTERING THE FIRST PLEASURE JHĀNA](#entering-the-first-pleasure-jhāna)
-- [THE SECOND PLEASURE JHĀNA](#the-second-pleasure-jhāna)
-- [THE THIRD PLEASURE JHĀNA](#the-third-pleasure-jhāna)
-- [THE FOURTH PLEASURE JHĀNA](#the-fourth-pleasure-jhāna)
-- [Practicing the Luminous Jhānas](#practicing-the-luminous-jhānas)
-- [ENTERING THE FIRST LUMINOUS JHĀNA](#entering-the-first-luminous-jhāna)
-- [THE SECOND LUMINOUS JHĀNA](#the-second-luminous-jhāna)
-- [THE THIRD LUMINOUS JHĀNA](#the-third-luminous-jhāna)
-- [THE FOURTH LUMINOUS JHĀNA](#the-fourth-luminous-jhāna)
-- [4. The Fourth Luminous Jhāna](#4-the-fourth-luminous-jhāna)
-- [Mindful Review](#mindful-review)
-- [MINDFULNESS IN DAILY LIFE](#mindfulness-in-daily-life)
-- [A BRIEF DESCRIPTION OF MINDFUL REFLECTION](#a-brief-description-of-mindful-reflection)
-- [CHOOSING EVENTS FOR REFLECTION](#choosing-events-for-reflection)
-- [Wholesome and Unwholesome Speech and Action](#wholesome-and-unwholesome-speech-and-action)
-- [Wholesome and Unwholesome Thoughts and Emotions](#wholesome-and-unwholesome-thoughts-and-emotions)
-- [PART ONE: MINDFULNESS](#part-one-mindfulness)
-- [Evoke the Details:](#evoke-the-details)
-- [Degree of Mindfulness:](#degree-of-mindfulness)
-- [Consequences:](#consequences)
-- [Regret, Resolve, and Recompense:](#regret-resolve-and-recompense)
-- [PART TWO: MINDFULNESS WITH CLEAR COMPREHENSION](#part-two-mindfulness-with-clear-comprehension)
-- [INTENTIONS AND UNINTENDED CONSEQUENCES](#intentions-and-unintended-consequences)
-- [Understanding the Consequences of Unwholesome Intentions](#understanding-the-consequences-of-unwholesome-intentions)
-- [Insight and the “Dark Night”](#insight-and-the-dark-night)
-- [Figure 57](#figure-57)
-- [Figure 57 cont.](#figure-57-cont)
+- [List of Figures](#list-of-figures)
+- [Foreword](#foreword)
+- [Introduction](#introduction)
+- [An Overview of the Ten Stages](#an-overview-of-the-ten-stages)
+- [First Interlude: Conscious Experience and the Objectives of Meditation](#first-interlude-conscious-experience-and-the-objectives-of-meditation)
+- [Stage One: Establishing a Practice](#stage-one-establishing-a-practice-1)
+- [Second Interlude: The Hindrances and Problems](#second-interlude-the-hindrances-and-problems)
+- [Stage Two: Interrupted Attention and Overcoming Mind-Wandering](#stage-two-interrupted-attention-and-overcoming-mind-wandering-1)
+- [Stage Three: Extended Continuity of Attention and Overcoming Forgetting](#stage-three-extended-continuity-of-attention-and-overcoming-forgetting)
+- [Third Interlude: How Mindfulness Works](#third-interlude-how-mindfulness-works)
+- [Stage Four: Continuous Attention and Overcoming Gross Distraction and Strong Dullness](#stage-four-continuous-attention-and-overcoming-gross-distraction-and-strong-dullness-1)
+- [Fourth Interlude: The Moments of Consciousness Model](#fourth-interlude-the-moments-of-consciousness-model)
+- [Stage Five: Overcoming Subtle Dullness and Increasing Mindfulness](#stage-five-overcoming-subtle-dullness-and-increasing-mindfulness-1)
+- [Fifth Interlude: The Mind-System](#fifth-interlude-the-mind-system)
+- [Stage Six: Subduing Subtle Distractions](#stage-six-subduing-subtle-distractions)
+- [Sixth Interlude: The Stages of an Adept](#sixth-interlude-the-stages-of-an-adept)
+- [Stage Seven: Exclusive Attention and Unifying the Mind](#stage-seven-exclusive-attention-and-unifying-the-mind-1)
+- [Seventh Interlude: The Nature of Mind and Consciousness](#seventh-interlude-the-nature-of-mind-and-consciousness)
+- [Stage Eight: Mental Pliancy and Pacifying the Senses](#stage-eight-mental-pliancy-and-pacifying-the-senses-1)
+- [Stage Nine: Mental and Physical Pliancy and Calming the Intensity of Meditative Joy](#stage-nine-mental-and-physical-pliancy-and-calming-the-intensity-of-meditative-joy-1)
+- [Stage Ten: Tranquility and Equanimity](#stage-ten-tranquility-and-equanimity-1)
+- [Final Thoughts](#final-thoughts)
+- [Acknowledgments](#acknowledgments)
+- [Appendix A: Walking Meditation](#appendix-a-walking-meditation)
+- [Appendix B: Analytical Meditation](#appendix-b-analytical-meditation)
+- [Appendix C: Loving-Kindness Meditation](#appendix-c-loving-kindness-meditation)
+- [Appendix D: The Jhānas](#appendix-d-the-jhānas)
+- [Appendix E: Mindful Review](#appendix-e-mindful-review)
+- [Appendix F: Insight and the “Dark Night”](#appendix-f-insight-and-the-dark-night)
 - [About the Authors](#about-the-authors)
-- [MEET THE AUTHORS, WATCH VIDEOS AND MORE AT](#meet-the-authors-watch-videos-and-more-at)
-  - [Glossary](#glossary)
-  - [Notes](#notes)
-  - [Index](#index)
+- [Glossary](#glossary)
+- [Notes](#notes)
 
 ## Dedication<!-- omit from toc -->
 
@@ -195,11 +153,7 @@ Shortly after realizing this, I was introduced to Eastern religions with their p
 
 Not all of my exploration had been in the spiritual world. I’ve always had an interest in the so-called “hard sciences” (first sparked by my father, who was himself a research scientist with interests in everything from geology to astrophysics). By this time I was a graduate student in physiology—the study of the mechanisms of the human body—and the idea of exploring the mind introspectively while at the same time studying its relationship to the brain was fascinating. These parallel explorations were to become my life’s work. I spent two years practicing Transcendental Meditation, during which time I also completed my master’s degree and began working on my PhD.
 
-When I discovered Buddhist meditation, the many pieces of my life so far began to fall perfectly into place. I’d come into possession of a sitar in need of repair, and I wanted to learn to play it. By chance I met someone who could help me do both, and who had also spent several years studying Buddhism and meditating in Burma and Thailand. He was to become my first real spiritual teacher. Upasaka Kema Ananda had returned from Southeast Asia to teach others what he had learned, and had created a small residential community of students. Over the course of several weeks of sitar repair, as we carefully fit pieces together and waited for glue to dry, he gradually introduced me to the Buddhadharma. He also encouraged me to attend one of the frequent weekend meditation retreats he offered. Everything he’d taught me so far sounded very
-
-
-
-appealing, but what clinched it was the day he told me the Buddha had said, “Don’t take my word for anything I teach, don’t accept it on my authority. Come and see for yourself.” Kema explained that everything the Buddha taught was available to anyone willing to take the time and train the mind to discover it for themselves. This sounded like science to me!
+When I discovered Buddhist meditation, the many pieces of my life so far began to fall perfectly into place. I’d come into possession of a sitar in need of repair, and I wanted to learn to play it. By chance I met someone who could help me do both, and who had also spent several years studying Buddhism and meditating in Burma and Thailand. He was to become my first real spiritual teacher. Upasaka Kema Ananda had returned from Southeast Asia to teach others what he had learned, and had created a small residential community of students. Over the course of several weeks of sitar repair, as we carefully fit pieces together and waited for glue to dry, he gradually introduced me to the Buddhadharma. He also encouraged me to attend one of the frequent weekend meditation retreats he offered. Everything he’d taught me so far sounded very appealing, but what clinched it was the day he told me the Buddha had said, “Don’t take my word for anything I teach, don’t accept it on my authority. Come and see for yourself.” Kema explained that everything the Buddha taught was available to anyone willing to take the time and train the mind to discover it for themselves. This sounded like science to me!
 
 I immediately asked to attend the next weekend retreat. I was soon part of a strong community of dedicated meditation practitioners with ready access to excellent teachers. This particular group represented a unique confluence of Tibetan and Theravadin teachings in the person of Namgyal Rinpoche (aka George Dawson). Originally ordained as Ananda Bodhi, he was an acknowledged master in the Southeast Asian tradition before being recognized as the reincarnation of Namgyal by the 16th Gyalwa Karmapa, Rangjung Rigpe Dorje. My own teachers, Upasaka Kema Ananda and Jotidhamma Bhikkhu, were his students. As Kema’s student in this mixed lineage, I simultaneously engaged in the Tibetan Kagyu foundation practices (ngöndro), and the Theravadin Mahasi-style “noting” meditation practice.
 
@@ -207,10 +161,7 @@ Meanwhile, I completed my PhD thesis, and my interests turned more and more to n
 
 In the end, I took the Upasaka vows of a dedicated lay practitioner, a sort of layman’s version of monastic commitment, and ceased to be active in laboratory research. Instead, I dedicated myself to teaching neuroscience and studying the research of others, while at the same time engaging intensely in meditation and studying ancient wisdom texts from many traditions. The best description of the intervening years is to say they have been dedicated to studying the brain from the inside through meditation, and the mind from the outside through neuroscience and cognitive psychology.
 
-The confluence of meditation and neuroscience is a fascinating one, with the potential for each to greatly enhance the other. Both are, in fact, sciences, although meditation falls in the category of “first-person” science, which is only gradually gaining legitimacy among traditional scientists. In the science of meditation, the mind itself is the laboratory, and the various meditation practices.
-
-
-and techniques constitute the experimental apparatuses that are utilized in this research. It is a science in the sense that it is objectively verifiable through repeated testing and replication of results. Everyone who accurately performs the same “experiment” in meditation reports the same results. And as with the physical sciences, meditation also generates technologies for change—profound changes in perception, worldview, mental states, and behavior.
+The confluence of meditation and neuroscience is a fascinating one, with the potential for each to greatly enhance the other. Both are, in fact, sciences, although meditation falls in the category of “first-person” science, which is only gradually gaining legitimacy among traditional scientists. In the science of meditation, the mind itself is the laboratory, and the various meditation practices and techniques constitute the experimental apparatuses that are utilized in this research. It is a science in the sense that it is objectively verifiable through repeated testing and replication of results. Everyone who accurately performs the same “experiment” in meditation reports the same results. And as with the physical sciences, meditation also generates technologies for change—profound changes in perception, worldview, mental states, and behavior.
 
 Through meditation, we begin to see and understand the fine structure and workings of the mind. The descriptions of the mind produced by meditators can then point out to a neuroscientist where and how best to apply various methods and technologies in their investigation of the brain. Likewise, the information about the brain revealed through science can guide us in our meditation practices, making them not only more effective but also giving us new perspectives on what we experience in practice.
 
@@ -218,11 +169,7 @@ One great example of this is the distinction I make in this book between attenti
 
 A very clear pattern has emerged from our scientific explorations of the brain: Over and over again, we find there are neural correlates for mental activities. Although some will resist this statement, I believe we will eventually find that all mental phenomena, without exception, have their neural correlates. This has led many scientists to become staunch materialists, insisting that the mind is merely what matter does when organized to an appropriate degree of complexity. I am not one of them.
 
-Historically, the prevailing view in cultures throughout the world has been dualism, the idea that matter is one thing and the mind another. However, close examination renders this view untenable. As a result, two reductionist interpretations have always existed side by side with the dualistic view, each eliminating one side or the other of this dualism. Materialistic reductionism
-
-
-
-asserts there is only matter, and the mind is at best an emergent property of highly organized matter. And modern neuroscience is believed by many to support this view.
+Historically, the prevailing view in cultures throughout the world has been dualism, the idea that matter is one thing and the mind another. However, close examination renders this view untenable. As a result, two reductionist interpretations have always existed side by side with the dualistic view, each eliminating one side or the other of this dualism. Materialistic reductionism asserts there is only matter, and the mind is at best an emergent property of highly organized matter. And modern neuroscience is believed by many to support this view.
 
 On the other hand, meditation and other spiritual practices often make it clear that our subjectively experienced reality is mind-created—exactly the realization I had in my teens, although I arrived at it from a different route. This realization often draws people to some form of idealism, the other reductionist interpretation, which asserts there is only mind, and that matter is an illusion, a mere projection of the mind to account for experience. For them, science is irrelevant to any search for ultimate Truth. Obviously, I’m not one of those, either.
 
@@ -311,7 +258,7 @@ Here’s a brief summary of the book’s structure so you have an idea where you
 
 The First Interlude lays the groundwork for the practice. You’ll be introduced to the model of Conscious Experience, and learn about working with attention and peripheral awareness. The Second Interlude introduces you to the major hindrances and problems you will face in your practice. The Third Interlude builds on ideas you’ve learned so far to explain how mindfulness works. The Fourth and Fifth Interludes introduce new, more in-depth models of mind: the Moments of Consciousness model and the Mind-System model. The Sixth Interlude lays the foundation for Stages Seven through Ten. The Seventh Interlude provides further refinements to the models of mind you’ve learned so far to help you fully understand subtle and profound meditative states.
 
-This book can be used in several ways. You can read it from front to back as you would any other book, or you can use it more as a reference guide, picking which chapters to read based on the current state of your practice. Many will find the Interludes of great help, but those less technically inclined may prefer to no more than skim the later Interludes, just to give their practice some context. If you ever find yourself feeling adrift, uncertain about where the path is headed, the chapter to reread is, “An Overview of the Ten Stages.” Finally, you can consult as needed a series of useful stand-alone appendices and a glossary at the end of the book. Beginners are particularly encouraged to read the appendix on walking meditation and to incorporate walking immediately into their daily practice. 
+This book can be used in several ways. You can read it from front to back as you would any other book, or you can use it more as a reference guide, picking which chapters to read based on the current state of your practice. Many will find the Interludes of great help, but those less technically inclined may prefer to no more than skim the later Interludes, just to give their practice some context. If you ever find yourself feeling adrift, uncertain about where the path is headed, the chapter to reread is, “An Overview of the Ten Stages.” Finally, you can consult as needed a series of useful stand-alone appendices and a glossary at the end of the book. Beginners are particularly encouraged to read the appendix on walking meditation and to incorporate walking immediately into their daily practice.
 The other appendices cover analytical meditations, loving-kindness practice, meditative absorptions (the jhānas), and a review practice to help you bring your daily life in line with your meditation practice.
 
 Together the Stages and Interludes will lead you on a profound adventure of self-discovery and mental cultivation. If you take your time, studying the ideas and putting them into practice, you’ll overcome psychological challenges, experience extraordinary states, and learn to use your mind with amazing proficiency. You’ll discover an unprecedented inner calm and gain a deep understanding—even a direct experience—of ultimate truth.
@@ -530,7 +477,7 @@ Chasing after physical pliancy is like prying open a bud to make it blossom.
 <!-- extraction-conversion-limit Forgotten picture and caption structure -->
 Care for the mind like a skilled gardener, and everything will flower and fruit in due time.
 
-## FIRST INTERLUDE Conscious Experience and the Objectives of Meditation
+## First Interlude: Conscious Experience and the Objectives of Meditation
 
 IN THIS chapter, I introduce a basic, conceptual model of Conscious Experience. You can consider this a map of the topography—the landscape of the mind, so to speak. The meditation instructions are like the roads allowing you to explore this landscape comfortably. However, remember that a map is only a representation, not the thing itself. When circumstances change—as your practice improves—you’ll find yourself wanting a new map. This is why, in later chapters, I provide two additional, much more in-depth models of the mind for you to work from. Each map builds on the previous ones, and together they lead you toward the two major objectives of meditation practice: stable attention and mindfulness, both of which we will look at more closely in this Interlude.
 
@@ -776,7 +723,7 @@ In the same way, if the mind is agitated, disturbed by the concerns of daily lif
 
 Don’t forget, however, that the path is as important as the goal. The Stages outlined in this book may bring you to a state of peace and Insight, but they are also an exciting journey of discovery into the nature of the mind. Relish in this beautiful and sometimes challenging journey. The goal isn’t just getting to a calm, quiet pool, but learning about the makeup of the water itself as it goes from choppy to still, from cloudy to crystal-clear.
 
-## STAGE ONE : Establishing a Practice
+## Stage One: Establishing a Practice
 
 <!-- extraction-conversion-limit Forgotten picture and caption structure -->
 The goal for Stage One is to develop a regular meditation practice. Put all your effort into forming and holding a conscious intention to sit down and meditate for a set period every day, and to practice diligently for the duration of the sit. When your intentions are clear and strong, the appropriate actions naturally follow, and you’ll find yourself regularly sitting down to meditate. If this doesn’t happen, rather than chastising yourself and trying to force yourself to practice, work on strengthening your motivation and intentions instead.
@@ -846,7 +793,6 @@ It doesn't matter how long you spend on the Preparation for Meditation, because 
 
 Sometimes new students say, "I seem to spend a lot of time just doing the 'Preparation for Practice'—is that a problem?" When I ask how the rest of their meditation went afterward, that usually answers the question. By the time you go through the Six Points, your mind will be well settled. The preparation also helps establish a consistent practice, free from resistance and the deliberate wasting of time. And it doesn't matter how long you spend on the preparation, because it, too, is a form of meditation in which you still intentionally direct and sustain attention. If your mind wanders, bring it back using the same techniques we
 
-
 ### The Meditation Object
 
 A meditation object is something you intentionally choose to be the focus of your attention during meditation. Although you can choose just about anything, the breath is ideal for cultivating attention and mindfulness. First, the breath is always with you. Second, it allows you to be a completely passive observer. You don’t need to do anything, such as repeat a mantra, generate a visualization, or rely on any special item like a candle, icon, or kasiṇa.1 You can meditate on the breath at any opportunity, wherever you are, every day—even up to your dying breath. The breath also changes over time, becoming fainter as concentration deepens. This makes it suitable for developing powerful attention, since the details you focus on become ever more subtle as sensations grow less distinct. Likewise, the fact that sensations change continuously, moment by moment, is conducive to Insight into the nature of impermanence. Yet, the breath also constantly repeats itself, over and over in the same pattern, making it suitable as a fixed (i.e., relatively unchanging) meditation object for entering states of meditative absorption. Because of these different qualities, the breath is used as the basis for the practice of Tranquility and Insight (śamatha-vipassanā), dry Insight practices (sukkha-vipassanā), and meditative absorptions (jhāna).
@@ -906,7 +852,7 @@ For a beginner, it can be hard to relax at first because your mind is agitated a
 
 If you never get past step two during your entire meditation session, that’s perfectly fine. However, sometimes focusing in more can also help you settle down, so don’t hesitate to try moving to the next step. You can always return to this one if narrowing your focus doesn’t work.
 
-### STEP THREE: FOCUS ON BODILY SENSATIONS RELATED TO THE BREATH.
+### STEP THREE: FOCUS ON BODILY SENSATIONS RELATED TO THE BREATH
 
 As you sit quietly observing the body, your attention will naturally gravitate toward the sensations of movement produced by breathing, since little else changes while sitting quietly. As you tune in, start paying attention to all the different kinds of breath-related sensations. You will notice them especially around your nose, face, chest, and abdomen. You may find sensations of movement caused by the breath in your upper arms and shoulders, or elsewhere. Take your time to become familiar with all these breath-related sensations. In particular, savor any pleasant qualities associated with them. You may notice the mind becomes mildly invigorated during the in-breath, while the out-breath feels more relaxing and soothing.
 
@@ -914,7 +860,7 @@ Without suppressing anything else in your field of conscious awareness, restrict
 
 It’s important to breathe naturally. Be a passive observer, noticing any sensations that happen to be present. You don’t have to exaggerate the breath to make sensations easier to notice. If you want to perceive them more clearly, try imagining that you’re looking at the place where the sensations are occurring. Let your eyes rest in a position that serves your imagination, but don’t actually try to direct your eyes to the tip of your nose or your abdomen. That will just create discomfort. Your eyes will naturally tend to rest as though they were looking at a point a few inches in front of your face. Nor should you visualize the area in your mind. Take note of, savor, and even purposely induce feelings of peace and happiness, especially as your attention becomes more stable and you experience more inner calm.
 
-### STEP FOUR: FOCUS ON SENSATIONS OF THE BREATH AT THE NOSE.
+### STEP FOUR: FOCUS ON SENSATIONS OF THE BREATH AT THE NOSE
 
 Now direct your attention to the sensations produced by the air moving in and out of your nostrils. Locate where those sensations are clearest—just inside the nostrils, at the tip of the nose, on the upper lip, or wherever else. The area may be as small as a pencil eraser or up to two inches across. Also, the location of sensations may not be quite the same for the in- and out-breaths.
 
@@ -1058,7 +1004,7 @@ Here, monks, a monk goes to the forest, to the foot of a tree, or to an empty pl
 
 Ānāpānasati Sutta
 
-## SECOND INTERLUDE: The Hindrances and Problems
+## Second Interlude: The Hindrances and Problems
 
 ALL THE mental skills needed in meditation are innate abilities we can selectively choose to cultivate. It’s no different from acquiring any new skill; whether learning a science, a musical instrument, or how to throw a Frisbee, we’re actually just training ourselves in a way that favors certain inherent abilities over others. Think of meditation as mental training that exercises certain “mental muscles” so they respond more easily and better serve your needs.
 
@@ -1214,7 +1160,7 @@ TABLE 5. THE SEVEN PROBLEMS AND THEIR ANTIDOTES
 
 The Five Hindrances are more than just obstacles to meditation. They are the same obstacles that thwart a happy, productive existence. By practicing meditation and overcoming them, we accomplish something of inestimable value, which has far-reaching benefits for every other part of our lives as well. When you achieve Stage Ten, these hindrances are completely overcome, absent from both meditation and daily life. And as long as you can regularly reach śamatha in your practice—or if you achieve sufficient Insight—they will not return.
 
-## STAGE TWO: Interrupted Attention and Overcoming Mind-Wandering
+## Stage Two: Interrupted Attention and Overcoming Mind-Wandering
 
 The goal for Stage Two is to shorten the periods of mind-wandering and extend the periods of sustained attention to the meditation object. Willpower can’t prevent the mind from forgetting the breath. Nor can you force yourself to become aware that the mind is wandering. Instead, just hold the intention to appreciate the “aha” moment that recognizes mind-wandering, while gently but firmly redirecting attention back to the breath. Then, intend to engage with the breath as fully as possible without losing peripheral awareness. In time, the simple actions flowing from these three intentions will become mental habits. Periods of mind-wandering will become shorter, periods of attention to the breath will grow longer, and you’ll have achieved your goal.
 
@@ -1396,7 +1342,7 @@ Here’s a formula you should commit to memory to make joy and relaxation a natu
 
 Consider every obstacle an opportunity to learn about the mind. If you practice diligently every day, it won’t be long before you have strengthened introspective awareness until periods of mind-wandering become fairly brief; you can quickly but gently direct attention back to the meditation object; and you can sustain attention on the meditation object for longer periods of time. If you don’t notice your attention improving much during a single session, trust that it will in the next few days and weeks of practice. If you simply follow these instructions, it will occur on its own, as surely as night follows day. You have mastered this Stage when you can consistently maintain your focus on the meditation object for minutes, while mind-wandering lasts only seconds.
 
-## STAGE THREE: Extended Continuity of Attention and Overcoming Forgetting
+## Stage Three: Extended Continuity of Attention and Overcoming Forgetting
 
 <!-- extraction-conversion-limit Forgotten picture -->
 The goal for Stage Three is to overcome forgetting and falling asleep. Set your intention to invoke introspective attention frequently, before you’ve forgotten the breath or fallen asleep, and make corrections as soon as you notice distractions or dullness. Also, intend to sustain peripheral awareness while engaging with the breath as fully as possible. These three intentions and the actions they produce are simply elaborations of those from Stage Two. Once they become habits, you’ll rarely forget the breath.
@@ -1604,7 +1550,7 @@ You have mastered Stage Three when forgetting and mind-wandering no longer occur
 
 Because attention no longer shifts automatically to objects of desire and aversion, you can purposely hold your attention on an emotionally neutral object like the breath for extended periods of time. The ability to continuously sustain attention on the meditation object is remarkable, so take satisfaction in your accomplishment. You can now do something that most people can’t—something you may not have thought you were even capable of. Congratulations, you have reached the First Milestone Achievement and the real beginning of skilled meditation!
 
-## THIRD INTERLUDE: How Mindfulness Works
+## Third Interlude: How Mindfulness Works
 
 THE PRACTICE of mindfulness leads to both psychological healing and profound spiritual insights. To understand how, we first need to look at the role of the mind in the formation of personality.
 
@@ -1689,7 +1635,7 @@ The third level is like cutting off the entire trunk, yet the root is still ther
 <!-- extraction-conversion-limit Forgotten picture. -->
 The fourth level of mindfulness, the Insight of Awakening, will destroy the root.
 
-## STAGE FOUR: Continuous Attention and Overcoming Gross Distraction and Strong Dullness
+## Stage Four: Continuous Attention and Overcoming Gross Distraction and Strong Dullness
 
 <!-- extraction-conversion-limit Forgotten picture. -->
 The goal for Stage Four is to overcome gross distraction and strong dullness. Set and hold the intention to be vigilant so that introspective awareness becomes continuous, and notice and immediately correct for strong dullness and gross distraction. Eventually, noticing and correcting become completely automatic.
@@ -1965,7 +1911,7 @@ Breathing in a short breath, he knows he breathes in a short breath; breathing o
 
 Ānāpānasati Sutta
 
-## FOURTH INTERLUDE: The Moments of Consciousness Model
+## Fourth Interlude: The Moments of Consciousness Model
 
 The MODEL of Conscious Experience you learned about in the First Interlude introduced the ideas of attention and peripheral awareness. While that model was helpful for working through the first four Stages, it was incomplete. As you progress in your practice, you’ll need more detailed models of the mind to help make sense of your new experiences. Here, we present the Moments of Consciousness model. It builds on what you’ve already learned, recasting many of the concepts already used.
 
@@ -2117,7 +2063,7 @@ Powerful imagery, visions, and a sense of having experienced something profound 
 
 The Moments of Consciousness model will prove useful for understanding both the problem of subtle dullness and how to overcome it in Stage Five. It will also prove useful for the later Stages. Remember, this model and the others presented in this book were originally developed by meditators, for meditators, to help them achieve the ultimate goals of spiritual practice.
 
-## STAGE FIVE: Overcoming Subtle Dullness and Increasing Mindfulness
+## Stage Five: Overcoming Subtle Dullness and Increasing Mindfulness
 
 <!-- extraction-conversion-limit Forgotten picture -->
 The goal of Stage Five is to overcome subtle dullness and increase the power of mindfulness. Set and hold the intention to notice and immediately correct for subtle dullness. Powerful mindfulness will become a habit of the mind.
@@ -2265,7 +2211,7 @@ You’ve mastered this Stage when you’re able to consistently sustain a high l
 
 Mastering this Stage doesn’t involve reaching any particular level of mindfulness. Your mindfulness will continue to grow stronger through all the later Stages. Rather, it is the ability to consistently sustain and increase your overall mindfulness in each meditation session. Your meditations will steadily improve with each sitting.
 
-## FIFTH INTERLUDE: The Mind-System
+## Fifth Interlude: The Mind-System
 
 IN THIS chapter, you will learn about the Mind-System model. It builds on the previous models presented in this book and provides a more complete picture, not just of consciousness, but of the mind as a whole. The Mind-System model originally comes from the ancient Yogācāra school of Buddhism.1 For the most part, this chapter simply explains that model using modern ideas from cognitive psychology to make things easier to understand. Occasionally, though, we introduce some new concepts2 to make our overall picture of the mind that much clearer.
 
@@ -2618,7 +2564,7 @@ As a final reflection, here are some verses from the Laṅāvatāra Sūtra that 
   Laṅkāvatāra Sūtra, IX (46)
 ```
 
-## STAGE SIX: Subduing Subtle Distractions
+## Stage Six: Subduing Subtle Distractions
 
 <!-- extraction-conversion-limit Forgotten picture -->
 
@@ -2853,7 +2799,7 @@ You have mastered Stage Six once you have subdued subtle distractions and can su
 You have reached the second Milestone Achievement: sustained exclusive focus of attention.
 This is quite an accomplishment. You have now completed the development of skilled concentration. In Stage Seven, you will make the transition to the practice of an adept. The most rewarding and joyous aspects of meditation await you.
 
-## SIXTH INTERLUDE: The Stages of an Adept
+## Sixth Interlude: The Stages of an Adept
 
 STAGES SEVEN through Ten describe the maturing practice of an adept meditator. This section of the path differs from previous Stages in four important ways. First, you don’t need to acquire any new skills. Just keep practicing the skills you’ve already mastered, and they’ll produce profound changes in how the mind-system works. Second, everything occurring in these Stages is actually part of a single, continuous process: unification of mind. Third, as unification proceeds, you’ll experience a variety of bizarre sensory phenomena, spontaneous body movements, and the arising of powerful energy. These accompany transformations occurring in the mind-system and eventually culminate in the unique experience of physical pliancy and meditative joy.1 Fourth, the practice of an adept inevitably leads to powerful Insight experiences rich with the potential for actual Insight.
 
@@ -3162,7 +3108,7 @@ Self-conquest is far greater than conquering all others. Not gods nor angels nor
 Dhammapada 104–105
 ```
 
-## STAGE SEVEN: Exclusive Attention and Unifying the Mind
+## Stage Seven: Exclusive Attention and Unifying the Mind
 
 <!-- extraction-conversion-limit Missing illustration -->
 The goal of Stage Seven is to effortlessly sustain exclusive attention and powerful mindfulness. With the conscious intention to continuously guard against dullness and distraction, the mind becomes completely accustomed to effortlessly sustaining attention and mindfulness.
@@ -3352,7 +3298,7 @@ Still, don’t be in a hurry. If you drop diligence too often and too soon, your
 
 ### An Accidental Discovery of Effortlessness: “The Epiphany of the Flies”
 
-I wasn’t taught to let go intentionally in order to test for effortlessness. In fact, I wasn’t even aware that I should be “striving for effortlessness” at all! The discovery was a complete accident. I had been in a very long, very dry period of practice, with only a few minor signs of pīti—thumbs and hands twitching, salivation, an occasional bit of light in my visual field. There was definitely no joy. Then, during one particular meditation, several flies started crawling on my face. They crawled over my lips, my eyelids, and even in and out of my nostrils. I was exerting a tremendous effort in the face of this immense distraction to keep the flies in peripheral awareness and my attention on the breath. Sometimes the flies would go away, but then they’d shortly return. I stayed in a heightened state of vigilance any time they were gone because at any moment they could be back. 
+I wasn’t taught to let go intentionally in order to test for effortlessness. In fact, I wasn’t even aware that I should be “striving for effortlessness” at all! The discovery was a complete accident. I had been in a very long, very dry period of practice, with only a few minor signs of pīti—thumbs and hands twitching, salivation, an occasional bit of light in my visual field. There was definitely no joy. Then, during one particular meditation, several flies started crawling on my face. They crawled over my lips, my eyelids, and even in and out of my nostrils. I was exerting a tremendous effort in the face of this immense distraction to keep the flies in peripheral awareness and my attention on the breath. Sometimes the flies would go away, but then they’d shortly return. I stayed in a heightened state of vigilance any time they were gone because at any moment they could be back.
 
 It seemed to go on forever, but at some point the last fly left and didn’t come back for a long time. Eventually, the thought arose that maybe they were gone for good. What a relief! I let go of all effort and just rested on the sensations of the breath. Immediately, I felt joy spreading over me in waves and then stabilizing. I realized that I didn’t have to keep trying so hard, and in that moment, I fully grasped the significance of letting go. In other words, prior to the flies, I had reached a point where effort was no longer needed, but I hadn’t known it. So, I didn’t take that last step toward effortlessness. I’ve been grateful to those flies ever since.
 
@@ -3380,7 +3326,7 @@ Experiencing pleasure while breathing in, he trains himself. Experiencing pleasu
 
 You have mastered Stage Seven when you can consistently achieve effortlessness. The restless tendency of attention to follow objects in peripheral awareness has been tamed. When you first sit down, you still need to go through a “settling in” process—you’ll count your breaths, sharpen your attention and awareness, and diligently ignore everything, until the mind is pacified and competing intentions disappear. Then you can let go and cruise. When you can consistently achieve effortlessness and stay there for all or most of the sit, you have become an adept practitioner. You have reached the third Milestone Achievement and are ready to move to the next Stage.
 
-## SEVENTH INTERLUDE: The Nature of Mind and Consciousness
+## Seventh Interlude: The Nature of Mind and Consciousness
 
 IN THIS Interlude, we examine the changes that occur as the mind grows more unified in the higher Stages. We also provide a simple but profound revision to the Mind-System model to help you better understand and navigate the Stages to come.
 
@@ -3576,7 +3522,7 @@ Indeed, every structure—from atoms to persons to the universe as a whole—con
 
 Pursuing this idea even further, multiple species are interconnected to form ecosystems. Ecosystems are interconnected to form biomes, and the biosphere is formed of interconnected biomes. Both the living and non-living parts of planet earth interact, changing each other to form a single, complex, interdependent system. Planets and stars form galactic and supragalactic systems. It’s not unreasonable to view the entire universe as one single, massively interconnected and interdependent system. Indeed, every structure we have identified—from atoms to persons to the universe as a whole—constitutes a natural individual by virtue of shared receptivity and information exchange. From this perspective, what we call consciousness is just a single, limited example of something that pervades the entire universe at every level.
 
-## STAGE EIGHT: Mental Pliancy and Pacifying the Senses
+## Stage Eight: Mental Pliancy and Pacifying the Senses
 
 <!-- extraction-conversion-limit Missing illustration -->
 The goal of Stage Eight is complete pacification of the senses and the full arising of meditative joy. Simply continue to practice, using skills that are now completely effortless. Effortlessly sustained exclusive attention will produce mental and physical pliancy, pleasure, and joy.
@@ -3904,7 +3850,7 @@ You’ve mastered Stage Eight when you achieve physical pliancy and meditative j
 
 Ordinary sensations have disappeared from awareness. The perception of your body may have changed, feeling light and pleasant, and you have no need or desire to move. The illumination phenomenon, if present, has become an all-pervading light or a bright stable orb. The inner sound is either pleasant or just a meaningless, unobtrusive background noise. You still feel energy flowing through the body, circulating between the base of the spine and the crown of the head, and between the body core and periphery, but it’s much smoother and more pleasant. The intensity of joy and feelings of energy may grow so strong that they can’t be sustained, or they may make you want to end your meditation early. That’s normal. Becoming familiar with meditative joy so this doesn’t happen is the work of Stage Nine.
 
-## STAGE NINE: Mental and Physical Pliancy and Calming the Intensity of Meditative Joy
+## Stage Nine: Mental and Physical Pliancy and Calming the Intensity of Meditative Joy
 
 <!-- extraction-conversion-limit Missing illustration -->
 The goal of Stage Nine is the maturation of meditative joy that produces tranquility and equanimity. As you continue to practice, simply abiding in the state of meditative joy will cause profound tranquility and equanimity to arise.
@@ -4023,7 +3969,7 @@ Calming these mental formations while breathing in, he trains himself. Calming t
 Ānāpānasati Sutta
 ```
 
-## STAGE TEN: Tranquility and Equanimity
+## Stage Ten: Tranquility and Equanimity
 
 The goal of Stage Ten is for the qualities of śamatha to persist after you rise from the cushion. Just continuing to practice regularly will cause the profound joy and happiness, tranquility, and equanimity you experience in meditation to persist between meditation sessions.
 
@@ -4143,7 +4089,7 @@ In particular, I want to acknowledge Allegra Ahlquist, Pam and Tim Ballingham, B
 
 Last but not least, my very special thanks to Michael Chu and Tracy Young, Aaron and Frieda Huang, CC Lee, Tina Bow, and all the other members of the Chinese Buddhist community of Southern California who have generously supported my teaching for so many years. Without you, this book might never have happened.
 
-## APPENDIX A: Walking Meditation
+## Appendix A: Walking Meditation
 
 WALKING MEDITATION is both a powerful practice in its own right and an indispensable complement to sitting practice. Too often it’s not taken seriously enough; we imagine a meditator to be someone who only sits cross-legged with eyes closed. But walking meditation is just as effective as sitting for developing stable attention and powerful mindfulness. It’s even more effective for some things. The best way to make rapid progress is to combine the two.
 
@@ -4273,7 +4219,7 @@ Needless to say, you will be walking very, very slowly. Practice in a secluded l
 
 Continue this practice until all twenty-seven sensations are so familiar that you immediately recognize any variation in them. At this point, your awareness will be metacognitive, your perception of the sensations quite clear and sharp, and your attention both exclusive and effortless.
 
-## APPENDIX B: Analytical Meditation
+## Appendix B: Analytical Meditation
 
 ANALYTICAL MEDITATION means just what it sounds like: thinking about something. Of course, it’s a more structured type of thinking. You carefully choose a topic and systematically examine it with a stable, clear, and focused mind. In fact, to qualify as analytical “meditation,” the thinking and contemplation should happen in a state corresponding to Stage Four, where the chosen subject of analysis never disappears entirely from attention. If you don’t have the stability of Stage Four, your mind will wander off on tangents. Maintaining a continuous awareness of the breath in the background is a powerful way to stabilize your attention.
 
@@ -4359,7 +4305,7 @@ Once you’ve found an answer, you don’t want to lose it, so be prepared to co
 
 If there is no flaw, what’s most important is to consolidate and integrate your new understanding so you won’t have to repeat the whole problem-solving process. In some cases, it’s helpful to create mental “cues” for yourself that can help bring you back to this state of realization and insight. An especially effective way of doing this is to hold the fruit of your meditation in mind as the object of non-analytical meditation. In other words, take the thought, idea, or insight itself as your meditation object, allowing it to take root in your mind. That creates a strong imprint, so you can easily revisit this state of realization in the future by recalling the outcome of this meditation and holding it as the focus of your attention.
 
-## APPENDIX C: Loving-Kindness Meditation
+## Appendix C: Loving-Kindness Meditation
 
 THIS MEDITATION conditions your mind to readily enter a state of ease, peace, love, and happiness. It also cultivates loving-kindness and compassion toward all beings, including you. The practice is based on this simple formula:
 
@@ -4477,7 +4423,7 @@ Conclude by holding a strong wish for these feelings to continue to remain stron
 
 It’s not uncommon for people to object to this practice because they find it contrived. Please don’t judge it until you’ve tried it. This is one of the most powerful meditation practices known for transforming the way your mind works. You don’t need to believe that the feelings of loving-kindness you send out have any literal effect on others, although it helps if you do. The point is, we all possess infinite resources of patience, forgiveness, compassion, love, and happiness within us. This practice trains the mind and heart to tap into those resources more easily. The satisfaction and enjoyment this practice produces eventually makes accessing those resources automatic.
 
-## APPENDIX D: The Jhānas
+## Appendix D: The Jhānas
 
 ### WHAT IS JHĀNA?
 
@@ -4629,18 +4575,15 @@ There is awareness of the mental state of joy (the jhāna factor of pīti). The 
 
 How long you remain in jhāna depends on a kind of “momentum” you generate through intention before entering jhāna. Once the intention to remain in jhāna has been exhausted, you “pop out,” like a cork underwater bursting to the surface. The stronger your intention to remain in jhāna, the longer it takes for it to decay under the influence of other intentions, and the longer you’ll remain in jhāna. Practice staying in for longer periods by generating a stronger intention in access. When the first jhāna has grown stable enough that you can enter it easily and stay in for fifteen minutes or longer, you are ready to try for the second whole-body jhāna. Remember, there is no need to pursue the higher jhānas for their own sake. Jhāna practice should always be guided by specific purposes, such as speeding your progress through the Stages of śamatha; or skillful intentions, such as achieving Insight.
 
-# THE SECOND WHOLE-BODY JHĀNA
+#### THE SECOND WHOLE-BODY JHĀNA
 
 In the first jhāna, whole-body breath sensations are the object of attention and are in the foreground, while joy and pleasure/happiness are in the background as part of peripheral awareness. Moving to second jhāna involves a sort of background-foreground shift. Attention continues to be focused on body breath sensations but is no longer prominent. Instead, awareness of joy and pleasure/happiness moves to the forefront and dominates conscious experience—but with a transparent quality that still allows whole-body breath sensations to be attended to. Again, this differs from the classic descriptions where directed and sustained attention cease entirely in second jhāna. Verbal thought and investigation also continue, but diminish considerably in the second jhāna, eventually disappearing altogether by the fourth whole-body jhāna. With experience, the second jhāna becomes more stable, and the intensity of the energy sensations associated with meditative joy become more bothersome and tiring. It’s then time to try for the third jhāna.
 
-# THE THIRD WHOLE-BODY JHĀNA
+#### THE THIRD WHOLE-BODY JHĀNA
 
 To access the third jhāna, you must first be able to clearly distinguish joy (pīti) as a mental state from pleasure and happiness (sukha) as feelings. Joy is energetic and agitating, while pleasure and happiness have a peaceful, contented, even soothing quality. Once you can clearly discern the difference between these two, enter the third jhāna by allowing bodily pleasure and mental happiness to fill your awareness. Awareness of pleasure/happiness completely displaces all awareness of joy and the energetic physical sensations associated with it. Discursive thought rarely appears in peripheral awareness. Awareness has that same transparent quality as in the previous jhāna, and attention continues to focus on whole-body breath sensations. At some point during the practice of the third jhāna, you may become aware of a growing feeling of equanimity. You will experience it as even more serene and satisfying than pleasure and happiness. You’re ready to try for the fourth jhāna.
 
-
-
-
-# THE FOURTH WHOLE-BODY JHĀNA
+#### THE FOURTH WHOLE-BODY JHĀNA
 
 In this jhāna, you abandon pleasure and happiness, so only equanimity and unification of mind remain. Completely letting go of pleasure/happiness sounds much easier than it really is. Sub-minds of the deep unconscious will continue to cling, so don’t expect this to happen quickly. Success requires a very strong and clear intention developed over time. When you can completely fill your awareness with equanimity, you will be able to enter the fourth jhāna. Attention to the meditation object may cease in the fourth jhāna, or it may continue to have a faint presence in consciousness.
 
@@ -4648,38 +4591,27 @@ In general, it’s far easier to leave one jhāna, return to access concentratio
 
 Although these whole-body jhānas are relatively shallow, they satisfy all the criteria for true jhāna. They are very useful for deepening concentration and further unifying the mind. They can also produce Insight.
 
-# Practicing the Pleasure Jhānas
+### Practicing the Pleasure Jhānas
 
 Pleasure jhānas are a kind of Lite jhāna, accessed from a state corresponding to Stage Seven. Access concentration has exclusive attention with very little background “noise” and almost no discursive thought. Whatever thoughts still occur are mostly nonverbal, appearing infrequently in the distant background. The breath will be faint, slow, and shallow, yet the breath sensations are still quite distinct. In fact, because your sense perception is so acute, they can even verge on uncomfortable. In other words, you’re fully present with the breath. Even if you aren’t at Stage Seven in your daily practice, this access state can often be achieved after several days in retreat.
 
 The meditation object for entering the first pleasure jhāna is a feeling of bodily pleasure (sukha), often combined with the energy sensations—currents, vibrations, etc.—that accompany the arising of meditative joy (pīti). Access concentration must be stable and sustained for a reasonable period of time before you’re ready to take up this new object—ten to fifteen minutes initially, decreasing to as little as five minutes with more experience.
 
-Find a pleasant sensation somewhere in your body. Keep your attention focused on that pleasant feeling, becoming completely immersed in the sensation. And it’s okay if you’re attending to energy sensations as well. At first,
+Find a pleasant sensation somewhere in your body. Keep your attention focused on that pleasant feeling, becoming completely immersed in the sensation. And it’s okay if you’re attending to energy sensations as well. At first, the pleasant feeling may fade, and you’ll need to go back to the breath. Sooner or later, though, you’ll find the intensity of the pleasantness will increase when you focus on it. But then it will stop, and you’ll be tempted to “help” it along. Resist this urge, because it won’t work. All you can do is create the right conditions for jhāna, then get out of the way. Once the conditions have been created, it’s about being rather than doing, surrendering to rather than grasping after the experience.
 
-
-
-
-
-The pleasant feeling may fade, and you’ll need to go back to the breath. Sooner or later, though, you’ll find the intensity of the pleasantness will increase when you focus on it. But then it will stop, and you’ll be tempted to “help” it along. Resist this urge, because it won’t work. All you can do is create the right conditions for jhāna, then get out of the way. Once the conditions have been created, it’s about being rather than doing, surrendering to rather than grasping after the experience.
-
-# ENTERING THE FIRST PLEASURE JHĀNA
+#### ENTERING THE FIRST PLEASURE JHĀNA
 
 As you focus on the pleasantness, it will grow stronger. At some point, you may feel like you’re either sinking into the pleasant sensation, or like it has expanded to consume all your available conscious “bandwidth.” When this happens, you’ve entered the first jhāna. If you’ve already practiced the whole-body jhānas, you’ll immediately recognize the feeling. Again, for more complete instructions, see the chapter on Stage Seven. Practice entering and remaining in first jhāna until you can easily enter and remain for fifteen minutes or longer. This might take several days in deep retreat, and considerably longer in the course of a daily practice. As you grow more familiar with the first pleasure jhāna, you’ll eventually become aware of a “busy” or “noisy” quality that makes it unsatisfying. If you wish, you’re now ready to try for the second jhāna.
 
-# THE SECOND PLEASURE JHĀNA
+#### THE SECOND PLEASURE JHĀNA
 
 As with the second whole-body jhāna, entering the second pleasure jhāna involves a sort of background-foreground shift. The foreground consists of attention, mainly focused on the pleasant sensation (sukha in physical form), but also alternating with energetic vibrations, currents, and other bodily sensations associated with the arising of pīti. The background consists of peripheral awareness of the mental state of joy, and feelings of happiness (the mental form of sukha).
 
 To make the shift, bring awareness of joy and happiness into the foreground, joined by awareness of bodily pleasure, so they dominate conscious experience. Attention to sensations in the body begins to fade and slip into the background. Some vestige of attention focused on the energetic sensations of pīti may continue for a short while but soon fades completely. The entire field of conscious experience is left to peripheral awareness, now fully occupied with pīti, its energetic side effects, and sukha in both its forms.
 
-Notice that in the second pleasure jhāna, there is only introspective awareness of joy and happiness, and extrospective awareness of pleasure and
+Notice that in the second pleasure jhāna, there is only introspective awareness of joy and happiness, and extrospective awareness of pleasure and energetic sensations associated with pīti. The familiar experience of attention focused on a specific meditation object (vitakka and vicara) is absent from the second through fourth pleasure jhānas. This practice differs from the whole-body jhānas in this regard and is more like the deeper luminous jhānas. Thinking and investigation are completely abandoned after the first jhāna, although you may occasionally experience the rare thought passing through peripheral awareness. These thoughts are usually associated with a previously set intention, such as the intention to leave the jhāna or move on to the next one.
 
-
-
-
-energetic sensations associated with pīti. The familiar experience of attention focused on a specific meditation object (vitakka and vicara) is absent from the second through fourth pleasure jhānas. This practice differs from the whole-body jhānas in this regard and is more like the deeper luminous jhānas. Thinking and investigation are completely abandoned after the first jhāna, although you may occasionally experience the rare thought passing through peripheral awareness. These thoughts are usually associated with a previously set intention, such as the intention to leave the jhāna or move on to the next one.
-
-# THE THIRD PLEASURE JHĀNA
+#### THE THIRD PLEASURE JHĀNA
 
 The physical sensations and energy movements associated with pīti are quite strong in the second jhāna. They become tiresome, and you will naturally want to move on to the more peaceful third jhāna. In order to make this transition, however, first you have to be able to clearly discern the difference between pleasure and happiness as a feeling (sukha-vedanā), versus joy as a mental state (pīti-sankhāra).
 
@@ -4687,16 +4619,11 @@ Remember, pleasure/happiness on the one hand, and joy on the other, are two diff
 
 The solution is for the mind to become so completely absorbed into awareness of pleasure and happiness that all awareness of joy fades. When this happens, the mind remains in a state of joy, but the disturbing qualities disappear from consciousness. You have achieved the much more serene third jhāna. Pleasurable feelings in the body are strong but diffuse. Any remaining awareness of pīti-related energy sensations in the body is quite muted.
 
-# THE FOURTH PLEASURE JHĀNA
+#### THE FOURTH PLEASURE JHĀNA
 
-As you spend more time in the third jhāna, equanimity arises and gradually strengthens. Rather paradoxically, you start to feel dissatisfied with the pleasure and happiness that are the defining characteristics of the third jhāna. You become discontented with contentment! That subtle lack of equanimity indicates you are ready for the fourth jhāna. But not until equanimity has become very
+As you spend more time in the third jhāna, equanimity arises and gradually strengthens. Rather paradoxically, you start to feel dissatisfied with the pleasure and happiness that are the defining characteristics of the third jhāna. You become discontented with contentment! That subtle lack of equanimity indicates you are ready for the fourth jhāna. But not until equanimity has become very can you possibly enter it. Your attachment to pleasure and happiness stands in the way of equanimity. Achieving the fourth jhāna thus requires intentionally disregarding feelings of pleasure and happiness in access, allowing the mind to incline naturally toward the profound peace of equanimity. You may experience some remnants of the energetic sensations due to pīti, but they soon disappear from awareness.
 
-
-
-
-can you possibly enter it. Your attachment to pleasure and happiness stands in the way of equanimity. Achieving the fourth jhāna thus requires intentionally disregarding feelings of pleasure and happiness in access, allowing the mind to incline naturally toward the profound peace of equanimity. You may experience some remnants of the energetic sensations due to pīti, but they soon disappear from awareness.
-
-# Practicing the Luminous Jhānas
+### Practicing the Luminous Jhānas
 
 The luminous jhānas are a type of Deep jhāna accessed from a state corresponding to Stages Eight and beyond. They’re called Deep because they involve a much greater depth of concentration and degree of unification of mind than the other jhānas we’ve discussed. In the Deep jhānas, attention to the meditation object is completely abandoned after the first jhāna, and there is no thought or investigation even in the first jhāna. As in the Lite jhānas, some degree of pleasurable bodily sensations persists in the luminous jhānas until the third jhāna, but disappear completely in the fourth jhāna.
 
@@ -4704,126 +4631,93 @@ These jhānas are called “luminous” because the meditation object used for e
 
 The inner light used as the meditation object is often called a nimitta. To enter the luminous jhāna, you must abandon the sensations of the breath, or any other sense-based meditation object, in favor of this luminous nimitta. The fact that it’s mind-generated as opposed to sensory is what makes the nimitta especially conducive to withdrawing the mind from the senses. Also, the comparative stability of a mind-generated object allows for a more stable, and therefore deeper, absorption. Detailed instructions for cultivating the nimitta are provided in Stage Eight.
 
-These luminous jhānas share many of the same characteristics as Stages Nine and Ten, the biggest difference being the jhānas are states of absorption, and the
+These luminous jhānas share many of the same characteristics as Stages Nine and Ten, the biggest difference being the jhānas are states of absorption, and the latter are not. Practicing the luminous jhānas can help you master those Stages more quickly and can be used quite effectively for cultivation of Insight as well.
 
-
-
-
-
-# ENTERING THE FIRST LUMINOUS JHĀNA
+#### ENTERING THE FIRST LUMINOUS JHĀNA
 
 Once the nimitta is stable enough to become the object of exclusive, single-pointed attention, you are ready to enter the first luminous jhāna. Detailed instructions for entering the first luminous jhāna are also provided in Stage Eight. Absorbing into this nimitta is not something you do. Rather, it is a surrendering that allows the mind to be drawn into the experience of the moment, opening up to it totally, becoming a completely passive observer. The mind is relaxed but alert, and attention and awareness are sharp and clear. As the flow state is achieved through sustained exclusive attention to the nimitta, the “joy and happiness born of withdrawal” arises.
 
 Discursive thought is completely absent, but the jhāna itself is unstable, and a thought or intention may briefly appear when you momentarily emerge from the jhāna. Practice entering the jhāna at will, sustaining it for a predetermined period of time, then emerging at the intended time. Afterward, review the characteristics of the jhāna.
 
-# THE SECOND LUMINOUS JHĀNA
+#### THE SECOND LUMINOUS JHĀNA
 
 In all forms of Deep jhāna, attention to the meditation object is completely abandoned after the first jhāna. Moments of attention cease altogether. The nimitta is still perceived but is known only through the faculty of awareness.
 
 To access the second luminous jhāna, shift away from focused attention (vitakka and vicara) to simple awareness of the nimitta. Conscious experience in the second jhāna consists entirely of awareness of the nimitta accompanied by powerful introspective awareness of the mental state of joy and feelings of pleasure and happiness. The quality of the jhāna is brighter and much more stable than the first jhāna, and the intensity no longer fluctuates. The only remaining form of bodily awareness is pleasure, and some energy sensations related to pīti. Every other kind of sensation, including the mind-generated sensations of the pacification process, has disappeared. Since exclusive attention is no longer a factor, the joy and pleasure/happiness you experience are said to be “born of unification of mind,” rather than “born of withdrawal” as in the first jhāna.
 
-The vibrational energy you noticed in the first jhāna (described in Stage Eight) persists in the second jhāna. Although not unpleasant, you eventually tire.
-
-
-
-
-of the agitation it causes. In addition, awareness of the underlying excitement of meditative joy also disturbs the peaceful bliss of the jhāna. This agitation and excitement gives rise to a growing sense of dissatisfaction, and a longing for something more peaceful, drawing the mind naturally toward the next jhāna.
+The vibrational energy you noticed in the first jhāna (described in Stage Eight) persists in the second jhāna. Although not unpleasant, you eventually tire of the agitation it causes. In addition, awareness of the underlying excitement of meditative joy also disturbs the peaceful bliss of the jhāna. This agitation and excitement gives rise to a growing sense of dissatisfaction, and a longing for something more peaceful, drawing the mind naturally toward the next jhāna.
 
 Still, the movement through the jhānas can’t be forced. The sense of dissatisfaction must first grow strong enough, and its cause be discerned clearly enough, to create the conditions for entering the third jhāna. But once these conditions are met, the transition happens easily.
 
-# THE THIRD LUMINOUS JHĀNA
+#### THE THIRD LUMINOUS JHĀNA
 
 To enter the third jhāna, you abandon joy in favor of pleasure/happiness. Joy and pleasure/happiness, as stated earlier, are two different things—joy (pīti) is a mental state (sankhāra), and pleasure and happiness (sukha) is a feeling (vedanā). However, they can’t be clearly distinguished from each other until you’ve practiced in the second jhāna for a while. To learn the difference, just continue to practice entering the jhāna at will, emerging after a predetermined period, and reviewing the characteristics of the jhāna after you emerge. In your post-jhānic review, take special care to investigate joy and pleasure/happiness until you can clearly discern the difference between them. Once the difference is clear enough that it’s apparent in the pre-jhānic access state, you’re ready to enter the third jhāna. Do this by forming a strong intention in access to absorb into the pleasure/happiness to the exclusion of this excited energy, then make the transition to the flow state.
 
 The third jhāna is experienced as quiet contentment, saturated with the blisses of mental and physical pliancy (pleasure and happiness). The underlying mental state hasn’t changed—it’s still one of unification and joy. The only difference from the second jhāna is that the perceptions of energy and excitement due to that joy are no longer being projected into consciousness. Instead, conscious experience is completely dominated by feelings of physical and mental pleasure. The body is experienced only through feelings of sublime pleasure, pleasantly peaceful, devoid of energy movements and physical sensations. The mind is experienced as serene happiness.
 
-You’ll probably spend a lot of time in the third jhāna. The attachment to pleasure runs deep, so is not easy to let go of. But eventually, equanimity starts to develop. Equanimity is the complete opposite of craving. Normally, we crave what is pleasant and try to avoid what is unpleasant. Desire is a reaction to pleasure, a primal impulse that drives us to hold on to the pleasure we have, and
-
-
-
-
-to seek even greater pleasure. It’s the immediate cause of clinging and attachment. Equanimity, on the other hand, is non-reactivity to whatever’s pleasant or unpleasant. As equanimity increases, the mind reacts less and less strongly to the pleasure of the third jhāna, and your attachment to that pleasure lessens as well. You will start to sense an even more sublime condition that lies beyond bodily pleasure and mental happiness.
+You’ll probably spend a lot of time in the third jhāna. The attachment to pleasure runs deep, so is not easy to let go of. But eventually, equanimity starts to develop. Equanimity is the complete opposite of craving. Normally, we crave what is pleasant and try to avoid what is unpleasant. Desire is a reaction to pleasure, a primal impulse that drives us to hold on to the pleasure we have, and to seek even greater pleasure. It’s the immediate cause of clinging and attachment. Equanimity, on the other hand, is non-reactivity to whatever’s pleasant or unpleasant. As equanimity increases, the mind reacts less and less strongly to the pleasure of the third jhāna, and your attachment to that pleasure lessens as well. You will start to sense an even more sublime condition that lies beyond bodily pleasure and mental happiness.
 
 As with the third pleasure jhāna, you will grow discontent with contentment. When this discontent becomes strong enough, you’re ready to try for fourth jhāna. Form the intention in access to abandon pleasure and happiness in the same way you abandoned joy to enter the third jhāna. This intention provides entry into the fourth jhāna.
 
-# THE FOURTH LUMINOUS JHĀNA
+#### THE FOURTH LUMINOUS JHĀNA
 
 Once equanimity has grown strong enough for you to abandon pleasure and happiness, the fourth jhāna is attained. Ordinarily, the mind is always craving in reaction to pleasant and unpleasant feelings, so we never experience equanimity. But now, desire has been quenched by many hours spent saturated with the sublime pleasure and happiness (sukha) of the third jhāna. As desire and attachment fade, pleasure and happiness are replaced by neutral feelings that are neither pleasant nor unpleasant. The much more refined bliss of equanimity arises.
 
 Unification of mind is quite profound in the fourth luminous jhāna, and the peacefulness, calm, and equanimity are often described as a kind of “coolness.” There is a radical acceptance of “what is,” of “suchness.”34 The other common description is of “brightness”:
 
+```text
 Just as if a man were sitting covered from head to foot with a white cloth so that there would be no part of his body to which the white cloth did not extend; even so, the monk sits, permeating the body with a pure, bright awareness. There is nothing of his entire body unpervaded by pure, bright awareness.
 
 Samaññaphala Sutta, DN 235
+```
 
 The only things left in awareness are the luminous nimitta and a sense of having a location in space. This sutta is not talking about the brightness of the nimitta, but rather about the lucid quality of awareness itself.
 
-The breath becomes almost imperceptible, leading some to believe that it actually stops, though it doesn’t. The mind withdraws ever farther from the
-
-
-
-
-# 4. The Fourth Luminous Jhāna
-
-Senses as you progress through the luminous jhānas. It becomes increasingly difficult for any outside disturbance to penetrate the jhāna. If a door slams loudly, for example, the disturbance is usually momentary and doesn’t really interrupt the jhāna. The fourth luminous jhāna has a profound imperturbability.
-
+The breath becomes almost imperceptible, leading some to believe that it actually stops, though it doesn’t. The mind withdraws ever farther from the senses as you progress through the luminous jhānas. It becomes increasingly difficult for any outside disturbance to penetrate the jhāna. If a door slams loudly, for example, the disturbance is usually momentary and doesn’t really interrupt the jhāna. The fourth luminous jhāna has a profound imperturbability.
 If, however, something is intrusive enough to “break” the jhāna, the experience can be quite unpleasant. For this reason, it’s best to practice these Deep jhānas in a protected environment.
 
 The tranquility and equanimity of the fourth jhāna often persist for a while after leaving the jhāna, and even after arising from meditation. And the longer you sit in the fourth jhāna, the longer they will continue afterward. However, there is much more to be gained from repeatedly entering, remaining in, then emerging and reviewing the jhāna. The practice of reviewing the jhānas and comparing them with the pre- and post-jhānic states is more valuable and effective than ever. This contributes greatly to permanent elimination of defilements and the achievement of supra-mundane Insight.
-
 In the fourth jhāna, consciousness becomes a window into unconscious parts of the mind-system that are normally inaccessible to consciousness. In other words, the deep inner workings and the underlying nature of the mind itself are revealed to metacognitive introspective awareness.36
 
 Despite the fourth luminous jhāna’s many virtues, it doesn’t result in the complete absence of craving, or in the perfect equanimity that would entail.37 However, through experiencing the bliss of equanimity in the fourth jhāna, you begin to understand the possibility of perfect bliss and perfect equanimity.
 
-
-
-APPENDIX E
-# Mindful Review
+## Appendix E: Mindful Review
 
 As mindfulness in meditation improves, we naturally grow more mindful in daily life as well. Yet, you’ve probably noticed this spillover just isn’t as strong or consistent as it could be, often failing right when we need it most. In the morning, we may resolve to be more mindful, only to realize in the evening that we weren’t nearly as successful as we’d hoped. This Mindful Review practice is the most powerful tool I know of for improving mindfulness in daily life. The personal transformations it produces not only remove obstacles to your meditation practice but lead to a happier life in general.
 
 You will regularly review and reflect on your thoughts, emotions, speech, and actions. By performing this review consistently, you will increase the power and effectiveness of mindfulness in your daily life, which in turn helps your meditation progress by removing obstacles to unification of mind, pacification of the senses, and the arising of meditative joy.
 
-# MINDFULNESS IN DAILY LIFE
+### MINDFULNESS IN DAILY LIFE
 
 Being mindful in daily life means attention and awareness are used optimally during normal activities. Ideally, you have enough introspective awareness to be fully cognizant of what you’re doing, saying, thinking, and feeling, as well as enough extrospective awareness to be similarly cognizant of the context in which this all takes place. Extrospective and introspective awareness work together with, and in support of, paying appropriate attention to what matters most in the current situation.
 
-As mindfulness grows more powerful, it becomes mindfulness with clear comprehension.1 This means you also have metacognitive awareness of why
-
-
-
-
-you’re doing, saying, thinking, and feeling what you are, and whether or not it’s suitable in the present situation, in terms of both your immediate goals and your personal values and aspirations. Ultimately, every act of body, speech, and mind is the proper object of mindfulness with clear comprehension.
+As mindfulness grows more powerful, it becomes mindfulness with clear comprehension.1 This means you also have metacognitive awareness of why you’re doing, saying, thinking, and feeling what you are, and whether or not it’s suitable in the present situation, in terms of both your immediate goals and your personal values and aspirations. Ultimately, every act of body, speech, and mind is the proper object of mindfulness with clear comprehension.
 
 Such mindfulness in daily life is crucial for success in śamatha-vipassanā. Not having mindfulness with clear comprehension in daily life will painfully obstruct your meditation progress, putting you at risk for a “dark night of the soul”—an extended period of severe and potentially debilitating psychological distress (see the section on Insight Experiences and the Attainment of Insight in the Seventh Interlude, and Appendix F). In other words, you can’t really separate what happens in daily life from meditation practice, because they influence each other in ways that aren’t always obvious.
 
 Being more mindful affects both our behavior and psychology. It changes how we speak and act in ways that dramatically reduce or entirely eliminate the causes for agitation due to worry and remorse. However, the psychological benefits run much deeper and are ultimately far more important. Clinging to Self is greatly reduced, and your thoughts, emotions, and intentions are driven far less by worldly desire and aversion. That’s why cultivating mindfulness with clear comprehension in daily life is an indispensable component of the practice.
 
-# A BRIEF DESCRIPTION OF MINDFUL REFLECTION
+### A BRIEF DESCRIPTION OF MINDFUL REFLECTION
 
 Here are the basic steps of the Mindful Reflection practice:
 
 1. Set aside a period of up to half an hour each day. Ideally, it will coincide with your daily sitting practice, but it doesn’t have to.
 2. Choose several events from your day or since your last review that stand out as particularly unwholesome2 activities of body, speech, or mind. Even though you’re emphasizing the unwholesome, it’s important for you to also make note of the wholesome as well, congratulating yourself for times you were mindful and compassionate. As always, positive reinforcement is enormously powerful in training the mind.
 3. Perform a two-part review of each unwholesome event:
-1. First, recall how much mindfulness you had during the event. Then, review the consequences of anything you said or did and consider what might have been different had you been more mindful.
-
-
-
-In the second part, you’ll practice mindfulness with clear comprehension, focusing on the deeper intentions driving those particular thoughts, emotions, speech, or actions.
+   1. First, recall how much mindfulness you had during the event. Then, review the consequences of anything you said or did and consider what might have been different had you been more mindful.
+   2. In the second part, you’ll practice mindfulness with clear comprehension, focusing on the deeper intentions driving those particular thoughts, emotions, speech, or actions.
 
 I recommend doing this practice once a day, though you can do it more often if you like. It’s good to do it with your daily sitting practice because that helps with regularity and consistency, and the two practices support each other. At first, it might seem like it could take hours to review everything, but try to limit yourself to half an hour at most. Otherwise, it will feel like a burden and conflict with your usual practice, so you won’t want to do it. Don’t worry, you’ll quickly learn to be appropriately selective.
 
 Regularly practicing Mindful Review will steadily improve your mindfulness in daily life and increase the metacognitive aspect of awareness that constitutes clear comprehension. Mindfulness with clear comprehension allows you to change the thoughts, emotions, speech, and actions with which you’d normally react to events. Your behavior will be driven less by craving and Self-clinging, so unwholesome speech and acts will be replaced by wholesome ones. Your life will become happier, and your meditation practice will thrive.
 
-# CHOOSING EVENTS FOR REFLECTION
+### CHOOSING EVENTS FOR REFLECTION
 
 Choose a few particularly unwholesome events involving thoughts and emotions, speech, or actions since your last mindful reflection. These events are often associated with turmoil or agitation and can be overt, like an argument where hurtful things were said, or subtler, involving irritation or judgmental thoughts about someone. However, unwholesome events don’t always create agitation, and wholesome events can sometimes produce turmoil. So, to distinguish between the two, use this principle: an event is unwholesome if it causes harm and suffering to yourself or others that is unnecessary and could be avoided.
 
 We can’t exist and survive without causing harm and suffering. There will always be pain and suffering in the world—that’s just the nature of our reality. Therefore, it’s not as simple as whether or not you cause any yourself. However, there’s obviously an enormous amount of harm and suffering that is unnecessary and could be avoided. That’s why the unwholesome is anything that needlessly increases pain and suffering in the world, whereas anything that doesn’t increase it, or even reduces it, is wholesome.
 
-# Wholesome and Unwholesome Speech and Action
-
+### Wholesome and Unwholesome Speech and Action
 
 This definition gives us a principle for choosing events. Still, we must be very discerning. Whether or not an event is wholesome depends on the consequences, yet we can’t always know even the immediate consequences of what we do, much less its long-term effects. Another obvious challenge is weighing any harm done against the benefits produced. These are questions we’re all forced to deal with anyway, but with this practice, we have to think about them much more deeply than before.
 
@@ -4831,67 +4725,42 @@ Fortunately, tradition offers some very useful guidelines with regard to speech,
 
 Acts like killing or injuring others are almost always unwholesome, and providing protection and comfort is usually wholesome. Taking things that haven’t been freely offered is ordinarily unwholesome, whereas respecting and protecting others’ property, and sharing what you have, beyond what’s dictated by social convention or fair exchange, are typically very wholesome acts. Personal interactions that are abusive, exploitive, or bring harm to others, even indirectly, would undoubtedly be considered unwholesome in almost any situation,6 while their opposites would be wholesome. But in terms of consequences, it’s possible to imagine any number of scenarios where, as simple rules, these general guidelines could be turned on their heads—where the net harm and suffering produced would require a complete reversal of their usual designations as wholesome or unwholesome.
 
-Wholesomeness and unwholesomeness in terms of livelihood are broader and more complex issues but draw upon exactly the same principle. Obviously, making your living as a mercenary, thief, or drug dealer would not be examples of wholesome livelihood, while caring for the ill, feeding the hungry, or teaching children is wholesome. Yet, there is much more to livelihood than how you earn.
-
-
-
-
-your living. It also includes how you spend your earnings, what and how you eat, where and how you live, and how you travel to do those things. And it requires us to consider complex questions, such as whether or not to buy cheap products manufactured in poor countries, or how much gas it’s reasonable to use. How much avoidable and unnecessary suffering—of other people and beings of every kind—is required to sustain your lifestyle? Is there potential in any of these areas to move more toward the wholesome? You may not get to these questions for a while, but eventually you’ll have to work with them.
+Wholesomeness and unwholesomeness in terms of livelihood are broader and more complex issues but draw upon exactly the same principle. Obviously, making your living as a mercenary, thief, or drug dealer would not be examples of wholesome livelihood, while caring for the ill, feeding the hungry, or teaching children is wholesome. Yet, there is much more to livelihood than how you earn your living. It also includes how you spend your earnings, what and how you eat, where and how you live, and how you travel to do those things. And it requires us to consider complex questions, such as whether or not to buy cheap products manufactured in poor countries, or how much gas it’s reasonable to use. How much avoidable and unnecessary suffering—of other people and beings of every kind—is required to sustain your lifestyle? Is there potential in any of these areas to move more toward the wholesome? You may not get to these questions for a while, but eventually you’ll have to work with them.
 
 Notice that acts in themselves are always neutral. It’s the consequence of an act that makes it wholesome or unwholesome, and the consequence depends on many, many other factors. Therefore, use these lists given by tradition as a general guideline. Ultimately it’s up to you alone to determine with your best judgment the relative wholesomeness or unwholesomeness of your thoughts, emotions, speech, and actions. It’s a determination you’ll make for yourself on a case-by-case basis according to the foreseeable short and long-term consequences. You’ll never know for certain, you’ll often be wrong, and you’ll often change your mind about distinctions you’ve made before. However, none of that really matters as long as you do your best to select a few appropriate events and take the time to reflect on them. The quality of your mindfulness will increase, your behavior will change, and you’ll be less subject to craving and Self clinging.
 
-# Wholesome and Unwholesome Thoughts and Emotions
+### Wholesome and Unwholesome Thoughts and Emotions
 
 Thoughts and emotions also have consequences on you, even if they’re never acted on. They play a major role in shaping who you are and how you’ll think and act in the future. To quote a well-known saying:
 
+<!-- extraction-conversion-limit Following paragraph was highlighted in the original text -->
 Thoughts become words, words become deeds, deeds become habit, habit becomes character, and character becomes destiny.
 
-Therefore, remember to include these purely mental events when choosing things for reflection. As with speech and action, tradition provides us with some useful guidelines for evaluating our thoughts and mental states: unwholesome thoughts are rooted in desire, greed, lust, and envy; anger, hatred, and ill will; and cruel disregard, or even a wish, for other’s pain and suffering. On the other hand, wholesome thought renounces the illusion that true satisfaction comes from anywhere but within, and recognizes that all beings are alike in their wish.
+Therefore, remember to include these purely mental events when choosing things for reflection. As with speech and action, tradition provides us with some useful guidelines for evaluating our thoughts and mental states: unwholesome thoughts are rooted in desire, greed, lust, and envy; anger, hatred, and ill will; and cruel disregard, or even a wish, for other’s pain and suffering. On the other hand, wholesome thought renounces the illusion that true satisfaction comes from anywhere but within, and recognizes that all beings are alike in their wish to find pleasure and avoid pain. Wholesome thoughts are rooted in generosity, loving-kindness, patience, understanding, forgiveness, compassion, and empathy for the happiness of others.
 
+#### PART ONE: MINDFULNESS
 
+Evoke the Details: Once you’ve chosen events for reflection, examine each in detail. Begin by carefully recalling the particulars of what triggered this event, and the thoughts and emotions that arose at the time. The more you can bring back the emotions you felt, the better. Clearly evoking the thoughts and emotions from the original incident makes it more likely that the sub-minds involved will tune in to your conscious reflection. This is essential because, while what appears in consciousness is potentially available to every sub-mind, any particular sub-mind may or may not tune in. However, be careful: don’t get caught up in those thoughts and emotions! Never lose awareness of where you are now and what you’re doing.
 
+Degree of Mindfulness: Now, reflect on the degree of mindfulness present as the event unfolded. Think about where your attention was focused, and how aware you were of the larger context of the situation. How clearly and objectively did you perceive the other participants and elements in the event (which might well include inanimate objects) and their roles in what was happening? How much introspective awareness did you have, and how metacognitive was that awareness? If you did bring any mindfulness to the situation, be sure to congratulate yourself before doing anything else. Then continue to the next step.
 
-to find pleasure and avoid pain. Wholesome thoughts are rooted in generosity, loving-kindness, patience, understanding, forgiveness, compassion, and empathy for the happiness of others.
+Consequences: Next, consider the consequences of your behavior, especially if the event involved speech or physical acts. Reflect on both immediate consequences, as well as their subsequent impact, including how they make you feel now. Was the satisfaction you gained, if any, worth the cost to yourself and others? Consider any options for responding differently, comparing the consequences of what happened to what might have been.
 
-# PART ONE: MINDFULNESS
+Regret, Resolve, and Recompense: Do you regret any of your speech or actions? Would you prefer to have responded differently? Would greater mindfulness have improved the outcome? If so, then form a strong resolve to bring more mindfulness to similar situations in the future. Then consider whether there’s anything you can do to reverse, lessen the impact of, or otherwise compensate for the adverse effects of anything you regret having said or done. If so, promise yourself to do so at the earliest reasonable opportunity. This part of the practice can be summed up in three words: regret, resolve, and recompense.
 
-# Evoke the Details:
-
-Once you’ve chosen events for reflection, examine each in detail. Begin by carefully recalling the particulars of what triggered this event, and the thoughts and emotions that arose at the time. The more you can bring back the emotions you felt, the better. Clearly evoking the thoughts and emotions from the original incident makes it more likely that the sub-minds involved will tune in to your conscious reflection. This is essential because, while what appears in consciousness is potentially available to every sub-mind, any particular sub-mind may or may not tune in. However, be careful: don’t get caught up in those thoughts and emotions! Never lose awareness of where you are now and what you’re doing.
-
-# Degree of Mindfulness:
-
-Now, reflect on the degree of mindfulness present as the event unfolded. Think about where your attention was focused, and how aware you were of the larger context of the situation. How clearly and objectively did you perceive the other participants and elements in the event (which might well include inanimate objects) and their roles in what was happening? How much introspective awareness did you have, and how metacognitive was that awareness? If you did bring any mindfulness to the situation, be sure to congratulate yourself before doing anything else. Then continue to the next step.
-
-# Consequences:
-
-Next, consider the consequences of your behavior, especially if the event involved speech or physical acts. Reflect on both immediate consequences, as well as their subsequent impact, including how they make you feel now. Was the satisfaction you gained, if any, worth the cost to yourself and others? Consider any options for responding differently, comparing the consequences of what happened to what might have been.
-
-# Regret, Resolve, and Recompense:
-
-Do you regret any of your speech or actions? Would you prefer to have responded differently? Would greater mindfulness have improved the outcome? If so, then form a strong resolve to bring more mindfulness to similar situations in the future. Then consider whether there’s anything you can do to reverse, lessen the impact of, or otherwise compensate for the adverse effects of anything you regret having said or done. If
-
-
-
-
-so, promise yourself to do so at the earliest reasonable opportunity. This part of the practice can be summed up in three words: regret, resolve, and recompense. To feel deep, sincere regret about being responsible for things that shouldn’t have happened, or at least could have happened differently, is healthy. However, there’s absolutely no place in this practice for guilt, blame, or self-recrimination. An important part of being truly mindful in the course of this refection means holding an attitude of dispassionate objectivity about the events themselves, and patience and compassion toward everyone involved, including yourself. The only appropriate emotions are sincere regret, a strong resolve to be more mindful in the future, and a willingness to do what you can to make amends. But you also need to be wary of falling into attempts to rationalize, justify, or explain away what happened.
+To feel deep, sincere regret about being responsible for things that shouldn’t have happened, or at least could have happened differently, is healthy. However, there’s absolutely no place in this practice for guilt, blame, or self-recrimination. An important part of being truly mindful in the course of this refection means holding an attitude of dispassionate objectivity about the events themselves, and patience and compassion toward everyone involved, including yourself. The only appropriate emotions are sincere regret, a strong resolve to be more mindful in the future, and a willingness to do what you can to make amends. But you also need to be wary of falling into attempts to rationalize, justify, or explain away what happened.
 
 Summary: This first part of the practice focuses on how mindful you were at the time of the event as you apply mindfulness retrospectively to what happened and its consequences. Through this kind of reflection, you can train yourself to mindfully observe these same acts of body, speech, and mind as they unfold in real time. You’ll be more continuously mindful in general, and more fully mindful when it matters most. At first, even though this practice helps you to become more mindful, that won’t always immediately change what you think, feel, say, or do. This is normal. Some patterns of behavior are more deeply ingrained than others. Over time, however, your behavior will change. The second part of the Mindful Review helps by allowing you to better understand the roots of your behavior.
 
-# PART TWO: MINDFULNESS WITH CLEAR COMPREHENSION
+#### PART TWO: MINDFULNESS WITH CLEAR COMPREHENSION
 
 Mindfulness with clear comprehension means knowing our underlying motives and intentions, and how they relate to our personal values and aspirations. In this part of the review, we’ll focus on the intentions driving the particular thoughts, emotions, speech, and actions of the selected event. Of the two parts of the Mindful Review, this is the one that ultimately has the most impact and significance. Its powerful psychological effects will quickly bring you closer to Awakening.
 
-Just as the consequences of a thought or an act can be wholesome or unwholesome, so can the intentions behind it. While the consequences of an event might be wholesome, the intention behind it might not, and vice versa, so intentions must be examined separately. Intentions are a completely different
-
-
-
-
-issue than actions with consequences of their own.8 In this part of the Mindful Review, you want to recognize and acknowledge the unwholesome intentions that were present during the original event. The intentions behind our thoughts, emotions, and actions can range from love and generosity to hatred and greed, and it’s not at all uncommon for our motives to be mixed. Any intention rooted in craving, delusion, and Self-clinging is unwholesome.
+Just as the consequences of a thought or an act can be wholesome or unwholesome, so can the intentions behind it. While the consequences of an event might be wholesome, the intention behind it might not, and vice versa, so intentions must be examined separately. Intentions are a completely different issue than actions with consequences of their own.8 In this part of the Mindful Review, you want to recognize and acknowledge the unwholesome intentions that were present during the original event. The intentions behind our thoughts, emotions, and actions can range from love and generosity to hatred and greed, and it’s not at all uncommon for our motives to be mixed. Any intention rooted in craving, delusion, and Self-clinging is unwholesome.
 
 As your reflections will readily confirm, whenever you knowingly do or say something that’s unwholesome in terms of its consequences, the underlying motivation is selfish desire or aversion. These are both forms of craving. Craving, in turn, is driven by attachment to the belief in a separate Self, together with the assumption that our happiness and unhappiness depend on satisfying our cravings. These are two mutually reinforcing delusions. Thus craving, delusion, and Self-clinging are all inextricably intertwined and mutually interdependent.
 
-# INTENTIONS AND UNINTENDED CONSEQUENCES
+#### INTENTIONS AND UNINTENDED CONSEQUENCES
 
 Since acts with unwholesome consequences can be based on wholesome intentions, and vice versa, we need to address the issue of unintended consequences. Sometimes the things we regret doing happened out of ignorance, and/or our limited ability to accurately predict the effects of our actions, despite our good intentions. In these cases, we want to learn from our mistakes so we can avoid them in the future. However, unless those events were, at least in part, driven by unwholesome intentions, they need not be included in this part of the Mindful Review.
 
@@ -4899,12 +4768,9 @@ Likewise, as you become more skilled at recognizing and understanding the nature
 
 For example, if you’re recalling how you angrily cut off another driver or got irritated with your elderly parents for being slow, see if you can detect the craving behind the act or mental state. Then see if you can tell how these cravings depend on a belief in a separate Self whose happiness comes from outside: “If this is different, then I will be happy.” Next, reflect on how the craving could have been replaced by more wholesome and selfless intentions, such as generosity, loving-kindness, patience, understanding, forgiveness, or compassion. This imaginative re-enactment will powerfully reduce the influence of unwholesome intentions on how you react to similar situations in the future.
 
-
-
-
 While the instructions for this part of the Mindful Review are straightforward, a little more explanation is needed for you to practice it as effectively as possible.
 
-# Understanding the Consequences of Unwholesome Intentions
+#### Understanding the Consequences of Unwholesome Intentions
 
 Just as with actions, what makes an intention unwholesome is the harm it causes, but in this case the harm is done to the person holding the intention. It’s bad enough that unwholesome intentions cause us to act in unwholesome ways, but they also do this other kind of harm that has nothing to do with the external actions. The unwholesome intentions underlying our thoughts, emotions, and urges to speak or act—even though we may refrain from doing so—reinforce our craving and delusion.
 
@@ -4914,18 +4780,13 @@ However, the other side of the coin is that the less our cravings are fulfilled,
 
 At the very least, a life guided by unwholesome intentions based on craving and delusion will produce disappointing results. Fulfilling desire isn’t an effective path to true happiness, nor can acting on aversion do more than temporarily lessen our suffering. Our happiness can neither be separated from nor built on the suffering of others, nor are we ourselves truly separate.
 
-However, for someone who has committed themselves to a path of meditation, spiritual growth, and Awakening, the harm done by unwholesome intentions goes far beyond this. Self-clinging is the single greatest obstacle to spiritual Awakening. Recall that Awakening is the result of a series of Insights,
-
-
-
-The culminating one being the realization that our separate Self is an illusion. Before Insight has matured, and while we’re still clinging to the notion of Self, it can be deeply disturbing to have Insights into impermanence, emptiness, and the causal interdependence of all phenomena.9 As long as there is Self-clinging, you will not Awaken, and the other Insights will themselves only contribute to your suffering, because it will feel like “you” have nothing to rely on in a world that’s ultimately impermanent and empty of meaning. Craving is a manifestation of Self-clinging, and every instance of craving reinforces desire, aversion, and Self-clinging.
+However, for someone who has committed themselves to a path of meditation, spiritual growth, and Awakening, the harm done by unwholesome intentions goes far beyond this. Self-clinging is the single greatest obstacle to spiritual Awakening. Recall that Awakening is the result of a series of Insights, the culminating one being the realization that our separate Self is an illusion. Before Insight has matured, and while we’re still clinging to the notion of Self, it can be deeply disturbing to have Insights into impermanence, emptiness, and the causal interdependence of all phenomena.9 As long as there is Self-clinging, you will not Awaken, and the other Insights will themselves only contribute to your suffering, because it will feel like “you” have nothing to rely on in a world that’s ultimately impermanent and empty of meaning. Craving is a manifestation of Self-clinging, and every instance of craving reinforces desire, aversion, and Self-clinging.
 
 However, it works the other way as well. The more often you decline to act out of craving, the less power craving has over you, and the easier it is not to act out of craving next time. Every time you consciously renounce the belief that you can achieve happiness or avoid suffering through manipulating the world around you, you deny craving and are less subject to this delusion. The more often you recognize unwholesome intentions based in Self-clinging and replace them with wholesome, more selfless intentions like loving-kindness, compassion, patience, and understanding, the more you weaken Self-clinging. You will learn there is far more happiness to be gained through increasing the happiness of others than through pursuing your own desires.
 
 This practice will produce more mindfulness with clear comprehension in your daily life, and you will become more skilled at replacing unwholesome thoughts and intentions with wholesome ones. This practice certainly won’t put an end to craving by itself. That only happens through achieving a higher stage of Awakening.10 What it will do is reduce how often you act out of craving, and shorten the periods when you dwell in a state of craving. Desire and aversion will lose their iron grip, and you will grow in generosity, love, patience, understanding, and compassion. Your meditation practice will flourish, easing your passage through the adept Stages. Most important, both Self-clinging and your attachment to the notion of separate Selfhood will steadily erode. When the time comes, Insight into no-Self will arise quickly and easily, and you’ll achieve Awakening without a prolonged and painful “dark night of the soul.”
 
-APPENDIX F
-# Insight and the “Dark Night”
+## Appendix F: Insight and the “Dark Night”
 
 ONE OF the great advantages of śamatha is that it makes it easier to confront the Insights into impermanence, emptiness, the pervasive nature of suffering, and the insubstantiality of the Self that produce Awakening.
 
@@ -4933,31 +4794,19 @@ Without śamatha, these challenging Insights have the potential to send a practi
 
 What is it about these Insights that can catalyze such strong reactions? Essentially, it’s that these Insights completely contradict the “operating model” of reality that provides the logical basis for how our sub-minds perform their specific functions. Most of these sub-minds presuppose a world of relatively enduring and self-existent “things”—objects, events, people, and places—that have their own inherent natures, which can be comprehended with some accuracy. They also make the core assumption that a Self exists as one of those enduring things. This Self may be seen as eternal, or as something that will be annihilated at death. Another core assumption of all these models of reality is that happiness and suffering come from the interactions between the Self and this world of things. Gaining certain objects in the world will make “me” happy. Losing things “I” love or having to confront people or places “I” dislike creates my suffering. These three assumptions—that things exist, that I am a separate Self, and that happiness comes from the interaction between the two—are shared throughout this collection of unconscious reality models. They provide the foundation for our whole sense of meaning and purpose in life.
 
-
-
 Anything that conflicts with these assumptions can severely undermine a person’s sense of meaning and purpose. And the “true” nature of reality, as revealed through Insight experiences, directly conflicts with all these assumptions. Impermanence teaches us that there are no “things,” only process. Emptiness means that all our perceptions—everything we’ve ever experienced as reality—are mere fabrications of the mind. Furthermore, the Self we think we are is as impermanent and empty as everything else. And lastly, the world is not the source of our happiness. Even though we may feel comfortable with these ideas at a conscious, intellectual level, when the deep, unconscious minds recognize them through direct experience, they can be severely disruptive.
 
 It takes time for the unconscious sub-minds to assimilate these powerful Insights and create new reality models. Until then, the turmoil in the unconscious can create the despair and anxiety of a dark night. That these feelings arise from the deep unconscious for no apparent reason only makes things worse, leading some to even question their sanity. Nevertheless, intellectually understanding what’s happening can provide some relief. More effective, however, is the joy, tranquility, and equanimity of śamatha. These pleasant states of mind provide an important “lubricating” quality that counteracts all this internal friction. When there’s nothing else to cling to, in other words, these qualities of mind provide a palliative.
 
 As Insight matures, individual sub-minds reorganize their internal models to accommodate the new information. A person who successfully undergoes this transformation possesses a completely new worldview. Life takes on a new and deeper meaning and purpose than ever before, and there is a much greater sense of ease, regardless of what may happen externally.
 
+Figure 57.<!-- extraction-conversion-limit Forgotten picture and caption structure --> Three assumptions—that I am a separate Self, that I live in a world of relatively enduring and self-existent “things,” and that my happiness comes from the interactions between my Self and this world of things—are shared throughout the sub-minds making up the mind-system. They provide the foundation for our sense of meaning and purpose in life.
 
-# Figure 57
+Figure 57 cont.<!-- extraction-conversion-limit Forgotten picture and caption structure --> The “true” nature of reality, as revealed through Insight experiences, directly conflicts with all of these assumptions: there are no “things,” only process; all we ever really experience are the fabrications of our own minds; the Self I think I am is as impermanent and empty as everything else; the world can never be the source of my happiness. When these truths are realized by the deep unconscious minds, it is severely disruptive.
 
-Three assumptions—that I am a separate Self, that I live in a world of relatively enduring and self-existent “things,” and that my happiness comes from the interactions between my Self and this world of things—are shared throughout the sub-minds making up the mind-system. They provide the foundation for our sense of meaning and purpose in life.
+Figure 57 cont. <!-- extraction-conversion-limit Forgotten picture and caption structure --> As Insight matures, individual sub-minds reorganize their internal models to accommodate the new information. This transformation brings about a completely new worldview, life takes on a new and deeper meaning and purpose than ever before, and there is a much greater sense of ease, regardless of what may happen.
 
-
-
-Figure 57 cont. The “true” nature of reality, as revealed through Insight experiences, directly conflicts with all of these assumptions: there are no “things,” only process; all we ever really experience are the fabrications of our own minds; the Self I think I am is as impermanent and empty as everything else; the world can never be the source of my happiness. When these truths are realized by the deep unconscious minds, it is severely disruptive.
-
-
-# Figure 57 cont.
-
-As Insight matures, individual sub-minds reorganize their internal models to accommodate the new information. This transformation brings about a completely new worldview, life takes on a new and deeper meaning and purpose than ever before, and there is a much greater sense of ease, regardless of what may happen.
-
-
-
-# About the Authors
+## About the Authors
 
 © Michael O’Shea
 
@@ -4966,22 +4815,6 @@ Culadasa (John Yates, PhD) is a meditation master with over four decades of expe
 Matthew Immergut, PhD, is an associate professor of sociology at Purchase College, SUNY. His areas of research include new religious movements, charismatic authority, the intersection of social theory and Buddhist philosophy, and contemplative practices for the college classroom. He is a longtime and passionate meditator, and a dedicated student of Culadasa.
 
 Jeremy Graves graduated with highest honors from UC Berkeley, where he studied the convergence of globalization and literature. A student of Culadasa since 2011, he has accumulated roughly a year and a half of extended retreat time under his teacher’s mentorship. Jeremy’s approach to Buddhist practice combines the insights of science, art, and devotional practice.
-
-# MEET THE AUTHORS, WATCH VIDEOS AND MORE AT
-
-SimonandSchuster.com
-
-authors.simonandschuster.com/John-Yates
-
-authors.simonandschuster.com/Matthew-Immergut
-
-authors.simonandschuster.com/Jeremy-Graves
-
-/TouchstoneBooks
-
-@TouchstoneBooks
-
-
 
 ## Glossary
 
@@ -5929,7 +5762,7 @@ It is worth noting that the ex post facto interpretation of a cessation event as
 
 9. Anatta in Pali, deep Insight into which produces “stream-entry,” the first stage of Awakening.
 
-10.  Nimitta is a Pali word meaning “appearance,” as in “the appearance of the mountains is different in moonlight.” In ancient Buddhist meditation literature, nimitta refers to the different appearances taken on by the meditation object in progressively deeper meditation states. There are three of these nimittas: parikamma nimitta, or the “initial appearance;” uggaha nimitta, or the “acquired appearance;” and patibhāga nimitta, or the “mental counterpart” appearance. However, modern interpretations of these texts usually take nimitta to mean either “meditation object” in general, or else the illumination phenomena as an object for entering the luminous jhānas. In accordance with this common modern usage, we use the term nimitta to mean the illumination phenomenon when discussing the luminous jhānas.
+10. Nimitta is a Pali word meaning “appearance,” as in “the appearance of the mountains is different in moonlight.” In ancient Buddhist meditation literature, nimitta refers to the different appearances taken on by the meditation object in progressively deeper meditation states. There are three of these nimittas: parikamma nimitta, or the “initial appearance;” uggaha nimitta, or the “acquired appearance;” and patibhāga nimitta, or the “mental counterpart” appearance. However, modern interpretations of these texts usually take nimitta to mean either “meditation object” in general, or else the illumination phenomena as an object for entering the luminous jhānas. In accordance with this common modern usage, we use the term nimitta to mean the illumination phenomenon when discussing the luminous jhānas.
 
 ### STAGE NINE: Mental and Physical Pliancy and Calming the Intensity of Meditative Joy
 
@@ -6063,8 +5896,7 @@ Because of these similarities between the jhānas and the Stages of an Adept, pr
 
 1. How we experience the dark night depends largely on our pre-existing conceptual framework. A Christian will experience it one way, and an atheist in a different way. For St. John, the dark night involved feelings of having lost all connection with God—of, essentially, being abandoned by God.
 
-
-## Index
+## Index<!-- omit from toc -->
 
 A note about the index: The pages referenced in this index refer to the page numbers in the print edition. Clicking on a page number will take you to the ebook location that corresponds to the beginning of that page in the print edition. For a comprehensive list of locations of any word or phrase, use your reading system’s search function.
 
@@ -6742,7 +6574,7 @@ NOTE: Bold numbers refer to figure captions and boxed text.
   - and stages of adept meditators, 235, 239, 241, 247–49, 250, 251, 252, 253, 255
   - and subtle distractions, 216, 218, 219
   - and unifying the mind, 239
-  - and when to do which practices, 301 
+  - and when to do which practices, 301
   - See also sleepiness
 - “epiphany of the flies,” 275–76
 - equanimity
