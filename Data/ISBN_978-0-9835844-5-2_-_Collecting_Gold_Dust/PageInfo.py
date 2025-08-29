@@ -1,4 +1,12 @@
-# PageInfo.py
+# The structural information constituted by the presence of chapters,
+# illustrations, illumination, headers ... is quite often difficult
+# to be automatically discovered. While waiting for better (and free)
+# tools, the following was manually extracted and summarized in the
+# following dictionary.
+#
+# Concerning the format:
+# - "type" is the {"chapter", "generic" "illustration"}
+# - a "chapter" type must have a "chapter_info" dictionary
 
 pages_info = {
     0: {
@@ -19,7 +27,8 @@ pages_info = {
         "drop_page": True,
     },
     2: {
-        "type": "illustration",
+        "type": "illustration",  # Pure illustration
+        "drop_page": True,
     },
     3: {
         "type": "generic",
@@ -85,25 +94,28 @@ pages_info = {
     16: {
         "type": "generic",
         "first_paragraph_delimiter": "wisdom.",
+        # Required because next page is dropped
+        "paragraph_fits_on_page": True,
     },
     17: {
         "type": "chapter",
         "chapter_info": {"name": "Contents", "illumination_delimiter": None},
         "paragraph_fits_on_page": True,
+        "drop_page": True,
     },
     18: {
         "type": "generic",
         "paragraph_fits_on_page": True,
+        "drop_page": True,
     },
     19: {
         "type": "generic",
         "paragraph_fits_on_page": True,
+        "drop_page": True,
     },
     20: {
-        "type": "illustration",
-        # By default pages with illustrations (or illustration quotes)
-        # have no headers. The following line is thus implicit
-        # "header": None,
+        "type": "illustration",  # Pure illustration (no text at all)
+        "drop_page": True,
     },
     21: {
         "type": "chapter",
@@ -122,7 +134,11 @@ pages_info = {
         "first_paragraph_delimiter": "was that I was mindful.",
     },
     24: {
-        "type": "illustration",
+        "type": "illustration",  # illustration-with-extracted-text
+        # Some illustration are decorated with text (or the other way round).
+        # Yet this text is an extracted quote from the body of the chapter.
+        # We can thus drop it without content loss.
+        "drop_page": True,
     },
     25: {
         "type": "generic",
@@ -145,7 +161,8 @@ pages_info = {
         "first_paragraph_delimiter": "depression.",
     },
     30: {
-        "type": "illustration",
+        "type": "illustration",  # illustration-with-extracted-text
+        "drop_page": True,
     },
     31: {
         "type": "generic",
@@ -171,7 +188,8 @@ pages_info = {
         "paragraph_fits_on_page": True,
     },
     36: {
-        "type": "illustration",
+        "type": "illustration",  # illustration-with-extracted-text
+        "drop_page": True,
     },
     37: {
         "type": "generic",
@@ -190,7 +208,9 @@ pages_info = {
         "paragraph_fits_on_page": True,
     },
     42: {
-        "type": "illustration",
+        "type": "illustration",  # illustration-with-valid-text
+        # This illustration has some additional textual content that is original
+        # that is not part of the rest of the chapter text. We thus keep it.
     },
     43: {
         "type": "chapter",
@@ -200,7 +220,8 @@ pages_info = {
         },
     },
     44: {
-        "type": "illustration",
+        "type": "illustration",  # illustration-with-extracted-text
+        "drop_page": True,
     },
     45: {
         "type": "generic",
@@ -218,7 +239,8 @@ pages_info = {
         "paragraph_fits_on_page": True,
     },
     50: {
-        "type": "illustration",
+        "type": "illustration",  # illustration-with-extracted-text
+        "drop_page": True,
     },
     51: {
         "type": "generic",
@@ -237,7 +259,8 @@ pages_info = {
         "first_paragraph_delimiter": "understanding.",
     },
     56: {
-        "type": "illustration",
+        "type": "illustration",  # illustration-with-extracted-text
+        "drop_page": True,
     },
     57: {
         "type": "generic",
@@ -258,7 +281,8 @@ pages_info = {
     },
     # 61: nichts
     62: {
-        "type": "illustration",
+        "type": "illustration",  # illustration-with-extracted-text
+        "drop_page": True,
     },
     63: {
         "type": "generic",
@@ -266,7 +290,7 @@ pages_info = {
         "paragraph_fits_on_page": True,
     },
     64: {
-        "type": "illustration",
+        "type": "illustration",  # illustration-with-valid-text
     },
     65: {
         "type": "chapter",
@@ -285,7 +309,8 @@ pages_info = {
         "paragraph_fits_on_page": True,
     },
     68: {
-        "type": "illustration",
+        "type": "illustration",  # illustration-with-extracted-text
+        "drop_page": True,
     },
     # 69: this space intentionally left non void
     70: {
@@ -304,7 +329,8 @@ pages_info = {
         "paragraph_fits_on_page": True,
     },
     74: {
-        "type": "illustration",
+        "type": "illustration",  # illustration-with-extracted-text
+        "drop_page": True,
     },
     # 75: nothing
     76: {
@@ -313,12 +339,16 @@ pages_info = {
         "paragraph_fits_on_page": True,
     },
     77: {
-        "type": "illustration",
-        # By default illustrations have no header, unless ... they have
+        "type": "illustration",  # illustration-with-extracted-text
+        "drop_page": True,
+        # By default illustrations have no header, unless for some isolated
+        # examples like the one on this page. Although the following flag is
+        # correct, it is not useful for this entry since eventually the page
+        # was dropped.
         "header": True,
     },
     78: {
-        "type": "illustration",
+        "type": "illustration",  # illustration-with-valid-text
     },
     79: {
         "type": "chapter",
@@ -334,7 +364,8 @@ pages_info = {
     },
     # 81: nothing to say
     82: {
-        "type": "illustration",
+        "type": "illustration",  # illustration-with-extracted-text
+        "drop_page": True,
     },
     83: {
         "type": "generic",
@@ -356,14 +387,15 @@ pages_info = {
         "paragraph_fits_on_page": True,
     },
     88: {
-        "type": "illustration",
+        "type": "illustration",  # illustration-with-extracted-text
+        "drop_page": True,
     },
     89: {
         "type": "generic",
         "paragraph_fits_on_page": True,
     },
     90: {
-        "type": "illustration",
+        "type": "illustration",  # illustration-with-valid-text
     },
     91: {
         "type": "chapter",
@@ -379,7 +411,8 @@ pages_info = {
     },
     # 93: nothing to say
     94: {
-        "type": "illustration",
+        "type": "illustration",  # illustration-with-extracted-text
+        "drop_page": True,
     },
     95: {
         "type": "generic",
@@ -401,7 +434,8 @@ pages_info = {
         "paragraph_fits_on_page": True,
     },
     100: {
-        "type": "illustration",
+        "type": "illustration",  # illustration-with-extracted-text
+        "drop_page": True,
     },
     # 101: dalmatians
     102: {
@@ -419,7 +453,8 @@ pages_info = {
         "first_paragraph_delimiter": "well.",
     },
     106: {
-        "type": "illustration",
+        "type": "illustration",  # illustration-with-extracted-text
+        "drop_page": True,
     },
     107: {
         "type": "generic",
@@ -443,7 +478,8 @@ pages_info = {
         "paragraph_fits_on_page": True,
     },
     112: {
-        "type": "illustration",
+        "type": "illustration",  # illustration-with-extracted-text
+        "drop_page": True,
     },
     # 113: nothing
     114: {
@@ -462,7 +498,8 @@ pages_info = {
         "paragraph_fits_on_page": True,
     },
     118: {
-        "type": "illustration",
+        "type": "illustration",  # illustration-with-extracted-text
+        "drop_page": True,
     },
     119: {
         "type": "generic",

@@ -6,7 +6,7 @@ import os
 from pypdf import PdfReader
 
 # To deal with outputs of the Converter class
-from Model import Chapter, Paragraph, Sentence
+from Model import Document, Chapter, Paragraph, Sentence
 from PageLayout import PageLayout
 
 # To realize the conversion per se
@@ -60,31 +60,6 @@ class ExtractedPage:
         )
 
 
-class ExtractedParagraph:
-    """
-    Representation of a pdf extracted page
-    Attributes
-    ----------
-    page_number: int
-        The index of the page as it appears extracted by pydf::PdfReader()
-    reader_page_number: str
-        The page number as it appears printed (rendered on the page by a pdf
-        viewer). Some pages might have roman numbering, some pages an integer
-        and some pages may have no numbering at all
-    original_pdf_page: str
-        the text as original extracted by the constructor caller
-    """
-
-    def __init__(self, page_number, reader_page_number, original_page):
-        self.page_number = page_number
-        self.reader_page_number = reader_page_number
-        self.text = None
-        # self.extracted_page = extracted_page
-
-    def set_text(self, text_in):
-        self.text = text_in
-
-
 class Converter:
     """
     Class converting the original set of pages extracted from the pypdf::reader
@@ -118,9 +93,6 @@ class Converter:
         # illustrations, illumination, headers ... is quite often difficult
         # to be automatically discovered. While waiting for better (and free)
         # tools, the following is a manually extracted.
-        # Concerning the format:
-        # "type" is the {"chapter", "generic" "illustration"}
-        # A page_info of "chapter" type must have a "chapter_info" dictionary
         self.pages_info = pages_info
 
         # Technical (optimisation) variable used to hold the correspondance
@@ -384,7 +356,7 @@ class Converter:
                 return (
                     self.book_title
                     + self.__get_chapter_name(133)
-                    + "  | | "
+                    + " ||"
                     + str(self.__convert_to_logical_page_number(133))
                     + str(self.__convert_to_logical_page_number(133))
                 )
@@ -426,57 +398,42 @@ class Converter:
             sys.exit()
         return paragraph_of_that_page
 
-    def build_chapters(self):
-        resulting_chapters = []
-        current_chapter = Chapter("Preamble")
-        resulting_chapters.append(current_chapter)
-        for page_number in range(0, self.total_page_number):
-            if self.__is_chapter_beginning_page(page_number):
-                new_chapter_name = self.__get_chapter_name(page_number)
-                current_chapter = Chapter(new_chapter_name)
-                resulting_chapters.append(current_chapter)
+    def sanitize_newlines_and_multiple_whitespaces(self, input_text):
 
-            if self.__page_is_dropped(page_number):
-                continue
-            original_page = self.reader.pages[page_number]
-            new_extracted_page = ExtractedPage(
-                page_number,
-                PageLayout(
-                    self.__convert_to_logical_page_number(page_number), page_number
-                ),
-                original_page,
-            )
-            self.remove_header(new_extracted_page)
-            current_chapter.add_page(new_extracted_page)
-        for chapter in resulting_chapters:
-            self.sanitize_newlines(chapter)
-        for chapter in resulting_chapters:
-            self.break_chapter_into_paragraphs(chapter)
-            for paragraph in chapter.paragraphs:
-                self.break_paragraph_into_sentences(paragraph)
-        for chapter in resulting_chapters:
-            self.reconstitute_paragraphs_spreading_over_two_pages(chapter)
-        return resulting_chapters
-
-    def sanitize_newlines(self, chapter):
         # Newlines are encountered to denote different usages
         #  - set some tabulations of illuminations (example "\       ")
         #  - define a new paragraph in which case newline is followed by
-        #    exactly 4 whitespaces (example "\n    ")
-        #  - simple line folding within paragraphs. In which case they are
-        #    preceded or followed by a single whitespace or without (examples
-        #    "here\nand", "here \nand", "here\n and")
-        # This method only fixes the last case while preserving the other ones
-        for page in chapter.pages:
-            # We here need to use both lookbehind and lookahead notations. The
-            # following pattern is here: look for a newline preceded (?<=...)
-            # by any character that is not an extended whitespace (\s) and
-            # followed (?=[^\s]) by any character that is not a whitespace:
-            new_text = re.sub("(?<=[^\s])\n(?=[^\s])", " ", page.text)
-            page.text = new_text
+        #    exactly 4 whitespaces (example "\n    "): refer to
+        #    break_chapter_into_paragraphs() method
+        #  - simple line folding within original paragraphs or even sentences
+        #    were newline are used to format the original pdf with lines returns.
+        # Remove such formatting characters to preserve only the text content:
+        result = re.sub("\n", " ", input_text)
+
+        # HISTORICAL NOTES: for some long forgot reason, and when development
+        # stage was centered on pages (as opposed to paragraphs), there was a
+        # need for removing the  newline characters ("\n") but only when they
+        # were preceded or followed either by a single whitespace or some
+        # character (examples "here\nand", "here \nand", "here\n and"). Because
+        # finding the proper regex to do so was quite difficult, the following
+        # keeps track of the sub() call, in case it is needed later on.
+        # The regexp logic is that we need to use both lookbehind and lookahead
+        # notations and can be understood as: look for a newline preceded
+        # (?<=...)  by any character that is not an extended whitespace (\s)
+        # and followed (?=[^\s]) by any character that is not a whitespace:
+        #    result_text = re.sub("(?<=[^\s])\n(?=[^\s])", " ", input_text)
+
+        # The above clean-up might create multiple whitespaces, while some
+        # other occurrences of multiple whitespaces are (randomly?) encountered.
+        # Remove them all:
+        result = re.sub(r"\s+", " ", result).strip()
+        return result
 
     def break_chapter_into_paragraphs(self, chapter):
         for page in chapter.pages:
+            # TODO: the second pattern of the split() method happens on
+            # sub-chapter beginnings. Instead of simply starting a new paragraph
+            # we should start a new sub-chapter!
             paragraphs = re.split("\n    " + "|" + "\n\n\n", page.text)
             page_layout = page.page_layout
             for paragraph_text in paragraphs:
@@ -495,15 +452,17 @@ class Converter:
                     + "]"
                 )
                 new_paragraph = Paragraph(new_paragraph_layout)
+                new_paragraph.set_owning_chapter(chapter)
                 # Note: the text member is a temporary attribute used by the
                 # Converter but is not destined to be a member of the Paragraph
                 # class. We just piggyback it until it is transformed and
                 # cleaned-up.
                 new_paragraph.text = paragraph_text
                 chapter.add_paragraph(new_paragraph)
+        chapter.renumber_paragraphs()
 
     def break_paragraph_into_sentences(self, paragraph: Paragraph):
-        page_layout = paragraph.page_layout
+        paragraph_layout = paragraph.page_layout
 
         # Using the text attribute that was piggybacked from the above
         # break_chapter_into_paragraphs() method:
@@ -521,23 +480,18 @@ class Converter:
                 # Avoid creating empty sentences (resulting from previous
                 # erroneous/careless string manipulations):
                 continue
-            # Some original sentences have an embedded newline character ("\n")
-            # that is used to format the original pdf with newlines. Remove
-            # such formatting characters to preserve only the text content:
-            new_sentence_text = re.sub("\n", " ", new_sentence_text)
-            # The above clean-up might create multiple whitespaces, while some
-            # other occurrences of multiple whitespaces are (randomly?)
-            # encountered. Remove them all:
-            new_sentence_text = re.sub(r"\s+", " ", new_sentence_text).strip()
 
             # Eventually, create a new sentence
-            new_sentence_layout = page_layout.__copy__()
+            new_sentence_layout = paragraph_layout.__copy__()
             new_sentence_layout.set_reference_text(
-                "[Paragraph: "
-                + page_layout.reference_text
-                + ", reader page number: "
-                + str(page_layout.reader_page_number)
+                "[Sentence: on reader page number: "
+                + str(paragraph_layout.reader_page_number)
+                + " within "
+                + paragraph_layout.reference_text
                 + "]"
+            )
+            new_sentence_text = self.sanitize_newlines_and_multiple_whitespaces(
+                new_sentence_text
             )
             new_sentence = Sentence(new_sentence_text, new_sentence_layout)
             paragraph.add_sentence(new_sentence)
@@ -583,14 +537,9 @@ class Converter:
             ill_ending_paragraph = self.__chapter_get_last_paragraph_of_given_page(
                 chapter, page_number
             )
-            last_sentence_of_ill_starting_paragraph = ill_ending_paragraph.sentences[-1]
-
             ill_starting_paragraph = self.__chapter_get_first_paragraph_of_given_page(
                 chapter, next_page_number
             )
-            first_sentence_of_ill_starting_paragraph = ill_starting_paragraph.sentences[
-                0
-            ]
 
             #### Asserting some preconditions before merging the two paragraphs:
 
@@ -635,18 +584,19 @@ class Converter:
                 sys.exit()
 
             #### Proceed with the merging of two paragraphs into a single one:
-
+            first_sentence_of_ill_starting_paragraph = ill_starting_paragraph.sentences[
+                0
+            ]
+            last_sentence_of_ill_ending_paragraph = ill_ending_paragraph.sentences[-1]
             # First merge the two sentences:
-            last_sentence_of_ill_starting_paragraph.append(
+            last_sentence_of_ill_ending_paragraph.append(
                 first_sentence_of_ill_starting_paragraph
             )
             ill_starting_paragraph.remove_sentence(
                 first_sentence_of_ill_starting_paragraph
             )
             # Then merge the two paragraphs:
-            ill_ending_paragraph.concatenate(ill_starting_paragraph)
-            # Finally remove the now empty paragraph:
-            chapter.remove_paragraph(ill_starting_paragraph)
+            ill_ending_paragraph.merge(ill_starting_paragraph)
 
     def remove_header(self, extracted_page):
         """
@@ -696,3 +646,52 @@ class Converter:
             )
 
         extracted_page.text = header_less_page_text
+
+    def build_chapters(self):
+        resulting_chapters = []
+        current_chapter = Chapter("Preamble")
+        resulting_chapters.append(current_chapter)
+        for page_number in range(0, self.total_page_number):
+            if self.__page_is_dropped(page_number):
+                continue
+
+            if self.__is_chapter_beginning_page(page_number):
+                new_chapter_name = self.__get_chapter_name(page_number)
+                current_chapter = Chapter(new_chapter_name)
+                resulting_chapters.append(current_chapter)
+
+            # Create a new extracted page:
+            new_extracted_page_layout = PageLayout(
+                self.__convert_to_logical_page_number(page_number), page_number
+            )
+            new_extracted_page_layout.set_reference_text(
+                "[Page: "
+                + str(new_extracted_page_layout.reader_page_number)
+                + " (page number: "
+                + str(new_extracted_page_layout.page_number)
+                + ")]"
+            )
+            new_extracted_page = ExtractedPage(
+                page_number,
+                new_extracted_page_layout,
+                self.reader.pages[page_number],  # Original page
+            )
+            self.remove_header(new_extracted_page)
+            current_chapter.add_page(new_extracted_page)
+
+        for chapter in resulting_chapters:
+            self.break_chapter_into_paragraphs(chapter)
+            for paragraph in chapter.paragraphs:
+                self.break_paragraph_into_sentences(paragraph)
+        for chapter in resulting_chapters:
+            self.reconstitute_paragraphs_spreading_over_two_pages(chapter)
+        return resulting_chapters
+
+    def get_document(self):
+        """
+        Return a Document object that holds the chapters and paragraphs
+        """
+        document = Document(self.book_title)
+        for chapter in self.build_chapters():
+            document.add_chapter(chapter)
+        return document

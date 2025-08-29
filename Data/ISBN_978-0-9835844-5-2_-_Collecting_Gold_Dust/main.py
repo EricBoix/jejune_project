@@ -1,37 +1,18 @@
 from Model import Document
 from Converter import Converter
+from Debug import (
+    print_document_pages,
+    print_document_paragraphs,
+    print_document_sentences,
+)
 
 converter = Converter()
-document = Document()
-for chapter in converter.build_chapters():
-    document.add_chapter(chapter)
-
-for chapter in document.chapters:
-    print("###################################################################")
-    print("################## Chapter name: ", chapter.name)
-    print("###################################################################")
-    for page in chapter.pages:
-        print("##########################################################")
-        print(repr(page))
-        print("##########################################################")
-
-
-print("##########################################################")
-print("##########################################################")
-print("#################### OTHER ###############################")
-print("##########################################################")
-print("##########################################################")
-for chapter in document.chapters:
-    print("###################################################################")
-    print("################## Chapter name: ", chapter.name)
-    print("###################################################################")
-    for paragraph in chapter.paragraphs:
-        print(
-            "Paragraph (ref:",
-            paragraph.page_layout.reference_text,
-            "):\n",
-            paragraph.text,
-            "\n",
-        )
-
+document = converter.get_document()
+# Generate the markdown file
 document.to_markdown("output.md")
+
+# On debugging purposes
+if True:
+    print_document_pages(document)
+    print_document_paragraphs(document)
+    print_document_sentences(document)
