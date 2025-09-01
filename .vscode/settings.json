@@ -1,0 +1,12 @@
+{
+
+    "cSpell.customDictionaries": {
+        "tim-words": {
+            "name": "the_mind_illuminated",
+            "path": "${workspaceRoot}/Data/ISBN_978-1-5011-5698-4_-_The_Mind_Illuminated/the_mind_illuminated-words.txt",
+            "description": "Words used for TIM",
+            "addWords": true
+        },
+        "the_mind_illuminated": true, // Enable that dictionary
+    },
+}

@@ -1,6 +1,12 @@
 {
   "MD013": {
-    "line_length": 2000
+    "line_length": 2500
+  },
+  "MD024": {
+    "siblings_only": true
+  },
+  "MD029": {
+    "style": "one_or_ordered"
   },
   "MD033": {
     "allowed_elements": [

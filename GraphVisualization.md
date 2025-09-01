@@ -3,6 +3,7 @@
 ## Table of contents<!-- omit from toc -->
 
 - [Required features](#required-features)
+- [Summary of features](#summary-of-features)
 - [Surveys](#surveys)
 - [Cytoscape.js](#cytoscapejs)
 - [vis.js - network](#visjs---network)
@@ -10,8 +11,9 @@
 
 ## Required features
 
-- distinguish edges from arcs/arrows: curved arrows to avoid overlap of two arrows having same node adjacency
-- dynamic data: varying nodes, edges and/or their attributes across time
+- distinguish edges from arcs/arrows
+- Multiple edge/arcs adjacent to same two vertices : e.g.  curved arrows to avoid overlap of two arrows having same node adjacency
+- dynamic data: varying nodes, edges and/or their attributes across time. Possibility to extend the set of existing nodes/edges without (as opposed to having to provide all)
 - Compounding/Grouping/[Clustering](https://visjs.github.io/vis-network/examples/network/other/clustering.html) nodes in a box/container
 - Various automatic Layout algorithm
   - some nodes position is manually given (and fixed)
@@ -20,6 +22,15 @@
   - Selectable edges
   - Draggable nodes: select a node, drag it and release it (node should then remain in place)
 - Self-loops
+
+## Summary of features
+
+| Feature | `Cytoscape.js` | `vis.js` | `Sigma.js` |
+| ------- | -------------- | -------- | ---------- |
+| edges vs arcs | | | |
+| Multiple edge/arcs  | | | |
+| Dynamic data | | | |
+| self-loop | | | |
 
 ## Surveys
 

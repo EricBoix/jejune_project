@@ -141,7 +141,7 @@ This book is dedicated to my loving and beloved wife, Nancy. Without your suppor
 
 SO HOW does a neuroscientist end up as a meditation master? The two disciplines are different, to be sure. My training in brain science deals with neurons and synapses, while my study of meditation is concerned with matters of attention, introspective awareness, and investigating the nature of subjective experience. But in many ways, I’ve found that the two modes of understanding the world are more complementary than one might think, and they’ve given me a unique insight into how mindfulness actually changes the brain and our perceptions of the world around us.
 
-I’ve always been a seeker. For as long as I can remember, I’ve been fascinated by both the mind and the physical sciences. I always felt there must be a way to make sense of and unify our understanding of the world. What I sought, and what eventually crystalized into a lifelong passion, was nothing less than a search for ultimate Truth. Little did I know what a long and convoluted (but ultimately rewarding) journey I would take to find it.
+I’ve always been a seeker. For as long as I can remember, I’ve been fascinated by both the mind and the physical sciences. I always felt there must be a way to make sense of and unify our understanding of the world. What I sought, and what eventually crystallized into a lifelong passion, was nothing less than a search for ultimate Truth. Little did I know what a long and convoluted (but ultimately rewarding) journey I would take to find it.
 
 I spent my teen years reading philosophy and psychology—Kant, Husserl, James, and Jung in particular. Despite the many insights they offered, it was disappointing to discover how little we knew about the mind, especially as compared to the precision and rapidly increasing depth of our knowledge of the physical world.
 
@@ -1593,7 +1593,7 @@ Of course, it’s much harder to stay mindful when it matters most, in difficult
 
 ### LEVEL THREE: REPROGRAMMING DEEP CONDITIONING
 
-In daily life, even if we’re mindful every moment, unskillful conditioning can only get reprogramed when something triggers it. So, while it’s essential to practice in daily life, mindfulness in formal meditation is even more effective, because we don’t have to wait for something to trigger an unconscious program to practice with. Instead, when our minds grow stable and quiet, all kinds of deep memories, thoughts, and emotions that drive our unconscious programs can come to the surface. Then they can be purified by the illuminating power of mindfulness.
+In daily life, even if we’re mindful every moment, unskillful conditioning can only get reprogrammed when something triggers it. So, while it’s essential to practice in daily life, mindfulness in formal meditation is even more effective, because we don’t have to wait for something to trigger an unconscious program to practice with. Instead, when our minds grow stable and quiet, all kinds of deep memories, thoughts, and emotions that drive our unconscious programs can come to the surface. Then they can be purified by the illuminating power of mindfulness.
 
 <!-- extraction-conversion-limit Following line content was highlighted in the original text -->
 Mindfulness in meditation can accomplish more than the piecemeal process of confronting conditioning in daily life. Conditioning that emerges in meditation drives a wide range of reactive behaviors.
@@ -1608,7 +1608,7 @@ This purification occurs mainly in Stage Four, but also at Stage Seven.
 
 ### LEVEL FOUR: MINDFULNESS, INSIGHT, AND THE END OF SUFFERING
 
-Unquestionably, the most valuable effect of mindfulness is its ability to radically reprogram our deepest misconceptions about the nature of reality, and about who and what we are. Our gut intuition tells us we’re separate selves in a world of other people and objects, and that our individual suffering and happiness depend on external circumstances. This may seem like common sense, but it’s a misperception that comes from our innate programing,3 and which is continually reinforced by cultural conditioning. As we practice mindfulness, however, we accumulate more and more evidence that things are very different from what we believed. In particular, the thoughts, feelings, and memories we associate with a sense of self are seen more objectively, revealing themselves to be constantly changing, impersonal, and often contradictory processes occurring in different parts of the mind.
+Unquestionably, the most valuable effect of mindfulness is its ability to radically reprogram our deepest misconceptions about the nature of reality, and about who and what we are. Our gut intuition tells us we’re separate selves in a world of other people and objects, and that our individual suffering and happiness depend on external circumstances. This may seem like common sense, but it’s a misperception that comes from our innate programming,3 and which is continually reinforced by cultural conditioning. As we practice mindfulness, however, we accumulate more and more evidence that things are very different from what we believed. In particular, the thoughts, feelings, and memories we associate with a sense of self are seen more objectively, revealing themselves to be constantly changing, impersonal, and often contradictory processes occurring in different parts of the mind.
 
 <!-- extraction-conversion-limit Following line content was highlighted in the original text -->
 The most valuable effect of mindfulness is that it allows Insight experiences to sink in, radically reprogramming our intuitive view of reality, and of who and what we think we are.
@@ -2743,7 +2743,7 @@ According to Csikszentmihalyi, for an activity to potentially lead to a state of
 
 1. The activity is performed as an end in itself, not for any other purpose.
 
-2. The goals of the activity are clear, and the feedback you get from it is immediate. The most important thing about that feedback is the symbolic message it contains: I have succeeded in my goal.*
+2. The goals of the activity are clear, and the feedback you get from it is immediate. The most important thing about that feedback is the symbolic message it contains: I have succeeded in my goal. (note: Intention is followed by action, the outcome gets a positive evaluation, and feelings of pleasure and satisfaction reinforce the continued repetition of intention and action. This process creates a sense of order in conscious experience.)
 
 3. The activity is neither taxingly difficult, nor too easy. The challenge of the task is perfectly balanced with the person’s abilities.
 
@@ -2751,13 +2751,11 @@ According to Csikszentmihalyi, for an activity to potentially lead to a state of
 
 Then, for that activity to actually transform into a flow state, these further conditions must arise:
 
-5. The activity becomes spontaneous, almost automatic, and there is no sense of a self apart from the activity.
+1. The activity becomes spontaneous, almost automatic, and there is no sense of a self apart from the activity.
 
-6. A feeling of effortlessness arises, even though continuous skilled performance is required. Everything happens seamlessly, as if by magic.
+2. A feeling of effortlessness arises, even though continuous skilled performance is required. Everything happens seamlessly, as if by magic.
 
-7. There is a sense of successfully exercising control—which is not the same as feeling like “you” are in control.
-
-* Intention is followed by action, the outcome gets a positive evaluation, and feelings of pleasure and satisfaction reinforce the continued repetition of intention and action. This process creates a sense of order in conscious experience.
+3. There is a sense of successfully exercising control—which is not the same as feeling like “you” are in control.
 
 ### Meditative Absorptions
 
@@ -2788,7 +2786,7 @@ Follow the sensations of the breath in the whole body as smoothly and seamlessly
 Yet beware, there’s still a possibility for dullness. Although it doesn’t happen often in jhāna, you’re vulnerable if awareness fades. You may continue experiencing breath-related sensations, but they will seem a little vague, like they’re somehow disconnected from your overall awareness of the body. When this happens, the focus of attention usually shifts away from the breath sensations toward the feelings of pleasure and happiness. In Stage Seven, you’ll learn how to enter a deeper kind of jhāna by actually focusing on joy and pleasure, but this is not the time. For now, if you ever find the focus of your attention shifting to pleasure, abandon the jhāna and bring yourself to a state of full alertness immediately. Absorption without metacognitive awareness isn’t really jhāna, even if it’s pleasant. If you accidentally train your mind to become dull in jhāna, you’ll have to unlearn that before you can use jhāna to advance your practice.
 
 Practice this first jhāna whenever conditions are right for access. Always notice exactly what’s happening in the mind just before you enter jhāna. You will thereby become more familiar with those conditions, and it will be easier to re-create them in the future. Develop skill at entering the jhāna and remaining in it for longer and longer periods. It may take a while during any given session before you can reach jhāna. Therefore, try to extend your meditation periods so you have enough time not only to enter jhāna, but also to practice sustaining it.
-Jhāna can be refined through four distinct phases, traditionally distinguished as the first, second, third, and fourth jhānas. If you can consistently enter and remain in this first whole-body jhāna for up to fifteen minutes without interruption, you can start practicing the second jhāna, also using the whole-body method, described in Appendix D. When you can easily do the same thing with that one, move on to the next. However, don’t be in a rush. Build your skills. 
+Jhāna can be refined through four distinct phases, traditionally distinguished as the first, second, third, and fourth jhānas. If you can consistently enter and remain in this first whole-body jhāna for up to fifteen minutes without interruption, you can start practicing the second jhāna, also using the whole-body method, described in Appendix D. When you can easily do the same thing with that one, move on to the next. However, don’t be in a rush. Build your skills.
 
 Until you have mastered Stage Six, keep practicing these whole-body jhānas. Don’t worry about whether or not you practice all four of them. While helpful and pleasurable, jhānas are not an end in themselves. For now, their only purpose is to help you master Stage Six and prepare you for faster progress through the next Stages. There are much deeper jhānas yet to come.
 
@@ -3412,7 +3410,7 @@ Regardless of what does or doesn’t imprint in memory, every sub-mind tuned in 
 <!-- extraction-conversion-limit Following line content was highlighted in the original text -->
 The transformative power of a cessation event depends on how unified the mind was. Only the parts of the mind-system that were tuned in during the cessation are affected.
 
-The transformative power of a cessation event depends on how unified the mind was. Unification determines the overall size of the “audience” of sub-minds receptive to events in consciousness. Only the parts of the mind-system that were tuned in during the cessation are affected. If the mind were completely unified, then every sub-mind within the mind system would be affected simultaneously, and there would be a complete Awakening of the entire mind-system. 
+The transformative power of a cessation event depends on how unified the mind was. Unification determines the overall size of the “audience” of sub-minds receptive to events in consciousness. Only the parts of the mind-system that were tuned in during the cessation are affected. If the mind were completely unified, then every sub-mind within the mind system would be affected simultaneously, and there would be a complete Awakening of the entire mind-system.
 
 However, if the mind was only partially unified, there are two possibilities: no transformation, or incomplete transformation. This is because a certain degree of unification is needed during the event to reach enough sub-minds to make any tangible, lasting difference to the whole mind-system. With too little unification, a person may have a very memorable peak experience, but with little or no lasting effect. However, if the critical threshold is reached, the second possibility is an incomplete transformation of the mind-system, limited to those sub-minds that happened to be tuned in at the time. Complete transformation must await subsequent cessations or other Insight experiences that have a similar impact on the remaining parts of the mind-system. This incremental process of transformation explains why Awakening is traditionally described as occurring in a series of stages.
 
@@ -3856,7 +3854,6 @@ Ordinary sensations have disappeared from awareness. The perception of your body
 The goal of Stage Nine is the maturation of meditative joy that produces tranquility and equanimity. As you continue to practice, simply abiding in the state of meditative joy will cause profound tranquility and equanimity to arise.
 
 Stage Nine: The meditator sits in meditation, while the elephant rests peacefully at his feet. With the attainment of mental and physical pliancy, the meditator can effortlessly sit in deep meditation for hours at a time. The mind develops tranquility and equanimity, and śamatha is achieved.
-
 
 In Stages Nine and Ten, you fully unify the mind, moving from a state of highly excited meditative joy and happiness1 to one of serene joy and happiness. The resulting śamatha has five qualities of mind: fully stable attention, powerful mindfulness, joy, tranquility, and equanimity.2
 
@@ -5312,8 +5309,6 @@ One of the five hindrances. The pursuit of, delighting in, and clinging to any o
 - achieving fame, power, and influence while preventing infamy, subjugation, and impotence;
 - attaining the love, praise, and admiration of others while avoiding blame or hatred.
 
-
-
 ## Notes
 
 ### INTRODUCTION
@@ -5325,7 +5320,6 @@ One of the five hindrances. The pursuit of, delighting in, and clinging to any o
 3. The nine states one progresses through before attaining śamatha are described in Asanga's Grounds of Hearers (Śrāvaka-bhūmi), Compendium of Knowledge (Abhidharma-samuccaya), and Ornament for the Mahayana Sutras (Mahāyāna-sūtrālamkāra-kārikā).
 
 4. Also, as you might expect, these old but precise road maps of the practice have been greatly obscured by the passage of time. I remember when I first encountered Asanga's nine stages of meditation. A lama in the Tibetan tradition was doing a presentation on them. I was already very familiar with how meditation training unfolds, both from my own experience and from the guidance of my teachers. Two things immediately struck me. First, I was impressed by the accuracy and brilliance of Asanga's description. Second, I realized how confused and distorted this particular lama's understanding of the material was. I doubt anyone could have improved his or her meditation practice from hearing that presentation. Nor was this an isolated incident. Similar experiences have shown me that, although the texts themselves have been carefully preserved, they are not always well understood by their preservers.
-
 
 5. My Stage One, Establishing a Practice, doesn't exist in the traditional model derived from Asanga. However, we haven't just tacked on a new Stage One and shifted all the other numbers up. Stages Two through Six still correspond quite closely to Asanga's, and are numbered accordingly. Here is how the two models align:
 
@@ -5376,33 +5370,27 @@ One of the five hindrances. The pursuit of, delighting in, and clinging to any o
 
 22. This may come as a surprise to those who have been taught that meditation practices are of two types, based either on concentration and tranquility (śamatha), or on mindfulness and Insight (vipassanā). This distinction is false and misleading.
 
-23. For instance, teachers of so-called “dry Insight” (sukkha-vipassana) practices from Southeast Asia (e.g., Mahasi Sayadaw, U Ba Khin, Goenka), and therapeutic methods inspired by them (e.g., Mindfulness Based Stress Reduction (MBSR), associate mindfulness with Insight to the exclusion of stable attention. These methods are not called “dry” because they don’t require stable attention. They do. In fact, true Insight practice requires that your powers of both concentration and mindfulness be equivalent to those described for the beginning of Stage Seven.<br/> 
+23. For instance, teachers of so-called “dry Insight” (sukkha-vipassana) practices from Southeast Asia (e.g., Mahasi Sayadaw, U Ba Khin, Goenka), and therapeutic methods inspired by them (e.g., Mindfulness Based Stress Reduction (MBSR), associate mindfulness with Insight to the exclusion of stable attention. These methods are not called “dry” because they don’t require stable attention. They do. In fact, true Insight practice requires that your powers of both concentration and mindfulness be equivalent to those described for the beginning of Stage Seven.<br/>
 They are called “dry” because they lack the lubricating “moisture” of śamatha: the joy, tranquility, and equanimity that make it so much easier to confront the disturbing and fearful experiences of Insight into impermanence, emptiness, and suffering. The mind of a meditator who cultivates śamatha before achieving Insight is suffused with these qualities, and is much less likely to experience a long and stressful “dark night of the soul” (the Knowledges of Suffering, or dukkha ñana).<br/>
 In dry Insight practices, the full development of śamatha is postponed until after Insight arises. However, once a meditator has come to accept those Insights as inescapable realities, he or she must continue to practice until śamatha is achieved in the form of the Knowledge of Equanimity Toward Formations (sankharaupekkha ñana). The culmination of Insight—the Awakening experience—occurs from a state of śamatha.
 
 24. One of my early teachers used to insist that blissful dullness is even harmful, numbing the mind. Given recent scientific research showing that how we use the mind can change the brain, this could very well be true.
 
 25. The way that śamatha and vipassanā are combined varies. The Buddha described three approaches to meditation: practicing śamatha first, followed by vipassanā; practicing vipassanā followed by śamatha; and śamatha and vipassanā developed together.<br/>
-Śamatha Followed by Vipassanā<!-- extraction-conversion-limit Forgotten diagram -->
-<br/>
+Śamatha Followed by Vipassanā<!-- extraction-conversion-limit Forgotten diagram --><br/>
 Samādhi and sati are developed equally, but not applied to diligent investigation until later. This approach is particularly suited for someone whose natural predisposition toward concentration is about average, and success is fairly rapid. It is the one method most used in the Indo-Tibetan tradition, and in Mahayana Buddhism in general. It was also the most common in the Theravada tradition until the late nineteenth and early twentieth centuries, when dry Insight practices became more popular.<br/>
-Vipassanā Followed by Śamatha<!-- extraction-conversion-limit Forgotten diagram -->
-<br/>
+Vipassanā Followed by Śamatha<!-- extraction-conversion-limit Forgotten diagram --><br/>
 Sati is emphasized at the expense of samādhi, joy deliberately eschewed, so tranquility and equanimity do not develop until later. This works best for someone who is naturally good at concentration and can spend extended periods of time in retreat. It’s not as helpful for a person who must rely on short periods of daily practice. A variation on this approach is also found in the Mahayana. The meditator engages in an analytical Meditation on Emptiness to develop a very strong intellectually based Insight. Of course, analytical meditation helps develop strong concentration, but it’s not strong enough for śamatha. Only later does the meditator develop śamatha. Then, after śamatha has been achieved, the intellectual understanding of Emptiness previously cultivated is taken as the meditation object in a “Union of Śamatha and Vipasyanā.”<br/>
-Śamatha and Vipassanā Yoked Together<!-- extraction-conversion-limit Forgotten diagram -->
-<br/>
+Śamatha and Vipassanā Yoked Together<!-- extraction-conversion-limit Forgotten diagram --><br/>
 This approach works well for a person whose natural concentration abilities are about average, but usually requires some guidance from a knowledgeable teacher. For someone without such a teacher, another way of practicing śamatha and vipassanā together is to alternate śamatha with dry Insight practices, steadily making progress in both. To do this, simply take advantage of both śamatha and dry Insight teachers whenever they’re available to you, and participate in meditation retreats that emphasize either practice.
 
 ### AN OVERVIEW OF THE TEN STAGES notes
 
 1. The Dalai Lama has said, “If one knows the nature, order and distinctions of the levels explained above without error and cultivates calm abiding, one can easily generate faultless meditative stabilization in about a year” (Gyatso, Tenzin. The Buddhism of Tibet. 3rd ed. Ed. Jeffrey Hopkins. Boston: Snow Lion, 2002). When I first began teaching, I also believed that with diligent practice most people should be able to master all Ten Stages in less than a year. I have since learned that is not realistic in terms of most people, and making such a flat pronouncement can be discouraging for those who have been practicing much longer without attaining that mastery.
 
-2. In his Principles of Psychology, William James captures the essence of ordinary attention:
-<br/>
-There is no such thing as voluntary attention sustained for more than a few seconds at a time. What is called sustained voluntary attention is a repetition of successive efforts which bring back the topic to the mind . . . and if [the topic] is interesting it engages the attention passively for a time . . . This passive interest may be short or long. As soon as it flags, the attention is diverted by some irrelevant thing, and then a voluntary effort may bring it back to the topic again; and so on, under favorable conditions, for hours together. [Emphasis added.]
-<br/>
-James describes the untrained mind quite well. Stability of attention normally depends on how interested we are in the object we’re focusing on. When we become less interested, attention shifts. Until you’ve mastered Stages One through Three, your attention will also be “ordinary.” In these Stages, you learn to purposely sustain your attention on a chosen object without these interruptions. This is an acquired skill that far exceeds our ordinary abilities, and James might well have been amazed by the powers of attention of skilled meditators possess. Yet it is an ability that anyone can acquire through systematic training.
-<br>
+2. In his Principles of Psychology, William James captures the essence of ordinary attention:<br/>
+There is no such thing as voluntary attention sustained for more than a few seconds at a time. What is called sustained voluntary attention is a repetition of successive efforts which bring back the topic to the mind . . . and if [the topic] is interesting it engages the attention passively for a time . . . This passive interest may be short or long. As soon as it flags, the attention is diverted by some irrelevant thing, and then a voluntary effort may bring it back to the topic again; and so on, under favorable conditions, for hours together. [Emphasis added.]<br/>
+James describes the untrained mind quite well. Stability of attention normally depends on how interested we are in the object we’re focusing on. When we become less interested, attention shifts. Until you’ve mastered Stages One through Three, your attention will also be “ordinary.” In these Stages, you learn to purposely sustain your attention on a chosen object without these interruptions. This is an acquired skill that far exceeds our ordinary abilities, and James might well have been amazed by the powers of attention of skilled meditators possess. Yet it is an ability that anyone can acquire through systematic training.<br/>
 Surgeons, chess players, professional athletes, and air traffic controllers are also examples of people who have developed an extraordinary capacity for stable, focused attention. But the stable attention of skilled meditators is different; they can sustain attention regardless of how important they consider the object to be. In addition, the quality of attention of trained professionals only reaches Stage Four (this first Milestone). Reaching the higher levels requires techniques unique to meditation. That is, mastery for the surgeon is just the beginning for the skilled meditator.
 
 3. In traditional descriptions, this marks the beginning of what is called parikamma samādhi in Pali. Samādhi is often translated as concentration, in reference to the unique concentration developed in meditation, but literally means a “gathering together” of the mind. Parikamma means “initial,” “first,” or “preliminary.” There is no samādhi before the preliminary samādhi of Stage Four.
@@ -5443,7 +5431,7 @@ Surgeons, chess players, professional athletes, and air traffic controllers are 
 
 9. Attention must be selective, focusing on whatever is most important at any given time. This is because the senses take in billions of bits of information every second. Our brains can only process part of this information, and the rate of conscious information processing is even less, only about thirty to seventy bits per second (Zimmerman, M. “Neurophysiology of Sensory Systems.” Fundamentals of Sensory Physiology. second ed. Ed. Robert F. Schmidt. Berlin/Heidelberg: Springer-Verlag, 1986, p. 116; Also, cf. Nørretranders, Tor. The User Illusion: Cutting Consciousness Down to Size. New York: Penguin, 1999, pp. 124–156; and Wilson, Timothy D. Strangers to Ourselves: Discovering the Adaptive Unconscious. Boston: Belknap Press, 2004). In other words, conscious awareness is in limited supply. The ability to expand and contract the scope of attention is an important part of the selectivity of attention.
 
-10.  There is always a cost when you expand or contract the scope of attention. The broader the scope, the more widely distributed the power of consciousness is, and the less fully conscious you are of anything in particular. That is, the more your attention encompasses all the players in the field, the less conscious you are of any particular player. On the other hand, the more fully engaged you are with certain objects, the less conscious you can be of others. So, the more intensely you focus on threading the needle, the less conscious you are of everything else. This limitation is what makes intentional control over the scope of attention so important for your practice.
+10. There is always a cost when you expand or contract the scope of attention. The broader the scope, the more widely distributed the power of consciousness is, and the less fully conscious you are of anything in particular. That is, the more your attention encompasses all the players in the field, the less conscious you are of any particular player. On the other hand, the more fully engaged you are with certain objects, the less conscious you can be of others. So, the more intensely you focus on threading the needle, the less conscious you are of everything else. This limitation is what makes intentional control over the scope of attention so important for your practice.
 
 11. Peripheral awareness involves very large numbers of serial processes occurring simultaneously in multiple sensory streams (i.e., massively parallel processing). The purpose of this processing is assembling context and searching for salience, monitoring for flagged issues of importance, and initiating automatic motor responses.
 
@@ -5534,7 +5522,7 @@ Surgeons, chess players, professional athletes, and air traffic controllers are 
 
 3. This description is also consistent with current theories in cognitive science positing that consciousness corresponds to a continuously changing state of electrical activity in the brain. The content of consciousness in any given moment is “represented” by the electrical state of large-scale neural assemblies in a feedback relationship to each other in that exact instant. The brain is a dynamic system, and the electrical brain state corresponding to consciousness is never exactly the same two moments in a row. Its momentary state is causally determined through a combination of the immediately preceding brain state, the separate activities of every part of the brain, and inputs from the senses. Research studies support the idea that conscious perception is discrete rather than continuous (Van Rullen, R., and C. Koch, “Is Perception Discrete or Continuous?” Trends in Cognitive Science, May 2003, 7[5], pp. 207–213).
 
-4. Mano-āyatana. 
+4. Mano-āyatana.
 
 5. These six types of consciousness are: eye consciousness (cakkhu-viññāṇa), ear consciousness (sota-viññāṇa), nose consciousness (ghāna-viññāṇa), tongue consciousness (jivhā-viññāṇa), body consciousness (kāya-viññāṇa), and mind consciousness (mano-viññāṇa).
 
@@ -5548,8 +5536,7 @@ Surgeons, chess players, professional athletes, and air traffic controllers are 
 
 10. Cetanā cetasika.
 
-11. How many of these hypothetical “mind moments” might be in a single second? Numerous attempts have been made to estimate the “bandwidth” of consciousness in terms of bits of information consciously processed per second (see Also, cf. Nørretranders, Tor. The User Illusion: Cutting Consciousness Down to Size. New York: Penguin Books, 1999). These estimates typically range from sixteen to forty bits per second, sometimes going as high as seventy bits. However, what’s actually being measured is only the information capacity of attention, and even this probably represents mostly information in binding moments of attention. Rhythmic brain electrical activity, sometimes called the gamma or “binding” frequency, also has a frequency range of thirty to seventy Hz, and commonly occurs at a rate of about forty Hz (Lutz, Antoine, Lawrence L. Greischar, Nancy B. Rawlings, Mathieu Ricard, and Richard J. Davidson, “Long-Term Meditators Self-Induce High-Amplitude Gamma Synchrony During Mental Practice,” The Proceedings of the National Academy of Sciences USA 101[46]16369–16373, 2004). The similarity of these numbers makes it tempting to infer that the approximate number of binding moments of consciousness occurring each second might be in the range of sixteen to seventy.
-<br/>
+11. How many of these hypothetical “mind moments” might be in a single second? Numerous attempts have been made to estimate the “bandwidth” of consciousness in terms of bits of information consciously processed per second (see Also, cf. Nørretranders, Tor. The User Illusion: Cutting Consciousness Down to Size. New York: Penguin Books, 1999). These estimates typically range from sixteen to forty bits per second, sometimes going as high as seventy bits. However, what’s actually being measured is only the information capacity of attention, and even this probably represents mostly information in binding moments of attention. Rhythmic brain electrical activity, sometimes called the gamma or “binding” frequency, also has a frequency range of thirty to seventy Hz, and commonly occurs at a rate of about forty Hz (Lutz, Antoine, Lawrence L. Greischar, Nancy B. Rawlings, Mathieu Ricard, and Richard J. Davidson, “Long-Term Meditators Self-Induce High-Amplitude Gamma Synchrony During Mental Practice,” The Proceedings of the National Academy of Sciences USA 101[46]16369–16373, 2004). The similarity of these numbers makes it tempting to infer that the approximate number of binding moments of consciousness occurring each second might be in the range of sixteen to seventy.<br/>
 However, each binding moment must at minimum bind at least two other mind moments. Furthermore, moments of peripheral awareness are also present, and there will also be a significant number of non-perceiving mind moments, unless the subject is in a maximum state of conscious arousal. So, the number of mind moments per second suggested by this model is potentially much, much larger than what’s suggested by the measures used in these preliminary studies.
 
 12. You may have heard that exclusive attention or single-pointedness is incompatible with powerful mindfulness. This is true if and only if there hasn’t been an increase in the overall power of consciousness. If there has, there will be no problem with staying highly concentrated while maintaining strong peripheral awareness.
@@ -5562,12 +5549,9 @@ However, each binding moment must at minimum bind at least two other mind moment
 ### FIFTH INTERLUDE The Mind-System
 
 1. The specific source for the Mind-System model is the description of the mind given in the Laṅkāvatāra Sūtra.
-2. For example, I describe how the ālaya, or the unconscious mind, is divided into seven separate and distinct unconscious sub-minds: the five sensory minds, the discriminating mind, and the narrating mind. I further explain how each of these sub-minds serves as the source for one of the seven respective vijñānas, or consciousnesses. This is never explicitly stated in the Laṅkāvatāra Sūtra, although it seems clearly implied, so describing it explicitly may be considered a unique contribution of this book.
-<br/>
-Second, the Laṅkāvatāra Sūtra doesn’t explicitly identify the first seven vijñānas as manifestations of a single, common process or quality, which in English we call “consciousness.” Still, this is so clearly implied in both the Laṅkāvatāra and the Abhidhamma that it has always been taken for granted. Likewise, the Laṅkāvatāra doesn’t describe a mental “place” or “space” in which the vijñānas appear, even though it’s fairly clear they all appear in the same “mind space.” We have simply taken the next obvious step—beyond the usual one of equating the Sanskrit “vijñāna” with the English word “consciousness”—by labeling the “mind space” where the seven vijñānas/consciousnesses appear as the “conscious mind.”
-<br/>
-Finally, the Laṅkāvatāra never explicitly identifies the function of the vijñānas as information exchange, even though the only discussion of how they work is in those terms. That function can obviously be inferred from everything else the sutra says about the Mind-System.
-<br/>
+2. For example, I describe how the ālaya, or the unconscious mind, is divided into seven separate and distinct unconscious sub-minds: the five sensory minds, the discriminating mind, and the narrating mind. I further explain how each of these sub-minds serves as the source for one of the seven respective vijñānas, or consciousnesses. This is never explicitly stated in the Laṅkāvatāra Sūtra, although it seems clearly implied, so describing it explicitly may be considered a unique contribution of this book.<br/>
+Second, the Laṅkāvatāra Sūtra doesn’t explicitly identify the first seven vijñānas as manifestations of a single, common process or quality, which in English we call “consciousness.” Still, this is so clearly implied in both the Laṅkāvatāra and the Abhidhamma that it has always been taken for granted. Likewise, the Laṅkāvatāra doesn’t describe a mental “place” or “space” in which the vijñānas appear, even though it’s fairly clear they all appear in the same “mind space.” We have simply taken the next obvious step—beyond the usual one of equating the Sanskrit “vijñāna” with the English word “consciousness”—by labeling the “mind space” where the seven vijñānas/consciousnesses appear as the “conscious mind.”<br/>
+Finally, the Laṅkāvatāra never explicitly identifies the function of the vijñānas as information exchange, even though the only discussion of how they work is in those terms. That function can obviously be inferred from everything else the sutra says about the Mind-System.<br/>
 I have, in brief, taken advantage of the fact that, unlike in Pali or Sanskrit, the English word “consciousness” is universally understood as referring to only one of two aspects of the mind, the other being the unconscious. This modern distinction between the conscious and unconscious minds has allowed me to define the differences in nature and function between the ālaya and the other seven vijñānas with a clarity that was not possible in the original language of the Laṅkāvatāra. This, too, might be regarded as a unique contribution of this book.
 
 3. The mind is best described as consisting of at least many thousands of highly interconnected but distinct processes, each serving a specific function. These individual processes are organized into hierarchical arrangements of increasing complexity (Minsky, Martin. The Society of Mind. New York: Simon &#x26; Schuster, 1985). Note that this hierarchical structure doesn’t take the form of a single organizational pyramid with one dominant process controlling everything from the top. Rather, the Mind-System consists of multiple, autonomous hierarchies operating in parallel and connected by a single process: an interface via consciousness. The sole function of this process is to provide for communication and collaboration between the separate hierarchies.
@@ -5717,7 +5701,7 @@ It is worth noting that the ex post facto interpretation of a cessation event as
 
 8. Whether it takes the form of subjective non-consciousness or consciousness without an object, the period of cessation may last from a fraction of a second, to minutes, to (very rarely) hours.
 
-9.  This particular scenario, requiring a fully unified mind, corresponds to the unique form of saññā-vedayita-nirodha known as nirodha-samāpatti. This exceedingly rare cessation event is traditionally said to be only possible for non-returners (anāgāmi) and Buddhas (arahants) who achieve cessation through jhāna. It is sometimes regarded as a ninth jhāna, following the four form and four formless jhānas. This nirodha-samāpatti, in which every part of the completely unified mind participates, is also known as anupādisesa nibbāna, meaning “extinction without remainder.” All other saññā-vedayita-nirodha, in which unification of mind is incomplete, are referred to as sa-upādisesa nibbāna, or “with remainder.”
+9. This particular scenario, requiring a fully unified mind, corresponds to the unique form of saññā-vedayita-nirodha known as nirodha-samāpatti. This exceedingly rare cessation event is traditionally said to be only possible for non-returners (anāgāmi) and Buddhas (arahants) who achieve cessation through jhāna. It is sometimes regarded as a ninth jhāna, following the four form and four formless jhānas. This nirodha-samāpatti, in which every part of the completely unified mind participates, is also known as anupādisesa nibbāna, meaning “extinction without remainder.” All other saññā-vedayita-nirodha, in which unification of mind is incomplete, are referred to as sa-upādisesa nibbāna, or “with remainder.”
 
 10. The Theravada distinguish four incremental stages or “paths” of Awakening known as sotāpatti, sakadāgāmi, anāgāmi, and arahant. The Mahayana distinguish a larger number of incremental stages called bhumis.
 
@@ -5793,7 +5777,7 @@ Another closely related word is śamatha, which means serenity. It’s sometimes
 
 2. Likewise, everything in the sixteen stages of the Progress of Insight, from the fourth stage (Knowledge of Arising and Passing Away) onward, also corresponds to jhāna in the general sense. These are meditations involving a stable, focused state of concentration.
 
-3. Trans. Thanissaro Bhikkhu. Gopaka Moggallana Sutta. Access to Insight. Web. 14 June 2010. http://www.accesstoinsight.org/tipītika/mn/mn.108.than.html.
+3. Trans. Thanissaro Bhikkhu. Gopaka Moggallana Sutta. Access to Insight. Web. 14 June 2010. <http://www.accesstoinsight.org/tipītika/mn/mn.108.than.html>.
 
 4. Citta means “mind,” eka means “one” or “single,” and gatā means “gone” in a certain way, as in being in or having entered a particular state or condition. Thus, cittas’ekagata refers to a mind (cittas) that has gone (gata) to oneness or unity (eka), i.e., a unified mind. Unfortunately, ekagata has traditionally been rendered as ekaggatā, where the addition of a second g forms the word agga, meaning “point” or “promontory,” and tā becomes a suffix meaning “-ness.” Consequently, this key term has been widely misunderstood as “single-pointedness” and is assumed to refer to the practice of exclusive attention. The confusion of these homophonous terms is understandable if we recall that the Buddha’s teachings were transmitted orally for centuries before being transcribed into written form. Furthermore, single-pointed, exclusive attention is an important means for achieving unification of mind, and indeed both forms (ekagata and ekaggatā) may have occurred at different places in the original oral transmission. However, the significance of this distinction is that, once the mind is unified (cittas’ekagata), single-pointed exclusive attention is no longer required. Unification of mind, not exclusive attention, is the truly essential feature of absorption in jhāna.<br/>
 In fact, exclusive attention is only used to enter the first jhāna. Vitakka and vicāra—applied and sustained attention on some object—are subsequently abandoned in all the higher (second through fourth) jhānas. However, with very Lite jhānas (like the whole-body jhānas), which are practiced before the mind has achieved significant unification in access concentration, you may need to use single-pointed attention in every jhāna to sustain adequate ekagata.
@@ -5806,7 +5790,7 @@ In fact, exclusive attention is only used to enter the first jhāna. Vitakka and
 
 8. Csikszentmihalyi, Mihaly. Flow: The Psychology of Optimal Experience. New York: Harper &#x26; Row, 1990.
 
-9.  The jhānas described in the Visuddhimagga, a compendium of Buddhist doctrines compiled around 430 CE, are of a kind that are rarely attained, because they are only accessible through prolonged, intensive practice. The Visuddhimagga is the most important text other than the Tipitaka for Theravadas, and so the Visuddhimagga view of jhāna has predominated in Theravada countries for many centuries. A similarly restricted and exclusivist definition of dhyāna is found among the Mahayana of Tibet. Both traditions claim that an absorption must be so complete as to involve a complete withdrawal of the mind from the senses to be jhāna or dhyāna. These extreme views have led to jhāna practice becoming comparatively rare in both the Theravada and Tibetan traditions, even though jhāna/dhyāna is discussed extensively throughout the Pāli Tipitaka and Sanskrit Tripitaka!<br/>
+9. The jhānas described in the Visuddhimagga, a compendium of Buddhist doctrines compiled around 430 CE, are of a kind that are rarely attained, because they are only accessible through prolonged, intensive practice. The Visuddhimagga is the most important text other than the Tipitaka for Theravadas, and so the Visuddhimagga view of jhāna has predominated in Theravada countries for many centuries. A similarly restricted and exclusivist definition of dhyāna is found among the Mahayana of Tibet. Both traditions claim that an absorption must be so complete as to involve a complete withdrawal of the mind from the senses to be jhāna or dhyāna. These extreme views have led to jhāna practice becoming comparatively rare in both the Theravada and Tibetan traditions, even though jhāna/dhyāna is discussed extensively throughout the Pāli Tipitaka and Sanskrit Tripitaka!<br/>
 The general tone of jhāna discussions in the suttas, however, suggests they are not only readily attainable, but should be practiced by all serious followers of the Eightfold Path. When asked what constitutes “right concentration” (samma samādhi), the Buddha consistently answered by describing the jhānas. Detailed descriptions in many of the suttas don’t involve the stringent interpretations that make the jhānas appear so lofty, remote, and unattainable as in the Visuddhimagga and other Theravada and Mahayana commentaries.<br/>
 A few years ago, some Western scholars and meditation teachers began to distinguish between two kinds of jhāna—the so-called “sutta” jhānas, and the “Visuddhimagga” or “commentarial” jhānas. These designations have been useful for comparing different descriptions of jhāna, and the discourse based on these distinctions has brought some clarification. However, it has also generated an unfortunate debate about which jhānas are the “real” jhānas. A close examination of the suttas reveals that they also include descriptions of jhāna consistent with those described in the Theravada and Mahayana commentaries. So, in fact, both kinds of jhāna are “sutta jhānas,” and both are “real” jhānas. This recognition has recently led to the different types of jhānas being more usefully distinguished as “lighter” or “deeper.” Unfortunately, the sutta jhāna and Visuddhimagga jhāna designations are still in use, and the debate about which are the “real” jhānas is bound to continue for some time.
 
@@ -5864,7 +5848,7 @@ Because of these similarities between the jhānas and the Stages of an Adept, pr
 
 34. Tathatā.
 
-35. Trans. Thanissaro Bhikkhu. Samaññaphala Sutta. Access to Insight. Web. 12 February 2012. http://www.accesstoinsight.org/tipitaka/dn/dn.02.0.than.html.
+35. Trans. Thanissaro Bhikkhu. Samaññaphala Sutta. Access to Insight. Web. 12 February 2012. <http://www.accesstoinsight.org/tipitaka/dn/dn.02.0.than.html>.
 
 36. This serves as the basis for the Six Higher Knowledges (chalabhiññā).
 
@@ -6623,8 +6607,8 @@ NOTE: Bold numbers refer to figure captions and boxed text.
   - and relaxation, 44, 45, 48, 49, 50–51, 54, 56, 61
   - and sensations, 48, 49, 50–52, 53, 54, 61
   - skills for, 7
-  - and summary of basic practice, 54 
-  - and time, 45, 46, 54, 55, 58–60, 62 
+  - and summary of basic practice, 54
+  - and time, 45, 46, 54, 55, 58–60, 62
   - See also Stage One
 - exclusive attention
   - and establishing a practice, 52, 53
@@ -6954,6 +6938,7 @@ NOTE: Bold numbers refer to figure captions and boxed text.
 - I GOT FED UP OF CORRECTING LlamaParse imperfect output... Calling it quits on the index.
 
 ## Copyright notes<!-- omit from toc -->
+
 Touchstone
 
 An Imprint of Simon &#x26; Schuster, Inc.
@@ -6962,7 +6947,7 @@ An Imprint of Simon &#x26; Schuster, Inc.
 
 New York, NY 10020
 
-www.SimonandSchuster.com
+<http://www.SimonandSchuster.com>
 
 Copyright © 2015 by John Charles Yates
 
@@ -6974,9 +6959,9 @@ First Touchstone trade paperback edition January 2017
 
 TOUCHSTONE and colophon are registered trademarks of Simon &#x26; Schuster, Inc.
 
-For information about special discounts for bulk purchases, please contact Simon &#x26; Schuster Special Sales at 1-866-506-1949 or business@simonandschuster.com.
+For information about special discounts for bulk purchases, please contact Simon &#x26; Schuster Special Sales at 1-866-506-1949 or <business@simonandschuster.com>.
 
-The Simon &#x26; Schuster Speakers Bureau can bring authors to your live event. For more information or to book an event, contact the Simon &#x26; Schuster Speakers Bureau at 866-248-3049 or visit our website at www.simonspeakers.com.
+The Simon &#x26; Schuster Speakers Bureau can bring authors to your live event. For more information or to book an event, contact the Simon &#x26; Schuster Speakers Bureau at 866-248-3049 or visit our website at <http://www.simonspeakers.com>.
 
 Interior design by Gwen Frankfeldt and Maureen Forys
 
@@ -6991,4 +6976,3 @@ Library of Congress Cataloging-in-Publication Data is available.
 ISBN 978-1-5011-5698-4
 
 ISBN 978-1-5011-5699-1 (ebook)
-
