@@ -1,0 +1,9 @@
+langchain
+langchain-community
+langchain-ollama
+langchain-experimental
+langchain_core
+langchain-neo4j
+langchain_text_splitters
+neo4j
+python-dotenv

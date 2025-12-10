@@ -1,0 +1,11 @@
+# Neo4j server designation and associated credentials
+NEO4J_URI=bolt://localhost:7687
+NEO4J_USERNAME=neo4j
+NEO4J_PASSWORD=your_password
+
+### LLM server designation and associate credential
+MODEL_URL=https://your_favorite_server_CHANGE_ME/ollama/
+# Credentials are handled through the OpenWebUI access key
+API_KEY=sk-CHANGE_ME
+# LLM name as known by the llama platform:
+MODEL=llama3:70b_CHANGE_ME

@@ -1,0 +1,10 @@
+# Dictionary of words to be ignored by spellchecker 
+dotenv
+dummytext
+fulltext
+langchain
+Langsmith
+mxbai
+Nonna
+ollama
+venv
