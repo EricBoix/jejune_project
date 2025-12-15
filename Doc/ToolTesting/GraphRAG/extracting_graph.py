@@ -5,9 +5,8 @@ from langchain_neo4j import Neo4jGraph
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_experimental.graph_transformers import LLMGraphTransformer
 from neo4j import GraphDatabase
-from langchain_community.vectorstores import Neo4jVector
 from langchain_community.document_loaders import TextLoader
-from langchain_ollama import OllamaEmbeddings, ChatOllama
+from langchain_ollama import ChatOllama
 from dotenv import load_dotenv
 
 DEBUG_PROMPT = "   "
@@ -23,7 +22,10 @@ MODEL_URL = os.environ["MODEL_URL"]
 headers = {"Authorization": f'Bearer {os.environ["API_KEY"]}'}
 
 # Load the original text an start graph extraction
+# loader = UnstructuredMarkdownLoader(
+#     file_path="../../../Data/ISBN_978-1-5011-5698-4_-_The_Mind_Illuminated/result_data/2017_-_Culadasa_John_Yates-Matthew_Immergut-Jeremy_Graves_-_The_Mind_Illuminated_-_llamaparse_manually_fixed.md")
 loader = TextLoader(file_path="dummytext.txt")
+
 docs = loader.load()
 
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=250, chunk_overlap=24)
@@ -50,21 +52,6 @@ graph_documents = llm_transformer.convert_to_graph_documents(documents)
 print(DEBUG_PROMPT + "\nGraph extracted.")
 print(DEBUG_PROMPT + "Resulting graph: ", graph_documents[0])
 graph.add_graph_documents(graph_documents, baseEntityLabel=True, include_source=True)
-
-embeddings = OllamaEmbeddings(
-    base_url=MODEL_URL,
-    model="mxbai-embed-large:latest",
-    client_kwargs={"headers": headers},
-)
-
-vector_index = Neo4jVector.from_existing_graph(
-    embedding=embeddings,
-    search_type="hybrid",
-    node_label="Document",
-    text_node_properties=["text"],
-    embedding_node_property="embedding",
-)
-vector_retriever = vector_index.as_retriever()
 
 ### Proceed with database creation
 driver = GraphDatabase.driver(

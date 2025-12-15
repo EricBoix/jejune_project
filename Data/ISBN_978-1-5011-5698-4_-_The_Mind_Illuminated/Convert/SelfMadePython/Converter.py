@@ -11,7 +11,6 @@ from PageLayout import PageLayout
 
 # To realize the conversion per se
 import PageInfo
-import roman
 import nltk
 
 # Refer to
@@ -39,9 +38,6 @@ class ExtractedPage:
     def set_text(self, text_in):
         self.text = text_in
 
-    def set_removed_header(self, removed_header):
-        self.removed_header = removed_header
-
     def __repr__(self):
         return (
             "Extracted paragraph id: " + repr(id(self)) + "\n"
@@ -51,9 +47,6 @@ class ExtractedPage:
             + "\n"
             + "Original Text: "
             + repr(self.original_pdf_page.extract_text(extraction_mode="layout"))
-            + "\n"
-            + "Removed header: "
-            + repr(self.removed_header)
             + "\n"
             + "Extracted text: "
             + repr(self.text)
@@ -69,30 +62,23 @@ class Converter:
     chapter, sub-chapter, paragraph...).
     """
 
-    def __init__(self):
+    def __init__(self, pdf_filename):
 
         # The original pdf document file name that this converter will act from
-        self.pdf_filename = os.path.join(
-            os.path.dirname(__file__),
-            "original_data",
-            "2019_-_Sayadaw-U-Tejaniya-Collecting-Gold-Dust-Web-Book-1.pdf",
-        )
+        self.pdf_filename = pdf_filename
 
         # The original pdf document has a title. This title ends-up embedded in
         # some headers of the pages and must be extracted from the text.
+        # CLEAN ME : they are no headers anymore
         self.book_title = "COLLECTING GOLD DUST: Nurturing the Dhamma in Daily Living"
 
         # This number of pages is already known (will assert it later on)
         self.total_page_number = PageInfo.total_page_number
 
-        # The preamble section pages use roman numbering. This offsets the numbering
-        # of the body pages
-        self.page_numbering_offset = PageInfo.page_numbering_offset
-
         # The structural information constituted by the presence of chapters,
-        # illustrations, illumination, headers ... is quite often difficult
-        # to be automatically discovered. While waiting for better (and free)
-        # tools, the following is a manually extracted.
+        # illustrations ... is quite often difficult to be automatically
+        # discovered. While waiting for better (and free) tools, the following
+        # was manually extracted
         self.pages_info = PageInfo.pages_info
 
         # Technical (optimisation) variable used to hold the correspondance
@@ -193,20 +179,6 @@ class Converter:
             return True
         return False
 
-    def __book_title_page_header(self, page_number):
-        return (
-            str(self.__convert_to_logical_page_number(page_number))
-            + r" \| "
-            + self.book_title
-        )
-
-    def __chapter_page_header(self, page_number):
-        return (
-            self.__get_chapter_name(page_number)
-            + r" \| "
-            + str(self.__convert_to_logical_page_number(page_number))
-        )
-
     def __initialize_chapter_page(self):
         if bool(self.__chapter_page):
             # Already initialized
@@ -228,9 +200,6 @@ class Converter:
     def __convert_to_logical_page_number(self, page_number):
         if page_number == 0:
             return "Cover"
-        # Deal with the first pages numbering that uses roman numeration
-        if page_number >= 1 and page_number <= 17:
-            return roman.toRoman(page_number).lower()
         # Just making sure
         original_reader_page = self.reader.pages[page_number]
         original_reader_page_number = self.reader.get_page_number(original_reader_page)
@@ -240,134 +209,7 @@ class Converter:
             print("   - pypdf::reader page number: ", original_reader_page_number)
             print("Exiting.")
             sys.exit()
-        return page_number - self.page_numbering_offset
-
-    def fix_illumination(self, page_number, text_to_fix):
-        """Chapters beginnings (that is the first page of a new chapter) start
-        with an illumination (decorated first letter) that confuses pypdf.
-        The letter of the illumination ends mixed up within the text of the
-        first sentence of the chapter. Fix that.
-        """
-        if not self.__is_chapter_beginning_page(page_number):
-            print("Erroneous call to Converter::fix_illumination()")
-            print("  This does not seem to be a chapter starting page.")
-            print("  Exiting")
-            sys.exit()
-        delimiter = self.pages_info[page_number]["chapter_info"][
-            "illumination_delimiter"
-        ]
-        if delimiter is None:
-            # This chapter has no illumination to fix (probably because there
-            # is no illumination at all). Return the original text:
-            return text_to_fix
-        # The illumination character that got embedded in the text happens to
-        # to always be preceded by a return character. Looking for the delimiter
-        # prefixed with a return character will make the result a little more
-        # secure (yet not foolproof):
-        delimiter_with_return = "[\n]" + delimiter
-        if not re.search(delimiter_with_return, text_to_fix):
-            print(
-                "Delimiter ",
-                repr(delimiter),
-                "not found within illumination of chapter on page ",
-                page_number,
-                ".",
-            )
-            print(
-                "Chapter text that we were looking to fix: ",
-                repr(text_to_fix),
-            )
-            print("Exiting.")
-            sys.exit()
-        # The first thing to do is to remove the illumination character from
-        # the text. We use this opportunity to replace the return character,
-        # that prefixed the delimiter, with a whitespace:
-        corrected_snippet = delimiter[1:]
-        text_to_fix = re.sub(
-            delimiter_with_return, " " + corrected_snippet, text_to_fix
-        )
-        # The second thing to do is to reinsert the illumination character
-        # within the text
-        text_to_fix = delimiter[0] + text_to_fix
-        # The third fix consists in replacing the hand made spacing of the
-        # first lines of the text (that would be overwritten by the illumination
-        # drawing of the leading character) with a single white space:
-        return re.sub("\n      ", " ", text_to_fix)
-
-    def __is_headless_page(self, page_number):
-        # Only illustrations can be headless
-        if not self.__page_is_illustration(page_number):
-            return False
-        # Yet some illustrations still have a header
-        if "header" in self.pages_info[page_number]:
-            return False
-        # Eventually illustrations not flagged as having a header are headless
-        return True
-
-    def __get_page_header(self, page_number):
-
-        if page_number < 0 or page_number > self.total_page_number:
-            print("Page number is outside of book page numeration.")
-            print("Exiting")
-            sys.exit()
-
-        # Pages explicitly flagged as headless, well, are headless:
-        if self.__is_headless_page(page_number):
-            return ""
-
-        # First headers of pages starting a new chapter have that new
-        # chapter name as header
-        if self.__is_chapter_beginning_page(page_number):
-            return self.__get_chapter_name(page_number)
-
-        ####### Concerning the Preamble (from page 0 to 20 included)
-        # Before the body of the book, there is a (quite lengthy) preamble that
-        # has quite specific header rules :
-        if page_number < 10:
-            # Default value for a preamble header is to be empty
-            return ""
-        if page_number >= 10 and page_number < 15:
-            return roman.toRoman(page_number).lower()
-        if page_number == 16:
-            # The following hardcoded value for page 16 is because that page
-            # doesn't follow the above logical rule. The following fix for page
-            # 16 _is_ correct ! It is the pdf that is erroneous.
-            return roman.toRoman(16).lower() + roman.toRoman(16).lower()
-        if page_number == 17:
-            return ""
-        if page_number >= 18 and page_number < 20:
-            return str(self.__convert_to_logical_page_number(page_number))
-        if page_number <= 19 and page_number <= 21:
-            return ""
-
-        ####### Concerning the body of the book.
-        # Pages of the body of the book, have a headers that follow a simple
-        # constructive rule with some exceptions...
-
-        if (page_number % 2) == 0:
-            # Odd pages have a header that is simply the book title followed
-            # by their page number
-            return self.__book_title_page_header(page_number)
-        if (page_number % 2) != 0:
-            if page_number == 133:
-                # Page 133 has a brain damaged header that doesn't
-                # follow the even page header rule (although it is a near miss). The
-                # only possible fix is to define an exception:
-                return (
-                    self.book_title
-                    + self.__get_chapter_name(133)
-                    + " ||"
-                    + str(self.__convert_to_logical_page_number(133))
-                    + str(self.__convert_to_logical_page_number(133))
-                )
-            else:
-                # Even pages have a different header pattern based on the current
-                # chapter name
-                return self.__chapter_page_header(page_number)
-
-        print("Header for page number ", page_number, " is not defined")
-        print("Exiting")
-        sys.exit()
+        return page_number
 
     def __chapter_get_first_paragraph_of_given_page(self, chapter, page_number):
         for paragraph in chapter.paragraphs:
@@ -401,7 +243,6 @@ class Converter:
     def sanitize_newlines_and_multiple_whitespaces(self, input_text):
 
         # Newlines are encountered to denote different usages
-        #  - set some tabulations of illuminations (example "\       ")
         #  - define a new paragraph in which case newline is followed by
         #    exactly 4 whitespaces (example "\n    "): refer to
         #    break_chapter_into_paragraphs() method
@@ -431,10 +272,12 @@ class Converter:
 
     def break_chapter_into_paragraphs(self, chapter):
         for page in chapter.pages:
-            # TODO: the second pattern of the split() method happens on
-            # sub-chapter beginnings. Instead of simply starting a new paragraph
-            # we should start a new sub-chapter!
-            paragraphs = re.split("\n    " + "|" + "\n\n\n", page.text)
+            if not page.text:
+                print("FIXME FIXME: WARNING, this page has NO text !?")
+                print("Exiting.")
+                sys.exit()
+
+            paragraphs = re.split("\n   ", page.text)
             page_layout = page.page_layout
             for paragraph_text in paragraphs:
                 if len(paragraph_text) == 0:
@@ -498,7 +341,7 @@ class Converter:
 
     def reconstitute_paragraphs_spreading_over_two_pages(self, chapter):
         """
-        When a page ends with un unfinished Paragraph then the next page begins
+        When a page ends with an unfinished Paragraph then the next page begins
         with the end of that Paragraph. In order to reconstitute such Paragraphs
         that were split in two, we need to
          - find the last Paragraph of a page that is not annotated with the
@@ -598,67 +441,38 @@ class Converter:
             # Then merge the two paragraphs:
             ill_ending_paragraph.merge(ill_starting_paragraph)
 
-    def remove_header(self, extracted_page):
+    def define_sanitized_text(self, extracted_page):
         """
-        The original pdf text of a page is polluted with the content of the
-        header of the page, that varies from chapter names, the book name,
-        the page number, a combination of the above ... or nothing.
-        Clean up this mess.
+        After extraction of the text from the original pdf, some ad hoc
+        manual cleaning is alas required.
         """
         original_page_text = extracted_page.original_pdf_page.extract_text(
             extraction_mode="layout"
         )
 
-        # Remove the heading bunch of whitespaces (and assimilated characters)
-        header_less_page_text = original_page_text.lstrip()
-        # Make sure the exact header text is encountered
-        header_text = self.__get_page_header(extracted_page.page_number)
-        if not re.match("^" + header_text, header_less_page_text):
-            print(
-                "Header ",
-                header_text,
-                "not found on pdf page ",
-                extracted_page.page_number,
-                " ",
-                end="",
-            )
-            print(
-                "(that is reader page number ",
-                extracted_page.page_layout.reader_page_number,
-                ")",
-            )
-            original_page_text = extracted_page.original_pdf_page.extract_text(
-                extraction_mode="layout"
-            )
-            print("Pdf original text : ", repr(original_page_text))
-            print("Exiting.")
-            sys.exit()
-        # Proceed with the removal of the header
-        header_less_page_text = re.sub(header_text, "", header_less_page_text)
-        extracted_page.set_removed_header(header_text)
-        # Eventually, remove some possibly leaving whitespaces
-        header_less_page_text = header_less_page_text.lstrip()
-        # When necessary fix chapter illumination
-        page_number = extracted_page.page_number
-        if self.__is_chapter_beginning_page(page_number):
-            header_less_page_text = self.fix_illumination(
-                page_number, header_less_page_text
-            )
+        # For some undocumented reason the pdfreader output has "\t" characters
+        # instead of whitespaces. Brutally convert those tabulations to
+        # whitespaces
+        sanitized_page_text = re.sub("\\t", " ", original_page_text)
 
-        extracted_page.text = header_less_page_text
+        # Remove the heading bunch of whitespaces (and assimilated characters)
+        sanitized_page_text = sanitized_page_text.lstrip()
+
+        extracted_page.text = sanitized_page_text
 
     def build_chapters(self):
         resulting_chapters = []
         current_chapter = Chapter("Preamble")
         resulting_chapters.append(current_chapter)
         for page_number in range(0, self.total_page_number):
-            if self.__page_is_dropped(page_number):
-                continue
 
             if self.__is_chapter_beginning_page(page_number):
                 new_chapter_name = self.__get_chapter_name(page_number)
                 current_chapter = Chapter(new_chapter_name)
                 resulting_chapters.append(current_chapter)
+
+            if self.__page_is_dropped(page_number):
+                continue
 
             # Create a new extracted page:
             new_extracted_page_layout = PageLayout(
@@ -676,7 +490,7 @@ class Converter:
                 new_extracted_page_layout,
                 self.reader.pages[page_number],  # Original page
             )
-            self.remove_header(new_extracted_page)
+            self.define_sanitized_text(new_extracted_page)
             current_chapter.add_page(new_extracted_page)
 
         for chapter in resulting_chapters:

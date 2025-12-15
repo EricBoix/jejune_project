@@ -47,6 +47,20 @@ python vector_and_graph_hybrid_search.py
 
 ## Next steps
 
+### Improve observability
+
+For the time being, tracing LLM calls (which is the minimum required for observability) is done by patching
+`venv/lib/python3.10/site-packages/langchain_ollama/chat_models.py` and adding the following line at line 947
+
+```python
+print(" (chat client call) ", end='', flush=True)  # EBO was here: added
+```
+
+Instead, (and because [LangSmith (IBM docs)](https://www.ibm.com/think/topics/langsmith) is [expensive](https://www.metacto.com/blogs/the-true-cost-of-langsmith-a-comprehensive-pricing-integration-guide)), a cleaner way consists in
+
+- using [OpenLLMetry](https://github.com/traceloop/openllmetry)
+- deploying a [docker based OpenTelemetry backend](https://opentelemetry.io/docs/demo/docker-deployment/)
+
 ### Improve the (graph) extraction process
 
 [Read this and improve the script](https://neo4j.com/blog/developer/knowledge-graph-extraction-challenges/)
@@ -54,9 +68,3 @@ python vector_and_graph_hybrid_search.py
 ### Ingesting a Markdown file
 
 - Use [LangChain's `UnstructuredMarkdownLoader`](https://docs.langchain.com/oss/python/integrations/document_loaders/unstructured_markdown)
-
-### Using LangSmith for model traces
-
-- [What is LangSmith (IBM docs)](https://www.ibm.com/think/topics/langsmith)
-- [Running LangSmith on Kubernetes](https://langchain-5e9cc07a.mintlify.app/langsmith/kubernetes) (works on MiniKube)
-- [Langsmith is expensive](https://www.metacto.com/blogs/the-true-cost-of-langsmith-a-comprehensive-pricing-integration-guide)
