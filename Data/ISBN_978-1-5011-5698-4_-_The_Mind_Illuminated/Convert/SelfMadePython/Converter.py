@@ -135,42 +135,15 @@ class Converter:
         delimiter.
         """
         next_page_number = page_number + 1
-        while not self.__page_has_paragraph_delimiter(next_page_number):
-            if not self.__page_is_illustration(next_page_number):
-                print(
-                    "Oddly enough we are on page number ",
-                    page_number,
-                    " and we are looking for the page holding the content of the end of the paragraph.",
-                )
-                print("Yet page number ", next_page_number, " is not an illustration.")
-                print("How could this be?")
-                print(
-                    "Maybe we forgot to define the first_paragraph_delimiter of page number ",
-                    next_page_number,
-                    "?",
-                )
-                print("Exiting.")
-                sys.exit()
+        while self.__page_is_illustration(next_page_number):
+            print(
+                "Skipping illustration of page number ",
+                next_page_number,
+                " while looking for the content of the end of the paragraph",
+            )
+            print("that starts on page number  ", page_number, ".")
             next_page_number += 1
         return next_page_number
-
-    def __page_has_paragraph_delimiter(self, page_number):
-        if not page_number in self.pages_info:
-            return False
-        if not "first_paragraph_delimiter" in self.pages_info[page_number]:
-            return False
-        return True
-
-    def __get_first_paragraph_delimiter(self, page_number):
-        """
-        Return the delimiting string (delimiter) the end of the paragraph that
-        started on the previous page and finishes on page with the page number page_number
-        """
-        if not self.__page_has_paragraph_delimiter(page_number):
-            print("How is it that were a looking for an unknown delimiter?")
-            print("Exiting")
-            sys.exit()
-        return self.pages_info[page_number]["first_paragraph_delimiter"]
 
     def __is_chapter_beginning_page(self, page_number):
         if not page_number in self.pages_info:
@@ -196,6 +169,36 @@ class Converter:
     def __get_chapter_name(self, page_number):
         chapter_page = self.__get_chapter_page(page_number)
         return self.pages_info[chapter_page]["chapter_info"]["name"]
+
+    def __assert_chapter_name(self, page_number, beginning_page):
+        if not self.__get_chapter_name(page_number):
+            print("The assumption that page number ", page_number)
+            print(" start a chapter was incorrect. ")
+            print("Exiting.")
+            sys.exit()
+        if not "chapter_info" in self.pages_info[page_number]:
+            print("Chapter page without chapter_info (page number ", page_number, ").")
+            print("Exiting")
+            sys.exit()
+        if not "name" in self.pages_info[page_number]["chapter_info"]:
+            print(
+                "chapter_info of chapter page without name (page number ",
+                page_number,
+                ").",
+            )
+            print("Exiting")
+            sys.exit()
+        chapter_name = self.pages_info[page_number]["chapter_info"]["name"]
+        if not re.search(chapter_name + "[\n\n\n]", beginning_page.text):
+            print(
+                "Chapter page (page number ",
+                page_number,
+                ") does not seem to start with ",
+                chapter_name,
+                ".",
+            )
+            print("Exiting.")
+            sys.exit()
 
     def __convert_to_logical_page_number(self, page_number):
         if page_number == 0:
@@ -367,9 +370,6 @@ class Converter:
             next_page_number = self.__get_page_number_finishing_last_paragraph(
                 page_number
             )
-            if not self.__page_has_paragraph_delimiter(next_page_number):
-                # The page was explicitly stated as no to be treated. Skip it.
-                continue
             if self.__is_chapter_beginning_page(next_page_number):
                 # The next page is the starting page of a new chapter. This
                 # implies that the current page is the last page of this
@@ -404,25 +404,6 @@ class Converter:
                     " has page layout ",
                     repr(ill_starting_paragraph.page_layout),
                 )
-                print("Exiting.")
-                sys.exit()
-
-            # Assert that the ill_starting_paragraph is indeed the one that
-            # holds the prescribed delimiter:
-            last_sentence_of_ill_starting_paragraph = ill_starting_paragraph.sentences[
-                -1
-            ]
-            delimiter = self.__get_first_paragraph_delimiter(next_page_number)
-            if not re.search(
-                delimiter, last_sentence_of_ill_starting_paragraph.sentence
-            ):
-                print(
-                    "Error: the last sentence of the paragraph starting on page number ",
-                    next_page_number,
-                    " does not end with the delimiter ",
-                    repr(delimiter),
-                )
-                print("Last sentence: ", repr(last_sentence_of_ill_starting_paragraph))
                 print("Exiting.")
                 sys.exit()
 
@@ -474,7 +455,7 @@ class Converter:
             if self.__page_is_dropped(page_number):
                 continue
 
-            # Create a new extracted page:
+            ### Create a new extracted page:
             new_extracted_page_layout = PageLayout(
                 self.__convert_to_logical_page_number(page_number), page_number
             )
@@ -490,8 +471,14 @@ class Converter:
                 new_extracted_page_layout,
                 self.reader.pages[page_number],  # Original page
             )
+
             self.define_sanitized_text(new_extracted_page)
             current_chapter.add_page(new_extracted_page)
+
+            ### Now that the chapter has some content assert it's name is
+            # the one documented in PageInfo
+            if self.__is_chapter_beginning_page(page_number):
+                self.__assert_chapter_name(page_number, new_extracted_page)
 
         for chapter in resulting_chapters:
             self.break_chapter_into_paragraphs(chapter)

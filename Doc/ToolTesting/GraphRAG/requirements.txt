@@ -7,3 +7,5 @@ langchain-neo4j
 langchain_text_splitters
 neo4j
 python-dotenv
+unstructured
+markdown
