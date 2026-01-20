@@ -1,0 +1,5 @@
+# Neo4j server designation and associated credentials
+NEO4J_USERNAME=neo4j
+NEO4J_PASSWORD=your_password
+NEO4J_PORT_HTTP=7475
+NEO4J_PORT_BOLT=7688

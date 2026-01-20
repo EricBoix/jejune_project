@@ -1,0 +1,69 @@
+services:
+  neo4j:
+    build: 
+      context: ./neo4j
+    ports:
+      # The following ports are for external usage only. Services running in
+      # this dock-compose can access to native ports of the servers. This 
+      # explains why neither NEO4J_PORT_BOLT nor NEO4J_PORT_HTTP are used
+      # within the other declarations of this dock-compose file.
+      - ${NEO4J_PORT_HTTP}:7474
+      - ${NEO4J_PORT_BOLT}:7687
+    environment:
+      NEO4J_AUTH: ${NEO4J_USERNAME}/${NEO4J_PASSWORD}
+      NEO4J_apoc_export_file_enabled: "true"
+      NEO4J_apoc_import_file_enabled: "true"
+      NEO4J_apoc_import_file_use__neo4j__config: "true"
+      NEO4J_dbms_security_procedures_unrestricted: "apoc.*"
+    volumes:
+      - ./Data:/data
+    healthcheck:
+      # test: wget http://localhost:7474 || exit 1
+      test: cypher-shell -u ${NEO4J_USERNAME} -p ${NEO4J_PASSWORD} -a ${NEO4J_URL} -v || exit 1
+      interval: 3s
+      retries: 5
+      start_period: 3s
+      timeout: 10s
+    networks:
+      - demo-net
+
+  neo4j-initializer:
+    # Initialization of above db as inspired by the following StackOverflow
+    # answers:
+    #    https://stackoverflow.com/a/35662191
+    #    https://stackoverflow.com/a/63624336
+    #    https://stackoverflow.com/a/70473287
+
+    # We can share the image with the above build image because the neo4j base
+    # image not only comes with the database runner per se but also integrates
+    # the cypher-shell utility.
+    build: 
+      context: ./neo4j
+    depends_on:
+      neo4j:
+        condition: service_healthy
+        restart: true
+    deploy:
+      restart_policy:
+        condition: on-failure
+        max_attempts: 5
+    volumes:
+      - ./neo4j/Cypher:/cypher
+    # The address (neo4j terminology for the -a flag parameter) should be
+    # neo4j://neo4j:7687 but can here be defaulted to the service name (
+    # (that is the hostname of the neo4j service has alias created by the
+    # docker compose utility. 
+    command: >
+      sh -cx "cypher-shell -u ${NEO4J_USERNAME} -p ${NEO4J_PASSWORD} -a neo4j  --file /cypher/GameOfThrones.cypher && 
+              cypher-shell -u ${NEO4J_USERNAME} -p ${NEO4J_PASSWORD} -a neo4j --file /cypher/GameOfThronesCentralities.cypher"
+    networks:
+      - demo-net
+  neovis:
+    build: ./neovis
+    ports:
+      - 8080:8080
+    networks:
+      - demo-net
+
+networks:
+  demo-net:
