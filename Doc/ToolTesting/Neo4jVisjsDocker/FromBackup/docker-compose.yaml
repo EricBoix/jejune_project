@@ -1,0 +1,59 @@
+services:
+ 
+  neo4j-initializer:
+    image: neo4j/neo4j-admin
+    deploy:
+      restart_policy:
+        condition: on-failure
+        max_attempts: 2
+    environment:
+      NEO4J_USERNAME: ${NEO4J_USERNAME:-neo4j}
+      NEO4J_PASSWORD: ${NEO4J_PASSWORD:-my_password}
+    volumes:
+      - ./neo4j/Data:/data
+      - ./neo4j/Backups:/backups
+    command: neo4j-admin database load neo4j --from-path=/backups
+    networks:
+      - demo-net
+ 
+  neo4j:
+    build: 
+      context: ./neo4j
+    depends_on: 
+      neo4j-initializer:
+        condition: service_completed_successfully
+    ports:
+      # The following ports are for external usage only. Services running in
+      # this dock-compose can access to native ports of the servers. This 
+      # explains why neither NEO4J_PORT_BOLT nor NEO4J_PORT_HTTP are used
+      # within the other declarations of this dock-compose file.
+      - ${NEO4J_PORT_HTTP:-7474}:7474
+      - ${NEO4J_PORT_BOLT:-7687}:7687
+    environment:
+      NEO4J_AUTH: ${NEO4J_USERNAME:-neo4j}/${NEO4J_PASSWORD:-my_password}
+      NEO4J_apoc_export_file_enabled: "true"
+      NEO4J_apoc_import_file_enabled: "true"
+      NEO4J_apoc_import_file_use__neo4j__config: "true"
+      NEO4J_dbms_security_procedures_unrestricted: "apoc.*"
+    healthcheck:
+      test: cypher-shell -u ${NEO4J_USERNAME:-neo4j} -p ${NEO4J_PASSWORD:-my_password} -a localhost -v || exit 1
+      interval: 3s
+      retries: 5
+      start_period: 3s
+      timeout: 10s
+    volumes:
+      - ./neo4j/Data:/data
+    networks:
+      - demo-net
+ 
+  neovis:
+    build: ./neovis
+    depends_on: 
+      - neo4j-initializer
+    ports:
+      - 8080:8080
+    networks:
+      - demo-net
+
+networks:
+  demo-net:

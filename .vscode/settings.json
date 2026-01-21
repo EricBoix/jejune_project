@@ -16,4 +16,7 @@
         },
         "graph_rag_python_sandbox": true, // Enable that dictionary
     },
+    "cSpell.words": [
+        "neovis"
+    ],
 }
