@@ -15,11 +15,8 @@ services:
       NEO4J_apoc_import_file_enabled: "true"
       NEO4J_apoc_import_file_use__neo4j__config: "true"
       NEO4J_dbms_security_procedures_unrestricted: "apoc.*"
-    volumes:
-      - ./Data:/data
     healthcheck:
-      # test: wget http://localhost:7474 || exit 1
-      test: cypher-shell -u ${NEO4J_USERNAME} -p ${NEO4J_PASSWORD} -a ${NEO4J_URL} -v || exit 1
+      test: cypher-shell -u ${NEO4J_USERNAME} -p ${NEO4J_PASSWORD} -a localhost -v || exit 1
       interval: 3s
       retries: 5
       start_period: 3s
@@ -49,10 +46,15 @@ services:
         max_attempts: 5
     volumes:
       - ./neo4j/Cypher:/cypher
-    # The address (neo4j terminology for the -a flag parameter) should be
-    # neo4j://neo4j:7687 but can here be defaulted to the service name (
-    # (that is the hostname of the neo4j service has alias created by the
-    # docker compose utility. 
+        # Notes concerning the command entry:
+    # - The address (neo4j terminology for the -a flag parameter) should be
+    #   neo4j://neo4j:7687 but can here be defaulted to the service name (that
+    #   is the hostname of the neo4j service as the alias implicitly created 
+    #   by the docker compose utility.
+    # - The "--username" and "--password" are defaulted by cypher-shell to the
+    #   respective values of the NEO4J_USERNAME and NEO4J_PASSWORD environment
+    #   variables. We could have equivalently used 
+    #        cypher-shell -u ${NEO4J_USERNAME} -p ${NEO4J_PASSWORD} [...]
     command: >
       sh -cx "cypher-shell -u ${NEO4J_USERNAME} -p ${NEO4J_PASSWORD} -a neo4j  --file /cypher/GameOfThrones.cypher && 
               cypher-shell -u ${NEO4J_USERNAME} -p ${NEO4J_PASSWORD} -a neo4j --file /cypher/GameOfThronesCentralities.cypher"
