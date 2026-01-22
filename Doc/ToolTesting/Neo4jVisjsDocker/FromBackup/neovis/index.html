@@ -18,7 +18,13 @@
 
     <!-- FIXME: load from dist -->
     <script type="text/javascript" src="../dist/neovis.js"></script>
-
+	
+    <!-- 
+	When trying to fix the usage of NeoVis.NEOVIS_ADVANCED_CONFIG the following
+	package import (as opposed to the locally build dist/neovis.js) proves not
+	to be helping for displaying labels of the nodes.
+	<script src="https://unpkg.com/neovis.js@2.0.2"></script> 
+	-->
 
     <script
             src="https://code.jquery.com/jquery-3.2.1.min.js"
@@ -27,7 +33,7 @@
 
     <script type="text/javascript">
 		// define config car
-		// instantiate nodevis object
+		// instantiate noevis object
 		// draw
 
 		var viz;
@@ -40,19 +46,46 @@
 					serverUser: "neo4j",
 					serverPassword: "my_password"
 				},
+				visConfig: {
+					nodes: {
+						shape: 'ellipse',
+						chosen: true
+					},
+					edges: {
+						arrows: {
+							to: {enabled: true}
+						}
+					},
+     			},
 				labels: {
-					Character: {
-						label: "name",
-						value: "pagerank",
-						group: "community"
+					Concept: {
+						// FAIL WARNING
+						// Although a "Concept" (node) within the neo4j 
+						// database has 'id' as property (just as a "Character"
+						// node within the GameOfThrone has a "name" property)
+						// the following declaration does not display ANY
+						// label at all:
+                        //       label: 'id'
+						// And if we follow the indications given by issue
+						// https://github.com/neo4j-contrib/neovis.js/issues/378
+						// the following also fails at runtime with
+						// The original code o
+						label: 'Concept',
+						[NeoVis.NEOVIS_ADVANCED_CONFIG]: {
+							function: {
+								label: (node) => viz.objectToTitleHtml(node, ["id"])
+							}
+       					}
+
 					}
 				},
+				// WARNING: labeling relationships also fails (refer above)
 				relationships: {
-					INTERACTS: {
-						value: "weight"
-					}
+				 	RELATED_TO: {
+				 		label: "id"
+				 	}
 				},
-				initialCypher: "MATCH (n) RETURN n"
+				initialCypher: "MATCH (n:Concept)-[r:RELATED_TO]->(m:Concept) RETURN *"
 			};
 
 			viz = new NeoVis.default(config);
@@ -67,7 +100,7 @@
 
 
 Cypher query: <textarea rows="4" cols=50 id="cypher"></textarea><br>
-<input type="submit" value="Submit" id="reload">
+<input type="submit" value="SubmitOOO" id="reload">
 <input type="submit" value="Stabilize" id="stabilize">
 
 
