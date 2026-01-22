@@ -1,5 +1,5 @@
 <!doctype html>
-<!-- This is a copy of https://github.com/neo4j-contrib/neovis.js/blob/master/examples/simple-example.html -->
+<!-- this is a copy of https://github.com/neo4j-contrib/neovis.js/blob/master/examples/advanced-example.html -->
 <html>
 <head>
     <title>Neovis.js Simple Example</title>
@@ -31,29 +31,52 @@
 		// instantiate nodevis object
 		// draw
 
+
 		var viz;
 
 		function draw() {
 			var config = {
-				containerId: "viz",
+				containerId: 'viz',
 				neo4j: {
 					serverUrl: "bolt://localhost:7688",
 					serverUser: "neo4j",
 					serverPassword: "my_password"
 				},
+				visConfig: {
+					nodes: {
+						shape: 'square'
+					},
+					edges: {
+						arrows: {
+							to: {enabled: true}
+						}
+					},
+				},
 				labels: {
 					Character: {
-						label: "name",
-						value: "pagerank",
-						group: "community"
+						label: 'pagerank',
+						group: 'community',
+						[NeoVis.NEOVIS_ADVANCED_CONFIG]: {
+							cypher: {
+								value: "MATCH (n) WHERE id(n) = $id RETURN n.size"
+							},
+							function: {
+								title: NeoVis.objectToTitleHtml
+							},
+						}
 					}
 				},
 				relationships: {
 					INTERACTS: {
-						value: "weight"
+						value: 'weight',
+						[NeoVis.NEOVIS_ADVANCED_CONFIG]: {
+							function: {
+								title: NeoVis.objectToTitleHtml
+							},
+						}
 					}
 				},
-				initialCypher: "MATCH (n)-[r:INTERACTS]->(m) RETURN n,r,m"
+				initialCypher: 'MATCH (n)-[r]->(m) RETURN n,r,m'
 			};
 
 			viz = new NeoVis.default(config);
@@ -75,23 +98,23 @@ Cypher query: <textarea rows="4" cols=50 id="cypher"></textarea><br>
 </body>
 
 <script>
-	$("#reload").click(function () {
+	$('#reload').click(function () {
 
-		var cypher = $("#cypher").val();
+		var cypher = $('#cypher').val();
 
 		if (cypher.length > 3) {
 			viz.renderWithCypher(cypher);
 		} else {
-			console.log("reload");
+			console.log('reload');
 			viz.reload();
 
 		}
 
 	});
 
-	$("#stabilize").click(function () {
+	$('#stabilize').click(function () {
 		viz.stabilize();
-	})
+	});
 
 </script>
 </html>

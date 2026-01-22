@@ -18,8 +18,8 @@ RUN npm --version
 RUN apt-get install -y git
 RUN git --version
 RUN git clone https://github.com/neo4j-contrib/neovis.js.git
-COPY ./index.html /neovis.js/index.html
 RUN rm -fr /neovis.js/dist     # Oddly enough dist/ got git commited ?
+COPY ./index.html /neovis.js/index.html
 WORKDIR "/neovis.js"
 RUN npm install
 RUN npm run build

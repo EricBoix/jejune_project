@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository is a straightforward [docker](https://en.wikipedia.org/wiki/Docker_(software)) based containerization of the [`neo4j-conmtrib/neovis.js`](https://github.com/neo4j-contrib/neovis.js) demo/example.
+This repository is a straightforward [docker](https://en.wikipedia.org/wiki/Docker_(software)) based containerization of the [`neo4j-contrib/neovis.js`](https://github.com/neo4j-contrib/neovis.js) demo/example.
 
 ## Running things
 
@@ -12,9 +12,13 @@ Try running the default configuration with
 docker compose up --detach
 ```
 
-and proceed with opening `http://localhost:8080` with a web browser.
+and web browse to
+
+- `http://localhost:8080` to run [neovis.js's simple-example.html](https://github.com/neo4j-contrib/neovis.js/blob/master/examples/simple-example.html)
+- `http://localhost:8080/advanced-example.html` to run [neovis.js's advanced-example.html](https://github.com/neo4j-contrib/neovis.js/blob/master/examples/advanced-example.html)
 
 > Note: In case of conflict with already used ports, you might try to
+>
 > - `cp env-reference .env`
 > - edit the resulting `.env` file to configure the noe4j service
 > - run the demo with `docker compose up --detach`
@@ -45,15 +49,6 @@ And in theory, the `index.html` file has to be manually aligned with the values 
 >
 > which points to an erroneous default configuration of the neo4j server. Yet the demo remains functional...
 
-### TODO/Someday (for the developers)
+## Notes
 
-Someday the above neo4j preparation stage will become restore a neo4j backup
-
-```bash
-cd neo4j
-docker run --interactive --tty --rm \
-    --volume=`pwd`/Data:/data \
-    --volume=`pwd`/Backups:/backups \
-    neo4j/neo4j-admin neo4j-admin database load neo4j --from-path=/backups
-docker compose up --detach
-```
+Oddly enough, it seems that the neovis.js sources include a [`dist/` sub-directory](https://github.com/neo4j-contrib/neovis.js/tree/master/dist) holding the output of the `npm run build` command. Let's hope that running a new `npm run build` overwrites this content...
