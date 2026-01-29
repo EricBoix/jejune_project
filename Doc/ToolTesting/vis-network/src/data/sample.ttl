@@ -1,0 +1,36 @@
+@prefix ex: <http://example.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+ex:Alice
+  a foaf:Person ;
+  rdfs:label "Alice" ;
+  foaf:name "Alice Smith" ;
+  foaf:age "30" ;
+  foaf:knows ex:Bob, ex:Charlie .
+
+ex:Bob
+  a foaf:Person ;
+  rdfs:label "Bob" ;
+  foaf:name "Bob Johnson" ;
+  foaf:age "28" ;
+  foaf:knows ex:Alice .
+
+ex:Charlie
+  a foaf:Person ;
+  rdfs:label "Charlie" ;
+  foaf:name "Charlie Brown" ;
+  foaf:age "35" ;
+  foaf:worksAt ex:AcmeCorp .
+
+ex:AcmeCorp
+  a ex:Company ;
+  rdfs:label "Acme Corporation" ;
+  ex:industry "Technology" ;
+  ex:founded "2010" .
+
+ex:Project1
+  a ex:Project ;
+  rdfs:label "Knowledge Graph" ;
+  ex:leader ex:Alice ;
+  ex:contributor ex:Bob, ex:Charlie .
