@@ -68,7 +68,8 @@ python vector_and_graph_hybrid_search.py
 
 ### Dump the database content for later usage
 
-The following is a direct application of the [dump and load neo4j ]
+The following is a direct application of the [dump and load neo4j examples](https://neo4j.com/docs/operations-manual/current/docker/dump-load/)
+
 ```bash
 docker compose down     # Database dump requires being "offline"
 docker run --interactive --tty --rm  \

@@ -2,11 +2,11 @@
 
 ## Project intention
 
-Refer to @user_story.md
+Refer to @Doc/user_story.md
 
 ## Technical choices
 
-Refer to the @design_notes.md
+Refer to the @Doc/design_notes.md
 
 ## Possible improvements of the project (to be discussed)
 

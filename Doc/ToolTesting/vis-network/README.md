@@ -15,49 +15,14 @@ Interactive web application for visualizing RDF knowledge graphs using vis-netwo
 - Node.js (v18+)
 - npm
 
-## Installation
+## Commands
 
-```bash
-npm install
-```
-
-## Available Scripts
-
-### Development
-
-```bash
-npm run dev
-```
-
-Starts the development server at `http://localhost:5173`.
-
-### Build
-
-```bash
-npm run build
-```
-
-Compiles TypeScript and builds the production bundle to `dist/`.
-
-### Preview
-
-```bash
-npm run preview
-```
-
-Serves the production build locally for testing.
-
-### Lint
-
-```bash
-npm run lint
-```
-
-Runs ESLint on the codebase.
+- `npm install`: install package dependencies
+- `npm run build`: compiles TypeScript and builds the production bundle to `dist/`
+- `npm run preview`: serves the production build locally for testing
+- `npm run dev`: starts a development server at `http://localhost:5173`
+- `npm run lint`: runs ESLint on the codebase.
 
 ## Tech Stack
 
-- Vite + React + TypeScript
-- vis-network (graph visualization)
-- rdflib.js (RDF parsing)
-- React Context (state management)
+Refer to
