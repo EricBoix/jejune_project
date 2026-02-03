@@ -18,12 +18,24 @@ and with opening `http://localhost:8080` with a web browser.
 
 ## Troubleshooting
 
-On launching the `docker compose up`, the error message
+### Assert the Neo4j instance is ok
+
+Open `http://locahost:7474` and authenticate with username `neo4j` and password `my_password` (refer for the default in [docker-compose.yml](./docker-compose.yaml)).
+
+### Failure message: Database already exists: neo4j
+
+On launching the `docker compose up`, the error messages
 
 ```bash
 neo4j-initializer-1  | Failed to load database 'neo4j': Database already exists: neo4j
 ```
 
-indicates the previous existence of a `neo4j/Data` directory (probably due to a previous execution). Removing that directory (e.g. with `\rm -fr neo4j/Data`) should solve the issue.
+or
+
+```bash
+Container neo4j-initializer-1  service "neo4j-initializer" didn't complete successfully: exit 1
+```
+
+indicate that the previous existence of a `neo4j/Data` directory (probably due to a previous execution) make things fail. Removing that directory (e.g. with `\rm -fr neo4j/Data`) should solve the issue.
 
 MATCH (n:Concept)-[r:RELATED_TO]->(m:Concept) RETURN *

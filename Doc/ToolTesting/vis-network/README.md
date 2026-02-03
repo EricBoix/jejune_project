@@ -23,6 +23,24 @@ Interactive web application for visualizing RDF knowledge graphs using vis-netwo
 - `npm run dev`: starts a development server at `http://localhost:5173`
 - `npm run lint`: runs ESLint on the codebase.
 
-## Tech Stack
+## Visualizing the sample graph
 
-Refer to
+### Visualizing the default sample graph
+
+The default graph is the file [`src/data/sample.ttl`](./src/data/sample.ttl)
+
+```bash
+npm run dev
+open http://localhost:5173
+```
+
+### Visualizing an output of [Neo4jToRDF converter](../Neo4jToRDF/README.md)
+
+Either use the "Load RDF File" button or
+
+```bash
+mv src/data/sample.ttl src/data/sample.ttl.orig
+ln -s ../Neo4jToRDF/output.ttl src/data/sample.ttl
+npm run dev
+open http://localhost:5173
+```
