@@ -5,7 +5,7 @@ from langchain_neo4j import Neo4jGraph
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_experimental.graph_transformers import LLMGraphTransformer
 from neo4j import GraphDatabase
-from langchain_community.document_loaders import TextLoader
+from langchain_community.document_loaders import UnstructuredMarkdownLoader
 from langchain_ollama import ChatOllama
 from dotenv import load_dotenv
 
@@ -22,10 +22,11 @@ MODEL_URL = os.environ["MODEL_URL"]
 headers = {"Authorization": f'Bearer {os.environ["API_KEY"]}'}
 
 # Load the original text an start graph extraction
-# loader = UnstructuredMarkdownLoader(
-#     file_path="../../../Data/ISBN_978-1-5011-5698-4_-_The_Mind_Illuminated/result_data/2017_-_Culadasa_John_Yates-Matthew_Immergut-Jeremy_Graves_-_The_Mind_Illuminated_-_llamaparse_manually_fixed.md")
-loader = TextLoader(file_path="dummytext.txt")
-
+# from langchain_community.document_loaders import TextLoader
+# loader = TextLoader(file_path="dummytext.txt")
+loader = UnstructuredMarkdownLoader(
+    file_path="../../../Data/ISBN_978-1-5011-5698-4_-_The_Mind_Illuminated/result_data/2017_-_Culadasa_John_Yates-Matthew_Immergut-Jeremy_Graves_-_The_Mind_Illuminated_-_llamaparse_manually_fixed.md"
+)
 docs = loader.load()
 
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=250, chunk_overlap=24)
