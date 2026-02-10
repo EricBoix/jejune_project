@@ -112,9 +112,7 @@ pages_info = {
     },
     46: {
         "type": "chapter",
-        "chapter_info": {
-            "name": "FIRST INTERLUDE",
-        },
+        "chapter_info": {"name": "FIRST INTERLUDE"},
     },
     49: {
         "type": "generic",
@@ -126,11 +124,29 @@ pages_info = {
     },
     69: {
         "type": "chapter",
-        "chapter_info": {
-            "name": "STAGE ONE",
-        },
+        "chapter_info": {"name": "STAGE ONE"},
     },
-    94: {
+    72: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
+    73: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
+    76: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
+    77: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
+    78: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
+    86: {
         "type": "generic",
         "paragraph_fits_on_page": True,
     },
@@ -156,11 +172,31 @@ pages_info = {
             "name": "STAGE THREE",
         },
     },
+    130: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
+    138: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
+    143: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
+    147: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
     151: {
         "type": "chapter",
         "chapter_info": {
             "name": "THIRD INTERLUDE",
         },
+    },
+    159: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
     },
     162: {
         "type": "chapter",
@@ -168,11 +204,55 @@ pages_info = {
             "name": "STAGE FOUR",
         },
     },
+    166: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
+    168: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
+    174: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
+    176: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
+    179: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
+    184: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
+    186: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
     196: {
         "type": "chapter",
         "chapter_info": {
             "name": "FOURTH INTERLUDE",
         },
+    },
+    203: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
+    209: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
+    211: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
+    213: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
     },
     218: {
         "type": "chapter",
@@ -180,11 +260,23 @@ pages_info = {
             "name": "STAGE FIVE",
         },
     },
+    228: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
     232: {
         "type": "chapter",
         "chapter_info": {
             "name": "FIFTH INTERLUDE",
         },
+    },
+    239: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
+    262: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
     },
     270: {
         "type": "chapter",
@@ -198,10 +290,42 @@ pages_info = {
             "name": "SIXTH INTERLUDE",
         },
     },
+    294: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
+    307: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
     318: {
         "type": "chapter",
         "chapter_info": {
             "name": "STAGE SEVEN",
+        },
+    },
+    347: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
+    351: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
+    360: {
+        "type": "chapter",
+        "chapter_info": {
+            "name": "STAGE EIGHT",
+        },
+    },
+    364: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
+    391: {
+        "type": "chapter",
+        "chapter_info": {
+            "name": "STAGE NINE",
         },
     },
 }

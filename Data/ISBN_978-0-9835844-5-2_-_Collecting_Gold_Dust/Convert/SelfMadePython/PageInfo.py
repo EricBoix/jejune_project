@@ -3,7 +3,14 @@
 # to be automatically discovered. While waiting for better (and free)
 # tools, the following was manually extracted and summarized in the
 # following dictionary.
-#
+
+# Used for debug
+total_page_number = 160
+
+# The preamble section pages use roman numbering. This offsets the numbering
+# of the body pages
+page_numbering_offset = 16
+
 # Concerning the format:
 # - "type" is the {"chapter", "generic" "illustration"}
 # - a "chapter" type must have a "chapter_info" dictionary

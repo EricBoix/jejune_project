@@ -6,8 +6,10 @@ import os
 from pypdf import PdfReader
 
 # To deal with outputs of the Converter class
+sys.path.append(os.path.join("..", "..", "..", "ConvertPdfToMarkdown"))
 from Model import Document, Chapter, Paragraph, Sentence
 from PageLayout import PageLayout
+from ExtractedPage import ExtractedPage as ExtractedPageBase
 
 # To realize the conversion per se
 import PageInfo
@@ -19,44 +21,17 @@ import nltk
 nltk.download("punkt_tab")
 
 
-class ExtractedPage:
-    """
-    Representation of a pdf extracted page
-    Attributes
-    ----------
-    page_number: int
-        The index of the page as it appears extracted by pydf::PdfReader()
-    original_pdf_page: str
-        the text as original extracted by the constructor caller
-    """
-
-    def __init__(self, page_number, layout, original_page):
-        self.page_number = page_number
-        self.page_layout = layout
-        self.original_pdf_page = original_page
-        self.text = None
-
-    def set_text(self, text_in):
-        self.text = text_in
+class ExtractedPage(ExtractedPageBase):
 
     def set_removed_header(self, removed_header):
         self.removed_header = removed_header
 
     def __repr__(self):
         return (
-            "Extracted paragraph id: " + repr(id(self)) + "\n"
-            "Python page number: " + str(self.page_number) + "\n"
-            "Reader page number (written on paper and/or as given by pdf viewer): "
-            + repr(self.page_layout.reader_page_number)
-            + "\n"
-            + "Original Text: "
-            + repr(self.original_pdf_page.extract_text(extraction_mode="layout"))
+            ExtractedPageBase.__repr__(self)
             + "\n"
             + "Removed header: "
             + repr(self.removed_header)
-            + "\n"
-            + "Extracted text: "
-            + repr(self.text)
         )
 
 
@@ -69,14 +44,10 @@ class Converter:
     chapter, sub-chapter, paragraph...).
     """
 
-    def __init__(self):
+    def __init__(self, pdf_filename):
 
         # The original pdf document file name that this converter will act from
-        self.pdf_filename = os.path.join(
-            os.path.dirname(__file__),
-            "original_data",
-            "2019_-_Sayadaw-U-Tejaniya-Collecting-Gold-Dust-Web-Book-1.pdf",
-        )
+        self.pdf_filename = pdf_filename
 
         # The original pdf document has a title. This title ends-up embedded in
         # some headers of the pages and must be extracted from the text.
