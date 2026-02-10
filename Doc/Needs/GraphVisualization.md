@@ -29,7 +29,7 @@
 Commonly referred/mentioned libraries (refer below to survey articles)
 
 - `cytoscape.js`: [on github](https://github.com/cytoscape/cytoscape.js), [website](https://js.cytoscape.org/), [examples](https://js.cytoscape.org/)
-- `sgima.js`: [github](https://github.com/jacomyal/sigma.js), [website](https://www.sigmajs.org/)
+- `sigma.js`: [github](https://github.com/jacomyal/sigma.js), [website](https://www.sigmajs.org/)
 - `vis.js-network`: [github](https://github.com/visjs/vis-network), [website](https://visjs.org/), [examples](https://visjs.github.io/vis-network/examples/)
 - [G6](https://github.com/antvis/G6) that has a [strong Chinese bias](https://github.com/antvis/G6/issues)
 
@@ -110,6 +110,7 @@ Notes and references:
 
 Notes and references:
 
+- Sigma.js uses [graphology](https://github.com/graphology/graphology) JS library for its Graph (object) data backend.
 - Tutorial [7 Helpful Sigma.js Examples to Master Graph Visualization, by Rapidops](https://rapidops.medium.com/7-helpful-sigma-js-examples-to-master-graph-visualization-a8cadf9e9b14)
 - Arrested development [since 2024](https://github.com/jacomyal/sigma.js/commits/main/)
 
