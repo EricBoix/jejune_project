@@ -71,9 +71,7 @@ class Converter:
         if not page_number in self.pages_info:
             return False
         if not "type" in self.pages_info[page_number]:
-            print("Page with no known type (page number ", page_number, ").")
-            print("Exiting")
-            sys.exit()
+            return False
         if self.pages_info[page_number]["type"] == "illustration":
             return True
         return False
@@ -115,6 +113,8 @@ class Converter:
     def __is_chapter_beginning_page(self, page_number):
         if not page_number in self.pages_info:
             return False
+        if not "type" in self.pages_info[page_number]:
+            return False
         if self.pages_info[page_number]["type"] == "chapter":
             return True
         return False
@@ -140,7 +140,7 @@ class Converter:
     def __assert_chapter_name(self, page_number, beginning_page):
         if not self.__get_chapter_name(page_number):
             print("The assumption that page number ", page_number)
-            print(" start a chapter was incorrect. ")
+            print(" starts a chapter was incorrect. ")
             print("Exiting.")
             sys.exit()
         if not "chapter_info" in self.pages_info[page_number]:
@@ -162,7 +162,9 @@ class Converter:
                 page_number,
                 ") does not seem to start with ",
                 chapter_name,
-                ".",
+                ", but with ",
+                repr(beginning_page.text),
+                sep="",
             )
             print("Exiting.")
             sys.exit()
@@ -410,17 +412,24 @@ class Converter:
 
     def build_chapters(self):
         resulting_chapters = []
-        current_chapter = Chapter("Preamble")
-        resulting_chapters.append(current_chapter)
+        current_chapter = None
         for page_number in range(0, self.total_page_number):
+
+            if self.__page_is_dropped(page_number):
+                continue
 
             if self.__is_chapter_beginning_page(page_number):
                 new_chapter_name = self.__get_chapter_name(page_number)
                 current_chapter = Chapter(new_chapter_name)
                 resulting_chapters.append(current_chapter)
-
-            if self.__page_is_dropped(page_number):
-                continue
+            else:
+                if not current_chapter:
+                    # We didn't encounter a first chapter yet the first
+                    # encountered page is not a page starting a chapter.
+                    print("Any chapter must start with...a chapter typed page.")
+                    print("Note: we didn't encounter the first chapter yet.")
+                    print("Exiting")
+                    sys.exit()
 
             ### Create a new extracted page:
             new_extracted_page_layout = PageLayout(

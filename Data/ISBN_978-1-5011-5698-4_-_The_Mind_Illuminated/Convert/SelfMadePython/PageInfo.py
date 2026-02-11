@@ -22,43 +22,33 @@ pages_info = {
         "drop_page": True,
     },
     1: {
-        "type": "generic",
         "drop_page": True,
     },
     2: {
-        "type": "illustration",  # Pure illustration
         "drop_page": True,
     },
     3: {
-        "type": "generic",
-        "paragraph_fits_on_page": True,
-    },
-    4: {
-        "type": "generic",
         "drop_page": True,
     },
+    4: {
+        "drop_page": True,
+    },
+    # Skip the "Contents" chapter/pages
     5: {
-        "type": "generic",
-        "paragraph_fits_on_page": True,
+        "drop_page": True,
     },
     6: {
-        "type": "generic",
-        "paragraph_fits_on_page": True,
+        "drop_page": True,
     },
     7: {
-        "type": "generic",
-        "paragraph_fits_on_page": True,
+        "drop_page": True,
     },
+    # Skip the "List of Figures" chapter/pages
     8: {
-        "type": "chapter",
-        "chapter_info": {
-            "name": "List of Figures",
-        },
-        "paragraph_fits_on_page": True,
+        "drop_page": True,
     },
     9: {
-        "type": "generic",
-        "paragraph_fits_on_page": True,
+        "drop_page": True,
     },
     10: {
         "type": "chapter",
@@ -322,10 +312,140 @@ pages_info = {
         "type": "generic",
         "paragraph_fits_on_page": True,
     },
+    380: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
     391: {
         "type": "chapter",
         "chapter_info": {
             "name": "STAGE NINE",
         },
+    },
+    402: {
+        "type": "chapter",
+        "chapter_info": {
+            "name": "STAGE TEN",
+        },
+    },
+    406: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
+    407: {
+        "type": "chapter",
+        "chapter_info": {
+            "name": "Final Thoughts",
+        },
+    },
+    412: {
+        "type": "chapter",
+        "chapter_info": {
+            "name": "Acknowledgments",
+        },
+    },
+    414: {
+        "type": "chapter",
+        "chapter_info": {
+            "name": "APPENDIX A\nWalking Meditation",
+        },
+    },
+    427: {
+        "type": "chapter",
+        "chapter_info": {
+            "name": "APPENDIX B\nAnalytical Meditation",
+        },
+    },
+    434: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
+    435: {
+        "type": "chapter",
+        "chapter_info": {
+            "name": "APPENDIX C\nLoving-Kindness Meditation",
+        },
+    },
+    440: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
+    441: {
+        "type": "chapter",
+        "chapter_info": {
+            "name": "APPENDIX D\nThe Jhānas",
+        },
+    },
+    452: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
+    461: {
+        "type": "chapter",
+        "chapter_info": {
+            "name": "APPENDIX E\nMindful Review",
+        },
+    },
+    473: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
+    475: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
+    476: {
+        "type": "chapter",
+        "chapter_info": {
+            "name": "About the Authors",
+        },
+    },
+    478: {
+        "type": "generic",
+        # The content of the page is dropped (and won't be part of the
+        # output)
+        "drop_page": True,
+    },
+    479: {
+        "type": "chapter",
+        "chapter_info": {
+            "name": "Glossary",
+        },
+    },
+    482: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
+    484: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
+    486: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
+    488: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
+    490: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
+    492: {
+        "type": "chapter",
+        "chapter_info": {
+            "name": "Notes",
+        },
+    },
+    # Starting from 519 we are in the Index. We should be dropping the
+    # following content instead of continuing its treatment
+    549: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
+    },
+    571: {
+        "type": "generic",
+        "paragraph_fits_on_page": True,
     },
 }

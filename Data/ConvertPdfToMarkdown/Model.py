@@ -165,5 +165,10 @@ class Document:
         md_file = MdUtils(file_name=filepath, title=self.title)
         for chapter in self.chapters:
             chapter.to_markdown(md_file)
-        md_file.new_table_of_contents(table_title="Contents", depth=2)
+        # Appending a "table a content" makes the Markdown to Pdf conversion
+        # fail. This is because (well inquire on that) converting the table of
+        # contents requires converting has markdown links (things of the
+        # form "[some name](#some-name-tag)") and resolving them, when they
+        # do not exist in the text:
+        #    md_file.new_table_of_contents(table_title="Contents", depth=2)
         md_file.create_md_file()
