@@ -12,7 +12,6 @@ from PageLayout import PageLayout
 from ExtractedPage import ExtractedPage
 
 # To realize the conversion per se
-import PageInfo
 import nltk
 
 # Refer to
@@ -29,7 +28,7 @@ class Converter:
     chapter, sub-chapter, paragraph...).
     """
 
-    def __init__(self, pdf_filename):
+    def __init__(self, pdf_filename, structural_info):
 
         # The original pdf document file name that this converter will act from
         self.pdf_filename = pdf_filename
@@ -39,14 +38,11 @@ class Converter:
         # CLEAN ME : they are no headers anymore
         self.book_title = "COLLECTING GOLD DUST: Nurturing the Dhamma in Daily Living"
 
-        # This number of pages is already known (will assert it later on)
-        self.total_page_number = PageInfo.total_page_number
-
         # The structural information constituted by the presence of chapters,
         # illustrations ... is quite often difficult to be automatically
         # discovered. While waiting for better (and free) tools, the following
         # was manually extracted
-        self.pages_info = PageInfo.pages_info
+        self.structural_info = structural_info
 
         # Technical (optimisation) variable used to hold the correspondance
         # between a given page number and the chapter to which that page
@@ -56,11 +52,11 @@ class Converter:
         self.__chapter_page = {}
 
         self.reader = PdfReader(self.pdf_filename)
-        if len(self.reader.pages) != self.total_page_number:
+        if len(self.reader.pages) != self.structural_info.total_page_number:
             print("Erroneous number of pages:")
             print(
                 "Was expecting",
-                self.total_page_number,
+                self.structural_info.total_page_number,
                 " but got ",
                 len(self.reader.pages),
             )
@@ -68,27 +64,27 @@ class Converter:
             sys.exit()
 
     def __page_is_illustration(self, page_number):
-        if not page_number in self.pages_info:
+        if not page_number in self.structural_info.pages_info:
             return False
-        if not "type" in self.pages_info[page_number]:
+        if not "type" in self.structural_info.pages_info[page_number]:
             return False
-        if self.pages_info[page_number]["type"] == "illustration":
+        if self.structural_info.pages_info[page_number]["type"] == "illustration":
             return True
         return False
 
     def __page_is_dropped(self, page_number):
-        if not page_number in self.pages_info:
+        if not page_number in self.structural_info.pages_info:
             return False
-        if not "drop_page" in self.pages_info[page_number]:
+        if not "drop_page" in self.structural_info.pages_info[page_number]:
             return False
         return True
 
     def __page_requires_paragraph_continuation(self, page_number):
-        if not page_number in self.pages_info:
+        if not page_number in self.structural_info.pages_info:
             return True  # Looks a bit ambitious but let's try it
         if self.__page_is_illustration(page_number):
             return False
-        if "paragraph_fits_on_page" in self.pages_info[page_number]:
+        if "paragraph_fits_on_page" in self.structural_info.pages_info[page_number]:
             return False
         return True
 
@@ -111,11 +107,11 @@ class Converter:
         return next_page_number
 
     def __is_chapter_beginning_page(self, page_number):
-        if not page_number in self.pages_info:
+        if not page_number in self.structural_info.pages_info:
             return False
-        if not "type" in self.pages_info[page_number]:
+        if not "type" in self.structural_info.pages_info[page_number]:
             return False
-        if self.pages_info[page_number]["type"] == "chapter":
+        if self.structural_info.pages_info[page_number]["type"] == "chapter":
             return True
         return False
 
@@ -124,7 +120,7 @@ class Converter:
             # Already initialized
             return
         current_chapter_page = None
-        for page_number in range(0, self.total_page_number):
+        for page_number in range(0, self.structural_info.total_page_number):
             if self.__is_chapter_beginning_page(page_number):
                 current_chapter_page = page_number
             self.__chapter_page[page_number] = current_chapter_page
@@ -135,7 +131,7 @@ class Converter:
 
     def __get_chapter_name(self, page_number):
         chapter_page = self.__get_chapter_page(page_number)
-        return self.pages_info[chapter_page]["chapter_info"]["name"]
+        return self.structural_info.pages_info[chapter_page]["chapter_info"]["name"]
 
     def __assert_chapter_name(self, page_number, beginning_page):
         if not self.__get_chapter_name(page_number):
@@ -143,11 +139,11 @@ class Converter:
             print(" starts a chapter was incorrect. ")
             print("Exiting.")
             sys.exit()
-        if not "chapter_info" in self.pages_info[page_number]:
+        if not "chapter_info" in self.structural_info.pages_info[page_number]:
             print("Chapter page without chapter_info (page number ", page_number, ").")
             print("Exiting")
             sys.exit()
-        if not "name" in self.pages_info[page_number]["chapter_info"]:
+        if not "name" in self.structural_info.pages_info[page_number]["chapter_info"]:
             print(
                 "chapter_info of chapter page without name (page number ",
                 page_number,
@@ -155,7 +151,7 @@ class Converter:
             )
             print("Exiting")
             sys.exit()
-        chapter_name = self.pages_info[page_number]["chapter_info"]["name"]
+        chapter_name = self.structural_info.pages_info[page_number]["chapter_info"]["name"]
         if not re.search(chapter_name + "[\n\n\n]", beginning_page.text):
             print(
                 "Chapter page (page number ",
@@ -413,7 +409,7 @@ class Converter:
     def build_chapters(self):
         resulting_chapters = []
         current_chapter = None
-        for page_number in range(0, self.total_page_number):
+        for page_number in range(0, self.structural_info.total_page_number):
 
             if self.__page_is_dropped(page_number):
                 continue

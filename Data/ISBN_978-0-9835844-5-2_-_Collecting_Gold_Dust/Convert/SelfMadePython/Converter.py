@@ -12,7 +12,6 @@ from PageLayout import PageLayout
 from ExtractedPage import ExtractedPage as ExtractedPageBase
 
 # To realize the conversion per se
-import PageInfo
 import roman
 import nltk
 
@@ -44,27 +43,17 @@ class Converter:
     chapter, sub-chapter, paragraph...).
     """
 
-    def __init__(self, pdf_filename):
+    def __init__(self, pdf_filename, structural_info):
 
         # The original pdf document file name that this converter will act from
         self.pdf_filename = pdf_filename
 
+        # Store the structural info instance
+        self.structural_info = structural_info
+
         # The original pdf document has a title. This title ends-up embedded in
         # some headers of the pages and must be extracted from the text.
         self.book_title = "COLLECTING GOLD DUST: Nurturing the Dhamma in Daily Living"
-
-        # This number of pages is already known (will assert it later on)
-        self.total_page_number = PageInfo.total_page_number
-
-        # The preamble section pages use roman numbering. This offsets the numbering
-        # of the body pages
-        self.page_numbering_offset = PageInfo.page_numbering_offset
-
-        # The structural information constituted by the presence of chapters,
-        # illustrations, illumination, headers ... is quite often difficult
-        # to be automatically discovered. While waiting for better (and free)
-        # tools, the following is a manually extracted.
-        self.pages_info = PageInfo.pages_info
 
         # Technical (optimisation) variable used to hold the correspondance
         # between a given page number and the chapter to which that page
@@ -74,11 +63,11 @@ class Converter:
         self.__chapter_page = {}
 
         self.reader = PdfReader(self.pdf_filename)
-        if len(self.reader.pages) != self.total_page_number:
+        if len(self.reader.pages) != self.structural_info.total_page_number:
             print("Erroneous number of pages:")
             print(
                 "Was expecting",
-                self.total_page_number,
+                self.structural_info.total_page_number,
                 " but got ",
                 len(self.reader.pages),
             )
@@ -86,29 +75,29 @@ class Converter:
             sys.exit()
 
     def __page_is_illustration(self, page_number):
-        if not page_number in self.pages_info:
+        if not page_number in self.structural_info.pages_info:
             return False
-        if not "type" in self.pages_info[page_number]:
+        if not "type" in self.structural_info.pages_info[page_number]:
             print("Page with no known type (page number ", page_number, ").")
             print("Exiting")
             sys.exit()
-        if self.pages_info[page_number]["type"] == "illustration":
+        if self.structural_info.pages_info[page_number]["type"] == "illustration":
             return True
         return False
 
     def __page_is_dropped(self, page_number):
-        if not page_number in self.pages_info:
+        if not page_number in self.structural_info.pages_info:
             return False
-        if not "drop_page" in self.pages_info[page_number]:
+        if not "drop_page" in self.structural_info.pages_info[page_number]:
             return False
         return True
 
     def __page_requires_paragraph_continuation(self, page_number):
-        if not page_number in self.pages_info:
+        if not page_number in self.structural_info.pages_info:
             return True  # Looks a bit ambitious but let's try it
         if self.__page_is_illustration(page_number):
             return False
-        if "paragraph_fits_on_page" in self.pages_info[page_number]:
+        if "paragraph_fits_on_page" in self.structural_info.pages_info[page_number]:
             return False
         return True
 
@@ -140,9 +129,9 @@ class Converter:
         return next_page_number
 
     def __page_has_paragraph_delimiter(self, page_number):
-        if not page_number in self.pages_info:
+        if not page_number in self.structural_info.pages_info:
             return False
-        if not "first_paragraph_delimiter" in self.pages_info[page_number]:
+        if not "first_paragraph_delimiter" in self.structural_info.pages_info[page_number]:
             return False
         return True
 
@@ -155,12 +144,12 @@ class Converter:
             print("How is it that were a looking for an unknown delimiter?")
             print("Exiting")
             sys.exit()
-        return self.pages_info[page_number]["first_paragraph_delimiter"]
+        return self.structural_info.pages_info[page_number]["first_paragraph_delimiter"]
 
     def __is_chapter_beginning_page(self, page_number):
-        if not page_number in self.pages_info:
+        if not page_number in self.structural_info.pages_info:
             return False
-        if self.pages_info[page_number]["type"] == "chapter":
+        if self.structural_info.pages_info[page_number]["type"] == "chapter":
             return True
         return False
 
@@ -183,7 +172,7 @@ class Converter:
             # Already initialized
             return
         current_chapter_page = None
-        for page_number in range(0, self.total_page_number):
+        for page_number in range(0, self.structural_info.total_page_number):
             if self.__is_chapter_beginning_page(page_number):
                 current_chapter_page = page_number
             self.__chapter_page[page_number] = current_chapter_page
@@ -194,7 +183,7 @@ class Converter:
 
     def __get_chapter_name(self, page_number):
         chapter_page = self.__get_chapter_page(page_number)
-        return self.pages_info[chapter_page]["chapter_info"]["name"]
+        return self.structural_info.pages_info[chapter_page]["chapter_info"]["name"]
 
     def __convert_to_logical_page_number(self, page_number):
         if page_number == 0:
@@ -211,7 +200,7 @@ class Converter:
             print("   - pypdf::reader page number: ", original_reader_page_number)
             print("Exiting.")
             sys.exit()
-        return page_number - self.page_numbering_offset
+        return page_number - self.structural_info.page_numbering_offset
 
     def fix_illumination(self, page_number, text_to_fix):
         """Chapters beginnings (that is the first page of a new chapter) start
@@ -224,7 +213,7 @@ class Converter:
             print("  This does not seem to be a chapter starting page.")
             print("  Exiting")
             sys.exit()
-        delimiter = self.pages_info[page_number]["chapter_info"][
+        delimiter = self.structural_info.pages_info[page_number]["chapter_info"][
             "illumination_delimiter"
         ]
         if delimiter is None:
@@ -270,14 +259,14 @@ class Converter:
         if not self.__page_is_illustration(page_number):
             return False
         # Yet some illustrations still have a header
-        if "header" in self.pages_info[page_number]:
+        if "header" in self.structural_info.pages_info[page_number]:
             return False
         # Eventually illustrations not flagged as having a header are headless
         return True
 
     def __get_page_header(self, page_number):
 
-        if page_number < 0 or page_number > self.total_page_number:
+        if page_number < 0 or page_number > self.structural_info.total_page_number:
             print("Page number is outside of book page numeration.")
             print("Exiting")
             sys.exit()
@@ -622,7 +611,7 @@ class Converter:
         resulting_chapters = []
         current_chapter = Chapter("Preamble")
         resulting_chapters.append(current_chapter)
-        for page_number in range(0, self.total_page_number):
+        for page_number in range(0, self.structural_info.total_page_number):
             if self.__page_is_dropped(page_number):
                 continue
 

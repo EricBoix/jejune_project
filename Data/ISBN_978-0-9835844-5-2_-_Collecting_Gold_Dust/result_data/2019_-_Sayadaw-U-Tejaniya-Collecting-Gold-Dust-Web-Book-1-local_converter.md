@@ -2,23 +2,6 @@
 COLLECTING GOLD DUST: Nurturing the Dhamma in Daily Living
 ==========================================================
 
-Contents
-========
-
-* [Preamble](#preamble)
-* [Acknowledgements](#acknowledgements)
-* [Dear Reader](#dear-reader)
-* [On Language](#on-language)
-* [A Note from the Teacher](#a-note-from-the-teacher)
-* [Mindfulness is a Lifestyle Change](#mindfulness-is-a-lifestyle-change)
-* [Take a Closer Look](#take-a-closer-look)
-* [Reflect. Learn. Keep Going.](#reflect-learn-keep-going)
-* [Day-to-Day](#day-to-day)
-* [A Lighter Approach](#a-lighter-approach)
-* [Continuing the Work](#continuing-the-work)
-* [Appendix: Mindfulness in Brief](#appendix-mindfulness-in-brief)
-* [Dedication](#dedication)
-
 # Preamble
 
 
@@ -266,7 +249,7 @@ THE SPECTRUM OF WANTING When there are lots of pleasant physical sensations, we 
 
 Is a physical sensation of hunger in the stomach and wanting to eat the same thing? Without mindfulness, it becomes hard to disentangle these two and it seems like the same thing. As you practice more, you will begin to recognize the differences between a bodily function like the stomach growling and the desire to eat. When you are eating something, do you notice the difference between the taste of the hot-and-sour soup and the feeling that it is something pleasant? Hunger happens in the body or materiality whereas that desire to eat happens in the mind. That pleasant feeling is called vedanā.
 
-Lobha entwines itself around an object. Will it wrap itself around an object and then let it go or will it entwine itself around an object and think, “ I can’t let it go, I need it near me, I want it all the time”? How strong is this lobha for this object? Let’s say we see a flower growing on a roadside and some people may note that it’s a lovely flower and keep walking while others may look at the flower and think that they want to keep it for themselves and pluck it. Some attachments are like post-it notes while others are more like superglue!
+Lobha entwines itself around an object. Will it wrap itself around an object and then let it go or will it entwine itself around an object and think, “I can’t let it go, I need it near me, I want it all the time”? How strong is this lobha for this object? Let’s say we see a flower growing on a roadside and some people may note that it’s a lovely flower and keep walking while others may look at the flower and think that they want to keep it for themselves and pluck it. Some attachments are like post-it notes while others are more like superglue!
 
 Let’s deconstruct attachment down to its nature. You may be attracted to a particular person and you think you like the person as a whole. What exactly is it that you like about this person? Do you like their eyes or hair? Do you like the way they behave or the way they smile? Are you attracted to a mental quality? Do you have some idea about this person? Are they kind? Do they evoke a certain feeling that you do not get elsewhere? What particular characteristic is the mind wrapping itself around? Delusion can be so strong that we are initially attracted to a particular characteristic but as we are trapped and move towards the object, we come to believe we like the whole thing. Delusion spreads the view that this whole thing is fantastic! Only one or two characteristics reel us in and then delusion ensnares us whole. Check what catches your own mind and notice the experiences you are trying to recreate or re-experience through this particular product, person or experience.
 
@@ -329,8 +312,6 @@ PAY ATTENTION TO SKILL AND RIGHT EFFORT The dhamma encompasses everything. All t
 
 Reducing defilements is a learning process, and you will find that your understanding slowly emerges and moves toward the middle path as you recognize the extremes. Suppressing and expressing are the two different extremes, but you will experience them. Watch what the mind does in those moments, learn what is beneficial and adjust accordingly. If you think something is good, you’re at one extreme, if you think something is bad you’re at the other extreme. You have to see things as they are and where they lie. Therein lies the Middle Way. For example, when a defilement arises in the mind, you neither try to stop nor encourage the defilement. Exercise right view in remembering that this defilement is not you. The defilement will express the amount of power it has and you can’t prevent that. Just step back and keep an eye on the defilement, consistently and patiently, learning and figuring out how it functions and its job description. This is a learning process.
 
-The defilement will express the amount of power it has and you can’t prevent that.
-
 HOW TO WORK WITH DIFFICULTIES How can we view the world through the lens of Dhamma? When we are thinking about the world, we are already thinking about concepts; we are thinking about people, places, and situations. When the mind pays attention to concepts, either wholesome or unwholesome states of minds will come up depending on how much wisdom we have.
 
 I’ve noticed that when yogis observe defilements, it is often from a point of view that they are enemies to be fought. That is already a battle lost. Defilements like it when you fight because fighting in itself is a defilement and they like that they have a spy in your camp. Fighting anger with anger gets you more anger, or “anger-squared.” Defilements cannot stand it when you watch them calmly. When you accept a defilement’s presence, take interest in it, and try to understand it. That’s when the defilement becomes really uncomfortable.
@@ -349,9 +330,7 @@ DON’T LET GO OF MINDFULNESS When I was deep in depression and I began to try p
 
 I became prepared when people came to talk to me. Other people can be full of defilements too and they come and unload their defilements on us. If we are not ready, we get affected and infected. Even with family members, I began to realize that I could not just relax. I could not drop mindfulness. My mindfulness got better and more continuous. This is how we learn from life—our failures and difficulties teach us.
 
-Reviewing what goes on in the mind is the work of wisdom.
-
-REVIEWING WHAT HAS HAPPENED My teacher would always ask how I was practicing and that is what I’m asking you now. “ What are you doing?” or “ What is special or different today?” were questions my teacher would ask me. Yogis who are practicing will know the answer while those who are not practicing will not know.
+REVIEWING WHAT HAS HAPPENED My teacher would always ask how I was practicing and that is what I’m asking you now. “What are you doing?” or “What is special or different today?” were questions my teacher would ask me. Yogis who are practicing will know the answer while those who are not practicing will not know.
 
 Reviewing what goes on in the mind is the work of wisdom. At first, when we watch anger, we are just watching. Reviewing what has happened sets a direction for the mind and creates a map of sorts for future awareness. You have a situation that you consider from different angles and decide to try meditating a certain way the next time. When the next time comes, you are more likely to remember to try it that different way. If you forget, set an intention to try again the next time. When you play a game with the same scenarios occurring again and again, you become an expert at knowing ahead of time what moves are beneficial and what are not at certain junctions.
 
@@ -378,8 +357,6 @@ There are two aspects of sīla or moral conduct: the doing of what should be don
 
 If we are being mindful all the time and wisdom is growing, we begin to understand what should and shouldn’t be done, because we will observe the effects of our actions and learn from that. In my experience, my behavior changed through continuous practice. I became very calm and spoke very little or not at all if it was not important. I was serious when I did talk. Being very careful in speech became important in my practice. I practiced refraining from lying, slander, gossip, talking nonsense, speaking harshly, and idle chatter. And as a result, my meditation deepened.
 
-‘Non-self’ is just that principle of cause and effect.
-
 CAUSES AND CONDITIONS Every person acts largely out of their own past causes and conditions. People brought up in Asia have a certain cultural conditioning and people brought up in the Americas or Europe have their own kind of conditioning. Then there’s individual conditioning, parental influences, and each person’s experiences throughout life; there are so many combinations and permutations that everybody has a unique footprint.
 
 ‘Non-self’ is just that principle of cause and effect. For example, somebody may have a very hot temper, and that person’s conditioning includes certain triggers that sets off their temper. If you understand that a person’s past conditioning is what is causing them to lose their temper as opposed to believing that they personally have negative intentions towards you, then it becomes easier to see the process and forgive that person. You recognize that because of conditions, the results arise, and it’s not the person who’s angry, but a set of conditions that has brought about this effect.
@@ -402,11 +379,7 @@ SPEAKING MINDFULLY We must be aware of ourselves every time we speak; come to kn
 
 For some time I have had yogis not speak for two-thirds of a retreat and then, in the remaining one-third I explain how to be mindful while speaking and get the yogis to try mindful speech for a few days. Ideally yogis will have built up enough momentum and continue being mindful while speaking. But there is generally some inability or misunderstanding of how to remain aware when talking, and after a while I notice yogis speaking without being mindful and their momentum is gone. I now limit the practice to just one session to give just a taste of what it might be like to speak mindfully.
 
-I did not invent this idea of cultivating awareness while talking. It is nothing extraordinary. The Satipaṭṭhāna Sutta prescribes, “When silent, be silent with awareness and wisdom, when speaking, speak with awareness and wisdom,” but few people practice that. It ’s difficult to practice being mindful when speaking and seeing. The reasons are that we don’t practice being mindful when speaking, seeing, and looking and we also don’t have enough momentum in our awareness. The whole point of my retreats is that I’m teaching you a skill that you’re supposed to bring into your life, and use in your life, so that mindfulness becomes a way of life. That’s why I think it is useful to know and practice being mindful when you speak, especially when you are back home and at work.
-
-The biggest trap when speaking is the strong desire to speak,
-
-wanting a lot to speak.
+I did not invent this idea of cultivating awareness while talking. It is nothing extraordinary. The Satipaṭṭhāna Sutta prescribes, “When silent, be silent with awareness and wisdom, when speaking, speak with awareness and wisdom,” but few people practice that. It’s difficult to practice being mindful when speaking and seeing. The reasons are that we don’t practice being mindful when speaking, seeing, and looking and we also don’t have enough momentum in our awareness. The whole point of my retreats is that I’m teaching you a skill that you’re supposed to bring into your life, and use in your life, so that mindfulness becomes a way of life. That’s why I think it is useful to know and practice being mindful when you speak, especially when you are back home and at work.
 
 Awareness of speech is not a strange or wonderful thing but something very simple: be mindful when you speak. Some people ask, “What should I be aware of?” and I say, “Know that you are speaking, notice whatever part of the speaking experience is most obvious to you.” On retreat we practice observing body sensations and feelings, and observing the mind. All these things are still present when we speak and we want to know which of these catches our attention as we speak. The biggest trap when speaking is the strong desire to speak, wanting a lot to speak. A strong desire to speak is greed and mindfulness then goes out the window.
 
@@ -431,8 +404,6 @@ It is very easy for defilements to come into our speech when we speak about ours
 SEEING IS DIFFERENT FROM LOOKING You need to have your eyes open while meditating in daily life. I learned how to be aware with my eyes open because fellow shopkeepers used to tease me when I meditated at work with my eyes closed. They thought I was sleeping on the job! So I learned to pay attention to the internal landscape while keeping my eyes open. I eventually became more skillful at knowing the difference between seeing and looking, and the people I worked with didn’t even know that I was meditating.
 
 If you actively know that you are aware and you are tuned into this awareness, then it’s hard to miss the seeing that’s happening in this moment. One exercise you can do to help recognize this is to sit with your eyes open when you do sitting meditation. Be naturally attuned to your internal landscape without bringing your attention to your eyes. While this is happening, attention will naturally stray to the process of seeing and you will know that seeing is happening. It can be those moments when the awareness naturally settles on seeing and it can hit us with clarity that seeing is happening right now and being known.
-
-You can’t physically know looking but you can know that the act of looking is happening.
 
 When we do not understand the reality of seeing, then sometimes putting attention on our eyes gets us lost in the things we see instead of recognizing that seeing is happening. Sight or seeing is such an obvious object that we do not recognize it as such, simply because we don’t yet understand its mechanisms.
 
@@ -462,8 +433,6 @@ If you can see the wanting to think, know that. Observe the intensity of the wan
 
 LOST IN THOUGHT Do you know that you are walking when you are walking around in daily life? You will often be lost in thought. If you realize that this is happening, just know, “The mind is thinking.” What is important is what is happening in this moment. You can do what you need to do when you arrive at your destination; there’s no need to think about it now. This way the mind will also think less about the future. You can expend a lot of mental energy speculating about the future without actually knowing what is going to happen. If you discover a very different outcome than what you had expected, you have spent a lot of energy on imagination!
 
-Planning is necessary but could be done with either defilements or wisdom.
-
 There was a businessman who went to the market to buy goods wholesale to resell later. His journey to the market was filled with thoughts of various prices, how he would try to get there before everybody to get the first pick of goods. When he arrived he found there was nothing there for him! This businessman was a yogi and so he was aware of what his mind was doing this whole time. He realized how much time he had wasted speculating and determined that on future market trips he would relax and make decisions when he arrived.
 
 MEMORIES AND PLANNING The concept or story is about the past or future but the knowing of that is in the present moment. You need to consider how you might respond to a certain situation so that you arrive prepared, but this is not the same as worrying about a situation. If you are planning and knowing with wisdom that this is happening, that’s the present moment. Planning is necessary but could be done with either defilements or wisdom. Do you worry when you’re planning? Some people plan with greed and others with anxiety but there is a way to plan and think in a relaxed way.
@@ -487,8 +456,6 @@ STRINGING EACH OTHER ALONG In daily life, we give each other compliments and tha
 FEELING LIKE BEING TAKEN ADVANTAGE OF It is very important that there is a right attitude when we are working in the world. Sometimes we may feel like we are being taken advantage of or being taken for granted. How different would it be if we thought these people were acting in a certain way because they didn’t know any better? If someone were bullying you, it would be really tough to handle! You may get tense, agitated or angry with the bully. What if you thought that this person was only inadvertently doing these things because she didn’t know better? How would you feel then? You can better understand and forgive.
 
 SELF-JUDGMENTS “Bad” is just a label. Don’t label yourself that. When the mind is wholesome, the person is good and when the mind is unwholesome, the person is bad. It’s only for that moment and that’s always changing. Continue to practice and take your time; the fact that you are practicing shows that your mind wants to become better and that means that the mind will become better.
-
-How do you experience silence? How do you experience the stillness of a garden or the woods?
 
 When doubt is strong in the mind, do not pay attention to these thoughts. Once we give attention to these kinds of thoughts, they suck us in and grow. We can anchor ourselves to feelings instead and not give any power to the conceptual thinking. Follow the same principle for other strong, unwholesome states. When we look at the feeling and discontinue looking at the thoughts, it will help the mind calm down. Then we can look at these thoughts and feelings together when we feel we’re ready.
 

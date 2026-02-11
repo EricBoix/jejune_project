@@ -1,6 +1,7 @@
 import os
 from markdown_pdf import MarkdownPdf, Section
 from Converter import Converter
+from StructuralInfo import StructuralInfo
 from Debug import (
     print_document_pages,
     print_document_paragraphs,
@@ -8,13 +9,14 @@ from Debug import (
 )
 
 converter = Converter(
-    os.path.join(
+    pdf_filename=os.path.join(
         os.path.dirname(__file__),
         "..",
         "..",
         "original_data",
         "2017_-_Culadasa_John_Yates-Matthew_Immergut-Jeremy_Graves_-_The_Mind_Illuminated.pdf",
-    )
+    ),
+    structural_info=StructuralInfo(),
 )
 document = converter.get_document()
 

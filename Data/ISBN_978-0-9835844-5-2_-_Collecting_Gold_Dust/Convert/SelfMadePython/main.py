@@ -4,6 +4,7 @@ import sys
 sys.path.append(os.path.join("..", "..", "ConvertPdfToMarkdown"))
 
 from Converter import Converter
+from StructuralInfo import StructuralInfo
 from Debug import (
     print_document_pages,
     print_document_paragraphs,
@@ -11,13 +12,14 @@ from Debug import (
 )
 
 converter = Converter(
-    os.path.join(
+    pdf_filename=os.path.join(
         os.path.dirname(__file__),
         "..",
         "..",
         "original_data",
         "2019_-_Sayadaw-U-Tejaniya-Collecting-Gold-Dust-Web-Book-1.pdf",
-    )
+    ),
+    structural_info=StructuralInfo(),
 )
 document = converter.get_document()
 # Generate the markdown file
