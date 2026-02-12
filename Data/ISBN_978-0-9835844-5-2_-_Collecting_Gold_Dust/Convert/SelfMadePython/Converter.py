@@ -53,16 +53,8 @@ class Converter(ConverterBase):
             and page_number <= self.structural_info.page_numbering_offset + 1
         ):
             return roman.toRoman(page_number).lower()
-        # Just making sure
-        original_reader_page = self.reader.pages[page_number]
-        original_reader_page_number = self.reader.get_page_number(original_reader_page)
-        if page_number != original_reader_page_number:
-            print("Python page number does not match pypdf::reader page number:")
-            print("   - Python page number: ", page_number)
-            print("   - pypdf::reader page number: ", original_reader_page_number)
-            print("Exiting.")
-            sys.exit()
-        return page_number - self.structural_info.page_numbering_offset
+        else:
+            return page_number - self.structural_info.page_numbering_offset
 
     def _get_page_number_finishing_last_paragraph(self, page_number):
         """

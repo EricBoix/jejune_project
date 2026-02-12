@@ -17,15 +17,6 @@ class Converter(ConverterBase):
     def _convert_to_logical_page_number(self, page_number):
         if page_number == 0:
             return "Cover"
-        # Just making sure
-        original_reader_page = self.reader.pages[page_number]
-        original_reader_page_number = self.reader.get_page_number(original_reader_page)
-        if page_number != original_reader_page_number:
-            print("Python page number does not match pypdf::reader page number:")
-            print("   - Python page number: ", page_number)
-            print("   - pypdf::reader page number: ", original_reader_page_number)
-            print("Exiting.")
-            sys.exit()
         return page_number
 
     def _get_page_number_finishing_last_paragraph(self, page_number):

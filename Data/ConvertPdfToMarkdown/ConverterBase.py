@@ -42,6 +42,7 @@ class ConverterBase:
         #  - the associated value holds the current chapter number for that key
         self._chapter_page = {}
 
+        # Parse the pdf and make some basic coherence checks on the result:
         self.reader = PdfReader(self.pdf_filename)
         if len(self.reader.pages) != self.structural_info.total_page_number:
             print("Erroneous number of pages:")
@@ -53,6 +54,22 @@ class ConverterBase:
             )
             print("Exiting")
             sys.exit()
+        for page_number in range(self.structural_info.total_page_number):
+            self._assert_reader_page_number_is_coherent(page_number)
+
+    def _assert_reader_page_number_is_coherent(self, page_number):
+        # Slightly paranoid check on the reader numbering job coherence. When
+        # given a page_number assert that the corresponding page wears that
+        # very same page number (pretty dumb test BTW)
+        original_reader_page = self.reader.pages[page_number]
+        original_reader_page_number = self.reader.get_page_number(original_reader_page)
+        if page_number != original_reader_page_number:
+            print("Python page number does not match pypdf::reader page number:")
+            print("   - Python page number: ", page_number)
+            print("   - pypdf::reader page number: ", original_reader_page_number)
+            print("Exiting.")
+            sys.exit()
+        return True
 
     def _page_is_dropped(self, page_number):
         if not page_number in self.structural_info.pages_info:
