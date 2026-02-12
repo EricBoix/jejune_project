@@ -12,6 +12,7 @@ class StructuralInfo(StructuralInfoBase):
 
     def __init__(self):
         StructuralInfoBase.__init__(self)
+
         self.total_page_number = 160
         # The original pdf document has a title that is depicted (as opposed to
         # written in text) in the cover illustration and thus cannot be

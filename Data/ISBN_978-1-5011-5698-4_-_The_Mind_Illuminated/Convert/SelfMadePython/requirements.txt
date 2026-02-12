@@ -3,3 +3,4 @@ roman>=5.0
 nltk>=3.9.1
 mdutils
 markdown_pdf
+black

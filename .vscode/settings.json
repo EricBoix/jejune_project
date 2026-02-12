@@ -1,5 +1,4 @@
 {
-
     "cSpell.customDictionaries": {
         "tim-words": {
             "name": "the_mind_illuminated",
@@ -19,4 +18,8 @@
     "cSpell.words": [
         "neovis"
     ],
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.black-formatter",
+      "editor.formatOnSave": true
+    }
 }
