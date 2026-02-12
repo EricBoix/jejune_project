@@ -4,6 +4,8 @@ import sys
 sys.path.append(os.path.join("..", "..", "..", "ConvertPdfToMarkdown"))
 from StructuralInfoBase import StructuralInfoBase
 
+import roman
+
 
 class StructuralInfo(StructuralInfoBase):
     # The structural information per se with extension specifics
@@ -667,6 +669,15 @@ class StructuralInfo(StructuralInfoBase):
             },
         }
 
+    def convert_to_logical_page_number(self, page_number):
+        if page_number == 0:
+            return "Cover"
+        # Deal with the first pages numbering that uses roman numeration
+        if page_number >= 1 and page_number <= self.page_numbering_offset + 1:
+            return roman.toRoman(page_number).lower()
+        else:
+            return page_number - self.page_numbering_offset
+
     def _page_is_illustration(self, page_number):
         if not page_number in self.pages_info:
             return False
@@ -675,6 +686,8 @@ class StructuralInfo(StructuralInfoBase):
         if self.pages_info[page_number]["type"] == "illustration":
             return True
         return False
+
+    ##### Header related thingies
 
     def _page_is_headless(self, page_number):
         # Only illustrations can be headless
@@ -685,3 +698,82 @@ class StructuralInfo(StructuralInfoBase):
             return False
         # Eventually illustrations not flagged as having a header are headless
         return True
+
+    def chapter_page_header(self, page_number):
+        return (
+            self._get_chapter_name(page_number)
+            + r" \| "
+            + str(self.convert_to_logical_page_number(page_number))
+        )
+
+    def book_title_page_header(self, page_number):
+        return (
+            str(self.convert_to_logical_page_number(page_number))
+            + r" \| "
+            + self.book_title
+        )
+
+    def get_page_header(self, page_number):
+
+        if page_number < 0 or page_number > self.total_page_number:
+            print("Page number is outside of book page numeration.")
+            print("Exiting")
+            sys.exit()
+
+        # Pages explicitly flagged as headless, well, are headless:
+        if self._page_is_headless(page_number):
+            return ""
+
+        # First headers of pages starting a new chapter have that new
+        # chapter name as header
+        if self._is_chapter_beginning_page(page_number):
+            return self._get_chapter_name(page_number)
+
+        ####### Concerning the Preamble (from page 0 to 20 included)
+        # Before the body of the book, there is a (quite lengthy) preamble that
+        # has quite specific header rules :
+        if page_number < 10:
+            # Default value for a preamble header is to be empty
+            return ""
+        if page_number >= 10 and page_number < 15:
+            return roman.toRoman(page_number).lower()
+        if page_number == 16:
+            # The following hardcoded value for page 16 is because that page
+            # doesn't follow the above logical rule. The following fix for page
+            # 16 _is_ correct ! It is the pdf that is erroneous.
+            return roman.toRoman(16).lower() + roman.toRoman(16).lower()
+        if page_number == 17:
+            return ""
+        if page_number >= 18 and page_number < 20:
+            return str(self.convert_to_logical_page_number(page_number))
+        if page_number <= 19 and page_number <= 21:
+            return ""
+
+        ####### Concerning the body of the book.
+        # Pages of the body of the book, have a headers that follow a simple
+        # constructive rule with some exceptions...
+
+        if (page_number % 2) == 0:
+            # Odd pages have a header that is simply the book title followed
+            # by their page number
+            return self.book_title_page_header(page_number)
+        if (page_number % 2) != 0:
+            if page_number == 133:
+                # Page 133 has a brain damaged header that doesn't
+                # follow the even page header rule (although it is a near miss). The
+                # only possible fix is to define an exception:
+                return (
+                    self.book_title
+                    + self._get_chapter_name(133)
+                    + " ||"
+                    + str(self.convert_to_logical_page_number(133))
+                    + str(self.convert_to_logical_page_number(133))
+                )
+            else:
+                # Even pages have a different header pattern based on the current
+                # chapter name
+                return self.chapter_page_header(page_number)
+
+        print("Header for page number ", page_number, " is not defined")
+        print("Exiting")
+        sys.exit()

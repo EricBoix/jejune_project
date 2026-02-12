@@ -218,11 +218,6 @@ class ConverterBase:
 
     # Abstract methods to be implemented by subclasses
 
-    def _convert_to_logical_page_number(self, page_number):
-        raise NotImplementedError(
-            "Subclasses must implement _convert_to_logical_page_number"
-        )
-
     def _get_page_number_finishing_last_paragraph(self, page_number):
         raise NotImplementedError(
             "Subclasses must implement _get_page_number_finishing_last_paragraph"

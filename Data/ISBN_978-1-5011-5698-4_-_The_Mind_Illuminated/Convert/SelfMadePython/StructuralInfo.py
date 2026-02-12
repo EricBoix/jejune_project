@@ -394,3 +394,8 @@ class StructuralInfo(StructuralInfoBase):
                 "paragraph_fits_on_page": True,
             },
         }
+
+    def convert_to_logical_page_number(self, page_number):
+        if page_number == 0:
+            return "Cover"
+        return page_number

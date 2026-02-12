@@ -14,11 +14,6 @@ class Converter(ConverterBase):
     Converter for The Mind Illuminated book.
     """
 
-    def _convert_to_logical_page_number(self, page_number):
-        if page_number == 0:
-            return "Cover"
-        return page_number
-
     def _get_page_number_finishing_last_paragraph(self, page_number):
         """
         A page that is followed by one many dropped pages will need to skip
@@ -158,7 +153,8 @@ class Converter(ConverterBase):
 
             ### Create a new extracted page:
             new_extracted_page_layout = PageLayout(
-                self._convert_to_logical_page_number(page_number), page_number
+                self.structural_info.convert_to_logical_page_number(page_number),
+                page_number,
             )
             new_extracted_page_layout.set_reference_text(
                 "[Page: "
