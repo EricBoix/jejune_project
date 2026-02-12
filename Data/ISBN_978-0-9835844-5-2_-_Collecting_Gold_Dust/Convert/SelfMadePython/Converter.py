@@ -41,7 +41,10 @@ class Converter(ConverterBase):
         if page_number == 0:
             return "Cover"
         # Deal with the first pages numbering that uses roman numeration
-        if page_number >= 1 and page_number <= 17:
+        if (
+            page_number >= 1
+            and page_number <= self.structural_info.page_numbering_offset + 1
+        ):
             return roman.toRoman(page_number).lower()
         # Just making sure
         original_reader_page = self.reader.pages[page_number]

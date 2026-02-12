@@ -260,11 +260,6 @@ class ConverterBase:
             "Subclasses must implement _get_page_number_finishing_last_paragraph"
         )
 
-    def break_chapter_into_paragraphs(self, chapter):
-        raise NotImplementedError(
-            "Subclasses must implement break_chapter_into_paragraphs"
-        )
-
     def reconstitute_paragraphs_spreading_over_two_pages(self, chapter):
         raise NotImplementedError(
             "Subclasses must implement reconstitute_paragraphs_spreading_over_two_pages"
