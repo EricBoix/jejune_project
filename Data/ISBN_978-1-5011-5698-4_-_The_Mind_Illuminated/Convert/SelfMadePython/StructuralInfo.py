@@ -1,20 +1,18 @@
-class StructuralInfo:
-    """
-    The structural information constituted by the presence of chapters,
-    illustrations, illumination, headers ... is quite often difficult
-    to be automatically discovered. While waiting for better (and free)
-    tools, the following was manually extracted and summarized in the
-    following dictionary.
+import os
+import sys
 
-    Concerning the format:
-    - the integer index is the page_number as used by pdf's
-      PdfReader.get_page(page_number) method which is a vector index and as such
-      starts at 0 (the notation .pages[page_number] being preferred)
-    - "type" is among {"chapter", "generic" "illustration"}
-    - a "chapter" type must have a "chapter_info" dictionary
+sys.path.append(os.path.join("..", "..", "..", "ConvertPdfToMarkdown"))
+from StructuralInfoBase import StructuralInfoBase
+
+
+class StructuralInfo(StructuralInfoBase):
+    """
+    Nothing specific to this structural information that only uses the standard
+    notions of StructuralInfoBase.
     """
 
     def __init__(self):
+        StructuralInfoBase.__init__(self)
         self.total_page_number = 578
         # The original pdf document has a title that is depicted (as opposed to
         # written in text) in the cover illustration and thus cannot be

@@ -1,16 +1,17 @@
-# The structural information constituted by the presence of chapters,
-# illustrations, illumination, headers ... is quite often difficult
-# to be automatically discovered. While waiting for better (and free)
-# tools, the following was manually extracted and summarized in the
-# following dictionary.
+import os
+import sys
+
+sys.path.append(os.path.join("..", "..", "..", "ConvertPdfToMarkdown"))
+from StructuralInfoBase import StructuralInfoBase
 
 
-class StructuralInfo:
-    # Concerning the format:
-    # - "type" is the {"chapter", "generic" "illustration"}
-    # - a "chapter" type must have a "chapter_info" dictionary
+class StructuralInfo(StructuralInfoBase):
+    # The structural information per se with extension specifics
+    # - "type" can be "illustration" (with an optional "header" boolean flag)
+    # - a "chapter_info" can have an optional "illumination_delimiter"
 
     def __init__(self):
+        StructuralInfoBase.__init__(self)
         self.total_page_number = 160
         # The original pdf document has a title that is depicted (as opposed to
         # written in text) in the cover illustration and thus cannot be
@@ -28,44 +29,32 @@ class StructuralInfo:
 
         self.pages_info = {
             0: {
-                # Artificial/fake chapter that is not explicitly defined in the
-                # book. This is a technicality for the first pages not to be
-                # devoid of belonging chapter:
-                "type": "chapter",
-                "chapter_info": {
-                    "name": "",
-                    "illumination_delimiter": None,
-                },
                 "drop_page": True,
             },
             1: {
-                "type": "generic",
-                # The content of the page is dropped (and won't be part of the
-                # output)
                 "drop_page": True,
             },
             2: {
-                "type": "illustration",  # Pure illustration
+                # Pure illustration
                 "drop_page": True,
             },
             3: {
-                "type": "generic",
-                "paragraph_fits_on_page": True,
+                # Chapters with no given name are artificial/fake chapters that
+                # do not exist in the book. They are a technicality for the
+                # first pages not to be devoid of belonging chapter:
+                "type": "chapter",
+                "chapter_info": {"name": "", "illumination_delimiter": None},
             },
             4: {
-                "type": "generic",
                 "drop_page": True,
             },
             5: {
-                "type": "generic",
-                "paragraph_fits_on_page": True,
-                # The sting "\n    "
-                "no_paragraphs": True,
-            },
-            6: {
-                "type": "generic",
+                # Another fake/ghost chapter
+                "type": "chapter",
+                "chapter_info": {"name": "", "illumination_delimiter": None},
                 "paragraph_fits_on_page": True,
             },
+            # 6: implicitly "generic" page
             7: {
                 "type": "chapter",
                 "chapter_info": {

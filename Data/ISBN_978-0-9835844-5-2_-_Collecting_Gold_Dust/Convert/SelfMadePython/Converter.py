@@ -105,7 +105,7 @@ class Converter(ConverterBase):
             if not self.__page_has_paragraph_delimiter(next_page_number):
                 # The page was explicitly stated as no to be treated. Skip it.
                 continue
-            if self._is_chapter_beginning_page(next_page_number):
+            if self.structural_info._is_chapter_beginning_page(next_page_number):
                 # The next page is the starting page of a new chapter. This
                 # implies that the current page is the last page of this
                 # chapter which is thus complete. There is hence nothing to be
@@ -218,7 +218,7 @@ class Converter(ConverterBase):
         header_less_page_text = header_less_page_text.lstrip()
         # When necessary fix chapter illumination
         page_number = extracted_page.page_number
-        if self._is_chapter_beginning_page(page_number):
+        if self.structural_info._is_chapter_beginning_page(page_number):
             header_less_page_text = self.fix_illumination(
                 page_number, header_less_page_text
             )
@@ -227,18 +227,26 @@ class Converter(ConverterBase):
 
     def build_chapters(self):
         resulting_chapters = []
-        current_chapter = Chapter("Preamble")
-        resulting_chapters.append(current_chapter)
+        current_chapter = None
         for page_number in range(0, self.structural_info.total_page_number):
+
             if self._page_is_dropped(page_number):
                 continue
 
-            if self._is_chapter_beginning_page(page_number):
-                new_chapter_name = self._get_chapter_name(page_number)
+            if self.structural_info._is_chapter_beginning_page(page_number):
+                new_chapter_name = self.structural_info._get_chapter_name(page_number)
                 current_chapter = Chapter(new_chapter_name)
                 resulting_chapters.append(current_chapter)
+            else:
+                if not current_chapter:
+                    # We didn't encounter a first chapter yet the first
+                    # encountered page is not a page starting a chapter.
+                    print("Any chapter must start with...a chapter typed page.")
+                    print("Note: we didn't encounter the first chapter yet.")
+                    print("Exiting")
+                    sys.exit()
 
-            # Create a new extracted page:
+            ### Create a new extracted page:
             new_extracted_page_layout = PageLayout(
                 self._convert_to_logical_page_number(page_number), page_number
             )
@@ -254,6 +262,7 @@ class Converter(ConverterBase):
                 new_extracted_page_layout,
                 self.reader.pages[page_number],  # Original page
             )
+
             self.remove_header(new_extracted_page)
             current_chapter.add_page(new_extracted_page)
 
@@ -271,7 +280,7 @@ class Converter(ConverterBase):
         The letter of the illumination ends mixed up within the text of the
         first sentence of the chapter. Fix that.
         """
-        if not self._is_chapter_beginning_page(page_number):
+        if not self.structural_info._is_chapter_beginning_page(page_number):
             print("Erroneous call to Converter::fix_illumination()")
             print("  This does not seem to be a chapter starting page.")
             print("  Exiting")
@@ -330,8 +339,8 @@ class Converter(ConverterBase):
 
         # First headers of pages starting a new chapter have that new
         # chapter name as header
-        if self._is_chapter_beginning_page(page_number):
-            return self._get_chapter_name(page_number)
+        if self.structural_info._is_chapter_beginning_page(page_number):
+            return self.structural_info._get_chapter_name(page_number)
 
         ####### Concerning the Preamble (from page 0 to 20 included)
         # Before the body of the book, there is a (quite lengthy) preamble that
@@ -368,7 +377,7 @@ class Converter(ConverterBase):
                 # only possible fix is to define an exception:
                 return (
                     self.structural_info.book_title
-                    + self._get_chapter_name(133)
+                    + self.structural_info._get_chapter_name(133)
                     + " ||"
                     + str(self._convert_to_logical_page_number(133))
                     + str(self._convert_to_logical_page_number(133))
@@ -412,7 +421,7 @@ class Converter(ConverterBase):
 
     def __chapter_page_header(self, page_number):
         return (
-            self._get_chapter_name(page_number)
+            self.structural_info._get_chapter_name(page_number)
             + r" \| "
             + str(self._convert_to_logical_page_number(page_number))
         )

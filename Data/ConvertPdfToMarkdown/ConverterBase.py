@@ -35,13 +35,6 @@ class ConverterBase:
         # was manually extracted
         self.structural_info = structural_info
 
-        # Technical (optimisation) variable used to hold the correspondance
-        # between a given page number and the chapter to which that page
-        # belongs to. In other terms for this dictionary
-        #  - a key is a page number
-        #  - the associated value holds the current chapter number for that key
-        self._chapter_page = {}
-
         # Parse the pdf and make some basic coherence checks on the result:
         self.reader = PdfReader(self.pdf_filename)
         if len(self.reader.pages) != self.structural_info.total_page_number:
@@ -84,33 +77,6 @@ class ConverterBase:
         if "paragraph_fits_on_page" in self.structural_info.pages_info[page_number]:
             return False
         return True
-
-    def _is_chapter_beginning_page(self, page_number):
-        if not page_number in self.structural_info.pages_info:
-            return False
-        if not "type" in self.structural_info.pages_info[page_number]:
-            return False
-        if self.structural_info.pages_info[page_number]["type"] == "chapter":
-            return True
-        return False
-
-    def _initialize_chapter_page(self):
-        if bool(self._chapter_page):
-            # Already initialized
-            return
-        current_chapter_page = None
-        for page_number in range(0, self.structural_info.total_page_number):
-            if self._is_chapter_beginning_page(page_number):
-                current_chapter_page = page_number
-            self._chapter_page[page_number] = current_chapter_page
-
-    def _get_chapter_page(self, page_number):
-        self._initialize_chapter_page()
-        return self._chapter_page[page_number]
-
-    def _get_chapter_name(self, page_number):
-        chapter_page = self._get_chapter_page(page_number)
-        return self.structural_info.pages_info[chapter_page]["chapter_info"]["name"]
 
     def _chapter_get_first_paragraph_of_given_page(self, chapter, page_number):
         for paragraph in chapter.paragraphs:

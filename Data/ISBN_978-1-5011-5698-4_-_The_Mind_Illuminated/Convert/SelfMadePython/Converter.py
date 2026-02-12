@@ -64,7 +64,7 @@ class Converter(ConverterBase):
             next_page_number = self._get_page_number_finishing_last_paragraph(
                 page_number
             )
-            if self._is_chapter_beginning_page(next_page_number):
+            if self.structural_info._is_chapter_beginning_page(next_page_number):
                 # The next page is the starting page of a new chapter. This
                 # implies that the current page is the last page of this
                 # chapter which is thus complete. There is hence nothing to be
@@ -143,8 +143,8 @@ class Converter(ConverterBase):
             if self._page_is_dropped(page_number):
                 continue
 
-            if self._is_chapter_beginning_page(page_number):
-                new_chapter_name = self._get_chapter_name(page_number)
+            if self.structural_info._is_chapter_beginning_page(page_number):
+                new_chapter_name = self.structural_info._get_chapter_name(page_number)
                 current_chapter = Chapter(new_chapter_name)
                 resulting_chapters.append(current_chapter)
             else:
@@ -178,7 +178,7 @@ class Converter(ConverterBase):
 
             ### Now that the chapter has some content assert it's name is
             # the one documented in PageInfo
-            if self._is_chapter_beginning_page(page_number):
+            if self.structural_info._is_chapter_beginning_page(page_number):
                 self.__assert_chapter_name(page_number, new_extracted_page)
 
         for chapter in resulting_chapters:
@@ -190,7 +190,7 @@ class Converter(ConverterBase):
         return resulting_chapters
 
     def __assert_chapter_name(self, page_number, beginning_page):
-        if not self._get_chapter_name(page_number):
+        if not self.structural_info._get_chapter_name(page_number):
             print("The assumption that page number ", page_number)
             print(" starts a chapter was incorrect. ")
             print("Exiting.")

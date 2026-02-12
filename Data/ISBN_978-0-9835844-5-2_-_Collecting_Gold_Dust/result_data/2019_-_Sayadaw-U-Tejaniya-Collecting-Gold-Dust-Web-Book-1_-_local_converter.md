@@ -2,7 +2,7 @@
 COLLECTING GOLD DUST: Nurturing the Dhamma in Daily Living
 ==========================================================
 
-# Preamble
+# 
 
 
 COLLECTING GOLD DUST
@@ -14,6 +14,9 @@ Sayadaw U Tejaniya
 Transcribed by Tony Reardon
 
 Edited by Laura Zan
+
+# 
+
 
 Namo Tassa Bhagavato Arahato Sammā-Sambuddhassa
 
