@@ -88,24 +88,6 @@ class Converter:
             return False
         return True
 
-    def __get_page_number_finishing_last_paragraph(self, page_number):
-        """
-        A page that is followed by an illustration will need to skip that
-        illustration page in order to retrieve the end of its last paragraph.
-        Return the page number of the first page that defines a paragraph
-        delimiter.
-        """
-        next_page_number = page_number + 1
-        while self.__page_is_illustration(next_page_number):
-            print(
-                "Skipping illustration of page number ",
-                next_page_number,
-                " while looking for the content of the end of the paragraph",
-            )
-            print("that starts on page number  ", page_number, ".")
-            next_page_number += 1
-        return next_page_number
-
     def __is_chapter_beginning_page(self, page_number):
         if not page_number in self.structural_info.pages_info:
             return False
@@ -132,52 +114,6 @@ class Converter:
     def __get_chapter_name(self, page_number):
         chapter_page = self.__get_chapter_page(page_number)
         return self.structural_info.pages_info[chapter_page]["chapter_info"]["name"]
-
-    def __assert_chapter_name(self, page_number, beginning_page):
-        if not self.__get_chapter_name(page_number):
-            print("The assumption that page number ", page_number)
-            print(" starts a chapter was incorrect. ")
-            print("Exiting.")
-            sys.exit()
-        if not "chapter_info" in self.structural_info.pages_info[page_number]:
-            print("Chapter page without chapter_info (page number ", page_number, ").")
-            print("Exiting")
-            sys.exit()
-        if not "name" in self.structural_info.pages_info[page_number]["chapter_info"]:
-            print(
-                "chapter_info of chapter page without name (page number ",
-                page_number,
-                ").",
-            )
-            print("Exiting")
-            sys.exit()
-        chapter_name = self.structural_info.pages_info[page_number]["chapter_info"]["name"]
-        if not re.search(chapter_name + "[\n\n\n]", beginning_page.text):
-            print(
-                "Chapter page (page number ",
-                page_number,
-                ") does not seem to start with ",
-                chapter_name,
-                ", but with ",
-                repr(beginning_page.text),
-                sep="",
-            )
-            print("Exiting.")
-            sys.exit()
-
-    def __convert_to_logical_page_number(self, page_number):
-        if page_number == 0:
-            return "Cover"
-        # Just making sure
-        original_reader_page = self.reader.pages[page_number]
-        original_reader_page_number = self.reader.get_page_number(original_reader_page)
-        if page_number != original_reader_page_number:
-            print("Python page number does not match pypdf::reader page number:")
-            print("   - Python page number: ", page_number)
-            print("   - pypdf::reader page number: ", original_reader_page_number)
-            print("Exiting.")
-            sys.exit()
-        return page_number
 
     def __chapter_get_first_paragraph_of_given_page(self, chapter, page_number):
         for paragraph in chapter.paragraphs:
@@ -211,6 +147,7 @@ class Converter:
     def sanitize_newlines_and_multiple_whitespaces(self, input_text):
 
         # Newlines are encountered to denote different usages
+        #  - set some tabulations of illuminations (example "\       ")
         #  - define a new paragraph in which case newline is followed by
         #    exactly 4 whitespaces (example "\n    "): refer to
         #    break_chapter_into_paragraphs() method
@@ -238,39 +175,14 @@ class Converter:
         result = re.sub(r"\s+", " ", result).strip()
         return result
 
-    def break_chapter_into_paragraphs(self, chapter):
-        for page in chapter.pages:
-            if not page.text:
-                print("FIXME FIXME: WARNING, this page has NO text !?")
-                print("Exiting.")
-                sys.exit()
-
-            paragraphs = re.split("\n   ", page.text)
-            page_layout = page.page_layout
-            for paragraph_text in paragraphs:
-                if len(paragraph_text) == 0:
-                    # Avoid creating empty paragraphs (resulting from previous
-                    # erroneous/careless string manipulations):
-                    continue
-                new_paragraph_layout = page_layout.__copy__()
-                new_paragraph_layout.set_reference_text(
-                    "[Chapter: "
-                    + chapter.name
-                    + ", reader page number: "
-                    + str(page_layout.reader_page_number)
-                    + ", page number: "
-                    + str(page_layout.page_number)
-                    + "]"
-                )
-                new_paragraph = Paragraph(new_paragraph_layout)
-                new_paragraph.set_owning_chapter(chapter)
-                # Note: the text member is a temporary attribute used by the
-                # Converter but is not destined to be a member of the Paragraph
-                # class. We just piggyback it until it is transformed and
-                # cleaned-up.
-                new_paragraph.text = paragraph_text
-                chapter.add_paragraph(new_paragraph)
-        chapter.renumber_paragraphs()
+    def get_document(self):
+        """
+        Return a Document object that holds the chapters and paragraphs
+        """
+        document = Document(self.book_title)
+        for chapter in self.build_chapters():
+            document.add_chapter(chapter)
+        return document
 
     def break_paragraph_into_sentences(self, paragraph: Paragraph):
         paragraph_layout = paragraph.page_layout
@@ -306,6 +218,72 @@ class Converter:
             )
             new_sentence = Sentence(new_sentence_text, new_sentence_layout)
             paragraph.add_sentence(new_sentence)
+
+    def __get_page_number_finishing_last_paragraph(self, page_number):
+        """
+        A page that is followed by an illustration will need to skip that
+        illustration page in order to retrieve the end of its last paragraph.
+        Return the page number of the first page that defines a paragraph
+        delimiter.
+        """
+        next_page_number = page_number + 1
+        while self.__page_is_illustration(next_page_number):
+            print(
+                "Skipping illustration of page number ",
+                next_page_number,
+                " while looking for the content of the end of the paragraph",
+            )
+            print("that starts on page number  ", page_number, ".")
+            next_page_number += 1
+        return next_page_number
+
+    def __convert_to_logical_page_number(self, page_number):
+        if page_number == 0:
+            return "Cover"
+        # Just making sure
+        original_reader_page = self.reader.pages[page_number]
+        original_reader_page_number = self.reader.get_page_number(original_reader_page)
+        if page_number != original_reader_page_number:
+            print("Python page number does not match pypdf::reader page number:")
+            print("   - Python page number: ", page_number)
+            print("   - pypdf::reader page number: ", original_reader_page_number)
+            print("Exiting.")
+            sys.exit()
+        return page_number
+
+    def break_chapter_into_paragraphs(self, chapter):
+        for page in chapter.pages:
+            if not page.text:
+                print("FIXME FIXME: WARNING, this page has NO text !?")
+                print("Exiting.")
+                sys.exit()
+
+            paragraphs = re.split("\n   ", page.text)
+            page_layout = page.page_layout
+            for paragraph_text in paragraphs:
+                if len(paragraph_text) == 0:
+                    # Avoid creating empty paragraphs (resulting from previous
+                    # erroneous/careless string manipulations):
+                    continue
+                new_paragraph_layout = page_layout.__copy__()
+                new_paragraph_layout.set_reference_text(
+                    "[Chapter: "
+                    + chapter.name
+                    + ", reader page number: "
+                    + str(page_layout.reader_page_number)
+                    + ", page number: "
+                    + str(page_layout.page_number)
+                    + "]"
+                )
+                new_paragraph = Paragraph(new_paragraph_layout)
+                new_paragraph.set_owning_chapter(chapter)
+                # Note: the text member is a temporary attribute used by the
+                # Converter but is not destined to be a member of the Paragraph
+                # class. We just piggyback it until it is transformed and
+                # cleaned-up.
+                new_paragraph.text = paragraph_text
+                chapter.add_paragraph(new_paragraph)
+        chapter.renumber_paragraphs()
 
     def reconstitute_paragraphs_spreading_over_two_pages(self, chapter):
         """
@@ -460,11 +438,36 @@ class Converter:
             self.reconstitute_paragraphs_spreading_over_two_pages(chapter)
         return resulting_chapters
 
-    def get_document(self):
-        """
-        Return a Document object that holds the chapters and paragraphs
-        """
-        document = Document(self.book_title)
-        for chapter in self.build_chapters():
-            document.add_chapter(chapter)
-        return document
+    def __assert_chapter_name(self, page_number, beginning_page):
+        if not self.__get_chapter_name(page_number):
+            print("The assumption that page number ", page_number)
+            print(" starts a chapter was incorrect. ")
+            print("Exiting.")
+            sys.exit()
+        if not "chapter_info" in self.structural_info.pages_info[page_number]:
+            print("Chapter page without chapter_info (page number ", page_number, ").")
+            print("Exiting")
+            sys.exit()
+        if not "name" in self.structural_info.pages_info[page_number]["chapter_info"]:
+            print(
+                "chapter_info of chapter page without name (page number ",
+                page_number,
+                ").",
+            )
+            print("Exiting")
+            sys.exit()
+        chapter_name = self.structural_info.pages_info[page_number]["chapter_info"][
+            "name"
+        ]
+        if not re.search(chapter_name + "[\n\n\n]", beginning_page.text):
+            print(
+                "Chapter page (page number ",
+                page_number,
+                ") does not seem to start with ",
+                chapter_name,
+                ", but with ",
+                repr(beginning_page.text),
+                sep="",
+            )
+            print("Exiting.")
+            sys.exit()

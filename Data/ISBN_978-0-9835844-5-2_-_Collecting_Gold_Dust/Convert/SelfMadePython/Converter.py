@@ -48,12 +48,15 @@ class Converter:
         # The original pdf document file name that this converter will act from
         self.pdf_filename = pdf_filename
 
-        # Store the structural info instance
-        self.structural_info = structural_info
-
         # The original pdf document has a title. This title ends-up embedded in
         # some headers of the pages and must be extracted from the text.
         self.book_title = "COLLECTING GOLD DUST: Nurturing the Dhamma in Daily Living"
+
+        # The structural information constituted by the presence of chapters,
+        # illustrations ... is quite often difficult to be automatically
+        # discovered. While waiting for better (and free) tools, the following
+        # was manually extracted
+        self.structural_info = structural_info
 
         # Technical (optimisation) variable used to hold the correspondance
         # between a given page number and the chapter to which that page
@@ -78,9 +81,7 @@ class Converter:
         if not page_number in self.structural_info.pages_info:
             return False
         if not "type" in self.structural_info.pages_info[page_number]:
-            print("Page with no known type (page number ", page_number, ").")
-            print("Exiting")
-            sys.exit()
+            return False
         if self.structural_info.pages_info[page_number]["type"] == "illustration":
             return True
         return False
@@ -101,71 +102,14 @@ class Converter:
             return False
         return True
 
-    def __get_page_number_finishing_last_paragraph(self, page_number):
-        """
-        A page that is followed by an illustration will need to skip that
-        illustration page in order to retrieve the end of its last paragraph.
-        Return the page number of the first page that defines a paragraph
-        delimiter.
-        """
-        next_page_number = page_number + 1
-        while not self.__page_has_paragraph_delimiter(next_page_number):
-            if not self.__page_is_illustration(next_page_number):
-                print(
-                    "Oddly enough we are on page number ",
-                    page_number,
-                    " and we are looking for the page holding the content of the end of the paragraph.",
-                )
-                print("Yet page number ", next_page_number, " is not an illustration.")
-                print("How could this be?")
-                print(
-                    "Maybe we forgot to define the first_paragraph_delimiter of page number ",
-                    next_page_number,
-                    "?",
-                )
-                print("Exiting.")
-                sys.exit()
-            next_page_number += 1
-        return next_page_number
-
-    def __page_has_paragraph_delimiter(self, page_number):
-        if not page_number in self.structural_info.pages_info:
-            return False
-        if not "first_paragraph_delimiter" in self.structural_info.pages_info[page_number]:
-            return False
-        return True
-
-    def __get_first_paragraph_delimiter(self, page_number):
-        """
-        Return the delimiting string (delimiter) the end of the paragraph that
-        started on the previous page and finishes on page with the page number page_number
-        """
-        if not self.__page_has_paragraph_delimiter(page_number):
-            print("How is it that were a looking for an unknown delimiter?")
-            print("Exiting")
-            sys.exit()
-        return self.structural_info.pages_info[page_number]["first_paragraph_delimiter"]
-
     def __is_chapter_beginning_page(self, page_number):
         if not page_number in self.structural_info.pages_info:
+            return False
+        if not "type" in self.structural_info.pages_info[page_number]:
             return False
         if self.structural_info.pages_info[page_number]["type"] == "chapter":
             return True
         return False
-
-    def __book_title_page_header(self, page_number):
-        return (
-            str(self.__convert_to_logical_page_number(page_number))
-            + r" \| "
-            + self.book_title
-        )
-
-    def __chapter_page_header(self, page_number):
-        return (
-            self.__get_chapter_name(page_number)
-            + r" \| "
-            + str(self.__convert_to_logical_page_number(page_number))
-        )
 
     def __initialize_chapter_page(self):
         if bool(self.__chapter_page):
@@ -184,150 +128,6 @@ class Converter:
     def __get_chapter_name(self, page_number):
         chapter_page = self.__get_chapter_page(page_number)
         return self.structural_info.pages_info[chapter_page]["chapter_info"]["name"]
-
-    def __convert_to_logical_page_number(self, page_number):
-        if page_number == 0:
-            return "Cover"
-        # Deal with the first pages numbering that uses roman numeration
-        if page_number >= 1 and page_number <= 17:
-            return roman.toRoman(page_number).lower()
-        # Just making sure
-        original_reader_page = self.reader.pages[page_number]
-        original_reader_page_number = self.reader.get_page_number(original_reader_page)
-        if page_number != original_reader_page_number:
-            print("Python page number does not match pypdf::reader page number:")
-            print("   - Python page number: ", page_number)
-            print("   - pypdf::reader page number: ", original_reader_page_number)
-            print("Exiting.")
-            sys.exit()
-        return page_number - self.structural_info.page_numbering_offset
-
-    def fix_illumination(self, page_number, text_to_fix):
-        """Chapters beginnings (that is the first page of a new chapter) start
-        with an illumination (decorated first letter) that confuses pypdf.
-        The letter of the illumination ends mixed up within the text of the
-        first sentence of the chapter. Fix that.
-        """
-        if not self.__is_chapter_beginning_page(page_number):
-            print("Erroneous call to Converter::fix_illumination()")
-            print("  This does not seem to be a chapter starting page.")
-            print("  Exiting")
-            sys.exit()
-        delimiter = self.structural_info.pages_info[page_number]["chapter_info"][
-            "illumination_delimiter"
-        ]
-        if delimiter is None:
-            # This chapter has no illumination to fix (probably because there
-            # is no illumination at all). Return the original text:
-            return text_to_fix
-        # The illumination character that got embedded in the text happens to
-        # to always be preceded by a return character. Looking for the delimiter
-        # prefixed with a return character will make the result a little more
-        # secure (yet not foolproof):
-        delimiter_with_return = "[\n]" + delimiter
-        if not re.search(delimiter_with_return, text_to_fix):
-            print(
-                "Delimiter ",
-                repr(delimiter),
-                "not found within illumination of chapter on page ",
-                page_number,
-                ".",
-            )
-            print(
-                "Chapter text that we were looking to fix: ",
-                repr(text_to_fix),
-            )
-            print("Exiting.")
-            sys.exit()
-        # The first thing to do is to remove the illumination character from
-        # the text. We use this opportunity to replace the return character,
-        # that prefixed the delimiter, with a whitespace:
-        corrected_snippet = delimiter[1:]
-        text_to_fix = re.sub(
-            delimiter_with_return, " " + corrected_snippet, text_to_fix
-        )
-        # The second thing to do is to reinsert the illumination character
-        # within the text
-        text_to_fix = delimiter[0] + text_to_fix
-        # The third fix consists in replacing the hand made spacing of the
-        # first lines of the text (that would be overwritten by the illumination
-        # drawing of the leading character) with a single white space:
-        return re.sub("\n      ", " ", text_to_fix)
-
-    def __is_headless_page(self, page_number):
-        # Only illustrations can be headless
-        if not self.__page_is_illustration(page_number):
-            return False
-        # Yet some illustrations still have a header
-        if "header" in self.structural_info.pages_info[page_number]:
-            return False
-        # Eventually illustrations not flagged as having a header are headless
-        return True
-
-    def __get_page_header(self, page_number):
-
-        if page_number < 0 or page_number > self.structural_info.total_page_number:
-            print("Page number is outside of book page numeration.")
-            print("Exiting")
-            sys.exit()
-
-        # Pages explicitly flagged as headless, well, are headless:
-        if self.__is_headless_page(page_number):
-            return ""
-
-        # First headers of pages starting a new chapter have that new
-        # chapter name as header
-        if self.__is_chapter_beginning_page(page_number):
-            return self.__get_chapter_name(page_number)
-
-        ####### Concerning the Preamble (from page 0 to 20 included)
-        # Before the body of the book, there is a (quite lengthy) preamble that
-        # has quite specific header rules :
-        if page_number < 10:
-            # Default value for a preamble header is to be empty
-            return ""
-        if page_number >= 10 and page_number < 15:
-            return roman.toRoman(page_number).lower()
-        if page_number == 16:
-            # The following hardcoded value for page 16 is because that page
-            # doesn't follow the above logical rule. The following fix for page
-            # 16 _is_ correct ! It is the pdf that is erroneous.
-            return roman.toRoman(16).lower() + roman.toRoman(16).lower()
-        if page_number == 17:
-            return ""
-        if page_number >= 18 and page_number < 20:
-            return str(self.__convert_to_logical_page_number(page_number))
-        if page_number <= 19 and page_number <= 21:
-            return ""
-
-        ####### Concerning the body of the book.
-        # Pages of the body of the book, have a headers that follow a simple
-        # constructive rule with some exceptions...
-
-        if (page_number % 2) == 0:
-            # Odd pages have a header that is simply the book title followed
-            # by their page number
-            return self.__book_title_page_header(page_number)
-        if (page_number % 2) != 0:
-            if page_number == 133:
-                # Page 133 has a brain damaged header that doesn't
-                # follow the even page header rule (although it is a near miss). The
-                # only possible fix is to define an exception:
-                return (
-                    self.book_title
-                    + self.__get_chapter_name(133)
-                    + " ||"
-                    + str(self.__convert_to_logical_page_number(133))
-                    + str(self.__convert_to_logical_page_number(133))
-                )
-            else:
-                # Even pages have a different header pattern based on the current
-                # chapter name
-                return self.__chapter_page_header(page_number)
-
-        print("Header for page number ", page_number, " is not defined")
-        print("Exiting")
-        sys.exit()
 
     def __chapter_get_first_paragraph_of_given_page(self, chapter, page_number):
         for paragraph in chapter.paragraphs:
@@ -389,37 +189,14 @@ class Converter:
         result = re.sub(r"\s+", " ", result).strip()
         return result
 
-    def break_chapter_into_paragraphs(self, chapter):
-        for page in chapter.pages:
-            # TODO: the second pattern of the split() method happens on
-            # sub-chapter beginnings. Instead of simply starting a new paragraph
-            # we should start a new sub-chapter!
-            paragraphs = re.split("\n    " + "|" + "\n\n\n", page.text)
-            page_layout = page.page_layout
-            for paragraph_text in paragraphs:
-                if len(paragraph_text) == 0:
-                    # Avoid creating empty paragraphs (resulting from previous
-                    # erroneous/careless string manipulations):
-                    continue
-                new_paragraph_layout = page_layout.__copy__()
-                new_paragraph_layout.set_reference_text(
-                    "[Chapter: "
-                    + chapter.name
-                    + ", reader page number: "
-                    + str(page_layout.reader_page_number)
-                    + ", page number: "
-                    + str(page_layout.page_number)
-                    + "]"
-                )
-                new_paragraph = Paragraph(new_paragraph_layout)
-                new_paragraph.set_owning_chapter(chapter)
-                # Note: the text member is a temporary attribute used by the
-                # Converter but is not destined to be a member of the Paragraph
-                # class. We just piggyback it until it is transformed and
-                # cleaned-up.
-                new_paragraph.text = paragraph_text
-                chapter.add_paragraph(new_paragraph)
-        chapter.renumber_paragraphs()
+    def get_document(self):
+        """
+        Return a Document object that holds the chapters and paragraphs
+        """
+        document = Document(self.book_title)
+        for chapter in self.build_chapters():
+            document.add_chapter(chapter)
+        return document
 
     def break_paragraph_into_sentences(self, paragraph: Paragraph):
         paragraph_layout = paragraph.page_layout
@@ -456,9 +233,85 @@ class Converter:
             new_sentence = Sentence(new_sentence_text, new_sentence_layout)
             paragraph.add_sentence(new_sentence)
 
+    def __get_page_number_finishing_last_paragraph(self, page_number):
+        """
+        A page that is followed by an illustration will need to skip that
+        illustration page in order to retrieve the end of its last paragraph.
+        Return the page number of the first page that defines a paragraph
+        delimiter.
+        """
+        next_page_number = page_number + 1
+        while not self.__page_has_paragraph_delimiter(next_page_number):
+            if not self.__page_is_illustration(next_page_number):
+                print(
+                    "Oddly enough we are on page number ",
+                    page_number,
+                    " and we are looking for the page holding the content of the end of the paragraph.",
+                )
+                print("Yet page number ", next_page_number, " is not an illustration.")
+                print("How could this be?")
+                print(
+                    "Maybe we forgot to define the first_paragraph_delimiter of page number ",
+                    next_page_number,
+                    "?",
+                )
+                print("Exiting.")
+                sys.exit()
+            next_page_number += 1
+        return next_page_number
+
+    def __convert_to_logical_page_number(self, page_number):
+        if page_number == 0:
+            return "Cover"
+        # Deal with the first pages numbering that uses roman numeration
+        if page_number >= 1 and page_number <= 17:
+            return roman.toRoman(page_number).lower()
+        # Just making sure
+        original_reader_page = self.reader.pages[page_number]
+        original_reader_page_number = self.reader.get_page_number(original_reader_page)
+        if page_number != original_reader_page_number:
+            print("Python page number does not match pypdf::reader page number:")
+            print("   - Python page number: ", page_number)
+            print("   - pypdf::reader page number: ", original_reader_page_number)
+            print("Exiting.")
+            sys.exit()
+        return page_number - self.structural_info.page_numbering_offset
+
+    def break_chapter_into_paragraphs(self, chapter):
+        for page in chapter.pages:
+            # TODO: the second pattern of the split() method happens on
+            # sub-chapter beginnings. Instead of simply starting a new paragraph
+            # we should start a new sub-chapter!
+            paragraphs = re.split("\n    " + "|" + "\n\n\n", page.text)
+            page_layout = page.page_layout
+            for paragraph_text in paragraphs:
+                if len(paragraph_text) == 0:
+                    # Avoid creating empty paragraphs (resulting from previous
+                    # erroneous/careless string manipulations):
+                    continue
+                new_paragraph_layout = page_layout.__copy__()
+                new_paragraph_layout.set_reference_text(
+                    "[Chapter: "
+                    + chapter.name
+                    + ", reader page number: "
+                    + str(page_layout.reader_page_number)
+                    + ", page number: "
+                    + str(page_layout.page_number)
+                    + "]"
+                )
+                new_paragraph = Paragraph(new_paragraph_layout)
+                new_paragraph.set_owning_chapter(chapter)
+                # Note: the text member is a temporary attribute used by the
+                # Converter but is not destined to be a member of the Paragraph
+                # class. We just piggyback it until it is transformed and
+                # cleaned-up.
+                new_paragraph.text = paragraph_text
+                chapter.add_paragraph(new_paragraph)
+        chapter.renumber_paragraphs()
+
     def reconstitute_paragraphs_spreading_over_two_pages(self, chapter):
         """
-        When a page ends with un unfinished Paragraph then the next page begins
+        When a page ends with an unfinished Paragraph then the next page begins
         with the end of that Paragraph. In order to reconstitute such Paragraphs
         that were split in two, we need to
          - find the last Paragraph of a page that is not annotated with the
@@ -647,11 +500,164 @@ class Converter:
             self.reconstitute_paragraphs_spreading_over_two_pages(chapter)
         return resulting_chapters
 
-    def get_document(self):
+    def fix_illumination(self, page_number, text_to_fix):
+        """Chapters beginnings (that is the first page of a new chapter) start
+        with an illumination (decorated first letter) that confuses pypdf.
+        The letter of the illumination ends mixed up within the text of the
+        first sentence of the chapter. Fix that.
         """
-        Return a Document object that holds the chapters and paragraphs
+        if not self.__is_chapter_beginning_page(page_number):
+            print("Erroneous call to Converter::fix_illumination()")
+            print("  This does not seem to be a chapter starting page.")
+            print("  Exiting")
+            sys.exit()
+        delimiter = self.structural_info.pages_info[page_number]["chapter_info"][
+            "illumination_delimiter"
+        ]
+        if delimiter is None:
+            # This chapter has no illumination to fix (probably because there
+            # is no illumination at all). Return the original text:
+            return text_to_fix
+        # The illumination character that got embedded in the text happens to
+        # to always be preceded by a return character. Looking for the delimiter
+        # prefixed with a return character will make the result a little more
+        # secure (yet not foolproof):
+        delimiter_with_return = "[\n]" + delimiter
+        if not re.search(delimiter_with_return, text_to_fix):
+            print(
+                "Delimiter ",
+                repr(delimiter),
+                "not found within illumination of chapter on page ",
+                page_number,
+                ".",
+            )
+            print(
+                "Chapter text that we were looking to fix: ",
+                repr(text_to_fix),
+            )
+            print("Exiting.")
+            sys.exit()
+        # The first thing to do is to remove the illumination character from
+        # the text. We use this opportunity to replace the return character,
+        # that prefixed the delimiter, with a whitespace:
+        corrected_snippet = delimiter[1:]
+        text_to_fix = re.sub(
+            delimiter_with_return, " " + corrected_snippet, text_to_fix
+        )
+        # The second thing to do is to reinsert the illumination character
+        # within the text
+        text_to_fix = delimiter[0] + text_to_fix
+        # The third fix consists in replacing the hand made spacing of the
+        # first lines of the text (that would be overwritten by the illumination
+        # drawing of the leading character) with a single white space:
+        return re.sub("\n      ", " ", text_to_fix)
+
+    def __is_headless_page(self, page_number):
+        # Only illustrations can be headless
+        if not self.__page_is_illustration(page_number):
+            return False
+        # Yet some illustrations still have a header
+        if "header" in self.structural_info.pages_info[page_number]:
+            return False
+        # Eventually illustrations not flagged as having a header are headless
+        return True
+
+    def __get_page_header(self, page_number):
+
+        if page_number < 0 or page_number > self.structural_info.total_page_number:
+            print("Page number is outside of book page numeration.")
+            print("Exiting")
+            sys.exit()
+
+        # Pages explicitly flagged as headless, well, are headless:
+        if self.__is_headless_page(page_number):
+            return ""
+
+        # First headers of pages starting a new chapter have that new
+        # chapter name as header
+        if self.__is_chapter_beginning_page(page_number):
+            return self.__get_chapter_name(page_number)
+
+        ####### Concerning the Preamble (from page 0 to 20 included)
+        # Before the body of the book, there is a (quite lengthy) preamble that
+        # has quite specific header rules :
+        if page_number < 10:
+            # Default value for a preamble header is to be empty
+            return ""
+        if page_number >= 10 and page_number < 15:
+            return roman.toRoman(page_number).lower()
+        if page_number == 16:
+            # The following hardcoded value for page 16 is because that page
+            # doesn't follow the above logical rule. The following fix for page
+            # 16 _is_ correct ! It is the pdf that is erroneous.
+            return roman.toRoman(16).lower() + roman.toRoman(16).lower()
+        if page_number == 17:
+            return ""
+        if page_number >= 18 and page_number < 20:
+            return str(self.__convert_to_logical_page_number(page_number))
+        if page_number <= 19 and page_number <= 21:
+            return ""
+
+        ####### Concerning the body of the book.
+        # Pages of the body of the book, have a headers that follow a simple
+        # constructive rule with some exceptions...
+
+        if (page_number % 2) == 0:
+            # Odd pages have a header that is simply the book title followed
+            # by their page number
+            return self.__book_title_page_header(page_number)
+        if (page_number % 2) != 0:
+            if page_number == 133:
+                # Page 133 has a brain damaged header that doesn't
+                # follow the even page header rule (although it is a near miss). The
+                # only possible fix is to define an exception:
+                return (
+                    self.book_title
+                    + self.__get_chapter_name(133)
+                    + " ||"
+                    + str(self.__convert_to_logical_page_number(133))
+                    + str(self.__convert_to_logical_page_number(133))
+                )
+            else:
+                # Even pages have a different header pattern based on the current
+                # chapter name
+                return self.__chapter_page_header(page_number)
+
+        print("Header for page number ", page_number, " is not defined")
+        print("Exiting")
+        sys.exit()
+
+    def __page_has_paragraph_delimiter(self, page_number):
+        if not page_number in self.structural_info.pages_info:
+            return False
+        if (
+            not "first_paragraph_delimiter"
+            in self.structural_info.pages_info[page_number]
+        ):
+            return False
+        return True
+
+    def __get_first_paragraph_delimiter(self, page_number):
         """
-        document = Document(self.book_title)
-        for chapter in self.build_chapters():
-            document.add_chapter(chapter)
-        return document
+        Return the delimiting string (delimiter) the end of the paragraph that
+        started on the previous page and finishes on page with the page number page_number
+        """
+        if not self.__page_has_paragraph_delimiter(page_number):
+            print("How is it that were a looking for an unknown delimiter?")
+            print("Exiting")
+            sys.exit()
+        return self.structural_info.pages_info[page_number]["first_paragraph_delimiter"]
+
+    def __book_title_page_header(self, page_number):
+        return (
+            str(self.__convert_to_logical_page_number(page_number))
+            + r" \| "
+            + self.book_title
+        )
+
+    def __chapter_page_header(self, page_number):
+        return (
+            self.__get_chapter_name(page_number)
+            + r" \| "
+            + str(self.__convert_to_logical_page_number(page_number))
+        )
