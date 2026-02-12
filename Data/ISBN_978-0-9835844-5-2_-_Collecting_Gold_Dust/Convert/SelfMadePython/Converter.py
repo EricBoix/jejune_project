@@ -30,12 +30,19 @@ class Converter(ConverterBase):
     Converter for Collecting Gold Dust book.
     """
 
-    def __init__(self, pdf_filename, structural_info):
-        super().__init__(
-            pdf_filename,
-            structural_info,
-            "COLLECTING GOLD DUST: Nurturing the Dhamma in Daily Living",
-        )
+    def _page_is_illustration(self, page_number):
+        if not page_number in self.structural_info.pages_info:
+            return False
+        if not "type" in self.structural_info.pages_info[page_number]:
+            return False
+        if self.structural_info.pages_info[page_number]["type"] == "illustration":
+            return True
+        return False
+
+    def _page_requires_paragraph_continuation(self, page_number):
+        if self._page_is_illustration(page_number):
+            return False
+        return ConverterBase._page_requires_paragraph_continuation(self, page_number)
 
     def _convert_to_logical_page_number(self, page_number):
         if page_number == 0:
@@ -387,7 +394,7 @@ class Converter(ConverterBase):
                 # follow the even page header rule (although it is a near miss). The
                 # only possible fix is to define an exception:
                 return (
-                    self.book_title
+                    self.structural_info.book_title
                     + self._get_chapter_name(133)
                     + " ||"
                     + str(self._convert_to_logical_page_number(133))
@@ -427,7 +434,7 @@ class Converter(ConverterBase):
         return (
             str(self._convert_to_logical_page_number(page_number))
             + r" \| "
-            + self.book_title
+            + self.structural_info.book_title
         )
 
     def __chapter_page_header(self, page_number):

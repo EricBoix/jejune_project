@@ -24,14 +24,10 @@ class ConverterBase:
     chapter, sub-chapter, paragraph...).
     """
 
-    def __init__(self, pdf_filename, structural_info, book_title):
+    def __init__(self, pdf_filename, structural_info):
 
         # The original pdf document file name that this converter will act from
         self.pdf_filename = pdf_filename
-
-        # The original pdf document has a title. This title ends-up embedded in
-        # some headers of the pages and must be extracted from the text.
-        self.book_title = book_title
 
         # The structural information constituted by the presence of chapters,
         # illustrations ... is quite often difficult to be automatically
@@ -58,15 +54,6 @@ class ConverterBase:
             print("Exiting")
             sys.exit()
 
-    def _page_is_illustration(self, page_number):
-        if not page_number in self.structural_info.pages_info:
-            return False
-        if not "type" in self.structural_info.pages_info[page_number]:
-            return False
-        if self.structural_info.pages_info[page_number]["type"] == "illustration":
-            return True
-        return False
-
     def _page_is_dropped(self, page_number):
         if not page_number in self.structural_info.pages_info:
             return False
@@ -77,8 +64,6 @@ class ConverterBase:
     def _page_requires_paragraph_continuation(self, page_number):
         if not page_number in self.structural_info.pages_info:
             return True  # Looks a bit ambitious but let's try it
-        if self._page_is_illustration(page_number):
-            return False
         if "paragraph_fits_on_page" in self.structural_info.pages_info[page_number]:
             return False
         return True
@@ -174,7 +159,7 @@ class ConverterBase:
         """
         Return a Document object that holds the chapters and paragraphs
         """
-        document = Document(self.book_title)
+        document = Document(self.structural_info.book_title)
         for chapter in self.build_chapters():
             document.add_chapter(chapter)
         return document

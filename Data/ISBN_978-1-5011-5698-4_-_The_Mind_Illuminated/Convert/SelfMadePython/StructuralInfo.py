@@ -16,12 +16,15 @@ class StructuralInfo:
 
     def __init__(self):
         self.total_page_number = 578
+        # The original pdf document has a title that is depicted (as opposed to
+        # written in text) in the cover illustration and thus cannot be
+        # automatically extracted.
+        self.book_title = "The MIND ILLUMINATED: A Complete Meditation Guide Integrating Buddhist Wisdom and Brain Science for Greater Mindfulness"
         self.chapter_to_paragraph_breaking_pattern = "\n   "
         self.pages_info = {
             0: {
-                "type": "illustration",  # The cover page is pure illustration
-                # The content of the page is dropped (and won't be part of the
-                # output)
+                # The cover page being pure illustration (no text), its
+                # (absence of) content is dropped.
                 "drop_page": True,
             },
             1: {
@@ -58,18 +61,6 @@ class StructuralInfo:
                 "chapter_info": {
                     "name": "Foreword",
                 },
-            },
-            11: {
-                "type": "generic",
-            },
-            12: {
-                "type": "generic",
-            },
-            13: {
-                "type": "generic",
-            },
-            14: {
-                "type": "generic",
             },
             15: {
                 "type": "generic",
@@ -145,9 +136,7 @@ class StructuralInfo:
             },
             95: {
                 "type": "chapter",
-                "chapter_info": {
-                    "name": "SECOND INTERLUDE",
-                },
+                "chapter_info": {"name": "SECOND INTERLUDE"},
             },
             108: {
                 "type": "generic",
@@ -155,15 +144,11 @@ class StructuralInfo:
             },
             109: {
                 "type": "chapter",
-                "chapter_info": {
-                    "name": "STAGE TWO",
-                },
+                "chapter_info": {"name": "STAGE TWO"},
             },
             127: {
                 "type": "chapter",
-                "chapter_info": {
-                    "name": "STAGE THREE",
-                },
+                "chapter_info": {"name": "STAGE THREE"},
             },
             130: {
                 "type": "generic",
@@ -183,9 +168,7 @@ class StructuralInfo:
             },
             151: {
                 "type": "chapter",
-                "chapter_info": {
-                    "name": "THIRD INTERLUDE",
-                },
+                "chapter_info": {"name": "THIRD INTERLUDE"},
             },
             159: {
                 "type": "generic",
@@ -193,9 +176,7 @@ class StructuralInfo:
             },
             162: {
                 "type": "chapter",
-                "chapter_info": {
-                    "name": "STAGE FOUR",
-                },
+                "chapter_info": {"name": "STAGE FOUR"},
             },
             166: {
                 "type": "generic",
@@ -227,9 +208,7 @@ class StructuralInfo:
             },
             196: {
                 "type": "chapter",
-                "chapter_info": {
-                    "name": "FOURTH INTERLUDE",
-                },
+                "chapter_info": {"name": "FOURTH INTERLUDE"},
             },
             203: {
                 "type": "generic",
@@ -259,9 +238,7 @@ class StructuralInfo:
             },
             232: {
                 "type": "chapter",
-                "chapter_info": {
-                    "name": "FIFTH INTERLUDE",
-                },
+                "chapter_info": {"name": "FIFTH INTERLUDE"},
             },
             239: {
                 "type": "generic",
@@ -273,15 +250,11 @@ class StructuralInfo:
             },
             270: {
                 "type": "chapter",
-                "chapter_info": {
-                    "name": "STAGE SIX",
-                },
+                "chapter_info": {"name": "STAGE SIX"},
             },
             291: {
                 "type": "chapter",
-                "chapter_info": {
-                    "name": "SIXTH INTERLUDE",
-                },
+                "chapter_info": {"name": "SIXTH INTERLUDE"},
             },
             294: {
                 "type": "generic",
@@ -293,9 +266,7 @@ class StructuralInfo:
             },
             318: {
                 "type": "chapter",
-                "chapter_info": {
-                    "name": "STAGE SEVEN",
-                },
+                "chapter_info": {"name": "STAGE SEVEN"},
             },
             347: {
                 "type": "generic",
@@ -307,9 +278,7 @@ class StructuralInfo:
             },
             360: {
                 "type": "chapter",
-                "chapter_info": {
-                    "name": "STAGE EIGHT",
-                },
+                "chapter_info": {"name": "STAGE EIGHT"},
             },
             364: {
                 "type": "generic",
@@ -321,15 +290,11 @@ class StructuralInfo:
             },
             391: {
                 "type": "chapter",
-                "chapter_info": {
-                    "name": "STAGE NINE",
-                },
+                "chapter_info": {"name": "STAGE NINE"},
             },
             402: {
                 "type": "chapter",
-                "chapter_info": {
-                    "name": "STAGE TEN",
-                },
+                "chapter_info": {"name": "STAGE TEN"},
             },
             406: {
                 "type": "generic",
@@ -337,27 +302,19 @@ class StructuralInfo:
             },
             407: {
                 "type": "chapter",
-                "chapter_info": {
-                    "name": "Final Thoughts",
-                },
+                "chapter_info": {"name": "Final Thoughts"},
             },
             412: {
                 "type": "chapter",
-                "chapter_info": {
-                    "name": "Acknowledgments",
-                },
+                "chapter_info": {"name": "Acknowledgments"},
             },
             414: {
                 "type": "chapter",
-                "chapter_info": {
-                    "name": "APPENDIX A\nWalking Meditation",
-                },
+                "chapter_info": {"name": "APPENDIX A\nWalking Meditation"},
             },
             427: {
                 "type": "chapter",
-                "chapter_info": {
-                    "name": "APPENDIX B\nAnalytical Meditation",
-                },
+                "chapter_info": {"name": "APPENDIX B\nAnalytical Meditation"},
             },
             434: {
                 "type": "generic",
@@ -365,9 +322,7 @@ class StructuralInfo:
             },
             435: {
                 "type": "chapter",
-                "chapter_info": {
-                    "name": "APPENDIX C\nLoving-Kindness Meditation",
-                },
+                "chapter_info": {"name": "APPENDIX C\nLoving-Kindness Meditation"},
             },
             440: {
                 "type": "generic",
@@ -375,9 +330,7 @@ class StructuralInfo:
             },
             441: {
                 "type": "chapter",
-                "chapter_info": {
-                    "name": "APPENDIX D\nThe Jhānas",
-                },
+                "chapter_info": {"name": "APPENDIX D\nThe Jhānas"},
             },
             452: {
                 "type": "generic",
@@ -385,9 +338,7 @@ class StructuralInfo:
             },
             461: {
                 "type": "chapter",
-                "chapter_info": {
-                    "name": "APPENDIX E\nMindful Review",
-                },
+                "chapter_info": {"name": "APPENDIX E\nMindful Review"},
             },
             473: {
                 "type": "generic",
@@ -399,21 +350,14 @@ class StructuralInfo:
             },
             476: {
                 "type": "chapter",
-                "chapter_info": {
-                    "name": "About the Authors",
-                },
+                "chapter_info": {"name": "About the Authors"},
             },
             478: {
-                "type": "generic",
-                # The content of the page is dropped (and won't be part of the
-                # output)
                 "drop_page": True,
             },
             479: {
                 "type": "chapter",
-                "chapter_info": {
-                    "name": "Glossary",
-                },
+                "chapter_info": {"name": "Glossary"},
             },
             482: {
                 "type": "generic",

@@ -14,13 +14,6 @@ class Converter(ConverterBase):
     Converter for The Mind Illuminated book.
     """
 
-    def __init__(self, pdf_filename, structural_info):
-        super().__init__(
-            pdf_filename,
-            structural_info,
-            "The MIND ILLUMINATED: A Complete Meditation Guide Integrating Buddhist Wisdom and Brain Science for Greater Mindfulness",
-        )
-
     def _convert_to_logical_page_number(self, page_number):
         if page_number == 0:
             return "Cover"
@@ -37,15 +30,14 @@ class Converter(ConverterBase):
 
     def _get_page_number_finishing_last_paragraph(self, page_number):
         """
-        A page that is followed by an illustration will need to skip that
-        illustration page in order to retrieve the end of its last paragraph.
-        Return the page number of the first page that defines a paragraph
-        delimiter.
+        A page that is followed by one many dropped pages will need to skip
+        such pages in order to retrieve the end of its last paragraph.
+        Return the page number of the first page with interesting content.
         """
         next_page_number = page_number + 1
-        while self._page_is_illustration(next_page_number):
+        while self._page_is_dropped(next_page_number):
             print(
-                "Skipping illustration of page number ",
+                "Skipping dropped page number ",
                 next_page_number,
                 " while looking for the content of the end of the paragraph",
             )
