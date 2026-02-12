@@ -216,16 +216,91 @@ class ConverterBase:
                 chapter.add_paragraph(new_paragraph)
         chapter.renumber_paragraphs()
 
+    def reconstitute_paragraphs_spreading_over_two_pages(self, chapter):
+        """
+        When a page ends with an unfinished Paragraph then the next page begins
+        with the end of that Paragraph. In order to reconstitute such Paragraphs
+        that were split in two, we need to
+         - find the last Paragraph of a page that is not annotated with the
+           "paragraph_fits_on_page" flag. Such a Paragraph holds the beginning
+            of an original paragraph that got split in two.
+         - the next Paragraph thus holds the end of the original paragraph
+           (that got split in two) and
+           - was standing at the top of the next page
+           - contains a paragraph delimiter.
+         - merge those two paragraphs into a single Paragraph
+         - when doing so make sure that the sentence that got split (and was
+           standing over two ill reconstituted Paragraphs) gets also properly
+           reconstituted.
+        """
+        if len(chapter.pages) == 1:
+            # Nothing to do for a single page
+            return
+        for page_index in range(0, len(chapter.pages) - 1):
+            current_page = chapter.pages[page_index]
+            page_number = current_page.page_number
+            if not self._page_requires_paragraph_continuation(page_number):
+                continue
+            next_page_number = self._get_page_number_finishing_last_paragraph(
+                page_number
+            )
+            if self.structural_info._is_chapter_beginning_page(next_page_number):
+                # The next page is the starting page of a new chapter. This
+                # implies that the current page is the last page of this
+                # chapter which is thus complete. There is hence nothing to be
+                # collected from the next page
+                continue
+
+            ill_ending_paragraph = self._chapter_get_last_paragraph_of_given_page(
+                chapter, page_number
+            )
+            ill_starting_paragraph = self._chapter_get_first_paragraph_of_given_page(
+                chapter, next_page_number
+            )
+
+            #### Asserting some preconditions before merging the two paragraphs:
+
+            # Assert that the page_layout of the two paragraphs do differ
+            if ill_ending_paragraph.page_layout == ill_starting_paragraph.page_layout:
+                print(
+                    "Error: the page layout of the two paragraphs to be merged is the same.",
+                    "This is not expected.",
+                )
+                print(
+                    "Paragraph ending on page number ",
+                    page_number,
+                    " has page layout ",
+                    repr(ill_ending_paragraph.page_layout),
+                )
+                print(
+                    "Paragraph starting on page number ",
+                    next_page_number,
+                    " has page layout ",
+                    repr(ill_starting_paragraph.page_layout),
+                )
+                print("Exiting.")
+                sys.exit()
+
+            #### Proceed with the merging of two paragraphs into a single one:
+            first_sentence_of_ill_starting_paragraph = ill_starting_paragraph.sentences[
+                0
+            ]
+            last_sentence_of_ill_ending_paragraph = ill_ending_paragraph.sentences[-1]
+            # First merge the two sentences:
+            last_sentence_of_ill_ending_paragraph.append(
+                first_sentence_of_ill_starting_paragraph
+            )
+            ill_starting_paragraph.remove_sentence(
+                first_sentence_of_ill_starting_paragraph
+            )
+            # Then merge the two paragraphs:
+            ill_ending_paragraph.merge(ill_starting_paragraph)
+
     # Abstract methods to be implemented by subclasses
 
     def _get_page_number_finishing_last_paragraph(self, page_number):
         raise NotImplementedError(
             "Subclasses must implement _get_page_number_finishing_last_paragraph"
-        )
-
-    def reconstitute_paragraphs_spreading_over_two_pages(self, chapter):
-        raise NotImplementedError(
-            "Subclasses must implement reconstitute_paragraphs_spreading_over_two_pages"
         )
 
     def build_chapters(self):
