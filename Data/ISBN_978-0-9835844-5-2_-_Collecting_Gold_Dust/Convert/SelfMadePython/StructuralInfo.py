@@ -357,13 +357,7 @@ class StructuralInfo:
                 "paragraph_fits_on_page": True,
             },
             77: {
-                "type": "illustration",  # illustration-with-extracted-text
                 "drop_page": True,
-                # By default illustrations have no header, unless for some isolated
-                # examples like the one on this page. Although the following flag is
-                # correct, it is not useful for this entry since eventually the page
-                # was dropped.
-                "header": True,
             },
             78: {
                 "type": "illustration",  # illustration-with-valid-text
@@ -682,3 +676,22 @@ class StructuralInfo:
                 "type": "illustration",
             },
         }
+
+    def _page_is_illustration(self, page_number):
+        if not page_number in self.pages_info:
+            return False
+        if not "type" in self.pages_info[page_number]:
+            return False
+        if self.pages_info[page_number]["type"] == "illustration":
+            return True
+        return False
+
+    def _page_is_headless(self, page_number):
+        # Only illustrations can be headless
+        if not self._page_is_illustration(page_number):
+            return False
+        # Yet some illustrations still have a header
+        if "header" in self.pages_info[page_number]:
+            return False
+        # Eventually illustrations not flagged as having a header are headless
+        return True

@@ -30,17 +30,8 @@ class Converter(ConverterBase):
     Converter for Collecting Gold Dust book.
     """
 
-    def _page_is_illustration(self, page_number):
-        if not page_number in self.structural_info.pages_info:
-            return False
-        if not "type" in self.structural_info.pages_info[page_number]:
-            return False
-        if self.structural_info.pages_info[page_number]["type"] == "illustration":
-            return True
-        return False
-
     def _page_requires_paragraph_continuation(self, page_number):
-        if self._page_is_illustration(page_number):
+        if self.structural_info._page_is_illustration(page_number):
             return False
         return ConverterBase._page_requires_paragraph_continuation(self, page_number)
 
@@ -65,7 +56,7 @@ class Converter(ConverterBase):
         """
         next_page_number = page_number + 1
         while not self.__page_has_paragraph_delimiter(next_page_number):
-            if not self._page_is_illustration(next_page_number):
+            if not self.structural_info._page_is_illustration(next_page_number):
                 print(
                     "Oddly enough we are on page number ",
                     page_number,
@@ -326,16 +317,6 @@ class Converter(ConverterBase):
         # drawing of the leading character) with a single white space:
         return re.sub("\n      ", " ", text_to_fix)
 
-    def __is_headless_page(self, page_number):
-        # Only illustrations can be headless
-        if not self._page_is_illustration(page_number):
-            return False
-        # Yet some illustrations still have a header
-        if "header" in self.structural_info.pages_info[page_number]:
-            return False
-        # Eventually illustrations not flagged as having a header are headless
-        return True
-
     def __get_page_header(self, page_number):
 
         if page_number < 0 or page_number > self.structural_info.total_page_number:
@@ -344,7 +325,7 @@ class Converter(ConverterBase):
             sys.exit()
 
         # Pages explicitly flagged as headless, well, are headless:
-        if self.__is_headless_page(page_number):
+        if self.structural_info._page_is_headless(page_number):
             return ""
 
         # First headers of pages starting a new chapter have that new
