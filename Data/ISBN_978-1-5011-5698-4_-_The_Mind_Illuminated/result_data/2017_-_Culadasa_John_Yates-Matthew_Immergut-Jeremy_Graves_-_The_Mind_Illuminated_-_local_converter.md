@@ -1,6 +1,6 @@
 
-COLLECTING GOLD DUST: Nurturing the Dhamma in Daily Living
-==========================================================
+The MIND ILLUMINATED: A Complete Meditation Guide Integrating Buddhist Wisdom and Brain Science for Greater Mindfulness
+=======================================================================================================================
 
 # Foreword
 

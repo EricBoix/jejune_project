@@ -11,11 +11,14 @@ class StructuralInfo:
     # - a "chapter" type must have a "chapter_info" dictionary
 
     def __init__(self):
-        # Used for debug
         self.total_page_number = 160
+        # Note: the second part of pattern happens on sub-chapter beginnings.
+        # Instead of simply starting a new paragraph we should start a new
+        # sub-chapter!
+        self.chapter_to_paragraph_breaking_pattern = "\n    " + "|" + "\n\n\n"
 
-        # The preamble section pages use roman numbering. This offsets the numbering
-        # of the body pages
+        # The preamble section pages use roman numbering. This offsets the
+        # numbering of the body pages
         self.page_numbering_offset = 16
 
         self.pages_info = {

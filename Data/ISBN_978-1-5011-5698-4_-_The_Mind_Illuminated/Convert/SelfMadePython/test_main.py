@@ -30,6 +30,6 @@ def test_main_output_matches_reference():
         / ".."
         / ".."
         / "result_data"
-        / "2017_-_Culadasa_John_Yates-Matthew_Immergut-Jeremy_Graves_-_The_Mind_Illuminated-local_converter.md"
+        / "2017_-_Culadasa_John_Yates-Matthew_Immergut-Jeremy_Graves_-_The_Mind_Illuminated_-_local_converter.md"
     ).read_text()
     assert output == reference

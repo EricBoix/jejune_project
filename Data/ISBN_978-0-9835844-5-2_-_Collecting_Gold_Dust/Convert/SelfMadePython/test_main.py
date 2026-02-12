@@ -30,6 +30,6 @@ def test_main_output_matches_reference():
         / ".."
         / ".."
         / "result_data"
-        / "2019_-_Sayadaw-U-Tejaniya-Collecting-Gold-Dust-Web-Book-1-local_converter.md"
+        / "2019_-_Sayadaw-U-Tejaniya-Collecting-Gold-Dust-Web-Book-1_-_local_converter.md"
     ).read_text()
     assert output == reference

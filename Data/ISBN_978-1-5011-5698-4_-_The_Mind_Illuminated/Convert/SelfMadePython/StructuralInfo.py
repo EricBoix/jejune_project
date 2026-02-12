@@ -16,6 +16,7 @@ class StructuralInfo:
 
     def __init__(self):
         self.total_page_number = 578
+        self.chapter_to_paragraph_breaking_pattern = "\n   "
         self.pages_info = {
             0: {
                 "type": "illustration",  # The cover page is pure illustration
