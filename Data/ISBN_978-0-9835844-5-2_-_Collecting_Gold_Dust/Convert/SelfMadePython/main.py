@@ -26,7 +26,7 @@ document = converter.get_document()
 document.to_markdown("output.md")
 
 # On debugging purposes
-if True:
+if False:
     print_document_pages(document)
     print_document_paragraphs(document)
     print_document_sentences(document)

@@ -31,16 +31,9 @@ class StructuralInfo(StructuralInfoBase):
         self.page_numbering_offset = 16
 
         self.pages_info = {
-            0: {
-                "drop_page": True,
-            },
-            1: {
-                "drop_page": True,
-            },
-            2: {
-                # Pure illustration
-                "drop_page": True,
-            },
+            0: {"drop_page": True},  # Front cover
+            1: {"drop_page": True},  # Book title
+            2: {"drop_page": True},  # Illustration
             3: {
                 # Chapters with no given name are artificial/fake chapters that
                 # do not exist in the book. They are a technicality for the
@@ -48,23 +41,28 @@ class StructuralInfo(StructuralInfoBase):
                 "type": "chapter",
                 "chapter_info": {"name": "", "illumination_delimiter": None},
             },
-            4: {
-                "drop_page": True,
-            },
+            4: {"drop_page": True},
             5: {
                 # Another fake/ghost chapter
                 "type": "chapter",
                 "chapter_info": {"name": "", "illumination_delimiter": None},
+                # They are two reasons for which we don't have to look for
+                # a paragraph continuation on the next page:
+                # 1. because the page ends a chapter (and hence the paragraph
+                #    has to be finished)
+                # 2. It just so happens that the paragraph ends up nicely at
+                #    the bottom of this page.
+                # Here we encountered the first case
                 "paragraph_fits_on_page": True,
             },
-            # 6: implicitly "generic" page
+            # 6: implicit "generic"/default page
             7: {
                 "type": "chapter",
                 "chapter_info": {
                     "name": "Acknowledgements",
                     "illumination_delimiter": "MBhaddanta",
                 },
-                "paragraph_fits_on_page": True,
+                "paragraph_fits_on_page": True,  # This page ends the chapter
             },
             9: {
                 "type": "chapter",
@@ -73,27 +71,6 @@ class StructuralInfo(StructuralInfoBase):
                     "illumination_delimiter": "Iobservation",
                 },
             },
-            10: {
-                "type": "generic",
-                # Notice that "practice." would be an erroneous delimiter:
-                "first_paragraph_delimiter": "flagging practice.",
-            },
-            11: {
-                "type": "generic",
-                "first_paragraph_delimiter": "view.",
-            },
-            12: {
-                "type": "generic",
-                "first_paragraph_delimiter": "daily life.",
-            },
-            13: {
-                "type": "generic",
-                "first_paragraph_delimiter": "info@wisdomstreams.org.",
-            },
-            14: {
-                "type": "generic",
-                "first_paragraph_delimiter": "Tuck Loon.",
-            },
             15: {
                 "type": "chapter",
                 "chapter_info": {
@@ -101,30 +78,14 @@ class StructuralInfo(StructuralInfoBase):
                     "illumination_delimiter": "Wwords",
                 },
             },
-            16: {
-                "type": "generic",
-                "first_paragraph_delimiter": "wisdom.",
-                # Required because next page is dropped
-                "paragraph_fits_on_page": True,
-            },
-            17: {
-                "type": "chapter",
-                "chapter_info": {"name": "Contents", "illumination_delimiter": None},
-                "paragraph_fits_on_page": True,
-                "drop_page": True,
-            },
-            18: {
-                "type": "generic",
-                "paragraph_fits_on_page": True,
-                "drop_page": True,
-            },
-            19: {
-                "type": "generic",
-                "paragraph_fits_on_page": True,
-                "drop_page": True,
-            },
+            16: {"paragraph_fits_on_page": True},  # This page ends the chapter
+            17: {"drop_page": True},
+            18: {"drop_page": True},
+            19: {"drop_page": True},
             20: {
-                "type": "illustration",  # Pure illustration (no text at all)
+                # Although this illustration is decorated with text (or the other way round), the text content text is an extracted quote
+                # from the body of the chapter. We can thus drop it without
+                # content loss.
                 "drop_page": True,
             },
             21: {
@@ -134,93 +95,18 @@ class StructuralInfo(StructuralInfoBase):
                     "illumination_delimiter": "Ytime",
                 },
             },
-            22: {
-                "type": "generic",
-                "first_paragraph_delimiter": "wisdom.",
-            },
-            23: {
-                "type": "generic",
-                # Everything shorter would be wrong
-                "first_paragraph_delimiter": "was that I was mindful.",
-            },
-            24: {
-                "type": "illustration",  # illustration-with-extracted-text
-                # Some illustration are decorated with text (or the other way round).
-                # Yet this text is an extracted quote from the body of the chapter.
-                # We can thus drop it without content loss.
-                "drop_page": True,
-            },
-            25: {
-                "type": "generic",
-                "first_paragraph_delimiter": "discoveries.",
-            },
-            26: {
-                "type": "generic",
-                "first_paragraph_delimiter": "thing.",
-            },
-            27: {
-                "type": "generic",
-                "first_paragraph_delimiter": "do it.”",
-            },
-            28: {
-                "type": "generic",
-                "first_paragraph_delimiter": "center.",
-            },
-            29: {
-                "type": "generic",
-                "first_paragraph_delimiter": "depression.",
-            },
-            30: {
-                "type": "illustration",  # illustration-with-extracted-text
-                "drop_page": True,
-            },
-            31: {
-                "type": "generic",
-                "first_paragraph_delimiter": "resort.",
-            },
-            32: {
-                "type": "generic",
-                "first_paragraph_delimiter": "state.",
-            },
-            33: {
-                "type": "generic",
-                "first_paragraph_delimiter": "mind.",
-            },
-            34: {
-                "type": "generic",
-                "first_paragraph_delimiter": "emotions.",
-            },
-            35: {
-                "type": "generic",
-                "first_paragraph_delimiter": "disguise!",
-                # We don't have to look for paragraph continuation on the next
-                # page
-                "paragraph_fits_on_page": True,
-            },
-            36: {
-                "type": "illustration",  # illustration-with-extracted-text
-                "drop_page": True,
-            },
-            37: {
-                "type": "generic",
-                "paragraph_fits_on_page": True,
-            },
-            # 38: well nothing to express
-            39: {
-                "type": "generic",
-                "first_paragraph_delimiter": "time.",
-                "paragraph_fits_on_page": True,
-            },
-            # 40: zilch
-            41: {
-                "type": "generic",
-                "first_paragraph_delimiter": "himself.",
-                "paragraph_fits_on_page": True,
-            },
+            24: {"drop_page": True},  # Illustration with non meaningful text
+            30: {"drop_page": True},  # Illustration with non meaningful text
+            35: {"paragraph_fits_on_page": True},  # Paragraph nicely ended.
+            36: {"drop_page": True},  # Illustration with non meaningful text
+            37: {"paragraph_fits_on_page": True},
+            39: {"paragraph_fits_on_page": True},
+            41: {"paragraph_fits_on_page": True},  # This page ends the chapter
             42: {
-                "type": "illustration",  # illustration-with-valid-text
-                # This illustration has some additional textual content that is original
-                # that is not part of the rest of the chapter text. We thus keep it.
+                # This illustration has some additional textual content that
+                # is original and that is not part of the main text.
+                # We thus keep it.
+                "type": "illustration",
             },
             43: {
                 "type": "chapter",
@@ -229,79 +115,18 @@ class StructuralInfo(StructuralInfoBase):
                     "illumination_delimiter": "WTwo",
                 },
             },
-            44: {
-                "type": "illustration",  # illustration-with-extracted-text
-                "drop_page": True,
-            },
-            45: {
-                "type": "generic",
-                "first_paragraph_delimiter": "mind.",
-                "paragraph_fits_on_page": True,
-            },
-            46: {
-                "type": "generic",
-                "paragraph_fits_on_page": True,
-            },
-            # 47: zilch
-            48: {
-                "type": "generic",
-                "first_paragraph_delimiter": "business.",
-                "paragraph_fits_on_page": True,
-            },
-            50: {
-                "type": "illustration",  # illustration-with-extracted-text
-                "drop_page": True,
-            },
-            51: {
-                "type": "generic",
-                "first_paragraph_delimiter": "suffering.",
-                "paragraph_fits_on_page": True,
-            },
-            # 52: zilch
-            53: {
-                "type": "generic",
-                "first_paragraph_delimiter": "day.",
-                "paragraph_fits_on_page": True,
-            },
-            # 54: nada
-            55: {
-                "type": "generic",
-                "first_paragraph_delimiter": "understanding.",
-            },
-            56: {
-                "type": "illustration",  # illustration-with-extracted-text
-                "drop_page": True,
-            },
-            57: {
-                "type": "generic",
-                "first_paragraph_delimiter": "habits.",
-            },
-            58: {
-                "type": "generic",
-                "first_paragraph_delimiter": "happen.",
-            },
-            59: {
-                "type": "generic",
-                "first_paragraph_delimiter": "effect.",
-            },
-            60: {
-                "type": "generic",
-                "first_paragraph_delimiter": "Understanding.",
-                "paragraph_fits_on_page": True,
-            },
-            # 61: nichts
-            62: {
-                "type": "illustration",  # illustration-with-extracted-text
-                "drop_page": True,
-            },
-            63: {
-                "type": "generic",
-                "first_paragraph_delimiter": "you.",
-                "paragraph_fits_on_page": True,
-            },
-            64: {
-                "type": "illustration",  # illustration-with-valid-text
-            },
+            44: {"drop_page": True},  # Illustration with non meaningful text
+            45: {"paragraph_fits_on_page": True},
+            46: {"paragraph_fits_on_page": True},
+            48: {"paragraph_fits_on_page": True},
+            50: {"drop_page": True},  # Illustration with non meaningful text
+            51: {"paragraph_fits_on_page": True},
+            53: {"paragraph_fits_on_page": True},
+            56: {"drop_page": True},  # Illustration with non meaningful text
+            60: {"paragraph_fits_on_page": True},
+            62: {"drop_page": True},  # Illustration with non meaningful text
+            63: {"paragraph_fits_on_page": True},
+            64: {"type": "illustration"},  # Illustration with valid text
             65: {
                 "type": "chapter",
                 "chapter_info": {
@@ -309,51 +134,15 @@ class StructuralInfo(StructuralInfoBase):
                     "illumination_delimiter": "Man",
                 },
             },
-            66: {
-                "type": "generic",
-                "first_paragraph_delimiter": "vedanā.",
-            },
-            67: {
-                "type": "generic",
-                "first_paragraph_delimiter": "experience.",
-                "paragraph_fits_on_page": True,
-            },
-            68: {
-                "type": "illustration",  # illustration-with-extracted-text
-                "drop_page": True,
-            },
-            # 69: this space intentionally left non void
-            70: {
-                "type": "generic",
-                "first_paragraph_delimiter": "effects.",
-                "paragraph_fits_on_page": True,
-            },
-            # 71: default is ok
-            72: {
-                "type": "generic",
-                "first_paragraph_delimiter": "further.",
-                "paragraph_fits_on_page": True,
-            },
-            73: {
-                "type": "generic",
-                "paragraph_fits_on_page": True,
-            },
-            74: {
-                "type": "illustration",  # illustration-with-extracted-text
-                "drop_page": True,
-            },
-            # 75: nothing
-            76: {
-                "type": "generic",
-                "first_paragraph_delimiter": "happening.",
-                "paragraph_fits_on_page": True,
-            },
-            77: {
-                "drop_page": True,
-            },
-            78: {
-                "type": "illustration",  # illustration-with-valid-text
-            },
+            67: {"paragraph_fits_on_page": True},
+            68: {"drop_page": True},
+            70: {"paragraph_fits_on_page": True},
+            72: {"paragraph_fits_on_page": True},
+            73: {"paragraph_fits_on_page": True},
+            74: {"drop_page": True},
+            76: {"paragraph_fits_on_page": True},
+            77: {"drop_page": True},
+            78: {"type": "illustration"},
             79: {
                 "type": "chapter",
                 "chapter_info": {
@@ -361,46 +150,13 @@ class StructuralInfo(StructuralInfoBase):
                     "illumination_delimiter": "Dnot",
                 },
             },
-            80: {
-                "type": "generic",
-                "first_paragraph_delimiter": "through.",
-                "paragraph_fits_on_page": True,
-            },
-            # 81: nothing to say
-            82: {
-                "type": "illustration",  # illustration-with-extracted-text
-                "drop_page": True,
-            },
-            83: {
-                "type": "generic",
-                "first_paragraph_delimiter": "process.",
-            },
-            84: {
-                "type": "generic",
-                "first_paragraph_delimiter": "uncomfortable.",
-                "paragraph_fits_on_page": True,
-            },
-            # 85: nothing
-            86: {
-                "type": "generic",
-                "first_paragraph_delimiter": "practice.",
-            },
-            87: {
-                "type": "generic",
-                "first_paragraph_delimiter": "or another.",
-                "paragraph_fits_on_page": True,
-            },
-            88: {
-                "type": "illustration",  # illustration-with-extracted-text
-                "drop_page": True,
-            },
-            89: {
-                "type": "generic",
-                "paragraph_fits_on_page": True,
-            },
-            90: {
-                "type": "illustration",  # illustration-with-valid-text
-            },
+            80: {"paragraph_fits_on_page": True},
+            82: {"drop_page": True},
+            84: {"paragraph_fits_on_page": True},
+            87: {"paragraph_fits_on_page": True},
+            88: {"drop_page": True},
+            89: {"paragraph_fits_on_page": True},
+            90: {"type": "illustration"},
             91: {
                 "type": "chapter",
                 "chapter_info": {
@@ -408,124 +164,23 @@ class StructuralInfo(StructuralInfoBase):
                     "illumination_delimiter": "Wchange",
                 },
             },
-            92: {
-                "type": "generic",
-                "first_paragraph_delimiter": "term.",
-                "paragraph_fits_on_page": True,
-            },
-            # 93: nothing to say
-            94: {
-                "type": "illustration",  # illustration-with-extracted-text
-                "drop_page": True,
-            },
-            95: {
-                "type": "generic",
-                "first_paragraph_delimiter": "deepened.",
-            },
-            96: {
-                "type": "generic",
-                "first_paragraph_delimiter": "effect.",
-                "paragraph_fits_on_page": True,
-            },
-            # 97: default
-            98: {
-                "type": "generic",
-                "first_paragraph_delimiter": "people.",
-                "paragraph_fits_on_page": True,
-            },
-            99: {
-                "type": "generic",
-                "paragraph_fits_on_page": True,
-            },
-            100: {
-                "type": "illustration",  # illustration-with-extracted-text
-                "drop_page": True,
-            },
+            92: {"paragraph_fits_on_page": True},
+            94: {"drop_page": True},
+            96: {"paragraph_fits_on_page": True},
+            98: {"paragraph_fits_on_page": True},
+            99: {"paragraph_fits_on_page": True},
+            100: {"drop_page": True},
             # 101: dalmatians
-            102: {
-                "type": "generic",
-                "first_paragraph_delimiter": "automatic.",
-                "paragraph_fits_on_page": True,
-            },
-            # 103: default works
-            104: {
-                "type": "generic",
-                "first_paragraph_delimiter": "time.",
-            },
-            105: {
-                "type": "generic",
-                "first_paragraph_delimiter": "well.",
-            },
-            106: {
-                "type": "illustration",  # illustration-with-extracted-text
-                "drop_page": True,
-            },
-            107: {
-                "type": "generic",
-                "first_paragraph_delimiter": ".",  # Notice the default case
-            },
-            108: {
-                "type": "generic",
-                "first_paragraph_delimiter": "steadier.",
-            },
-            109: {
-                "type": "generic",
-                "first_paragraph_delimiter": "silent?",
-            },
-            110: {
-                "type": "generic",
-                "first_paragraph_delimiter": "it.",
-            },
-            111: {
-                "type": "generic",
-                "first_paragraph_delimiter": "balanced.",
-                "paragraph_fits_on_page": True,
-            },
-            112: {
-                "type": "illustration",  # illustration-with-extracted-text
-                "drop_page": True,
-            },
-            # 113: nothing
-            114: {
-                "type": "generic",
-                "first_paragraph_delimiter": "understanding.",
-                "paragraph_fits_on_page": True,
-            },
-            # 115: nothing
-            116: {
-                "type": "generic",
-                "first_paragraph_delimiter": "violated.",
-            },
-            117: {
-                "type": "generic",
-                "first_paragraph_delimiter": "disappear.",
-                "paragraph_fits_on_page": True,
-            },
-            118: {
-                "type": "illustration",  # illustration-with-extracted-text
-                "drop_page": True,
-            },
-            119: {
-                "type": "generic",
-                "paragraph_fits_on_page": True,
-            },
-            # 120: nothing
-            121: {
-                "type": "generic",
-                "first_paragraph_delimiter": "people.",
-            },
-            122: {
-                "type": "generic",
-                "first_paragraph_delimiter": "deteriorate.",
-            },
-            123: {
-                "type": "generic",
-                "first_paragraph_delimiter": "way!",
-                "paragraph_fits_on_page": True,
-            },
-            124: {
-                "type": "illustration",
-            },
+            102: {"paragraph_fits_on_page": True},
+            106: {"drop_page": True},
+            111: {"paragraph_fits_on_page": True},
+            112: {"drop_page": True},
+            114: {"paragraph_fits_on_page": True},
+            117: {"paragraph_fits_on_page": True},
+            118: {"drop_page": True},
+            119: {"paragraph_fits_on_page": True},
+            123: {"paragraph_fits_on_page": True},
+            124: {"type": "illustration"},
             125: {
                 "type": "chapter",
                 "chapter_info": {
@@ -534,39 +189,14 @@ class StructuralInfo(StructuralInfoBase):
                 },
                 "paragraph_fits_on_page": True,
             },
-            # 126: nothing
-            127: {
-                "type": "generic",
-                "first_paragraph_delimiter": "life.",
-            },
-            128: {
-                "type": "illustration",
-            },
-            129: {
-                "type": "generic",
-                "first_paragraph_delimiter": "habits.",
-            },
-            130: {
-                "type": "generic",
-                "first_paragraph_delimiter": "solutions.",
-            },
-            131: {
-                "type": "generic",
-                "first_paragraph_delimiter": "truth.",
-            },
-            132: {
-                "type": "generic",
-                "first_paragraph_delimiter": "lives.",
-                "paragraph_fits_on_page": True,
-            },
+            128: {"type": "illustration"},
+            132: {"paragraph_fits_on_page": True},
             133: {
                 "type": "illustration",
-                # By default illustrations have no header, unless ... they have
+                # By default illustrations have no header, unless ... they do
                 "header": True,
             },
-            134: {
-                "type": "illustration",
-            },
+            134: {"type": "illustration"},
             135: {
                 "type": "chapter",
                 "chapter_info": {
@@ -574,40 +204,11 @@ class StructuralInfo(StructuralInfoBase):
                     "illumination_delimiter": "A remember",
                 },
             },
-            136: {
-                "type": "generic",
-                "first_paragraph_delimiter": "moment.",
-                "paragraph_fits_on_page": True,
-            },
-            137: {
-                "type": "generic",
-                "first_paragraph_delimiter": "Thought.",
-                "paragraph_fits_on_page": True,
-            },
-            138: {
-                "type": "illustration",
-            },
-            # 139
-            140: {
-                "type": "generic",
-                "first_paragraph_delimiter": "perspective.",
-            },
-            141: {
-                "type": "generic",
-                "first_paragraph_delimiter": ".",  # End of first sentence
-            },
-            142: {
-                "type": "generic",
-                "first_paragraph_delimiter": "useful.",
-            },
-            143: {
-                "type": "generic",
-                "first_paragraph_delimiter": "operate.",
-                "paragraph_fits_on_page": True,
-            },
-            144: {
-                "type": "illustration",
-            },
+            136: {"paragraph_fits_on_page": True},
+            137: {"paragraph_fits_on_page": True},
+            138: {"type": "illustration"},
+            143: {"paragraph_fits_on_page": True},
+            144: {"type": "illustration"},
             145: {
                 "type": "chapter",
                 "chapter_info": {
@@ -615,58 +216,24 @@ class StructuralInfo(StructuralInfoBase):
                     "illumination_delimiter": "Sour",
                 },
             },
-            146: {
-                "type": "generic",
-                "first_paragraph_delimiter": "the mind.",
-            },
-            147: {
-                "type": "generic",
-                "first_paragraph_delimiter": "mind.",
-                "paragraph_fits_on_page": True,
-            },
-            148: {
-                "type": "generic",
-                "paragraph_fits_on_page": True,
-            },
-            149: {
-                "type": "generic",
-                "paragraph_fits_on_page": True,
-            },
-            150: {
-                "type": "illustration",
-            },
-            # 151
-            152: {
-                "type": "generic",
-                "first_paragraph_delimiter": ".",
-                "paragraph_fits_on_page": True,
-            },
-            153: {
-                "type": "generic",
-                "paragraph_fits_on_page": True,
-            },
-            154: {
-                "type": "generic",
-                "paragraph_fits_on_page": True,
-            },
-            # 155
-            156: {
-                "type": "illustration",
-            },
-            157: {
-                "type": "generic",
-                "first_paragraph_delimiter": "learn.",
-                "paragraph_fits_on_page": True,
-            },
+            147: {"paragraph_fits_on_page": True},
+            148: {"paragraph_fits_on_page": True},
+            149: {"paragraph_fits_on_page": True},
+            150: {"type": "illustration"},
+            152: {"paragraph_fits_on_page": True},
+            153: {"paragraph_fits_on_page": True},
+            154: {"paragraph_fits_on_page": True},
+            156: {"type": "illustration"},
+            157: {"paragraph_fits_on_page": True},
             158: {
                 "type": "chapter",
-                "chapter_info": {"name": "Dedication", "illumination_delimiter": None},
+                "chapter_info": {
+                    "name": "Dedication",
+                    "illumination_delimiter": None,
+                },
                 "paragraph_fits_on_page": True,
             },
-            159: {
-                # This is the back cover of the book
-                "type": "illustration",
-            },
+            159: {"type": "illustration"},  # This Back cover of the book
         }
 
     def convert_to_logical_page_number(self, page_number):

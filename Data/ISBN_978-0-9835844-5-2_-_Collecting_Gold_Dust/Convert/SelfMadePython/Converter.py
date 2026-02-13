@@ -43,22 +43,9 @@ class Converter(ConverterBase):
         delimiter.
         """
         next_page_number = page_number + 1
-        while not self.__page_has_paragraph_delimiter(next_page_number):
-            if not self.structural_info._page_is_illustration(next_page_number):
-                print(
-                    "Oddly enough we are on page number ",
-                    page_number,
-                    " and we are looking for the page holding the content of the end of the paragraph.",
-                )
-                print("Yet page number ", next_page_number, " is not an illustration.")
-                print("How could this be?")
-                print(
-                    "Maybe we forgot to define the first_paragraph_delimiter of page number ",
-                    next_page_number,
-                    "?",
-                )
-                print("Exiting.")
-                sys.exit()
+        while self.structural_info._page_is_illustration(
+            next_page_number
+        ) or self._page_is_dropped(next_page_number):
             next_page_number += 1
         return next_page_number
 
