@@ -5,7 +5,8 @@ import re
 from pypdf import PdfReader
 
 # To deal with outputs of the Converter class
-from Model import Document, Paragraph, Sentence
+from Model import Document
+from Model import Paragraph, Sentence
 
 # To realize the conversion per se
 import nltk
@@ -35,6 +36,9 @@ class ConverterBase:
         # was manually extracted
         self.structural_info = structural_info
 
+        # The result of the conversion process
+        self.document = Document(self.structural_info.book_title)
+
         # Parse the pdf and make some basic coherence checks on the result:
         self.reader = PdfReader(self.pdf_filename)
         if len(self.reader.pages) != self.structural_info.total_page_number:
@@ -49,6 +53,9 @@ class ConverterBase:
             sys.exit()
         for page_number in range(self.structural_info.total_page_number):
             self._assert_reader_page_number_is_coherent(page_number)
+
+        # Eventually realize the conversion
+        self.build_document()
 
     def _assert_reader_page_number_is_coherent(self, page_number):
         # Slightly paranoid check on the reader numbering job coherence. When
@@ -131,14 +138,15 @@ class ConverterBase:
         result = re.sub(r"\s+", " ", result).strip()
         return result
 
-    def get_document(self):
+    def build_document(self):
         """
-        Return a Document object that holds the chapters and paragraphs
+        Build the Document object out of converter extracted chapters
         """
-        document = Document(self.structural_info.book_title)
         for chapter in self.build_chapters():
-            document.add_chapter(chapter)
-        return document
+            self.document.add_chapter(chapter)
+
+    def get_document(self):
+        return self.document
 
     def break_paragraph_into_sentences(self, paragraph: Paragraph):
         paragraph_layout = paragraph.page_layout
@@ -290,8 +298,3 @@ class ConverterBase:
             )
             # Then merge the two paragraphs:
             ill_ending_paragraph.merge(ill_starting_paragraph)
-
-    # Abstract methods to be implemented by subclasses
-
-    def build_chapters(self):
-        raise NotImplementedError("Subclasses must implement build_chapters")

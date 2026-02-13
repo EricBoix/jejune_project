@@ -4,11 +4,9 @@ import os
 
 sys.path.append(os.path.join("..", "..", "..", "ConvertPdfToMarkdown"))
 from ConverterBase import ConverterBase
-from Model import Chapter
+from ExtractedPageBase import ExtractedPageBase
 from PageLayout import PageLayout
-from ExtractedPage import ExtractedPage as ExtractedPageBase
-
-import roman
+from Model import Chapter
 
 
 class ExtractedPage(ExtractedPageBase):
@@ -30,17 +28,71 @@ class Converter(ConverterBase):
     Converter for Collecting Gold Dust book.
     """
 
+    def build_chapters(self):
+        resulting_chapters = []
+        current_chapter = None
+        for page_number in range(0, self.structural_info.total_page_number):
+
+            if self.structural_info._page_is_dropped(page_number):
+                continue
+
+            if self.structural_info._is_chapter_beginning_page(page_number):
+                new_chapter_name = self.structural_info._get_chapter_name(page_number)
+                current_chapter = Chapter(new_chapter_name)
+                resulting_chapters.append(current_chapter)
+            else:
+                if not current_chapter:
+                    # We didn't encounter a first chapter yet the first
+                    # encountered page is not a page starting a chapter.
+                    print("Any chapter must start with...a chapter typed page.")
+                    print("Note: we didn't encounter the first chapter yet.")
+                    print("Exiting")
+                    sys.exit()
+
+            ### Create a new extracted page:
+            new_extracted_page_layout = PageLayout(
+                self.structural_info.convert_to_logical_page_number(page_number),
+                page_number,
+            )
+            new_extracted_page_layout.set_reference_text(
+                "[Page: "
+                + str(new_extracted_page_layout.reader_page_number)
+                + " (page number: "
+                + str(new_extracted_page_layout.page_number)
+                + ")]"
+            )
+            # The usage of ExtractedPage, that can be a derived class, prevents
+            # the declaration of this member function to be done in the parent
+            # class. This is because although all derived classes with define
+            # exactly the same function definition, the concrete ExtractedPage
+            # class type might (and thus will) differ from one derivation of
+            # a converter to another one.
+            new_extracted_page = ExtractedPage(
+                page_number,
+                new_extracted_page_layout,
+                self.reader.pages[page_number],  # Original page
+            )
+
+            self.sanitized_page_text(new_extracted_page)
+            current_chapter.add_page(new_extracted_page)
+
+        for chapter in resulting_chapters:
+            self.break_chapter_into_paragraphs(chapter)
+            for paragraph in chapter.paragraphs:
+                self.break_paragraph_into_sentences(paragraph)
+        for chapter in resulting_chapters:
+            self.reconstitute_paragraphs_spreading_over_two_pages(chapter)
+        return resulting_chapters
+
     def _page_requires_paragraph_continuation(self, page_number):
         if self.structural_info._page_is_illustration(page_number):
             return False
         return ConverterBase._page_requires_paragraph_continuation(self, page_number)
 
-    def remove_header(self, extracted_page):
+    def sanitized_page_text(self, extracted_page):
         """
-        The original pdf text of a page is polluted with the content of the
-        header of the page, that varies from chapter names, the book name,
-        the page number, a combination of the above ... or nothing.
-        Clean up this mess.
+        After extraction of the text from the original pdf, some ad hoc
+        manual cleaning is alas required e.g. remove the header of the page (when there is one).
         """
         original_page_text = extracted_page.original_pdf_page.extract_text(
             extraction_mode="layout"
@@ -84,56 +136,6 @@ class Converter(ConverterBase):
 
         extracted_page.text = header_less_page_text
 
-    def build_chapters(self):
-        resulting_chapters = []
-        current_chapter = None
-        for page_number in range(0, self.structural_info.total_page_number):
-
-            if self.structural_info._page_is_dropped(page_number):
-                continue
-
-            if self.structural_info._is_chapter_beginning_page(page_number):
-                new_chapter_name = self.structural_info._get_chapter_name(page_number)
-                current_chapter = Chapter(new_chapter_name)
-                resulting_chapters.append(current_chapter)
-            else:
-                if not current_chapter:
-                    # We didn't encounter a first chapter yet the first
-                    # encountered page is not a page starting a chapter.
-                    print("Any chapter must start with...a chapter typed page.")
-                    print("Note: we didn't encounter the first chapter yet.")
-                    print("Exiting")
-                    sys.exit()
-
-            ### Create a new extracted page:
-            new_extracted_page_layout = PageLayout(
-                self.structural_info.convert_to_logical_page_number(page_number),
-                page_number,
-            )
-            new_extracted_page_layout.set_reference_text(
-                "[Page: "
-                + str(new_extracted_page_layout.reader_page_number)
-                + " (page number: "
-                + str(new_extracted_page_layout.page_number)
-                + ")]"
-            )
-            new_extracted_page = ExtractedPage(
-                page_number,
-                new_extracted_page_layout,
-                self.reader.pages[page_number],  # Original page
-            )
-
-            self.remove_header(new_extracted_page)
-            current_chapter.add_page(new_extracted_page)
-
-        for chapter in resulting_chapters:
-            self.break_chapter_into_paragraphs(chapter)
-            for paragraph in chapter.paragraphs:
-                self.break_paragraph_into_sentences(paragraph)
-        for chapter in resulting_chapters:
-            self.reconstitute_paragraphs_spreading_over_two_pages(chapter)
-        return resulting_chapters
-
     def fix_illumination(self, page_number, text_to_fix):
         """Chapters beginnings (that is the first page of a new chapter) start
         with an illumination (decorated first letter) that confuses pypdf.
@@ -145,7 +147,7 @@ class Converter(ConverterBase):
             print("  This does not seem to be a chapter starting page.")
             print("  Exiting")
             sys.exit()
-        delimiter = self.structural_info.pages_info[page_number]["chapter_info"][
+        delimiter = self.structural_info._get_chapter_info(page_number)[
             "illumination_delimiter"
         ]
         if delimiter is None:

@@ -1,4 +1,5 @@
 from __future__ import annotations  # Allow forward references in type hints
+import sys
 from PageLayout import PageLayout
 from mdutils.mdutils import MdUtils  # Added import
 from typing import List, Optional
@@ -58,6 +59,13 @@ class Paragraph:
 
     def add_sentence(self, sentence: Sentence) -> None:
         self.sentences.append(sentence)
+
+    def get_sentence(self, sentence_number):
+        if sentence_number > len(self.sentences):
+            print("Sentence index ", sentence_number, " out of bounds ", end="")
+            print("(should be smaller than ", len(self.sentences), ")")
+            sys.exit()
+        return self.sentences[sentence_number]
 
     def remove_sentence(self, sentence: Sentence) -> None:
         """
@@ -120,6 +128,13 @@ class Chapter:
     def add_page(self, page) -> None:
         self.pages.append(page)
 
+    def get_paragraph(self, paragraph_number):
+        if paragraph_number > len(self.paragraphs):
+            print("Paragraph index ", paragraph_number, " out of bounds ", end="")
+            print("(should be smaller than ", len(self.paragraphs), ")")
+            sys.exit()
+        return self.paragraphs[paragraph_number]
+
     def add_paragraph(self, new_paragraph: Paragraph) -> None:
         self.paragraphs.append(new_paragraph)
 
@@ -157,6 +172,10 @@ class Document:
 
     def add_chapter(self, new_chapter: Chapter) -> None:
         self.chapters.append(new_chapter)
+
+    def get_chapters(self, chapter_number):
+
+        return self.chapters
 
     def to_markdown(self, filepath: str) -> None:
         """

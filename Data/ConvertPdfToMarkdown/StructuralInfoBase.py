@@ -1,3 +1,5 @@
+import sys
+
 # The structural information constituted by the presence of chapters,
 # illustrations, illumination, headers ... is quite often difficult
 # to be automatically discovered. While waiting for better (and free)
@@ -28,7 +30,7 @@ class StructuralInfoBase:
     def __init__(self):
         # Technical (optimisation) variable used to hold the correspondance
         # between a given page number and the chapter to which that page
-        # belongs to. In other terms for this dictionary
+        # belongs to. In other terms, within this dictionary
         #  - a key is a page number
         #  - the associated value holds the current chapter number for that key
         self._chapter_page = {}
@@ -56,13 +58,33 @@ class StructuralInfoBase:
         """
         return self._page_is_dropped(page_number)
 
-    def _get_chapter_page(self, page_number):
+    def _get_chapter_page_number(self, page_number):
         self._initialize_chapter_page()
         return self._chapter_page[page_number]
 
-    def _get_chapter_name(self, page_number):
+    def _get_chapter_page(self, page_number):
+        chapter_page_number = self._get_chapter_page_number(page_number)
+        return self.pages_info[chapter_page_number]
+
+    def _get_chapter_info(self, page_number):
         chapter_page = self._get_chapter_page(page_number)
-        return self.pages_info[chapter_page]["chapter_info"]["name"]
+        if not "chapter_info" in chapter_page:
+            print("Chapter page without chapter_info (page number ", page_number, ").")
+            print("Exiting")
+            sys.exit()
+        return chapter_page["chapter_info"]
+
+    def _get_chapter_name(self, page_number):
+        chapter_info = self._get_chapter_info(page_number)
+        if not "name" in chapter_info:
+            print(
+                "chapter_info of chapter page (page number ",
+                page_number,
+                ") without name.",
+            )
+            print("Exiting")
+            sys.exit()
+        return chapter_info["name"]
 
     def _is_chapter_beginning_page(self, page_number):
         if not page_number in self.pages_info:
