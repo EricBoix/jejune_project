@@ -43,6 +43,19 @@ class StructuralInfoBase:
                 current_chapter_page = page_number
             self._chapter_page[page_number] = current_chapter_page
 
+    def _page_is_dropped(self, page_number):
+        if not page_number in self.pages_info:
+            return False
+        if not "drop_page" in self.pages_info[page_number]:
+            return False
+        return True
+
+    def _page_is_skipped(self, page_number):
+        """
+        The derived classes might overload this definition with their specific considerations.
+        """
+        return self._page_is_dropped(page_number)
+
     def _get_chapter_page(self, page_number):
         self._initialize_chapter_page()
         return self._chapter_page[page_number]
@@ -59,3 +72,13 @@ class StructuralInfoBase:
         if self.pages_info[page_number]["type"] == "chapter":
             return True
         return False
+
+    def _get_page_number_finishing_last_paragraph(self, page_number):
+        """
+        A page that is followed by one (or many) skipped pages will need to skip such pages in order to retrieve the end of its last paragraph.
+        Return the page number of the first page that holds the content of the end of the paragraph.
+        """
+        next_page_number = page_number + 1
+        while self._page_is_skipped(next_page_number):
+            next_page_number += 1
+        return next_page_number

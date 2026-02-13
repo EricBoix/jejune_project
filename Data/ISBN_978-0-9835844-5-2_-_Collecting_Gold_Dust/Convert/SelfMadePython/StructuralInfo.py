@@ -266,6 +266,11 @@ class StructuralInfo(StructuralInfoBase):
         # Eventually illustrations not flagged as having a header are headless
         return True
 
+    def _page_is_skipped(self, page_number):
+        return self._page_is_illustration(page_number) or self._page_is_dropped(
+            page_number
+        )
+
     def chapter_page_header(self, page_number):
         return (
             self._get_chapter_name(page_number)

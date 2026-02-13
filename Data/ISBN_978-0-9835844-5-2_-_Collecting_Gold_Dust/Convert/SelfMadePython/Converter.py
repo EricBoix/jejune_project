@@ -35,20 +35,6 @@ class Converter(ConverterBase):
             return False
         return ConverterBase._page_requires_paragraph_continuation(self, page_number)
 
-    def _get_page_number_finishing_last_paragraph(self, page_number):
-        """
-        A page that is followed by an illustration will need to skip that
-        illustration page in order to retrieve the end of its last paragraph.
-        Return the page number of the first page that defines a paragraph
-        delimiter.
-        """
-        next_page_number = page_number + 1
-        while self.structural_info._page_is_illustration(
-            next_page_number
-        ) or self._page_is_dropped(next_page_number):
-            next_page_number += 1
-        return next_page_number
-
     def remove_header(self, extracted_page):
         """
         The original pdf text of a page is polluted with the content of the
@@ -103,7 +89,7 @@ class Converter(ConverterBase):
         current_chapter = None
         for page_number in range(0, self.structural_info.total_page_number):
 
-            if self._page_is_dropped(page_number):
+            if self.structural_info._page_is_dropped(page_number):
                 continue
 
             if self.structural_info._is_chapter_beginning_page(page_number):
@@ -199,13 +185,3 @@ class Converter(ConverterBase):
         # first lines of the text (that would be overwritten by the illumination
         # drawing of the leading character) with a single white space:
         return re.sub("\n      ", " ", text_to_fix)
-
-    def __page_has_paragraph_delimiter(self, page_number):
-        if not page_number in self.structural_info.pages_info:
-            return False
-        if (
-            not "first_paragraph_delimiter"
-            in self.structural_info.pages_info[page_number]
-        ):
-            return False
-        return True

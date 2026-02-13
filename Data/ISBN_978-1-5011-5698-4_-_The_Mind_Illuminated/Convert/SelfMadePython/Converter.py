@@ -14,23 +14,6 @@ class Converter(ConverterBase):
     Converter for The Mind Illuminated book.
     """
 
-    def _get_page_number_finishing_last_paragraph(self, page_number):
-        """
-        A page that is followed by one many dropped pages will need to skip
-        such pages in order to retrieve the end of its last paragraph.
-        Return the page number of the first page with interesting content.
-        """
-        next_page_number = page_number + 1
-        while self._page_is_dropped(next_page_number):
-            print(
-                "Skipping dropped page number ",
-                next_page_number,
-                " while looking for the content of the end of the paragraph",
-            )
-            print("that starts on page number  ", page_number, ".")
-            next_page_number += 1
-        return next_page_number
-
     def define_sanitized_text(self, extracted_page):
         """
         After extraction of the text from the original pdf, some ad hoc
@@ -55,7 +38,7 @@ class Converter(ConverterBase):
         current_chapter = None
         for page_number in range(0, self.structural_info.total_page_number):
 
-            if self._page_is_dropped(page_number):
+            if self.structural_info._page_is_dropped(page_number):
                 continue
 
             if self.structural_info._is_chapter_beginning_page(page_number):

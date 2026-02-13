@@ -64,13 +64,6 @@ class ConverterBase:
             sys.exit()
         return True
 
-    def _page_is_dropped(self, page_number):
-        if not page_number in self.structural_info.pages_info:
-            return False
-        if not "drop_page" in self.structural_info.pages_info[page_number]:
-            return False
-        return True
-
     def _page_requires_paragraph_continuation(self, page_number):
         if not page_number in self.structural_info.pages_info:
             return True  # Looks a bit ambitious but let's try it
@@ -241,8 +234,10 @@ class ConverterBase:
             page_number = current_page.page_number
             if not self._page_requires_paragraph_continuation(page_number):
                 continue
-            next_page_number = self._get_page_number_finishing_last_paragraph(
-                page_number
+            next_page_number = (
+                self.structural_info._get_page_number_finishing_last_paragraph(
+                    page_number
+                )
             )
             if self.structural_info._is_chapter_beginning_page(next_page_number):
                 # The next page is the starting page of a new chapter. This
@@ -297,11 +292,6 @@ class ConverterBase:
             ill_ending_paragraph.merge(ill_starting_paragraph)
 
     # Abstract methods to be implemented by subclasses
-
-    def _get_page_number_finishing_last_paragraph(self, page_number):
-        raise NotImplementedError(
-            "Subclasses must implement _get_page_number_finishing_last_paragraph"
-        )
 
     def build_chapters(self):
         raise NotImplementedError("Subclasses must implement build_chapters")
