@@ -6,7 +6,8 @@ from pypdf import PdfReader
 
 # To deal with outputs of the Converter class
 from Model import Document
-from Model import Paragraph, Sentence
+from Model import Paragraph, Sentence, Chapter
+from PageLayout import PageLayout
 
 # To realize the conversion per se
 import nltk
@@ -56,6 +57,62 @@ class ConverterBase:
 
         # Eventually realize the conversion
         self.build_document()
+
+    def build_chapters(self, ExtractedPageDerived):
+        resulting_chapters = []
+        current_chapter = None
+        for page_number in range(0, self.structural_info.total_page_number):
+
+            if self.structural_info._page_is_dropped(page_number):
+                continue
+
+            if self.structural_info._is_chapter_beginning_page(page_number):
+                new_chapter_name = self.structural_info._get_chapter_name(page_number)
+                current_chapter = Chapter(new_chapter_name)
+                resulting_chapters.append(current_chapter)
+            else:
+                if not current_chapter:
+                    # We didn't encounter a first chapter yet the first
+                    # encountered page is not a page starting a chapter.
+                    print("Any chapter must start with...a chapter typed page.")
+                    print("Note: we didn't encounter the first chapter yet.")
+                    print("Exiting")
+                    sys.exit()
+
+            ### Create a new extracted page:
+            new_extracted_page_layout = PageLayout(
+                self.structural_info.convert_to_logical_page_number(page_number),
+                page_number,
+            )
+            new_extracted_page_layout.set_reference_text(
+                "[Page: "
+                + str(new_extracted_page_layout.reader_page_number)
+                + " (page number: "
+                + str(new_extracted_page_layout.page_number)
+                + ")]"
+            )
+            # The usage of ExtractedPage, that can be a derived class, prevents
+            # the declaration of this member function to be done in the parent
+            # class. This is because although all derived classes with define
+            # exactly the same function definition, the concrete ExtractedPage
+            # class type might (and thus will) differ from one derivation of
+            # a converter to another one.
+            new_extracted_page = ExtractedPageDerived(
+                page_number,
+                new_extracted_page_layout,
+                self.reader.pages[page_number],  # Original page
+            )
+
+            self.sanitized_page_text(new_extracted_page)
+            current_chapter.add_page(new_extracted_page)
+
+        for chapter in resulting_chapters:
+            self.break_chapter_into_paragraphs(chapter)
+            for paragraph in chapter.paragraphs:
+                self.break_paragraph_into_sentences(paragraph)
+        for chapter in resulting_chapters:
+            self.reconstitute_paragraphs_spreading_over_two_pages(chapter)
+        return resulting_chapters
 
     def _assert_reader_page_number_is_coherent(self, page_number):
         # Slightly paranoid check on the reader numbering job coherence. When

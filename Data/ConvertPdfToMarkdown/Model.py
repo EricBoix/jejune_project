@@ -173,8 +173,7 @@ class Document:
     def add_chapter(self, new_chapter: Chapter) -> None:
         self.chapters.append(new_chapter)
 
-    def get_chapters(self, chapter_number):
-
+    def get_chapters(self):
         return self.chapters
 
     def to_markdown(self, filepath: str) -> None:
