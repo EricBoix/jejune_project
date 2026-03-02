@@ -18,6 +18,7 @@ cd `git rev-parse --show-toplevel`/Data/ISBN_978-0-9835844-5-2_-_Collecting_Gold
 python3.10 -m venv venv
 source ./venv/bin/activate
 pip install -r ../../../requirements.txt
+pip install ../../../ConvertPdfToMarkdown
 python main.py
 ```
 

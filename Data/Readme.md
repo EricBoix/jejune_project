@@ -10,20 +10,22 @@
 ## Setup
 
 ```bash
-cd Data
+cd `git rev-parse --show-toplevel`/Data
 python3.10 -m venv venv
 source ./venv/bin/activate
 pip install -r requirements.txt
+pip install -e ./ConvertPdfToMarkdown
 ```
 
 ## Running tests
 
 ```bash
-cd Data
+cd `git rev-parse --show-toplevel`/Data
 source ./venv/bin/activate
-pytest                    # all tests
-pytest -v                 # verbose
-pytest ISBN_978-...       # specific book directory
+pytest                       # all tests
+pytest -v                    # verbose
+pytest  --collect-only -q    # List individual tests
+pytest -k ISBN_978-0-9835844 # Run a specific test (with a pattern selection)
 ```
 
 ## Model class diagram

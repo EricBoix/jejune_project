@@ -809,7 +809,7 @@ Sometimes new students say, “I seem to spend a lot of time just doing the ‘P
 
 describe in the next section on breath meditation. After doing the preparation every day for a while, it will go much more quickly.
 
-The Meditation Object A meditation object is something you intentionally choose to be the focus of your attention during meditation. Although you can choose just about anything, the breath is ideal for cultivating attention and mindfulness. First, the breath is always with you. Second, it allows you to be a completely passive observer. You don’t need to do anything, such as repeat a mantra, generate a visualization, or rely on any special item like a candle, icon, or kasiṇ a.1 You can meditate on the breath at any opportunity, wherever you are, every day—even up to your dying breath. The breath also changes over time, becoming fainter as concentration deepens. This makes it suitable for developing powerful attention, since the details you focus on become ever more subtle as sensations grow less distinct. Likewise, the fact that sensations change continuously, moment by moment, is conducive to Insight into the nature of impermanence. Yet, the breath also constantly repeats itself, over and over in the same pattern, making it suitable as a fixed (i.e., relatively unchanging) meditation object for entering states of meditative absorption. Because of these different qualities, the breath is used as the basis for the practice of Tranquility and Insight (śamatha-vipassanā), dry Insight practices (sukkha-vipassanā), and meditative absorptions (jhāna).
+The Meditation Object A meditation object is something you intentionally choose to be the focus of your attention during meditation. Although you can choose just about anything, the breath is ideal for cultivating attention and mindfulness. First, the breath is always with you. Second, it allows you to be a completely passive observer. You don’t need to do anything, such as repeat a mantra, generate a visualization, or rely on any special item like a candle, icon, or kasiṇa.1 You can meditate on the breath at any opportunity, wherever you are, every day—even up to your dying breath. The breath also changes over time, becoming fainter as concentration deepens. This makes it suitable for developing powerful attention, since the details you focus on become ever more subtle as sensations grow less distinct. Likewise, the fact that sensations change continuously, moment by moment, is conducive to Insight into the nature of impermanence. Yet, the breath also constantly repeats itself, over and over in the same pattern, making it suitable as a fixed (i.e., relatively unchanging) meditation object for entering states of meditative absorption. Because of these different qualities, the breath is used as the basis for the practice of Tranquility and Insight (śamatha-vipassanā), dry Insight practices (sukkha-vipassanā), and meditative absorptions (jhāna).
 
 When we refer to the “breath” as the meditation object, we mean the
 
@@ -1371,7 +1371,7 @@ CALMING THE MONKEY-MIND “Monkey-mind” describes an especially agitated state
 
 differently than ordinary mind-wandering.
 
-The antidote that calms monkey-mind is to become “grounded in the body.” This means expanding the space in which you allow attention to move to include the entire body and, if needed, the other senses as well. In other words, return to Step One or Two of the Gradual Four-Step Transition to the Meditation Object described in Stage One (see p. 47 ). The agitation of monkey-mind is due to thoughts and emotions, so “body awareness” works by shifting attention and awareness away from the contents and activities of the mind. Some grounding techniques include scanning the sensations of the body part by part, attending to any strong bodily sensation, evoking whole body awareness, or becoming aware of other sensations, like sounds.
+The antidote that calms monkey-mind is to become “grounded in the body.” This means expanding the space in which you allow attention to move to include the entire body and, if needed, the other senses as well. In other words, return to Step One or Two of the Gradual Four-Step Transition to the Meditation Object described in Stage One (see p. 47). The agitation of monkey-mind is due to thoughts and emotions, so “body awareness” works by shifting attention and awareness away from the contents and activities of the mind. Some grounding techniques include scanning the sensations of the body part by part, attending to any strong bodily sensation, evoking whole body awareness, or becoming aware of other sensations, like sounds.
 
 The basic rule for training the mind in meditation is to always intentionally select the locus of attention. That is, you must intentionally choose the “area” (i.e., breath sensations, bodily sensations, thoughts, or some combination) you want attention restricted to. Every practice for achieving stable attention is based on this principle. With monkey-mind, attention is constantly moving, so you finesse the situation by intentionally expanding this area. You let the mind keep moving, but only within the boundaries that you’ve intentionally set. Instead of trying to hold the monkey still, you give it a larger cage to move in.
 
@@ -1427,7 +1427,7 @@ anything. Whether attention is stable or scattered, if restlessness arises or du
 
 clear and calm, or if some distracting thought keeps surfacing: just observe what is, and don’t judge.
 
-• Let it come, let it be, and let it go was described in Stage One (p. 50 ) and means exactly what it says. No
+• Let it come, let it be, and let it go was described in Stage One (p. 50) and means exactly what it says. No
 
 matter what thoughts or feelings arise, don’t suppress or struggle against them or let them take you
 
@@ -2015,7 +2015,7 @@ freeze-frames. Your experience of seeing movement is many separate
 
 moments of visual consciousness, rapidly following each other. While this model is quite different from how we usually think about consciousness, it’s not just a nice theory someone thought up. The basic premise of distinct moments of consciousness arising and passing away in sequence is based on the actual meditation experiences of advanced practitioners from across a broad range of traditions.3 It’s an experience that the composers of the Abhidhamma, who formulated this model, either had firsthand, or learned about from other advanced meditators. It’s also an experience you yourself will have in the later Stages. Yet, long before you do, this model will help you, just as it has helped other practitioners for over two millennia.
 
-Seven Different Types of Moments of Consciousness In this model, the different types of moments of consciousness vary according to which of our senses provides the “object” in a given moment. In all, there are seven kinds of moments. The first five are obvious, since they correspond to the physical senses: sight, sound, smell, taste, and touch. The sixth category, maybe less obvious, is called the mind sense, 4 meaning it includes mental objects like thoughts and emotions. Finally, there is a seventh type of consciousness, called binding consciousness, that integrates the information provided by the other senses. Let’s take a closer look at these different kinds of moments of consciousness. Figure 27. In all, there are seven kinds of moments of consciousness. The first five correspond to the physical senses: sight, sound, smell, taste, and touch. The sixth category is called the mind sense, meaning it includes mental objects like thoughts and emotions. Finally, there is a seventh type of consciousness, called binding consciousness, that integrates the information provided by the other senses.
+Seven Different Types of Moments of Consciousness In this model, the different types of moments of consciousness vary according to which of our senses provides the “object” in a given moment. In all, there are seven kinds of moments. The first five are obvious, since they correspond to the physical senses: sight, sound, smell, taste, and touch. The sixth category, maybe less obvious, is called the mind sense,4 meaning it includes mental objects like thoughts and emotions. Finally, there is a seventh type of consciousness, called binding consciousness, that integrates the information provided by the other senses. Let’s take a closer look at these different kinds of moments of consciousness. Figure 27. In all, there are seven kinds of moments of consciousness. The first five correspond to the physical senses: sight, sound, smell, taste, and touch. The sixth category is called the mind sense, meaning it includes mental objects like thoughts and emotions. Finally, there is a seventh type of consciousness, called binding consciousness, that integrates the information provided by the other senses.
 
 Of the five physical senses, the last on the list, “touch,” properly known as “somatic sensation,” is more complicated and diverse than the first four. It would be more accurate to say that the somatosensory category is actually comprised of many different senses. For example, there’s the category of skin sensations, which includes not just touch, but also pressure, movement, and vibration. There’s a separate category that includes things like temperature, pain, tickle, itch, and some sexual sensations. Then, there’s what’s called “proprioception,” the sense that informs us about the position, location, and movement of the parts of our body. Sensations of muscle tension, deep visceral sensations, and the physical sensations we associate with emotions each constitute other distinct categories of sense experience. Finally, the sensations of acceleration, rotation, balance, and gravity make up yet another category completely overlooked by the classical “five senses.” From a physiological perspective, each of these somatosensory categories is actually a unique sense unto itself, served by its own subsystem within the central nervous system. According to the Moments of Consciousness model, information from no two of these somatic sense categories can occupy the same moment of consciousness, either; just as we can’t see an object and hear a sound at the same time, we can’t, for example, sense motion and feel pain at the same time. So there are, in fact, more than five different kinds of physical senses.
 
@@ -2344,7 +2344,7 @@ of the body. As your sensitivity to these subtle changes increases, you’ll hav
 
 direct experience of and be able to understand the meaning of traditional
 
-terms like “the flow of prāṇ a,” “the movement of the inner winds,” and “the
+terms like “the flow of prāṇa,” “the movement of the inner winds,” and “the
 
 circulation of qi.” Wherever you find any changing sensations related to the
 
@@ -2459,7 +2459,7 @@ intentions.
 
 We often feel like we’re engaging in these long trains of thought intentionally. Yet, as you know from your practice, they can be spontaneous and impulsive as well. The intention connected with a mental object such as a memory can drag attention through a long sequence of impulsive thoughts. Once again, all moments of consciousness have intentions associated with them—intentions that we may experience consciously as an impulse toward some mental, verbal, or physical action.
 
-The Unconscious Minds The unconscious7 part of the mind-system is divided into two major parts: the sensory mind and the discriminating mind. 8 The sensory mind processes information from the five physical senses. It generates moments of sight, sound, smell, and so forth. In contrast, the discriminating mind, the greater part of which is called the thinking/emotional mind,9 produces moments of consciousness with mental objects, such as thoughts and emotions. It’s the part of the mind where reasoning and analysis occur.
+The Unconscious Minds The unconscious7 part of the mind-system is divided into two major parts: the sensory mind and the discriminating mind.8 The sensory mind processes information from the five physical senses. It generates moments of sight, sound, smell, and so forth. In contrast, the discriminating mind, the greater part of which is called the thinking/emotional mind,9 produces moments of consciousness with mental objects, such as thoughts and emotions. It’s the part of the mind where reasoning and analysis occur.
 
 The sensory and discriminating minds are each composed of many individual sub-minds that function simultaneously and autonomously. Like major divisions within a corporation, each with many departments serving specific purposes, each sub-mind independently performs its own specific task in the service of the mind-system as a whole. Figure 38. The unconscious part of the mind-system is divided into two major parts: the sensory mind and the discriminating mind. The sensory and discriminating minds are each composed of many individual sub-minds that function simultaneously and autonomously. THE SENSORY MIND The sensory mind is only concerned with information coming in from the “outside” by way of the physical senses. Within the sensory mind, there are five sub-minds, each with its own sensory field corresponding to one of the five physical senses.10 One sub-mind works exclusively on phenomena concerned with vision, another exclusively on phenomena concerned with hearing, and so forth. Each sensory sub-mind has its own specialty, so to speak, called its cognitive domain, as well as its own function to perform.
 
@@ -2761,7 +2761,7 @@ future meditation progress.
 
 Developing this type of meta-awareness, being able to perceive the state and activity of the mind clearly and continuously, is at the heart of your future meditation progress. Just as peripheral awareness of sensations and mental objects was critical in the earlier Stages, metacognitive awareness provides the ongoing context for your meditations in the later Stages. Ultimately, in the final Stages, the mind itself becomes the object of your investigations.
 
-IMPORTANT CONCLUSIONS ABOUT THE MIND-SYSTEM Now that we’ve examined the Mind-System model in detail, let’s review the key points we’ve identified so far, and add two more that will be of crucial importance as you enter the advanced Stages of practice. Recall that the conscious mind doesn’t actually do anything. Consciousness is a process of information exchange between unconscious sub-minds (Key Point One, page 192 ). Every new skill and novel action results from interactions of the mind-system as a whole in the performance of executive functions. There is no singular “executive” in charge (Key Point Two, page 204 ). The contents of the conscious mind are always and only mental “constructs,” fabrications that come from information processing by unconscious sub-minds (Key Point Three, page 209 ). These fabrications include not only a model of reality, but the ego-Self as well. However, the basic, enduring sense of “self,” of a separate doer of deeds and experiencer of events, is nothing more than a useful but fictional construct of the narrating mind, reified by the discriminating mind (Key Point Four, page 211 ).26
+IMPORTANT CONCLUSIONS ABOUT THE MIND-SYSTEM Now that we’ve examined the Mind-System model in detail, let’s review the key points we’ve identified so far, and add two more that will be of crucial importance as you enter the advanced Stages of practice. Recall that the conscious mind doesn’t actually do anything. Consciousness is a process of information exchange between unconscious sub-minds (Key Point One, page 192). Every new skill and novel action results from interactions of the mind-system as a whole in the performance of executive functions. There is no singular “executive” in charge (Key Point Two, page 204). The contents of the conscious mind are always and only mental “constructs,” fabrications that come from information processing by unconscious sub-minds (Key Point Three, page 209). These fabrications include not only a model of reality, but the ego-Self as well. However, the basic, enduring sense of “self,” of a separate doer of deeds and experiencer of events, is nothing more than a useful but fictional construct of the narrating mind, reified by the discriminating mind (Key Point Four, page 211).26
 
 From this, we can draw out the fifth key point: the mind-system is a dynamic self-programing system, one that’s constantly changing itself. It is the conscious mind that ties the whole system together, and allows it to constantly change and evolve. The sensory and discriminating minds, interacting through consciousness, condition each other. Every event large or small, internal or external, makes its mark, and repeated events produce a kind of “habit-energy” that accumulates over time. The results are astounding: the mind-system creates an entire world from its own mental representations, which it constantly adds to and revises; it assembles a vast and complicated web of views about the nature of reality and the Self; and through the processes of learning, reinforcing behaviors, and developing new motor skills when needed, it acquires more and more automatic programs for doing things. And, of course, intention is involved in all these activities. Indeed, every single emotion, thought, word, and deed comes with an intention. Those intentions mold and shape who and what we are, and determine how we experience events and respond to them in the future.
 
@@ -2771,7 +2771,7 @@ This view of the mind may at first seem reductionist or even materialistic. Plea
 
 As you use this model to better understand the mind, the meditation techniques you’ve already learned, and those you’ll learn in later Stages, will all make more sense. You’ll be able to understand the more profound experiences you’ll have as you progress through the advanced Stages. Particularly important are the powerful feelings of happiness and contentment that arise as the mind- system begins to work together as a more cohesive, integrated, and harmonious whole. This is called unification of mind, and happens because more and more sub-minds unite around a single conscious intention—the intention to meditate —and continues as you progress through the Stages. Eventually, the mind becomes so unified that internal conflicts cease altogether. Stable attention and mindfulness will be completely effortless.
 
-As a final reflection, here are some verses from the Laṅ āvatāra Sūtra that capture the essence of the mind-system:
+As a final reflection, here are some verses from the Laṅāvatāra Sūtra that capture the essence of the mind-system:
 
 Then the Blessed One summarized the teaching in these verses:
 
@@ -2795,7 +2795,7 @@ Blue and red and other colors,
 
 salt, conch shell, milk and honey, the fragrance of fruit and flowers, and rays of the sun and moon— like the ocean and its waves, they are neither separate nor the same. The seven kinds of Consciousness arise from the Unconscious mind. Just as different kinds of waves arise from the ocean, different kinds of Consciousness arise from the Unconscious Mind. Though the Unconscious, the Narrator, and the Consciousnesses all take different forms, these eight are one and the same, no seer apart from the seen. Just as the ocean and its waves cannot be separated, so too in the mind the Unconscious and the Consciousnesses cannot be separated. Karma accumulates in the Unconscious through the reflections of the Narrator and the volitions of the Discriminating Mind, from a world given form by the five Sensory Minds.”
 
-Laṅ kāvatāra Sūtra, IX (46)
+Laṅkāvatāra Sūtra, IX (46)
 
 # STAGE SIX
 
@@ -3355,7 +3355,7 @@ unpredictable. Later, when effortless concentration is well established and thes
 
 they are as suitable as any other object for close investigation. Pacification of the Senses and Meditative Joy Arise Together: The Five
 
-“Grades of Pīti” As the mind grows unified, the strange sensations leading to physical pliancy and the energy currents and involuntary movements preceding meditative joy all happen at the same time. The Theravada Buddhist tradition describes this intertwined process as five successive levels or “grades” of completeness in the development of pīti. Pīti is a Pali term often translated as ecstasy, delight, or rapture. Literally, the term refers solely to meditative joy.16 However, “grades of pīti” refers to the entire developmental process, including sensory pacification and the blisses of physical and mental pliancy, as well as the gradual arising of joy (see the diagram Progressive Unification of Mind, page 239 ). Therefore, when we discuss these grades of pīti, we describe the way various unusual sensory and energetic experiences arise together at each grade.
+“Grades of Pīti” As the mind grows unified, the strange sensations leading to physical pliancy and the energy currents and involuntary movements preceding meditative joy all happen at the same time. The Theravada Buddhist tradition describes this intertwined process as five successive levels or “grades” of completeness in the development of pīti. Pīti is a Pali term often translated as ecstasy, delight, or rapture. Literally, the term refers solely to meditative joy.16 However, “grades of pīti” refers to the entire developmental process, including sensory pacification and the blisses of physical and mental pliancy, as well as the gradual arising of joy (see the diagram Progressive Unification of Mind, page 239). Therefore, when we discuss these grades of pīti, we describe the way various unusual sensory and energetic experiences arise together at each grade.
 
 The intertwined process of strange sensations leading to physical
 
@@ -4047,7 +4047,7 @@ As with the meditation on arising and passing away, you may find yourself enteri
 
 Let’s say your ears are producing a buzzing sound. You can direct your attention toward that auditory sensation and observe the associated feeling of displeasure that arises. Then, you notice that a desire for the sound to go away arises in response to the unpleasantness. But because you’re sitting in meditation, the only option for escape is to direct attention elsewhere, so you observe that an intention to redirect arises. Regardless of whether you act on that intention or not, a new contact event will follow. If attention doesn’t move, this whole sequence will repeat, cycling through contact, feeling, craving, intention, and action as part of the ongoing experience of the sound. This will continue until contact of a different sort spontaneously intervenes, or attention finally does move.
 
-Meditation on Dependent Arising For a more complex example involving thought, let’s say your attention falls on the sensation of an energy movement in the body. It’s accompanied by a feeling of unpleasantness, which becomes the next object of attention. This is followed immediately by a sense of aversion, toward which attention now turns. Aversion triggers an unconscious thought, produced by one of the discriminating sub-minds, which then appears in peripheral awareness with a strong intention to become an object of attention. Attention notes this intention. The action that ensues is a shift of attention to the thought. Now, the cycle repeats, this time with the thought as the initial object of attention. It may be a thought about inner winds or prāṇ a, and because this is an interesting topic, you observe how the thought elicits a positive feeling of pleasure. Following this, you may detect the desire to allow this train of thought to continue. This whole process crystallizes into an intention to continue pursuing the next associated thought, and so on. With practice, you can follow this unfolding elaboration of thought without losing your metacognitive perspective. You can just “sit back” and allow the next thought to appear, following its own sequence of dependent arising.
+Meditation on Dependent Arising For a more complex example involving thought, let’s say your attention falls on the sensation of an energy movement in the body. It’s accompanied by a feeling of unpleasantness, which becomes the next object of attention. This is followed immediately by a sense of aversion, toward which attention now turns. Aversion triggers an unconscious thought, produced by one of the discriminating sub-minds, which then appears in peripheral awareness with a strong intention to become an object of attention. Attention notes this intention. The action that ensues is a shift of attention to the thought. Now, the cycle repeats, this time with the thought as the initial object of attention. It may be a thought about inner winds or prāṇa, and because this is an interesting topic, you observe how the thought elicits a positive feeling of pleasure. Following this, you may detect the desire to allow this train of thought to continue. This whole process crystallizes into an intention to continue pursuing the next associated thought, and so on. With practice, you can follow this unfolding elaboration of thought without losing your metacognitive perspective. You can just “sit back” and allow the next thought to appear, following its own sequence of dependent arising.
 
 Whether you’re investigating thoughts or sensations, analysis is not the point. The content of the thoughts and sensations is mostly unimportant. You’re just aware of how they arise and pass away in dependence on each other, and how they’re linked together by feelings, cravings, intentions, and actions. The goal of meditating on dependent arising is an intuitive
 
@@ -4085,7 +4085,7 @@ Sensory pacification happens for two reasons. First, when you exercise exclusive
 
 Therefore, all you have to do is keep exercising exclusive attention and cultivating metacognitive awareness using the practices for Exercising the Newly Compliant Mind until the senses are fully pacified. There is only one major obstacle that you must first overcome: unusual, mind-generated sensations. UNUSUAL SENSATIONS Before they’re unified enough, the sensory minds react strongly to being ignored. They start projecting lights, sounds, and all sorts of strange and sometimes unpleasant bodily sensations into consciousness that have nothing to do with anything happening externally (see Sixth Interlude).3 These mind-generated sensory phenomena tend to dominate this Stage. They can be quite disturbing, as well as distracting, since they’re so unusual. It’s almost as if the sensory minds resist being ignored like stubborn children. Their whole purpose seems to be to capture your attention and arouse your interest. Interestingly, though, the more they do this, the less they project immediate, real-time sensory information into peripheral awareness. This shows that the process of pacification is actually under way.
 
-When these phenomena consistently take the form of Grade III pīti, it means you’ve reached the final phase of pacifying the senses, and the time has come to ignore them completely. The early part of Stage Eight provided plenty of opportunity to explore these phenomena and observe your mind’s reaction to them using the practices described in the previous section. This didn’t interfere with the ongoing pacification process (see text box on page 305 ) and hopefully satisfied your curiosity, making it easier to ignore them now and achieve complete pacification. Once pacification is complete, you’ll experience Grade IV pīti. Mind-generated sound and light may continue, but ordinary sensations completely disappear, and the chills, hot flashes, pressure, itching, pinpricks, tingling, and so forth are replaced by the bliss of physical pliancy.
+When these phenomena consistently take the form of Grade III pīti, it means you’ve reached the final phase of pacifying the senses, and the time has come to ignore them completely. The early part of Stage Eight provided plenty of opportunity to explore these phenomena and observe your mind’s reaction to them using the practices described in the previous section. This didn’t interfere with the ongoing pacification process (see text box on page 305) and hopefully satisfied your curiosity, making it easier to ignore them now and achieve complete pacification. Once pacification is complete, you’ll experience Grade IV pīti. Mind-generated sound and light may continue, but ordinary sensations completely disappear, and the chills, hot flashes, pressure, itching, pinpricks, tingling, and so forth are replaced by the bliss of physical pliancy.
 
 Meditative Joy As your practice progresses and the mind keeps unifying, meditative joy will naturally arise. This type of joy is a unique mental state that only arises in meditation. To understand it better, let’s briefly look at how it compares to joy in general.
 
@@ -4139,7 +4139,7 @@ When the mind begins to unify, it’s like more of the horses are heading in the
 
 When all the tethered horses pull in the same direction, they form a powerful team. So, too, a unified mind displays a smooth, controlled power in the movement of mental energy, and turbulence disappears.
 
-The available mental energy increases, but until unification is complete, the flow of that energy is turbulent. Turbulent mental energy manifests in various ways. The feeling of energy currents coursing through the body can be tumultuous or even painful, though they can also be mild and pleasant. These energy currents, as well as the involuntary movements and autonomic reactions that often accompany them, were described in detail in the Sixth Interlude. These currents are the same qi, prāṇ a, or inner wind that you experienced in the body scanning and whole-body breath practices of Stages Five and Six. As the mind progressively unifies in Stage Eight, this energy intensifies. But as long as unification is incomplete, the turbulence intensifies as well.
+The available mental energy increases, but until unification is complete, the flow of that energy is turbulent. Turbulent mental energy manifests in various ways. The feeling of energy currents coursing through the body can be tumultuous or even painful, though they can also be mild and pleasant. These energy currents, as well as the involuntary movements and autonomic reactions that often accompany them, were described in detail in the Sixth Interlude. These currents are the same qi, prāṇa, or inner wind that you experienced in the body scanning and whole-body breath practices of Stages Five and Six. As the mind progressively unifies in Stage Eight, this energy intensifies. But as long as unification is incomplete, the turbulence intensifies as well.
 
 By the end of Stage Eight, you can consistently unify your mind enough for sustained meditative joy to arise, along with the blisses of physical and mental pliancy. Involuntary movements stop, and the flow of energy feels much smoother and more pleasant. However, the meditative joy may be so intense that it becomes enormously distracting. In fact, meditators will sometimes end their meditation early just so they can go talk to someone about it.
 
@@ -4300,7 +4300,7 @@ What subsides first is the bliss of physical pliancy, the deliciously pleasurabl
 
 Useful Practices for Calming Pīti and Maturing Joy By repeatedly focusing your attention on the breath and ignoring everything else, you can sustain pīti, allowing joy to mature as the mind grows unified. However, if you’ve been practicing the luminous jhānas, you can speed up your progress by regularly moving through the higher luminous jhānas (see Appendix D). The second jhāna has the same quality of mental excitement and intensity as a completed Stage Eight and early Stage Nine, but with the greater stability of absorption. Moving to the third jhāna is just like successfully achieving the goal of Stage Nine; the intensity and agitation are gone, and there is only a serene pleasure and happiness. The fourth luminous jhāna is like Stage Ten, with only tranquility and equanimity. Therefore, these jhānas can help habituate you to the calm pīti of the mature form of joy.
 
-Other practices that help calm pīti have the added benefit of being conducive to Insight. These include the Meditation on Dependent Arising (page 307 ), and Finding the Still Point and Realizing the Witness (page 318 ). Another extremely powerful practice for calming pīti and generating Insight is meditating on the mind. MEDITATING ON THE MIND Meditating on the mind itself3 involves bringing attention and awareness together in a completely open state. Essentially, you’re fusing attention and awareness. To achieve this, you expand your scope of attention until it includes everything in your field of conscious awareness, both extrospective and introspective. This is similar to how you expanded your scope of attention to include the whole body in Stage Six, except that you’re expanding it to include much, much more than just bodily sensations. And, as with the whole-body practice, the amount of conscious power required for attention to encompass so much is enormous. That means much of the excess mental energy made available through unification can get put to immediate use, instead of just agitating the mind.
+Other practices that help calm pīti have the added benefit of being conducive to Insight. These include the Meditation on Dependent Arising (page 307), and Finding the Still Point and Realizing the Witness (page 318). Another extremely powerful practice for calming pīti and generating Insight is meditating on the mind. MEDITATING ON THE MIND Meditating on the mind itself3 involves bringing attention and awareness together in a completely open state. Essentially, you’re fusing attention and awareness. To achieve this, you expand your scope of attention until it includes everything in your field of conscious awareness, both extrospective and introspective. This is similar to how you expanded your scope of attention to include the whole body in Stage Six, except that you’re expanding it to include much, much more than just bodily sensations. And, as with the whole-body practice, the amount of conscious power required for attention to encompass so much is enormous. That means much of the excess mental energy made available through unification can get put to immediate use, instead of just agitating the mind.
 
 Meditating on the mind itself involves bringing attention and awareness
 
@@ -4771,7 +4771,7 @@ monk—quite withdrawn from sensuality, withdrawn from unskillful (mental)
 
 qualities—enters and remains in the first jhāna . . .
 
-Gopaka Moggallana Sutta, MN 108 3
+Gopaka Moggallana Sutta, MN 1083
 
 Yet, most wholesome absorptions—like gardening or painting, for example— are not jhānas either. This brings us to the second way that jhānas differ from other absorptions: the so-called jhāna factors must be present in the mind. These factors are: directed and sustained attention (vitakka and vicara); meditative joy (pīti); bodily pleasure and mental happiness, or pleasure/happiness for short (sukha); and equanimity (upekkhā). Unification of mind (cittas’ekagata)4 is sometimes counted as a jhāna factor as well.5
 
@@ -4787,7 +4787,7 @@ Depth of Absorption How deep must an absorption be to qualify as jhāna? This qu
 
 The state from which you enter jhāna is known as access concentration.10 As you proceed through the Ten Stages, your mind becomes steadily more unified. The more unified your mind is in access, before the absorption occurs, the deeper the jhāna you enter will be. THE DIFFERENT KINDS OF JHĀNA: FOUR FORM JHĀNAS AND
 
-THE FORMLESS VARIANTS OF THE FOURTH JHĀNA. You may have heard people speak of eight jhānas. Technically, however, there are only four jhānas, plus four special variants of the fourth. The four standard jhānas are called the “form” jhānas because they retain certain qualities connected to the material sense realm, such as an awareness of the body and a sense of location in space. The four special variants of the fourth jhāna are called “formless” because all subjective connection to the material sense realm is abandoned. The suttas define the four form jhānas as follows: FIRST JHĀNA : (A) The mind of the meditator has withdrawn from the pursuit of sensual
+THE FORMLESS VARIANTS OF THE FOURTH JHĀNA. You may have heard people speak of eight jhānas. Technically, however, there are only four jhānas, plus four special variants of the fourth. The four standard jhānas are called the “form” jhānas because they retain certain qualities connected to the material sense realm, such as an awareness of the body and a sense of location in space. The four special variants of the fourth jhāna are called “formless” because all subjective connection to the material sense realm is abandoned. The suttas define the four form jhānas as follows: FIRST JHĀNA: (A) The mind of the meditator has withdrawn from the pursuit of sensual
 
 pleasures and is free from all unwholesome states of mind (i.e., the Five
 
@@ -4811,7 +4811,7 @@ state of joy, and feelings of pleasure and happiness. (C) The meditative joy and
 
 flow through the activity of sustaining exclusive attention. Attention is
 
-“withdrawn” in the sense of completely ignoring all distractions. SECOND JHĀNA : (A) The meditator has confidence and unification of mind (ekagata). (B) Along with unification, two jhāna factors are present: meditative joy (pīti),
+“withdrawn” in the sense of completely ignoring all distractions. SECOND JHĀNA: (A) The meditator has confidence and unification of mind (ekagata). (B) Along with unification, two jhāna factors are present: meditative joy (pīti),
 
 and bodily pleasure and/or happiness (sukha). Since unification of mind has
 
@@ -4833,7 +4833,7 @@ jhāna. In other words, the joy and pleasure/happiness derive from the
 
 unification of the mind at a deep unconscious level, rather than from
 
-attention being held in a state of exclusive focus. THIRD JHĀNA : (A) The meditator has mindfulness (sati) with clear comprehension
+attention being held in a state of exclusive focus. THIRD JHĀNA: (A) The meditator has mindfulness (sati) with clear comprehension
 
 (sampajañña). To put it another way, consciousness is dominated by a
 
@@ -4847,7 +4847,7 @@ no longer part of conscious experience. Awareness of joy is replaced by
 
 awareness of an increasing equanimity. (C) The suttas say of the meditator in third jhāna that “he has a pleasant abiding
 
-who has equanimity and is mindful.”14 FOURTH JHĀNA : (A) The meditator experiences the purest form of mindfulness (sati-sampajañña)
+who has equanimity and is mindful.”14 FOURTH JHĀNA: (A) The meditator experiences the purest form of mindfulness (sati-sampajañña)
 
 due to profound equanimity (upekkhā). (B) The only jhāna factor present is equanimity (upekkhā). Feelings of pleasure
 
@@ -4865,7 +4865,7 @@ known via this faculty. The fourth jhāna is thus like a window through which
 
 the deep unconscious workings of the mind can become apparent. The
 
-“meditation object” has become the mind itself. BEYOND THE FIRST FOUR JHĀNA S With mastery of the fourth jhāna, three other modes of practice become available. We’ll just mention them here briefly. An in-depth explanation lies far beyond the scope of this Appendix.
+“meditation object” has become the mind itself. BEYOND THE FIRST FOUR JHĀNAS With mastery of the fourth jhāna, three other modes of practice become available. We’ll just mention them here briefly. An in-depth explanation lies far beyond the scope of this Appendix.
 
 The first practice involves cultivating the so-called higher knowledges of the mundane type. These are: 1. The “higher powers,”16 which are said to allow a yogi to perform miracles
 
@@ -4877,7 +4877,7 @@ beings, and thus know what’s happening in distant places, and what will
 
 happen in the future. 4. Knowing the minds of others,19 which is a form of telepathy. 5. Recollecting “past lives.”20
 
-The second mode of practice employs metacognitive introspective awareness to investigate the nature of both the mind and the objects projected into consciousness by unconscious sub-minds.21 Through this practice, mental defilements are eliminated, leading to higher knowledge in the form of supra- mundane Insight and Awakening to the true nature of reality. Together, the five mundane knowledges of the first mode of practice and the supra-mundane knowledge of the second comprise what are called the Six Higher Knowledges.22 The third mode of practice is to cultivate the four formless variants of the fourth jhāna. THE FORMLESS JHĀNA S In the progression through the first four jhānas, first attention, then joy, and finally pleasure/happiness are abandoned in favor of equanimity. The four formless variants of the fourth jhāna all share the same mental factors: equanimity and unification of mind. They are called “formless” because they are entirely divorced from any subjective connection to the material space-time continuum. Each formless jhāna is a complete absorption into the particular perception that serves as its base. Our perceptions are fabrications of the mind, mental representations that serve to interpret input from the six senses (the mind-sense being the sixth). Conscious perception23 occurs whenever one of these mental fabrications becomes an object of consciousness. What changes from one formless jhāna to the next are the mental fabrications you are aware of in each instance.
+The second mode of practice employs metacognitive introspective awareness to investigate the nature of both the mind and the objects projected into consciousness by unconscious sub-minds.21 Through this practice, mental defilements are eliminated, leading to higher knowledge in the form of supra- mundane Insight and Awakening to the true nature of reality. Together, the five mundane knowledges of the first mode of practice and the supra-mundane knowledge of the second comprise what are called the Six Higher Knowledges.22 The third mode of practice is to cultivate the four formless variants of the fourth jhāna. THE FORMLESS JHĀNAS In the progression through the first four jhānas, first attention, then joy, and finally pleasure/happiness are abandoned in favor of equanimity. The four formless variants of the fourth jhāna all share the same mental factors: equanimity and unification of mind. They are called “formless” because they are entirely divorced from any subjective connection to the material space-time continuum. Each formless jhāna is a complete absorption into the particular perception that serves as its base. Our perceptions are fabrications of the mind, mental representations that serve to interpret input from the six senses (the mind-sense being the sixth). Conscious perception23 occurs whenever one of these mental fabrications becomes an object of consciousness. What changes from one formless jhāna to the next are the mental fabrications you are aware of in each instance.
 
 The first formless jhāna is known as the jhāna of Infinite Space. It is achieved by taking the perception of being located in space, then expanding that perception of space until one becomes conscious of “infinite” space.
 
@@ -4979,7 +4979,7 @@ so, the monk sits, permeating the body with a pure, bright awareness. There is
 
 nothing of his entire body unpervaded by pure, bright awareness.
 
-Samaññaphala Sutta, DN 2 35
+Samaññaphala Sutta, DN 235
 
 The only things left in awareness are the luminous nimitta and a sense of having a location in space. This sutta is not talking about the brightness of the nimitta, but rather about the lucid quality of awareness itself.
 
@@ -5276,7 +5276,7 @@ paticcasamuppāda in Pali, pratītyasamutpāda in Sanskrit; no-Self is anattā i
 
 attention can rest stably on any chosen object and can easily and fluidly move from object to object
 
-without losing exclusive focus of attention. This mental flexibility is also known as khaṇ ika samādhi, an
+without losing exclusive focus of attention. This mental flexibility is also known as khaṇika samādhi, an
 
 essential form of concentration for doing certain types of vipassanā practice. The most refined form of
 
@@ -5292,7 +5292,7 @@ complete comprehension.” This means knowing at every moment: what you’re doi
 
 and feeling; why; and whether or not it’s appropriate in terms of your beliefs and values, and your
 
-purpose in the moment. 19. Dharma-vicaya in Sanskrit. 20. Vīrya in Sanskrit. 21. The seven factors needed for Awakening (satta bojjhaṅ gā in Pali, sapta bodhyanga in Sanskrit) are
+purpose in the moment. 19. Dharma-vicaya in Sanskrit. 20. Vīrya in Sanskrit. 21. The seven factors needed for Awakening (satta bojjhaṅgā in Pali, sapta bodhyanga in Sanskrit) are
 
 samādhi, sati, pīti, passaddhi, upekkhā, dhamma vicaya, and viriya. The first five are characteristics of
 
@@ -5486,11 +5486,11 @@ incomparable effectiveness. This unsurpassable mind is the ideal mental conditio
 
 profound Insight into the true nature of reality and a liberation that is not subject to passing away. 11. These five qualities of the adept meditator constitute five of the Seven Factors of Enlightenment, or satta
 
-sambojjhaṅ gā in Pali, that were described by the Buddha: effortlessly stable attention (samādhi);
+sambojjhaṅgā in Pali, that were described by the Buddha: effortlessly stable attention (samādhi);
 
 mindfulness (sati); joy or rapture (pīti); tranquility (passaddhi); and equanimity (upekkhā). The two
 
-remaining sambojjhaṅ gā are the investigation of phenomena (dhamma vicaya) and vigorous persistence
+remaining sambojjhaṅgā are the investigation of phenomena (dhamma vicaya) and vigorous persistence
 
 (viriya), both of which are exercised throughout the practice of the Ten Stages. FIRST INTERLUDE Conscious Experience and the Objectives of Meditation 1. Consciousness is a process of information exchange taking place within the mind. 2. Attention and peripheral awareness are associated with two different brain networks that process
 
@@ -5614,7 +5614,7 @@ individually and collectively from our propensity for unnecessary and excessive 
 
 attention without mindfulness in the form of introspective awareness. 18. This frequently leads to a direct experience of and Insight into the impermanence and emptiness of
 
-phenomena. STAGE ONE Establishing a Practice 1. A kasiṇ a is a colored disk used as a visual object in meditation. 2. Significantly more of the cerebral cortex is devoted to interpreting sensations from the face than from the
+phenomena. STAGE ONE Establishing a Practice 1. A kasiṇa is a colored disk used as a visual object in meditation. 2. Significantly more of the cerebral cortex is devoted to interpreting sensations from the face than from the
 
 abdomen. 3. The human body and brain follow a daily (circadian) rhythm in which energy metabolism and alertness
 
@@ -5732,7 +5732,7 @@ reflection, consideration, and evaluation (manasikāra).
 
 6. It has a feeling (vedanā) of pleasant, unpleasant, or neutral.
 
-7. It has “life force” or vital energy (jīvitindriya, similar in meaning to qi or prāṇ a).
+7. It has “life force” or vital energy (jīvitindriya, similar in meaning to qi or prāṇa).
 
 The Abhidhamma also identifies forty-five other attributes that may or may not be present in any
 
@@ -5754,11 +5754,11 @@ support the idea that conscious perception is discrete rather than continuous (V
 
 Koch, “Is Perception Discrete or Continuous?” Trends in Cognitive Science, May 2003, 7[5], pp. 207–
 
-213). 4. Mano-āyatana. 5. These six types of consciousness are: eye consciousness (cakkhu-viññāṇ a), ear consciousness (sota-
+213). 4. Mano-āyatana. 5. These six types of consciousness are: eye consciousness (cakkhu-viññāṇa), ear consciousness (sota-
 
-viññāṇ a), nose consciousness (ghāna-viññāṇ a), tongue consciousness (jivhā-viññāṇ a), body
+viññāṇa), nose consciousness (ghāna-viññāṇa), tongue consciousness (jivhā-viññāṇa), body
 
-consciousness (kāya-viññāṇ a), and mind consciousness (mano-viññāṇ a). 6. The question of how information from different senses gets combined is one aspect of a much larger
+consciousness (kāya-viññāṇa), and mind consciousness (mano-viññāṇa). 6. The question of how information from different senses gets combined is one aspect of a much larger
 
 question known in cognitive science as the “binding problem.” Specifically, the process by which
 
@@ -5844,7 +5844,7 @@ the same two different sides of the brain. Yet, the sensations have changed. How
 
 related to the “space” element in particular so different now than a few moments ago? Where can the
 
-space element be said to “reside”? FIFTH INTERLUDE The Mind-System 1. The specific source for the Mind-System model is the description of the mind given in the Laṅ kāvatāra
+space element be said to “reside”? FIFTH INTERLUDE The Mind-System 1. The specific source for the Mind-System model is the description of the mind given in the Laṅkāvatāra
 
 Sūtra. 2. For example, I describe how the ālaya, or the unconscious mind, is divided into seven separate and
 
@@ -5852,15 +5852,15 @@ distinct unconscious sub-minds: the five sensory minds, the discriminating mind,
 
 mind. I further explain how each of these sub-minds serves as the source for one of the seven respective
 
-vijñānas, or consciousnesses. This is never explicitly stated in the Laṅ kāvatāra Sūtra, although it seems
+vijñānas, or consciousnesses. This is never explicitly stated in the Laṅkāvatāra Sūtra, although it seems
 
-clearly implied, so describing it explicitly may be considered a unique contribution of this book. Second, the Laṅ kāvatāra Sūtra doesn’t explicitly identify the first seven vijñānas as manifestations of
+clearly implied, so describing it explicitly may be considered a unique contribution of this book. Second, the Laṅkāvatāra Sūtra doesn’t explicitly identify the first seven vijñānas as manifestations of
 
 a single, common process or quality, which in English we call “consciousness.” Still, this is so clearly
 
-implied in both the Laṅ kāvatāra and the Abhidhamma that it has always been taken for granted.
+implied in both the Laṅkāvatāra and the Abhidhamma that it has always been taken for granted.
 
-Likewise, the Laṅ kāvatāra doesn’t describe a mental “place” or “space” in which the vijñānas appear,
+Likewise, the Laṅkāvatāra doesn’t describe a mental “place” or “space” in which the vijñānas appear,
 
 even though it’s fairly clear they all appear in the same “mind space.” We have simply taken the next
 
@@ -5870,7 +5870,7 @@ obvious step—beyond the usual one of equating the Sanskrit “vijñāna” wit
 
 “conscious mind.”
 
-Finally, the Laṅ kāvatāra never explicitly identifies the function of the vijñānas as information
+Finally, the Laṅkāvatāra never explicitly identifies the function of the vijñānas as information
 
 exchange, even though the only discussion of how they work is in those terms. That function can
 
@@ -5884,7 +5884,7 @@ being the unconscious. This modern distinction between the conscious and unconsc
 
 allowed me to define the differences in nature and function between the ālaya and the other seven
 
-vijñānas with a clarity that was not possible in the original language of the Laṅ kāvatāra. This, too, might
+vijñānas with a clarity that was not possible in the original language of the Laṅkāvatāra. This, too, might
 
 be regarded as a unique contribution of this book. 3. The mind is best described as consisting of at least many thousands of highly interconnected but distinct
 
@@ -5922,7 +5922,7 @@ become consciously aware of a great deal of previously subconscious activity tha
 
 before. 6. The conscious mind consists of the pravṛritti-vijñāna (the five sense consciousnesses, plus the mental
 
-consciousness) and manas-vijñāna (the binding consciousness). 7. The unconscious mind corresponds to the bhavaṅ ga in the Theravadin Abhidhamma, and to the ālaya-
+consciousness) and manas-vijñāna (the binding consciousness). 7. The unconscious mind corresponds to the bhavaṅga in the Theravadin Abhidhamma, and to the ālaya-
 
 vijñāna in the Yogācāra sutras. 8. To discriminate means to recognize or draw fine distinctions, to separate into distinct components, or to
 
@@ -5982,7 +5982,7 @@ can they ever be predicted with perfect accuracy. 21. When this happens, you exp
 
 mastered. 22. Manas in Sanskrit. Manas-vijñāna, also known as klista-manas-vijñāna, is the seventh of the eight
 
-consciousnesses described in the Laṅ kāvatāra Sūtra, and refers to the binding consciousness generated
+consciousnesses described in the Laṅkāvatāra Sūtra, and refers to the binding consciousness generated
 
 by the narrating mind. It is not to be confused with mano-vijñāna (the consciousness of mental objects
 
@@ -6008,7 +6008,7 @@ the other six consciousnesses and the unconscious mind. The Yogācāra thus desc
 
 as consisting of eight minds (aṣṭa-vijñāna). The first five correspond to the physical sense
 
-consciousnesses (visual, caksur-vijñāna; auditory, śrotra-vijñāna; olfactory, ghrāṇ a-vijñāna; gustatory, jihvā-vijñāna; and somatosensory, kāya-vijñāna). The sixth corresponds to the mind-sense, or
+consciousnesses (visual, caksur-vijñāna; auditory, śrotra-vijñāna; olfactory, ghrāṇa-vijñāna; gustatory, jihvā-vijñāna; and somatosensory, kāya-vijñāna). The sixth corresponds to the mind-sense, or
 
 consciousness of mental objects (mano-vijñāna). Binding moments of consciousness produced by the
 
@@ -6280,7 +6280,7 @@ such seemingly contradictory situations. 20. The so-called “knowledges of suff
 
 ñana), knowledge of misery (ādīnava-ñana), knowledge of disgust (nibbidā-ñana), knowledge of desire
 
-for deliverance (muñcitu-kamyatā-ñana), and knowledge of re-observation (paṭisaṅ khānupassanā-
+for deliverance (muñcitu-kamyatā-ñana), and knowledge of re-observation (paṭisaṅkhānupassanā-
 
 ñana). Cf. Mahasi Sayadaw. The Progress of Insight. Third ed. Sri Lanka: Buddhist Publication Society,
 
@@ -6326,9 +6326,9 @@ frames” per second are the same information that had been chunked together to 
 
 “incremental jerks” occurring at a rate of one or two per second. 4. When the sensory contents of individual moments of consciousness are no longer assembled together in
 
-binding moments, no order or meaning is discernible within the ongoing flux of raw sensory data. 5. Anicca in Pali, anitya in Sanskrit. This is one of the Three Characteristics of existence (tilakkhaṇ a in Pali,
+binding moments, no order or meaning is discernible within the ongoing flux of raw sensory data. 5. Anicca in Pali, anitya in Sanskrit. This is one of the Three Characteristics of existence (tilakkhaṇa in Pali,
 
-trilakṣaṇ a in Sanskrit), Insight into which leads to Awakening. Close following can also be described as
+trilakṣaṇa in Sanskrit), Insight into which leads to Awakening. Close following can also be described as
 
 “Meditation on Impermanence.” 6. Suññatā in Pali, Śūnyatā in Sanskrit. The experience described here specifically provides Insight into the
 
@@ -6340,13 +6340,13 @@ itself, this experience doesn’t usually lead to the far more important Insight
 
 personal Self (anattā in Pali, anātman in Sanskrit). Anattā is the second of the Three Characteristics.
 
-Suffering (dukkha in Pali, duḥ kha in Sanskrit) is the third Characteristic, and results from failure to
+Suffering (dukkha in Pali, duḥkha in Sanskrit) is the third Characteristic, and results from failure to
 
 properly understand the first two (anicca and anattā).
 
 Nor is the experience described here the same as the “direct experience of emptiness” (Nibbāna in
 
-Pali, Nirvāṇ a in Sanskrit). Nibbāna/Nirvāṇ a occurs when the mind completely stops projecting anything
+Pali, Nirvāṇa in Sanskrit). Nibbāna/Nirvāṇa occurs when the mind completely stops projecting anything
 
 into consciousness, yet sub-minds of the Mind-System remain fully tuned into consciousness. This is
 
@@ -6410,7 +6410,7 @@ are no fabricated mind-moments of any sort, known as saññā-vedayita-nirodha, 
 
 and perception. 5. Equanimity (upekkhā in Pali, upekṣhā in Sanskrit) means you no longer react with craving to the feelings
 
-(vedanā) of pleasant, unpleasant, or neutral associated with objects of consciousness. 6. Nibbāna in Pali, nirvāṇ a in Sanskrit, literally means extinction, as in the extinguishing of a fire. Nibbāna
+(vedanā) of pleasant, unpleasant, or neutral associated with objects of consciousness. 6. Nibbāna in Pali, nirvāṇa in Sanskrit, literally means extinction, as in the extinguishing of a fire. Nibbāna
 
 occurs as the conjunction of equanimity and Insight. 7. Consciousness is the process of information exchange between unconscious sub-minds, so some might
 
@@ -6622,7 +6622,7 @@ are just a conceptual tool. Examined more closely, their apparent linearity diss
 
 Wittgenstein, “The world is all that is the case.” 3. This also commonly occurs in sensory deprivation experiments. 4. Joy (pīti in Pali, prīti in Sanskrit) belongs to the category of five aggregates called mental formations
 
-(saṅ khāra khandha in Pali, saṃskāra skandha in Sanskrit). This group includes everything that is (1)
+(saṅkhāra khandha in Pali, saṃskāra skandha in Sanskrit). This group includes everything that is (1)
 
 mental in nature, and (2) composite, constructed, and causal in nature and origin. Any recognizable
 
@@ -6670,7 +6670,7 @@ Nyingma practice of the Great Perfection (Dzogchen). 4. While direct knowledge o
 
 possible. Otherwise, it would be impossible for us to interact successfully with the external world. We
 
-wouldn’t be able to feed ourselves, much less do things like travel to the moon. 5. Suññatā in Pali, śūnyatā in Sanskrit. 6. Attaining śamatha constitutes five of the Seven Factors of Awakening (satta sambojjhaṅ gā): effortless
+wouldn’t be able to feed ourselves, much less do things like travel to the moon. 5. Suññatā in Pali, śūnyatā in Sanskrit. 6. Attaining śamatha constitutes five of the Seven Factors of Awakening (satta sambojjhaṅgā): effortless
 
 stable attention (samādhi), mindfulness (sati), joy or rapture (pīti), tranquility (passaddhi), and
 
@@ -6828,7 +6828,7 @@ Unfortunately, the sutta jhāna and Visuddhimagga jhāna designations are still 
 
 about which are the “real” jhānas is bound to continue for some time. 10. Upacāra samādhi in Pali. 11. Potthapada Sutta, Digha Nikaya 9. 12. Samadhanga Sutta, Anguttara Nikaya 5.28; Kāyagatāsati Sutta, Majjhima Nikaya 119; Samaññaphala
 
-Sutta, Digha Nikaya 2; Mahāassapua Sutta, Majjhima Nikaya 39. 13. Ibid. 14. Ibid. 15. Ibid. 16. Iddhi-vidhā in Pali. 17. Dibba-sota in Pali. 18. Dibba-cakkhu in Pali. 19. Ceto-pariya-ñāṇ a in Pali. 20. Pubbe-nivāsanussati in Pali. 21. This is the practice referred to as Mahamudra (also Dzogchen) in the Tibetan tradition. Although
+Sutta, Digha Nikaya 2; Mahāassapua Sutta, Majjhima Nikaya 39. 13. Ibid. 14. Ibid. 15. Ibid. 16. Iddhi-vidhā in Pali. 17. Dibba-sota in Pali. 18. Dibba-cakkhu in Pali. 19. Ceto-pariya-ñāṇa in Pali. 20. Pubbe-nivāsanussati in Pali. 21. This is the practice referred to as Mahamudra (also Dzogchen) in the Tibetan tradition. Although
 
 achievement of the fourth jhāna is extremely conducive to this practice, it is not an absolute prerequisite.
 
@@ -6950,11 +6950,11 @@ habits of desire and aversion. APPENDIX F Insight and the “Dark Night” 1. Ho
 
 Christian will experience it one way, and an atheist in a different way. For St. John, the dark night
 
-involved feelings of having lost all connection with God—of, essentially, being abandoned by God. Index A note about the index: The pages referenced in this index refer to the page numbers in the print edition. Clicking on a page number will take you to the ebook location that corresponds to the beginning of that page in the print edition. For a comprehensive list of locations of any word or phrase, use your reading system’s search function. NOTE: Bold numbers refer to figure captions and boxed text. abdomen, 2 3 , 47, 51, 173 , 174, 175, 220 , 222 Abhidhamma, 147 , 148 access concentration, 230–31, 271 , 322–23 acquired appearance, 225 , 231, 236 , 293–94 action
+involved feelings of having lost all connection with God—of, essentially, being abandoned by God. Index A note about the index: The pages referenced in this index refer to the page numbers in the print edition. Clicking on a page number will take you to the ebook location that corresponds to the beginning of that page in the print edition. For a comprehensive list of locations of any word or phrase, use your reading system’s search function. NOTE: Bold numbers refer to figure captions and boxed text. abdomen, 23, 47, 51, 173, 174, 175, 220, 222 Abhidhamma, 147, 148 access concentration, 230–31, 271, 322–23 acquired appearance, 225, 231, 236, 293–94 action
 
-and Fifth Interlude, 196, 197, 201 –3, 211, 212
+and Fifth Interlude, 196, 197, 201–3, 211, 212
 
-and Mind-System, 196, 197 , 201–3, 211 , 212 , 296
+and Mind-System, 196, 197, 201–3, 211, 212, 296
 
 and Seventh Interlude, 296
 
@@ -6962,13 +6962,13 @@ and Stage Six, 218
 
 and Stage Seven, 267
 
-and Stage Eight, 307, 308, 309 , 312
+and Stage Eight, 307, 308, 309, 312
 
 and subtle distractions, 218
 
 See also automatic actions adept meditators
 
-characteristics of, 11 , 222
+characteristics of, 11, 222
 
 definition of, 262
 
@@ -6980,145 +6980,145 @@ persistence of qualities of, 13
 
 and purifying the mind, 284
 
-śamatha as “normal” for, 337 –38
+śamatha as “normal” for, 337–38
 
-and Seventh Interlude, 280 , 281, 284, 294
+and Seventh Interlude, 280, 281, 284, 294
 
 and Stage Five, 171
 
-and Stage Seven, 233 , 262, 277
+and Stage Seven, 233, 262, 277
 
 See also adept meditators—stages of; Milestone Four; Stage Eight; Stage Nine; Stage Ten adept meditators—stages of
 
-and Awakening, 257, 258 , 259
+and Awakening, 257, 258, 259
 
-and awareness, 241 , 242, 243 , 245 –46, 248
+and awareness, 241, 242, 243, 245–46, 248
 
-and bliss of mental pliancy, 241, 247–49, 2 5 0 , 251, 254
+and bliss of mental pliancy, 241, 247–49, 250, 251, 254
 
-and bliss of physical pliancy, 240, 251 , 254 and body, 235 , 242–44, 247 , 252–53, 254
+and bliss of physical pliancy, 240, 251, 254 and body, 235, 242–44, 247, 252–53, 254
 
-and conscious awareness, 246, 255 , 257–58
+and conscious awareness, 246, 255, 257–58
 
-and emotions, 254, 256 , 258 , 259
+and emotions, 254, 256, 258, 259
 
-and energy, 235, 241 , 247–49, 2 5 0 , 251 , 252, 253 , 255
+and energy, 235, 241, 247–49, 250, 251, 252, 253, 255
 
-and happiness/pleasure, 242 , 243, 244, 249 , 252, 253 , 254 , 258
+and happiness/pleasure, 242, 243, 244, 249, 252, 253, 254, 258
 
-and hindrances, 254 –56
+and hindrances, 254–56
 
 and illumination phenomenon, 244–45, 247
 
 and Insight, 257–59
 
-and involuntary movements, 247 –48, 251, 252 , 253
+and involuntary movements, 247–48, 251, 252, 253
 
-and joy, 241, 251 , 252 , 253, 255 , 256
+and joy, 241, 251, 252, 253, 255, 256
 
 and Mind-System, 235, 259
 
 and mindfulness, 256, 257
 
-and pacifying the senses, 240–47, 251 –53, 255
+and pacifying the senses, 240–47, 251–53, 255
 
-and physical pliancy, 240 , 241–47, 251 , 2 5 1, 252, 253 , 254
+and physical pliancy, 240, 241–47, 251, 251, 252, 253, 254
 
 and pīti, 251–53, 262
 
-and purifying the mind, 254 –56
+and purifying the mind, 254–56
 
-and self, 243–44, 255 , 256 , 257, 258 –59
+and self, 243–44, 255, 256, 257, 258–59
 
-and sensations, 240, 241–47, 252 , 254
+and sensations, 240, 241–47, 252, 254
 
-and sensory mind, 241, 246 –47
+and sensory mind, 241, 246–47
 
-and transition from skilled to adept meditators, 235 –37
+and transition from skilled to adept meditators, 235–37
 
-and transition from training mind to transforming mind, 235 –37
+and transition from training mind to transforming mind, 235–37
 
-and unconscious, 244, 246 , 254 , 255, 257 , 258
+and unconscious, 244, 246, 254, 255, 257, 258
 
-and unifying the mind, 235 , 237–40, 2 3 9 , 2 4 0, 247, 251 , 253 , 255
+and unifying the mind, 235, 237–40, 239, 240, 247, 251, 253, 255
 
-and worldview, 257 –58 agitation
+and worldview, 257–58 agitation
 
-Due to Worry and Remorse, 65 –66, 6 7 , 71 –73, 75–76, 254 , 255, 256, 2 6 1 , 2 9 9, 324
+Due to Worry and Remorse, 65–66, 67, 71–73, 75–76, 254, 255, 256, 261, 299, 324
 
-as hindrance, 65–66, 6 7 , 71–73, 75 –76
+as hindrance, 65–66, 67, 71–73, 75–76
 
 and pīti, 331
 
-and purifying the mind, 254 , 255, 256
+and purifying the mind, 254, 255, 256
 
 and Stage Two, 80
 
-and Stage Three, 100 , 110
+and Stage Three, 100, 110
 
-and Stage Four, 123, 124, 142 , 144
+and Stage Four, 123, 124, 142, 144
 
 and Stage Five, 168, 172
 
-and Stage Seven, 2 6 1
+and Stage Seven, 261
 
-and Stage Eight, 2 9 9 , 324
+and Stage Eight, 299, 324
 
 and Stage Nine, 331
 
-and stages of adept meditators, 254 , 255, 256
+and stages of adept meditators, 254, 255, 256
 
-See also monkey-mind “aha!” moments, 7 9 , 80, 81–82, 8 2 , 83, 8 6 , 101, 1 0 2, 124 alternating attention
+See also monkey-mind “aha!” moments, 79, 80, 81–82, 82, 83, 86, 101, 102, 124 alternating attention
 
 definition of, 25
 
-and distractions, 1 2 2
+and distractions, 122
 
-and First Interlude, 24 , 25 –26, 2 5 , 28
+and First Interlude, 24, 25–26, 25, 28
 
 and peripheral awareness, 25–26
 
 redistribution of, 304
 
-and spontaneous movements of attention, 24 , 25–26, 2 5
+and spontaneous movements of attention, 24, 25–26, 25
 
 and Stage Two, 81
 
-and Stage Three, 96, 97 , 9 7
+and Stage Three, 96, 97, 97
 
 and Stage Four, 121
 
-and Stage Six, 216, 217 –18, 2 1 9 , 221, 227 and Stage Seven, 271 , 272
+and Stage Six, 216, 217–18, 219, 221, 227 and Stage Seven, 271, 272
 
-and Stage Eight, 302, 3 0 3 , 304 , 309, 321
+and Stage Eight, 302, 303, 304, 309, 321
 
-and subtle distractions, 216 , 217 –18, 2 1 9 , 221 , 227 Ananda, 63 Ānāpānasati Sutta, 63 , 146, 221 , 274 , 277, 336 , 340 anger, 6 7 , 70, 76, 115 , 136, 138, 202 , 254, 340 anxiety, 68, 123 , 134, 136, 190 . See also agitation attention
+and subtle distractions, 216, 217–18, 219, 221, 227 Ananda, 63 Ānāpānasati Sutta, 63, 146, 221, 274, 277, 336, 340 anger, 67, 70, 76, 115, 136, 138, 202, 254, 340 anxiety, 68, 123, 134, 136, 190. See also agitation attention
 
-and awareness, 19 –21, 2 2 , 30 –36, 3 4 , 38 , 47, 81, 140 , 163, 164, 166 , 173, 332
+and awareness, 19–21, 22, 30–36, 34, 38, 47, 81, 140, 163, 164, 166, 173, 332
 
-energy of, 2 1 7
+energy of, 217
 
-and establishing a practice, 41 –63, 4 8
+and establishing a practice, 41–63, 48
 
-experimenting with, 301–2, 3 0 3 , 304 –5
+experimenting with, 301–2, 303, 304–5
 
-as extrospective or introspective, 32–33, 3 4 , 228 –29
+as extrospective or introspective, 32–33, 34, 228–29
 
 free-floating, 170
 
 functions/purpose of, 293
 
-and jump-starting practice, 2 3
+and jump-starting practice, 23
 
-and mindfulness, 29 –35, 3 4 , 81, 115
+and mindfulness, 29–35, 34, 81, 115
 
 overuse of, 34–35
 
-as overwhelmed, 31 –32
+as overwhelmed, 31–32
 
-purpose/functions of, 21 , 2 2, 30–34, 3 4
+purpose/functions of, 21, 22, 30–34, 34
 
-quality of, 37 , 173
+quality of, 37, 173
 
 and rate of progress through stages, 4
 
@@ -7126,11 +7126,11 @@ selection of locus of, 90
 
 and stages, 36
 
-See also specific stage, interlude, type of attention, or topic attitude, 1 , 13–17, 58 , 61 –62, 63, 254, 266 , 274. See also intentions auditory sense, 245–46 automatic actions
+See also specific stage, interlude, type of attention, or topic attitude, 1, 13–17, 58, 61–62, 63, 254, 266, 274. See also intentions auditory sense, 245–46 automatic actions
 
-and Fifth Interlude, 186, 196, 197 , 204–5, 2 0 4 , 213
+and Fifth Interlude, 186, 196, 197, 204–5, 204, 213
 
-and Mind-System, 186, 196 , 197, 204 –5, 2 0 4 , 213
+and Mind-System, 186, 196, 197, 204–5, 204, 213
 
 and Stage Four, 236
 
@@ -7138,7 +7138,7 @@ and Stage Five, 236
 
 and Stage Six, 223, 236
 
-and Stage Seven, 265 , 267, 275
+and Stage Seven, 265, 267, 275
 
 and subtle distractions, 223
 
@@ -7146,45 +7146,45 @@ and transition from skilled to adept meditator, 236 aversion/cravings
 
 antidotes to, 324
 
-and cessation experience, 2 8 5 , 286
+and cessation experience, 285, 286
 
-definition of, 6 7
+definition of, 67
 
-as hindrance, 65–66, 6 7 , 69–70, 75 –76
+as hindrance, 65–66, 67, 69–70, 75–76
 
-and Insight, 2 8 5 , 286
+and Insight, 285, 286
 
-and Mind-System, 189, 209 –10, 2 0 9 , 294 , 296
+and Mind-System, 189, 209–10, 209, 294, 296
 
 and pain, 106
 
 and problems, 76
 
-and purifying the mind, 254 , 255
+and purifying the mind, 254, 255
 
 and śamatha, 342
 
-and Seventh Interlude, 2 8 5 , 286, 294, 296
+and Seventh Interlude, 285, 286, 294, 296
 
 and Stage Two, 91
 
-and Stage Three, 106 , 111 and Stage Five, 1 6 7
+and Stage Three, 106, 111 and Stage Five, 167
 
-and Stage Seven, 270 , 277
+and Stage Seven, 270, 277
 
-and Stage Eight, 294, 302, 307 , 308, 309 , 324
+and Stage Eight, 294, 302, 307, 308, 309, 324
 
-and Stage Ten, 338 –39
+and Stage Ten, 338–39
 
-and stages of adept meditators, 254 , 255 Awakening
+and stages of adept meditators, 254, 255 Awakening
 
-beyond Stage Ten, 341 , 3 4 1
+beyond Stage Ten, 341, 341
 
-and cessation experience, 286 , 287
+and cessation experience, 286, 287
 
-and Insight, 257, 258 , 259, 286, 287
+and Insight, 257, 258, 259, 286, 287
 
-from mind-wandering, 81 –83
+from mind-wandering, 81–83
 
 and mindfulness, 29
 
@@ -7196,67 +7196,67 @@ and purifying the mind, 284
 
 and śamatha, 342, 344
 
-Seven Factors of, 3 4 1
+Seven Factors of, 341
 
-and Seventh Interlude, 284 , 286, 287
+and Seventh Interlude, 284, 286, 287
 
 and Stage Nine, 334
 
-and Stage Ten, 3 3 7 , 3 3 9, 341
+and Stage Ten, 337, 339, 341
 
 stages of, 287
 
-and stages of adept meditators, 257 , 258, 259
+and stages of adept meditators, 257, 258, 259
 
 and transition from skilled to adept meditator, 235
 
 See also Insight awareness
 
-and attention, 19–21, 2 2 , 30–36, 3 4 , 38, 47 , 81, 140, 163 , 164, 166 , 173 , 332
+and attention, 19–21, 22, 30–36, 34, 38, 47, 81, 140, 163, 164, 166, 173, 332
 
 and Conscious Experience Model, 152
 
-continuous, 1 2 1 , 172
+continuous, 121, 172
 
 definition of, 21
 
-and First Interlude, 19 –21, 2 2 , 30–36, 3 4 , 38
+and First Interlude, 19–21, 22, 30–36, 34, 38
 
 functions/purpose of, 293
 
 as habit, 103
 
-and Mind-System, 185, 1 9 8 , 199, 200, 293 , 294
+and Mind-System, 185, 198, 199, 200, 293, 294
 
-and mindfulness, 81 , 114, 115
+and mindfulness, 81, 114, 115
 
 and objectives of meditation, 38
 
-and pacifying the senses, 241, 242 , 243, 245 –46
+and pacifying the senses, 241, 242, 243, 245–46
 
-quality of, 126 , 173
+quality of, 126, 173
 
 and rate of progress through stages, 4
 
-and stages of adept meditators, 238 , 241, 242 , 243, 245–46, 248
+and stages of adept meditators, 238, 241, 242, 243, 245–46, 248
 
 and stages of meditative training, 36
 
 subconscious, 185
 
-and success in meditation, 9 4
+and success in meditation, 94
 
 and unifying the mind, 238
 
 See also specific stage, interlude, topic, or type of awareness “awareness deficit disorder,” 34–35 beginning meditators. See novice meditators behavior
 
-changing/modifying, 203 –5
+changing/modifying, 203–5
 
 and emotions, 115
 
-and Fifth Interlude, 194–95, 203 –5, 2 0 9, 213 and Mind-System, 194–95, 203 –5, 2 0 9 , 213
+and Fifth Interlude, 194–95, 203–5, 209, 213 and Mind-System, 194–95, 203–5, 209, 213
 
-and mindfulness, 114–19, 1 2 0 , 283
+and mindfulness, 114–19, 120, 283
 
 and purifying the mind, 256
 
@@ -7268,7 +7268,7 @@ and Stage Eight, 315
 
 and stages of adept meditators, 256
 
-and Third Interlude, 114 –19, 1 2 0
+and Third Interlude, 114–19, 120
 
 See also personality binding moments
 
@@ -7276,55 +7276,55 @@ definition of, 152
 
 and discriminating mind, 293
 
-and Mind-System, 183, 205 , 2 0 6, 212, 289 –96, 2 9 1
+and Mind-System, 183, 205, 206, 212, 289–96, 291
 
-and Moments of Consciousness Model, 149 –52, 1 4 9 , 1 5 1, 154 , 1 5 5
+and Moments of Consciousness Model, 149–52, 149, 151, 154, 155
 
-and sensory mind, 290, 291 , 2 9 1, 292
+and sensory mind, 290, 291, 291, 292
 
-and Seventh Interlude, 289 –96, 2 9 1
+and Seventh Interlude, 289–96, 291
 
-and Stage Six, 226, 228 , 2 2 9
+and Stage Six, 226, 228, 229
 
 and Stage Eight, 294
 
-and subtle distractions, 226 , 228 , 2 2 9 bizarre sensations, 11, 135 , 235 , 241, 242 , 273 , 292. See also sensations: unusual blame, 6 7 , 68, 88, 116 , 255 bliss of mental pliancy
+and subtle distractions, 226, 228, 229 bizarre sensations, 11, 135, 235, 241, 242, 273, 292. See also sensations: unusual blame, 67, 68, 88, 116, 255 bliss of mental pliancy
 
-and meditative joy, 247–49, 2 5 0 , 251
+and meditative joy, 247–49, 250, 251
 
 and pacifying the senses, 241, 251
 
-and pīti, 251, 3 2 8 , 330 , 335
+and pīti, 251, 328, 330, 335
 
 and purifying the mind, 254
 
-and Stage Seven, 2 3 9
+and Stage Seven, 239
 
-and Stage Eight, 2 3 9 , 314, 317 , 322
+and Stage Eight, 239, 314, 317, 322
 
-and Stage Nine, 238 –39, 328, 330 , 335
+and Stage Nine, 238–39, 328, 330, 335
 
-and stages of adept meditators, 238 –39, 2 3 9 , 2 4 0, 241, 247–49, 2 5 0 , 251, 254
+and stages of adept meditators, 238–39, 239, 240, 241, 247–49, 250, 251, 254
 
-and unifying the mind, 238 –39, 2 3 9 , 2 4 0 bliss of physical pliancy
+and unifying the mind, 238–39, 239, 240 bliss of physical pliancy
 
 and meditative joy, 251
 
 and pacifying the senses, 240, 251
 
-and pīti, 251, 3 2 8 , 330
+and pīti, 251, 328, 330
 
 and purifying the mind, 254
 
-and Stage Seven, 238 , 2 3 9
+and Stage Seven, 238, 239
 
-and Stage Eight, 238, 2 3 9 , 310 , 312, 322
+and Stage Eight, 238, 239, 310, 312, 322
 
-and Stage Nine, 238 –39, 328, 330
+and Stage Nine, 238–39, 328, 330
 
-and stages of adept meditators, 238 –39, 2 3 9 , 240 , 2 4 0, 251, 254
+and stages of adept meditators, 238–39, 239, 240, 240, 251, 254
 
-and unifying the mind, 238 –39, 2 3 9 , 2 4 0 body
+and unifying the mind, 238–39, 239, 240 body
 
 interconnectedness of mind and, 254
 
@@ -7334,7 +7334,7 @@ and pacifying the senses, 242–44, 247
 
 and purifying the mind, 254
 
-and stages of adept meditators, 235 , 242–44, 247 , 252–53, 254
+and stages of adept meditators, 235, 242–44, 247, 252–53, 254
 
 See also body movements; experiencing the whole body with the breath; involuntary movements;
 
@@ -7344,97 +7344,97 @@ and pacifying the senses, 252–53
 
 and pīti, 252–53
 
-spontaneous, 235 , 272, 322
+spontaneous, 235, 272, 322
 
 and Stage Seven, 273
 
 and Stage Eight, 302, 313
 
-and stages of adept meditators, 235 , 252–53
+and stages of adept meditators, 235, 252–53
 
-See also posture boredom, 7 , 11, 56 , 6 7, 69, 76 , 91, 262 , 266 , 267, 315 bottom-up process, 197, 198 , 199, 220 brain: interconnectedness of, 296–98 breath
+See also posture boredom, 7, 11, 56, 67, 69, 76, 91, 262, 266, 267, 315 bottom-up process, 197, 198, 199, 220 brain: interconnectedness of, 296–98 breath
 
-changes in, 46, 98–99, 146 , 160, 172
+changes in, 46, 98–99, 146, 160, 172
 
 complexity of, 224
 
-cycle, 53, 84 –85, 8 5 , 99 , 100, 1 4 1, 160 , 174, 175
+cycle, 53, 84–85, 85, 99, 100, 141, 160, 174, 175
 
 energy relationship with, 249
 
-and establishing a practice, 44 , 4 5, 46 –54, 4 8 , 63
+and establishing a practice, 44, 45, 46–54, 48, 63
 
-and herding cats analogy, 9 1
+and herding cats analogy, 91
 
-in- and out-, 52, 63, 84 –85, 8 5 , 98 , 99 , 100, 111 , 1 4 1, 146, 160 , 1 6 1, 174, 221 , 224 , 225–26, 268 , 274, 277 ,
+in- and out-, 52, 63, 84–85, 85, 98, 99, 100, 111, 141, 146, 160, 161, 174, 221, 224, 225–26, 268, 274, 277,
 
 294, 336, 340
 
-jerky, 268 , 295
+jerky, 268, 295
 
-and jump-starting practice, 2 3
+and jump-starting practice, 23
 
 as meditation object, 46–54
 
 See also breath at/through the nose; specific stage, interlude, or topic breath at/through the nose
 
-and gross distractions, 1 2 7
+and gross distractions, 127
 
-and jump-starting practice, 2 3
+and jump-starting practice, 23
 
-as meditation object, 2 3
+as meditation object, 23
 
 and Mind-System, 200, 295
 
-and sensations, 2 3
+and sensations, 23
 
 and Seventh Interlude, 295
 
-and Stage One, 44 , 47 –52, 4 8 , 53, 54, 79
+and Stage One, 44, 47–52, 48, 53, 54, 79
 
-and Stage Two, 8 2 , 8 6
+and Stage Two, 82, 86
 
-and Stage Three, 1 0 2 , 1 0 4, 110
+and Stage Three, 102, 104, 110
 
-and Stage Four, 1 2 7 , 1 4 6
+and Stage Four, 127, 146
 
-and Stage Five, 174, 1 7 6 , 177 , 178
+and Stage Five, 174, 176, 177, 178
 
-and Stage Six, 220, 222 , 227 , 231, 295
+and Stage Six, 220, 222, 227, 231, 295
 
-and Stage Seven, 268 , 271
+and Stage Seven, 268, 271
 
-and subtle distractions, 220 , 222 , 227, 231 Buddha/Buddhism, 63, 68, 108 , 131, 146, 147 , 175, 181, 214 , 221, 270 , 307 , 334, 340 captured attention
+and subtle distractions, 220, 222, 227, 231 Buddha/Buddhism, 63, 68, 108, 131, 146, 147, 175, 181, 214, 221, 270, 307, 334, 340 captured attention
 
-definition of, 2 5
+definition of, 25
 
 and Mind-System, 199
 
-and spontaneous movements of attention, 24 , 2 5
+and spontaneous movements of attention, 24, 25
 
 and Stage One, 50
 
-and Stage Two, 81 , 84, 87, 88
+and Stage Two, 81, 84, 87, 88
 
 and Stage Three, 97, 104
 
 and Stage Four, 123
 
-and Stage Eight, 301, 304, 306 , 311, 315 causal interdependence of phenomena, 258 cessation experience, 284 –87, 2 8 5 , 332, 333 checking in, 8 , 96, 98, 101 , 103 –5, 1 0 4 , 111 , 124 , 170, 171 choiceless attention, 3 0 5 , 306–7, 3 3 9 Close Following, 266 , 268–70, 272 , 294, 295, 3 3 9 cognitive psychology, 181 compliant mind, 299 –302, 3 0 1 , 3 0 3, 304–9, 3 0 5 , 3 0 8, 311 concentration
+and Stage Eight, 301, 304, 306, 311, 315 causal interdependence of phenomena, 258 cessation experience, 284–87, 285, 332, 333 checking in, 8, 96, 98, 101, 103–5, 104, 111, 124, 170, 171 choiceless attention, 305, 306–7, 339 Close Following, 266, 268–70, 272, 294, 295, 339 cognitive psychology, 181 compliant mind, 299–302, 301, 303, 304–9, 305, 308, 311 concentration
 
 with dullness, 9
 
 effortless, 54
 
-See also stable attention connecting, 8, 96 , 98, 100, 1 0 1 , 1 0 2, 1 0 4, 140, 1 4 1, 172. See also interconnectedness conscious awareness
+See also stable attention connecting, 8, 96, 98, 100, 101, 102, 104, 140, 141, 172. See also interconnectedness conscious awareness
 
-and attention, 2 2
+and attention, 22
 
-definition of, 2 0
+definition of, 20
 
-field of, 19 , 88 , 96 , 170, 306 , 331, 332
+field of, 19, 88, 96, 170, 306, 331, 332
 
-and First Interlude, 20 , 2 2, 29, 30 , 35
+and First Interlude, 20, 22, 29, 30, 35
 
 and Insight, 257–58
 
@@ -7448,7 +7448,7 @@ and purpose of attention, 30
 
 and scope of attention, 29
 
-and Stage One, 49 , 50 , 51
+and Stage One, 49, 50, 51
 
 and Stage Two, 88
 
@@ -7456,35 +7456,35 @@ and Stage Three, 96, 111
 
 and Stage Five, 170
 
-and Stage Eight, 29 , 306
+and Stage Eight, 29, 306
 
-and Stage Nine, 331 , 332
+and Stage Nine, 331, 332
 
-and stages of adept meditators, 246 , 255, 257 –58 Conscious Experience Model, 19 –21, 2 2 , 147, 152 conscious intentions
+and stages of adept meditators, 246, 255, 257–58 Conscious Experience Model, 19–21, 22, 147, 152 conscious intentions
 
 benefits of, 28
 
-and Fifth Interlude, 183, 194, 197 , 199–204, 213
+and Fifth Interlude, 183, 194, 197, 199–204, 213
 
-and First Interlude, 27 –28
+and First Interlude, 27–28
 
-and Mind-System, 183, 194 , 197, 199 –204, 213
+and Mind-System, 183, 194, 197, 199–204, 213
 
 and mindfulness, 280
 
-and Moments of Consciousness Model, 158 –62, 1 5 9
+and Moments of Consciousness Model, 158–62, 159
 
-and objectives of meditation, 27 –28
+and objectives of meditation, 27–28
 
 and pīti, 330
 
 and Seventh Interlude, 280
 
-and Stage Two, 83 , 84
+and Stage Two, 83, 84
 
-and Stage Six, 217–18, 2 1 9 , 220
+and Stage Six, 217–18, 219, 220
 
-and Stage Seven, 236 –37, 2 6 1 , 263
+and Stage Seven, 236–37, 261, 263
 
 and Stage Eight, 323
 
@@ -7492,99 +7492,99 @@ and Stage Nine, 330
 
 and stages of meditation, 14, 15–16
 
-and subtle distractions, 217 –18, 2 1 9 , 220
+and subtle distractions, 217–18, 219, 220
 
-and transition from skilled to adept meditator, 236–37 conscious mind and cessation experience, 2 8 5
+and transition from skilled to adept meditator, 236–37 conscious mind and cessation experience, 285
 
 definition of, 181
 
 and discriminating mind, 292
 
-and Fifth Interlude, 181, 182–83, 1 8 2 , 1 8 4, 191 , 1 9 1, 1 9 2, 193, 194 , 196, 197 , 200 , 202–3, 205 , 2 0 8, 209,
+and Fifth Interlude, 181, 182–83, 182, 184, 191, 191, 192, 193, 194, 196, 197, 200, 202–3, 205, 208, 209,
 
-2 0 9, 211, 212 –13
+209, 211, 212–13
 
-function/purpose of, 1 8 2 , 1 9 2, 287 , 2 8 8, 292
+function/purpose of, 182, 192, 287, 288, 292
 
-and Insight, 2 8 5
+and Insight, 285
 
-and Mind-System, 181, 182 –83, 1 8 2 , 1 8 4, 191 , 1 9 1, 1 9 2, 193 , 194, 196 , 197 , 200, 202 –3, 205, 2 0 8 , 209 ,
+and Mind-System, 181, 182–83, 182, 184, 191, 191, 192, 193, 194, 196, 197, 200, 202–3, 205, 208, 209,
 
-2 0 9, 211, 212 –13, 287, 2 8 8 , 2 9 1
+209, 211, 212–13, 287, 288, 291
 
-and mindfulness, 2 8 1 , 2 8 2
+and mindfulness, 281, 282
 
-and śamatha, 3 4 3
+and śamatha, 343
 
-and sensory mind, 2 9 1
+and sensory mind, 291
 
-and Seventh Interlude, 2 8 1 , 2 8 2, 2 8 5, 287 , 2 8 8, 2 9 1, 292, 296
+and Seventh Interlude, 281, 282, 285, 287, 288, 291, 292, 296
 
-and Stage Six, 2 1 9 , 2 2 2
+and Stage Six, 219, 222
 
 sub-minds of, 193
 
-and subtle distractions, 2 1 9 , 2 2 2 consciousness
+and subtle distractions, 219, 222 consciousness
 
-and cessation experience, 284 –85, 2 8 5 , 286
+and cessation experience, 284–85, 285, 286
 
-as construct of the mind, 332 –33
+as construct of the mind, 332–33
 
-contents of, 2 8 1
+contents of, 281
 
-definition of, 19 , 212 , 279, 296
+definition of, 19, 212, 279, 296
 
 and First Interlude, 157
 
-function/purpose of, 287, 296 , 306
+function/purpose of, 287, 296, 306
 
-“group,” 297 –98
+“group,” 297–98
 
-and Insight, 284–86, 2 8 5
+and Insight, 284–86, 285
 
-interconnectedness of, 296 –98
+interconnectedness of, 296–98
 
-and Mind-System, 212, 213 , 214, 2 1 8 , 287 , 289, 290 , 291 –92, 293, 294 , 295
+and Mind-System, 212, 213, 214, 218, 287, 289, 290, 291–92, 293, 294, 295
 
-and mindfulness, 35 , 36–38, 113 , 115 , 279, 280 , 2 8 1, 2 8 2, 283
+and mindfulness, 35, 36–38, 113, 115, 279, 280, 281, 282, 283
 
-nature of, 296 –98
+nature of, 296–98
 
 and pīti, 331, 332–34
 
 power of, 29
 
-pure, 286 , 333
+pure, 286, 333
 
-and sensory mind, 290, 291 –92, 2 9 1
+and sensory mind, 290, 291–92, 291
 
-and Seventh Interlude, 279 , 280, 2 8 1 , 283 –87, 2 8 5 , 289 –98
+and Seventh Interlude, 279, 280, 281, 283–87, 285, 289–98
 
-and shared receptivity, 296 –98
+and shared receptivity, 296–98
 
-and Stage Two, 81 , 83
+and Stage Two, 81, 83
 
 and Stage Three, 99–100
 
-and Stage Four, 123, 134, 1 3 7 , 139
+and Stage Four, 123, 134, 137, 139
 
-and Stage Five, 35, 166, 167 , 173, 177, 179
+and Stage Five, 35, 166, 167, 173, 177, 179
 
-and Stage Six, 38 , 217, 2 1 8 , 2 1 9, 221–24, 2 2 2 , 226, 228, 229 , 236, 263
+and Stage Six, 38, 217, 218, 219, 221–24, 222, 226, 228, 229, 236, 263
 
-and Stage Seven, 264 , 267, 268 , 270, 271
+and Stage Seven, 264, 267, 268, 270, 271
 
-and Stage Eight, 38 , 294, 305 , 306 , 307, 309 , 310, 311, 313 , 318, 320
+and Stage Eight, 38, 294, 305, 306, 307, 309, 310, 311, 313, 318, 320
 
-and Stage Nine, 331 , 332–34
+and Stage Nine, 331, 332–34
 
-and stages of adept meditators, 237 , 241, 244 , 246
+and stages of adept meditators, 237, 241, 244, 246
 
 stream of, 148
 
-and subtle distractions, 217 , 2 1 9, 221–24, 2 2 2 , 226 , 228, 229
+and subtle distractions, 217, 219, 221–24, 222, 226, 228, 229
 
-and success in meditation, 9 4
+and success in meditation, 94
 
 and transition from skilled to adept meditator, 236
 
@@ -7594,25 +7594,25 @@ types of, 214 and unifying the mind, 237
 
 See also Conscious Experience Model; Moments of Consciousness Model; specific type of consciousness
 
-or topic consciousness without an object (CWO), 286, 333 continuous attention, 6 , 8–9, 53, 96, 121 , 128 , 160. See also sustained attention corporation analogy, 191 , 1 9 2, 193, 197 corrections
+or topic consciousness without an object (CWO), 286, 333 continuous attention, 6, 8–9, 53, 96, 121, 128, 160. See also sustained attention corporation analogy, 191, 192, 193, 197 corrections
 
-and Mind-System, 192, 2 0 4
+and Mind-System, 192, 204
 
-and Moments of Consciousness Model, 178 –79
+and Moments of Consciousness Model, 178–79
 
-and Stage Three, 1 0 4
+and Stage Three, 104
 
-and Stage Four, 1 2 7 , 143, 1 4 6, 236
+and Stage Four, 127, 143, 146, 236
 
-and Stage Five, 1 6 7 , 168 , 171 , 178–79, 236
+and Stage Five, 167, 168, 171, 178–79, 236
 
-and Stage Six, 228, 233 , 236
+and Stage Six, 228, 233, 236
 
-and Stage Seven, 262 , 264, 265
+and Stage Seven, 262, 264, 265
 
-and subtle distractions, 228 , 233
+and subtle distractions, 228, 233
 
-and transition from skilled to adept meditator, 236 counting, 52 –54, 8 6 cravings. See aversion Csikszentmihalyi, Mihaly, 229 , 2 3 0 daily life
+and transition from skilled to adept meditator, 236 counting, 52–54, 86 cravings. See aversion Csikszentmihalyi, Mihaly, 229, 230 daily life
 
 and distractions, 139
 
@@ -7622,7 +7622,7 @@ and establishing a practice, 59
 
 forgetting in, 81
 
-hindrances in, 66 , 69, 70, 78
+hindrances in, 66, 69, 70, 78
 
 impact of meditative training on, 5
 
@@ -7640,15 +7640,15 @@ and Mind-System, 201, 204
 
 mind-wandering in, 81
 
-mindfulness in, 29, 37 , 113 , 114, 116 –17, 119, 202 , 256 , 307, 338 , 344
+mindfulness in, 29, 37, 113, 114, 116–17, 119, 202, 256, 307, 338, 344
 
-and objectives of meditation, 29 , 37
+and objectives of meditation, 29, 37
 
 pain in, 105
 
 patience in, 256
 
-and śamatha, 3 3 7 , 339, 344
+and śamatha, 337, 339, 344
 
 and sensations, 225
 
@@ -7656,25 +7656,25 @@ and Stage One, 59
 
 and Stage Ten, 16
 
-and stages of adept meditators, 2 4 0
+and stages of adept meditators, 240
 
 and subtle dullness, 165–66
 
-and unifying the mind, 2 4 0
+and unifying the mind, 240
 
 virtue in, 256 daily meditation
 
-commitment to, 59 , 60
+commitment to, 59, 60
 
 length of, 233
 
-never missing, 7 with others, 60 , 63
+never missing, 7 with others, 60, 63
 
-preparation for, 41 , 42 –54, 4 5 , 8 6
+preparation for, 41, 42–54, 45, 86
 
 and rate of progress through stages, 4
 
-and Stage One, 6, 7, 41 , 4 1, 63
+and Stage One, 6, 7, 41, 41, 63
 
 and Stage Eight, 324
 
@@ -7682,15 +7682,15 @@ and Stage Nine, 12
 
 time and place for, 4, 58–60
 
-See also establishing a practice “dark night of the soul,” 270 decisions: and Mind-System, 195 , 196, 197, 199 , 201–3, 210 , 211 deep conditioning: reprogramming, 114, 116 –18, 119 desires
+See also establishing a practice “dark night of the soul,” 270 decisions: and Mind-System, 195, 196, 197, 199, 201–3, 210, 211 deep conditioning: reprogramming, 114, 116–18, 119 desires
 
 conflicting, 189
 
-definition of worldly, 6 7
+definition of worldly, 67
 
-as hindrance, 65–66, 6 7 , 68–69, 75 –76
+as hindrance, 65–66, 67, 68–69, 75–76
 
-and Mind-System, 189, 209 –10, 2 0 9 , 296
+and Mind-System, 189, 209–10, 209, 296
 
 and pain, 106
 
@@ -7700,37 +7700,37 @@ and Seventh Interlude, 296
 
 and Stage Two, 91
 
-and Stage Three, 106 , 111
+and Stage Three, 106, 111
 
-and Stage Five, 1 6 7
+and Stage Five, 167
 
-and Stage Six, 2 1 5
+and Stage Six, 215
 
-and Stage Seven, 2 6 1 , 276, 277
+and Stage Seven, 261, 276, 277
 
-and Stage Eight, 302, 307, 308 , 314
+and Stage Eight, 302, 307, 308, 314
 
-and Stage Ten, 338 –39, 340
+and Stage Ten, 338–39, 340
 
-and subtle distractions, 2 1 5 Dhammapada, 259 dharma, 63 , 75 –76, 269 diligence
+and subtle distractions, 215 Dhammapada, 259 dharma, 63, 75–76, 269 diligence
 
-definition of, 6, 43 , 84 , 264
+definition of, 6, 43, 84, 264
 
 and intentions, 16
 
-and jump-starting practice, 2 3
+and jump-starting practice, 23
 
 and pīti, 334
 
 and rate of progress through stages, 4
 
-and Stage One, 6, 7, 4 1 , 42, 43 , 4 5, 54, 57 , 5 7, 58, 62 , 63
+and Stage One, 6, 7, 41, 42, 43, 45, 54, 57, 57, 58, 62, 63
 
-and Stage Two, 84 , 8 6, 94
+and Stage Two, 84, 86, 94
 
 and Stage Six, 225
 
-and Stage Seven, 11 , 262–66, 2 6 4 , 275 , 277
+and Stage Seven, 11, 262–66, 264, 275, 277
 
 and Stage Nine, 334
 
@@ -7738,25 +7738,25 @@ and subtle distractions, 225 directed attention
 
 definition of, 24
 
-and First Interlude, 24 , 26, 27 –28
+and First Interlude, 24, 26, 27–28
 
 and intentions, 24, 26, 27–28
 
 and jhāna, 230
 
-as meditation factor, 66 , 6 7, 71
+as meditation factor, 66, 67, 71
 
-and Mind-System, 200, 201 , 293
+and Mind-System, 200, 201, 293
 
-and Moments of Consciousness Model, 158 –59
+and Moments of Consciousness Model, 158–59
 
 and Seventh Interlude, 293 and Stage One, 46
 
-and Stage Two, 27 , 7 9, 84, 87
+and Stage Two, 27, 79, 84, 87
 
 and Stage Three, 27
 
-and Stage Four, 84 , 123, 124 , 127 –28, 146
+and Stage Four, 84, 123, 124, 127–28, 146
 
 and Stage Six, 227
 
@@ -7770,19 +7770,19 @@ and binding moments, 293
 
 and cessation experience, 285
 
-and consciousness, 292 , 293
+and consciousness, 292, 293
 
-and Fifth Interlude, 184, 1 8 4 , 186 –91, 1 8 7 , 1 9 2, 194, 195–96, 200 , 202, 203–5, 207 –14, 2 0 8 , 2 0 9, 2 1 1
+and Fifth Interlude, 184, 184, 186–91, 187, 192, 194, 195–96, 200, 202, 203–5, 207–14, 208, 209, 211
 
-function/purpose of, 186, 188 , 292
+function/purpose of, 186, 188, 292
 
 information processing in, 292–93
 
 and Insight, 285
 
-and Mind-System, 184, 1 8 4 , 186–91, 1 8 7 , 1 9 2, 194, 195 –96, 200, 202, 203 –5, 207–14, 2 0 8 , 2 0 9, 2 1 1, 287,
+and Mind-System, 184, 184, 186–91, 187, 192, 194, 195–96, 200, 202, 203–5, 207–14, 208, 209, 211, 287,
 
-2 8 8, 292–93
+288, 292–93
 
 and moments of consciousness, 293
 
@@ -7792,35 +7792,35 @@ and perceptions, 293
 
 and purifying the mind, 255
 
-and Self, 2 2 9
+and Self, 229
 
 and sense-percepts, 293
 
 and sensory mind, 292, 293
 
-and Seventh Interlude, 285 , 287, 2 8 8 , 292 –93
+and Seventh Interlude, 285, 287, 288, 292–93
 
-and Stage Six, 217, 2 1 9 , 221 , 2 2 2, 223, 224 , 225, 2 2 9, 263
+and Stage Six, 217, 219, 221, 222, 223, 224, 225, 229, 263
 
-and Stage Seven, 236 –37, 264 , 267 –68, 274–77
+and Stage Seven, 236–37, 264, 267–68, 274–77
 
 and Stage Eight, 308
 
-and stages of adept meditators, 237 , 255
+and stages of adept meditators, 237, 255
 
-and subtle distractions, 216 , 217 , 2 1 9, 221, 2 2 2, 223, 224 , 225 , 2 2 9
+and subtle distractions, 216, 217, 219, 221, 222, 223, 224, 225, 229
 
 and transition from skilled to adept meditator, 236–37
 
-and unifying the mind, 237 , 274–77
+and unifying the mind, 237, 274–77
 
-See also pacifying the discriminating mind; sub-minds discursive brilliance, 132 –33 discursive thoughts, 229 , 232 disharmony-dissatisfaction-impatience loop, 92, 93 distractions
+See also pacifying the discriminating mind; sub-minds discursive brilliance, 132–33 discursive thoughts, 229, 232 disharmony-dissatisfaction-impatience loop, 92, 93 distractions
 
 analyzing of, 102
 
-antidotes to, 7 7
+antidotes to, 77
 
-and breath, 1 2 2
+and breath, 122
 
 and daily life, 139
 
@@ -7828,25 +7828,25 @@ definition of, 96
 
 due to strange sensations, 272–74
 
-and First Interlude, 24 , 26 , 27, 28, 29
+and First Interlude, 24, 26, 27, 28, 29
 
 and hindrances, 69
 
-and Insight, 1 3 3 , 226 , 257
+and Insight, 133, 226, 257
 
 and intentions, 15
 
-and jump-starting practice, 2 3
+and jump-starting practice, 23
 
-labeling of, 96 , 98 , 101–2, 1 0 3 , 104 , 105 and meditation objects, 28, 106 , 1 2 2, 123
+labeling of, 96, 98, 101–2, 103, 104, 105 and meditation objects, 28, 106, 122, 123
 
-and Mind-System, 193, 199 , 201, 203 , 2 1 8
+and Mind-System, 193, 199, 201, 203, 218
 
 and mindfulness, 114
 
-and Moments of Consciousness Model, 159 , 160 , 1 6 1, 162 –63, 1 6 2 , 178, 2 1 8
+and Moments of Consciousness Model, 159, 160, 161, 162–63, 162, 178, 218
 
-and objectives of meditation, 24 , 26, 27, 28, 29
+and objectives of meditation, 24, 26, 27, 28, 29
 
 and pacifying the senses, 244, 247
 
@@ -7854,29 +7854,29 @@ persistent, 128–29
 
 and pīti, 329
 
-and problems, 75–76, 7 7
+and problems, 75–76, 77
 
-and Stage One, 42 , 43 , 44, 4 5, 47 , 49, 50, 54
+and Stage One, 42, 43, 44, 45, 47, 49, 50, 54
 
-and Stage Two, 7 , 80–81, 8 2 , 8 6, 87 , 88
+and Stage Two, 7, 80–81, 82, 86, 87, 88
 
-and Stage Three, 8, 15, 9 5 , 96, 97, 9 7 , 98, 100 –105, 1 0 3 , 170
+and Stage Three, 8, 15, 95, 96, 97, 97, 98, 100–105, 103, 170
 
-and Stage Four, 28 , 7 7, 124, 1 2 5, 126 , 128–29, 131 , 133 , 1 3 3, 134 –36, 138–39, 140 , 142 , 236
+and Stage Four, 28, 77, 124, 125, 126, 128–29, 131, 133, 133, 134–36, 138–39, 140, 142, 236
 
-and Stage Five, 7 7 , 169, 178, 236
+and Stage Five, 77, 169, 178, 236
 
-and Stage Six, 10 , 7 7, 218–24, 2 1 8 , 2 1 9, 2 2 2, 228, 231 , 236, 263
+and Stage Six, 10, 77, 218–24, 218, 219, 222, 228, 231, 236, 263
 
-and Stage Seven, 11 , 15 , 216, 2 6 1, 262 –66, 269 , 272 –76
+and Stage Seven, 11, 15, 216, 261, 262–66, 269, 272–76
 
-and Stage Eight, 12 , 310, 311 , 317
+and Stage Eight, 12, 310, 311, 317
 
-and Stage Nine, 12 , 329
+and Stage Nine, 12, 329
 
-and stages of adept meditators, 238 , 244, 247 , 257
+and stages of adept meditators, 238, 244, 247, 257
 
-and success in meditation, 9 4
+and success in meditation, 94
 
 and transition from skilled to adept meditator, 236
 
@@ -7886,39 +7886,39 @@ See also gross distractions; let it come, let it be, and let it go; potential di
 
 specific topic doubt
 
-antidote for, 73 –75, 7 7
+antidote for, 73–75, 77
 
-definition of, 6 7
+definition of, 67
 
-as hindrance, 65–66, 6 7 , 69, 73 –76
+as hindrance, 65–66, 67, 69, 73–76
 
 and intentions, 16
 
 and Mind-System, 202, 210
 
-and problems, 75–76, 7 7
+and problems, 75–76, 77
 
 and purifying the mind, 256
 
 purpose of, 73
 
-self-, 56, 62, 66, 6 7 , 74–75, 76 , 7 7
+self-, 56, 62, 66, 67, 74–75, 76, 77
 
-and Stage One, 43 , 56 , 58, 62
+and Stage One, 43, 56, 58, 62
 
-and Stage Two, 91 , 92
+and Stage Two, 91, 92
 
-and Stage Five, 1 6 7
+and Stage Five, 167
 
-and Stage Seven, 11 , 2 6 1, 262, 266 , 277
+and Stage Seven, 11, 261, 262, 266, 277
 
 and Stage Eight, 315
 
 and stages of adept meditators, 256
 
-and subtle distractions, 2 1 5 dreams, 166, 190, 281 . See also mind-wandering driving example, 194, 195 , 196 dryness, 46 , 265 –72, 273, 275 dullness
+and subtle distractions, 215 dreams, 166, 190, 281. See also mind-wandering driving example, 194, 195, 196 dryness, 46, 265–72, 273, 275 dullness
 
-antidotes for, 7 7 , 143–45, 166
+antidotes for, 77, 143–45, 166
 
 cause of, 172
 
@@ -7928,71 +7928,71 @@ and daily life, 165
 
 degrees of, 108 disappearance of, 145
 
-and First Interlude, 36 , 37, 157
+and First Interlude, 36, 37, 157
 
-and intentions, 15, 1 4 5
+and intentions, 15, 145
 
 and Milestone Two, 10
 
 and Mind-System, 193
 
-and mindfulness, 36 , 37, 280, 281 , 2 8 1, 2 8 2
+and mindfulness, 36, 37, 280, 281, 281, 282
 
-and Moments of Consciousness Model, 157 , 1 5 9, 164–66, 179
+and Moments of Consciousness Model, 157, 159, 164–66, 179
 
-pleasure of, 168, 170 –71
+pleasure of, 168, 170–71
 
-and problems, 76, 7 7
+and problems, 76, 77
 
 resistance of, 170
 
 and scattered attention, 108
 
-as seductive, 1 4 5 , 170
+as seductive, 145, 170
 
-and Seventh Interlude, 280 , 281, 2 8 1 , 2 8 2
+and Seventh Interlude, 280, 281, 281, 282
 
 and Stage One, 47
 
-and Stage Three, 15, 7 7 , 9 5, 100, 106 , 108–11, 170
+and Stage Three, 15, 77, 95, 100, 106, 108–11, 170
 
-and Stage Four, 7 7 , 131 , 140–45, 1 4 1 , 236
+and Stage Four, 77, 131, 140–45, 141, 236
 
-and Stage Five, 170–73, 178 , 179, 236
+and Stage Five, 170–73, 178, 179, 236
 
-and Stage Six, 193, 228 , 231 , 232, 236
+and Stage Six, 193, 228, 231, 232, 236
 
-and Stage Seven, 11 , 15 , 2 6 1, 262 , 275
+and Stage Seven, 11, 15, 261, 262, 275
 
-and Stage Eight, 12 , 2 9 9
+and Stage Eight, 12, 299
 
-and subtle distractions, 228 , 231 , 232
+and subtle distractions, 228, 231, 232
 
-and success in meditation, 9 4
+and success in meditation, 94
 
 and transition from skilled to adept meditator, 236
 
 See also strong dullness; subtle dullness effort/effortlessness
 
-and beyond Stage Ten, 3 4 1
+and beyond Stage Ten, 341
 
 definition of, 265
 
-and “epiphany of the flies,” 275 –76
+and “epiphany of the flies,” 275–76
 
-and flow, 2 3 0
+and flow, 230
 
 goal of, 265
 
-and hindrances, 6 7 , 68, 70, 75
+and hindrances, 67, 68, 70, 75
 
 and intentions, 15, 16, 265
 
-and meditative joy, 2 5 1
+and meditative joy, 251
 
-and milestones, 11 , 13
+and milestones, 11, 13
 
-and Mind-System, 2 0 4 , 214 , 293
+and Mind-System, 204, 214, 293
 
 and mindfulness, 116
 
@@ -8000,29 +8000,29 @@ obstacles to, 276–77
 
 and Seventh Interlude, 293
 
-and Stage One, 4 1 , 54, 63
+and Stage One, 41, 54, 63
 
-and Stage Three, 9 5 , 111
+and Stage Three, 95, 111
 
-and Stage Four, 1 2 1
+and Stage Four, 121
 
-and Stage Six, 2 1 5 , 216, 223 –24, 236
+and Stage Six, 215, 216, 223–24, 236
 
-and Stage Seven, 10 , 11 , 15, 237, 261 –66, 2 6 1 , 2 6 4, 269 , 272, 274 –77
+and Stage Seven, 10, 11, 15, 237, 261–66, 261, 264, 269, 272, 274–77
 
-and Stage Eight, 11 , 12, 14, 299 , 2 9 9, 300, 301 , 302 , 3 0 3, 3 0 5, 309, 324
+and Stage Eight, 11, 12, 14, 299, 299, 300, 301, 302, 303, 305, 309, 324
 
-and Stage Nine, 3 2 7
+and Stage Nine, 327
 
 and Stage Ten, 13
 
-and stages of adept meditators, 237 , 2 4 0, 2 5 1
+and stages of adept meditators, 237, 240, 251
 
-and subtle distractions, 2 1 5 , 216 , 223–24
+and subtle distractions, 215, 216, 223–24
 
-and sustained exclusive attention, 16, 2 6 1 , 2 9 9 and transition from skilled to adept meditator, 236, 237
+and sustained exclusive attention, 16, 261, 299 and transition from skilled to adept meditator, 236, 237
 
-and unifying the mind, 237 , 2 4 0 elephant, training of young, 108 Eliot, T.S., 344 emotions
+and unifying the mind, 237, 240 elephant, training of young, 108 Eliot, T.S., 344 emotions
 
 acknowledging of, 114
 
@@ -8030,7 +8030,7 @@ and behavior, 115
 
 causes of, 136
 
-and distractions, 1 2 2
+and distractions, 122
 
 and Insight, 258, 259
 
@@ -8038,91 +8038,91 @@ labeling, 136
 
 and memories, 210
 
-and Mind-System, 184, 186 , 188, 190 , 194 , 196, 2 0 8 , 209 –10, 2 0 9 , 212 , 213
+and Mind-System, 184, 186, 188, 190, 194, 196, 208, 209–10, 209, 212, 213
 
 and mindfulness, 114, 115, 117
 
-and Moments of Consciousness Model, 149 –52, 1 4 9 , 160
+and Moments of Consciousness Model, 149–52, 149, 160
 
 and pīti, 333
 
-and purifying the mind, 254 , 256
+and purifying the mind, 254, 256
 
 self in, 136
 
-and Stage Four, 8 , 128, 129, 134 –36, 1 3 7 , 138 –39, 145, 259
+and Stage Four, 8, 128, 129, 134–36, 137, 138–39, 145, 259
 
 and Stage Six, 227–28, 229
 
-and Stage Seven, 259 , 267, 270 , 274
+and Stage Seven, 259, 267, 270, 274
 
 and Stage Eight, 302, 312, 315
 
 and Stage Nine, 333
 
-and stages of adept meditators, 254 , 256, 258 , 259
+and stages of adept meditators, 254, 256, 258, 259
 
-and subtle distractions, 227 –28, 229
+and subtle distractions, 227–28, 229
 
-See also discriminating mind; specific emotion emptiness, 258 , 269 –70, 332–34, 3 4 3 , 344 energy
+See also discriminating mind; specific emotion emptiness, 258, 269–70, 332–34, 343, 344 energy
 
-of attention, 2 1 7
+of attention, 217
 
-and beyond Stage Ten, 3 4 1
+and beyond Stage Ten, 341
 
 breath relationship with, 249
 
-and hindrances, 6 7 , 70, 71, 72
+and hindrances, 67, 70, 71, 72
 
-and meditative joy, 247–49, 2 5 0 , 251, 252, 253
+and meditative joy, 247–49, 250, 251, 252, 253
 
-and mindfulness, 37 , 2 8 2
+and mindfulness, 37, 282
 
-and Moments of Consciousness Model, 157 , 160 , 165, 178
+and Moments of Consciousness Model, 157, 160, 165, 178
 
 net kinetic, 315
 
-and pacifying the senses, 241, 251 , 252, 253
+and pacifying the senses, 241, 251, 252, 253
 
-and pīti, 251, 252, 253 , 329, 330 , 334 , 335, 3 3 5
+and pīti, 251, 252, 253, 329, 330, 334, 335, 335
 
-and problems, 76, 7 7
+and problems, 76, 77
 
 and purifying the mind, 255
 
-and Seventh Interlude, 2 8 2
+and Seventh Interlude, 282
 
 and Stage Three, 103
 
-and Stage Four, 141, 142, 144 , 166
+and Stage Four, 141, 142, 144, 166
 
 and Stage Five, 173, 178
 
-and Stage Six, 216, 218 , 2 1 9
+and Stage Six, 216, 218, 219
 
-and Stage Seven, 2 3 9 , 265, 268 , 272 , 273
+and Stage Seven, 239, 265, 268, 272, 273
 
-and Stage Eight, 12 , 2 3 9, 3 0 1, 302, 308, 310 , 311 , 315, 3 1 6 , 317 , 322, 324 , 325
+and Stage Eight, 12, 239, 301, 302, 308, 310, 311, 315, 316, 317, 322, 324, 325
 
-and Stage Nine, 328 , 329, 330, 334 , 335, 3 3 5
+and Stage Nine, 328, 329, 330, 334, 335, 335
 
-and Stage Ten, 3 3 7
+and Stage Ten, 337
 
-and stages of adept meditators, 235 , 2 3 9, 241, 247 –49, 2 5 0 , 251 , 252, 253 , 255 and subtle distractions, 216 , 218 , 2 1 9
+and stages of adept meditators, 235, 239, 241, 247–49, 250, 251, 252, 253, 255 and subtle distractions, 216, 218, 219
 
-and unifying the mind, 2 3 9
+and unifying the mind, 239
 
-and when to do which practices, 3 0 1
+and when to do which practices, 301
 
-See also sleepiness “epiphany of the flies,” 275 –76 equanimity
+See also sleepiness “epiphany of the flies,” 275–76 equanimity
 
-and cessation experience, 284 –85
+and cessation experience, 284–85
 
 in daily life, 338
 
-and hindrances, 68, 69 , 70
+and hindrances, 68, 69, 70
 
-and Insight, 259, 284 –85
+and Insight, 259, 284–85
 
 and intentions, 16
 
@@ -8130,87 +8130,87 @@ and mental habits, 14
 
 and Milestone Four, 13
 
-and pīti, 329, 330, 332 , 334–35, 3 3 5
+and pīti, 329, 330, 332, 334–35, 335
 
-and problems, 7 7
+and problems, 77
 
 and śamatha, 338–39
 
-and Seventh Interlude, 284 –85
+and Seventh Interlude, 284–85
 
-and Stage Nine, 12 , 16 , 2 3 9, 259, 327 –30, 3 2 7 , 332 , 334 –36, 3 3 5
+and Stage Nine, 12, 16, 239, 259, 327–30, 327, 332, 334–36, 335
 
-and Stage Ten, 6 , 13 , 16, 259, 331 , 336–39, 3 3 7
+and Stage Ten, 6, 13, 16, 259, 331, 336–39, 337
 
-and stages of adept meditators, 240 , 2 4 0, 259
+and stages of adept meditators, 240, 240, 259
 
-and unifying the mind, 2 3 9 , 240, 2 4 0 establishing a practice
+and unifying the mind, 239, 240, 240 establishing a practice
 
 and attention, 41–63
 
 and attitude, 58, 61–62, 63
 
-and breath, 44, 4 5 , 46–54, 4 8 , 63 , 79
+and breath, 44, 45, 46–54, 48, 63, 79
 
 consistency in, 6
 
-and counting, 52 –54
+and counting, 52–54
 
-and diligence, 4 1 , 42 , 43, 4 5, 54 , 57 , 5 7, 58 , 62, 63
+and diligence, 41, 42, 43, 45, 54, 57, 57, 58, 62, 63
 
-and distractions, 42, 43–44, 4 5 , 47, 49 , 50, 54
+and distractions, 42, 43–44, 45, 47, 49, 50, 54
 
-and expectations, 42 , 43, 4 5 , 54 , 61, 62
+and expectations, 42, 43, 45, 54, 61, 62
 
-and goals, 4 1 , 42–43, 4 5 , 54
+and goals, 41, 42–43, 45, 54
 
 habits and, 75
 
-and happiness/pleasure, 49 , 50 , 51 , 52, 54, 58
+and happiness/pleasure, 49, 50, 51, 52, 54, 58
 
-and hindrances, 4 1 , 44
+and hindrances, 41, 44
 
 importance of, 4
 
-and intentions, 15, 4 1 , 44 , 4 5, 46 , 57, 58, 60
+and intentions, 15, 41, 44, 45, 46, 57, 58, 60
 
-and joy, 43, 4 5 , 49, 58, 59, 62 , 63
+and joy, 43, 45, 49, 58, 59, 62, 63
 
-mastery of, 41 , 63
+mastery of, 41, 63
 
-and meditation object, 42 , 43 , 46 –54, 4 8 , 5 7
+and meditation object, 42, 43, 46–54, 48, 57
 
-and mindfulness, 43 , 52, 56, 63
+and mindfulness, 43, 52, 56, 63
 
-and motivation, 7 , 15, 4 1 , 42, 4 5, 54, 56, 57, 58 , 60 , 62 –63
+and motivation, 7, 15, 41, 42, 45, 54, 56, 57, 58, 60, 62–63
 
-obstacles to, 7 , 41, 43, 55–58
+obstacles to, 7, 41, 43, 55–58
 
-with others, 60 , 63
+with others, 60, 63
 
 and peripheral awareness, 47, 49, 50, 52
 
-and place for practice, 58 –60
+and place for practice, 58–60
 
-and posture, 42, 44, 4 5 , 50, 54 , 58 , 60 –61
+and posture, 42, 44, 45, 50, 54, 58, 60–61
 
 practical steps to, 58–63
 
-and preparation for meditation, 41, 42–54, 4 5
+and preparation for meditation, 41, 42–54, 45
 
-and relaxation, 44, 45, 4 8 , 49, 50–51, 54 , 56 , 61
+and relaxation, 44, 45, 48, 49, 50–51, 54, 56, 61
 
-and sensations, 4 8 , 49, 50 –52, 53, 54, 61 skills for, 7
+and sensations, 48, 49, 50–52, 53, 54, 61 skills for, 7
 
 and summary of basic practice, 54
 
-and time, 4 5 , 46 , 54 , 55, 58–60, 62
+and time, 45, 46, 54, 55, 58–60, 62
 
 See also Stage One exclusive attention
 
-and establishing a practice, 52 , 53
+and establishing a practice, 52, 53
 
-and experiencing the whole body with the breath, 220–23, 2 2 2
+and experiencing the whole body with the breath, 220–23, 222
 
 and First Interlude, 28
 
@@ -8222,169 +8222,169 @@ and intentions, 15
 
 and jhāna, 231, 232
 
-and Mind-System, 2 1 8
+and Mind-System, 218
 
-and Moments of Consciousness Model, 162 –63, 1 6 2 , 164, 178 , 2 1 8
+and Moments of Consciousness Model, 162–63, 162, 164, 178, 218
 
 and objectives of meditation, 28
 
 and pīti, 331
 
-and purifying the mind, 255 , 284
+and purifying the mind, 255, 284
 
 and Seventh Interlude, 284
 
 stable, 255
 
-and Stage One, 52 , 53
+and Stage One, 52, 53
 
 and Stage Four, 121, 123, 140
 
-and Stage Five, 168, 171 , 178
+and Stage Five, 168, 171, 178
 
-and Stage Six, 9 , 10 , 168, 2 1 5 , 216 –26, 2 1 8 , 2 1 9, 2 2 2, 231, 232
+and Stage Six, 9, 10, 168, 215, 216–26, 218, 219, 222, 231, 232
 
-and Stage Seven, 6 , 10–11, 236 –37, 261–65, 2 6 4 , 267 , 268, 270 , 271, 275
+and Stage Seven, 6, 10–11, 236–37, 261–65, 264, 267, 268, 270, 271, 275
 
-and Stage Eight, 11 , 302, 3 0 5 , 309 , 310, 311 , 321
+and Stage Eight, 11, 302, 305, 309, 310, 311, 321
 
 and Stage Nine, 331
 
 and stages of adept meditators, 255
 
-and subtle distractions, 2 1 5 , 216 –18, 2 1 9 , 220 –26, 2 2 2 , 231, 232
+and subtle distractions, 215, 216–18, 219, 220–26, 222, 231, 232
 
-See also sustained exclusive attention executive functions, 192–205, 2 0 4 , 212, 2 1 8 , 264 experiencing the whole body with the breath
+See also sustained exclusive attention executive functions, 192–205, 204, 212, 218, 264 experiencing the whole body with the breath
 
-and exclusive attention, 220–23, 2 2 2
+and exclusive attention, 220–23, 222
 
 and meditative joy, 248–49
 
 and pīti, 331
 
-and Stage Six, 10 , 220–23, 2 2 2 , 226, 227 , 231 –32, 248, 331
+and Stage Six, 10, 220–23, 222, 226, 227, 231–32, 248, 331
 
-and Stage Seven, 263 , 270
+and Stage Seven, 263, 270
 
 and Stage Nine, 331
 
-and stages of adept meditators, 248 –49
+and stages of adept meditators, 248–49
 
-and subtle distractions, 10, 220 –23, 2 2 2 , 226 , 227 , 231–32 extended attention
+and subtle distractions, 10, 220–23, 222, 226, 227, 231–32 extended attention
 
-and Stage Two, 8 6
+and Stage Two, 86
 
-and Stage Three, 6 , 7–8, 97 –98, 1 0 2 extrospective awareness, 38, 99–100, 110, 126, 166 , 170, 172 , 173 , 179, 306 , 311 , 331–32 eyes, 12 , 2 3, 44, 4 5, 49 , 52, 144. See also vision/sight fatigue. See sleepiness fear, 136 , 138, 276 , 277 Fifth Interlude
+and Stage Three, 6, 7–8, 97–98, 102 extrospective awareness, 38, 99–100, 110, 126, 166, 170, 172, 173, 179, 306, 311, 331–32 eyes, 12, 23, 44, 45, 49, 52, 144. See also vision/sight fatigue. See sleepiness fear, 136, 138, 276, 277 Fifth Interlude
 
-and actions, 196 , 197, 201 –3, 211 , 212
+and actions, 196, 197, 201–3, 211, 212
 
-and automatic actions, 186 , 196, 197, 204 –5, 2 0 4 , 213 and behavior, 194 –95, 203–5, 2 0 9 , 213
+and automatic actions, 186, 196, 197, 204–5, 204, 213 and behavior, 194–95, 203–5, 209, 213
 
-and components of Mind-System, 181 –92, 1 8 2 , 1 8 4, 1 8 7, 1 9 1, 1 9 2
+and components of Mind-System, 181–92, 182, 184, 187, 191, 192
 
-and conscious intentions, 183 , 194, 197, 199 –204, 213
+and conscious intentions, 183, 194, 197, 199–204, 213
 
-and conscious mind, 181 , 182–83, 1 8 2 , 1 8 4, 191, 1 9 1 , 1 9 2, 193, 194 , 196, 197, 200 , 202–3, 205, 2 0 8 , 209,
+and conscious mind, 181, 182–83, 182, 184, 191, 191, 192, 193, 194, 196, 197, 200, 202–3, 205, 208, 209,
 
-2 0 9, 211, 212 –13
+209, 211, 212–13
 
-and decisions, 195, 196 , 197, 199 , 201 –3, 210, 211
+and decisions, 195, 196, 197, 199, 201–3, 210, 211
 
-and discriminating mind, 184 , 1 8 4, 186 –91, 1 8 7 , 1 9 2, 194 , 195–96, 200 , 202 , 203–5, 207 –14, 2 0 8 , 2 0 9,
+and discriminating mind, 184, 184, 186–91, 187, 192, 194, 195–96, 200, 202, 203–5, 207–14, 208, 209,
 
-2 1 1
+211
 
-and executive functions, 192–205, 2 0 4 , 212
+and executive functions, 192–205, 204, 212
 
 important conclusions about, 212–14
 
-and intentions, 183, 186 , 189 , 190, 192 –205, 1 9 2 , 1 9 8, 209 , 2 0 9, 211 , 213
+and intentions, 183, 186, 189, 190, 192–205, 192, 198, 209, 209, 211, 213
 
-key points in, 192, 1 9 2 , 2 0 4, 2 0 9, 2 1 1, 212–13
+key points in, 192, 192, 204, 209, 211, 212–13
 
-and metacognitive introspective awareness, 211 –12
+and metacognitive introspective awareness, 211–12
 
 and Mind-System, 192–205, 259
 
 and Moments of Consciousness model, 183, 190
 
-and narrating mind, 205–12, 2 0 6 , 2 0 8, 2 0 9, 2 1 1
+and narrating mind, 205–12, 206, 208, 209, 211
 
-and self, 181, 1 9 2 , 207 –13, 2 0 8 , 2 0 9, 2 1 1
+and self, 181, 192, 207–13, 208, 209, 211
 
-and sensory mind, 184, 1 8 4 , 185–86, 190 , 191 , 1 9 2, 195 , 204 –5, 2 0 6 , 207 , 2 0 8, 212–13, 214
+and sensory mind, 184, 184, 185–86, 190, 191, 192, 195, 204–5, 206, 207, 208, 212–13, 214
 
-and sub-minds, 184–86, 1 8 4 , 1 8 7, 188–214, 1 9 2 , 2 0 4, 2 0 6, 2 0 8, 2 0 9
+and sub-minds, 184–86, 184, 187, 188–214, 192, 204, 206, 208, 209
 
-and unconscious intentions, 197 –201, 1 9 8
+and unconscious intentions, 197–201, 198
 
-and unconscious mind, 181, 1 8 2 , 184 –90, 1 8 4 , 1 8 7, 1 9 2, 193–201, 203 –5, 2 0 4 , 2 0 6, 2 0 8, 2 0 9, 210–14
+and unconscious mind, 181, 182, 184–90, 184, 187, 192, 193–201, 203–5, 204, 206, 208, 209, 210–14
 
-and unifying the mind, 181 , 213–14 fight-or-flight response, 123 First Interlude
+and unifying the mind, 181, 213–14 fight-or-flight response, 123 First Interlude
 
-and alternating attention, 24, 25–26, 2 5 , 28
+and alternating attention, 24, 25–26, 25, 28
 
-and attention, 19–21, 2 2 , 24 , 25 –26, 2 5 , 28, 30–36, 3 4 , 38, 147
+and attention, 19–21, 22, 24, 25–26, 25, 28, 30–36, 34, 38, 147
 
-and awareness, 19 –21, 2 2 , 30 –36, 3 4 , 38
+and awareness, 19–21, 22, 30–36, 34, 38
 
 and breath, 27–28
 
-and conscious awareness, 20, 2 2 , 29, 30, 35
+and conscious awareness, 20, 22, 29, 30, 35
 
-and Conscious Experience Model, 19–21, 2 2 , 147, 152
+and Conscious Experience Model, 19–21, 22, 147, 152
 
-and directed attention, 24 , 26, 27–28
+and directed attention, 24, 26, 27–28
 
-and distractions, 24, 26, 27, 28 , 29
+and distractions, 24, 26, 27, 28, 29
 
-and dullness, 36 , 37 , 157
+and dullness, 36, 37, 157
 
 and intentions, 24, 26, 27–28
 
-and meditation object, 27 , 28, 29
+and meditation object, 27, 28, 29
 
-and mindfulness, 19 , 21, 29–38, 39
+and mindfulness, 19, 21, 29–38, 39
 
-and peripheral awareness, 19–21, 2 1 , 2 2, 30 –38, 3 3 , 3 4, 103, 147
+and peripheral awareness, 19–21, 21, 22, 30–38, 33, 34, 103, 147
 
 and scope of attention, 24, 26, 28–29
 
-and spontaneous movements of attention, 24 –26
+and spontaneous movements of attention, 24–26
 
-and stable attention, 19, 21, 24 –29, 38 , 39
+and stable attention, 19, 21, 24–29, 38, 39
 
-and sustained attention, 24, 26 , 27 –28 flow, 229 , 2 3 0, 231 , 232, 270–71, 272 , 304–5, 307 , 314 –15, 317. See also meditative absorption flowing water analogy, 334–35, 3 3 5 follow the breath
+and sustained attention, 24, 26, 27–28 flow, 229, 230, 231, 232, 270–71, 272, 304–5, 307, 314–15, 317. See also meditative absorption flowing water analogy, 334–35, 335 follow the breath
 
-and gross distractions, 1 2 7
+and gross distractions, 127
 
 and Mind-System, 203–4
 
-and Moments of Consciousness Model, 156 –57
+and Moments of Consciousness Model, 156–57
 
-in silence, 1 0 1
+in silence, 101
 
-and Stage Two, 84 –85, 8 5 , 8 6, 87, 93, 98
+and Stage Two, 84–85, 85, 86, 87, 93, 98
 
-and Stage Three, 8, 96, 98 –100, 1 0 1 , 1 0 2, 103 , 1 0 4, 109, 1 0 9 , 111 and Stage Four, 100, 1 2 7 , 140
+and Stage Three, 8, 96, 98–100, 101, 102, 103, 104, 109, 109, 111 and Stage Four, 100, 127, 140
 
-and Stage Five, 100, 172 , 179
+and Stage Five, 100, 172, 179
 
-and Stage Six, 218, 2 1 9
+and Stage Six, 218, 219
 
-and subtle distractions, 218 , 2 1 9
+and subtle distractions, 218, 219
 
-and sustained attention, 98–100, 1 0 1
+and sustained attention, 98–100, 101
 
 See also close following forgetting
 
-causes of, 96–97, 9 7 , 104
+causes of, 96–97, 97, 104
 
 in daily life, 81
 
 definition of, 80
 
-and distractions, 1 2 2
+and distractions, 122
 
 importance of, 81
 
@@ -8394,45 +8394,45 @@ and Mind-System, 190
 
 and mind-wandering, 7
 
-and Moments of Consciousness Model, 162 –63, 1 6 2
+and Moments of Consciousness Model, 162–63, 162
 
-overcoming, 6 , 7–8, 7 7 , 97 –105, 1 0 4
+overcoming, 6, 7–8, 77, 97–105, 104
 
-and problems, 75–76, 7 7 , 80–89
+and problems, 75–76, 77, 80–89
 
-and Stage Two, 7 , 7 9, 80–89, 8 2 , 8 6, 92–93
+and Stage Two, 7, 79, 80–89, 82, 86, 92–93
 
-and Stage Three, 6 , 7–8, 7 7 , 9 5, 96–105, 9 7 , 1 0 2, 1 0 4, 111, 123 , 124
+and Stage Three, 6, 7–8, 77, 95, 96–105, 97, 102, 104, 111, 123, 124
 
-and Stage Four, 1 2 1
+and Stage Four, 121
 
-and sustained attention, 98–100 forgiveness, 73, 256 , 324 Fourth Interlude. See Moments of Consciousness Model full-lotus position, 60 Ganges River analogy, 334 –35, 3 3 5 getting stuck, 324 Goldstein, Joseph, 138 gross distractions
+and sustained attention, 98–100 forgiveness, 73, 256, 324 Fourth Interlude. See Moments of Consciousness Model full-lotus position, 60 Ganges River analogy, 334–35, 335 getting stuck, 324 Goldstein, Joseph, 138 gross distractions
 
 blocking out, 123–40
 
-correcting for, 1 2 7
+correcting for, 127
 
-definition of, 8, 96 , 1 2 2
+definition of, 8, 96, 122
 
-and Mind-System, 190, 199 , 200
+and Mind-System, 190, 199, 200
 
-and Moments of Consciousness Model, 160 , 1 6 1, 162, 1 6 2, 163
+and Moments of Consciousness Model, 160, 161, 162, 162, 163
 
-overcoming, 6 , 8–9, 123–40, 1 2 5 , 1 2 7, 1 4 6
+overcoming, 6, 8–9, 123–40, 125, 127, 146
 
 prevention of, 124
 
-review of, 1 2 2
+review of, 122
 
-and Stage Three, 96, 97 , 1 0 2, 104–5, 1 0 4 , 111 , 123, 124 , 170
+and Stage Three, 96, 97, 102, 104–5, 104, 111, 123, 124, 170
 
-and Stage Four, 6 , 8–9, 1 2 1 , 122 , 123 –40, 1 2 5 , 1 2 7, 145, 1 4 6
+and Stage Four, 6, 8–9, 121, 122, 123–40, 125, 127, 145, 146
 
-and Stage Five, 167, 1 6 7
+and Stage Five, 167, 167
 
 and Stage Six, 193
 
-and Stage Eight, 3 0 3 , 304 “group consciousness,” 297 –98 guilt, 57 , 62, 71, 116 , 136 habit(s)
+and Stage Eight, 303, 304 “group consciousness,” 297–98 guilt, 57, 62, 71, 116, 136 habit(s)
 
 awareness as, 103
 
@@ -8444,25 +8444,25 @@ and intentions, 14, 15
 
 jhānas as, 331
 
-meditation as, 75, 7 7
+meditation as, 75, 77
 
 mental, 14, 15
 
-mindfulness as, 1 6 7 , 179
+mindfulness as, 167, 179
 
 and Moments of Consciousness Model, 179
 
 and Seventh Interlude, 283
 
-and Stage One, 57 , 75
+and Stage One, 57, 75
 
-and Stage Two, 15 , 7 9
+and Stage Two, 15, 79
 
-and Stage Three, 9 5 , 105
+and Stage Three, 95, 105
 
-and Stage Five, 1 6 7 , 179
+and Stage Five, 167, 179
 
-and Stage Seven, 264 , 271, 275
+and Stage Seven, 264, 271, 275
 
 and Stage Eight, 324
 
@@ -8472,13 +8472,13 @@ and Stage Ten, 338
 
 See also automatic actions half-lotus position, 60 happiness/pleasure
 
-definition of, 313 –14
+definition of, 313–14
 
-of dullness, 168, 170 –71
+of dullness, 168, 170–71
 
-and flow, 2 3 0
+and flow, 230
 
-and hindrances, 6 7 , 68, 72
+and hindrances, 67, 68, 72
 
 importance of, 49
 
@@ -8486,105 +8486,105 @@ and Insight, 258
 
 and intentions, 16
 
-and jhāna, 230, 231 , 232, 266, 270 –72, 315
+and jhāna, 230, 231, 232, 266, 270–72, 315
 
 joy differentiated from, 313–14
 
-as meditation factor, 66 , 6 7, 68, 69 , 70
+as meditation factor, 66, 67, 68, 69, 70
 
-and meditative joy, 249, 252 , 253
+and meditative joy, 249, 252, 253
 
-and mind as collection of mental processes, 9 1
+and mind as collection of mental processes, 91
 
-and Mind-System, 186, 1 8 7 , 188, 189, 194 , 203, 2 0 8, 213
+and Mind-System, 186, 187, 188, 189, 194, 203, 208, 213
 
-and mindfulness, 38 , 118
+and mindfulness, 38, 118
 
-and Moments of Consciousness Model, 157 , 178
+and Moments of Consciousness Model, 157, 178
 
-and pacifying the senses, 242, 243 , 244, 252 , 253
+and pacifying the senses, 242, 243, 244, 252, 253
 
 and pain, 314
 
-and pīti, 252, 253, 330 , 331, 335
+and pīti, 252, 253, 330, 331, 335
 
 and purifying the mind, 254
 
 and śamatha, 338
 
-and Stage One, 49 , 50 , 51, 52, 54, 58
+and Stage One, 49, 50, 51, 52, 54, 58
 
-and Stage Two, 81 , 83, 8 6 , 92, 93
+and Stage Two, 81, 83, 86, 92, 93
 
-and Stage Three, 1 0 2
+and Stage Three, 102
 
 and Stage Four, 124
 
-and Stage Five, 168, 170 –71, 178
+and Stage Five, 168, 170–71, 178
 
-and Stage Six, 230, 231 , 232
+and Stage Six, 230, 231, 232
 
-and Stage Seven, 232 , 266, 268 , 272, 273, 275 , 277
+and Stage Seven, 232, 266, 268, 272, 273, 275, 277
 
-and Stage Eight, 16 , 2 9 9, 300 , 302 , 308, 313 –15, 317, 322 , 323 , 325
+and Stage Eight, 16, 299, 300, 302, 308, 313–15, 317, 322, 323, 325
 
-and Stage Nine, 327 , 328, 330, 331 , 335, 336
+and Stage Nine, 327, 328, 330, 331, 335, 336
 
-and Stage Ten, 327 , 3 3 7, 338, 339 , 340
+and Stage Ten, 327, 337, 338, 339, 340
 
-and stages of adept meditators, 238 , 242, 243 , 244, 249, 252 , 253, 254 , 258 and stages of meditation, 93
+and stages of adept meditators, 238, 242, 243, 244, 249, 252, 253, 254, 258 and stages of meditation, 93
 
-and subtle distractions, 230 , 231 , 232
+and subtle distractions, 230, 231, 232
 
-and success in meditation, 9 4
+and success in meditation, 94
 
 and unifying the mind, 238
 
-See also joy; meditative joy “harmony-joy” loop, 93 hedonic feeling, 185 –86, 188, 189 , 194, 203 –4, 207 , 209, 227 –28 herding cats analogy, 9 1 hindrances
+See also joy; meditative joy “harmony-joy” loop, 93 hedonic feeling, 185–86, 188, 189, 194, 203–4, 207, 209, 227–28 herding cats analogy, 91 hindrances
 
-in daily life, 66, 69 , 70 , 78
+in daily life, 66, 69, 70, 78
 
 and First Interlude, 266
 
 and Insight, 78
 
-and meditation factors/antidotes, 66, 6 7 , 68, 69, 70
+and meditation factors/antidotes, 66, 67, 68, 69, 70
 
 and problems, 75–76
 
 and purifying the mind, 254–56
 
-and Second Interlude, 65 –75, 6 7 , 78
+and Second Interlude, 65–75, 67, 78
 
-and seduction of dullness, 1 4 5
+and seduction of dullness, 145
 
-and Stage One, 4 1 , 44
+and Stage One, 41, 44
 
-and Stage Three, 9 5
+and Stage Three, 95
 
-and Stage Seven, 2 6 1
+and Stage Seven, 261
 
-and Stage Eight, 277, 2 9 9 , 324
+and Stage Eight, 277, 299, 324
 
 and Stage Ten, 78
 
-and stages of adept meditators, 254 –56
+and stages of adept meditators, 254–56
 
 and stories/melodramas of the mind, 66
 
-See also specific hindrance horses analogy, 315 , 3 1 6, 317 I-It structure, 209 ill will, 2 1 5, 2 6 1, 277, 2 9 9, 340 illumination phenomenon, 244–45, 247 . See also inner light impatience. See patience/impatience individual
+See also specific hindrance horses analogy, 315, 316, 317 I-It structure, 209 ill will, 215, 261, 277, 299, 340 illumination phenomenon, 244–45, 247. See also inner light impatience. See patience/impatience individual
 
 natural, 297, 298
 
-uniqueness of, 297 Indo-Tibetan tradition, 175 initial appearance, 225 , 231 inner light, 238 , 241, 247 , 300, 311, 312 , 325, 329 . See also illumination phenomenon Insight
+uniqueness of, 297 Indo-Tibetan tradition, 175 initial appearance, 225, 231 inner light, 238, 241, 247, 300, 311, 312, 325, 329. See also illumination phenomenon Insight
 
-and Awakening, 257, 258 , 259, 286, 287
+and Awakening, 257, 258, 259, 286, 287
 
-and beyond Stage Ten, 341 , 3 4 1
+and beyond Stage Ten, 341, 341
 
-and cessation experience, 284 –87, 2 8 5 , 287
+and cessation experience, 284–87, 285, 287
 
-and consciousness, 284 –86, 2 8 5
+and consciousness, 284–86, 285
 
 and control of mind, 13
 
@@ -8594,15 +8594,15 @@ deepening of, 283
 
 definition of, 118
 
-and emptiness, 258 , 269 –70, 344
+and emptiness, 258, 269–70, 344
 
-and equanimity, 259, 284 –85
+and equanimity, 259, 284–85
 
 and happiness, 258
 
 and hindrances, 68, 78 immature, 258
 
-and intentions, 284–86, 2 8 5
+and intentions, 284–86, 285
 
 and interconnectedness, 344
 
@@ -8614,145 +8614,145 @@ and knowledge, 258
 
 and meditative joy, 259
 
-and Mind-System, 259, 284 , 286
+and Mind-System, 259, 284, 286
 
-and mindfulness, 29 , 38, 114, 118 , 119, 1 2 0 , 132 , 257, 279 , 280 , 283
+and mindfulness, 29, 38, 114, 118, 119, 120, 132, 257, 279, 280, 283
 
 and pīti, 331, 332–34
 
 prevalence of, 257
 
-and problems, 7 7
+and problems, 77
 
 and purifying the mind, 284
 
 and reality, 286
 
-and śamatha, 342, 3 4 3 , 344
+and śamatha, 342, 343, 344
 
-and self, 257, 258–59, 285 , 286, 344
+and self, 257, 258–59, 285, 286, 344
 
-and Seventh Interlude, 279 , 280, 283, 284 –87, 2 8 5
+and Seventh Interlude, 279, 280, 283, 284–87, 285
 
 shared, 344
 
-and Stage Three, 100 , 106
+and Stage Three, 100, 106
 
-and Stage Four, 128, 129, 132 –33, 1 3 3
+and Stage Four, 128, 129, 132–33, 133
 
 and Stage Six, 226
 
-and Stage Seven, 11 , 269–70, 272 , 341
+and Stage Seven, 11, 269–70, 272, 341
 
-and Stage Eight, 12 , 307, 319 , 320 , 341
+and Stage Eight, 12, 307, 319, 320, 341
 
-and Stage Nine, 331 , 332–34, 341
+and Stage Nine, 331, 332–34, 341
 
-and Stage Ten, 3 3 9 , 340, 341
+and Stage Ten, 339, 340, 341
 
-and stages of adept meditators, 257 –59
+and stages of adept meditators, 257–59
 
-and sub-minds, 257, 258 , 284 –87, 2 8 5
+and sub-minds, 257, 258, 284–87, 285
 
-and suffering, 258, 284 , 2 8 5, 286, 344
+and suffering, 258, 284, 285, 286, 344
 
-and Third Interlude, 114 , 118, 119 , 1 2 0
+and Third Interlude, 114, 118, 119, 120
 
 and tranquility, 259
 
-transformative, 283 , 284–87, 2 8 5
+transformative, 283, 284–87, 285
 
 and transition from skilled to adept meditator, 235
 
-and unconscious, 257, 258 , 284 , 2 8 5
+and unconscious, 257, 258, 284, 285
 
-and unifying the mind, 284 , 286–87, 344
+and unifying the mind, 284, 286–87, 344
 
-and worldview, 257 –58
+and worldview, 257–58
 
-See also Awakening; intellectual insights; specific topic inspiration, 56 , 58 , 60, 62 intellectual insights, 8 , 13 intellectual understanding, 332 –33, 334 intentions
+See also Awakening; intellectual insights; specific topic inspiration, 56, 58, 60, 62 intellectual insights, 8, 13 intellectual understanding, 332–33, 334 intentions
 
 and attention, 17, 90
 
-and cessation experience, 284 –86, 2 8 5
+and cessation experience, 284–86, 285
 
 conflicting, 201
 
-and directed attention, 24 , 26, 27–28
+and directed attention, 24, 26, 27–28
 
-and effort, 15 , 16 , 265
+and effort, 15, 16, 265
 
 and equanimity, 16
 
-and Fifth Interlude, 183, 186, 189 , 190, 192 –205, 1 9 2 , 1 9 8, 209 , 2 0 9, 211, 213
+and Fifth Interlude, 183, 186, 189, 190, 192–205, 192, 198, 209, 209, 211, 213
 
-and First Interlude, 24 , 26, 27 –28
+and First Interlude, 24, 26, 27–28
 
-function of, 196 , 213
+function of, 196, 213
 
-and hindrances, 6 7 , 73, 74 importance of, 16 –17
+and hindrances, 67, 73, 74 importance of, 16–17
 
-and Insight, 284–86, 2 8 5
+and Insight, 284–86, 285
 
-and Mind-System, 183, 186 , 189, 190 , 192 –205, 1 9 2 , 1 9 8, 199, 203 –4, 209 , 2 0 9, 211 , 213 , 289, 293 , 294,
+and Mind-System, 183, 186, 189, 190, 192–205, 192, 198, 199, 203–4, 209, 209, 211, 213, 289, 293, 294,
 
 296
 
-and mind-wandering, 15 , 1 6, 17
+and mind-wandering, 15, 16, 17
 
-and mindfulness, 15 , 113, 114 , 115 , 116
+and mindfulness, 15, 113, 114, 115, 116
 
-and Moments of Consciousness Model, 158 –60, 1 5 9 , 162, 165 , 166, 178, 179 , 183, 190 , 2 1 8
+and Moments of Consciousness Model, 158–60, 159, 162, 165, 166, 178, 179, 183, 190, 218
 
 and pīti, 329, 332, 333
 
-purpose/benefits of, 14 , 28
+purpose/benefits of, 14, 28
 
 repeatedly sustained, 14
 
-and śamatha, 3 4 3
+and śamatha, 343
 
 and selection of locus of attention, 90
 
-setting clear, 13 –17
+setting clear, 13–17
 
-and Seventh Interlude, 284 –86, 2 8 5 , 289 , 293 , 294, 296
+and Seventh Interlude, 284–86, 285, 289, 293, 294, 296
 
 shared, 344
 
-and Stage One, 15 , 4 1, 44, 4 5, 46 , 57, 58 , 60
+and Stage One, 15, 41, 44, 45, 46, 57, 58, 60
 
-and Stage Two, 15 , 27, 7 9, 80, 84, 8 6 , 90, 9 5, 172
+and Stage Two, 15, 27, 79, 80, 84, 86, 90, 95, 172
 
-and Stage Three, 15, 9 5 , 99, 103 , 104, 106, 110 –11, 124, 172
+and Stage Three, 15, 95, 99, 103, 104, 106, 110–11, 124, 172
 
-and Stage Four, 15 , 1 2 1, 126 , 133 , 144, 166
+and Stage Four, 15, 121, 126, 133, 144, 166
 
-and Stage Five, 15, 166, 1 6 7 , 171, 172, 173 , 174, 177, 178 , 179
+and Stage Five, 15, 166, 167, 171, 172, 173, 174, 177, 178, 179
 
-and Stage Six, 15 , 2 1 5, 216 , 218, 2 1 8, 2 1 9, 220 , 221, 223 –24, 226, 227 –28, 231, 263
+and Stage Six, 15, 215, 216, 218, 218, 219, 220, 221, 223–24, 226, 227–28, 231, 263
 
-and Stage Seven, 15 , 263, 264 , 265 , 268, 272 , 274 , 275, 277
+and Stage Seven, 15, 263, 264, 265, 268, 272, 274, 275, 277
 
-and Stage Eight, 14 , 16, 294, 302 –11, 3 0 3 , 314 , 321 , 322–23
+and Stage Eight, 14, 16, 294, 302–11, 303, 314, 321, 322–23
 
-and Stage Nine, 16 , 329 , 332, 333
+and Stage Nine, 16, 329, 332, 333
 
-and Stage Ten, 16 , 338 , 339
+and Stage Ten, 16, 338, 339
 
-and stages of adept meditators, 244 , 246, 248
+and stages of adept meditators, 244, 246, 248
 
 and stages of meditation, 14–17
 
-strong, 199, 203 –4, 218, 2 1 9 , 220
+strong, 199, 203–4, 218, 219, 220
 
-and subtle distractions, 2 1 5 , 216 , 218, 2 1 9 , 220 , 221, 223 –24, 226, 227–28, 231
+and subtle distractions, 215, 216, 218, 219, 220, 221, 223–24, 226, 227–28, 231
 
 and tranquility, 16
 
 and unifying the mind, 344
 
-See also conscious intentions; unconscious intentions; specific topic interconnectedness, 296–98, 344 , 345. See also connecting introspective attention
+See also conscious intentions; unconscious intentions; specific topic interconnectedness, 296–98, 344, 345. See also connecting introspective attention
 
 definition of, 211
 
@@ -8764,25 +8764,25 @@ limitations of, 124
 
 and Mind-System, 200
 
-and Stage Three, 15, 9 5 , 103 –5, 111 , 124, 126
+and Stage Three, 15, 95, 103–5, 111, 124, 126
 
 and Stage Four, 124, 126
 
 and Stage Six, 228–29
 
-and subtle distractions, 228 –29 introspective awareness
+and subtle distractions, 228–29 introspective awareness
 
 balance between attention and, 140
 
-and checking in, 101, 103 –5
+and checking in, 101, 103–5
 
-continuous, 8 , 9, 122 , 124, 126 –27, 128
+continuous, 8, 9, 122, 124, 126–27, 128
 
-and correcting for gross distractions, 1 2 7
+and correcting for gross distractions, 127
 
-cultivation of, 101 –5, 124, 126 –27
+cultivation of, 101–5, 124, 126–27
 
-definition of, 101 function/purpose of, 1 0 2 , 124
+definition of, 101 function/purpose of, 102, 124
 
 importance of, 126
 
@@ -8792,53 +8792,53 @@ introspective attention distinguished from, 124
 
 and labeling, 101–2, 104
 
-and Mind-System, 200, 211 , 212
+and Mind-System, 200, 211, 212
 
 and mindfulness, 38
 
-and Moments of Consciousness Model, 157 , 160 , 162, 163 , 178
+and Moments of Consciousness Model, 157, 160, 162, 163, 178
 
-peripheral, 3 3 , 160 , 162 , 163, 168 –69, 264
+peripheral, 33, 160, 162, 163, 168–69, 264
 
-spontaneous, 7 , 101 , 124
+spontaneous, 7, 101, 124
 
-and Stage Two, 7 , 82, 83, 8 6, 94, 124
+and Stage Two, 7, 82, 83, 86, 94, 124
 
-and Stage Three, 8, 96, 98 , 101 –5, 1 0 2, 111 , 124 , 126, 170
+and Stage Three, 8, 96, 98, 101–5, 102, 111, 124, 126, 170
 
-and Stage Four, 8 , 9, 38 , 100, 105 , 1 2 1, 122, 124 , 126 –27, 128, 129 , 131, 138 , 140 , 142–43, 1 4 3
+and Stage Four, 8, 9, 38, 100, 105, 121, 122, 124, 126–27, 128, 129, 131, 138, 140, 142–43, 143
 
-and Stage Five, 9 , 38, 100, 164 , 168–73, 177 –79
+and Stage Five, 9, 38, 100, 164, 168–73, 177–79
 
-and Stage Six, 38 , 226–27, 228
+and Stage Six, 38, 226–27, 228
 
-and Stage Seven, 263 , 264, 265 , 266, 268, 271
+and Stage Seven, 263, 264, 265, 266, 268, 271
 
-and Stage Eight, 12 , 302
+and Stage Eight, 12, 302
 
 and stages of meditation, 83
 
-and subtle distractions, 226 –27, 228
+and subtle distractions, 226–27, 228
 
 sustained, 126, 172
 
-See also introspective peripheral awareness; metacognitive introspective awareness intuition, 113, 118, 2 0 9 , 210, 257, 283 , 286 involuntary movements
+See also introspective peripheral awareness; metacognitive introspective awareness intuition, 113, 118, 209, 210, 257, 283, 286 involuntary movements
 
-and meditative joy, 247–48, 251 , 252, 253
+and meditative joy, 247–48, 251, 252, 253
 
-and pacifying the senses, 251, 252 , 253
+and pacifying the senses, 251, 252, 253
 
 and pīti, 251, 252, 253
 
-and Stage Seven, 11 , 266
+and Stage Seven, 11, 266
 
-and Stage Eight, 11 , 12, 310, 315 , 3 1 6, 317
+and Stage Eight, 11, 12, 310, 315, 316, 317
 
-and stages of adept meditators, 247 –48, 251 , 252 , 253 jhāna
+and stages of adept meditators, 247–48, 251, 252, 253 jhāna
 
 breath as basis for practice of, 46
 
-factors for accessing, 230 –31
+factors for accessing, 230–31
 
 function/purpose of, 233
 
@@ -8846,9 +8846,9 @@ as habits, 331
 
 length of, 233
 
-luminous, 320–23, 330 –31, 3 3 9
+luminous, 320–23, 330–31, 339
 
-for meditation object, 46 , 231
+for meditation object, 46, 231
 
 and Mind-System, 295
 
@@ -8856,7 +8856,7 @@ phases of, 233
 
 and pīti, 330–31
 
-pleasure, 266 , 270–72, 315 , 322
+pleasure, 266, 270–72, 315, 322
 
 and śamatha, 342, 344
 
@@ -8864,39 +8864,39 @@ and Seventh Interlude, 295
 
 and Stage Six, 230–33, 315
 
-and Stage Seven, 11 , 232, 266 , 270 –72, 315
+and Stage Seven, 11, 232, 266, 270–72, 315
 
-and Stage Eight, 112, 304–5, 314 –15, 320–23, 330
+and Stage Eight, 112, 304–5, 314–15, 320–23, 330
 
-and Stage Nine, 330 –31
+and Stage Nine, 330–31
 
-and Stage Ten, 331 , 3 3 9
+and Stage Ten, 331, 339
 
-and subtle distractions, 230 –33 whole-body, 231–33, 270 , 272, 304 –5, 315 , 322
+and subtle distractions, 230–33 whole-body, 231–33, 270, 272, 304–5, 315, 322
 
 See also meditative absorption joy
 
-cultivating, 90 –93
+cultivating, 90–93
 
-and daily life, 93 , 256
+and daily life, 93, 256
 
-definition of, 9 4
+definition of, 94
 
-happiness differentiated from, 313 –14
+happiness differentiated from, 313–14
 
 and “harmony-joy” loop, 93
 
-and hindrances, 68, 69 , 72
+and hindrances, 68, 69, 72
 
 and intentions, 16
 
 and jhāna, 230, 231
 
-maturing, 329–35, 3 3 5
+maturing, 329–35, 335
 
-and meditation as enjoyable, 93, 9 3
+and meditation as enjoyable, 93, 93
 
-and meditative joy, 251, 252 , 253, 312–13, 314
+and meditative joy, 251, 252, 253, 312–13, 314
 
 and mental habits, 14
 
@@ -8904,51 +8904,51 @@ and Milestone Four, 13
 
 and mindfulness, 13
 
-and pacifying the senses, 241, 251 , 252, 253
+and pacifying the senses, 241, 251, 252, 253
 
-and pīti, 251, 252, 253 , 329–35, 3 3 5
+and pīti, 251, 252, 253, 329–35, 335
 
-and pleasure, 313 –14
+and pleasure, 313–14
 
-practices for maturing, 330 –34
+practices for maturing, 330–34
 
-and problems, 7 7
+and problems, 77
 
 and purifying the mind, 255, 256
 
 and śamatha, 338–39
 
-and Stage One, 43 , 4 5, 49 , 58, 59 , 62, 63
+and Stage One, 43, 45, 49, 58, 59, 62, 63
 
-and Stage Two, 83 , 87, 90–93
+and Stage Two, 83, 87, 90–93
 
 and Stage Five, 171
 
 and Stage Six, 231
 
-and Stage Seven, 232 , 262, 266 , 268, 272, 273 , 275, 276
+and Stage Seven, 232, 262, 266, 268, 272, 273, 275, 276
 
-and Stage Eight, 12 , 16, 2 9 9, 300 , 305, 312–15, 322 , 323, 325
+and Stage Eight, 12, 16, 299, 300, 305, 312–15, 322, 323, 325
 
-and Stage Nine, 6 , 327–36, 3 3 5
+and Stage Nine, 6, 327–36, 335
 
-and Stage Ten, 327 , 337–39, 3 3 7
+and Stage Ten, 327, 337–39, 337
 
-and stages of adept meditators, 240 , 241, 251 , 252, 253, 255 , 256
+and stages of adept meditators, 240, 241, 251, 252, 253, 255, 256
 
 and stages of meditation, 93
 
 and subtle distractions, 231
 
-and successful meditation, 9 4
+and successful meditation, 94
 
-and unifying the mind, 240 , 314
+and unifying the mind, 240, 314
 
-and when to do which practices, 3 0 1
+and when to do which practices, 301
 
-See also happiness/pleasure; meditative joy just do it, 57, 5 7 , 71, 7 7 Kimatthiya Sutta, 325 knowing/knowledge, 258 , 305 –6, 325 labeling, 8 , 96, 98, 101 –2, 1 0 3 , 104, 105 , 136 , 150 Laṅ nkāvatāra Sūtra, 214 laziness/lethargy, 65 –66, 6 7 , 70 –71, 75, 76, 1 2 1 , 1 6 7 let it come, let it be, let it go
+See also happiness/pleasure; meditative joy just do it, 57, 57, 71, 77 Kimatthiya Sutta, 325 knowing/knowledge, 258, 305–6, 325 labeling, 8, 96, 98, 101–2, 103, 104, 105, 136, 150 Laṅnkāvatāra Sūtra, 214 laziness/lethargy, 65–66, 67, 70–71, 75, 76, 121, 167 let it come, let it be, let it go
 
-and meditation success, 9 4
+and meditation success, 94
 
 and meditative joy, 248 and pīti, 329
 
@@ -8956,77 +8956,77 @@ and Stage One, 50
 
 and Stage Three, 123
 
-and Stage Four, 123, 128, 1 3 7 , 138–39
+and Stage Four, 123, 128, 137, 138–39
 
 and Stage Six, 221
 
-and Stage Seven, 262 , 263, 273 , 275, 276–77
+and Stage Seven, 262, 263, 273, 275, 276–77
 
 and Stage Nine, 329
 
 and stages of adept meditators, 248
 
-and subtle distractions, 221 loving-kindness, 47 , 69 , 70, 140, 255 –56, 296, 324 , 3 4 3, 344 Māhānama Sutta, 256 mantra, 47 mastery
+and subtle distractions, 221 loving-kindness, 47, 69, 70, 140, 255–56, 296, 324, 343, 344 Māhānama Sutta, 256 mantra, 47 mastery
 
 of śamatha, 342
 
-skill development versus mastery, 2 3 6
+skill development versus mastery, 236
 
 See also specific stage meditation
 
 analytical, 133
 
-“bad,” 2 3 , 43, 4 5, 62
+“bad,” 23, 43, 45, 62
 
 benefits of, 132
 
-as enjoyable, 93, 9 3
+as enjoyable, 93, 93
 
 eyes open during, 144
 
-formula for successful, 9 4
+formula for successful, 94
 
-goals/objectives of, 19 , 21 , 24–29, 38, 39 , 66, 93 , 126, 166 , 257
+goals/objectives of, 19, 21, 24–29, 38, 39, 66, 93, 126, 166, 257
 
-as habit, 75 , 7 7
+as habit, 75, 77
 
 meaning of, 89
 
-mindfulness as objective of, 19 , 21, 29–38, 39
+mindfulness as objective of, 19, 21, 29–38, 39
 
-and nature of consciousness, 296 –98
+and nature of consciousness, 296–98
 
 quality of, 171
 
-standing, 110 , 143–44
+standing, 110, 143–44
 
-as success, 8 6 , 93, 94
+as success, 86, 93, 94
 
 as training “mental muscles,” 65
 
-walking, 110, 143 , 268
+walking, 110, 143, 268
 
 and when to meditate, 108 meditation factors
 
-and hindrances, 66, 6 7 , 68, 69
+and hindrances, 66, 67, 68, 69
 
-See also specific factor meditation groups, 60 , 63 meditation object
+See also specific factor meditation groups, 60, 63 meditation object
 
-acquired appearance of, 225, 293 –94
+acquired appearance of, 225, 293–94
 
-breath as, 2 3 , 46 –54
+breath as, 23, 46–54
 
-change in perception of, 224 –26
+change in perception of, 224–26
 
 definition of, 46
 
-and distractions, 28, 106 , 1 2 2, 123
+and distractions, 28, 106, 122, 123
 
-and First Interlude, 27 , 28, 29
+and First Interlude, 27, 28, 29
 
-four-step transition to, 47 –52, 4 8 , 90
+four-step transition to, 47–52, 48, 90
 
-and hindrances, 6 7 , 71
+and hindrances, 67, 71
 
 initial appearance of, 225
 
@@ -9034,99 +9034,99 @@ and Insight, 46 and intentions, 46
 
 for jhāna, 231
 
-and jump-starting practice, 2 3
+and jump-starting practice, 23
 
-and Mind-System, 190, 293 –94, 295
+and Mind-System, 190, 293–94, 295
 
-and mindfulness, 38 , 46, 280
+and mindfulness, 38, 46, 280
 
-and Moments of Consciousness Model, 158 , 159 , 1 6 1, 163, 164 , 165, 2 1 8
+and Moments of Consciousness Model, 158, 159, 161, 163, 164, 165, 218
 
-as not center of attention, 87 –88
+as not center of attention, 87–88
 
 and pacifying the senses, 247
 
-pain as, 129 , 1 3 0, 131
+pain as, 129, 130, 131
 
 and peripheral awareness, 28, 87
 
 and pīti, 331–32
 
-and self-talk, 1 0 1
+and self-talk, 101
 
-and Seventh Interlude, 280 , 293–94, 295
+and Seventh Interlude, 280, 293–94, 295
 
-and Stage One, 42 , 43 , 46–54, 4 8 , 5 7, 87, 90
+and Stage One, 42, 43, 46–54, 48, 57, 87, 90
 
-and Stage Two, 28 , 7 9, 80 –89, 8 6 , 94
+and Stage Two, 28, 79, 80–89, 86, 94
 
-and Stage Three, 87, 96 –97, 9 7 , 106 , 108, 111
+and Stage Three, 87, 96–97, 97, 106, 108, 111
 
-and Stage Four, 28 , 84, 87, 121 –23, 126, 128–31, 1 3 0 , 133, 135 , 1 3 7, 138, 140 , 141, 144, 146
+and Stage Four, 28, 84, 87, 121–23, 126, 128–31, 130, 133, 135, 137, 138, 140, 141, 144, 146
 
-and Stage Five, 168, 169 , 172 , 173, 174 , 177, 178, 179
+and Stage Five, 168, 169, 172, 173, 174, 177, 178, 179
 
-and Stage Six, 29 , 2 1 8, 220 , 221 , 223–26, 231 , 233, 293 –94
+and Stage Six, 29, 218, 220, 221, 223–26, 231, 233, 293–94
 
-and Stage Seven, 29 , 266, 270
+and Stage Seven, 29, 266, 270
 
-and Stage Eight, 29 , 311
+and Stage Eight, 29, 311
 
-and Stage Nine, 331 –32
+and Stage Nine, 331–32
 
 and stages of adept meditators, 247
 
-and subtle distractions, 216 , 220 , 221, 223 –26, 231, 233
+and subtle distractions, 216, 220, 221, 223–26, 231, 233
 
-sustained attention on, 84 –85, 87
+sustained attention on, 84–85, 87
 
-and transition from skilled to adept meditator, 236 Meditation on Arising and Passing Away, 304 –5, 3 3 9 Meditation on Dependent Arising, 294 , 307 –9, 3 0 8 , 331 , 3 3 9 Meditation on the Elements, 175 Meditation on the Mind, 331 –32, 334 meditation retreats, 4, 63, 129 , 324 meditation timers, 59 meditative absorption, 46 , 168, 229 –33, 247, 314–15. See also jhāna meditative joy
+and transition from skilled to adept meditator, 236 Meditation on Arising and Passing Away, 304–5, 339 Meditation on Dependent Arising, 294, 307–9, 308, 331, 339 Meditation on the Elements, 175 Meditation on the Mind, 331–32, 334 meditation retreats, 4, 63, 129, 324 meditation timers, 59 meditative absorption, 46, 168, 229–33, 247, 314–15. See also jhāna meditative joy
 
 and awareness, 248
 
-and bliss of mental pliancy, 247–49, 2 5 0 , 251
+and bliss of mental pliancy, 247–49, 250, 251
 
 and bliss of physical pliancy, 251
 
-and body, 247 , 252–53
+and body, 247, 252–53
 
-calming intensity of, 6 , 12
+calming intensity of, 6, 12
 
-and effortlessness, 2 5 1
+and effortlessness, 251
 
-and energy, 247–49, 2 5 0 , 251, 252 , 253
+and energy, 247–49, 250, 251, 252, 253
 
 and experiencing the whole body with the breath, 248–49
 
-and happiness/pleasure, 249 , 252, 253
+and happiness/pleasure, 249, 252, 253
 
 and Insight, 259
 
 and intentions, 16, 17, 248
 
-and involuntary movements, 247 –48, 251, 252 , 253
+and involuntary movements, 247–48, 251, 252, 253
 
-and joy, 251, 252 , 253, 312–13, 314
+and joy, 251, 252, 253, 312–13, 314
 
 and let it be, 248
 
-as meditation factor, 66 , 6 7, 73
+as meditation factor, 66, 67, 73
 
-and pacifying the senses, 247–56, 2 5 0 and perceptions, 249, 2 5 0 , 253
+and pacifying the senses, 247–56, 250 and perceptions, 249, 250, 253
 
 and physical comfort, 253
 
-and physical pliancy, 251 , 2 5 1, 252 , 253
+and physical pliancy, 251, 251, 252, 253
 
-and pīti, 251–53, 3 2 8
+and pīti, 251–53, 328
 
 and pleasantness, 252
 
-and positive feelings, 312 –13
+and positive feelings, 312–13
 
-practices to achieve, 317 –23
+practices to achieve, 317–23
 
-and purifying the mind, 254 , 255
+and purifying the mind, 254, 255
 
 and sensations, 252
 
@@ -9136,29 +9136,29 @@ and Stage Five, 168, 315
 
 and Stage Six, 315
 
-and Stage Seven, 2 3 9 , 241, 259 , 273 , 276–77, 315
+and Stage Seven, 239, 241, 259, 273, 276–77, 315
 
-and Stage Eight, 12 , 238, 2 3 9 , 241 , 259, 273 , 277 , 2 9 9, 300 , 3 0 1, 309–25, 3 1 6
+and Stage Eight, 12, 238, 239, 241, 259, 273, 277, 299, 300, 301, 309–25, 316
 
-and Stage Nine, 12 , 16 , 325, 327, 3 2 7 , 328, 336
+and Stage Nine, 12, 16, 325, 327, 327, 328, 336
 
 and Stage Ten, 327
 
-and stages of adept meditators, 238 –41, 2 4 0 , 247 –56, 2 5 0 , 2 5 1, 259
+and stages of adept meditators, 238–41, 240, 247–56, 250, 251, 259
 
 and subtle sensations, 248
 
 sustained, 317
 
-and unifying the mind, 238 –39, 2 3 9 , 240 , 2 4 0, 247, 251 , 253
+and unifying the mind, 238–39, 239, 240, 240, 247, 251, 253
 
-and when to do which practices, 3 0 1
+and when to do which practices, 301
 
 See also pīti memories
 
 and cessation experience, 286
 
-and distractions, 1 2 2 , 128
+and distractions, 122, 128
 
 and emotions, 210
 
@@ -9166,31 +9166,31 @@ and Insight, 286
 
 and metacognitive introspective awareness, 33
 
-and Mind-System, 183, 186 , 207, 210 , 212
+and Mind-System, 183, 186, 207, 210, 212
 
 and mindfulness, 117, 118
 
-and Moments of Consciousness Model, 150 , 151 , 1 5 1
+and Moments of Consciousness Model, 150, 151, 151
 
 and Seventh Interlude, 286
 
-and Stage One, 49 , 51
+and Stage One, 49, 51
 
 and Stage Two, 87
 
 and Stage Three, 105
 
-and Stage Four, 8 , 128, 134–36, 1 3 7 , 138–39, 145
+and Stage Four, 8, 128, 134–36, 137, 138–39, 145
 
 and Stage Six, 226–27
 
-and Stage Seven, 267 , 274
+and Stage Seven, 267, 274
 
 and Stage Eight, 302, 323
 
-and subtle distractions, 226 –27
+and subtle distractions, 226–27
 
-working, 151 , 1 5 1 mental constructs, 225, 226 –27, 284, 286, 289 , 295. See also sense-percepts mental images, 242 , 243–44, 267 mental objects, 236 , 263, 267 –68, 274, 275 , 301 , 302, 306 , 315 , 332, 333 mental pliancy
+working, 151, 151 mental constructs, 225, 226–27, 284, 286, 289, 295. See also sense-percepts mental images, 242, 243–44, 267 mental objects, 236, 263, 267–68, 274, 275, 301, 302, 306, 315, 332, 333 mental pliancy
 
 definition of, 237
 
@@ -9200,21 +9200,21 @@ and intentions, 16
 
 and Milestone Three, 11
 
-and pīti, 3 2 8 , 329 and Stage Six, 2 3 9
+and pīti, 328, 329 and Stage Six, 239
 
-and Stage Seven, 2 3 9 , 275, 276 –77
+and Stage Seven, 239, 275, 276–77
 
-and Stage Eight, 6 , 11–12, 16 , 237 , 299–302, 2 9 9 , 304, 3 0 5, 306 , 309, 310
+and Stage Eight, 6, 11–12, 16, 237, 299–302, 299, 304, 305, 306, 309, 310
 
-and Stage Nine, 6 , 12 , 3 2 7, 328, 329
+and Stage Nine, 6, 12, 327, 328, 329
 
-and stages of adept meditators, 237 , 2 3 9, 2 4 0
+and stages of adept meditators, 237, 239, 240
 
 and transition from skilled to adept meditator, 237
 
-and unifying the mind, 237 , 2 3 9, 2 4 0
+and unifying the mind, 237, 239, 240
 
-See also bliss of mental pliancy; pacifying the discriminating mind mental talk. See self-talk metacognitive attention, 2 2 9 , 319 metacognitive awareness
+See also bliss of mental pliancy; pacifying the discriminating mind mental talk. See self-talk metacognitive attention, 229, 319 metacognitive awareness
 
 and cessation experience, 286
 
@@ -9228,21 +9228,21 @@ and narrating mind, 228–29
 
 and pīti, 331–32
 
-practices to enhance, 305–9, 3 0 8
+practices to enhance, 305–9, 308
 
 and Seventh Interlude, 286
 
-and Stage Six, 216, 228 –29, 232
+and Stage Six, 216, 228–29, 232
 
-and Stage Seven, 261 , 267
+and Stage Seven, 261, 267
 
-and Stage Eight, 300, 302, 305 –9, 3 0 8 , 311, 319
+and Stage Eight, 300, 302, 305–9, 308, 311, 319
 
-and Stage Nine, 331 –32
+and Stage Nine, 331–32
 
 and stages of adept meditators, 257
 
-and subtle distractions, 216 , 228 –29, 232
+and subtle distractions, 216, 228–29, 232
 
 sustained, 300
 
@@ -9250,15 +9250,15 @@ and transition from skilled to adept meditator, 236
 
 See also metacognitive introspective awareness metacognitive introspective awareness
 
-cultivating, 226 –29
+cultivating, 226–29
 
-definition of, 32 –33, 38 , 126, 211 , 226
+definition of, 32–33, 38, 126, 211, 226
 
 and Fifth Interlude, 211–12
 
-and First Interlude, 32 –33
+and First Interlude, 32–33
 
-importance of, 211 –12
+importance of, 211–12
 
 and intentions, 15
 
@@ -9266,35 +9266,35 @@ and Milestone Two, 10
 
 and Mind-System, 211–12
 
-and objectives of meditation, 32 –33
+and objectives of meditation, 32–33
 
 and Stage Four, 126
 
 and Stage Five, 164
 
-and Stage Six, 10 , 38, 2 1 5, 216 , 226–29, 2 2 9 , 233
+and Stage Six, 10, 38, 215, 216, 226–29, 229, 233
 
 and Stage Seven, 267
 
-and Stage Eight, 126, 300, 306 , 311
+and Stage Eight, 126, 300, 306, 311
 
-and subtle distractions, 2 1 5 , 216 , 226–29, 2 2 9 , 233 Milestone Four, 13 , 340 Milestone One, 8, 96 , 111 Milestone Three, 11, 277 Milestone Two, 10, 233 milestones, 1 , 5, 216. See also specific milestone mind changing your, 202
+and subtle distractions, 215, 216, 226–29, 229, 233 Milestone Four, 13, 340 Milestone One, 8, 96, 111 Milestone Three, 11, 277 Milestone Two, 10, 233 milestones, 1, 5, 216. See also specific milestone mind changing your, 202
 
-clarity of, 36 –37
+clarity of, 36–37
 
-as collection of mental processes, 88 –89, 91 –92, 9 1
+as collection of mental processes, 88–89, 91–92, 91
 
 complexity of, 181
 
-control of, 13 , 8 2, 88 –89, 8 9 , 213, 301
+control of, 13, 82, 88–89, 89, 213, 301
 
-exploration of, 299 –302, 3 0 1 , 3 0 3, 304 –9, 3 0 5, 3 0 8
+exploration of, 299–302, 301, 303, 304–9, 305, 308
 
 interconnectedness of body and, 254
 
-investigation of, 332 , 3 4 1
+investigation of, 332, 341
 
-nature of, 332 –34
+nature of, 332–34
 
 as self, 333
 
@@ -9304,121 +9304,121 @@ as unknown territory, 300
 
 as unsurpassable, 13, 340 mind sense
 
-and Moments of Consciousness Model, 149 –52, 1 4 9 , 156–57
+and Moments of Consciousness Model, 149–52, 149, 156–57
 
 and Stage Eight, 12 Mind-System
 
-and actions, 196 , 197, 201 –3, 211 , 212, 296
+and actions, 196, 197, 201–3, 211, 212, 296
 
-and automatic actions, 186 , 196, 197, 204 –5, 2 0 4 , 213
+and automatic actions, 186, 196, 197, 204–5, 204, 213
 
-and awareness, 185 , 1 9 8, 199 , 200 , 293, 294
+and awareness, 185, 198, 199, 200, 293, 294
 
-and behavior, 194 –95, 203–5, 2 0 9 , 213
+and behavior, 194–95, 203–5, 209, 213
 
-and binding moments, 183, 205 , 2 0 6, 212, 289 –96, 2 9 1
+and binding moments, 183, 205, 206, 212, 289–96, 291
 
 and brain, 297
 
 and change, 212–13
 
-and conscious intentions, 183 , 194, 197, 199 –204, 213
+and conscious intentions, 183, 194, 197, 199–204, 213
 
-and conscious mind, 181 , 182–83, 1 8 2 , 1 8 4, 191, 1 9 1 , 1 9 2, 193, 194 , 196, 197, 200 , 202–3, 205, 2 0 8 , 209,
+and conscious mind, 181, 182–83, 182, 184, 191, 191, 192, 193, 194, 196, 197, 200, 202–3, 205, 208, 209,
 
-2 0 9, 211, 212 –13, 287, 2 8 8 , 2 9 1
+209, 211, 212–13, 287, 288, 291
 
-and consciousness, 212 , 213, 214, 2 1 8 , 287, 289–95
+and consciousness, 212, 213, 214, 218, 287, 289–95
 
-and corporation analogy, 191 , 1 9 2, 193, 197
+and corporation analogy, 191, 192, 193, 197
 
 and daily life, 201, 204
 
-and discriminating mind, 184 , 1 8 4, 186 –91, 1 8 7 , 1 9 2, 194 , 195–96, 200 , 202 –5, 207–14, 2 0 8 , 2 0 9, 2 1 1,
+and discriminating mind, 184, 184, 186–91, 187, 192, 194, 195–96, 200, 202–5, 207–14, 208, 209, 211,
 
-287, 2 8 8 , 292 –93
+287, 288, 292–93
 
-and emotions, 184, 186 , 188 , 190, 194 , 196 , 2 0 8, 209 –10, 2 0 9 , 212, 213
+and emotions, 184, 186, 188, 190, 194, 196, 208, 209–10, 209, 212, 213
 
-and executive functions, 192–205, 2 0 4 , 212, 2 1 8
+and executive functions, 192–205, 204, 212, 218
 
-and Fifth Interlude, 181–214, 1 8 2 , 1 8 4, 1 8 7, 1 9 1, 1 9 2
+and Fifth Interlude, 181–214, 182, 184, 187, 191, 192
 
-function/purpose of, 181, 199 , 213, 287, 2 8 8
+function/purpose of, 181, 199, 213, 287, 288
 
-and happiness/pleasure, 186 , 1 8 7, 188, 189 , 194, 203 , 2 0 8, 213
+and happiness/pleasure, 186, 187, 188, 189, 194, 203, 208, 213
 
-and hedonic feeling, 185–86, 188 , 189 , 194, 203 –4, 207 , 209
+and hedonic feeling, 185–86, 188, 189, 194, 203–4, 207, 209
 
-importance of, 212 –14
+importance of, 212–14
 
-and Insight, 259, 284 , 286
+and Insight, 259, 284, 286
 
-and intentions, 183, 186 , 189 , 190, 192 –205, 1 9 2 , 1 9 8, 209 , 2 0 9, 211 , 213 , 289, 293 , 294, 296
+and intentions, 183, 186, 189, 190, 192–205, 192, 198, 209, 209, 211, 213, 289, 293, 294, 296
 
-interactions of, 192 –205, 212
+interactions of, 192–205, 212
 
-key points about, 1 9 2 , 2 0 4, 2 0 9, 2 1 1, 212–13
+key points about, 192, 204, 209, 211, 212–13
 
-and mindfulness, 202, 214, 283 , 293
+and mindfulness, 202, 214, 283, 293
 
-and moments of consciousness, 183–86, 190 , 191, 207 , 289 , 292, 293
+and moments of consciousness, 183–86, 190, 191, 207, 289, 292, 293
 
 Moments of Consciousness Model combined with, 280
 
-and narrating mind, 205–12, 2 0 6 , 2 0 8, 2 0 9, 2 1 1, 228 , 287, 289, 292 , 293
+and narrating mind, 205–12, 206, 208, 209, 211, 228, 287, 289, 292, 293
 
-overview of, 181–90, 1 8 2 , 1 8 7
+overview of, 181–90, 182, 187
 
-and perceptions, 186, 194 , 209 –10, 2 0 9 , 292 , 293, 294
+and perceptions, 186, 194, 209–10, 209, 292, 293, 294
 
-and peripheral awareness, 185, 195 , 196 , 198–202, 211, 212, 293 , 294 and programming, 193 , 203–5, 2 0 4 , 212 –13
+and peripheral awareness, 185, 195, 196, 198–202, 211, 212, 293, 294 and programming, 193, 203–5, 204, 212–13
 
-and reality, 189 , 212, 213, 287 , 289
+and reality, 189, 212, 213, 287, 289
 
-and śamatha, 3 4 3 , 344
+and śamatha, 343, 344
 
-and self, 181, 1 9 2 , 207 –13, 2 0 8 , 2 0 9, 2 1 1
+and self, 181, 192, 207–13, 208, 209, 211
 
-and sensations, 185, 186, 197 , 200, 202, 292 , 294
+and sensations, 185, 186, 197, 200, 202, 292, 294
 
-and sense-percepts, 185 –88, 1 8 7 , 194, 197 , 290–95
+and sense-percepts, 185–88, 187, 194, 197, 290–95
 
-and sensory mind, 184–86, 1 8 4 , 190, 191 , 1 9 2, 195, 204 –7, 2 0 6 , 2 0 8, 212 –14, 287, 2 8 8 , 290 –95, 2 9 1
+and sensory mind, 184–86, 184, 190, 191, 192, 195, 204–7, 206, 208, 212–14, 287, 288, 290–95, 291
 
-and Seventh Interlude, 283 –87, 2 8 5 , 289 –96, 2 9 1
+and Seventh Interlude, 283–87, 285, 289–96, 291
 
 and shared receptivity, 213
 
-and space, 295 , 296
+and space, 295, 296
 
 and Stage Two, 189
 
-and Stage Six, 218, 2 1 8 , 2 1 9, 223, 228
+and Stage Six, 218, 218, 219, 223, 228
 
-and Stage Seven, 236 , 237, 263 , 264
+and Stage Seven, 236, 237, 263, 264
 
-and Stage Eight, 294, 306, 311 , 314
+and Stage Eight, 294, 306, 311, 314
 
 and Stage Nine, 330
 
-and stages of adept meditators, 235 , 259
+and stages of adept meditators, 235, 259
 
-structure of, 287 , 2 8 8, 289
+structure of, 287, 288, 289
 
-and sub-minds, 184–214, 1 8 4 , 1 8 7, 1 9 2, 2 0 4, 2 0 6, 2 0 8, 2 0 9, 287–92, 2 8 8 , 2 9 1, 294, 295
+and sub-minds, 184–214, 184, 187, 192, 204, 206, 208, 209, 287–92, 288, 291, 294, 295
 
 and time, 295, 296
 
 and transition from skilled to adept meditator, 236, 237
 
-and unconscious intentions, 197 –201, 1 9 8 , 289
+and unconscious intentions, 197–201, 198, 289
 
-and unconscious mind, 181, 1 8 2 , 184 –90, 1 8 4 , 1 8 7, 1 9 2, 193–201, 203 –5, 2 0 4 , 2 0 6, 2 0 8, 2 0 9, 210–14,
+and unconscious mind, 181, 182, 184–90, 184, 187, 192, 193–201, 203–5, 204, 206, 208, 209, 210–14,
 
-2 1 8, 287–90, 2 8 8 , 2 9 1, 294–96
+218, 287–90, 288, 291, 294–96
 
-and visual mind, 196 , 2 0 8, 290, 291 –92, 2 9 1 , 295
+and visual mind, 196, 208, 290, 291–92, 291, 295
 
 See also unifying the mind; specific topic mind-wandering
 
@@ -9432,83 +9432,83 @@ and forgetting, 7
 
 importance of, 81
 
-and intentions, 15, 1 6 , 17
+and intentions, 15, 16, 17
 
-and jump-starting practice, 2 3
+and jump-starting practice, 23
 
 and Milestone One, 8
 
 and Mind-System, 190
 
-monkey-mind distinguished from, 89 –90
+monkey-mind distinguished from, 89–90
 
-overcoming, 6 , 7 , 7 7
+overcoming, 6, 7, 77
 
-and problems, 75–76, 7 7 , 80 –89
+and problems, 75–76, 77, 80–89
 
-and self-talk, 1 0 1
+and self-talk, 101
 
-and Stage One, 4 5 , 47, 54 , 56 , 61
+and Stage One, 45, 47, 54, 56, 61
 
-and Stage Two, 6 , 7, 15, 7 7 , 7 9, 80 –89, 8 2 , 8 6, 8 9, 92 –93, 94, 124
+and Stage Two, 6, 7, 15, 77, 79, 80–89, 82, 86, 89, 92–93, 94, 124
 
-and Stage Three, 7, 8, 95, 9 5 , 97, 101 , 102 , 111
+and Stage Three, 7, 8, 95, 95, 97, 101, 102, 111
 
-and Stage Four, 1 2 1
+and Stage Four, 121
 
-See also monkey-mind Mindful Review, 256, 274 , 309 , 324 mindfulness
+See also monkey-mind Mindful Review, 256, 274, 309, 324 mindfulness
 
-and attention, 29–35, 3 4 , 81 , 115
+and attention, 29–35, 34, 81, 115
 
 and Awakening, 29
 
-and awareness, 38 , 81 , 114, 115
+and awareness, 38, 81, 114, 115
 
-and behavior, 114 –19, 283 benefits of, 29, 38, 39 , 113 , 115, 117 , 118 , 127 and change, 115, 119 and consciousness, 35, 36 –38, 113, 115 , 279 , 280, 2 8 1 , 2 8 2, 283 cultivation of, 6 , 9 , 34–37, 46, 87 , 127 in daily life, 29, 37 , 113 , 114, 116 –17, 119, 202 , 256 , 307, 338 , 344 and deep conditioning, 114 , 116 –18, 119 definition of, 29 –30, 114, 163 and dullness, 36 , 37 , 280, 281 , 2 8 1, 2 8 2 duration of, 115 and First Interlude, 19 , 21 , 29 –38, 39 function/purpose of, 114, 139 as habit, 1 6 7 , 179 and how it works, 113 –19, 1 2 0 and Insight, 29, 38, 114 , 118, 119, 1 2 0 , 132, 257, 279 , 280, 283 and intentions, 15, 113, 114 , 115, 116, 280 and intuitions, 113 , 118 , 283 levels of, 113–19, 1 2 0 losing, 35 –36 magic of, 114 , 115 , 135, 139 , 279 , 283 and milestones, 10 , 11, 13 and Mind-System, 202, 214 , 283, 293 and moments of consciousness, 157, 163 –64, 178, 179 , 280 , 281, 2 8 2 as objective of meditation, 10 , 19 , 21, 29–38, 39 and peripheral awareness, 30–36, 3 3 , 3 4, 37–38 and personality, 113 , 114, 117 –18, 139, 283 and pīti, 334 power of, 117, 118 and programming/reprogramming, 114 , 115, 116 –18, 283 and progression of mindfulness through stages, 37 –38 and purifying the mind, 256 , 279 quality of, 280 and reality, 38 , 283 and śamatha, 338–39, 344 and sati, 29 –30 and scanning, 173 –75, 1 7 6 , 177 –78 and Second Interlude, 283 and self, 118 and Seventh Interlude, 283 , 293 skills of, 173–75, 1 7 6 , 177–78 and Stage One, 43 , 52 , 56 , 63 and Stage Two, 81 , 87 and Stage Three, 38, 9 5 and Stage Four, 38 , 118, 122 , 123 , 126, 127 , 129, 131, 132 , 139–40, 144 , 146 and Stage Five, 6 , 9, 38, 166 , 1 6 7, 168, 171 , 173–79, 1 7 6 and Stage Six, 10 , 38, 2 1 5, 216 , 226, 233 and Stage Seven, 10 , 11, 15, 118, 237 , 261, 2 6 1 , 262 , 263, 264 , 266 , 270, 275 and Stage Eight, 11 , 279, 280 –81, 2 8 1 , 2 8 2, 299 , 300, 307, 314 and Stage Nine, 334 , 336 and Stage Ten, 13 , 337 , 3 3 7, 338 –39 and stages of adept meditators, 237 , 240, 256 , 257
+and behavior, 114–19, 283 benefits of, 29, 38, 39, 113, 115, 117, 118, 127 and change, 115, 119 and consciousness, 35, 36–38, 113, 115, 279, 280, 281, 282, 283 cultivation of, 6, 9, 34–37, 46, 87, 127 in daily life, 29, 37, 113, 114, 116–17, 119, 202, 256, 307, 338, 344 and deep conditioning, 114, 116–18, 119 definition of, 29–30, 114, 163 and dullness, 36, 37, 280, 281, 281, 282 duration of, 115 and First Interlude, 19, 21, 29–38, 39 function/purpose of, 114, 139 as habit, 167, 179 and how it works, 113–19, 120 and Insight, 29, 38, 114, 118, 119, 120, 132, 257, 279, 280, 283 and intentions, 15, 113, 114, 115, 116, 280 and intuitions, 113, 118, 283 levels of, 113–19, 120 losing, 35–36 magic of, 114, 115, 135, 139, 279, 283 and milestones, 10, 11, 13 and Mind-System, 202, 214, 283, 293 and moments of consciousness, 157, 163–64, 178, 179, 280, 281, 282 as objective of meditation, 10, 19, 21, 29–38, 39 and peripheral awareness, 30–36, 33, 34, 37–38 and personality, 113, 114, 117–18, 139, 283 and pīti, 334 power of, 117, 118 and programming/reprogramming, 114, 115, 116–18, 283 and progression of mindfulness through stages, 37–38 and purifying the mind, 256, 279 quality of, 280 and reality, 38, 283 and śamatha, 338–39, 344 and sati, 29–30 and scanning, 173–75, 176, 177–78 and Second Interlude, 283 and self, 118 and Seventh Interlude, 283, 293 skills of, 173–75, 176, 177–78 and Stage One, 43, 52, 56, 63 and Stage Two, 81, 87 and Stage Three, 38, 95 and Stage Four, 38, 118, 122, 123, 126, 127, 129, 131, 132, 139–40, 144, 146 and Stage Five, 6, 9, 38, 166, 167, 168, 171, 173–79, 176 and Stage Six, 10, 38, 215, 216, 226, 233 and Stage Seven, 10, 11, 15, 118, 237, 261, 261, 262, 263, 264, 266, 270, 275 and Stage Eight, 11, 279, 280–81, 281, 282, 299, 300, 307, 314 and Stage Nine, 334, 336 and Stage Ten, 13, 337, 337, 338–39 and stages of adept meditators, 237, 240, 256, 257
 
-and sub-minds, 279, 280 , 281 , 283
+and sub-minds, 279, 280, 281, 283
 
-and subtle distractions, 2 1 5 , 216 , 226, 233
+and subtle distractions, 215, 216, 226, 233
 
 sustaining, 34, 35
 
-and Third Interlude, 113 –19, 1 2 0
+and Third Interlude, 113–19, 120
 
-thornbush metaphor about, 119 , 1 2 0
+thornbush metaphor about, 119, 120
 
 and transition from skilled to adept meditator, 236, 237
 
-and unconscious conditioning, 113–19, 1 2 0
+and unconscious conditioning, 113–19, 120
 
-and unconscious mind, 2 8 1 , 2 8 2, 283
+and unconscious mind, 281, 282, 283
 
-and unifying the mind, 237 , 240, 279 –81, 2 8 1 , 2 8 2, 283 –87, 2 8 5
+and unifying the mind, 237, 240, 279–81, 281, 282, 283–87, 285
 
-See also specific topic momentary concentration, and Stage Eight, 301 –2, 3 0 3 , 304 moments of attention
+See also specific topic momentary concentration, and Stage Eight, 301–2, 303, 304 moments of attention
 
 definition of, 156
 
-and Mind-System, 185, 197 , 198
+and Mind-System, 185, 197, 198
 
-moments of awareness distinguished from, 152, 154 –57
+moments of awareness distinguished from, 152, 154–57
 
-and Moments of Consciousness Model, 152 –57, 1 5 3 , 1 5 5, 159 –64, 1 5 9 , 1 6 1, 1 6 2, 178, 179
+and Moments of Consciousness Model, 152–57, 153, 155, 159–64, 159, 161, 162, 178, 179
 
-and Stage Five, 169, 178 , 179
+and Stage Five, 169, 178, 179
 
-and Stage Six, 218, 220 , 228 , 2 2 9
+and Stage Six, 218, 220, 228, 229
 
-and Stage Eight, 3 0 3 , 304, 3 0 5
+and Stage Eight, 303, 304, 305
 
-and subtle distractions, 218 , 220 , 228, 2 2 9 moments of awareness
+and subtle distractions, 218, 220, 228, 229 moments of awareness
 
 definition of, 156
 
 and Mind-System, 190
 
-moments of attention distinguished from, 152 , 154–57
+moments of attention distinguished from, 152, 154–57
 
-and Moments of Consciousness Model, 152 , 154 –57, 1 5 5 , 159 , 163, 164, 179
+and Moments of Consciousness Model, 152, 154–57, 155, 159, 163, 164, 179
 
 and Stage Five, 179
 
@@ -9518,13 +9518,13 @@ and subtle distractions, 228 moments of consciousness
 
 and discriminating mind, 293
 
-and Mind-System, 183, 184 , 185–86, 191 , 207, 289, 292 , 293
+and Mind-System, 183, 184, 185–86, 191, 207, 289, 292, 293
 
 and mindfulness, 178, 281
 
 and sensory mind, 292
 
-and Seventh Interlude, 281 , 289, 292, 293
+and Seventh Interlude, 281, 289, 292, 293
 
 and Stage Five, 172, 178
 
@@ -9532,151 +9532,151 @@ and Stage Seven, 269
 
 See also Moments of Consciousness Model Moments of Consciousness Model
 
-application of, 160 , 162–66
+application of, 160, 162–66
 
-and attention, 163 –64
+and attention, 163–64
 
 benefits of, 166
 
-and binding consciousness, 149–52, 1 4 9 , 1 5 1, 154, 1 5 5
+and binding consciousness, 149–52, 149, 151, 154, 155
 
-and breath, 160 , 1 6 1, 163
+and breath, 160, 161, 163
 
-and conscious intention, 158–62, 1 5 9
+and conscious intention, 158–62, 159
 
-and consciousness, 163 , 164, 165, 179
+and consciousness, 163, 164, 165, 179
 
-and distractions, 159, 160 , 1 6 1, 162–63, 1 6 2 , 178, 2 1 8
+and distractions, 159, 160, 161, 162–63, 162, 178, 218
 
-and dullness, 157 , 1 5 9, 164–66, 179
+and dullness, 157, 159, 164–66, 179
 
-and emotions, 149–52, 1 4 9 , 160
+and emotions, 149–52, 149, 160
 
-and energy, 157, 160 , 165, 178
+and energy, 157, 160, 165, 178
 
-and exclusive attention, 162–63, 1 6 2 , 164, 178 , 2 1 8 and Fifth Interlude, 183, 190
+and exclusive attention, 162–63, 162, 164, 178, 218 and Fifth Interlude, 183, 190
 
-and Fourth Interlude, 147 –66
+and Fourth Interlude, 147–66
 
-and gross distractions, 160 , 1 6 1, 162, 1 6 2, 163
+and gross distractions, 160, 161, 162, 162, 163
 
 and individual moments of consciousness, 147–48
 
-and intentions, 158–60, 1 5 9 , 162, 165, 166 , 178, 179, 183 , 190, 2 1 8
+and intentions, 158–60, 159, 162, 165, 166, 178, 179, 183, 190, 218
 
-and introspective awareness, 157, 160 , 162 , 163, 178
+and introspective awareness, 157, 160, 162, 163, 178
 
-and meditation object, 158 , 159, 1 6 1 , 163 , 164, 165 , 178 , 2 1 8
+and meditation object, 158, 159, 161, 163, 164, 165, 178, 218
 
-and mind sense, 149 –52, 1 4 9 , 156 –57
+and mind sense, 149–52, 149, 156–57
 
 and Mind-System, 183, 190
 
 Mind-System model combined with, 280
 
-and mindfulness, 157, 163–64, 178 , 179, 280 , 281, 2 8 2
+and mindfulness, 157, 163–64, 178, 179, 280, 281, 282
 
-and moments of attention, 152–57, 1 5 3 , 1 5 5, 159–64, 1 5 9 , 1 6 1, 1 6 2, 178, 179
+and moments of attention, 152–57, 153, 155, 159–64, 159, 161, 162, 178, 179
 
-and moments of awareness, 152 , 154 –57, 1 5 5 , 159 , 163, 164, 179
+and moments of awareness, 152, 154–57, 155, 159, 163, 164, 179
 
-and non-perceiving mind moments, 157–60, 1 5 8 , 1 5 9, 163–66, 1 6 5 , 178 , 179
+and non-perceiving mind moments, 157–60, 158, 159, 163–66, 165, 178, 179
 
 and novice meditators, 156
 
-and peripheral awareness, 152, 1 5 3 , 154 –57, 160, 1 6 1 , 162, 163–64, 179
+and peripheral awareness, 152, 153, 154–57, 160, 161, 162, 163–64, 179
 
-and physical senses, 149 –52, 1 5 1 , 156 –57
+and physical senses, 149–52, 151, 156–57
 
-and sensations, 160, 1 6 2 , 163
+and sensations, 160, 162, 163
 
-and senses, 148, 149 –52, 154, 183
+and senses, 148, 149–52, 154, 183
 
-and Seventh Interlude, 280 , 281, 2 8 2
+and Seventh Interlude, 280, 281, 282
 
 and Stage Five, 178–79
 
-and Stage Six, 2 1 8
+and Stage Six, 218
 
 and stream of consciousness, 148
 
-and subtle distractions, 160 , 162 , 1 6 2, 163
+and subtle distractions, 160, 162, 162, 163
 
-and subtle dullness, 164–65, 1 6 5 , 166 , 178–79
+and subtle dullness, 164–65, 165, 166, 178–79
 
-and types of moments of consciousness, 149–52, 1 4 9
+and types of moments of consciousness, 149–52, 149
 
-See also specific topic monkey-mind, 76, 7 7 , 80, 89–90 motivation
+See also specific topic monkey-mind, 76, 77, 80, 89–90 motivation
 
 and Awakening, 42
 
-and hindrances, 6 7 , 68–71, 73 , 74 , 75
+and hindrances, 67, 68–71, 73, 74, 75
 
 and intentions, 15
 
 and pacifying the senses, 247
 
-and problems, 75, 7 7
+and problems, 75, 77
 
-and Stage One, 7, 15 , 4 1, 42, 4 5, 54, 56 , 57 , 58, 60, 62–63
+and Stage One, 7, 15, 41, 42, 45, 54, 56, 57, 58, 60, 62–63
 
 and Stage Two, 91
 
 and Stage Seven, 266
 
-and stages of adept meditators, 247 mountain-gazing example, 1 5 5 multitasking, 25 , 26, 29 , 36, 163 musician analogy, 2 3 6 narrating mind
+and stages of adept meditators, 247 mountain-gazing example, 155 multitasking, 25, 26, 29, 36, 163 musician analogy, 236 narrating mind
 
 definition of, 205
 
-and discriminating mind, 292 , 293
+and discriminating mind, 292, 293
 
-and Fifth Interlude, 205–12, 2 0 6 , 2 0 8, 2 0 9, 2 1 1
+and Fifth Interlude, 205–12, 206, 208, 209, 211
 
 function/purpose of, 293
 
 and metacognitive awareness, 228–29
 
-and Mind-System, 205–12, 2 0 6 , 2 0 8, 2 0 9, 2 1 1, 228, 287 , 289 , 292, 293
+and Mind-System, 205–12, 206, 208, 209, 211, 228, 287, 289, 292, 293
 
-and Seventh Interlude, 287 , 289, 292, 293 and Stage Six, 228–29, 2 2 9
+and Seventh Interlude, 287, 289, 292, 293 and Stage Six, 228–29, 229
 
-and subtle distractions, 228 –29, 2 2 9 Nash, Stephanie, 62 natural individual, 297 , 298 nimitta, 320–21, 322 , 323 Nisargadatta, 334 non-intending mind moments, 160 , 165, 166 non-perceiving mind moments
+and subtle distractions, 228–29, 229 Nash, Stephanie, 62 natural individual, 297, 298 nimitta, 320–21, 322, 323 Nisargadatta, 334 non-intending mind moments, 160, 165, 166 non-perceiving mind moments
 
-and mindfulness, 280, 2 8 2
+and mindfulness, 280, 282
 
-and Moments of Consciousness Model, 157 –60, 1 5 8 , 1 5 9, 163 –66, 1 6 5 , 178, 179
+and Moments of Consciousness Model, 157–60, 158, 159, 163–66, 165, 178, 179
 
-and Seventh Interlude, 280 , 2 8 2
+and Seventh Interlude, 280, 282
 
-and Stage Five, 166, 169 , 172 , 178, 179
+and Stage Five, 166, 169, 172, 178, 179
 
 and Stage Six, 280
 
-and Stage Seven, 280 novice meditators, 2, 3, 87 , 156 . See also Stage One; Stage Two; Stage Three obstacles/problems
+and Stage Seven, 280 novice meditators, 2, 3, 87, 156. See also Stage One; Stage Two; Stage Three obstacles/problems
 
-antidotes to, 7 7
+antidotes to, 77
 
-and energy, 76, 7 7
+and energy, 76, 77
 
-in establishing a practice, 4 1
+in establishing a practice, 41
 
 and First Interlude, 266
 
-and hindrances, 75–76, 7 7
+and hindrances, 75–76, 77
 
-and Insight, 7 7
+and Insight, 77
 
 as learning opportunities, 94
 
-and pain, 76, 7 7
+and pain, 76, 77
 
-and posture, 7 7
+and posture, 77
 
 and rate of progress through stages, 4
 
-and Second Interlude, 75 –76, 7 7 , 78
+and Second Interlude, 75–76, 77, 78
 
-and subtle dullness, 7 7
+and subtle dullness, 77
 
 and transition from skilled to adept meditator, 236
 
@@ -9686,33 +9686,33 @@ and Milestone Three, 11
 
 and pīti, 330
 
-and Stage Six, 237, 2 3 9
+and Stage Six, 237, 239
 
-and Stage Seven, 237 , 2 3 9, 262 , 263 –64
+and Stage Seven, 237, 239, 262, 263–64
 
-and Stage Eight, 299, 306, 309 , 310
+and Stage Eight, 299, 306, 309, 310
 
 and Stage Nine, 330
 
-and stages of adept meditators, 237 , 238, 2 4 0
+and stages of adept meditators, 237, 238, 240
 
 and transition from skilled to adept meditator, 237
 
-and unifying the mind, 237 , 238, 2 3 9, 2 4 0, 262
+and unifying the mind, 237, 238, 239, 240, 262
 
 See also mental pliancy pacifying the mind
 
-and purifying the mind, 254 , 284
+and purifying the mind, 254, 284
 
 and Seventh Interlude, 284
 
-and Stage Six, 217, 223 –24, 225, 226, 236 , 237, 263
+and Stage Six, 217, 223–24, 225, 226, 236, 237, 263
 
-and Stage Seven, 217 , 224, 236 , 237, 277
+and Stage Seven, 217, 224, 236, 237, 277
 
-and stages of adept meditators, 237 , 254
+and stages of adept meditators, 237, 254
 
-and subtle distractions, 217 , 223 –24, 225, 226 and transition from skilled to adept meditator, 236
+and subtle distractions, 217, 223–24, 225, 226 and transition from skilled to adept meditator, 236
 
 and unification of mind, 224
 
@@ -9720,133 +9720,133 @@ and unifying the mind, 237
 
 See also pacifying the discriminating mind pacifying the senses
 
-and awareness, 241 , 242, 243 , 245 –46
+and awareness, 241, 242, 243, 245–46
 
 and bliss of mental pliancy, 241, 251
 
 and bliss of physical pliancy, 240, 251
 
-and body, 242 –44, 247 , 252 –53
+and body, 242–44, 247, 252–53
 
-and consciousness, 241 , 244, 246
+and consciousness, 241, 244, 246
 
 and distractions, 244, 247
 
-and energy, 241, 251 , 252, 253
+and energy, 241, 251, 252, 253
 
-and illumination phenomenon, 241, 244 –45, 247
+and illumination phenomenon, 241, 244–45, 247
 
 incomplete, 252
 
 and intentions, 244, 246
 
-and involuntary movements, 251 , 252, 253
+and involuntary movements, 251, 252, 253
 
-and joy, 241, 251 , 252 , 253
+and joy, 241, 251, 252, 253
 
 key features of, 241
 
-and meditative joy, 247–56, 2 5 0
+and meditative joy, 247–56, 250
 
-and physical pliancy, 240 , 241–47, 251 , 252, 253
+and physical pliancy, 240, 241–47, 251, 252, 253
 
-and pīti, 251–53, 3 2 8
+and pīti, 251–53, 328
 
 and proprioception, 242, 243, 244
 
 and sensations, 240, 241–47, 252
 
-and sensory mind, 241, 246 –47
+and sensory mind, 241, 246–47
 
-and Stage Seven, 238 , 2 3 9, 241, 272 –73
+and Stage Seven, 238, 239, 241, 272–73
 
-and Stage Eight, 6 , 11–12, 238 , 2 3 9, 241, 2 9 9, 300, 3 0 1, 3 0 5, 307, 309–15, 3 1 6 , 317, 320 , 321 , 324
+and Stage Eight, 6, 11–12, 238, 239, 241, 299, 300, 301, 305, 307, 309–15, 316, 317, 320, 321, 324
 
 and Stage Nine, 328
 
-and stages of adept meditators, 238 , 2 3 9, 240 –47, 2 4 0 , 251–53, 255
+and stages of adept meditators, 238, 239, 240–47, 240, 251–53, 255
 
-and unifying the mind, 238 , 2 3 9, 240, 2 4 0, 251, 253
+and unifying the mind, 238, 239, 240, 240, 251, 253
 
 uniqueness of, 241, 242–43, 246
 
 See also specific sense or topic pain
 
-acceptance of, 1 3 1
+acceptance of, 131
 
-analyzing/investigating, 129–30, 1 3 1
+analyzing/investigating, 129–30, 131
 
 aversion as cause of, 254
 
 in daily life, 105
 
-disappearance of, 130, 131, 1 3 1
+disappearance of, 130, 131, 131
 
 expectations about, 130
 
 and happiness, 314
 
-and hindrances, 6 7 , 68, 71
+and hindrances, 67, 68, 71
 
-as inevitable, 7 7
+as inevitable, 77
 
-as meditation object, 129, 1 3 0 , 131
+as meditation object, 129, 130, 131
 
 and Mind-System, 202
 
-and Moments of Consciousness Model, 160 , 1 6 1, 162
+and Moments of Consciousness Model, 160, 161, 162
 
 origin of, 254
 
 and posture, 105–6, 129
 
-and problems, 76, 7 7
+and problems, 76, 77
 
 and purifying the mind, 254
 
-resistance to, 129, 130 , 1 3 1
+resistance to, 129, 130, 131
 
 and Stage One, 61 and Stage Two, 81
 
-and Stage Three, 96, 105 –6, 1 0 7 , 129
+and Stage Three, 96, 105–6, 107, 129
 
-and Stage Four, 8 , 9, 128–31, 1 3 0 , 1 3 1, 135
+and Stage Four, 8, 9, 128–31, 130, 131, 135
 
-and Stage Eight, 11 , 324
+and Stage Eight, 11, 324
 
 and Stage Ten, 340
 
-strategy for dealing with, 129–30, 1 3 0
+strategy for dealing with, 129–30, 130
 
-and success in meditation, 9 4
+and success in meditation, 94
 
 and suffering, 106
 
 as unavoidable, 106 paranormal experiences. See visions patience/impatience
 
-antidotes to, 7 7
+antidotes to, 77
 
 in daily life, 256
 
 and disharmony-dissatisfaction-impatience loop, 92, 93
 
-and hindrances, 6 7 , 69, 70
+and hindrances, 67, 69, 70
 
 and intentions, 17
 
 and pain, 106
 
-and problems, 76, 7 7
+and problems, 76, 77
 
 and purifying the mind, 256
 
 and Stage One, 7, 61
 
-and Stage Two, 7 7 , 79 , 80 , 90–93
+and Stage Two, 77, 79, 80, 90–93
 
 and Stage Four, 128, 134
 
-and Stage Seven, 11 , 262, 266 , 272 , 277
+and Stage Seven, 11, 262, 266, 272, 277
 
 and Stage Eight, 302, 324
 
@@ -9856,73 +9856,73 @@ and discriminating mind, 293
 
 internally generated, 241
 
-and meditative joy, 249, 2 5 0 , 253
+and meditative joy, 249, 250, 253
 
-and Mind-System, 186, 194 , 209–10, 2 0 9 , 292 , 293, 294
+and Mind-System, 186, 194, 209–10, 209, 292, 293, 294
 
-and Moments of Consciousness Model, 157 , 160
+and Moments of Consciousness Model, 157, 160
 
 non-conceptual, 226
 
 and pacifying the senses, 241, 253
 
-and pīti, 253, 329, 331 , 332, 333 , 334 , 335
+and pīti, 253, 329, 331, 332, 333, 334, 335
 
 self-, 344
 
 and sensory mind, 292
 
-and Seventh Interlude, 292 , 293, 294
+and Seventh Interlude, 292, 293, 294
 
-and Stage Five, 169, 170 , 175 , 1 7 6, 177, 280
+and Stage Five, 169, 170, 175, 176, 177, 280
 
-and Stage Six, 226, 228 , 233
+and Stage Six, 226, 228, 233
 
-and Stage Seven, 268 , 269
+and Stage Seven, 268, 269
 
-and Stage Eight, 300, 304, 311 , 312, 313 , 322 , 325
+and Stage Eight, 300, 304, 311, 312, 313, 322, 325
 
-and Stage Nine, 329 , 331–35
+and Stage Nine, 329, 331–35
 
-and stages of adept meditators, 241 , 249, 2 5 0, 253
+and stages of adept meditators, 241, 249, 250, 253
 
-and subtle distractions, 224 –26, 228, 233 peripheral awareness
+and subtle distractions, 224–26, 228, 233 peripheral awareness
 
-and attention, 25–26, 30 –34, 3 4 , 37 –38, 103–4, 166
+and attention, 25–26, 30–34, 34, 37–38, 103–4, 166
 
-and Consciousness Experience Model, 19 –21, 2 1 , 2 2, 147
+and Consciousness Experience Model, 19–21, 21, 22, 147
 
 content of, 126
 
-definition/functions of, 21, 2 1 , 2 2, 30–34, 3 4 , 37, 307
+definition/functions of, 21, 21, 22, 30–34, 34, 37, 307
 
-and distractions, 1 2 2 and establishing a practice, 47 , 49, 50, 52
+and distractions, 122 and establishing a practice, 47, 49, 50, 52
 
-extrospective, 32 –33, 3 3 , 3 4, 164 , 168–69
+extrospective, 32–33, 33, 34, 164, 168–69
 
-and Fifth Interlude, 185, 195, 196 , 198–202, 211 , 212
+and Fifth Interlude, 185, 195, 196, 198–202, 211, 212
 
-and First Interlude, 19 –21, 2 1 , 2 2, 30–38, 3 3 , 3 4, 103 , 147
+and First Interlude, 19–21, 21, 22, 30–38, 33, 34, 103, 147
 
 and insights, 132
 
 and intentions, 15
 
-introspective, 32 –33, 3 3 , 3 4, 160 , 162, 163, 168 –69, 264
+introspective, 32–33, 33, 34, 160, 162, 163, 168–69, 264
 
-and jump-starting practice, 2 3
+and jump-starting practice, 23
 
 limiting, 87
 
-and meditation object, 28 , 87
+and meditation object, 28, 87
 
-and Mind-System, 185, 195 , 196, 198 –202, 211, 212 , 293 , 294
+and Mind-System, 185, 195, 196, 198–202, 211, 212, 293, 294
 
-and mindfulness, 30 –38, 3 3 , 3 4
+and mindfulness, 30–38, 33, 34
 
-and Moments of Consciousness Model, 152 , 1 5 3, 154–57, 160 –64, 1 6 1 , 179
+and Moments of Consciousness Model, 152, 153, 154–57, 160–64, 161, 179
 
-and objectives of meditation, 24 –25, 30–36, 3 3 , 3 4, 37–38
+and objectives of meditation, 24–25, 30–36, 33, 34, 37–38
 
 and pīti, 332
 
@@ -9930,31 +9930,31 @@ quality of, 37
 
 and sensations, 31
 
-and Seventh Interlude, 293 , 294
+and Seventh Interlude, 293, 294
 
-and Stage Two, 15 , 7 9, 87
+and Stage Two, 15, 79, 87
 
-and Stage Three, 15, 9 5 , 96–99, 103 –4, 111, 166
+and Stage Three, 15, 95, 96–99, 103–4, 111, 166
 
-and Stage Four, 28 , 123, 126 , 132 , 141, 144
+and Stage Four, 28, 123, 126, 132, 141, 144
 
-and Stage Five, 9 , 167, 168 –69, 171, 174, 177 , 179
+and Stage Five, 9, 167, 168–69, 171, 174, 177, 179
 
-and Stage Six, 10 , 217, 218 , 220, 221, 222 , 223, 226 , 227 , 228, 233
+and Stage Six, 10, 217, 218, 220, 221, 222, 223, 226, 227, 228, 233
 
-and Stage Seven, 264 , 2 6 4, 267 , 271 , 272, 274 , 275, 277
+and Stage Seven, 264, 264, 267, 271, 272, 274, 275, 277
 
-and Stage Eight, 301, 302, 3 0 3 , 306, 307, 308 , 311, 312 , 318 –19, 320, 321
+and Stage Eight, 301, 302, 303, 306, 307, 308, 311, 312, 318–19, 320, 321
 
 and Stage Nine, 332
 
-and subtle distractions, 217 , 218 , 220, 221 , 222 , 223, 226 , 227, 228, 233
+and subtle distractions, 217, 218, 220, 221, 222, 223, 226, 227, 228, 233
 
-sustained, 95, 220 personal identity, 333 personality, 113 , 114, 117 –18, 139, 283. See also behavior physical comfort/discomfort
+sustained, 95, 220 personal identity, 333 personality, 113, 114, 117–18, 139, 283. See also behavior physical comfort/discomfort
 
-antidotes for, 7 7
+antidotes for, 77
 
-and Insight, 7 7
+and Insight, 77
 
 and meditative joy, 253
 
@@ -9962,19 +9962,19 @@ and pacifying the senses, 253
 
 and pīti, 253
 
-and problems, 76, 7 7
+and problems, 76, 77
 
-and Stage One, 7 7
+and Stage One, 77
 
 and Stage Two, 91
 
-and Stage Three, 7 7 , 105–6, 1 0 7
+and Stage Three, 77, 105–6, 107
 
-and Stage Four, 7 7 , 128 –31
+and Stage Four, 77, 128–31
 
 and Stage Nine, 328
 
-and stages of adept meditators, 238 , 253
+and stages of adept meditators, 238, 253
 
 and unifying the mind, 238
 
@@ -9982,73 +9982,73 @@ See also pain; suffering physical pliancy
 
 and hindrances, 69
 
-and intentions, 16, 17, 1 7
+and intentions, 16, 17, 17
 
-and meditative joy, 251, 2 5 1 , 252 , 253
+and meditative joy, 251, 251, 252, 253
 
-and pacifying the senses, 240, 241 –47, 251, 252 , 253 and pīti, 251, 252, 253 , 3 2 8, 329 , 330
+and pacifying the senses, 240, 241–47, 251, 252, 253 and pīti, 251, 252, 253, 328, 329, 330
 
-practices to achieve, 317 –23
+practices to achieve, 317–23
 
 and purifying the mind, 254
 
-and Stage Seven, 238 , 2 3 9, 273
+and Stage Seven, 238, 239, 273
 
-and Stage Eight, 11 –12, 16, 238 , 2 3 9, 2 9 9, 300, 310 , 317–23, 325
+and Stage Eight, 11–12, 16, 238, 239, 299, 300, 310, 317–23, 325
 
-and Stage Nine, 6 , 12, 3 2 7, 328, 329 , 330
+and Stage Nine, 6, 12, 327, 328, 329, 330
 
 and Stage Ten, 339
 
-and stages of adept meditators, 238 , 240, 2 4 0, 241 –47, 251 –54, 2 5 1
+and stages of adept meditators, 238, 240, 240, 241–47, 251–54, 251
 
-and unifying the mind, 238 , 2 3 9, 2 4 0
+and unifying the mind, 238, 239, 240
 
-See also bliss of physical pliancy physical senses, 149 –52, 1 5 1 , 156–57, 170, 184, 185 pīti
+See also bliss of physical pliancy physical senses, 149–52, 151, 156–57, 170, 184, 185 pīti
 
 and Awakening, 334
 
-and beyond Stage Ten, 3 4 1
+and beyond Stage Ten, 341
 
-and bliss of mental pliancy, 251, 3 2 8 , 330 , 335
+and bliss of mental pliancy, 251, 328, 330, 335
 
-and bliss of physical pliancy, 251, 3 2 8 , 330
+and bliss of physical pliancy, 251, 328, 330
 
-calming, 329–35, 3 3 5
+calming, 329–35, 335
 
-and consciousness, 331 , 332–34
+and consciousness, 331, 332–34
 
-and emptiness, 332 –34
+and emptiness, 332–34
 
-and energy, 251, 252 , 253, 329, 330 , 334, 335 , 3 3 5
+and energy, 251, 252, 253, 329, 330, 334, 335, 335
 
-and equanimity, 329, 330 , 332, 334 –35, 3 3 5
+and equanimity, 329, 330, 332, 334–35, 335
 
 five “grades” of, 251–53
 
-and flowing water analogy, 334–35, 3 3 5
+and flowing water analogy, 334–35, 335
 
-and happiness/pleasure, 252 , 253, 330, 331 , 335
+and happiness/pleasure, 252, 253, 330, 331, 335
 
-as inclusive term, 3 2 8
+as inclusive term, 328
 
 incomplete, 252
 
-and Insight, 331, 332 –34
+and Insight, 331, 332–34
 
-and intellectual understanding, 332 –33, 334
+and intellectual understanding, 332–33, 334
 
-and intentions, 329, 332 , 333
+and intentions, 329, 332, 333
 
-and involuntary movements, 251 , 252, 253
+and involuntary movements, 251, 252, 253
 
 and jhāna, 330–31
 
-and joy, 251, 252 , 253 , 329–35, 3 3 5
+and joy, 251, 252, 253, 329–35, 335
 
-and Meditation on the Mind, 331 –32, 334
+and Meditation on the Mind, 331–32, 334
 
-and meditative joy, 251–53, 3 2 8
+and meditative joy, 251–53, 328
 
 and Mind-System, 330
 
@@ -10056,19 +10056,19 @@ and mindfulness, 334
 
 and pacifying the senses, 251–53
 
-and perceptions, 253, 329 , 331 , 332, 333 , 334, 335
+and perceptions, 253, 329, 331, 332, 333, 334, 335
 
-and physical pliancy, 251 , 252, 253 , 3 2 8, 329, 330
+and physical pliancy, 251, 252, 253, 328, 329, 330
 
 and reality, 333
 
-and Realizing the Witness, 318 , 331
+and Realizing the Witness, 318, 331
 
-and śamatha, 335, 3 3 5
+and śamatha, 335, 335
 
-and Self, 333 , 335
+and Self, 333, 335
 
-and senses/sensations, 252, 330 , 332, 333
+and senses/sensations, 252, 330, 332, 333
 
 and Sixth Interlude, 262
 
@@ -10078,23 +10078,23 @@ and Stage Four, 252
 
 and Stage Five, 252
 
-and Stage Six, 2 3 9 , 252
+and Stage Six, 239, 252
 
-and Stage Seven, 2 3 9 , 252, 262 , 273 , 275 and Stage Eight, 252, 253, 3 0 1 , 305, 307, 312 , 315, 317 , 318 , 319, 324 , 325
+and Stage Seven, 239, 252, 262, 273, 275 and Stage Eight, 252, 253, 301, 305, 307, 312, 315, 317, 318, 319, 324, 325
 
-and Stage Nine, 253 , 328, 329–35, 3 3 5
+and Stage Nine, 253, 328, 329–35, 335
 
-and stages of adept meditators, 251 –53, 262
+and stages of adept meditators, 251–53, 262
 
-and tranquility, 329 , 330, 332, 334 –35, 3 3 5
+and tranquility, 329, 330, 332, 334–35, 335
 
 and unconscious mind, 332, 333
 
-and unifying the mind, 2 3 9 , 251, 253, 329 , 330, 331
+and unifying the mind, 239, 251, 253, 329, 330, 331
 
 variations in experiences of, 253
 
-and when to do which practices, 3 0 1
+and when to do which practices, 301
 
 See also specific topic pleasantness
 
@@ -10106,31 +10106,31 @@ and pacifying the senses, 252
 
 and pīti, 252, 335
 
-quality of, 271 –72
+quality of, 271–72
 
 and Stage Five, 169, 178
 
-and Stage Seven, 271 –72
+and Stage Seven, 271–72
 
-and Stage Eight, 310, 312, 313 , 317, 324
+and Stage Eight, 310, 312, 313, 317, 324
 
 and Stage Nine, 335
 
-and stages of adept meditators, 238 , 252
+and stages of adept meditators, 238, 252
 
-of subtle dullness, 170 , 171
+of subtle dullness, 170, 171
 
-See also happiness/pleasure; hedonic feeling pleasure. See happiness/pleasure pool of water analogy, 39 “popping out,” 322 position, body, 226. See also posture positiveness, 79, 80, 83 , 92, 124, 256, 312 –13 posture
+See also happiness/pleasure; hedonic feeling pleasure. See happiness/pleasure pool of water analogy, 39 “popping out,” 322 position, body, 226. See also posture positiveness, 79, 80, 83, 92, 124, 256, 312–13 posture
 
 changing, 61, 106
 
-and establishing a practice, 42 , 44, 4 5, 50, 54, 58, 60 –61
+and establishing a practice, 42, 44, 45, 50, 54, 58, 60–61
 
-and jump-starting practice, 2 3
+and jump-starting practice, 23
 
-and pain, 105 –6, 129
+and pain, 105–6, 129
 
-and problems, 7 7
+and problems, 77
 
 traditional, 60–61 potential distractions
 
@@ -10138,45 +10138,45 @@ and Insights, 132
 
 and pīti, 329
 
-and Stage One, 43 –44
+and Stage One, 43–44
 
 and Stage Two, 87
 
 and Stage Three, 96
 
-and Stage Four, 123, 124, 1 2 5 , 132
+and Stage Four, 123, 124, 125, 132
 
-and Stage Six, 10 , 217, 220 , 223
+and Stage Six, 10, 217, 220, 223
 
-and Stage Seven, 263 , 264, 265
+and Stage Seven, 263, 264, 265
 
 and Stage Nine, 329
 
 and stages of adept meditators, 237
 
-and subtle distractions, 217 , 220 , 223
+and subtle distractions, 217, 220, 223
 
 and transition from skilled to adept meditator, 236
 
-and unifying the mind, 237 present: focusing on, 49–50, 268 problems. See hindrances; obstacles/problems; specific hindrance, obstacle, problem or stage procrastination, 7, 16, 55 –56, 57 , 58, 63, 6 7 , 70, 71, 75 , 7 7 programming/reprogramming
+and unifying the mind, 237 present: focusing on, 49–50, 268 problems. See hindrances; obstacles/problems; specific hindrance, obstacle, problem or stage procrastination, 7, 16, 55–56, 57, 58, 63, 67, 70, 71, 75, 77 programming/reprogramming
 
 and cessation experience, 286
 
-deep conditioning, 114 , 116 –18, 119
+deep conditioning, 114, 116–18, 119
 
 innate, 118
 
 and Insight, 286
 
-and Mind-System, 193, 203 –5, 2 0 4 , 212–13
+and Mind-System, 193, 203–5, 204, 212–13
 
-and mindfulness, 114, 115, 116 –18, 283
+and mindfulness, 114, 115, 116–18, 283
 
-and Seventh Interlude, 283 , 286
+and Seventh Interlude, 283, 286
 
 and Stage Four, 139
 
-of unconscious, 115 , 116 proprioception, 242 , 243, 244 purifying the mind, 254 –56, 262, 274 , 279, 283 –84, 314. See also mindfulness; specific topic reality
+of unconscious, 115, 116 proprioception, 242, 243, 244 purifying the mind, 254–56, 262, 274, 279, 283–84, 314. See also mindfulness; specific topic reality
 
 and cessation experience, 286
 
@@ -10186,41 +10186,41 @@ and Insight, 286
 
 as mental construct, 270
 
-and Mind-System, 189, 212 , 213, 287 , 289
+and Mind-System, 189, 212, 213, 287, 289
 
-and mindfulness, 38 , 283
+and mindfulness, 38, 283
 
 and pīti, 333
 
 and śamatha, 344
 
-and Seventh Interlude, 283 , 286, 287, 289
+and Seventh Interlude, 283, 286, 287, 289
 
 and Stage Six, 225
 
-and Stage Seven, 269 , 270
+and Stage Seven, 269, 270
 
 and Stage Nine, 333
 
 and Stage Ten, 340
 
-and subtle distractions, 225 Realizing the Witness, 331 , 333, 3 3 9 reason: and hindrances, 69, 73–75 reconditioning. See programming/reprogramming relaxation
+and subtle distractions, 225 Realizing the Witness, 331, 333, 339 reason: and hindrances, 69, 73–75 reconditioning. See programming/reprogramming relaxation
 
-definition of, 9 4
+definition of, 94
 
 importance of, 49
 
-and jump-starting practice, 2 3
+and jump-starting practice, 23
 
 and mindfulness, 36
 
-and Stage One, 44 , 45 , 4 8, 49, 50 –51, 54, 56, 61
+and Stage One, 44, 45, 48, 49, 50–51, 54, 56, 61
 
-and Stage Two, 87 , 92
+and Stage Two, 87, 92
 
 and Stage Three, 98, 110
 
-and Stage Four, 123, 140, 143 , 144
+and Stage Four, 123, 140, 143, 144
 
 and Stage Five, 169, 170
 
@@ -10230,51 +10230,51 @@ and Stage Eight, 321
 
 and Stage Ten, 340
 
-and successful meditation, 93 , 9 4 reluctance: and establishing a practice, 56 , 57 , 5 7 remorse. See Agitation: Due to Worry and Remorse repetition, 93 , 116, 166 , 204 , 2 0 4, 2 3 0, 263, 264, 315 resistance of dullness, 170
+and successful meditation, 93, 94 reluctance: and establishing a practice, 56, 57, 57 remorse. See Agitation: Due to Worry and Remorse repetition, 93, 116, 166, 204, 204, 230, 263, 264, 315 resistance of dullness, 170
 
 and hindrances, 69
 
-and meditation as enjoyable, 9 3
+and meditation as enjoyable, 93
 
 and Mind-System, 193
 
 and pacifying the senses, 244
 
-and pain, 106 , 129 , 130, 1 3 1
+and pain, 106, 129, 130, 131
 
-and problems, 75, 7 7
+and problems, 75, 77
 
 and sleepiness, 109
 
-and Stage One, 7, 42 , 43, 4 5, 46 , 55 , 56, 57, 58
+and Stage One, 7, 42, 43, 45, 46, 55, 56, 57, 58
 
-and Stage Two, 92 , 93
+and Stage Two, 92, 93
 
-and Stage Four, 129, 130, 1 3 1 , 1 3 7, 143
+and Stage Four, 129, 130, 131, 137, 143
 
 and Stage Five, 170
 
-and Stage Seven, 269 , 274
+and Stage Seven, 269, 274
 
 and Stage Eight, 311, 315
 
-and stages of adept meditators, 244 restlessness, 11, 42 , 76 , 9 4, 134 , 142, 160 , 262 , 266, 315 śamatha, 13 , 78, 135, 235 , 237, 2 3 9, 240 , 2 4 0, 327, 3 2 7, 335–44, 3 3 5 , 3 3 7, 3 4 1, 3 4 3 . See also Awakening; Insight sati, 29 –30, 3 4 1 scanning
+and stages of adept meditators, 244 restlessness, 11, 42, 76, 94, 134, 142, 160, 262, 266, 315 śamatha, 13, 78, 135, 235, 237, 239, 240, 240, 327, 327, 335–44, 335, 337, 341, 343. See also Awakening; Insight sati, 29–30, 341 scanning
 
-definition of, 2 5
+definition of, 25
 
-and mindfulness, 173–78, 1 7 6
+and mindfulness, 173–78, 176
 
 and Moments of Consciousness Model, 179
 
-and spontaneous movements of attention, 24 –25, 2 5 , 31
+and spontaneous movements of attention, 24–25, 25, 31
 
-and Stage One, 44 , 47
+and Stage One, 44, 47
 
-and Stage Two, 81 , 90
+and Stage Two, 81, 90
 
 and Stage Four, 136
 
-and Stage Five, 9 , 173–79, 1 7 6
+and Stage Five, 9, 173–79, 176
 
 and Stage Six, 220
 
@@ -10282,7 +10282,7 @@ and Stage Eight, 317
 
 and subtle distractions, 220
 
-when to do, 178 scattered attention, 9 4 , 96, 104 , 108, 122, 190 , 216, 2 9 9, 315 scope of attention
+when to do, 178 scattered attention, 94, 96, 104, 108, 122, 190, 216, 299, 315 scope of attention
 
 benefits of, 29
 
@@ -10292,71 +10292,71 @@ definition of, 28
 
 and distractions, 29
 
-and First Interlude, 24 , 26 , 28 –29
+and First Interlude, 24, 26, 28–29
 
 and meditation object, 29
 
 and Milestone Two, 10
 
-and objectives of meditation, 24 , 26, 28–29
+and objectives of meditation, 24, 26, 28–29
 
 and pīti, 331
 
 and Stage Five, 173, 177
 
-and Stage Six, 10 , 29, 38, 2 1 5 , 217 , 220, 221 , 223, 225, 227 , 228, 233 , 331
+and Stage Six, 10, 29, 38, 215, 217, 220, 221, 223, 225, 227, 228, 233, 331
 
-and Stage Seven, 29 , 38, 268, 270
+and Stage Seven, 29, 38, 268, 270
 
-and Stage Eight, 29 , 301, 318
+and Stage Eight, 29, 301, 318
 
 and Stage Nine, 331
 
-and subtle distractions, 2 1 5 , 217 , 220, 221 , 223 , 225, 227 , 228 , 233 and unconscious, 28 Second Interlude
+and subtle distractions, 215, 217, 220, 221, 223, 225, 227, 228, 233 and unconscious, 28 Second Interlude
 
-and hindrances, 65–75, 6 7 , 78
+and hindrances, 65–75, 67, 78
 
 and mindfulness, 283
 
-and problems, 75–76, 7 7 , 78 self-awareness, 115 self-centeredness, 118 self-control, 115 self-criticism, 83 self-doubt, 56 , 62 , 66, 6 7, 74–75, 76, 7 7 self-esteem, 74 self-forgiveness, 73 self-image, 243 –44 self-judgment, 2 3 , 57, 5 7 , 61–62, 82, 128 self/Self
+and problems, 75–76, 77, 78 self-awareness, 115 self-centeredness, 118 self-control, 115 self-criticism, 83 self-doubt, 56, 62, 66, 67, 74–75, 76, 77 self-esteem, 74 self-forgiveness, 73 self-image, 243–44 self-judgment, 23, 57, 57, 61–62, 82, 128 self/Self
 
-and cessation experience, 285 , 286
+and cessation experience, 285, 286
 
-and comparison of attention and awareness, 32, 3 4
+and comparison of attention and awareness, 32, 34
 
 consciousness as true, 319
 
-in control, 13, 88–89, 8 9 , 213 , 276 , 301
+in control, 13, 88–89, 89, 213, 276, 301
 
-and discriminating minds, 2 2 9
+and discriminating minds, 229
 
 ego-, 333
 
 in emotions, 136
 
-enduring sense of, 210 –11
+enduring sense of, 210–11
 
-and Fifth Interlude, 181, 1 9 2 , 207 –13, 2 0 8 , 2 0 9, 2 1 1
+and Fifth Interlude, 181, 192, 207–13, 208, 209, 211
 
-and flow, 2 3 0
+and flow, 230
 
-forgiveness of, 256 , 324
+forgiveness of, 256, 324
 
 as illusion, 345
 
-and Insight, 257, 258 –59, 285, 286 , 344
+and Insight, 257, 258–59, 285, 286, 344
 
 and interconnectedness, 345
 
 mind as, 333
 
-and Mind-System, 181, 1 9 2 , 207–13, 2 0 8 , 2 0 9, 2 1 1
+and Mind-System, 181, 192, 207–13, 208, 209, 211
 
 and mindfulness, 118
 
 negativity of, 255
 
-no-, 181, 258, 320 , 3 4 3, 344
+no-, 181, 258, 320, 343, 344
 
 perception of, 344
 
@@ -10364,191 +10364,191 @@ and personhood, 345
 
 and pīti, 333, 335
 
-and purifying the mind, 255 , 256
+and purifying the mind, 255, 256
 
-and śamatha, 3 4 3
+and śamatha, 343
 
 and Self-Other structure, 209
 
 sense of, 118
 
-as separate, 258 –59, 319
+as separate, 258–59, 319
 
-and Seventh Interlude, 285 , 286
+and Seventh Interlude, 285, 286
 
 and Stage Four, 136
 
-and Stage Six, 2 2 9
+and Stage Six, 229
 
-and Stage Seven, 267 , 276
+and Stage Seven, 267, 276
 
 and Stage Eight, 301, 319
 
-and Stage Nine, 333 , 335
+and Stage Nine, 333, 335
 
-and stages of adept meditators, 243 –44, 255 –59
+and stages of adept meditators, 243–44, 255–59
 
-and subtle distractions, 2 2 9 understanding of, 257
+and subtle distractions, 229 understanding of, 257
 
-Witness state as true, 319 self-talk, 85, 1 0 1 , 267 sense-percepts, 185 –88, 1 8 7 , 194, 197 , 224–25, 290 –95 senses/sensations
+Witness state as true, 319 self-talk, 85, 101, 267 sense-percepts, 185–88, 187, 194, 197, 224–25, 290–95 senses/sensations
 
-and breath as meditation object, 46–47, 50 –52
+and breath as meditation object, 46–47, 50–52
 
-and breathing through nose, 2 3
+and breathing through nose, 23
 
 and daily life, 225
 
-and distractions, 1 2 2
+and distractions, 122
 
 extrospective, 305
 
-and jump-starting practice, 2 3
+and jump-starting practice, 23
 
 and meditative joy, 248, 252
 
-and Mind-System, 184, 185 , 186, 197 , 200 , 202, 292 , 294
+and Mind-System, 184, 185, 186, 197, 200, 202, 292, 294
 
-and Moments of Consciousness Model, 148 , 149 –52, 1 5 1 , 154 , 156–57, 160 , 1 6 2, 163, 183
+and Moments of Consciousness Model, 148, 149–52, 151, 154, 156–57, 160, 162, 163, 183
 
-and pacifying the senses, 240, 241 –47, 252
+and pacifying the senses, 240, 241–47, 252
 
 and peripheral awareness, 31
 
-physical, 149 –52, 1 5 1 , 156 –57, 170, 184 , 185
+physical, 149–52, 151, 156–57, 170, 184, 185
 
-and pīti, 252, 330, 332 , 333
+and pīti, 252, 330, 332, 333
 
 and purifying the mind, 254
 
-and Seventh Interlude, 292 , 294
+and Seventh Interlude, 292, 294
 
-and Stage One, 4 8 , 49–54, 61
+and Stage One, 48, 49–54, 61
 
-and Stage Two, 85 , 8 6, 87, 88, 90, 92
+and Stage Two, 85, 86, 87, 88, 90, 92
 
-and Stage Three, 96, 98 , 99 , 106, 109, 110 , 111
+and Stage Three, 96, 98, 99, 106, 109, 110, 111
 
-and Stage Four, 123, 141, 142 , 144, 145
+and Stage Four, 123, 141, 142, 144, 145
 
-and Stage Five, 168–70, 172 –79, 1 7 6
+and Stage Five, 168–70, 172–79, 176
 
-and Stage Six, 220–28, 2 2 2 , 231 , 232, 233
+and Stage Six, 220–28, 222, 231, 232, 233
 
-and Stage Seven, 262 , 266, 268 –76
+and Stage Seven, 262, 266, 268–76
 
-and Stage Eight, 294, 301–2, 3 0 1 , 304, 305, 307 –13, 317, 319 –22, 324, 325
+and Stage Eight, 294, 301–2, 301, 304, 305, 307–13, 317, 319–22, 324, 325
 
-and Stage Nine, 330 , 332, 333
+and Stage Nine, 330, 332, 333
 
-and stages of adept meditators, 238 , 240, 241 –48, 252, 254
+and stages of adept meditators, 238, 240, 241–48, 252, 254
 
-and subtle distractions, 216 , 220 –28, 2 2 2 , 231 , 232, 233
+and subtle distractions, 216, 220–28, 222, 231, 232, 233
 
 and unifying the mind, 238
 
-unusual, 2 3 9 , 241–47, 272 –74, 310, 311 –12
+unusual, 239, 241–47, 272–74, 310, 311–12
 
-and when to do which practices, 3 0 1
+and when to do which practices, 301
 
 See also bizarre sensations; pacifying the senses; sensory mind; specific sensation sensory mind
 
-and binding moments, 290, 291 , 2 9 1, 292
+and binding moments, 290, 291, 291, 292
 
-and consciousness, 290 , 291–92, 2 9 1
+and consciousness, 290, 291–92, 291
 
-and discriminating mind, 292 , 293
+and discriminating mind, 292, 293
 
-and Fifth Interlude, 184, 1 8 4 , 185 –86, 190, 191 , 1 9 2, 195, 204 –5, 2 0 6, 207, 2 0 8 , 212 –13, 214
+and Fifth Interlude, 184, 184, 185–86, 190, 191, 192, 195, 204–5, 206, 207, 208, 212–13, 214
 
 functions/purpose of, 185
 
-information processing in, 290–92, 2 9 1
+information processing in, 290–92, 291
 
 and Insight, 285
 
-and Mind-System, 184–86, 1 8 4 , 190, 191 , 1 9 2, 195, 204 –7, 2 0 6 , 2 0 8, 212–13, 214, 287, 2 8 8 , 290–95, 2 9 1
+and Mind-System, 184–86, 184, 190, 191, 192, 195, 204–7, 206, 208, 212–13, 214, 287, 288, 290–95, 291
 
 and moments of consciousness, 292
 
-and pacifying the senses, 241, 246 –47
+and pacifying the senses, 241, 246–47
 
-and sense-percepts, 290 –92
+and sense-percepts, 290–92
 
-and Seventh Interlude, 285 , 287, 2 8 8 , 290 –95, 2 9 1
+and Seventh Interlude, 285, 287, 288, 290–95, 291
 
-and Stage Six, 2 1 9 , 221, 2 2 2, 224
+and Stage Six, 219, 221, 222, 224
 
-and Stage Seven, 272 –73 and Stage Eight, 300, 310, 311
+and Stage Seven, 272–73 and Stage Eight, 300, 310, 311
 
-and stages of adept meditators, 237 , 238, 241 , 246–47
+and stages of adept meditators, 237, 238, 241, 246–47
 
-and sub-minds, 290–92, 2 9 1
+and sub-minds, 290–92, 291
 
-and subtle distractions, 221 , 2 2 2, 224, 2 2 9
+and subtle distractions, 221, 222, 224, 229
 
-and unconscious, 1 8 4 , 185 –86, 190, 290, 2 9 1
+and unconscious, 184, 185–86, 190, 290, 291
 
-and unifying the mind, 237 , 238
+and unifying the mind, 237, 238
 
-and visual mind, 290 , 291 –92, 2 9 1 Seventh Interlude
+and visual mind, 290, 291–92, 291 Seventh Interlude
 
-and adept meditators, 280 , 281 , 284, 294
+and adept meditators, 280, 281, 284, 294
 
-and Awakening, 284, 286 , 287
+and Awakening, 284, 286, 287
 
-and binding moments, 289–96, 2 9 1
+and binding moments, 289–96, 291
 
-and cessation experience, 284 –87, 2 8 5 , 332, 333
+and cessation experience, 284–87, 285, 332, 333
 
-and conscious mind, 2 8 1 , 2 8 2, 2 8 5, 287, 2 8 8, 2 9 1, 292, 296
+and conscious mind, 281, 282, 285, 287, 288, 291, 292, 296
 
-and consciousness, 279 , 280, 2 8 1, 283 –87, 2 8 5 , 289 –98
+and consciousness, 279, 280, 281, 283–87, 285, 289–98
 
-and discriminating mind, 285 , 287, 2 8 8 , 292 –93
+and discriminating mind, 285, 287, 288, 292–93
 
-and dullness, 280 , 281, 2 8 1, 2 8 2
+and dullness, 280, 281, 281, 282
 
 and equanimity, 284–85
 
-and Insight, 279, 280 , 283, 284–87, 2 8 5
+and Insight, 279, 280, 283, 284–87, 285
 
-and intentions, 284–86, 2 8 5 , 289, 293, 294 , 296
+and intentions, 284–86, 285, 289, 293, 294, 296
 
 and interconnectedness, 296–98
 
 and jhānas, 295
 
-and meditation object, 280 , 293–94, 295
+and meditation object, 280, 293–94, 295
 
-and Mind-System, 259, 283 , 284, 2 8 5 , 286 , 287, 289 –96, 2 9 1 , 296
+and Mind-System, 259, 283, 284, 285, 286, 287, 289–96, 291, 296
 
-and moments of consciousness, 280, 281 , 2 8 2, 289, 292 , 293
+and moments of consciousness, 280, 281, 282, 289, 292, 293
 
-and narrating mind, 287, 289, 292 , 293
+and narrating mind, 287, 289, 292, 293
 
-and purifying the mind, 279 , 283–84
+and purifying the mind, 279, 283–84
 
 quality of, 280
 
-and reality, 283 , 286, 287, 289
+and reality, 283, 286, 287, 289
 
-and sense-percepts, 290 –95
+and sense-percepts, 290–95
 
-and sensory mind, 285, 287 , 2 8 8, 290–95, 2 9 1
+and sensory mind, 285, 287, 288, 290–95, 291
 
-and shared receptivity, 296 –98
+and shared receptivity, 296–98
 
-and sub-minds, 279, 280 , 281 , 283–92, 2 8 5 , 2 8 8, 2 9 1, 294, 295
+and sub-minds, 279, 280, 281, 283–92, 285, 288, 291, 294, 295
 
-and unconscious, 279, 2 8 1 , 2 8 2, 283, 284 , 2 8 5, 287–90, 2 8 8 , 2 9 1, 294–95, 296
+and unconscious, 279, 281, 282, 283, 284, 285, 287–90, 288, 291, 294–95, 296
 
-and unifying the mind, 279 –81, 2 8 1 , 2 8 2, 283 –87, 2 8 5
+and unifying the mind, 279–81, 281, 282, 283–87, 285
 
-and visual mind, 290 , 291 –92, 2 9 1 , 295
+and visual mind, 290, 291–92, 291, 295
 
-See also specific topic shared receptivity, 213 , 296–98 sharing experiences, 329 single-pointed attention. See exclusive attention “sinking in,” 110 , 144, 257 , 272 , 283 sitting. See posture Sixth Interlude. See adept meditators—stages of skilled meditators, 10 , 111, 216 , 235 –37, 261, 262 . See also Stage Four; Stage Five; Stage Six skills
+See also specific topic shared receptivity, 213, 296–98 sharing experiences, 329 single-pointed attention. See exclusive attention “sinking in,” 110, 144, 257, 272, 283 sitting. See posture Sixth Interlude. See adept meditators—stages of skilled meditators, 10, 111, 216, 235–37, 261, 262. See also Stage Four; Stage Five; Stage Six skills
 
-mastery differentiated from development of, 2 3 6
+mastery differentiated from development of, 236
 
 overestimation of, 3
 
@@ -10556,7 +10556,7 @@ and overview of stages, 1–2
 
 and progressing through stages, 2
 
-See also specific skill, or stage sleepiness antidotes for, 7 7 , 109–11
+See also specific skill, or stage sleepiness antidotes for, 77, 109–11
 
 and First Interlude, 37
 
@@ -10566,25 +10566,25 @@ and Milestone One, 8
 
 and Mind-System, 190
 
-and mindfulness, 37 , 281, 2 8 2
+and mindfulness, 37, 281, 282
 
-and Moments of Consciousness Model, 164 , 1 6 5, 166
+and Moments of Consciousness Model, 164, 165, 166
 
-and problems, 76, 7 7
+and problems, 76, 77
 
 and resistance, 109
 
-and Seventh Interlude, 281 , 2 8 2
+and Seventh Interlude, 281, 282
 
 and Stage One, 7, 61
 
-and Stage Three, 7, 8, 15, 9 5 , 96, 99, 106 , 108–11, 1 0 9 , 141 , 166, 170
+and Stage Three, 7, 8, 15, 95, 96, 99, 106, 108–11, 109, 141, 166, 170
 
 and Stage Four, 142, 145
 
 and strong dullness, 141
 
-and subtle dullness, 1 0 9 smell, 246 . See also physical senses sound. See physical senses space: sense of, 294 –95, 296 spiritual journey
+and subtle dullness, 109 smell, 246. See also physical senses sound. See physical senses space: sense of, 294–95, 296 spiritual journey
 
 goal of, 344
 
@@ -10592,7 +10592,7 @@ speed of, 1
 
 unfolding of process for, 1–3
 
-and uniqueness of individuals, 1 spontaneous attention, 198 , 199, 200 , 2 1 9, 306 spontaneous movements of attention, 24 –27, 2 5 , 2 6, 80, 81 , 84, 218 stable attention
+and uniqueness of individuals, 1 spontaneous attention, 198, 199, 200, 219, 306 spontaneous movements of attention, 24–27, 25, 26, 80, 81, 84, 218 stable attention
 
 and beginning meditators, 87
 
@@ -10602,531 +10602,531 @@ cultivating of, 24–26
 
 definition of, 24
 
-effortlessly, 11 , 13 , 15 , 299, 300 , 309
+effortlessly, 11, 13, 15, 299, 300, 309
 
-and First Interlude, 19 , 21, 24 –29, 38, 39
+and First Interlude, 19, 21, 24–29, 38, 39
 
 and Insight, 257
 
 and intentions, 15, 17
 
-and milestones, 8 , 11 , 13
+and milestones, 8, 11, 13
 
-and Mind-System, 203, 214 , 293
+and Mind-System, 203, 214, 293
 
 and Moments of Consciousness Model, 163
 
-as objective of meditation, 10 , 19, 21, 24–29, 38 , 39
+as objective of meditation, 10, 19, 21, 24–29, 38, 39
 
 and pīti, 334
 
 and Seventh Interlude, 293
 
-and Stage One, 52 –54
+and Stage One, 52–54
 
-and Stage Two, 81 , 84, 90, 93
+and Stage Two, 81, 84, 90, 93
 
-and Stage Three, 98, 100 , 103, 105
+and Stage Three, 98, 100, 103, 105
 
-and Stage Four, 28 , 105, 121 , 126 –29, 131, 132 , 1 3 7
+and Stage Four, 28, 105, 121, 126–29, 131, 132, 137
 
-and Stage Five, 9 , 167, 168 , 170 , 171, 174
+and Stage Five, 9, 167, 168, 170, 171, 174
 
-and Stage Six, 29 , 38, 2 1 5, 217 , 218, 220 , 222 , 232, 233
+and Stage Six, 29, 38, 215, 217, 218, 220, 222, 232, 233
 
-and Stage Seven, 15 , 29 , 237, 263 , 266, 273
+and Stage Seven, 15, 29, 237, 263, 266, 273
 
-and Stage Eight, 299, 300, 302 , 309
+and Stage Eight, 299, 300, 302, 309
 
-and Stage Nine, 327 , 334, 336
+and Stage Nine, 327, 334, 336
 
-and Stage Ten, 13 , 337 , 3 3 7 and stages of adept meditators, 237 , 240, 257
+and Stage Ten, 13, 337, 337 and stages of adept meditators, 237, 240, 257
 
-and subtle distractions, 2 1 5 , 217 , 218, 220 , 222 , 232, 233
+and subtle distractions, 215, 217, 218, 220, 222, 232, 233
 
-and success in meditation, 9 4
+and success in meditation, 94
 
 sustained, 237, 263
 
 and transition from skilled to adept meditator, 236
 
-and unifying the mind, 237 , 240 Stage One
+and unifying the mind, 237, 240 Stage One
 
-and attention, 28, 41 –63
+and attention, 28, 41–63
 
 and attitude, 58, 61–62, 63
 
-and awareness, 47 , 4 8, 49 , 52
+and awareness, 47, 48, 49, 52
 
 counting in, 52–54
 
-and diligence, 6 , 7, 4 1, 42 , 43 , 4 5, 54 , 57 , 5 7, 58, 62 , 63
+and diligence, 6, 7, 41, 42, 43, 45, 54, 57, 57, 58, 62, 63
 
-goals for, 7, 41, 4 1 , 42–43, 4 5 , 54, 79, 87
+goals for, 7, 41, 41, 42–43, 45, 54, 79, 87
 
-and hindrances, 4 1 , 44
+and hindrances, 41, 44
 
 importance of, 4
 
-mastery of, 7 , 41 , 63
+mastery of, 7, 41, 63
 
-and meditation object, 42 , 43, 46 –54, 4 8 , 5 7, 87 , 90
+and meditation object, 42, 43, 46–54, 48, 57, 87, 90
 
-and motivation, 7 , 15, 4 1 , 42, 4 5 , 54, 56, 57, 58 , 60 , 62–63
+and motivation, 7, 15, 41, 42, 45, 54, 56, 57, 58, 60, 62–63
 
-as novice meditators, 5 , 6–7, 6
+as novice meditators, 5, 6–7, 6
 
-obstacles/problems in, 7 , 41 , 4 1, 43, 55 –58, 7 7
+obstacles/problems in, 7, 41, 41, 43, 55–58, 77
 
-and posture, 42, 44, 4 5 , 50, 54 , 58 , 60 –61
+and posture, 42, 44, 45, 50, 54, 58, 60–61
 
 practical steps in, 58–63
 
-and preparation for meditation, 41, 42–54, 4 5
+and preparation for meditation, 41, 42–54, 45
 
 and rate of progress through stages, 4
 
 skills for, 7
 
-and success in meditation, 9 4
+and success in meditation, 94
 
-and time and place, 4 5 , 46, 54, 55 , 58 –60, 62
+and time and place, 45, 46, 54, 55, 58–60, 62
 
 See also establishing a practice; specific topic Stage Two
 
-and attention, 5, 6 , 7, 28 , 70–94
+and attention, 5, 6, 7, 28, 70–94
 
-and awareness, 80 , 81 , 88, 90
+and awareness, 80, 81, 88, 90
 
-and breath, 79–94, 7 9 , 8 5
+and breath, 79–94, 79, 85
 
-and control of mind, 88 –89
+and control of mind, 88–89
 
-and distractions, 7 , 80–81, 8 2
+and distractions, 7, 80–81, 82
 
-and forgetting, 7 , 7 9, 80–89, 8 2 , 8 6, 92 –93
+and forgetting, 7, 79, 80–89, 82, 86, 92–93
 
-goals for, 7, 79–80, 7 9 , 87
+goals for, 7, 79–80, 79, 87
 
-and intentions, 15, 27, 7 9 , 80, 84, 8 6 , 90, 9 5 , 172
+and intentions, 15, 27, 79, 80, 84, 86, 90, 95, 172
 
 and joy, 90–93
 
-mastery of, 7 , 80 , 94
+mastery of, 7, 80, 94
 
-and meditation object, 28 , 7 9, 80–89, 8 6 , 94
+and meditation object, 28, 79, 80–89, 86, 94
 
 and Mind-System, 189
 
-and mind-wandering, 6 , 7, 15 , 7 7, 7 9, 80 –89, 8 2 , 8 6, 8 9, 92–93, 94 , 124
+and mind-wandering, 6, 7, 15, 77, 79, 80–89, 82, 86, 89, 92–93, 94, 124
 
-and mindfulness, 81 , 87
+and mindfulness, 81, 87
 
-and monkey-mind, 7 7 , 80, 89–90
+and monkey-mind, 77, 80, 89–90
 
-as novice meditators, 5 , 6, 7
+as novice meditators, 5, 6, 7
 
-obstacles/problems in, 7 , 7 7, 80 , 81, 87
+obstacles/problems in, 7, 77, 80, 81, 87
 
-and patience/impatience, 7 7 , 90–93
+and patience/impatience, 77, 90–93
 
-review of, 8 6
+review of, 86
 
 skills for, 7
 
 See also specific topic Stage Three
 
-and attention, 6 , 7 –8, 28 , 97 –100, 1 0 1 , 1 0 2, 103, 105 , 111 , 166
+and attention, 6, 7–8, 28, 97–100, 101, 102, 103, 105, 111, 166
 
-and awareness, 99 –100, 110, 166
+and awareness, 99–100, 110, 166
 
-and checking in, 8 , 96, 98, 101 , 103 –5, 1 0 4 , 111 , 124 , 170
+and checking in, 8, 96, 98, 101, 103–5, 104, 111, 124, 170
 
-and connecting, 8, 96 , 98 , 100, 1 0 1 , 1 0 2, 1 0 4
+and connecting, 8, 96, 98, 100, 101, 102, 104
 
-and distractions, 8 , 15, 9 5 , 96–98, 9 7 , 100–105, 1 0 2 , 1 0 3, 1 0 4, 170
+and distractions, 8, 15, 95, 96–98, 97, 100–105, 102, 103, 104, 170
 
-and dullness, 15 , 7 7, 9 5, 100 , 106, 108–11, 1 0 9 , 141, 143 , 170
+and dullness, 15, 77, 95, 100, 106, 108–11, 109, 141, 143, 170
 
-and First Milestone, 96 , 111
+and First Milestone, 96, 111
 
-and following the breath, 8 , 96 , 98–100, 1 0 1 , 1 0 2, 103, 1 0 4 , 109, 1 0 9 , 111
+and following the breath, 8, 96, 98–100, 101, 102, 103, 104, 109, 109, 111
 
-and forgetting, 6 , 7–8, 7 7 , 9 5, 96 –105, 9 7 , 1 0 2, 1 0 4, 111, 123, 124
+and forgetting, 6, 7–8, 77, 95, 96–105, 97, 102, 104, 111, 123, 124
 
-goals for, 8, 83, 87, 95 –96, 9 5 , 98
+goals for, 8, 83, 87, 95–96, 95, 98
 
-and gross distractions, 96 , 97 , 1 0 2, 104 –5, 1 0 4 , 111, 123 , 124 , 170
+and gross distractions, 96, 97, 102, 104–5, 104, 111, 123, 124, 170
 
-and hindrances, 9 5
+and hindrances, 95
 
 and Insight, 100, 106
 
-and intentions, 15, 9 5 , 99 , 103, 104 , 106, 110–11, 124 , 172
+and intentions, 15, 95, 99, 103, 104, 106, 110–11, 124, 172
 
-and introspective attention, 15 , 9 5, 103 –5, 111, 124 , 126
+and introspective attention, 15, 95, 103–5, 111, 124, 126
 
-and introspective awareness, 8 , 96, 98, 101 –5, 1 0 2 , 111, 124 , 126 , 138, 170
+and introspective awareness, 8, 96, 98, 101–5, 102, 111, 124, 126, 138, 170
 
-and labeling, 8 , 96, 98, 101 –2, 1 0 3 , 104, 105
+and labeling, 8, 96, 98, 101–2, 103, 104, 105
 
-mastery of, 8 , 96 , 111
+mastery of, 8, 96, 111
 
-and meditation object, 87 , 96 –97, 9 7 , 106, 108 , 111
+and meditation object, 87, 96–97, 97, 106, 108, 111
 
-and mind-wandering, 7, 8, 95 , 9 5, 97 , 101 , 102, 111
+and mind-wandering, 7, 8, 95, 95, 97, 101, 102, 111
 
-and mindfulness, 38 , 9 5
+and mindfulness, 38, 95
 
-as novice meditators, 5 , 6 , 7–8
+as novice meditators, 5, 6, 7–8
 
-obstacles/problems in, 8 , 7 7, 9 5
+obstacles/problems in, 8, 77, 95
 
-and peripheral awareness, 15, 96–99, 103 –4, 111, 166
+and peripheral awareness, 15, 96–99, 103–4, 111, 166
 
 skills for, 8
 
-and sleepiness, 7, 8, 15, 9 5 , 96, 99, 106 , 108–11, 1 0 9 , 141 , 166, 170
+and sleepiness, 7, 8, 15, 95, 96, 99, 106, 108–11, 109, 141, 166, 170
 
 See also specific topic Stage Four
 
-and breath, 123 –40, 1 2 5 , 138, 1 4 1 , 142, 144, 146
+and breath, 123–40, 125, 138, 141, 142, 144, 146
 
-and distractions, 28, 7 7 , 123–26, 1 2 5 , 131–36, 1 3 3 , 138 –39, 140, 142 , 236
+and distractions, 28, 77, 123–26, 125, 131–36, 133, 138–39, 140, 142, 236
 
-and dullness, 7 7 , 131 , 140, 141–45, 1 4 1 , 236
+and dullness, 77, 131, 140, 141–45, 141, 236
 
-and emotions, 8 , 128, 129 , 134 –39, 1 3 7 , 145 , 259
+and emotions, 8, 128, 129, 134–39, 137, 145, 259
 
-goals for, 8, 83, 87, 121 –22, 1 2 1 , 126 , 129 , 138, 141 , 145
+goals for, 8, 83, 87, 121–22, 121, 126, 129, 138, 141, 145
 
-and gross distractions, 6 , 8 –9, 1 2 1 , 122 –40, 1 2 5 , 1 2 7, 145 , 1 4 6
+and gross distractions, 6, 8–9, 121, 122–40, 125, 127, 145, 146
 
-and Insight, 128, 129 , 132–33, 1 3 3
+and Insight, 128, 129, 132–33, 133
 
-and intentions, 15, 1 2 1 , 126 , 133, 144, 166
+and intentions, 15, 121, 126, 133, 144, 166
 
-and introspective awareness, 8 , 9, 38 , 100, 105 , 1 2 1, 122, 124 , 126–29, 131 , 138 , 140, 142 –43, 1 4 3
+and introspective awareness, 8, 9, 38, 100, 105, 121, 122, 124, 126–29, 131, 138, 140, 142–43, 143
 
-mastery of, 9 , 145–46
+mastery of, 9, 145–46
 
-and meditation object, 28 , 84 , 87 , 121–23, 126 , 128–31, 1 3 0 , 133, 135, 1 3 7 , 138, 140, 141 , 144, 146
+and meditation object, 28, 84, 87, 121–23, 126, 128–31, 130, 133, 135, 137, 138, 140, 141, 144, 146
 
-and memories, 8 , 128 , 134–39, 1 3 7 , 145
+and memories, 8, 128, 134–39, 137, 145
 
-and mindfulness, 38 , 118, 122 , 123 , 126, 127 , 129, 131, 132 , 139–40, 144 , 146
+and mindfulness, 38, 118, 122, 123, 126, 127, 129, 131, 132, 139–40, 144, 146
 
-obstacles/problems in, 8 , 7 7, 124
+obstacles/problems in, 8, 77, 124
 
-and pain, 8, 9, 128 –31, 1 3 0 , 1 3 1, 135
+and pain, 8, 9, 128–31, 130, 131, 135
 
-as skilled meditators, 5, 6 , 8–9
+as skilled meditators, 5, 6, 8–9
 
 skills for, 9
 
-and stable attention, 28, 105 , 121 , 126–29, 131 , 132, 1 3 7
+and stable attention, 28, 105, 121, 126–29, 131, 132, 137
 
-and strong dullness, 6 , 8–9, 1 2 1 , 122, 141 –45, 1 4 3 , 1 4 6, 166 , 169
+and strong dullness, 6, 8–9, 121, 122, 141–45, 143, 146, 166, 169
 
-and subtle distractions, 9, 122, 124 , 1 2 5, 1 2 7, 128 , 138, 140 , 1 4 1, 1 4 6
+and subtle distractions, 9, 122, 124, 125, 127, 128, 138, 140, 141, 146
 
-and subtle dullness, 9 , 1 2 1, 122, 142 –45, 1 4 3 , 1 4 6, 166 and sustained attention, 28, 87 , 123 , 124, 140 , 146
+and subtle dullness, 9, 121, 122, 142–45, 143, 146, 166 and sustained attention, 28, 87, 123, 124, 140, 146
 
 and transition from skilled to adept meditator, 236
 
-and visions, 134 –36, 138–39
+and visions, 134–36, 138–39
 
 See also specific topic Stage Five
 
 and adept mediators, 171
 
-and alertness, 168, 169 , 170, 171, 172 –73, 175
+and alertness, 168, 169, 170, 171, 172–73, 175
 
-and awareness, 9 , 170 , 171–72, 174 , 177
+and awareness, 9, 170, 171–72, 174, 177
 
-and breath, 169 , 170 , 172–79, 1 7 6
+and breath, 169, 170, 172–79, 176
 
-and consciousness, 35, 166 , 167, 173 , 177 , 179
+and consciousness, 35, 166, 167, 173, 177, 179
 
-and corrections, 1 6 7 , 168 , 171, 178 –79, 236
+and corrections, 167, 168, 171, 178–79, 236
 
-and dullness, 170 –71, 172, 173 , 178, 179 , 236
+and dullness, 170–71, 172, 173, 178, 179, 236
 
-goals for, 9, 167–68, 1 6 7 , 173
+goals for, 9, 167–68, 167, 173
 
-and intentions, 15, 166, 1 6 7 , 171–74, 177 , 178 , 179
+and intentions, 15, 166, 167, 171–74, 177, 178, 179
 
-and introspective awareness, 38, 100, 164 , 168–73, 177 , 178 , 179
+and introspective awareness, 38, 100, 164, 168–73, 177, 178, 179
 
-mastery of, 9 , 168, 179
+mastery of, 9, 168, 179
 
-and meditation object, 168 , 169, 172 , 173 , 174, 177 , 178 , 179
+and meditation object, 168, 169, 172, 173, 174, 177, 178, 179
 
-and mindfulness, 6 , 9, 38, 166 , 1 6 7, 168, 171 , 173 –79, 1 7 6
+and mindfulness, 6, 9, 38, 166, 167, 168, 171, 173–79, 176
 
-obstacles/problems in, 9 , 7 7
+obstacles/problems in, 9, 77
 
-and peripheral awareness, 9 , 167, 168 –69, 171, 174, 177 , 179
+and peripheral awareness, 9, 167, 168–69, 171, 174, 177, 179
 
-and scanning, 9 , 173 –79, 1 7 6
+and scanning, 9, 173–79, 176
 
-and sensations, 168, 169, 170 , 172–79, 1 7 6
+and sensations, 168, 169, 170, 172–79, 176
 
-as skilled meditators, 5, 6 , 9
+as skilled meditators, 5, 6, 9
 
 skills for, 9
 
-and stable attention, 9, 167, 168 , 170, 171 , 174
+and stable attention, 9, 167, 168, 170, 171, 174
 
-and subtle distractions, 167 , 168 , 169, 172 , 177
+and subtle distractions, 167, 168, 169, 172, 177
 
-and subtle dullness, 6 , 9, 7 7, 142, 143 , 166 , 167–73, 1 6 7 , 178–79
+and subtle dullness, 6, 9, 77, 142, 143, 166, 167–73, 167, 178–79
 
 and transition from skilled to adept meditator, 236
 
 See also specific topic Stage Six
 
-and acquired appearance, 225, 231, 293 –94
+and acquired appearance, 225, 231, 293–94
 
-and alternating attention, 216, 217 –18, 2 1 9 , 221 , 227
+and alternating attention, 216, 217–18, 219, 221, 227
 
-and attention, 9, 28, 29 , 38, 220, 228 –29
+and attention, 9, 28, 29, 38, 220, 228–29
 
-and breath, 220 –21, 224–26
+and breath, 220–21, 224–26
 
-and consciousness, 38, 217 , 2 1 8, 2 1 9, 221–24, 2 2 2 , 226 , 228 , 229, 236 , 263
+and consciousness, 38, 217, 218, 219, 221–24, 222, 226, 228, 229, 236, 263
 
-and discriminating minds, 217, 2 1 9 , 221–25, 2 2 2 , 2 2 9, 263
+and discriminating minds, 217, 219, 221–25, 222, 229, 263
 
-and distractions, 10, 7 7 , 218–24, 2 1 8 , 2 1 9, 2 2 2, 228 , 231, 236, 263
+and distractions, 10, 77, 218–24, 218, 219, 222, 228, 231, 236, 263
 
-and exclusive attention, 9, 10, 168 , 2 1 5, 216–26, 2 1 8 , 2 1 9, 2 2 2, 231, 232 , 233
+and exclusive attention, 9, 10, 168, 215, 216–26, 218, 219, 222, 231, 232, 233
 
-and experiencing the whole body with the breath, 10, 220–23, 2 2 2 , 226, 227 , 231 –32, 248, 331
+and experiencing the whole body with the breath, 10, 220–23, 222, 226, 227, 231–32, 248, 331
 
-goals for, 10, 215 –16, 2 1 5 , 226
+goals for, 10, 215–16, 215, 226
 
 and Insight, 226
 
-and intentions, 15, 2 1 5 , 216 , 218–21, 2 1 8 , 2 1 9, 223–24, 226 , 227–28, 231 , 263
+and intentions, 15, 215, 216, 218–21, 218, 219, 223–24, 226, 227–28, 231, 263
 
 and jhāna, 230–33, 315
 
-mastery of, 10 , 216, 233
+mastery of, 10, 216, 233
 
-and meditation object, 29 , 2 1 8, 220, 221 , 223–26, 231 , 233 , 293–94
+and meditation object, 29, 218, 220, 221, 223–26, 231, 233, 293–94
 
 and meditative absorption, 229–33
 
-and metacognitive introspective awareness, 10, 38 , 2 1 5, 216, 226 –29, 2 2 9 , 233
+and metacognitive introspective awareness, 10, 38, 215, 216, 226–29, 229, 233
 
 and milestones, 216, 233
 
-and Mind-System, 218, 2 1 8 , 2 1 9, 223, 228
+and Mind-System, 218, 218, 219, 223, 228
 
-and mindfulness, 10 , 38, 2 1 5 , 216 , 226, 233 and Moments of Consciousness Model, 2 1 8
+and mindfulness, 10, 38, 215, 216, 226, 233 and Moments of Consciousness Model, 218
 
-obstacles/problems in, 10 , 7 7
+obstacles/problems in, 10, 77
 
-and pacifying the mind, 217, 223 –26, 236, 237 , 263
+and pacifying the mind, 217, 223–26, 236, 237, 263
 
-and peripheral awareness, 10, 217, 218 , 220–23, 226 , 227, 228, 233
+and peripheral awareness, 10, 217, 218, 220–23, 226, 227, 228, 233
 
-and scope of attention, 10, 29, 38, 2 1 5 , 217, 220, 221 , 223, 225, 227 , 228, 233 , 331
+and scope of attention, 10, 29, 38, 215, 217, 220, 221, 223, 225, 227, 228, 233, 331
 
-and sensations, 220–28, 2 2 2 , 231 , 232, 233
+and sensations, 220–28, 222, 231, 232, 233
 
-and skilled meditators, 5 , 6, 9–10, 216
+and skilled meditators, 5, 6, 9–10, 216
 
 skills for, 10
 
-and stable attention, 29, 38, 2 1 5 , 217, 218, 220 , 222, 232 , 233
+and stable attention, 29, 38, 215, 217, 218, 220, 222, 232, 233
 
-and stages of adept meditators, 237 , 2 4 0
+and stages of adept meditators, 237, 240
 
-and sub-minds, 218–23, 2 1 8 , 2 1 9, 2 2 2, 228, 263
+and sub-minds, 218–23, 218, 219, 222, 228, 263
 
-and subtle distractions, 6 , 9–10, 215 –33, 2 1 5 , 2 1 8, 2 2 2, 2 2 9
+and subtle distractions, 6, 9–10, 215–33, 215, 218, 222, 229
 
 and transition from skilled to adept meditator, 236
 
-and unconscious mind, 218, 2 1 8 , 2 1 9, 220 , 222–23, 2 2 2 , 263
+and unconscious mind, 218, 218, 219, 220, 222–23, 222, 263
 
-and unifying the mind, 237 , 2 3 9, 2 4 0
+and unifying the mind, 237, 239, 240
 
 See also specific topic Stage Seven
 
-and adept meditators, 233 , 262 , 277
+and adept meditators, 233, 262, 277
 
-and Close Following, 266 , 268–70, 272 , 295
+and Close Following, 266, 268–70, 272, 295
 
-and diligence, 11 , 262–66, 2 6 4 , 275 , 277
+and diligence, 11, 262–66, 264, 275, 277
 
-and discriminating mind, 236 –37, 264, 267 –68, 274–77
+and discriminating mind, 236–37, 264, 267–68, 274–77
 
-and distractions, 11, 15, 216 , 2 6 1, 262–66, 269 , 272–76
+and distractions, 11, 15, 216, 261, 262–66, 269, 272–76
 
-and dryness, 265 –72, 273, 275
+and dryness, 265–72, 273, 275
 
-and effort/effortlessness, 10, 11 , 237 , 261–66, 2 6 1 , 2 6 4, 269, 272 , 274–77
+and effort/effortlessness, 10, 11, 237, 261–66, 261, 264, 269, 272, 274–77
 
-and exclusive attention, 6 , 10 –11, 236–37, 261 –65, 2 6 4 , 267, 268 , 270, 271, 275
+and exclusive attention, 6, 10–11, 236–37, 261–65, 264, 267, 268, 270, 271, 275
 
 and flow, 270–71, 272
 
-goals for, 10, 261 –63, 2 6 1
+goals for, 10, 261–63, 261
 
-and hindrances, 2 6 1
+and hindrances, 261
 
-and Insight, 11, 269 –70, 272, 341
+and Insight, 11, 269–70, 272, 341
 
-and intentions, 15, 263, 264 , 265, 268, 272 , 274, 275 , 277
+and intentions, 15, 263, 264, 265, 268, 272, 274, 275, 277
 
-and jhāna, 11, 232 , 266 , 270–72, 315
+and jhāna, 11, 232, 266, 270–72, 315
 
-and joy, 232, 262 , 266 , 268, 272 , 273, 275, 276
+and joy, 232, 262, 266, 268, 272, 273, 275, 276
 
-and letting go, 262 , 263 , 275, 276 –77
+and letting go, 262, 263, 275, 276–77
 
-mastery of, 11 , 263, 277
+mastery of, 11, 263, 277
 
-and meditative joy, 2 3 9 , 241 , 259 , 273, 276 –77, 315
+and meditative joy, 239, 241, 259, 273, 276–77, 315
 
 methods for, 11
 
-and Mind-System, 236, 237 , 263, 264
+and Mind-System, 236, 237, 263, 264
 
-and mindfulness, 10 , 11, 15, 118 , 237 , 261–64, 2 6 1 , 266, 270 , 275
+and mindfulness, 10, 11, 15, 118, 237, 261–64, 261, 266, 270, 275
 
-obstacles/problems in, 11 , 236, 262, 276 –77
+obstacles/problems in, 11, 236, 262, 276–77
 
-and peripheral awareness, 264, 2 6 4 , 267 , 271, 272 , 274 , 275, 277
+and peripheral awareness, 264, 264, 267, 271, 272, 274, 275, 277
 
-and pīti, 2 3 9 , 252, 262 , 273, 275
+and pīti, 239, 252, 262, 273, 275
 
-and sensations, 262, 266, 268 –76
+and sensations, 262, 266, 268–76
 
 and skilled meditators, 261, 262
 
-and stages of adept meditators, 235 , 237, 238 , 2 4 0
+and stages of adept meditators, 235, 237, 238, 240
 
-and sub-minds, 236–37, 262 –65, 272–74
+and sub-minds, 236–37, 262–65, 272–74
 
 and Third Milestone, 277
 
 and transition from skilled to adept meditator, 236
 
-as transition stage, 5, 6 , 10 –11, 262
+as transition stage, 5, 6, 10–11, 262
 
-and unifying the mind, 6 , 10 –11, 224, 231 , 236–38, 2 3 9 , 2 4 0, 262, 263 , 266 , 268, 270 –71, 274–77
+and unifying the mind, 6, 10–11, 224, 231, 236–38, 239, 240, 262, 263, 266, 268, 270–71, 274–77
 
-and vigilance, 10, 11, 261 , 2 6 1, 262, 264 –65, 2 6 4 , 269, 271 , 275 See also specific topic Stage Eight
+and vigilance, 10, 11, 261, 261, 262, 264–65, 264, 269, 271, 275 See also specific topic Stage Eight
 
-as adept meditators, 5 , 6, 11–12, 299 , 300
+as adept meditators, 5, 6, 11–12, 299, 300
 
-and compliant mind, 299 –309, 3 0 1 , 3 0 3, 3 0 5, 3 0 8, 311
+and compliant mind, 299–309, 301, 303, 305, 308, 311
 
-and consciousness, 38, 294 , 305–7, 309 , 310 , 311, 313 , 318 , 320
+and consciousness, 38, 294, 305–7, 309, 310, 311, 313, 318, 320
 
-and effortlessness, 12 , 16 , 299, 2 9 9 , 301 , 302, 3 0 3 , 3 0 5, 324
+and effortlessness, 12, 16, 299, 299, 301, 302, 303, 305, 324
 
-and energy, 12, 2 3 9 , 3 0 1, 302, 308, 310 , 311, 315 , 3 1 6, 317, 322 , 324 , 325
+and energy, 12, 239, 301, 302, 308, 310, 311, 315, 316, 317, 322, 324, 325
 
-and exclusive attention, 11, 302 , 3 0 5, 309, 310 , 311 , 321
+and exclusive attention, 11, 302, 305, 309, 310, 311, 321
 
-and experimenting with attention, 301–5, 3 0 3
+and experimenting with attention, 301–5, 303
 
 and getting stuck, 324
 
-goals for, 12, 299 –300, 2 9 9 , 309 , 320
+goals for, 12, 299–300, 299, 309, 320
 
-and hindrances, 277 , 2 9 9, 324
+and hindrances, 277, 299, 324
 
-and horses analogy, 315 , 3 1 6, 317
+and horses analogy, 315, 316, 317
 
-and inner light, 300, 311, 312 , 325
+and inner light, 300, 311, 312, 325
 
-and Insight, 12, 307 , 319 , 320, 341
+and Insight, 12, 307, 319, 320, 341
 
-and intentions, 14, 16, 294 , 302 , 3 0 3, 304 –11, 314, 321, 322 –23
+and intentions, 14, 16, 294, 302, 303, 304–11, 314, 321, 322–23
 
-and jhānas, 12, 304 –5, 314 –15, 320–23, 330
+and jhānas, 12, 304–5, 314–15, 320–23, 330
 
-and joy, 12, 16, 2 9 9 , 300 , 305, 312 –15, 322, 323 , 325
+and joy, 12, 16, 299, 300, 305, 312–15, 322, 323, 325
 
-mastery of, 12 , 258, 300 , 325
+mastery of, 12, 258, 300, 325
 
-and meditative joy, 12, 238, 2 3 9 , 241, 259, 273 , 277, 2 9 9 , 300 , 3 0 1, 309 –15, 3 1 6 , 317–23, 324 , 325
+and meditative joy, 12, 238, 239, 241, 259, 273, 277, 299, 300, 301, 309–15, 316, 317–23, 324, 325
 
-and mental pliancy, 6 , 11 –12, 16, 237 , 299 –302, 2 9 9 , 304 , 3 0 5, 306 , 309 , 310
+and mental pliancy, 6, 11–12, 16, 237, 299–302, 299, 304, 305, 306, 309, 310
 
-and metacognitive awareness, 126, 300 , 302 , 305–9, 3 0 8 , 311 , 319
+and metacognitive awareness, 126, 300, 302, 305–9, 308, 311, 319
 
 methods for, 12
 
-and Mind-System, 294, 306 , 311, 314
+and Mind-System, 294, 306, 311, 314
 
-and mindfulness, 11 , 280, 299 , 300 , 307, 314
+and mindfulness, 11, 280, 299, 300, 307, 314
 
 obstacles in, 12
 
-and pacifying the senses, 6 , 11 –12, 238, 2 3 9 , 241 , 2 9 9, 300, 3 0 1 , 3 0 5, 307, 309 –15, 3 1 6 , 317 , 320 , 321,
+and pacifying the senses, 6, 11–12, 238, 239, 241, 299, 300, 301, 305, 307, 309–15, 316, 317, 320, 321,
 
 324
 
-and peripheral awareness, 301, 302 , 3 0 3, 306, 307 , 308 , 311, 312 , 318–19, 320 , 321
+and peripheral awareness, 301, 302, 303, 306, 307, 308, 311, 312, 318–19, 320, 321
 
-and physical pliancy, 11 –12, 16, 238, 2 3 9 , 2 9 9, 300, 310 , 317–23, 325
+and physical pliancy, 11–12, 16, 238, 239, 299, 300, 310, 317–23, 325
 
-and pīti, 252, 253, 3 0 1 , 305, 307 , 312 , 315, 317 , 318 , 319, 324 , 325
+and pīti, 252, 253, 301, 305, 307, 312, 315, 317, 318, 319, 324, 325
 
-and Realizing the Witness, 318 –20
+and Realizing the Witness, 318–20
 
-and senses/sensations, 294, 301 –2, 3 0 1 , 304, 307 –13, 317, 319 –22, 324, 325
+and senses/sensations, 294, 301–2, 301, 304, 307–13, 317, 319–22, 324, 325
 
-and stages of adept meditators, 235 , 237, 238 , 2 4 0
+and stages of adept meditators, 235, 237, 238, 240
 
 and still point, 318–20
 
-and sub-minds, 3 0 5 , 306 , 308 , 309, 310 , 314 , 315
+and sub-minds, 305, 306, 308, 309, 310, 314, 315
 
-and unifying the mind, 11 –12, 237, 238, 2 3 9 , 2 4 0, 277, 300 , 3 0 5, 306, 307 , 309–15, 3 1 6 , 317 , 319, 320 ,
+and unifying the mind, 11–12, 237, 238, 239, 240, 277, 300, 305, 306, 307, 309–15, 316, 317, 319, 320,
 
 323, 324
 
-and when to do which practices, 3 0 1
+and when to do which practices, 301
 
 See also specific topic Stage Nine
 
-as adept meditators, 5 , 6, 12
+as adept meditators, 5, 6, 12
 
 and Awakening, 334
 
-and bliss of mental pliancy, 238–39, 328 , 330 , 335
+and bliss of mental pliancy, 238–39, 328, 330, 335
 
-and bliss of physical pliancy, 238–39, 328 , 330
+and bliss of physical pliancy, 238–39, 328, 330
 
-and consciousness, 331 , 332–34
+and consciousness, 331, 332–34
 
-and emptiness, 332 –34
+and emptiness, 332–34
 
-and energy, 328, 329 , 330, 334, 335 , 3 3 5
+and energy, 328, 329, 330, 334, 335, 335
 
-and equanimity, 12, 16, 2 3 9 , 259, 327–30, 3 2 7 , 332, 334 –36, 3 3 5
+and equanimity, 12, 16, 239, 259, 327–30, 327, 332, 334–36, 335
 
-and flowing water analogy, 334–35, 3 3 5 goals for, 12, 327 –28, 3 2 7 , 330–31, 332
+and flowing water analogy, 334–35, 335 goals for, 12, 327–28, 327, 330–31, 332
 
-and Insight, 331, 332 –34, 341
+and Insight, 331, 332–34, 341
 
-and intellectual understanding, 332 –33, 334
+and intellectual understanding, 332–33, 334
 
 and jhānas, 330–31
 
-and joy, 6 , 327 –36, 3 3 5
+and joy, 6, 327–36, 335
 
-mastery of, 12 , 336
+mastery of, 12, 336
 
-and meditative joy, 12, 16, 325 , 327 , 3 2 7, 328, 336
+and meditative joy, 12, 16, 325, 327, 327, 328, 336
 
 methods for, 12
 
@@ -11138,55 +11138,55 @@ and nature of mind, 332–34
 
 obstacles in, 12
 
-and physical pliancy, 6 , 12, 3 2 7, 328 , 329, 330
+and physical pliancy, 6, 12, 327, 328, 329, 330
 
-and pīti, 253, 328, 329 –35, 3 3 5
+and pīti, 253, 328, 329–35, 335
 
-and śamatha, 327, 3 2 7 , 335 , 3 3 5, 336
+and śamatha, 327, 327, 335, 335, 336
 
-and stages of adept meditators, 235 , 237, 238 –39, 240, 2 4 0
+and stages of adept meditators, 235, 237, 238–39, 240, 240
 
-and tranquility, 12 , 16, 2 3 9, 259, 327 –30, 3 2 7 , 332 , 334 –36, 3 3 5
+and tranquility, 12, 16, 239, 259, 327–30, 327, 332, 334–36, 335
 
-and unifying the mind, 237 –40, 2 3 9 , 2 4 0, 317, 328–31
+and unifying the mind, 237–40, 239, 240, 317, 328–31
 
 See also specific topic Stage Ten
 
-as adept meditators, 5 , 6, 13
+as adept meditators, 5, 6, 13
 
-and Awakening, 3 3 7 , 3 3 9, 341
+and Awakening, 337, 339, 341
 
 beyond, 341–45
 
-and equanimity, 6 , 13 , 16, 259, 331, 336 –39, 3 3 7
+and equanimity, 6, 13, 16, 259, 331, 336–39, 337
 
-goals for, 327–28, 337 –38, 3 3 7
+goals for, 327–28, 337–38, 337
 
 and hindrances, 78
 
-and Insight, 3 3 9 , 340 , 341
+and Insight, 339, 340, 341
 
 and intentions, 16, 338, 339
 
-and jhāna, 331, 3 3 9
+and jhāna, 331, 339
 
-and joy, 327, 337 –39, 3 3 7
+and joy, 327, 337–39, 337
 
-mastery of, 13 , 340, 341
+mastery of, 13, 340, 341
 
 and Milestone Four, 340
 
-and mindfulness, 13 , 337–39, 3 3 7
+and mindfulness, 13, 337–39, 337
 
-practices for, 3 3 9
+practices for, 339
 
-and śamatha, 13 , 2 3 9, 327 , 337 –40, 3 3 7
+and śamatha, 13, 239, 327, 337–40, 337
 
-and stages of adept meditators, 235 , 237, 240 , 2 4 0
+and stages of adept meditators, 235, 237, 240, 240
 
-and tranquility, 6 , 13 , 16, 331, 337 , 3 3 7, 340
+and tranquility, 6, 13, 16, 331, 337, 337, 340
 
-and unifying the mind, 237 , 2 3 9, 240, 2 4 0, 337, 338–39
+and unifying the mind, 237, 239, 240, 240, 337, 338–39
 
 See also specific topic stages
 
@@ -11212,43 +11212,43 @@ and joy, 93 need for understanding of, 4–5
 
 overview of, 1–17
 
-progressing through, 1 –5, 3
+progressing through, 1–5, 3
 
-progression of mindfulness through, 37 –38
+progression of mindfulness through, 37–38
 
 skipping/shortcutting, 2
 
-See also specific stage or topic standing meditation, 110, 143 –44 startle reactions, 171 still point, 318–20, 331 stress, 4, 35 , 55, 59 , 72, 108 , 115 strong dullness
+See also specific stage or topic standing meditation, 110, 143–44 startle reactions, 171 still point, 318–20, 331 stress, 4, 35, 55, 59, 72, 108, 115 strong dullness
 
-antidotes for, 142–45, 1 4 3
+antidotes for, 142–45, 143
 
 definition of, 109
 
-and Moments of Consciousness Model, 164 , 1 6 5, 166
+and Moments of Consciousness Model, 164, 165, 166
 
-overcoming, 6 , 8–9, 141–45, 1 4 6
+overcoming, 6, 8–9, 141–45, 146
 
-and seduction of dullness, 1 4 5
+and seduction of dullness, 145
 
 and sleepiness, 141, 145
 
-and Stage Three, 109 , 1 0 9, 141, 143
+and Stage Three, 109, 109, 141, 143
 
-and Stage Four, 6 , 8–9, 1 2 1 , 122 , 141 –45, 1 4 3 , 1 4 6, 166, 169
+and Stage Four, 6, 8–9, 121, 122, 141–45, 143, 146, 166, 169
 
-and Stage Five, 167, 1 6 7 sub-minds
+and Stage Five, 167, 167 sub-minds
 
-and cessation experience, 284 –85, 2 8 5 , 286, 287
+and cessation experience, 284–85, 285, 286, 287
 
-and Fifth Interlude, 184–86, 1 8 4 , 1 8 7, 188–205, 1 9 2 , 2 0 4, 2 0 6, 207 , 2 0 8, 209–14, 2 0 9
+and Fifth Interlude, 184–86, 184, 187, 188–205, 192, 204, 206, 207, 208, 209–14, 209
 
 functions of, 195–96
 
-and Insight, 257, 258 , 284–87, 2 8 5 , 344
+and Insight, 257, 258, 284–87, 285, 344
 
-and Mind-System, 184–214, 1 8 4 , 1 8 7, 1 9 2, 2 0 4, 2 0 6, 2 0 8, 2 0 9, 287, 2 8 8, 289, 290, 291 –92, 2 9 1 , 294, 295
+and Mind-System, 184–214, 184, 187, 192, 204, 206, 208, 209, 287, 288, 289, 290, 291–92, 291, 294, 295
 
-and mindfulness, 279, 280, 281 , 283
+and mindfulness, 279, 280, 281, 283
 
 and pacifying the senses, 241
 
@@ -11256,61 +11256,61 @@ and pīti, 332, 333
 
 and purifying the mind, 283–84
 
-and śamatha, 342, 3 4 3 , 344
+and śamatha, 342, 343, 344
 
-and sensory mind, 290–92, 2 9 1
+and sensory mind, 290–92, 291
 
-and Seventh Interlude, 279 –81, 283–92, 2 8 5 , 2 8 8, 2 9 1, 294, 295
+and Seventh Interlude, 279–81, 283–92, 285, 288, 291, 294, 295
 
-and skill development versus mastery, 2 3 6
+and skill development versus mastery, 236
 
-and Stage Six, 218–23, 2 1 8 , 2 1 9, 2 2 2, 228 , 263
+and Stage Six, 218–23, 218, 219, 222, 228, 263
 
-and Stage Seven, 236 –37, 262 –65, 272–74
+and Stage Seven, 236–37, 262–65, 272–74
 
-and Stage Eight, 3 0 5 , 306, 308 , 309, 310, 314 , 315
+and Stage Eight, 305, 306, 308, 309, 310, 314, 315
 
-and Stage Nine, 332 , 333
+and Stage Nine, 332, 333
 
 and Stage Ten, 339
 
-and stages of adept meditators, 237 , 238, 241 , 257, 258
+and stages of adept meditators, 237, 238, 241, 257, 258
 
-sub-, 287, 2 8 8 , 289
+sub-, 287, 288, 289
 
-and subtle distractions, 218 –23, 2 1 9 , 2 2 2, 228
+and subtle distractions, 218–23, 219, 222, 228
 
 and transition from skilled to adept meditator, 236–37
 
-and unconscious mind, 2 1 8
+and unconscious mind, 218
 
-and unifying the mind, 237 , 238 subtle distractions
+and unifying the mind, 237, 238 subtle distractions
 
 and acquired appearance, 225, 231
 
-and alertness, 227–28, 229 , 231, 232
+and alertness, 227–28, 229, 231, 232
 
-and alternating attention, 216, 217 –18, 2 1 9 , 221 , 227
+and alternating attention, 216, 217–18, 219, 221, 227
 
-and awareness, 216 , 221, 2 2 9 and binding moments, 226, 228 , 2 2 9 and body position, 226 and breath, 218 , 2 1 9, 220–21, 224 –26 and breath at the nose, 220 , 222 , 227, 231 and conscious intentions, 217 –20, 2 1 9 and consciousness, 217 , 2 1 9, 221–24, 2 2 2 , 226, 228 , 229 and corrections, 1 2 7 , 228 , 233 definition of, 96 , 1 2 2 and directed attention, 227 and discriminating mind, 216 , 217, 2 1 9 , 221 –25, 2 2 2 , 2 2 9 and discursive thoughts, 229 , 232 and dullness, 228 , 231, 232 and effort, 2 1 5 , 216, 223 –24 and emotions, 227–28, 229 and energy, 216, 218 , 2 1 9 and exclusive attention, 2 1 5 , 216 –26, 2 1 9 , 2 2 2, 231 , 232 and experiencing the whole body with the breath, 10, 220–23, 2 2 2 , 226, 227 , 231 –32 and extrospective attention, 228–29 goals for subduing, 215 –16, 2 1 5 , 226 and initial appearance, 225 , 231 and Insight, 226 and intentions, 2 1 5 , 216 , 218 –21, 2 1 9 , 223 –24, 226, 227 –28, 231 and introspective attention, 228 –29 and introspective awareness, 226–27, 228 and jhāna, 230–33 and meditation object, 216 , 220, 221 , 223 –26, 231, 233 and meditative absorption, 229–33 and metacognitive attention, 2 2 9 and metacognitive awareness, 2 1 5 , 216, 226 –29, 2 2 9 , 232 , 233 and milestones, 216, 233 and Mind-System, 218, 2 1 9 , 223, 228 and mindfulness, 2 1 5 , 216, 226 , 233 and moments of attention, 218, 220 , 228, 2 2 9 and Moments of Consciousness Model, 160 , 162 , 1 6 2, 163 and narrating mind, 228–29, 2 2 9 and pacifying the mind, 217, 223 –26 and perception, 224 –26, 228, 233 and peripheral awareness, 217, 218 , 220 –23, 226–28, 233 and potential distractions, 217, 220 , 223 and reality, 225 review of, 1 2 2 and scope of attention, 2 1 5 , 217 , 220 , 221, 223 , 225 , 227, 228 , 233 and sensations, 216, 220, 221 , 222–23, 2 2 2 , 224 –26, 227, 228 , 231, 232 , 233 and sensory minds, 221 , 2 2 2, 224 , 2 2 9 source of, 223 and stable attention, 2 1 5 , 217 , 218, 220, 222 , 232, 233 and Stage Three, 96–97, 1 0 2 , 1 0 4 and Stage Four, 9 , 122, 124, 1 2 5 , 1 2 7, 128, 138 , 140, 1 4 1 , 1 4 6 and Stage Five, 167, 168 , 169 , 172, 177 and Stage Six, 6 , 9–10, 215 –33, 2 1 5 , 2 1 8, 2 2 2, 2 2 9
+and awareness, 216, 221, 229 and binding moments, 226, 228, 229 and body position, 226 and breath, 218, 219, 220–21, 224–26 and breath at the nose, 220, 222, 227, 231 and conscious intentions, 217–20, 219 and consciousness, 217, 219, 221–24, 222, 226, 228, 229 and corrections, 127, 228, 233 definition of, 96, 122 and directed attention, 227 and discriminating mind, 216, 217, 219, 221–25, 222, 229 and discursive thoughts, 229, 232 and dullness, 228, 231, 232 and effort, 215, 216, 223–24 and emotions, 227–28, 229 and energy, 216, 218, 219 and exclusive attention, 215, 216–26, 219, 222, 231, 232 and experiencing the whole body with the breath, 10, 220–23, 222, 226, 227, 231–32 and extrospective attention, 228–29 goals for subduing, 215–16, 215, 226 and initial appearance, 225, 231 and Insight, 226 and intentions, 215, 216, 218–21, 219, 223–24, 226, 227–28, 231 and introspective attention, 228–29 and introspective awareness, 226–27, 228 and jhāna, 230–33 and meditation object, 216, 220, 221, 223–26, 231, 233 and meditative absorption, 229–33 and metacognitive attention, 229 and metacognitive awareness, 215, 216, 226–29, 229, 232, 233 and milestones, 216, 233 and Mind-System, 218, 219, 223, 228 and mindfulness, 215, 216, 226, 233 and moments of attention, 218, 220, 228, 229 and Moments of Consciousness Model, 160, 162, 162, 163 and narrating mind, 228–29, 229 and pacifying the mind, 217, 223–26 and perception, 224–26, 228, 233 and peripheral awareness, 217, 218, 220–23, 226–28, 233 and potential distractions, 217, 220, 223 and reality, 225 review of, 122 and scope of attention, 215, 217, 220, 221, 223, 225, 227, 228, 233 and sensations, 216, 220, 221, 222–23, 222, 224–26, 227, 228, 231, 232, 233 and sensory minds, 221, 222, 224, 229 source of, 223 and stable attention, 215, 217, 218, 220, 222, 232, 233 and Stage Three, 96–97, 102, 104 and Stage Four, 9, 122, 124, 125, 127, 128, 138, 140, 141, 146 and Stage Five, 167, 168, 169, 172, 177 and Stage Six, 6, 9–10, 215–33, 215, 218, 222, 229
 
-and Stage Seven, 10 , 262
+and Stage Seven, 10, 262
 
-and Stage Eight, 302, 3 0 3
+and Stage Eight, 302, 303
 
-and strong intentions, 218, 2 1 9 , 220
+and strong intentions, 218, 219, 220
 
-and sub-minds, 218–23, 2 1 9 , 2 2 2, 228
+and sub-minds, 218–23, 219, 222, 228
 
-subduing, 6 , 9–10, 215–33
+subduing, 6, 9–10, 215–33
 
-and subtle dullness, 2 1 5 , 226, 231 , 233
+and subtle dullness, 215, 226, 231, 233
 
 types of, 128
 
-and unconscious mind, 218, 2 1 9 , 220 , 222–23, 2 2 2
+and unconscious mind, 218, 219, 220, 222–23, 222
 
-and vigilance, 221, 223 –24, 233
+and vigilance, 221, 223–24, 233
 
 See also specific topic subtle dullness
 
@@ -11318,9 +11318,9 @@ antidotes for, 172–73
 
 characteristics of, 168–71
 
-countering, 171 –73
+countering, 171–73
 
-in daily life, 165 –66
+in daily life, 165–66
 
 danger of, 168
 
@@ -11328,81 +11328,81 @@ definition of, 109
 
 detecting, 171–73
 
-and Moments of Consciousness Model, 164 –66, 1 6 5 , 178–79
+and Moments of Consciousness Model, 164–66, 165, 178–79
 
 non-progressive, 167
 
-overcoming, 6 , 168–73
+overcoming, 6, 168–73
 
-and problems, 7 7
+and problems, 77
 
-progressive, 142–45, 1 4 3 , 1 4 6, 166, 167 , 1 6 7
+progressive, 142–45, 143, 146, 166, 167, 167
 
-and sleepiness, 1 0 9
+and sleepiness, 109
 
-stable, 9 , 142, 143 , 164 –68, 171
+stable, 9, 142, 143, 164–68, 171
 
-and Stage Three, 9 5 , 109
+and Stage Three, 95, 109
 
-and Stage Four, 9 , 1 2 1, 122, 142 –45, 1 4 3 , 1 4 6, 166
+and Stage Four, 9, 121, 122, 142–45, 143, 146, 166
 
-and Stage Five, 6 , 9, 7 7, 142, 143 , 166, 167–73, 1 6 7 , 178–79
+and Stage Five, 6, 9, 77, 142, 143, 166, 167–73, 167, 178–79
 
-and Stage Six, 168, 2 1 5 , 226 , 231, 233
+and Stage Six, 168, 215, 226, 231, 233
 
-and Stage Seven, 10 , 168, 265
+and Stage Seven, 10, 168, 265
 
 and Stage Eight, 321
 
-and subtle distractions, 2 1 5 , 226 , 231, 233
+and subtle distractions, 215, 226, 231, 233
 
 sustained, 168, 321
 
-vividness and clarity of, 168 , 169, 171 , 172 , 173, 174
+vividness and clarity of, 168, 169, 171, 172, 173, 174
 
 See also specific topic suffering
 
 cause of, 118
 
-and cessation experience, 284 , 2 8 5, 286
+and cessation experience, 284, 285, 286
 
 end of, 118
 
-and Insight, 258, 284 , 2 8 5, 286, 344
+and Insight, 258, 284, 285, 286, 344
 
 knowledge of, 270
 
 and mindfulness, 114, 118
 
-as optional, 7 7 , 106
+as optional, 77, 106
 
 and pain, 106
 
-and problems, 7 7
+and problems, 77
 
-and śamatha, 3 4 3
+and śamatha, 343
 
 and self as illusion, 345
 
-and Seventh Interlude, 284 , 2 8 5, 286
+and Seventh Interlude, 284, 285, 286
 
-and Stage Four, 130, 131, 1 3 8
+and Stage Four, 130, 131, 138
 
 and Stage Eight, 324 and stages of adept meditators, 258
 
-and Third Interlude, 114 , 118 sustained attention
+and Third Interlude, 114, 118 sustained attention
 
-and connecting, 98 , 100
+and connecting, 98, 100
 
 continuous, 111
 
-definition of, 24 , 27
+definition of, 24, 27
 
 effortlessly, 293
 
-and First Interlude, 24 , 26, 27 –28
+and First Interlude, 24, 26, 27–28
 
-and follow the breath, 98 –100
+and follow the breath, 98–100
 
 and forgetting, 98–100
 
@@ -11410,9 +11410,9 @@ and intentions, 24, 26, 27–28
 
 and jhāna, 230
 
-as meditation factor, 66 , 6 7, 75
+as meditation factor, 66, 67, 75
 
-on meditation object, 84 –85, 87
+on meditation object, 84–85, 87
 
 and Mind-System, 201, 293
 
@@ -11420,43 +11420,43 @@ and Seventh Interlude, 293
 
 and Stage One, 46
 
-and Stage Two, 28 , 7 9, 80, 84–85, 8 6 , 87, 94
+and Stage Two, 28, 79, 80, 84–85, 86, 87, 94
 
-and Stage Three, 95, 98 –100, 1 0 1 , 111
+and Stage Three, 95, 98–100, 101, 111
 
-and Stage Four, 28 , 87, 123, 124 , 140, 146
+and Stage Four, 28, 87, 123, 124, 140, 146
 
 and Stage Five, 87 sustained exclusive attention
 
-effortlessly, 16 , 2 6 1, 2 9 9
+effortlessly, 16, 261, 299
 
 and intentions, 16
 
 and Milestone Two, 10
 
-and Stage Six, 216–26, 2 1 9 , 233
+and Stage Six, 216–26, 219, 233
 
-and Stage Seven, 10 , 236–37, 2 6 1 , 262 –65
+and Stage Seven, 10, 236–37, 261, 262–65
 
-and Stage Eight, 16 , 2 9 9, 301
+and Stage Eight, 16, 299, 301
 
-and subtle distractions, 216 –26, 2 1 9 , 233
+and subtle distractions, 216–26, 219, 233
 
-and transition from skilled to adept meditator, 236–37 taste, 246. See also physical senses Tathagata, 256 techniques. See methods; skills; specific technique or skill Theravada Buddhism, 147, 248 , 270 thinking/emotional mind. See discriminating mind Third Interlude
+and transition from skilled to adept meditator, 236–37 taste, 246. See also physical senses Tathagata, 256 techniques. See methods; skills; specific technique or skill Theravada Buddhism, 147, 248, 270 thinking/emotional mind. See discriminating mind Third Interlude
 
-and behavior, 114 –19, 1 2 0
+and behavior, 114–19, 120
 
-and Insight, 114, 118 , 119, 1 2 0
+and Insight, 114, 118, 119, 120
 
-and mindfulness, 113–19, 1 2 0
+and mindfulness, 113–19, 120
 
 and suffering, 114, 118
 
-and thornbush metaphor, 119, 1 2 0 thornbush metaphor, 119, 1 2 0 time
+and thornbush metaphor, 119, 120 thornbush metaphor, 119, 120 time
 
 for daily meditation, 4
 
-and establishing a practice, 4 5 , 46 , 54 , 55, 58–60, 62
+and establishing a practice, 45, 46, 54, 55, 58–60, 62
 
 as mental construct, 295
 
@@ -11464,9 +11464,9 @@ and Mind-System, 295, 296
 
 personal, 60
 
-sense of, 294–95 and Seventh Interlude, 295 , 296
+sense of, 294–95 and Seventh Interlude, 295, 296
 
-in Stage Ten, 295 top-down process, 197, 199 , 220 touch. See physical senses tranquility
+in Stage Ten, 295 top-down process, 197, 199, 220 touch. See physical senses tranquility
 
 and Insight, 259
 
@@ -11476,23 +11476,23 @@ and meditation object, 46
 
 and Milestone Four, 13
 
-and pīti, 329, 330, 332 , 334–35, 3 3 5
+and pīti, 329, 330, 332, 334–35, 335
 
-and Stage Nine, 12 , 16 , 2 3 9, 259, 327 –30, 3 2 7 , 332 , 334 –36, 3 3 5
+and Stage Nine, 12, 16, 239, 259, 327–30, 327, 332, 334–36, 335
 
-and Stage Ten, 6 , 13 , 16, 331, 337 , 3 3 7, 340
+and Stage Ten, 6, 13, 16, 331, 337, 337, 340
 
-and stages of adept meditators, 240 , 2 4 0, 259
+and stages of adept meditators, 240, 240, 259
 
-and unifying the mind, 2 3 9 , 240, 2 4 0 trust, 56 , 62, 6 7, 74 , 75, 94, 266 , 276, 334 unconscious
+and unifying the mind, 239, 240, 240 trust, 56, 62, 67, 74, 75, 94, 266, 276, 334 unconscious
 
 analysis/examination of, 135
 
 and Insight, 257, 258
 
-and Mind-System, 290, 294 –95, 296
+and Mind-System, 290, 294–95, 296
 
-and mindfulness, 113–19, 1 2 0 , 279
+and mindfulness, 113–19, 120, 279
 
 and Moments of Consciousness Model, 164
 
@@ -11504,77 +11504,77 @@ and purifying the mind, 254, 255
 
 reprogramming of, 115
 
-and Seventh Interlude, 279 , 289, 290, 294 –95, 296
+and Seventh Interlude, 279, 289, 290, 294–95, 296
 
-and Stage Two, 82 , 83, 84
+and Stage Two, 82, 83, 84
 
 and Stage Three, 99, 111
 
-and Stage Four, 122, 134, 135 , 1 3 7, 139
+and Stage Four, 122, 134, 135, 137, 139
 
 and Stage Six, 223
 
-and Stage Seven, 262 , 264, 265 , 270, 274
+and Stage Seven, 262, 264, 265, 270, 274
 
-and Stage Eight, 294, 308, 309 , 315
+and Stage Eight, 294, 308, 309, 315
 
-and stages of adept meditators, 244 , 246, 254 , 255, 257, 258
+and stages of adept meditators, 244, 246, 254, 255, 257, 258
 
-See also specific topic unconscious intentions, 197 –201, 1 9 8 , 199 –201, 289 , 310 unconscious mind
+See also specific topic unconscious intentions, 197–201, 198, 199–201, 289, 310 unconscious mind
 
-and cessation experience, 284 , 2 8 5
+and cessation experience, 284, 285
 
 definition of, 181
 
-and Fifth Interlude, 181, 1 8 2 , 184 –90, 1 8 4 , 1 8 7, 1 9 2, 193–201, 203 –5, 2 0 4 , 2 0 6, 2 0 8, 2 0 9, 210–14
+and Fifth Interlude, 181, 182, 184–90, 184, 187, 192, 193–201, 203–5, 204, 206, 208, 209, 210–14
 
-function/purpose of, 1 8 2
+function/purpose of, 182
 
-and Insight, 284, 2 8 5
+and Insight, 284, 285
 
-and Mind-System, 181, 1 8 2 , 184–90, 1 8 4 , 1 8 7, 1 9 2, 193–201, 203–5, 2 0 4 , 2 0 6, 2 0 8, 2 0 9, 210–14, 2 1 8 ,
+and Mind-System, 181, 182, 184–90, 184, 187, 192, 193–201, 203–5, 204, 206, 208, 209, 210–14, 218,
 
-287, 2 8 8 , 289 , 2 9 1, 295
+287, 288, 289, 291, 295
 
-and mindfulness, 2 8 1 , 2 8 2, 283
+and mindfulness, 281, 282, 283
 
 and pīti, 332, 333
 
 and purifying the mind, 283
 
-and śamatha, 342, 3 4 3
+and śamatha, 342, 343
 
-and sensory mind, 2 9 1
+and sensory mind, 291
 
-and Seventh Interlude, 2 8 1 , 2 8 2, 283, 284 , 2 8 5, 287, 2 8 8 , 289 , 2 9 1, 295 and Stage Six, 218, 2 1 8 , 2 1 9, 220, 222–23, 2 2 2 , 263
+and Seventh Interlude, 281, 282, 283, 284, 285, 287, 288, 289, 291, 295 and Stage Six, 218, 218, 219, 220, 222–23, 222, 263
 
-and Stage Seven, 262 , 264, 265 , 274
+and Stage Seven, 262, 264, 265, 274
 
 and Stage Eight, 309, 310, 315
 
-and Stage Nine, 332 , 333
+and Stage Nine, 332, 333
 
 and Stage Ten, 339
 
-and sub-minds, 2 1 8 , 262
+and sub-minds, 218, 262
 
-and subtle distractions, 218 , 2 1 9, 220, 222 –23, 2 2 2
+and subtle distractions, 218, 219, 220, 222–23, 222
 
 See also discriminating mind; sensory mind; sub-minds unifying the mind
 
-and adept meditator, 237–40, 2 3 9 , 2 4 0
+and adept meditator, 237–40, 239, 240
 
-consequences of, 279 –80
+consequences of, 279–80
 
-and daily life, 2 4 0
+and daily life, 240
 
-definition of, 11 , 6 7
+definition of, 11, 67
 
 degrees of, 309
 
-and discriminating mind, 237 , 274–77
+and discriminating mind, 237, 274–77
 
-and equanimity, 2 3 9 , 240 , 2 4 0
+and equanimity, 239, 240, 240
 
 and Fifth Interlude, 181, 213–14
 
@@ -11582,63 +11582,63 @@ functions/benefits of, 283
 
 as goal of meditation, 93
 
-and Insight, 284, 286 –87, 344
+and Insight, 284, 286–87, 344
 
-as meditation factor, 66 , 6 7, 69
+as meditation factor, 66, 67, 69
 
-and meditative joy, 238–39, 2 3 9 , 240, 2 4 0 , 247 , 251, 253
+and meditative joy, 238–39, 239, 240, 240, 247, 251, 253
 
-and mental pliancy, 237 , 2 3 9, 2 4 0
+and mental pliancy, 237, 239, 240
 
 and Milestone Three, 11
 
-and Mind-System, 181, 213 –14
+and Mind-System, 181, 213–14
 
-and mindfulness, 237, 240, 279 –81, 2 8 1 , 2 8 2, 283 –87, 2 8 5
+and mindfulness, 237, 240, 279–81, 281, 282, 283–87, 285
 
-and pacifying the discriminating mind, 237, 238, 2 3 9 , 2 4 0, 262
+and pacifying the discriminating mind, 237, 238, 239, 240, 262
 
 and pacifying the mind, 224, 237
 
-and pacifying the senses, 238, 2 3 9 , 240, 2 4 0 , 251 , 253
+and pacifying the senses, 238, 239, 240, 240, 251, 253
 
-partial, 286 –87
+partial, 286–87
 
-and physical pliancy, 238 , 2 3 9, 2 4 0
+and physical pliancy, 238, 239, 240
 
-and pīti, 2 3 9 , 251, 253 , 329, 330 , 331
+and pīti, 239, 251, 253, 329, 330, 331
 
 and purifying the mind, 255
 
-and śamatha, 237, 2 3 9 , 240 , 2 4 0, 338, 342 , 3 4 3, 344
+and śamatha, 237, 239, 240, 240, 338, 342, 343, 344
 
 and sensory mind, 237, 238
 
-and Seventh Interlude, 279 –81, 2 8 1 , 2 8 2, 283–87, 2 8 5
+and Seventh Interlude, 279–81, 281, 282, 283–87, 285
 
-and skill development versus mastery, 2 3 6
+and skill development versus mastery, 236
 
 and Stage Two, 93
 
-and Stage Six, 237, 2 3 9 , 2 4 0
+and Stage Six, 237, 239, 240
 
-and Stage Seven, 6 , 10–11, 224 , 231 , 236–38, 2 3 9 , 2 4 0, 262, 263 , 266, 268 , 270 –71, 274–77
+and Stage Seven, 6, 10–11, 224, 231, 236–38, 239, 240, 262, 263, 266, 268, 270–71, 274–77
 
-and Stage Eight, 11 –12, 237, 238 , 2 3 9, 2 4 0, 277 , 300, 3 0 5 , 306 , 307, 309–15, 3 1 6 , 317, 319 , 320, 323, 324
+and Stage Eight, 11–12, 237, 238, 239, 240, 277, 300, 305, 306, 307, 309–15, 316, 317, 319, 320, 323, 324
 
-and Stage Nine, 237 –40, 2 3 9 , 2 4 0, 317 , 328–31
+and Stage Nine, 237–40, 239, 240, 317, 328–31
 
-and Stage Ten, 237 , 2 3 9, 240, 2 4 0 , 337, 338–39
+and Stage Ten, 237, 239, 240, 240, 337, 338–39
 
-and stages of adept meditators, 235 , 240, 247 , 251, 253, 255
+and stages of adept meditators, 235, 240, 247, 251, 253, 255
 
 and sub-minds, 237, 238
 
-summary of process for, 2 4 0
+summary of process for, 240
 
 temporary, 344
 
-and tranquility, 2 3 9 , 240, 2 4 0
+and tranquility, 239, 240, 240
 
 and transition from skilled to adept meditator, 236–37
 
@@ -11650,14 +11650,14 @@ and intentions, 15
 
 and mindfulness, 119
 
-and Stage One, 4 1
+and Stage One, 41
 
-and Stage Four, 1 2 1 , 126, 128 , 144
+and Stage Four, 121, 126, 128, 144
 
 and Stage Five, 172
 
-and Stage Six, 221, 223 –24, 233
+and Stage Six, 221, 223–24, 233
 
-and Stage Seven, 10 , 11 , 261, 2 6 1, 262 , 264–65, 2 6 4 , 269, 271 , 275
+and Stage Seven, 10, 11, 261, 261, 262, 264–65, 264, 269, 271, 275
 
-and subtle distractions, 221 , 223 –24, 233 vipassanā method, 46 , 47, 342 , 3 4 3, 344 virtue, 72–73, 256 , 324 , 325 vision/sight, 20, 154, 1 5 5 , 166, 267, 318 visions (paranormal experiences), 8, 134 –36, 138–39, 1 4 5 visual mind, 196, 2 0 8 , 290, 291–92, 2 9 1 , 295 visual sense, 238 , 244–45 waking up. See “aha!” moments walking meditation, 110 , 143, 268 whole-body jhāna, 270, 272, 304 –5, 315 willpower, 15, 54, 57 , 7 9, 85, 92 witness, realizing the. See Realizing the Witness worldview, and Insight, 257 –58 worry. See Agitation: Due to Worry and Remorse Yogacara school, 147 , 181 Young, Shinzen, 130 zafu position, 60–61 “Zen lurch,” 108 Touchstone An Imprint of Simon & Schuster, Inc. 1230 Avenue of the Americas New York, NY 10020 www.SimonandSchuster.com Copyright © 2015 by John Charles Yates Originally published in 2015 by Dharma Treasure Press All rights reserved, including the right to reproduce this book or portions thereof in any form whatsoever. For information, address Touchstone Subsidiary Rights Department, 1230 Avenue of the Americas, New York, NY 10020. First Touchstone trade paperback edition January 2017 TOUCHSTONE and colophon are registered trademarks of Simon & Schuster, Inc. For information about special discounts for bulk purchases, please contact Simon & Schuster Special Sales at 1-866-506-1949 or business@simonandschuster.com. The Simon & Schuster Speakers Bureau can bring authors to your live event. For more information or to book an event, contact the Simon & Schuster Speakers Bureau at 866-248-3049 or visit our website at www.simonspeakers.com. Interior design by Gwen Frankfeldt and Maureen Forys Composition by Maureen Forys Illustrations by Nicolette Wales Front cover design by Terry Moody Library of Congress Cataloging-in-Publication Data is available. ISBN 978-1-5011-5698-4 ISBN 978-1-5011-5699-1 (ebook)
+and subtle distractions, 221, 223–24, 233 vipassanā method, 46, 47, 342, 343, 344 virtue, 72–73, 256, 324, 325 vision/sight, 20, 154, 155, 166, 267, 318 visions (paranormal experiences), 8, 134–36, 138–39, 145 visual mind, 196, 208, 290, 291–92, 291, 295 visual sense, 238, 244–45 waking up. See “aha!” moments walking meditation, 110, 143, 268 whole-body jhāna, 270, 272, 304–5, 315 willpower, 15, 54, 57, 79, 85, 92 witness, realizing the. See Realizing the Witness worldview, and Insight, 257–58 worry. See Agitation: Due to Worry and Remorse Yogacara school, 147, 181 Young, Shinzen, 130 zafu position, 60–61 “Zen lurch,” 108 Touchstone An Imprint of Simon & Schuster, Inc. 1230 Avenue of the Americas New York, NY 10020 www.SimonandSchuster.com Copyright © 2015 by John Charles Yates Originally published in 2015 by Dharma Treasure Press All rights reserved, including the right to reproduce this book or portions thereof in any form whatsoever. For information, address Touchstone Subsidiary Rights Department, 1230 Avenue of the Americas, New York, NY 10020. First Touchstone trade paperback edition January 2017 TOUCHSTONE and colophon are registered trademarks of Simon & Schuster, Inc. For information about special discounts for bulk purchases, please contact Simon & Schuster Special Sales at 1-866-506-1949 or business@simonandschuster.com. The Simon & Schuster Speakers Bureau can bring authors to your live event. For more information or to book an event, contact the Simon & Schuster Speakers Bureau at 866-248-3049 or visit our website at www.simonspeakers.com. Interior design by Gwen Frankfeldt and Maureen Forys Composition by Maureen Forys Illustrations by Nicolette Wales Front cover design by Terry Moody Library of Congress Cataloging-in-Publication Data is available. ISBN 978-1-5011-5698-4 ISBN 978-1-5011-5699-1 (ebook)

@@ -18,6 +18,7 @@ cd `git rev-parse --show-toplevel`/Data/ISBN_978-1-5011-5698-4_-_The_Mind_Illumi
 python3.10 -m venv venv
 source ./venv/bin/activate
 pip install -r ../../../requirements.txt
+pip install ../../../ConvertPdfToMarkdown
 python main.py
 ```
 

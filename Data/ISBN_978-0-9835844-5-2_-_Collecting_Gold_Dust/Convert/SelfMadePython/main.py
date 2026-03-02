@@ -5,7 +5,7 @@ sys.path.append(os.path.join("..", "..", "ConvertPdfToMarkdown"))
 
 from Converter import Converter
 from StructuralInfo import StructuralInfo
-from Debug import (
+from ConvertPdfToMarkdown import (
     print_document_pages,
     print_document_paragraphs,
     print_document_sentences,
