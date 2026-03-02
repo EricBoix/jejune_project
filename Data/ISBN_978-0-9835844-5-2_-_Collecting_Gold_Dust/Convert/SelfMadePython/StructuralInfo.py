@@ -1,8 +1,6 @@
-import os
 import sys
 
-sys.path.append(os.path.join("..", "..", "..", "ConvertPdfToMarkdown"))
-from StructuralInfoBase import StructuralInfoBase
+from ConvertPdfToMarkdown import StructuralInfoBase
 
 import roman
 

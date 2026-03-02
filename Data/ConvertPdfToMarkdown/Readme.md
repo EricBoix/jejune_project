@@ -2,9 +2,16 @@
 
 ## Table of contents<!-- omit from toc -->
 
+- [Installation](#installation)
 - [Model class diagram](#model-class-diagram)
 - [References How to recover document structure and plain text from PDF?](#references-how-to-recover-document-structure-and-plain-text-from-pdf)
 - [References Converting PDF to markdown techniques](#references-converting-pdf-to-markdown-techniques)
+
+## Installation
+
+```bash
+pip install git+https://github.com:EricBoix/jejuneness.git/Data/ConvertPdfToMarkdown
+```
 
 ## Model class diagram
 

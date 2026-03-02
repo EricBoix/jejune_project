@@ -1,6 +1,6 @@
 from __future__ import annotations  # Allow forward references in type hints
 import sys
-from PageLayout import PageLayout
+from .PageLayout import PageLayout
 from mdutils.mdutils import MdUtils  # Added import
 from typing import List, Optional
 

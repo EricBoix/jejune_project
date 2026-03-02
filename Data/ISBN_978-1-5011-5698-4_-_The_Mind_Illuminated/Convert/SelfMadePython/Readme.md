@@ -4,6 +4,7 @@
 
 - [Introduction](#introduction)
 - [Running things](#running-things)
+- [Testing](#testing)
 
 ## Introduction
 
@@ -13,8 +14,17 @@ Refer to the [original directory for design notes](../../../ISBN_978-0-9835844-5
 ## Running things
 
 ```bash
+cd `git rev-parse --show-toplevel`/Data/ISBN_978-1-5011-5698-4_-_The_Mind_Illuminated/Convert/SelfMadePython
 python3.10 -m venv venv
 source ./venv/bin/activate
-pip install -r requirements.txt
+pip install -r ../../../requirements.txt
 python main.py
+```
+
+## Testing
+
+Within the above running context (directory and installed virtual environment)
+
+```bash
+pytest test_main.py
 ```

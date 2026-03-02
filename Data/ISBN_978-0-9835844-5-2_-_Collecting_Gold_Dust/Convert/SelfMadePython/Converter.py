@@ -1,10 +1,7 @@
 import sys
 import re
-import os
 
-sys.path.append(os.path.join("..", "..", "..", "ConvertPdfToMarkdown"))
-from ConverterBase import ConverterBase
-from ExtractedPageBase import ExtractedPageBase
+from ConvertPdfToMarkdown import ConverterBase, ExtractedPageBase
 
 
 class ExtractedPage(ExtractedPageBase):

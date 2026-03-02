@@ -1,3 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ConvertPdfToMarkdown"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "pypdf>=5.6.0",
+    "nltk>=3.9.1",
+    "mdutils",
+]
+
+[tool.setuptools]
+packages = ["ConvertPdfToMarkdown"]
+package-dir = {"ConvertPdfToMarkdown" = "."}
+
 [tool.black]
 line-length = 88
 target-version = ["py310"]

@@ -5,9 +5,9 @@ import re
 from pypdf import PdfReader
 
 # To deal with outputs of the Converter class
-from Model import Document
-from Model import Paragraph, Sentence, Chapter
-from PageLayout import PageLayout
+from .Model import Document
+from .Model import Paragraph, Sentence, Chapter
+from .PageLayout import PageLayout
 
 # To realize the conversion per se
 import nltk

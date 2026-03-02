@@ -4,6 +4,7 @@
 
 - [Introduction](#introduction)
 - [Running things](#running-things)
+- [Testing](#testing)
 
 ## Introduction
 
@@ -13,8 +14,17 @@ COLLECTING GOLD DUST Nurturing the Dhamma in Daily Living](./original_data/2019_
 ## Running things
 
 ```bash
+cd `git rev-parse --show-toplevel`/Data/ISBN_978-0-9835844-5-2_-_Collecting_Gold_Dust/Convert/SelfMadePython
 python3.10 -m venv venv
 source ./venv/bin/activate
-pip install -r requirements.txt
+pip install -r ../../../requirements.txt
 python main.py
+```
+
+## Testing
+
+Within the above running context (directory and installed virtual environment)
+
+```bash
+pytest test_main.py
 ```
