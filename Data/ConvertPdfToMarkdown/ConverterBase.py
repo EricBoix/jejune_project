@@ -66,19 +66,6 @@ class ConverterBase:
             if self.structural_info._page_is_dropped(page_number):
                 continue
 
-            if self.structural_info._is_chapter_beginning_page(page_number):
-                new_chapter_name = self.structural_info._get_chapter_name(page_number)
-                current_chapter = Chapter(new_chapter_name)
-                resulting_chapters.append(current_chapter)
-            else:
-                if not current_chapter:
-                    # We didn't encounter a first chapter yet the first
-                    # encountered page is not a page starting a chapter.
-                    print("Any chapter must start with...a chapter typed page.")
-                    print("Note: we didn't encounter the first chapter yet.")
-                    print("Exiting")
-                    sys.exit()
-
             ### Create a new extracted page:
             new_extracted_page_layout = PageLayout(
                 self.structural_info.convert_to_logical_page_number(page_number),
@@ -104,6 +91,33 @@ class ConverterBase:
             )
 
             self.sanitized_page_text(new_extracted_page)
+
+            ### Is this new extracted page the beginning of a chapter ?
+            # Either the extracted page has this knowledge or we rely on
+            # the structural_info provided hint
+            if new_extracted_page.is_chapter_beginning_page():
+                new_chapter_name = new_extracted_page.get_chapter_name()
+            elif self.structural_info._is_chapter_beginning_page(page_number):
+                new_chapter_name = self.structural_info._get_chapter_name(page_number)
+            else:
+                new_chapter_name = None  # Not a new chapter
+                if not current_chapter:
+                    # We didn't encounter a first chapter yet the first
+                    # encountered page is not a page starting a chapter.
+                    print("Any chapter must start with...a chapter typed page.")
+                    print("Note: we didn't encounter the first chapter yet.")
+                    print("Exiting")
+                    sys.exit()
+
+            if new_chapter_name is not None:
+                # Some chapter names include newline characters that must be
+                # sanitized in order to create a proper new Chapter object:
+                sanitized_new_chapter_name = re.sub("\n", " ", new_chapter_name)
+                current_chapter = Chapter(sanitized_new_chapter_name)
+                resulting_chapters.append(current_chapter)
+                # Yet what we must extracted is the "un-sanitized" chapter name
+                new_extracted_page.extract_chapter_name(new_chapter_name)
+
             current_chapter.add_page(new_extracted_page)
 
         for chapter in resulting_chapters:

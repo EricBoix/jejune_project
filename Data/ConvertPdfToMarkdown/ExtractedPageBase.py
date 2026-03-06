@@ -1,3 +1,7 @@
+import re
+import sys
+
+
 class ExtractedPageBase:
     """
     Representation of a pdf extracted page
@@ -31,3 +35,26 @@ class ExtractedPageBase:
             + "Extracted text: "
             + repr(self.text)
         )
+
+    def is_chapter_beginning_page(self):
+        """Sometimes (is a derived class) a rule applied on the text of the
+        the extracted page suffice to decide whether the extracted page is
+        the beginning of a chapter or not"""
+        return False
+
+    def extract_chapter_name(self, chapter_name):
+        if not re.search(chapter_name, self.text):
+            print(
+                "Warning: chapter name ",
+                chapter_name,
+                " was not found in extracted page ",
+                self.text,
+            )
+            return
+        chapter_text = self.text.lstrip(chapter_name)
+        if not chapter_text:
+            print("Chapter name extraction yields an empty text .")
+            print("Was trying to extract chapter name ", chapter_name)
+            print("Exiting")
+            sys.exit()
+        self.text = chapter_text

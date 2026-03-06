@@ -1,7 +1,8 @@
 import sys
 import re
 
-from ConvertPdfToMarkdown import ConverterBase, ExtractedPageBase
+from ConvertPdfToMarkdown import ConverterBase
+from ExtractedPage import ExtractedPage
 
 
 class Converter(ConverterBase):
@@ -10,7 +11,7 @@ class Converter(ConverterBase):
     """
 
     def build_chapters(self):
-        return ConverterBase.build_chapters(self, ExtractedPageBase)
+        return ConverterBase.build_chapters(self, ExtractedPage)
 
     def sanitized_page_text(self, extracted_page):
         """
@@ -30,6 +31,7 @@ class Converter(ConverterBase):
         sanitized_page_text = sanitized_page_text.lstrip()
 
         extracted_page.text = sanitized_page_text
+        extracted_page.sanitize_figures()
 
     def __assert_chapter_name(self, page_number, beginning_page):
         chapter_name = self.structural_info._get_chapter_name(page_number)

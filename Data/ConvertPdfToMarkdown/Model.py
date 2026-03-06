@@ -155,7 +155,7 @@ class Chapter:
         """
         Add this chapter's content to the given MdUtils object.
         """
-        md_file.new_header(level=1, title=self.name)
+        md_file.new_header(level=2, title=self.name, add_table_of_contents="n")
         for paragraph in self.paragraphs:
             paragraph.to_markdown(md_file)
         md_file.new_line()
