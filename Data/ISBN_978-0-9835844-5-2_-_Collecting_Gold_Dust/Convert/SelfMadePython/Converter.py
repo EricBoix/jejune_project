@@ -1,21 +1,8 @@
 import sys
 import re
 
-from ConvertPdfToMarkdown import ConverterBase, ExtractedPageBase
-
-
-class ExtractedPage(ExtractedPageBase):
-
-    def set_removed_header(self, removed_header):
-        self.removed_header = removed_header
-
-    def __repr__(self):
-        return (
-            ExtractedPageBase.__repr__(self)
-            + "\n"
-            + "Removed header: "
-            + repr(self.removed_header)
-        )
+from ConvertPdfToMarkdown import ConverterBase
+from ExtractedPage import ExtractedPage
 
 
 class Converter(ConverterBase):
@@ -31,24 +18,19 @@ class Converter(ConverterBase):
             return False
         return ConverterBase._page_requires_paragraph_continuation(self, page_number)
 
-    def sanitized_page_text(self, extracted_page):
-        """
-        After extraction of the text from the original pdf, some ad hoc
-        manual cleaning is alas required e.g. remove the header of the page (when there is one).
-        """
-        original_page_text = extracted_page.original_pdf_page.extract_text(
-            extraction_mode="layout"
-        )
+    def sanitize_remove_header(self, extracted_page):
+        if self.is_chapter_beginning_page(extracted_page):
+            # Chapters have no headers
+            return
 
-        # Remove the heading bunch of whitespaces (and assimilated characters)
-        header_less_page_text = original_page_text.lstrip()
+        header_less_page_text = extracted_page.text
         # Make sure the exact header text is encountered
         header_text = self.structural_info.get_page_header(extracted_page.page_number)
         if not re.match("^" + header_text, header_less_page_text):
             print(
-                "Header ",
+                "Header <<",
                 header_text,
-                "not found on pdf page ",
+                ">> not found on pdf page ",
                 extracted_page.page_number,
                 " ",
                 end="",
@@ -69,63 +51,107 @@ class Converter(ConverterBase):
         extracted_page.set_removed_header(header_text)
         # Eventually, remove some possibly leaving whitespaces
         header_less_page_text = header_less_page_text.lstrip()
-        # When necessary fix chapter illumination
-        page_number = extracted_page.page_number
-        if self.structural_info._is_chapter_beginning_page(page_number):
-            header_less_page_text = self.fix_illumination(
-                page_number, header_less_page_text
-            )
-
+        # Eventually update the extracted_page
         extracted_page.text = header_less_page_text
 
-    def fix_illumination(self, page_number, text_to_fix):
+    def sanitize_fix_illumination(self, extracted_page):
         """Chapters beginnings (that is the first page of a new chapter) start
         with an illumination (decorated first letter) that confuses pypdf.
         The letter of the illumination ends mixed up within the text of the
         first sentence of the chapter. Fix that.
         """
-        if not self.structural_info._is_chapter_beginning_page(page_number):
-            print("Erroneous call to Converter::fix_illumination()")
-            print("  This does not seem to be a chapter starting page.")
+        page_number = extracted_page.page_number
+        text_to_fix = extracted_page.text
+        if not self.is_chapter_beginning_page(extracted_page):
+            print("Erroneous call to Converter::sanitize_fix_illumination()")
+            print("  This extracted page does not seem to be a chapter starting page.")
+            print("  Extracted page: ", extracted_page)
             print("  Exiting")
             sys.exit()
+
         delimiter = self.structural_info._get_chapter_info(page_number)[
             "illumination_delimiter"
         ]
         if delimiter is None:
             # This chapter has no illumination to fix (probably because there
             # is no illumination at all). Return the original text:
-            return text_to_fix
+            return
+
         # The illumination character that got embedded in the text happens to
         # to always be preceded by a return character. Looking for the delimiter
         # prefixed with a return character will make the result a little more
         # secure (yet not foolproof):
         delimiter_with_return = "[\n]" + delimiter
-        if not re.search(delimiter_with_return, text_to_fix):
+        match = re.search(delimiter_with_return, text_to_fix)
+        if not match:
             print(
                 "Delimiter ",
                 repr(delimiter),
-                "not found within illumination of chapter on page ",
-                page_number,
-                ".",
+                "not found within illumination for extracted page:",
             )
-            print(
-                "Chapter text that we were looking to fix: ",
-                repr(text_to_fix),
-            )
+            print(extracted_page)
             print("Exiting.")
             sys.exit()
+        if len(match.groups()) > 1:
+            print(
+                "Multiple occurrences of delimiter ",
+                repr(delimiter),
+                "within illumination for extracted page:",
+            )
+            print(extracted_page)
+            print("Exiting.")
+            sys.exit()
+
+        # We shall only "fix" on the illumination concerned part of the text,
+        # that is the text appearing before the delimiter. We thus split the
+        # text in two parts:
+        # - illumination_part: the part of the text that is prior to the
+        #   delimiter and on which we shall proceed with modifications
+        # - end_of_text: the remaining of the text that shall remain unchanged.
+        illumination_part = text_to_fix[: match.end()]
+        end_of_text = text_to_fix[match.end() :]
+
         # The first thing to do is to remove the illumination character from
         # the text. We use this opportunity to replace the return character,
         # that prefixed the delimiter, with a whitespace:
         corrected_snippet = delimiter[1:]
-        text_to_fix = re.sub(
-            delimiter_with_return, " " + corrected_snippet, text_to_fix
+        illumination_part = re.sub(
+            delimiter_with_return, " " + corrected_snippet, illumination_part
         )
         # The second thing to do is to reinsert the illumination character
         # within the text
-        text_to_fix = delimiter[0] + text_to_fix
-        # The third fix consists in replacing the hand made spacing of the
-        # first lines of the text (that would be overwritten by the illumination
-        # drawing of the leading character) with a single white space:
-        return re.sub("\n      ", " ", text_to_fix)
+        illumination_part = delimiter[0] + illumination_part
+        # The third fix consists in removing the hand made spacing of the
+        # beginning of the text (that would be overwritten by the illumination
+        # drawing of the leading character):
+        illumination_part = re.sub(
+            extracted_page.chapter_name_separator_regex + "( *)", "", illumination_part
+        )
+        # Eventually remove the occurrence (or the couple occurrences) of
+        # returns + whitespaces that were added to reserve some space for the
+        # illuminations on the second or third line of the text.
+        # The following does work but goes too far...
+        illumination_part = re.sub("(\n( *))", " ", illumination_part)
+
+        # Eventually update the extracted_page
+        extracted_page.text = illumination_part + end_of_text
+
+    def sanitize_page_text(self, extracted_page):
+        """
+        After extraction of the text from the original pdf, some ad hoc
+        manual cleaning is alas required e.g. remove the header of the page (when there is one).
+        """
+        self.sanitize_remove_header(extracted_page)
+        if self.is_chapter_beginning_page(extracted_page):
+            self.sanitize_fix_illumination(extracted_page)
+
+    def is_chapter_beginning_page(self, extracted_page):
+        base_says = ConverterBase.is_chapter_beginning_page(self, extracted_page)
+        if base_says:
+            return True
+        return extracted_page.is_chapter_beginning_page()
+
+    def get_chapter_name(self, extracted_page):
+        if ConverterBase.is_chapter_beginning_page(self, extracted_page):
+            return ConverterBase.get_chapter_name(self, extracted_page)
+        return extracted_page.get_chapter_name()

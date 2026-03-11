@@ -2,7 +2,7 @@
 COLLECTING GOLD DUST: Nurturing the Dhamma in Daily Living
 ==========================================================
 
-## 
+## Introduction (ghost chapter)
 
 
 COLLECTING GOLD DUST
@@ -13,12 +13,7 @@ Sayadaw U Tejaniya
 
 Transcribed by Tony Reardon
 
-Edited by Laura Zan
-
-## 
-
-
-Namo Tassa Bhagavato Arahato Sammā-Sambuddhassa
+Edited by Laura Zan Namo Tassa Bhagavato Arahato Sammā-Sambuddhassa
 
 Homage to Him, the Blessed One, the Worthy One,
 
@@ -346,7 +341,11 @@ got to be savvy and learn from your practice.
 
 When you are aware of what’s happening in the mind, you begin to notice the undesirable parts and will want to change. This is a beginning. The lessons are all there for you to go through and learn. Later on, if you really come to understand that something that is wrong is wrong, you will not repeat it again.
 
-Don’t try to do anything, don’t try to prevent anything, but don’t forget what is happening.
+Don’t try to do anything,
+
+don’t try to prevent anything,
+
+but don’t forget what is happening.
 
 This is what my teacher, Shwe Oo Min Sayadaw would say as his instructions. In the first two lines, he is speaking to the experience of what is happening. Awareness can be at work, but you do not try to alter the experience. You let the process continue as it is without interfering. Let things unfold naturally. Your job is to watch, know, learn, and gain experience. As you watch an experience continuously, you’ll begin to recognize patterns within it and later see the whole picture. The value of this meditation becomes more apparent with dedicated practice over long stretches of time. The more experienced you become, the deeper you will see. The dhamma is very subtle and you’ll see this when you practice long term.
 
@@ -568,7 +567,7 @@ will we understand the nature of dhamma.
 ## Continuing the Work
 
 
-ACAUSE AND EFFECT CHAIN yogi in one of my retreats had some questions surrounding free will. When we talk about the process of conditioning, remember there’s a stream of minds in the conditioned process. The conditions in one mind bring the effect into the next mind and then, whatever the mind chooses to do in the next moment adds a little to that quality, or takes away from that quality. It then passes away and then this condition gives rise to the next mind and then it passes away and the effect is given to the next mind. Every mind begins with something, a condition, but that mind has a moment in the present to choose its contribution to the moment in terms of action or non-action, before that mind passes away. “Everything is conditioned” just means that there is a stream that’s going on and the present moment has been conditioned by the past. At the same time, there is an element of choice in the present through wisdom because wisdom has free will. As a result, that wisdom has the ability to choose to take whatever action or non-action it would like. All things are conditioned but also you cannot imagine the vastness of kamma that you have accumulated that has the potential to flower in every moment.
+A CAUSE AND EFFECT CHAIN yogi in one of my retreats had some questions surrounding free will. When we talk about the process of conditioning, remember there’s a stream of minds in the conditioned process. The conditions in one mind bring the effect into the next mind and then, whatever the mind chooses to do in the next moment adds a little to that quality, or takes away from that quality. It then passes away and then this condition gives rise to the next mind and then it passes away and the effect is given to the next mind. Every mind begins with something, a condition, but that mind has a moment in the present to choose its contribution to the moment in terms of action or non-action, before that mind passes away. “Everything is conditioned” just means that there is a stream that’s going on and the present moment has been conditioned by the past. At the same time, there is an element of choice in the present through wisdom because wisdom has free will. As a result, that wisdom has the ability to choose to take whatever action or non-action it would like. All things are conditioned but also you cannot imagine the vastness of kamma that you have accumulated that has the potential to flower in every moment.
 
 If somebody has developed a lifetime habit of anger, the person will become angry with a little trigger. If the person has studied meditation, starts practicing and understands the benefits of meditation in the present moment, this person may gradually develop to the point where, with awareness + wisdom, the person may possibly be able to consciously decide what to do. This person could decide whether to continue to be angry, on the one hand, or try to be aware of the anger and grow in wisdom as a result, on the other. This choice constitutes free will.
 
@@ -670,6 +669,8 @@ If you are strongly attached to ideas, there will be triggers when someone else 
 Be a little extra careful at home. It is so much more interesting at home when mindfulness is always present, and especially when we bring mindfulness to daily life situations. In your talking to others you learn to see others’ intentions and learn to speak in a way that helps you to manage yourself and manage the conversation as well. We begin to know what we are going to say before we say it and eventually have time to choose the skillful path.
 
 ## Dedication
+
+
 
 
 This wonderful gift of Dhamma comes to you from the community of meditators and supporters for whom the Dhamma

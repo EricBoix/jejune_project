@@ -48,23 +48,11 @@ class StructuralInfo(StructuralInfoBase):
             78: {"type": "generic", "paragraph_fits_on_page": True},
             86: {"type": "generic", "paragraph_fits_on_page": True},
             108: {"type": "generic", "paragraph_fits_on_page": True},
-            # All the following chapter definitions are required because
-            # otherwise one gets an error message of the form :
-            #    unable to find the last paragraph of page number  126
-            #    in chapter SECOND INTERLUDE
-            127: {
-                "type": "chapter",
-                "chapter_info": {"name": "STAGE THREE"},
-            },
             130: {"type": "generic", "paragraph_fits_on_page": True},
             138: {"type": "generic", "paragraph_fits_on_page": True},
             143: {"type": "generic", "paragraph_fits_on_page": True},
             147: {"type": "generic", "paragraph_fits_on_page": True},
             159: {"type": "generic", "paragraph_fits_on_page": True},
-            162: {
-                "type": "chapter",
-                "chapter_info": {"name": "STAGE FOUR"},
-            },
             166: {"type": "generic", "paragraph_fits_on_page": True},
             168: {"type": "generic", "paragraph_fits_on_page": True},
             174: {"type": "generic", "paragraph_fits_on_page": True},
@@ -85,10 +73,6 @@ class StructuralInfo(StructuralInfoBase):
             351: {"type": "generic", "paragraph_fits_on_page": True},
             364: {"type": "generic", "paragraph_fits_on_page": True},
             380: {"type": "generic", "paragraph_fits_on_page": True},
-            391: {
-                "type": "chapter",
-                "chapter_info": {"name": "STAGE NINE"},
-            },
             406: {"type": "generic", "paragraph_fits_on_page": True},
             434: {"type": "generic", "paragraph_fits_on_page": True},
             440: {"type": "generic", "paragraph_fits_on_page": True},
@@ -96,10 +80,6 @@ class StructuralInfo(StructuralInfoBase):
             473: {"type": "generic", "paragraph_fits_on_page": True},
             475: {"type": "generic", "paragraph_fits_on_page": True},
             478: {"drop_page": True},
-            479: {
-                "type": "chapter",
-                "chapter_info": {"name": "Glossary"},
-            },
             482: {"type": "generic", "paragraph_fits_on_page": True},
             484: {"type": "generic", "paragraph_fits_on_page": True},
             486: {"type": "generic", "paragraph_fits_on_page": True},

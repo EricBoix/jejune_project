@@ -53,8 +53,9 @@ class ExtractedPageBase:
             return
         chapter_text = self.text.lstrip(chapter_name)
         if not chapter_text:
-            print("Chapter name extraction yields an empty text .")
-            print("Was trying to extract chapter name ", chapter_name)
+            print("Chapter name extraction yields an empty text.")
+            print("Was trying to extract chapter name: ", chapter_name)
+            print("Out of ExtractedPageBase text: ", self.text)
             print("Exiting")
             sys.exit()
         self.text = chapter_text

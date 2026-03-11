@@ -126,6 +126,8 @@ class Chapter:
         self.page_layout: Optional[PageLayout] = None
 
     def add_page(self, page) -> None:
+        if not self.pages:
+            self.page_layout = page.page_layout
         self.pages.append(page)
 
     def get_paragraph(self, paragraph_number):

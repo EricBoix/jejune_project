@@ -37,13 +37,13 @@ class StructuralInfo(StructuralInfoBase):
                 # do not exist in the book. They are a technicality for the
                 # first pages not to be devoid of belonging chapter:
                 "type": "chapter",
-                "chapter_info": {"name": "", "illumination_delimiter": None},
+                "chapter_info": {
+                    "name": "Introduction (ghost chapter)",
+                    "illumination_delimiter": None,
+                },
             },
             4: {"drop_page": True},
             5: {
-                # Another fake/ghost chapter
-                "type": "chapter",
-                "chapter_info": {"name": "", "illumination_delimiter": None},
                 # They are two reasons for which we don't have to look for
                 # a paragraph continuation on the next page:
                 # 1. because the page ends a chapter (and hence the paragraph
@@ -55,39 +55,22 @@ class StructuralInfo(StructuralInfoBase):
             },
             # 6: implicit "generic"/default page
             7: {
-                "type": "chapter",
-                "chapter_info": {
-                    "name": "Acknowledgements",
-                    "illumination_delimiter": "MBhaddanta",
-                },
+                "chapter_info": {"illumination_delimiter": "MBhaddanta"},
                 "paragraph_fits_on_page": True,  # This page ends the chapter
             },
-            9: {
-                "type": "chapter",
-                "chapter_info": {
-                    "name": "Dear Reader",
-                    "illumination_delimiter": "Iobservation",
-                },
-            },
-            15: {
-                "type": "chapter",
-                "chapter_info": {
-                    "name": "On Language",
-                    "illumination_delimiter": "Wwords",
-                },
-            },
+            9: {"chapter_info": {"illumination_delimiter": "Iobservation"}},
+            15: {"chapter_info": {"illumination_delimiter": "Wwords"}},
             16: {"paragraph_fits_on_page": True},  # This page ends the chapter
             17: {"drop_page": True},
             18: {"drop_page": True},
             19: {"drop_page": True},
             20: {
-                # Although this illustration is decorated with text (or the other way round), the text content text is an extracted quote
+                # Although this illustration is decorated with text (or the other way round), the text content is an extracted quote
                 # from the body of the chapter. We can thus drop it without
                 # content loss.
                 "drop_page": True,
             },
             21: {
-                "type": "chapter",
                 "chapter_info": {
                     "name": "A Note from the Teacher",
                     "illumination_delimiter": "Ytime",
@@ -107,7 +90,6 @@ class StructuralInfo(StructuralInfoBase):
                 "type": "illustration",
             },
             43: {
-                "type": "chapter",
                 "chapter_info": {
                     "name": "Mindfulness is a Lifestyle Change",
                     "illumination_delimiter": "WTwo",

@@ -58,6 +58,18 @@ class ConverterBase:
         # Eventually realize the conversion
         self.build_document()
 
+    def is_chapter_beginning_page(self, extracted_page):
+        # By default we can only assume some structural information, since we
+        # don't know wether ExtractedPage will be specialized or not.
+        return self.structural_info._is_chapter_beginning_page(
+            extracted_page.page_number
+        )
+
+    def get_chapter_name(self, extracted_page):
+        # By default we can only assume some structural information, since we
+        # don't know wether ExtractedPage will be specialized or not.
+        return self.structural_info._get_chapter_name(extracted_page.page_number)
+
     def build_chapters(self, ExtractedPageDerived):
         resulting_chapters = []
         current_chapter = None
@@ -90,26 +102,44 @@ class ConverterBase:
                 self.reader.pages[page_number],  # Original page
             )
 
-            self.sanitized_page_text(new_extracted_page)
-
-            ### Is this new extracted page the beginning of a chapter ?
-            # Either the extracted page has this knowledge or we rely on
-            # the structural_info provided hint
-            if new_extracted_page.is_chapter_beginning_page():
-                new_chapter_name = new_extracted_page.get_chapter_name()
-            elif self.structural_info._is_chapter_beginning_page(page_number):
-                new_chapter_name = self.structural_info._get_chapter_name(page_number)
-            else:
-                new_chapter_name = None  # Not a new chapter
+            if not self.is_chapter_beginning_page(new_extracted_page):
+                # When the new extracted page is not the beginning of a chapter
+                # we must still assert that the current_chapter was previously
+                #  encountered
                 if not current_chapter:
                     # We didn't encounter a first chapter yet the first
                     # encountered page is not a page starting a chapter.
+                    # Something went really wrong.
                     print("Any chapter must start with...a chapter typed page.")
                     print("Note: we didn't encounter the first chapter yet.")
+                    print(
+                        "This was the content of the extracted page: ",
+                        new_extracted_page,
+                    )
+                    print("Exiting")
+                    sys.exit()
+                self.structural_info.set_chapter_page_number(
+                    new_extracted_page.page_number,
+                    current_chapter.page_layout.page_number,
+                )
+            else:
+                # This new extracted page is the one of a new chapter. We must
+                # thus create it (a Chapter object) as such and define this new
+                # Chapter as the current_chapter:
+                self.structural_info.set_chapter_page_number(
+                    new_extracted_page.page_number,
+                    new_extracted_page.page_number,
+                )
+                new_chapter_name = self.get_chapter_name(new_extracted_page)
+                if new_chapter_name is None:
+                    print("This looks like a new chapter yet it has no name.")
+                    print(
+                        "This was the content of the extracted page: ",
+                        new_extracted_page,
+                    )
                     print("Exiting")
                     sys.exit()
 
-            if new_chapter_name is not None:
                 # Some chapter names include newline characters that must be
                 # sanitized in order to create a proper new Chapter object:
                 sanitized_new_chapter_name = re.sub("\n", " ", new_chapter_name)
@@ -118,6 +148,8 @@ class ConverterBase:
                 # Yet what we must extracted is the "un-sanitized" chapter name
                 new_extracted_page.extract_chapter_name(new_chapter_name)
 
+            # We are back to the default flow of treatment
+            self.sanitize_page_text(new_extracted_page)
             current_chapter.add_page(new_extracted_page)
 
         for chapter in resulting_chapters:

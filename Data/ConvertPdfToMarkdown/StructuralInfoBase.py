@@ -35,15 +35,12 @@ class StructuralInfoBase:
         #  - the associated value holds the current chapter number for that key
         self._chapter_page = {}
 
-    def _initialize_chapter_page(self):
-        if bool(self._chapter_page):
-            # Already initialized
-            return
-        current_chapter_page = None
-        for page_number in range(0, self.total_page_number):
-            if self._is_chapter_beginning_page(page_number):
-                current_chapter_page = page_number
-            self._chapter_page[page_number] = current_chapter_page
+    def set_chapter_page_number(self, page_number, chapter_page_number):
+        if page_number in self._chapter_page:
+            print("Trying to overwrite chapter page of page number ", page_number, ".")
+            print("Exiting")
+            sys.exit()
+        self._chapter_page[page_number] = chapter_page_number
 
     def _page_is_dropped(self, page_number):
         if not page_number in self.pages_info:
@@ -59,7 +56,10 @@ class StructuralInfoBase:
         return self._page_is_dropped(page_number)
 
     def _get_chapter_page_number(self, page_number):
-        self._initialize_chapter_page()
+        if page_number not in self._chapter_page:
+            print("Unknown chapter page of page number ", page_number, ".")
+            print("Exiting")
+            sys.exit()
         return self._chapter_page[page_number]
 
     def _get_chapter_page(self, page_number):
@@ -78,12 +78,11 @@ class StructuralInfoBase:
         chapter_info = self._get_chapter_info(page_number)
         if not "name" in chapter_info:
             print(
-                "chapter_info of chapter page (page number ",
+                "Warning: chapter_info of chapter page (page number ",
                 page_number,
                 ") without name.",
             )
-            print("Exiting")
-            sys.exit()
+            return None
         return chapter_info["name"]
 
     def _is_chapter_beginning_page(self, page_number):
