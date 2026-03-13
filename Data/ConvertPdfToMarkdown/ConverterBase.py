@@ -70,8 +70,21 @@ class ConverterBase:
         # don't know wether ExtractedPage will be specialized or not.
         return self.structural_info._get_chapter_name(extracted_page.page_number)
 
+    def get_chapter_extracted_page(self, extracted_page):
+        """Get the extracted page of the chapter holding the given extracted page."""
+        chapter_page_number = self.structural_info._get_chapter_page_number(
+            extracted_page.page_number
+        )
+        chapter_extracted_page = self.document.get_chapter_extracted_page(
+            chapter_page_number
+        )
+        if not chapter_extracted_page:
+            print("Chapter for page number ", extracted_page.page_number, "not found.")
+            print("Exiting")
+            sys.exit()
+        return chapter_extracted_page
+
     def build_chapters(self, ExtractedPageDerived):
-        resulting_chapters = []
         current_chapter = None
         for page_number in range(0, self.structural_info.total_page_number):
 
@@ -144,7 +157,7 @@ class ConverterBase:
                 # sanitized in order to create a proper new Chapter object:
                 sanitized_new_chapter_name = re.sub("\n", " ", new_chapter_name)
                 current_chapter = Chapter(sanitized_new_chapter_name)
-                resulting_chapters.append(current_chapter)
+                self.document.add_chapter(current_chapter)
                 # Yet what we must extracted is the "un-sanitized" chapter name
                 new_extracted_page.extract_chapter_name(new_chapter_name)
 
@@ -152,13 +165,12 @@ class ConverterBase:
             self.sanitize_page_text(new_extracted_page)
             current_chapter.add_page(new_extracted_page)
 
-        for chapter in resulting_chapters:
+        for chapter in self.document.get_chapters():
             self.break_chapter_into_paragraphs(chapter)
             for paragraph in chapter.paragraphs:
                 self.break_paragraph_into_sentences(paragraph)
-        for chapter in resulting_chapters:
+        for chapter in self.document.get_chapters():
             self.reconstitute_paragraphs_spreading_over_two_pages(chapter)
-        return resulting_chapters
 
     def _assert_reader_page_number_is_coherent(self, page_number):
         # Slightly paranoid check on the reader numbering job coherence. When
@@ -245,8 +257,7 @@ class ConverterBase:
         """
         Build the Document object out of converter extracted chapters
         """
-        for chapter in self.build_chapters():
-            self.document.add_chapter(chapter)
+        self.build_chapters()
 
     def get_document(self):
         return self.document

@@ -178,6 +178,13 @@ class Document:
     def get_chapters(self):
         return self.chapters
 
+    def get_chapter_name(self, page_number):
+        for chapter in self.chapters:
+            if chapter.page_layout.page_number == page_number:
+                return chapter.name
+        print("Warning: chapter with pages number ", page_number, "not found.")
+        return None
+
     def to_markdown(self, filepath: str) -> None:
         """
         Generate a markdown file representing the document.
