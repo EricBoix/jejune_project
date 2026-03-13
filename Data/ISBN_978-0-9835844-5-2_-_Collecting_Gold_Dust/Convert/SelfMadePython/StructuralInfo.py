@@ -33,7 +33,7 @@ class StructuralInfo(StructuralInfoBase):
             3: {
                 # Chapters with no given name are artificial/fake chapters that
                 # do not exist in the book. They are a technicality for the
-                # first pages not to be devoid of belonging chapter:
+                # first pages not to be devoid of a belonging chapter:
                 "type": "chapter",
                 "chapter_info": {
                     "name": "Introduction (ghost chapter)",
@@ -68,12 +68,7 @@ class StructuralInfo(StructuralInfoBase):
                 # content loss.
                 "drop_page": True,
             },
-            21: {
-                "chapter_info": {
-                    "name": "A Note from the Teacher",
-                    "illumination_delimiter": "Ytime",
-                },
-            },
+            21: {"chapter_info": {"illumination_delimiter": "Ytime"}},
             24: {"drop_page": True},  # Illustration with non meaningful text
             30: {"drop_page": True},  # Illustration with non meaningful text
             35: {"paragraph_fits_on_page": True},  # Paragraph nicely ended.
@@ -87,12 +82,7 @@ class StructuralInfo(StructuralInfoBase):
                 # We thus keep it.
                 "type": "illustration",
             },
-            43: {
-                "chapter_info": {
-                    "name": "Mindfulness is a Lifestyle Change",
-                    "illumination_delimiter": "WTwo",
-                },
-            },
+            43: {"chapter_info": {"illumination_delimiter": "WTwo"}},
             44: {"drop_page": True},  # Illustration with non meaningful text
             45: {"paragraph_fits_on_page": True},
             46: {"paragraph_fits_on_page": True},
@@ -105,13 +95,7 @@ class StructuralInfo(StructuralInfoBase):
             62: {"drop_page": True},  # Illustration with non meaningful text
             63: {"paragraph_fits_on_page": True},
             64: {"type": "illustration"},  # Illustration with valid text
-            65: {
-                "type": "chapter",
-                "chapter_info": {
-                    "name": "Take a Closer Look",
-                    "illumination_delimiter": "Man",
-                },
-            },
+            65: {"chapter_info": {"illumination_delimiter": "Man"}},
             67: {"paragraph_fits_on_page": True},
             68: {"drop_page": True},
             70: {"paragraph_fits_on_page": True},
@@ -129,13 +113,7 @@ class StructuralInfo(StructuralInfoBase):
             88: {"drop_page": True},
             89: {"paragraph_fits_on_page": True},
             90: {"type": "illustration"},
-            91: {
-                "type": "chapter",
-                "chapter_info": {
-                    "name": "Day-to-Day",
-                    "illumination_delimiter": "Wchange",
-                },
-            },
+            91: {"chapter_info": {"illumination_delimiter": "Wchange"}},
             92: {"paragraph_fits_on_page": True},
             94: {"drop_page": True},
             96: {"paragraph_fits_on_page": True},
@@ -154,11 +132,7 @@ class StructuralInfo(StructuralInfoBase):
             123: {"paragraph_fits_on_page": True},
             124: {"type": "illustration"},
             125: {
-                "type": "chapter",
-                "chapter_info": {
-                    "name": "A Lighter Approach",
-                    "illumination_delimiter": "Wawareness",
-                },
+                "chapter_info": {"illumination_delimiter": "Wawareness"},
                 "paragraph_fits_on_page": True,
             },
             128: {"type": "illustration"},
@@ -170,6 +144,9 @@ class StructuralInfo(StructuralInfoBase):
             },
             134: {"type": "illustration"},
             135: {
+                # In order to remove this chapter definition, one needs to
+                # deal with patterning distinction between chapter and
+                # sub-chapter
                 "type": "chapter",
                 "chapter_info": {
                     "name": "Continuing the Work",
@@ -181,13 +158,7 @@ class StructuralInfo(StructuralInfoBase):
             138: {"type": "illustration"},
             143: {"paragraph_fits_on_page": True},
             144: {"type": "illustration"},
-            145: {
-                "type": "chapter",
-                "chapter_info": {
-                    "name": "Appendix: Mindfulness in Brief",
-                    "illumination_delimiter": "Sour",
-                },
-            },
+            145: {"chapter_info": {"illumination_delimiter": "Sour"}},
             147: {"paragraph_fits_on_page": True},
             148: {"paragraph_fits_on_page": True},
             149: {"paragraph_fits_on_page": True},

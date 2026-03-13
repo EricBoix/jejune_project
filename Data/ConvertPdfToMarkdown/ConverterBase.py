@@ -198,13 +198,12 @@ class ConverterBase:
             if paragraph.page_layout.page_number == page_number:
                 return paragraph
         print(
-            "Error: unable to find the first paragraph of page number ",
+            "Warning: unable to find the first paragraph of page number ",
             page_number,
             " in chapter ",
             chapter.name,
         )
-        print("Exiting.")
-        sys.exit()
+        return None
 
     def _chapter_get_last_paragraph_of_given_page(self, chapter, page_number):
         paragraph_of_that_page = None
@@ -368,12 +367,41 @@ class ConverterBase:
                 # collected from the next page
                 continue
 
+            if (
+                self._chapter_get_first_paragraph_of_given_page(chapter, page_number)
+                is None
+            ):
+                # The current page has no paragraph. One of the reasons for
+                # a page without paragraphs can be that
+                # - initially the page had a paragraph (that was ill starting)
+                # - this paragraph got merged with the ill-ending paragraph
+                #   of its previous
+                # - as a consequence the paragraph of the page was moved away
+                #   to end up with its previous paragraphs (actually it ended
+                #   up merged into its previous page last paragraph)
+                # - hence the page ended up with no paragraph at all
+                continue
+
             ill_ending_paragraph = self._chapter_get_last_paragraph_of_given_page(
                 chapter, page_number
             )
+            if not ill_ending_paragraph.sentences:
+                # This paragraph is devoid of sentence content. Nothing can
+                # be merged
+                continue
+
             ill_starting_paragraph = self._chapter_get_first_paragraph_of_given_page(
                 chapter, next_page_number
             )
+
+            if ill_starting_paragraph is None:
+                # The next page has no paragraph. Besides the reason given
+                # above for encountering a page without paragraphs, it can
+                # also happen that the page initial paragraphs got dropped
+                # during the sanitation process. Anyhow, if there is no
+                # possible end for the paragraph, then there is nothing to
+                # merge...
+                continue
 
             #### Asserting some preconditions before merging the two paragraphs:
 

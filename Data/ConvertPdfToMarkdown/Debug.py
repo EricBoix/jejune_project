@@ -1,5 +1,30 @@
 # A set of debugging utilities.
 
+import pypdf
+
+
+def print_document_raw_pages(pdf_filename):
+    """
+    Print the pages of the document.
+    """
+    reader = pypdf.PdfReader(pdf_filename)
+
+    print("##########################################################")
+    print("##########################################################")
+    print("##### RAW DOCUMENT WITH A PAGE BASED BREAKDOWN ###########")
+    print("##########################################################")
+    print("##########################################################\n")
+    print("Total number of pages: ", len(reader.pages))
+
+    for page_number in range(len(reader.pages)):
+        page = reader.pages[page_number]
+        print("############### Page number ", page_number, "############")
+        print(page.extract_text())
+
+    print("##########################################################")
+    print("################## END OF RAW DOCUMENT ###################")
+    print("##########################################################\n")
+
 
 def print_document_pages(document):
     """
