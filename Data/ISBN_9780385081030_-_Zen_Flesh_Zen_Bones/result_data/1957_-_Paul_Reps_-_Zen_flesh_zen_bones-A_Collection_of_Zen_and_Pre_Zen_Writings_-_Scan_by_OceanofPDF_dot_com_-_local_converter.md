@@ -42,8 +42,6 @@ PAUL REPS
 ## 101 ZEN STORIES
 
 
-ceanofPDF.com
-
 Transcribed by Nyogen Senzaki and Paul Reps
 
 These stories were transcribed into English from a book called the Shaseki-shu (Collection of Stone and Sand), written late in the thirteenth century by the Japanese Zen teacher Muju (the ‘non-dweller), and from anecdotes of Zen monks taken from various books published in Japan around the turn of the present century.
@@ -1183,8 +1181,6 @@ What the master passed away, an old neighbor heard the ringing of bells and the 
 ## THE GATELESS GATE
 
 
-
-
 by Ekai, called Mumon Transcribed by Nyogen Senzaki and Paul Reps
 
 1. Joshu’s Dog A monk asked Joshu, a Chinese Zen master: “Has a dog Buddha-nature or not?”
@@ -1493,7 +1489,10 @@ This pupil went to Ummon and asked the same question. Ummon, who happened to hav
 
 “Buddha, according to a sutra, once said: ‘Stop, stop. Do not speak. The ultimate truth is not even to think.’” Amban’s comment: Where did that so-called teaching come from? How is it that one could not even think it? Suppose someone spoke about it then what became of it? Buddha himself was a great chatterbox and in this sutra spoke contrarily. Because of this, persons like Mumon appear afterwards in China and make useless doughnuts, annoying people. What shall we do after all? I will show you.
 
-Then Amban put his palms together, folded his hands, and said: “Stop, stop. Do not speak. The ultimate truth is not even to think. And now I will make a little circle on the sutra with my finger and add that five thousand other sutras and Vimalakirti’s gateless gate all are here!” If anyone tells you fire is light, Pay no attention. When two thieves meet they need no introduction: They recognize each other without question. 10 BULLS
+Then Amban put his palms together, folded his hands, and said: “Stop, stop. Do not speak. The ultimate truth is not even to think. And now I will make a little circle on the sutra with my finger and add that five thousand other sutras and Vimalakirti’s gateless gate all are here!” If anyone tells you fire is light, Pay no attention. When two thieves meet they need no introduction: They recognize each other without question.
+
+## 10 BULLS
+
 
 by Kakuan Transcribed by Nyogen Senzaki and Paul Reps
 
@@ -1552,8 +1551,6 @@ Comment: From the beginning, truth is clear. Poised in silence, I observe the fo
 Comment: Inside my gate, a thousand sages do not know me. The beauty of my garden is invisible. Why should one search for the footprints of the patriarchs? I go to the market place with my wine bottle and return home with my staff. I visit the wineshop and the market, and everyone I look upon becomes enlightened.
 
 ## CENTERING
-
-
 
 
 Transcribed by Paul Reps Zen is nothing new, neither is it anything old. Long before Buddha was born the search was on in India, as the present work shows.

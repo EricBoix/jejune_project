@@ -14,11 +14,13 @@ class StructuralInfo(StructuralInfoBase):
         self.total_page_number = 209
         # FIXME: could the book_title be extracted automatically ?
         self.book_title = "ZEN FLESH, ZEN BONES"
+        # FIXME:
+        # Move the following pattern to where it is used, that is in
+        # Extracted page. Move the associated member functions from structuralInfo to Extracted pattern
         # The pdf distributor tagged the bottom of some pages
+        # REFER TO ExtractedPage.distributor_name_pattern to respect DRY !
         self.distributor_tag_pattern = r"(\n\n( *)OceanofPDF[.]com)"
-        # Note: the second part of pattern happens on sub-chapter beginnings.
-        # Instead of simply starting a new paragraph we should start a new
-        # sub-chapter!
+
         # FIXME: the following pattern belongs to another book.
         # Overide the member function of ConvertPdfToMarkdown to Converter
         # and redefine the value of the following variable to adjust it to
@@ -34,40 +36,22 @@ class StructuralInfo(StructuralInfoBase):
             5: {"drop_page": True},  # ...
             6: {"drop_page": True},  # end of TOC
             7: {
-                # Chapters with no given name are artificial/fake chapters that
-                # do not exist in the book. They are a technicality for the
-                # first pages not to be devoid of a belonging chapter:
+                # Alas the first chapters does not follow the pattern allowing
+                # it to be extracted automatically. This is thus a manual
+                # override of the default chapter extraction mechanism:
                 "type": "chapter",
                 "chapter_info": {
                     "name": "Foreword",
                 },
             },
             8: {"paragraph_fits_on_page": True},
-            9: {
-                "type": "chapter",
-                "chapter_info": {
-                    "name": "101\nZEN STORIES",
-                },
-                "paragraph_fits_on_page": True,
-            },
+            9: {"paragraph_fits_on_page": True},
             10: {"paragraph_fits_on_page": True},
             45: {"drop_page": True},  # Empty page
             67: {"drop_page": True},  # Empty page
             87: {"drop_page": True},  # Empty page
-            124: {
-                "type": "chapter",
-                "chapter_info": {
-                    "name": "THE GATELESS GATE",
-                },
-                "paragraph_fits_on_page": True,
-            },
-            194: {
-                "type": "chapter",
-                "chapter_info": {
-                    "name": "CENTERING",
-                },
-                "paragraph_fits_on_page": True,
-            },
+            124: {"paragraph_fits_on_page": True},
+            194: {"paragraph_fits_on_page": True},
         }
 
     def convert_to_logical_page_number(self, page_number):
