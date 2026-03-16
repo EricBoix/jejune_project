@@ -1,12 +1,13 @@
 import sys
 import re
+from typing import Callable
 
 # To deal with inputs of the Converter class
 from pypdf import PdfReader
 
 # To deal with outputs of the Converter class
-from .Model import Document
-from .Model import Paragraph, Sentence, Chapter
+from .Model import Document, DocumentHierarchicalLevel
+from .Model import Paragraph, Sentence, Chapter, SubChapter
 from .PageLayout import PageLayout
 
 # To realize the conversion per se
@@ -296,39 +297,66 @@ class ConverterBase:
             new_sentence = Sentence(new_sentence_text, new_sentence_layout)
             paragraph.add_sentence(new_sentence)
 
-    def break_chapter_into_paragraphs(self, chapter):
-        for page in chapter.pages:
-            if not page.text:
-                print("Warning: trying to breakdown a paragraph with NO text.")
+    def break_level_into_sublevels(
+        self,
+        level: DocumentHierarchicalLevel,
+        pattern: str,
+        sublevel_factory: Callable[[PageLayout], DocumentHierarchicalLevel],
+        reference_prefix: str,
+    ) -> None:
+        """
+        Generic method to break a hierarchical level into sublevels using regex.
 
-            paragraphs = re.split(
-                self.structural_info.chapter_to_paragraph_breaking_pattern, page.text
-            )
+        Args:
+            level: Parent level to break into sublevels
+            pattern: Regex pattern to split page text
+            sublevel_factory: Factory function that creates sublevels from PageLayout
+            reference_prefix: Prefix for reference text (e.g., "Chapter")
+        """
+        for page in level.pages:
+            if not page.text:
+                print(f"Warning: page with NO text in {reference_prefix}.")
+                continue
+            parts = re.split(pattern, page.text)
             page_layout = page.page_layout
-            for paragraph_text in paragraphs:
-                if len(paragraph_text) == 0:
-                    # Avoid creating empty paragraphs (resulting from previous
-                    # erroneous/careless string manipulations):
+            for part_text in parts:
+                if not part_text:
                     continue
-                new_paragraph_layout = page_layout.__copy__()
-                new_paragraph_layout.set_reference_text(
-                    "[Chapter: "
-                    + chapter.name
-                    + ", reader page number: "
-                    + str(page_layout.reader_page_number)
-                    + ", page number: "
-                    + str(page_layout.page_number)
-                    + "]"
+                new_layout = page_layout.__copy__()
+                new_layout.set_reference_text(
+                    f"[{reference_prefix}: {level.name}, "
+                    f"reader page number: {page_layout.reader_page_number}, "
+                    f"page number: {page_layout.page_number}]"
                 )
-                new_paragraph = Paragraph(new_paragraph_layout)
-                new_paragraph.set_owning_chapter(chapter)
+                new_sublevel = sublevel_factory(new_layout)
                 # Note: the text member is a temporary attribute used by the
-                # Converter but is not destined to be a member of the Paragraph
+                # Converter but is not destined to be a member of the sublevel
                 # class. We just piggyback it until it is transformed and
                 # cleaned-up.
-                new_paragraph.text = paragraph_text
-                chapter.add_paragraph(new_paragraph)
+                new_sublevel.text = part_text
+                level.add_sublevel(new_sublevel)
+
+    def break_chapter_into_paragraphs(self, chapter: Chapter) -> None:
+        self.break_level_into_sublevels(
+            level=chapter,
+            pattern=self.structural_info.chapter_to_paragraph_breaking_pattern,
+            sublevel_factory=Paragraph,
+            reference_prefix="Chapter",
+        )
         chapter.renumber_paragraphs()
+
+    def break_chapter_into_subchapters(self, chapter: Chapter) -> None:
+        def subchapter_factory(layout: PageLayout) -> SubChapter:
+            subchapter = SubChapter("")
+            subchapter.page_layout = layout
+            return subchapter
+
+        self.break_level_into_sublevels(
+            level=chapter,
+            pattern=self.structural_info.chapter_to_subchapter_breaking_pattern,
+            sublevel_factory=subchapter_factory,
+            reference_prefix="Chapter",
+        )
 
     def reconstitute_paragraphs_spreading_over_two_pages(self, chapter):
         """

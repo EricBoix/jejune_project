@@ -14,12 +14,6 @@ class StructuralInfo(StructuralInfoBase):
         self.total_page_number = 209
         # FIXME: could the book_title be extracted automatically ?
         self.book_title = "ZEN FLESH, ZEN BONES"
-        # FIXME:
-        # Move the following pattern to where it is used, that is in
-        # Extracted page. Move the associated member functions from structuralInfo to Extracted pattern
-        # The pdf distributor tagged the bottom of some pages
-        # REFER TO ExtractedPage.distributor_name_pattern to respect DRY !
-        self.distributor_tag_pattern = r"(\n\n( *)OceanofPDF[.]com)"
 
         # FIXME: the following pattern belongs to another book.
         # Overide the member function of ConvertPdfToMarkdown to Converter

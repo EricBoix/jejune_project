@@ -12,6 +12,9 @@ class ExtractedPage(ExtractedPageBase):
         ### PDF distributor tag (a specific string)
         self.distributor_name_pattern = r"OceanofPDF[.]com"
 
+        # Used for removal (when it appears outside of titles)
+        self.distributor_tag_pattern = r"(\n\n)( *)" + self.distributor_name_pattern
+
         ######### Chapter related
         # Three whitespaces (more or less)
         self.chapter_name_extractor_regex = r"(\n){3}"
@@ -63,9 +66,11 @@ class ExtractedPage(ExtractedPageBase):
             sys.exit()
         return chapter_name[0]
 
-    def sanitize_footer():
+    def sanitize_footer(self):
         """Remove the distributor name that appears in page footer equivalents (the last string of a page)"""
-        return
+        match = re.search(self.distributor_tag_pattern + "$", self.text)
+        if match:
+            self.text = re.sub(self.distributor_tag_pattern, "", self.text)
 
     def extract_chapter_name(self, chapter_name):
         if re.search(self.distributor_name_pattern, self.text) is None:

@@ -11,9 +11,14 @@ class ExtractedPage(ExtractedPageBase):
         self.chapter_name_separator_first_occurrence = 100
         self.figure_separator = r"((?:\n)+Figure)"
 
-        original_page_text = self.original_pdf_page.extract_text(
-            extraction_mode="layout"
-        )
+        try:
+            original_page_text = self.original_pdf_page.extract_text(
+                extraction_mode="layout"
+            )
+        except NotImplementedError:
+            # Fallback for PDFs with filter arrays that pypdf can't handle
+            # in layout mode
+            original_page_text = self.original_pdf_page.extract_text()
 
         # For some undocumented reason the pdfreader output has "\t" characters
         # instead of whitespaces. Brutally convert those tabulations to

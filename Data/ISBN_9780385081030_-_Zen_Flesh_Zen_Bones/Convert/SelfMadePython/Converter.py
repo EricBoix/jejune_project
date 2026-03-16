@@ -17,13 +17,7 @@ class Converter(ConverterBase):
         return ConverterBase._page_requires_paragraph_continuation(self, page_number)
 
     def sanitize_page_text(self, extracted_page):
-        # The distributor tag always appears at the bottom of a page
-        distributor_regex = self.structural_info.distributor_tag_pattern + "$"
-        match = re.search(distributor_regex, extracted_page.text)
-        if match:
-            extracted_page.text = re.sub(
-                self.structural_info.distributor_tag_pattern, "", extracted_page.text
-            )
+        extracted_page.sanitize_footer()
 
     def is_chapter_beginning_page(self, extracted_page):
         base_says = ConverterBase.is_chapter_beginning_page(self, extracted_page)

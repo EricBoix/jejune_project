@@ -1,8 +1,18 @@
 from __future__ import annotations  # Allow forward references in type hints
+from abc import ABC
 import sys
 from .PageLayout import PageLayout
 from mdutils.mdutils import MdUtils  # Added import
-from typing import List, Optional
+from typing import Generic, List, Optional, TypeVar, TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from typing import Protocol
+
+    class HasToMarkdown(Protocol):
+        def to_markdown(self, md_file: MdUtils) -> None: ...
+
+# Type variable for sublevel types in DocumentHierarchicalLevel
+T = TypeVar("T", bound="DocumentHierarchicalLevel | None")
 
 
 class Sentence:
@@ -27,32 +37,95 @@ class Sentence:
         md_file.new_line(repr(self.sentence))
 
 
-class Paragraph:
+class DocumentHierarchicalLevel(ABC, Generic[T]):
     """
-    A list of sentences.
+    A chapter, a sub-chapter, a sub-sub-chapter, with an optional list of sublevels.
+    The type parameter T specifies the allowed sublevel type.
+    """
+
+    def __init__(self, name: str) -> None:
+        self.name: str = name
+        # The original pages out of which this level will be made up
+        self.pages: List[str] = list()
+        # The optional sub-hierarchical levels of this one
+        self.sublevels: Optional[List[T]] = None
+        # The page where this Hierarchical level is encountered within the
+        # original document
+        self.page_layout: Optional[PageLayout] = None
+        # Header level for markdown output (set by subclasses)
+        self.level: int = 0
+
+    def add_page(self, page) -> None:
+        if not self.pages:
+            self.page_layout = page.page_layout
+        self.pages.append(page)
+
+    def add_sublevel(self, sublevel: T) -> None:
+        if not self.sublevels:
+            self.sublevels = list()
+        self.sublevels.append(sublevel)
+
+    def get_sublevel(self, index: int) -> T:
+        if not self.sublevels or index >= len(self.sublevels):
+            print("Sublevel index ", index, " out of bounds ", end="")
+            print("(should be smaller than ", len(self.sublevels) if self.sublevels else 0, ")")
+            sys.exit()
+        return self.sublevels[index]
+
+    def remove_sublevel(self, sublevel: T) -> None:
+        """
+        Remove a sublevel from this hierarchical level.
+        """
+        if self.sublevels and sublevel in self.sublevels:
+            self.sublevels.remove(sublevel)
+        else:
+            raise ValueError("Sublevel not found.")
+
+    def to_markdown(self, md_file: MdUtils) -> None:
+        """
+        Add this hierarchical level's content to the given MdUtils object.
+        """
+        md_file.new_header(level=self.level, title=self.name, add_table_of_contents="n")
+        if self.sublevels:
+            for sublevel in self.sublevels:
+                if sublevel is not None:
+                    sublevel.to_markdown(md_file)
+        md_file.new_line()
+
+
+class Paragraph(DocumentHierarchicalLevel[None]):
+    """
+    A list of sentences. Lowest level in the document hierarchy.
+    Sentence is a leaf and not a DocumentHierarchicalLevel.
     """
 
     def __init__(self, layout: PageLayout) -> None:
+        DocumentHierarchicalLevel.__init__(self, name="")
         self.sentences: List[Sentence] = list()
-        self._owning_chapter: Chapter = None
-        # Paragraph number within owning chapter. Note that paragraphs numbering
+        self._owning_hierarchical_level: Optional[SubChapter] = None
+        # Paragraph number within owning subchapter. Note that paragraphs numbering
         # is for human consumption and thus starts at 1, not 0.
-        self._number: int = None
+        self._number: Optional[int] = None
         self.page_layout = layout
+        self.level = 4
 
     @property
     def number(self) -> Optional[int]:
         return self._number
 
     @property
-    def owning_chapter(self) -> Chapter:
-        return self._owning_chapter
+    def owning_hierarchical_level(self) -> Optional[SubChapter]:
+        return self._owning_hierarchical_level
 
-    def set_owning_chapter(self, chapter: Chapter) -> None:
+    def set_owning_hierarchical_level(self, subchapter: SubChapter) -> None:
         """
-        Set the chapter that owns this paragraph.
+        Set the subchapter that owns this paragraph.
         """
-        self._owning_chapter = chapter
+        self._owning_hierarchical_level = subchapter
+
+    # Keep old method name for backwards compatibility
+    def set_owning_chapter(self, chapter: SubChapter) -> None:
+        self.set_owning_hierarchical_level(chapter)
 
     def set_number(self, number: int) -> None:
         self._number = number
@@ -60,7 +133,7 @@ class Paragraph:
     def add_sentence(self, sentence: Sentence) -> None:
         self.sentences.append(sentence)
 
-    def get_sentence(self, sentence_number):
+    def get_sentence(self, sentence_number: int) -> Sentence:
         if sentence_number > len(self.sentences):
             print("Sentence index ", sentence_number, " out of bounds ", end="")
             print("(should be smaller than ", len(self.sentences), ")")
@@ -76,34 +149,41 @@ class Paragraph:
         else:
             raise ValueError("Sentence not found in paragraph.")
 
-    def merge(self, other: "Paragraph") -> None:
+    def merge(self, other: Paragraph) -> None:
         """
         Concatenate another paragraph to this one and dispose of the other.
-        This method assumes that the other paragraph is from the same chapter.
+        This method assumes that the other paragraph is from the same subchapter.
         """
-        if self._owning_chapter != other._owning_chapter:
-            raise ValueError("Cannot concatenate paragraphs from different chapters.")
+        if self._owning_hierarchical_level != other._owning_hierarchical_level:
+            raise ValueError("Cannot concatenate paragraphs from different subchapters.")
+        if self._owning_hierarchical_level is None:
+            raise ValueError("Paragraph has no owning hierarchical level.")
         self.sentences.extend(other.sentences)
-        self._owning_chapter.remove_paragraph(other)
-        self._owning_chapter.renumber_paragraphs()
+        self._owning_hierarchical_level.remove_paragraph(other)
+        self._owning_hierarchical_level.renumber_paragraphs()
 
     def get_reference(self) -> str:
         # A reference within the document for human consumption.
+        owner_name = self.owning_hierarchical_level.name if self.owning_hierarchical_level else "unknown"
+        page_reader = self.page_layout.reader_page_number if self.page_layout else "?"
+        page_num = self.page_layout.page_number if self.page_layout else "?"
         return (
             "Paragraph "
             + str(self._number)
-            + " of chapter "
-            + repr(self.owning_chapter.name)  # Just to add parentheses
+            + " of subchapter "
+            # Just to add parentheses
+            + repr(owner_name)
             + ", page "
-            + str(self.page_layout.reader_page_number)
+            + str(page_reader)
             + " (index page number "
-            + str(self.page_layout.page_number)
+            + str(page_num)
             + ")"
         )
 
     def to_markdown(self, md_file: MdUtils) -> None:
         """
-        Add this paragraph's content to the given MdUtils object by calling each sentence's to_markdown.
+        Add this paragraph's content to the given MdUtils object.
+        Overrides base class to output sentences instead of sublevels.
         """
         # Note: we can not delegate the markdown generation to
         # Sentence.to_markdown() since we would have to use md_file.new_line()
@@ -112,55 +192,73 @@ class Paragraph:
         md_file.new_paragraph(paragraph_as_text)
 
 
-class Chapter:
-    """
-    A list of Paragraphs.
-    """
-
+class SubChapter(DocumentHierarchicalLevel[Paragraph]):
     def __init__(self, name: str) -> None:
-        self.name: str = name
-        # The original pages out of which this chapter is made
-        self.pages: List[str] = list()
-        # The paragraphs that got extracted from the pages
-        self.paragraphs: List[Paragraph] = list()
-        self.page_layout: Optional[PageLayout] = None
+        DocumentHierarchicalLevel.__init__(self, name)
+        self.level = 3
 
-    def add_page(self, page) -> None:
-        if not self.pages:
-            self.page_layout = page.page_layout
-        self.pages.append(page)
-
-    def get_paragraph(self, paragraph_number):
-        if paragraph_number > len(self.paragraphs):
-            print("Paragraph index ", paragraph_number, " out of bounds ", end="")
-            print("(should be smaller than ", len(self.paragraphs), ")")
-            sys.exit()
-        return self.paragraphs[paragraph_number]
-
-    def add_paragraph(self, new_paragraph: Paragraph) -> None:
-        self.paragraphs.append(new_paragraph)
+    def add_paragraph(self, paragraph: Paragraph) -> None:
+        paragraph.set_owning_hierarchical_level(self)
+        self.add_sublevel(paragraph)
 
     def remove_paragraph(self, paragraph: Paragraph) -> None:
-        """
-        Remove a paragraph from the chapter.
-        """
-        if paragraph in self.paragraphs:
-            self.paragraphs.remove(paragraph)
-        else:
-            raise ValueError("Paragraph not found in chapter.")
+        self.remove_sublevel(paragraph)
 
     def renumber_paragraphs(self) -> None:
-        for index, paragraph in enumerate(self.paragraphs, start=1):
-            paragraph.set_number(index)
+        if self.sublevels:
+            for index, paragraph in enumerate(self.sublevels, start=1):
+                paragraph.set_number(index)
 
     def to_markdown(self, md_file: MdUtils) -> None:
-        """
-        Add this chapter's content to the given MdUtils object.
-        """
-        md_file.new_header(level=2, title=self.name, add_table_of_contents="n")
-        for paragraph in self.paragraphs:
-            paragraph.to_markdown(md_file)
-        md_file.new_line()
+        """Output subchapter content; skip header if this is a default (unnamed) subchapter."""
+        if self.name:
+            md_file.new_header(level=self.level, title=self.name, add_table_of_contents="n")
+        if self.sublevels:
+            for paragraph in self.sublevels:
+                paragraph.to_markdown(md_file)
+        if self.name:
+            md_file.new_line()
+
+
+class Chapter(DocumentHierarchicalLevel[SubChapter]):
+    def __init__(self, name: str) -> None:
+        DocumentHierarchicalLevel.__init__(self, name)
+        self.level = 2
+        self._default_subchapter: Optional[SubChapter] = None
+
+    def add_subchapter(self, subchapter: SubChapter) -> None:
+        self.add_sublevel(subchapter)
+
+    def _get_or_create_default_subchapter(self) -> SubChapter:
+        """Get or create a default subchapter to hold paragraphs when no explicit subchapters exist."""
+        if self._default_subchapter is None:
+            self._default_subchapter = SubChapter("")
+            self._default_subchapter.page_layout = self.page_layout
+            self.add_sublevel(self._default_subchapter)
+        return self._default_subchapter
+
+    def add_paragraph(self, paragraph: Paragraph) -> None:
+        """Add paragraph to the default subchapter (convenience method for backward compatibility)."""
+        subchapter = self._get_or_create_default_subchapter()
+        subchapter.add_paragraph(paragraph)
+
+    def remove_paragraph(self, paragraph: Paragraph) -> None:
+        """Remove paragraph from the default subchapter (convenience method for backward compatibility)."""
+        if self._default_subchapter:
+            self._default_subchapter.remove_paragraph(paragraph)
+
+    def renumber_paragraphs(self) -> None:
+        """Renumber paragraphs in all subchapters."""
+        if self.sublevels:
+            for subchapter in self.sublevels:
+                subchapter.renumber_paragraphs()
+
+    @property
+    def paragraphs(self) -> List[Paragraph]:
+        """Return all paragraphs from the default subchapter (backward compatibility)."""
+        if self._default_subchapter and self._default_subchapter.sublevels:
+            return self._default_subchapter.sublevels
+        return []
 
 
 class Document:
