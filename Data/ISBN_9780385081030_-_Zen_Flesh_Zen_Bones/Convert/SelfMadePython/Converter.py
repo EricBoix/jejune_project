@@ -1,15 +1,20 @@
-import re
-from ConvertPdfToMarkdown import ConverterBase
+from ConvertPdfToMarkdown import ConverterBase, SuperChapter, DocumentWithSubChapters
 from ExtractedPage import ExtractedPage
 
 
 class Converter(ConverterBase):
     """
-    Converter for Collecting Gold Dust book.
+    Converter for Zen Flesh, Zen Bones book.
     """
 
-    def build_chapters(self):
-        return ConverterBase.build_chapters(self, ExtractedPage)
+    def __init__(self, pdf_filename, structural_info):
+        document = DocumentWithSubChapters(structural_info.book_title)
+        ConverterBase.__init__(self, pdf_filename, document, structural_info)
+
+    def breaks_document_into_chapters(self):
+        return ConverterBase.breaks_document_into_chapters(
+            self, ExtractedPage, SuperChapter
+        )
 
     def _page_requires_paragraph_continuation(self, page_number):
         # if self.structural_info._page_is_illustration(page_number):

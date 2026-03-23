@@ -1,5 +1,3 @@
-import roman
-
 from ConvertPdfToMarkdown import StructuralInfoBase
 
 
@@ -15,11 +13,16 @@ class StructuralInfo(StructuralInfoBase):
         # FIXME: could the book_title be extracted automatically ?
         self.book_title = "ZEN FLESH, ZEN BONES"
 
-        # FIXME: the following pattern belongs to another book.
-        # Overide the member function of ConvertPdfToMarkdown to Converter
-        # and redefine the value of the following variable to adjust it to
-        # this book.
-        self.chapter_to_paragraph_breaking_pattern = "\n    " + "|" + "\n\n\n"
+        # Sub-chapters typically start with e.g. "85. Time to Die\n\n"
+        self.superchapter_to_chapter_breaking_pattern = r"\d+\.[ ][A-Za-z| ]+"
+        # The above pattern works and the chapter name that matches can be
+        # safely extracted when this chapter appears at the head of a page.
+        # But when the chapter happens in the middle of the page then they are
+        # three \n in sequence to separate the chapters. A typical mid-page
+        # chapter page is e.g.
+        #                  "\n\n\n86. The Living Buddha and the Tubmaker\n\n"
+        # The pattern thus becomes r"(\n\n\n)\d+\.[ ][A-Za-z| ]+"
+        self.chapter_to_paragraph_breaking_pattern = r"\n\n  " + r"|" + r"\n\n"
 
         self.pages_info = {
             0: {"drop_page": True},  # Front cover

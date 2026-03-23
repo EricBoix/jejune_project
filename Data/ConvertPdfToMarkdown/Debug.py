@@ -35,7 +35,7 @@ def print_document_pages(document):
     print("############ DOCUMENT AS SET OF PAGES ####################")
     print("##########################################################")
     print("##########################################################\n")
-    for chapter in document.chapters:
+    for chapter in document.get_chapters():
         print("#################################")
         print("################## Chapter name: ", chapter.name)
         print("#################################")
@@ -68,6 +68,26 @@ def print_document_paragraphs(document):
             )
 
 
+def print_document_chapter(chapter):
+    print("###################################################################")
+    print("################## Chapter name: ", chapter.name)
+    print("###################################################################")
+    for paragraph in chapter.get_paragraphs():
+        print(
+            "Paragraph (ref:",
+            paragraph.get_reference(),
+            ")",
+        )
+        for sentence in paragraph.get_sentences():
+            print(
+                "Sentence (ref:",
+                sentence.page_layout.reference_text,
+                "):\n",
+                sentence.sentence,
+                "\n",
+            )
+
+
 def print_document_sentences(document):
     """
     Print the paragraphs of the document.
@@ -77,21 +97,22 @@ def print_document_sentences(document):
     print("##### DOCUMENT AS SET OF SENTENCES WITHIN PARAGRAPHS #####")
     print("##########################################################")
     print("##########################################################\n")
-    for chapter in document.chapters:
+    for chapter in document.get_chapters():
+        print_document_chapter(chapter)
+
+
+def print_document_with_subchapter_sentences(document):
+    """
+    Print the document at the sentence level
+    """
+    print("##########################################################")
+    print("##########################################################")
+    print("############### DOCUMENT DOWN TO THE SENTENCES ###########")
+    print("##########################################################")
+    print("##########################################################\n")
+    for superchapter in document.get_chapters():
         print("###################################################################")
-        print("################## Chapter name: ", chapter.name)
+        print("################## Super Chapter name: ", superchapter.name)
         print("###################################################################")
-        for paragraph in chapter.paragraphs:
-            print(
-                "Paragraph (ref:",
-                paragraph.get_reference(),
-                ")",
-            )
-            for sentence in paragraph.sentences:
-                print(
-                    "Sentence (ref:",
-                    sentence.page_layout.reference_text,
-                    "):\n",
-                    sentence.sentence,
-                    "\n",
-                )
+        for chapter in superchapter.get_chapters():
+            print_document_chapter(chapter)

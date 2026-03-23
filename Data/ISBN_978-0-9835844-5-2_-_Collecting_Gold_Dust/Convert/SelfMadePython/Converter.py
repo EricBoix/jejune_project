@@ -2,7 +2,7 @@ import sys
 import re
 import roman
 
-from ConvertPdfToMarkdown import ConverterBase
+from ConvertPdfToMarkdown import ConverterBase, ChapterOfParagraphs, Document
 from ExtractedPage import ExtractedPage
 
 
@@ -11,8 +11,14 @@ class Converter(ConverterBase):
     Converter for Collecting Gold Dust book.
     """
 
-    def build_chapters(self):
-        return ConverterBase.build_chapters(self, ExtractedPage)
+    def __init__(self, pdf_filename, structural_info):
+        document = Document(structural_info.book_title)
+        return ConverterBase.__init__(self, pdf_filename, document, structural_info)
+
+    def breaks_document_into_chapters(self):
+        return ConverterBase.breaks_document_into_chapters(
+            self, ExtractedPage, ChapterOfParagraphs
+        )
 
     def _page_requires_paragraph_continuation(self, page_number):
         if self.structural_info._page_is_illustration(page_number):

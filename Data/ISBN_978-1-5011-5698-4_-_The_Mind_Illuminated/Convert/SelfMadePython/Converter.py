@@ -10,8 +10,8 @@ class Converter(ConverterBase):
     Converter for The Mind Illuminated book.
     """
 
-    def build_chapters(self):
-        return ConverterBase.build_chapters(self, ExtractedPage)
+    def breaks_document_into_chapters(self):
+        return ConverterBase.breaks_document_into_chapters(self, ExtractedPage)
 
     def sanitize_page_text(self, extracted_page):
         """

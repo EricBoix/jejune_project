@@ -5,7 +5,7 @@ from ConvertPdfToMarkdown import (
     print_document_raw_pages,
     print_document_pages,
     print_document_paragraphs,
-    print_document_sentences,
+    print_document_with_subchapter_sentences,
 )
 
 pdf_filename = path.join(
@@ -29,7 +29,6 @@ document.to_markdown("output.md")
 
 # On debugging purposes
 if True:
-    print_document_pages(document)
-    exit()
-    print_document_paragraphs(document)
-    print_document_sentences(document)
+    # print_document_pages(document)
+    # print_document_paragraphs(document)
+    print_document_with_subchapter_sentences(document)

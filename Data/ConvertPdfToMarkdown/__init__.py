@@ -1,4 +1,12 @@
-from .Model import Document, Chapter, Paragraph, Sentence
+from .Model import (
+    Sentence,
+    Paragraph,
+    ChapterOfParagraphs,
+    SuperChapter,
+    DocumentHierarchicalRoot,
+    DocumentWithSubChapters,
+    Document,
+)
 from .ConverterBase import ConverterBase
 from .ExtractedPageBase import ExtractedPageBase
 from .StructuralInfoBase import StructuralInfoBase
@@ -8,4 +16,5 @@ from .Debug import (
     print_document_pages,
     print_document_paragraphs,
     print_document_sentences,
+    print_document_with_subchapter_sentences,
 )

@@ -16,10 +16,13 @@
         "graph_rag_python_sandbox": true, // Enable that dictionary
     },
     "cSpell.words": [
-        "neovis"
+        "neovis",
+        "superchapter"
     ],
     "[python]": {
       "editor.defaultFormatter": "ms-python.black-formatter",
       "editor.formatOnSave": true
-    }
+    },
+    "python-envs.defaultEnvManager": "ms-python.python:venv",
+    "python-envs.workspaceSearchPaths": ["./**/venv"]
 }

@@ -6,8 +6,13 @@ from typing import Callable
 from pypdf import PdfReader
 
 # To deal with outputs of the Converter class
-from .Model import Document, DocumentHierarchicalLevel
-from .Model import Paragraph, Sentence, Chapter, SubChapter
+from .Model import DocumentHierarchicalLevel
+from .Model import (
+    ChapterOfParagraphs,
+    SuperChapter,
+    Paragraph,
+    Sentence,
+)
 from .PageLayout import PageLayout
 
 # To realize the conversion per se
@@ -27,7 +32,7 @@ class ConverterBase:
     chapter, sub-chapter, paragraph...).
     """
 
-    def __init__(self, pdf_filename, structural_info):
+    def __init__(self, pdf_filename, document, structural_info):
 
         # The original pdf document file name that this converter will act from
         self.pdf_filename = pdf_filename
@@ -39,7 +44,7 @@ class ConverterBase:
         self.structural_info = structural_info
 
         # The result of the conversion process
-        self.document = Document(self.structural_info.book_title)
+        self.document = document
 
         # Parse the pdf and make some basic coherence checks on the result:
         self.reader = PdfReader(self.pdf_filename)
@@ -85,7 +90,7 @@ class ConverterBase:
             sys.exit()
         return chapter_extracted_page
 
-    def build_chapters(self, ExtractedPageDerived):
+    def breaks_document_into_chapters(self, ExtractedPageDerived, ChapterDerived):
         current_chapter = None
         for page_number in range(0, self.structural_info.total_page_number):
 
@@ -157,7 +162,7 @@ class ConverterBase:
                 # Some chapter names include newline characters that must be
                 # sanitized in order to create a proper new Chapter object:
                 sanitized_new_chapter_name = re.sub("\n", " ", new_chapter_name)
-                current_chapter = Chapter(sanitized_new_chapter_name)
+                current_chapter = ChapterDerived(sanitized_new_chapter_name)
                 self.document.add_chapter(current_chapter)
                 # Yet what we must extracted is the "un-sanitized" chapter name
                 new_extracted_page.extract_chapter_name(new_chapter_name)
@@ -165,13 +170,6 @@ class ConverterBase:
             # We are back to the default flow of treatment
             self.sanitize_page_text(new_extracted_page)
             current_chapter.add_page(new_extracted_page)
-
-        for chapter in self.document.get_chapters():
-            self.break_chapter_into_paragraphs(chapter)
-            for paragraph in chapter.paragraphs:
-                self.break_paragraph_into_sentences(paragraph)
-        for chapter in self.document.get_chapters():
-            self.reconstitute_paragraphs_spreading_over_two_pages(chapter)
 
     def _assert_reader_page_number_is_coherent(self, page_number):
         # Slightly paranoid check on the reader numbering job coherence. When
@@ -195,32 +193,10 @@ class ConverterBase:
         return True
 
     def _chapter_get_first_paragraph_of_given_page(self, chapter, page_number):
-        for paragraph in chapter.paragraphs:
-            if paragraph.page_layout.page_number == page_number:
-                return paragraph
-        print(
-            "Warning: unable to find the first paragraph of page number ",
-            page_number,
-            " in chapter ",
-            chapter.name,
-        )
-        return None
+        return chapter.get_first_sublevel_of_given_page(page_number)
 
     def _chapter_get_last_paragraph_of_given_page(self, chapter, page_number):
-        paragraph_of_that_page = None
-        for paragraph in chapter.paragraphs:
-            if paragraph.page_layout.page_number == page_number:
-                paragraph_of_that_page = paragraph
-        if paragraph_of_that_page is None:
-            print(
-                "Error: unable to find the last paragraph of page number ",
-                page_number,
-                " in chapter ",
-                chapter.name,
-            )
-            print("Exiting.")
-            sys.exit()
-        return paragraph_of_that_page
+        return chapter.get_last_sublevel_of_given_page(page_number)
 
     def sanitize_newlines_and_multiple_whitespaces(self, input_text):
 
@@ -257,7 +233,11 @@ class ConverterBase:
         """
         Build the Document object out of converter extracted chapters
         """
-        self.build_chapters()
+        self.breaks_document_into_chapters()  # Calling the derived version
+        for chapter in self.document.get_chapters():
+            self.break_chapter_into_sublevels(chapter)
+        for chapter in self.document.get_chapters():
+            self.reconstitute_paragraphs_spreading_over_two_pages(chapter)
 
     def get_document(self):
         return self.document
@@ -313,30 +293,45 @@ class ConverterBase:
             sublevel_factory: Factory function that creates sublevels from PageLayout
             reference_prefix: Prefix for reference text (e.g., "Chapter")
         """
-        for page in level.pages:
-            if not page.text:
-                print(f"Warning: page with NO text in {reference_prefix}.")
+        if not level.get_text_with_layout():
+            print(f"Warning: DocumentHierarchicalLevel {level} with NO text content.")
+
+        new_sublevel = None
+        for level_content in level.get_text_with_layout():
+            content_text = level_content.text
+            content_layout = level_content.page_layout
+            if not content_text:
+                print(f"Warning: level with NO text in {reference_prefix}.")
                 continue
-            parts = re.split(pattern, page.text)
-            page_layout = page.page_layout
+            parts = re.split(pattern, content_text)
+            print("########################################################")
+            print("Pattern: ", repr(pattern))
+            print("Original content_text: ", repr(content_text))
+            print("###### PPPPPPPPPPPPPPPParts: ", parts)
             for part_text in parts:
-                if not part_text:
+                if part_text == "":
+                    # This is some residue of the split happening in the
+                    # middle of the content_text. We avoid creating a new
+                    # sublevel for some empty content
                     continue
-                new_layout = page_layout.__copy__()
+                new_layout = content_layout.__copy__()
                 new_layout.set_reference_text(
                     f"[{reference_prefix}: {level.name}, "
-                    f"reader page number: {page_layout.reader_page_number}, "
-                    f"page number: {page_layout.page_number}]"
+                    f"reader page number: {content_layout.reader_page_number}, "
+                    f"page number: {content_layout.page_number}]"
                 )
                 new_sublevel = sublevel_factory(new_layout)
-                # Note: the text member is a temporary attribute used by the
-                # Converter but is not destined to be a member of the sublevel
-                # class. We just piggyback it until it is transformed and
-                # cleaned-up.
+                # Note: the design chose to make this text member attribute
+                # of the sublevel. Yet this member attribute is only
+                # used by the Converter and is not destined to be of any
+                # usage once the conversion is made.
                 new_sublevel.text = part_text
+                new_sublevel.name = "BOZOZOZOOZOZOZ"
+                print("######### ADDING SUBLEVEL ", new_sublevel)
+                print("######### SUBLEVEL TEXT", new_sublevel.text)
                 level.add_sublevel(new_sublevel)
 
-    def break_chapter_into_paragraphs(self, chapter: Chapter) -> None:
+    def break_chapter_into_paragraphs(self, chapter: ChapterOfParagraphs) -> None:
         self.break_level_into_sublevels(
             level=chapter,
             pattern=self.structural_info.chapter_to_paragraph_breaking_pattern,
@@ -345,18 +340,35 @@ class ConverterBase:
         )
         chapter.renumber_paragraphs()
 
-    def break_chapter_into_subchapters(self, chapter: Chapter) -> None:
-        def subchapter_factory(layout: PageLayout) -> SubChapter:
-            subchapter = SubChapter("")
-            subchapter.page_layout = layout
-            return subchapter
+    def break_superchapter_into_chapters(self, chapter: SuperChapter) -> None:
+        def chapter_of_paragraph_factory(layout: PageLayout) -> ChapterOfParagraphs:
+            chapter_of_paragraph = ChapterOfParagraphs("")
+            chapter_of_paragraph.page_layout = layout
+            return chapter_of_paragraph
 
         self.break_level_into_sublevels(
             level=chapter,
-            pattern=self.structural_info.chapter_to_subchapter_breaking_pattern,
-            sublevel_factory=subchapter_factory,
-            reference_prefix="Chapter",
+            pattern=self.structural_info.superchapter_to_chapter_breaking_pattern,
+            sublevel_factory=chapter_of_paragraph_factory,
+            reference_prefix="Sub-Chapter",
         )
+        chapter.renumber_chapters()
+
+    def break_chapter_into_sublevels(self, chapter):
+        if isinstance(chapter, ChapterOfParagraphs):
+            self.break_chapter_into_paragraphs(chapter)
+            for paragraph in chapter.get_paragraphs():
+                # Keep breaking down to leafs
+                self.break_paragraph_into_sentences(paragraph)
+            return
+        if isinstance(chapter, SuperChapter):
+            self.break_superchapter_into_chapters(chapter)
+            for subchapter in chapter.get_chapters():
+                self.break_chapter_into_sublevels(subchapter)  # Recursing
+            return
+        print("Chapter of unknown type ", type(chapter))
+        print("Exiting.")
+        sys.exit()
 
     def reconstitute_paragraphs_spreading_over_two_pages(self, chapter):
         """
@@ -375,6 +387,10 @@ class ConverterBase:
            standing over two ill reconstituted Paragraphs) gets also properly
            reconstituted.
         """
+        if isinstance(chapter, SuperChapter):
+            for chapter in chapter.get_chapters():  # Recursing
+                self.reconstitute_paragraphs_spreading_over_two_pages(chapter)
+
         if len(chapter.pages) == 1:
             # Nothing to do for a single page
             return
@@ -413,7 +429,7 @@ class ConverterBase:
             ill_ending_paragraph = self._chapter_get_last_paragraph_of_given_page(
                 chapter, page_number
             )
-            if not ill_ending_paragraph.sentences:
+            if not ill_ending_paragraph.get_sentences():
                 # This paragraph is devoid of sentence content. Nothing can
                 # be merged
                 continue
@@ -455,10 +471,12 @@ class ConverterBase:
                 sys.exit()
 
             #### Proceed with the merging of two paragraphs into a single one:
-            first_sentence_of_ill_starting_paragraph = ill_starting_paragraph.sentences[
-                0
-            ]
-            last_sentence_of_ill_ending_paragraph = ill_ending_paragraph.sentences[-1]
+            first_sentence_of_ill_starting_paragraph = (
+                ill_starting_paragraph.get_sentences()[0]
+            )
+            last_sentence_of_ill_ending_paragraph = (
+                ill_ending_paragraph.get_sentences()[-1]
+            )
             # First merge the two sentences:
             last_sentence_of_ill_ending_paragraph.append(
                 first_sentence_of_ill_starting_paragraph
