@@ -53,6 +53,8 @@ class DocumentHierarchicalLevel(ABC, Generic[T]):
 
     def __init__(self, name: str) -> None:
         self.name: str = name
+        if not self.name:
+            print("Warning: DocumentHierarchicalLevel created with no given name.")
         # The text capturing this level as extracted from the original document.
         # Note that this text is only used in order to construct this model
         # during the hierarchical breakdown. Eventually all the text content
@@ -94,6 +96,12 @@ class DocumentHierarchicalLevel(ABC, Generic[T]):
             sys.exit()
         return self.sublevels[index]
 
+    def get_last_sublevel(self):
+        if not self.sublevels:
+            print("Warning: no sublevels.")
+            return None
+        return self.sublevels[-1]
+
     def remove_sublevel(self, sublevel: T) -> None:
         """
         Remove a sublevel from this hierarchical level.
@@ -119,6 +127,15 @@ class DocumentHierarchicalLevel(ABC, Generic[T]):
 
     def set_number(self, number: int) -> None:
         self._number = number
+
+    def set_name(self, name: str) -> None:
+        self.name = name
+
+    def append_text(self, text: str) -> None:
+        if self.text:
+            self.text += text
+        else:
+            self.text = text
 
     def renumber_sublevels(self) -> None:
         if self.sublevels:
@@ -238,12 +255,14 @@ class Paragraph(DocumentHierarchicalLevel[Sentence]):
             print("Useless paragraph with no sentences.")
             print("Optimisation inquiry required.")
             print("Exiting.")
-            sys.exit()
+            print("FIXME FIXME FIXME FIXME FIXME")
+            return
+            # sys.exit()
         # Note: we can not delegate the markdown generation to
         # Sentence.to_markdown() since we would have to use md_file.new_line()
         # which (as expected) adds an unwanted mandatory line break
         paragraph_as_text = " ".join([sentence.sentence for sentence in sentences])
-        md_file.new_paragraph(paragraph_as_text + "END_OF_PARAGRAPH")
+        md_file.new_paragraph(paragraph_as_text)
 
 
 class TopLevelChapter:
@@ -315,6 +334,19 @@ class SuperChapter(TopLevelChapter, DocumentHierarchicalLevel[ChapterOfParagraph
     remove_chapter = DocumentHierarchicalLevel.remove_sublevel
     get_chapters = DocumentHierarchicalLevel.get_sublevels
     renumber_chapters = DocumentHierarchicalLevel.renumber_sublevels
+    # For the case where the SuperChapter only has a single Chapter that
+    # is thus skipped:
+    get_paragraphs = DocumentHierarchicalLevel.get_sublevels
+    renumber_paragraphs = DocumentHierarchicalLevel.renumber_sublevels
+
+    def is_SuperChapterOfParagraph(self):
+        if not self.get_sublevels():
+            # We can not really decide.
+            return False
+        some_sublevel = self.get_last_sublevel()
+        if isinstance(some_sublevel, Paragraph):
+            return True
+        return False
 
 
 class DocumentHierarchicalRoot:

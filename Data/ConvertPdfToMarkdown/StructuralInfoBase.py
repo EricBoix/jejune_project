@@ -35,7 +35,12 @@ class StructuralInfoBase:
         #  - the associated value holds the current chapter number for that key
         self._chapter_page = {}
 
-    def set_chapter_page_number(self, page_number, chapter_page_number):
+    def set_chapter_page_number(self, page_number: int, chapter_page_number: int):
+        """Set the chapter page number of the page designated by page number.
+
+        :param int page_number: The page number of the page for which we are setting the chapter (page)
+        :param int chapter_page_number The page number of the chapter (beginning) to which the designated belongs to.
+        """
         if page_number in self._chapter_page:
             print("Trying to overwrite chapter page of page number ", page_number, ".")
             print("Exiting")

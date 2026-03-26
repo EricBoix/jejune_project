@@ -1,6 +1,7 @@
 # A set of debugging utilities.
 
 import pypdf
+from .Model import ChapterOfParagraphs, Paragraph
 
 
 def print_document_raw_pages(pdf_filename):
@@ -68,24 +69,27 @@ def print_document_paragraphs(document):
             )
 
 
+def print_paragraph_and_its_sentences(paragraph):
+    print("### Paragraph (ref:", paragraph.get_reference(), ")")
+    sentences = paragraph.get_sentences()
+    if not sentences:
+        print("PARAGRAPH IS EMPTY OF SENTENCES")
+        return
+    for sentence in sentences:
+        print(
+            sentence.page_layout.reference_text,
+            ":\n",
+            sentence.sentence,
+            "\n",
+        )
+
+
 def print_document_chapter(chapter):
     print("###################################################################")
     print("################## Chapter name: ", chapter.name)
     print("###################################################################")
     for paragraph in chapter.get_paragraphs():
-        print(
-            "Paragraph (ref:",
-            paragraph.get_reference(),
-            ")",
-        )
-        for sentence in paragraph.get_sentences():
-            print(
-                "Sentence (ref:",
-                sentence.page_layout.reference_text,
-                "):\n",
-                sentence.sentence,
-                "\n",
-            )
+        print_paragraph_and_its_sentences(paragraph)
 
 
 def print_document_sentences(document):
@@ -114,5 +118,8 @@ def print_document_with_subchapter_sentences(document):
         print("###################################################################")
         print("################## Super Chapter name: ", superchapter.name)
         print("###################################################################")
-        for chapter in superchapter.get_chapters():
-            print_document_chapter(chapter)
+        for sublevel in superchapter.get_sublevels():
+            if isinstance(sublevel, ChapterOfParagraphs):
+                print_document_chapter(sublevel)
+            elif isinstance(sublevel, Paragraph):
+                print_paragraph_and_its_sentences(sublevel)
