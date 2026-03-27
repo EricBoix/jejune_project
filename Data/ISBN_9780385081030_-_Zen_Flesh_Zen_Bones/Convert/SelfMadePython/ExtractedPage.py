@@ -1,6 +1,5 @@
-import sys
 import re
-from ConvertPdfToMarkdown import ExtractedPageBase
+from ConvertPdfToMarkdown import ExtractedPageBase, WarnAndExit
 
 
 class ExtractedPage(ExtractedPageBase):
@@ -67,14 +66,9 @@ class ExtractedPage(ExtractedPageBase):
     def get_chapter_name(self):
         chapter_name = re.split(self.chapter_name_extractor_regex, self.text)
         if not chapter_name:
-            print(
-                "Chapter name ",
-                chapter_name,
-                " not found in extracted page ",
-                self.text,
+            WarnAndExit(
+                f"Chapter name {chapter_name} not found in extracted page {self.text}"
             )
-            print("Exiting")
-            sys.exit()
         return chapter_name[0]
 
     def sanitize_footer(self):

@@ -1,6 +1,5 @@
-import sys
 import re
-from ConvertPdfToMarkdown import StructuralInfoBase
+from ConvertPdfToMarkdown import StructuralInfoBase, WarnAndExit
 
 
 class StructuralInfo(StructuralInfoBase):
@@ -49,7 +48,7 @@ class StructuralInfo(StructuralInfoBase):
 
         def split(self, content_text):
             if not self.holds_new_sublevels(content_text):
-                print("Warning: split() was called when there was nothing to split.")
+                Warning("split() was called when there was nothing to split.")
                 # Wrap the input in a list because the caller expects the
                 # returned value to be the result of re.split()
                 return [content_text]
@@ -89,7 +88,7 @@ class StructuralInfo(StructuralInfoBase):
                     match.group(0),
                 ).group(0)
                 return name_match
-            print("Warning: sublevel name not found.")
+            Warning("Sublevel name not found.")
             return None
 
         def extract_sublevel_name(self, content_text):
@@ -99,9 +98,7 @@ class StructuralInfo(StructuralInfoBase):
             match = re.search(self.breaking_pattern_two, content_text)
             if match:
                 return re.sub(self.breaking_pattern_one, "", content_text)
-            print("Unable to extract chapter name.")
-            print("Exiting")
-            sys.exit()
+            WarnAndExit("Unable to extract chapter name.")
 
     class chapter_to_paragraph_splitter:
         def __init__(self):
@@ -125,7 +122,7 @@ class StructuralInfo(StructuralInfoBase):
 
         def split(self, content_text):
             if not self.holds_new_sublevels(content_text):
-                print(
+                Warning(
                     "Split() probably shouldn't be called when there is nothing to split."
                 )
             result = re.split(self.breaking_pattern, content_text)

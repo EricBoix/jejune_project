@@ -1,7 +1,20 @@
-# A set of debugging utilities.
-
 import pypdf
 from .Model import ChapterOfParagraphs, Paragraph
+
+_debug_mode = False
+
+
+def set_debug_mode(enabled: bool):
+    global _debug_mode
+    _debug_mode = enabled
+
+
+def Debug(message: str):
+    if _debug_mode:
+        print(message)
+
+
+# A set of debugging utilities.
 
 
 def print_document_raw_pages(pdf_filename):

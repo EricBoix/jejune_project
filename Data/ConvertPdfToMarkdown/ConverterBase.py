@@ -1,4 +1,3 @@
-import sys
 import re
 from typing import Callable
 
@@ -6,14 +5,15 @@ from typing import Callable
 from pypdf import PdfReader
 
 # To deal with outputs of the Converter class
-from .Model import DocumentHierarchicalLevel
 from .Model import (
+    DocumentHierarchicalLevel,
     ChapterOfParagraphs,
     SuperChapter,
     Paragraph,
     Sentence,
 )
 from .PageLayout import PageLayout
+from .Warning import WarnAndExit
 
 # To realize the conversion per se
 import nltk
@@ -49,15 +49,9 @@ class ConverterBase:
         # Parse the pdf and make some basic coherence checks on the result:
         self.reader = PdfReader(self.pdf_filename)
         if len(self.reader.pages) != self.structural_info.total_page_number:
-            print("Erroneous number of pages:")
-            print(
-                "Was expecting",
-                self.structural_info.total_page_number,
-                " but got ",
-                len(self.reader.pages),
+            WarnAndExit(
+                f"Erroneous number of pages: was expecting {self.structural_info.total_page_number} but got {len(self.reader.pages)}"
             )
-            print("Exiting")
-            sys.exit()
         for page_number in range(self.structural_info.total_page_number):
             self._assert_reader_page_number_is_coherent(page_number)
 
@@ -85,9 +79,9 @@ class ConverterBase:
             chapter_page_number
         )
         if not chapter_extracted_page:
-            print("Chapter for page number ", extracted_page.page_number, "not found.")
-            print("Exiting")
-            sys.exit()
+            WarnAndExit(
+                f"Chapter for page number {extracted_page.page_number} not found."
+            )
         return chapter_extracted_page
 
     def breaks_document_into_chapters(self, ExtractedPageDerived, ChapterDerived):
@@ -129,14 +123,9 @@ class ConverterBase:
                     # We didn't encounter a first chapter yet the first
                     # encountered page is not a page starting a chapter.
                     # Something went really wrong.
-                    print("Any chapter must start with...a chapter typed page.")
-                    print("Note: we didn't encounter the first chapter yet.")
-                    print(
-                        "This was the content of the extracted page: ",
-                        new_extracted_page,
+                    WarnAndExit(
+                        f"Any chapter must start with...a chapter typed page.\nNote: we didn't encounter the first chapter yet.\nThis was the content of the extracted page: {new_extracted_page}"
                     )
-                    print("Exiting")
-                    sys.exit()
                 self.structural_info.set_chapter_page_number(
                     new_extracted_page.page_number,
                     current_chapter.page_layout.page_number,
@@ -151,13 +140,9 @@ class ConverterBase:
                 )
                 new_chapter_name = self.get_chapter_name(new_extracted_page)
                 if new_chapter_name is None:
-                    print("This looks like a new chapter yet it has no name.")
-                    print(
-                        "This was the content of the extracted page: ",
-                        new_extracted_page,
+                    WarnAndExit(
+                        f"This looks like a new chapter yet it has no name.\nThis was the content of the extracted page: {new_extracted_page}"
                     )
-                    print("Exiting")
-                    sys.exit()
 
                 # Some chapter names include newline characters that must be
                 # sanitized in order to create a proper new Chapter object:
@@ -178,11 +163,9 @@ class ConverterBase:
         original_reader_page = self.reader.pages[page_number]
         original_reader_page_number = self.reader.get_page_number(original_reader_page)
         if page_number != original_reader_page_number:
-            print("Python page number does not match pypdf::reader page number:")
-            print("   - Python page number: ", page_number)
-            print("   - pypdf::reader page number: ", original_reader_page_number)
-            print("Exiting.")
-            sys.exit()
+            Warning(
+                f"Python page number does not match pypdf::reader page number:\n   - Python page number:  {page_number}\n   - pypdf::reader page number: {original_reader_page_number}"
+            )
         return True
 
     def _page_requires_paragraph_continuation(self, page_number):
@@ -248,12 +231,10 @@ class ConverterBase:
         # Using the text attribute that was piggybacked from the above
         # break_chapter_into_paragraphs() method:
         if paragraph.text is None:
-            print(
+            WarnAndExit(
                 "Error: trying to break a paragraph into sentences but "
                 "the paragraph text is None."
             )
-            print("Exiting.")
-            sys.exit()
         paragraph_text = paragraph.text
         tokenized_text = nltk.tokenize.sent_tokenize(paragraph_text)
         for new_sentence_text in tokenized_text:
@@ -296,7 +277,7 @@ class ConverterBase:
             contents: list of text and associated layout to be treated
         """
         if not level.get_text_with_layout():
-            print(f"Warning: DocumentHierarchicalLevel {level} with NO text content.")
+            Warning(f"DocumentHierarchicalLevel {level} with NO text content.")
 
         if not contents:
             contents = level.get_text_with_layout()
@@ -304,7 +285,7 @@ class ConverterBase:
             content_text = level_content.text
             content_layout = level_content.page_layout
             if not content_text:
-                print(f"Warning: level with NO text in {reference_prefix}.")
+                Warning(f"level with NO text in {reference_prefix}.")
                 continue
             parts = level_splitter.split(content_text)
             while parts:
@@ -344,10 +325,9 @@ class ConverterBase:
                         parts = None
                         break
                     else:
-                        print("We should be adding a (or to a) Paragraph.")
-                        print("Instead we are adding to a ", type(level))
-                        print("Exiting.")
-                        sys.exit()
+                        WarnAndExit(
+                            f"We should be adding a (or to a) Paragraph. Instead we are adding to a {type(level)}"
+                        )
                 else:
                     # The first entry of parts is the full matching pattern of
                     # the chapter that can include separators (\n) that must be
@@ -379,11 +359,6 @@ class ConverterBase:
 
                 level.add_sublevel(new_sublevel)
 
-    def break_paragraphs_into_sentences(self, chapter) -> None:
-        chapter.renumber_paragraphs()
-        for paragraph in chapter.get_paragraphs():
-            self.break_paragraph_into_sentences(paragraph)
-
     def break_chapter_into_paragraphs(self, chapter: ChapterOfParagraphs) -> None:
         self.break_level_into_sublevels(
             level=chapter,
@@ -391,8 +366,7 @@ class ConverterBase:
             sublevel_factory=Paragraph,
             reference_prefix="Chapter",
         )
-        # Keep breaking down to leafs
-        self.break_paragraphs_into_sentences(chapter)
+        chapter.renumber_paragraphs()
 
     def break_superchapter_into_paragraphs(
         self, chapter: SuperChapter, contents=None
@@ -424,22 +398,26 @@ class ConverterBase:
 
         if isinstance(level, Paragraph):
             self.break_paragraph_into_sentences(level)
+            # Down at the leaf level: recursion doesn't get deeper.
             return
         if isinstance(level, ChapterOfParagraphs):
             self.break_chapter_into_paragraphs(level)
+            self.break_sublevels(level)  # Recursing
             return
         if isinstance(level, SuperChapter):
             self.break_superchapter_into_chapters(level)
-            sublevels = level.get_sublevels()
-            if not sublevels:
-                print("Empty SuperChapter. No recursion")
-                return
-            for sublevel in sublevels:
-                self.break_level(sublevel)  # Recursing
+            self.break_sublevels(level)  # Recursing
             return
-        print("Chapter of unknown type ", type(level))
-        print("Exiting.")
-        sys.exit()
+        WarnAndExit(f"Chapter of unknown type {type(level)}")
+
+    def break_sublevels(self, level):
+        """Assuming this level was already broken into sublevels, recurse the breaking on its sublevels"""
+        sublevels = level.get_sublevels()
+        if not sublevels:
+            WarnAndExit("Level without sublevels. Nothing to be done.")
+            return
+        for sublevel in sublevels:
+            self.break_level(sublevel)
 
     def reconstitute_paragraphs_spreading_over_two_pages(self, chapter):
         """
@@ -525,24 +503,9 @@ class ConverterBase:
 
             # Assert that the page_layout of the two paragraphs do differ
             if ill_ending_paragraph.page_layout == ill_starting_paragraph.page_layout:
-                print(
-                    "Error: the page layout of the two paragraphs to be merged is the same.",
-                    "This is not expected.",
+                WarnAndExit(
+                    f"Error: the page layout of the two paragraphs to be merged is the same. This is not expected.\nParagraph ending on page number {page_number} has page layout {repr(ill_ending_paragraph.page_layout)}\nParagraph starting on page number {next_page_number} has page layout {repr(ill_starting_paragraph.page_layout)}"
                 )
-                print(
-                    "Paragraph ending on page number ",
-                    page_number,
-                    " has page layout ",
-                    repr(ill_ending_paragraph.page_layout),
-                )
-                print(
-                    "Paragraph starting on page number ",
-                    next_page_number,
-                    " has page layout ",
-                    repr(ill_starting_paragraph.page_layout),
-                )
-                print("Exiting.")
-                sys.exit()
 
             #### Proceed with the merging of two paragraphs into a single one:
             first_sentence_of_ill_starting_paragraph = (

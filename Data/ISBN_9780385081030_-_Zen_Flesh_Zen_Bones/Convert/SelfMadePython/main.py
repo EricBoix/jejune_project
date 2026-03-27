@@ -6,6 +6,7 @@ from ConvertPdfToMarkdown import (
     print_document_pages,
     print_document_paragraphs,
     print_document_with_subchapter_sentences,
+    set_warning_mode,
 )
 
 pdf_filename = path.join(
@@ -19,6 +20,7 @@ pdf_filename = path.join(
 if False:
     print_document_raw_pages(pdf_filename)
 
+set_warning_mode(True)
 converter = Converter(
     pdf_filename=pdf_filename,
     structural_info=StructuralInfo(),

@@ -1,9 +1,10 @@
 from __future__ import annotations  # Allow forward references in type hints
 from abc import ABC
-import sys
-from .PageLayout import PageLayout
-from mdutils.mdutils import MdUtils  # Added import
 from typing import Generic, List, Optional, TypeVar, TYPE_CHECKING
+from mdutils.mdutils import MdUtils  # Added import
+from .PageLayout import PageLayout
+from .Warning import Warning, WarnAndExit
+
 
 if TYPE_CHECKING:
     from typing import Protocol
@@ -54,7 +55,7 @@ class DocumentHierarchicalLevel(ABC, Generic[T]):
     def __init__(self, name: str) -> None:
         self.name: str = name
         if not self.name:
-            print("Warning: DocumentHierarchicalLevel created with no given name.")
+            Warning("DocumentHierarchicalLevel created with no given name.")
         # The text capturing this level as extracted from the original document.
         # Note that this text is only used in order to construct this model
         # during the hierarchical breakdown. Eventually all the text content
@@ -87,18 +88,14 @@ class DocumentHierarchicalLevel(ABC, Generic[T]):
 
     def get_sublevel(self, index: int) -> T:
         if not self.sublevels or index >= len(self.sublevels):
-            print("Sublevel index ", index, " out of bounds ", end="")
-            print(
-                "(should be smaller than ",
-                len(self.sublevels) if self.sublevels else 0,
-                ")",
+            WarnAndExit(
+                f"Sublevel index {index} out of bounds: should be smaller than {len(self.sublevels) if self.sublevels else 0}"
             )
-            sys.exit()
         return self.sublevels[index]
 
     def get_last_sublevel(self):
         if not self.sublevels:
-            print("Warning: no sublevels.")
+            Warning("No sublevels found.")
             return None
         return self.sublevels[-1]
 
@@ -146,11 +143,8 @@ class DocumentHierarchicalLevel(ABC, Generic[T]):
         for sublevel in self.sublevels:
             if sublevel.page_layout.page_number == page_number:
                 return sublevel
-        print(
-            "Warning: unable to find the first sublevel of page number ",
-            page_number,
-            " in hierarchy ",
-            self.name,
+        Warning(
+            f"unable to find the first sublevel of page number {page_number} in hierarchy {self.name}"
         )
         return None
 
@@ -160,14 +154,9 @@ class DocumentHierarchicalLevel(ABC, Generic[T]):
             if sublevel.page_layout.page_number == page_number:
                 sublevel_of_that_page = sublevel
         if sublevel_of_that_page is None:
-            print(
-                "Error: unable to find the last sublevel of page number ",
-                page_number,
-                " in chapter ",
-                sublevel.name,
+            WarnAndExit(
+                f"Error: unable to find the last sublevel of page number {page_number} in chapter {sublevel.name}"
             )
-            print("Exiting.")
-            sys.exit()
         return sublevel_of_that_page
 
     def merge(self, other: DocumentHierarchicalLevel) -> None:
@@ -190,9 +179,7 @@ class DocumentHierarchicalLevel(ABC, Generic[T]):
         Add this hierarchical level's content to the given MdUtils object.
         """
         if not self.name:
-            print("No name for markdown conversion.")
-            print("Exiting.")
-            sys.exit()
+            WarnAndExit("No name for markdown conversion.")
         md_file.new_header(
             level=level,
             title=self.name,
@@ -252,12 +239,11 @@ class Paragraph(DocumentHierarchicalLevel[Sentence]):
         """
         sentences = self.get_sublevels()
         if not sentences:
-            print("Useless paragraph with no sentences.")
-            print("Optimisation inquiry required.")
-            print("Exiting.")
             print("FIXME FIXME FIXME FIXME FIXME")
+            Warning(
+                "Useless paragraph with no sentences.\nOptimisation inquiry required."
+            )
             return
-            # sys.exit()
         # Note: we can not delegate the markdown generation to
         # Sentence.to_markdown() since we would have to use md_file.new_line()
         # which (as expected) adds an unwanted mandatory line break
@@ -313,16 +299,12 @@ class ChapterOfParagraphs(TopLevelChapter, DocumentHierarchicalLevel[Paragraph])
         else:
             top_level_text = None
         if hierarchical_level_text and top_level_text:
-            print("Failed duck type for ChapterOfParagraphs.")
-            print("Exiting")
-            sys.exit()
+            WarnAndExit("Failed duck type for ChapterOfParagraphs.")
         if hierarchical_level_text:
             return hierarchical_level_text_list
         if top_level_text:
             return top_level_text_list
-        print("Error: ChapterOfParagraphs with NO text_with_layout content.")
-        print("Exiting.")
-        sys.exit()
+        WarnAndExit("Error: ChapterOfParagraphs with NO text_with_layout content.")
 
 
 class SuperChapter(TopLevelChapter, DocumentHierarchicalLevel[ChapterOfParagraphs]):
@@ -361,7 +343,7 @@ class DocumentHierarchicalRoot:
         chapter = self.get_first_sublevel_of_given_page(page_number)
         if chapter:
             return chapter.name
-        print("Warning: chapter with page number ", page_number, "not found.")
+        Warning(f"chapter with page number {page_number} not found.")
         return None
 
     def to_markdown(self, filepath: str) -> None:

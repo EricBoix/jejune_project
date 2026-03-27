@@ -1,4 +1,4 @@
-import sys
+from .Warning import Warning, WarnAndExit
 
 # The structural information constituted by the presence of chapters,
 # illustrations, illumination, headers ... is quite often difficult
@@ -42,9 +42,9 @@ class StructuralInfoBase:
         :param int chapter_page_number The page number of the chapter (beginning) to which the designated belongs to.
         """
         if page_number in self._chapter_page:
-            print("Trying to overwrite chapter page of page number ", page_number, ".")
-            print("Exiting")
-            sys.exit()
+            WarnAndExit(
+                f"Trying to overwrite chapter page of page number {page_number}."
+            )
         self._chapter_page[page_number] = chapter_page_number
 
     def _page_is_dropped(self, page_number):
@@ -62,9 +62,7 @@ class StructuralInfoBase:
 
     def _get_chapter_page_number(self, page_number):
         if page_number not in self._chapter_page:
-            print("Unknown chapter page of page number ", page_number, ".")
-            print("Exiting")
-            sys.exit()
+            WarnAndExit(f"Unknown chapter page of page number {page_number}.")
         return self._chapter_page[page_number]
 
     def _get_chapter_page(self, page_number):
@@ -74,18 +72,16 @@ class StructuralInfoBase:
     def _get_chapter_info(self, page_number):
         chapter_page = self._get_chapter_page(page_number)
         if not "chapter_info" in chapter_page:
-            print("Chapter page without chapter_info (page number ", page_number, ").")
-            print("Exiting")
-            sys.exit()
+            WarnAndExit(
+                f"Chapter page without chapter_info (page number {page_number})."
+            )
         return chapter_page["chapter_info"]
 
     def _get_chapter_name(self, page_number):
         chapter_info = self._get_chapter_info(page_number)
         if not "name" in chapter_info:
-            print(
-                "Warning: chapter_info of chapter page (page number ",
-                page_number,
-                ") without name.",
+            Warning(
+                f"chapter_info of chapter page (page number {page_number}) without name.",
             )
             return None
         return chapter_info["name"]

@@ -1,5 +1,5 @@
 import re
-import sys
+from .Warning import Warning, WarnAndExit
 
 
 class ExtractedPageBase:
@@ -44,18 +44,13 @@ class ExtractedPageBase:
 
     def extract_chapter_name(self, chapter_name):
         if not re.search(chapter_name, self.text):
-            print(
-                "Warning: chapter name ",
-                chapter_name,
-                " was not found in extracted page ",
-                self.text,
+            Warning(
+                f"chapter name {chapter_name} was not found in extracted page {self.text}"
             )
             return
         chapter_text = self.text.lstrip(chapter_name)
         if not chapter_text:
-            print("Chapter name extraction yields an empty text.")
-            print("Was trying to extract chapter name: ", chapter_name)
-            print("Out of ExtractedPageBase text: ", self.text)
-            print("Exiting")
-            sys.exit()
+            WarnAndExit(
+                f"Chapter name extraction yields an empty text.\nWas trying to extract chapter name: {chapter_name} Out of ExtractedPageBase text: {self.text}"
+            )
         self.text = chapter_text
