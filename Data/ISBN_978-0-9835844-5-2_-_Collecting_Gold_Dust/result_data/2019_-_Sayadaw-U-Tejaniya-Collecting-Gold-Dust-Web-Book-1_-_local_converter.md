@@ -2,7 +2,7 @@
 COLLECTING GOLD DUST: Nurturing the Dhamma in Daily Living
 ==========================================================
 
-## Introduction (ghost chapter)
+# Introduction (ghost chapter)
 
 
 COLLECTING GOLD DUST
@@ -31,7 +31,7 @@ it’ll just be a burden.
 
 Create your world. It’s a game called Master Mind.
 
-## Acknowledgements
+# Acknowledgements
 
 
 My special gratitude goes to my teacher, the late Venerable Shwe Oo Min Sayadaw Bhaddanta Kosalla Mahāthera, who taught me the Dhamma and right attitude for my spiritual development and meditation practice.
@@ -42,7 +42,7 @@ Finally, I would like to thank everyone who has contributed to the completion of
 
 Sayadaw U Tejaniya
 
-## Dear Reader
+# Dear Reader
 
 
 It doesn’t take long for a yogi (meditator) new to Sayadaw U Tejaniya to notice humor permeating his teachings. Whether it is making an observation on his surroundings or commenting on the environment of the mind, Sayadaw, or “the Teacher” as his disciples fondly call him, delivers his teachings with a good dose of wit.
@@ -71,7 +71,7 @@ Finally, this book is by no means comprehensive, and not meant to replace Sayada
 
 This book is dedicated to all the beings in the universe.  With much mettā, Tony Reardon Laura Zan
 
-## On Language
+# On Language
 
 
 We work within the limits of language to describe the process of clear seeing that is at times difficult to pin down with words. As such, some rules of grammar may be bent a teeny bit. A construct like “the mind is knowing” instead of “the mind knows” is used in instances where it seems more appropriate to describe something in process. The following words are used interchangeably: watching, being aware, observing, being mindful, recognizing, noticing, and paying attention. You may also see the word “yogi” used often, which is Sayadaw’s reference to a meditator. “Dhamma” with a big “D” refers to the teachings of the Buddha and the practice of meditation while “dhamma” with a little “d” refers to natural phenomena, natural law, or object.
@@ -82,7 +82,7 @@ We have also used the singular “they” as a gender-neutral pronoun where poss
 
 Pāḷi and English words have been used throughout the book although we have limited Pāḷi usage to make this daily life book as accessible as possible.
 
-## A Note from the Teacher
+# A Note from the Teacher
 
 
 You may be finished with a formal retreat for now but remember that the dhamma is everything, so it is everywhere, all the time. Don’t lose track of that. You can persevere and continue practicing at home. Practicing the Dhamma includes all the practices of right thought (which is a fundamental part of right view), right speech, and right action. Practicing the Dhamma begins with a mindset change that, if we are able to take it on, may eventually lead to a lifestyle change. It is really worth the effort. The right efforts bear fruit when sufficient conditions are fulfilled. The Buddha said, “If you look after the Dhamma, the Dhamma will look after you.” Looking after the Dhamma simply means practicing it. After a certain point, the Dhamma will carry you along on its wave. So keep going!
@@ -147,7 +147,7 @@ Finally, we all have to live, but we must ask ourselves: Are we truly alive? If 
 
 When I know the mind is aware, there is a very strong feeling of goodness. I greatly wish for yogis to understand and appreciate fully the value of awareness + wisdom and their role in helping develop all of the wholesome qualities of the mind. This is the basic understanding that will carry the rest of the practice.
 
-## Mindfulness is a Lifestyle Change
+# Mindfulness is a Lifestyle Change
 
 
 When a retreat begins, defilements will negotiate with the yogi: “Okay, how long do you want to practice for? One month? Two months? Three months? All right. We’ll leave you alone for that long. But when the retreat is over, then it’s our turn again!” And it really is their turn again. Delusion loves hearing the line, “The retreat is over!” It is very common to think that we’ve finished meditating. When this happens, it is now time for defilements to come back out to play.
@@ -238,7 +238,7 @@ Sometimes meditators are under the impression that they must practice in a speci
 
 You are learning how meditation operates.
 
-## Take a Closer Look
+# Take a Closer Look
 
 
 My teacher constantly reminded me that all the problems in the world originate from the trio of lobha, dosa, and moha. Keep an eye on them. Watching and keeping these unwholesome qualities at bay will allow the wholesome qualities to arise automatically.
@@ -293,7 +293,7 @@ Wisdom increases faith; anyone who understands the value of mindfulness and has 
 
 goes out; when there is more fire, the burning continues.
 
-## Reflect. Learn. Keep Going.
+# Reflect. Learn. Keep Going.
 
 
 Daily life will be full of ups and downs when greed, anger, delusion, and all their relatives come on strong. The wisdom you’ve got may not be sufficient enough to stop them. How do you approach such a situation? The first step is to accept whatever is happening in the mind as it is. Accept that this is just the nature of the mind. Unless you accept, you will be fighting defilements with defilements. I draw the analogy of trying to accelerate a car with one foot on the brakes! The car won’t move.
@@ -336,7 +336,7 @@ If you want to improve, you first work continuously without a break. You also us
 
 got to be savvy and learn from your practice.
 
-## Day-to-Day
+# Day-to-Day
 
 
 When you are aware of what’s happening in the mind, you begin to notice the undesirable parts and will want to change. This is a beginning. The lessons are all there for you to go through and learn. Later on, if you really come to understand that something that is wrong is wrong, you will not repeat it again.
@@ -505,7 +505,7 @@ We are not patient with gentle awareness; we do not believe it will work or trus
 
 it will grow into something.
 
-## A Lighter Approach
+# A Lighter Approach
 
 
 When I began to meditate in earnest at home, my awareness was inconsistent. I over-compensated for this spotty awareness by putting in a lot more personal effort. I wanted to be as mindful as possible but I was just too tired to do any more than that. Even then, there was only so much I could do. After some time, I began to notice a lighter, general, but discontinuous awareness that, done day after day, formed a pattern of long-term practice. The momentum that came out of general awareness created these dots that came together to form a tsunami of awareness that could be seen clearly.
@@ -564,7 +564,7 @@ Only when we see the nature of the mind
 
 will we understand the nature of dhamma.
 
-## Continuing the Work
+# Continuing the Work
 
 
 A CAUSE AND EFFECT CHAIN yogi in one of my retreats had some questions surrounding free will. When we talk about the process of conditioning, remember there’s a stream of minds in the conditioned process. The conditions in one mind bring the effect into the next mind and then, whatever the mind chooses to do in the next moment adds a little to that quality, or takes away from that quality. It then passes away and then this condition gives rise to the next mind and then it passes away and the effect is given to the next mind. Every mind begins with something, a condition, but that mind has a moment in the present to choose its contribution to the moment in terms of action or non-action, before that mind passes away. “Everything is conditioned” just means that there is a stream that’s going on and the present moment has been conditioned by the past. At the same time, there is an element of choice in the present through wisdom because wisdom has free will. As a result, that wisdom has the ability to choose to take whatever action or non-action it would like. All things are conditioned but also you cannot imagine the vastness of kamma that you have accumulated that has the potential to flower in every moment.
@@ -609,7 +609,7 @@ May All Beings Be Happy!
 
 Everybody has wholesome and unwholesome qualities in the mind but learning to cultivate the wholesome qualities is meditation. How do we cultivate these good qualities?
 
-## Appendix: Mindfulness in Brief
+# Appendix: Mindfulness in Brief
 
 
 Satipaṭṭhāna, or meditation on the four foundations of mindfulness (body, feelings, mind and dhamma) cultivates the good qualities in our minds. Everybody has wholesome and unwholesome qualities in the mind but learning to cultivate the wholesome qualities is meditation. How do we cultivate these good qualities? Meditation involves the things we observe (called objects) and that which is observing (the mind). It is important to remember that sights, sounds, touch, taste, smells, and thoughts or the experiences arising at the six sense doors do not meditate. We do not have to do anything to these experiences because they will always be there. These objects are just happening in the body and / or mind. Meditation is this latter part, the work of the mind, and the work to transform the mind.
@@ -668,9 +668,7 @@ If you are strongly attached to ideas, there will be triggers when someone else 
 
 Be a little extra careful at home. It is so much more interesting at home when mindfulness is always present, and especially when we bring mindfulness to daily life situations. In your talking to others you learn to see others’ intentions and learn to speak in a way that helps you to manage yourself and manage the conversation as well. We begin to know what we are going to say before we say it and eventually have time to choose the skillful path.
 
-## Dedication
-
-
+# Dedication
 
 
 This wonderful gift of Dhamma comes to you from the community of meditators and supporters for whom the Dhamma

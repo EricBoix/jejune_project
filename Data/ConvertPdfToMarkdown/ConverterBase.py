@@ -68,7 +68,7 @@ class ConverterBase:
 
     def get_chapter_name(self, extracted_page):
         # By default we can only assume some structural information, since we
-        # don't know wether ExtractedPage will be specialized or not.
+        # don't know whether ExtractedPage will be specialized or not.
         return self.structural_info._get_chapter_name(extracted_page.page_number)
 
     def get_chapter_extracted_page(self, extracted_page):

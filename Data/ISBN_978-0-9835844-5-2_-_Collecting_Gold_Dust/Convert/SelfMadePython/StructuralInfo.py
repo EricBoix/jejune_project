@@ -1,12 +1,43 @@
 import roman
 
-from ConvertPdfToMarkdown import StructuralInfoBase
+from ConvertPdfToMarkdown import StructuralInfoBase, Splitter
 
 
 class StructuralInfo(StructuralInfoBase):
     # The structural information per se with extension specifics
     # - "type" can be "illustration" (with an optional "header" boolean flag)
     # - a "chapter_info" can have an optional "illumination_delimiter"
+
+    class chapter_to_paragraph_splitter:
+        def __init__(self):
+            # The paragraph termination varies within the document.
+            # - the second part of the pattern happens on sub-chapter
+            #   beginnings.
+            # - Instead of simply starting a new paragraph we should be starting
+            #   a new sub-chapter!
+            # Deal with both cases. Additionally, notice that we must avoid
+            # having two capturing groups: refer to e.g.
+            # https://stackoverflow.com/questions/11320231/re-split-with-multiple-arguments-or-returns-none
+            # and thus patterns are NOT wrapped in parentheses.
+            self.breaking_pattern = "\n    " + "|" + "\n\n\n"
+
+        def holds_new_sublevels(self, content_text):
+            return Splitter._holds_new_sublevels(
+                self,
+                [self.breaking_pattern],
+                content_text,
+            )
+
+        def split(self, content_text):
+            return Splitter._split_on_single_pattern(
+                self, self.breaking_pattern, content_text, remove_separator=True
+            )
+
+        def get_sublevel_name(self, content_text):
+            return None
+
+        def extract_sublevel_name(self, content_text):
+            return
 
     def __init__(self):
         StructuralInfoBase.__init__(self)
@@ -15,12 +46,8 @@ class StructuralInfo(StructuralInfoBase):
         # The original pdf document has a title that is depicted (as opposed to
         # written in text) in the cover illustration and thus cannot be
         # automatically extracted. This title ends-up embedded in some headers
-        # and this thus a must have.
+        # and must thus be manually provided.
         self.book_title = "COLLECTING GOLD DUST: Nurturing the Dhamma in Daily Living"
-        # Note: the second part of pattern happens on sub-chapter beginnings.
-        # Instead of simply starting a new paragraph we should start a new
-        # sub-chapter!
-        self.chapter_to_paragraph_breaking_pattern = "\n    " + "|" + "\n\n\n"
 
         # The preamble section pages use roman numbering. This offsets the
         # numbering of the body pages
