@@ -1,7 +1,10 @@
-import sys
 import re
-
-from ConvertPdfToMarkdown import ConverterBase
+from ConvertPdfToMarkdown import (
+    ConverterBase,
+    ChapterOfParagraphs,
+    DocumentWithSubChapters,
+    WarnAndExit,
+)
 from ExtractedPage import ExtractedPage
 
 
@@ -10,8 +13,14 @@ class Converter(ConverterBase):
     Converter for The Mind Illuminated book.
     """
 
+    def __init__(self, pdf_filename, structural_info):
+        document = DocumentWithSubChapters(structural_info.book_title)
+        ConverterBase.__init__(self, pdf_filename, document, structural_info)
+
     def breaks_document_into_chapters(self):
-        return ConverterBase.breaks_document_into_chapters(self, ExtractedPage)
+        return ConverterBase.breaks_document_into_chapters(
+            self, ExtractedPage, ChapterOfParagraphs
+        )
 
     def sanitize_page_text(self, extracted_page):
         """
@@ -23,17 +32,9 @@ class Converter(ConverterBase):
     def __assert_chapter_name(self, page_number, beginning_page):
         chapter_name = self.structural_info._get_chapter_name(page_number)
         if not re.search(chapter_name + "[\n\n\n]", beginning_page.sentence):
-            print(
-                "Chapter page (page number ",
-                page_number,
-                ") does not seem to start with ",
-                chapter_name,
-                ", but with ",
-                repr(beginning_page.sentence),
-                sep="",
+            WarnAndExit(
+                f"Chapter page (page number {page_number}) does not seem to start with {chapter_name}, but with {repr(beginning_page.sentence)}"
             )
-            print("Exiting.")
-            sys.exit()
 
     def assert_chapters_name_coherence(self):
         for chapter in self.document.get_chapters():

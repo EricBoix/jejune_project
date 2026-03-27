@@ -1,4 +1,8 @@
-from ConvertPdfToMarkdown import ConverterBase, SuperChapter, DocumentWithSubChapters
+from ConvertPdfToMarkdown import (
+    ConverterBase,
+    SuperChapter,
+    DocumentWithSubChapters,
+)
 from ExtractedPage import ExtractedPage
 
 

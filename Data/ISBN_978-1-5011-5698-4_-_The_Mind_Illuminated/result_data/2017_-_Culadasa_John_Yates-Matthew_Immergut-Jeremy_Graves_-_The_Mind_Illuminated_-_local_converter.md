@@ -2,7 +2,7 @@
 The MIND ILLUMINATED: A Complete Meditation Guide Integrating Buddhist Wisdom and Brain Science for Greater Mindfulness
 =======================================================================================================================
 
-## Foreword
+# Foreword
 
 
 SO HOW does a neuroscientist end up as a meditation master? The two disciplines are different, to be sure. My training in brain science deals with neurons and synapses, while my study of meditation is concerned with matters of attention, introspective awareness, and investigating the nature of subjective experience. But in many ways, I’ve found that the two modes of understanding the world are more complementary than one might think, and they’ve given me a unique insight into how mindfulness actually changes the brain and our perceptions of the world around us.
@@ -45,7 +45,7 @@ The core of my career as a dedicated lay practitioner has been a combination of 
 
 I am especially blessed to have been present for this great intersection of the various Buddhist practice traditions, once so isolated from each other, as they have come together in the great melting pot of a developing global culture. I am equally blessed to have witnessed the tremendous advances in technology and research that are revealing the nature of physical reality, which includes unlocking the mysteries of the human brain. In particular, I feel deep appreciation and gratitude for the opportunity to bear witness to and participate in a process in which the cumulative wisdom of these Buddhist traditions rubs shoulders with Western scientific inquiry. This has all been part of my own personal journey, from despair to joy and from ignorance to wisdom, for which I am incredibly grateful. This book is my offering to all Truth seekers everywhere who are on their own special journeys.
 
-## Introduction
+# Introduction
 
 
 MY PURPOSE in writing this book was to create a detailed and comprehensive meditation manual that is easy to use. Much has been written about the many benefits of meditation and its contributions to emotional, psychological, and social well-being. But there is surprisingly little information available on how the mind works and how to train it. This is an attempt to fill that conspicuous need.
@@ -116,7 +116,7 @@ This book can be used in several ways. You can read it from front to back as you
 
 Together the Stages and Interludes will lead you on a profound adventure of self-discovery and mental cultivation. If you take your time, studying the ideas and putting them into practice, you’ll overcome psychological challenges, experience extraordinary states, and learn to use your mind with amazing proficiency. You’ll discover an unprecedented inner calm and gain a deep understanding—even a direct experience—of ultimate truth. The Ten Stages of Meditation: The monk is the meditator. The rope he holds represents vigilant, alert mindfulness. The goad in his other hand represents strong intention and firm resolve. The elephant represents the mind. The black color of the elephant represents the Five Hindrances and the Seven Problems they give rise to. The monkey represents scattering of attention, and the black color represents subtle and gross distraction, forgetting, and mind-wandering. The rabbit represents subtle dullness. The flames represent vigilance and effort, and when effort is no longer required, the flames disappear. The length of the road between successive Stages indicates the relative time required to progress from one Stage to the next. The Stages come closer together until Stage Seven, then they begin to stretch out again. Because the road folds back, it is possible to jump up to higher Stages or fall back to lower ones.
 
-## An Overview of the Ten Stages
+# An Overview of the Ten Stages
 
 
 THE ENTIRE process of training the mind unfolds through Ten Stages. Each Stage has its own distinct characteristics, challenges to overcome, and specific techniques for working through those challenges. The Stages mark gradual improvements in your abilities. As you make progress, there will also be Four Milestone Achievements that divide the Ten Stages into four distinct parts. These are especially significant transition points in your practice where mastery of certain skills takes your meditation to a whole new level.
@@ -481,7 +481,7 @@ Attempting to force your attention to remain stable is like trying to make a sap
 
 Care for the mind like a skilled gardener, and everything will flower and fruit in due time.
 
-## FIRST INTERLUDE Conscious Experience and the Objectives of Meditation
+# FIRST INTERLUDE Conscious Experience and the Objectives of Meditation
 
 
 HIS chapter, I introduce a basic, conceptual model of Conscious Experience. You can consider this a map of the topography—the landscape of the mind, so to speak. The meditation instructions are like the roads allowing you to explore this landscape comfortably. However, remember that a map is only a representation, not the thing itself. When circumstances change—as your practice improves— you’ll find yourself wanting a new map. This is why, in later chapters, I provide two additional, much more in-depth models of the mind for you to work from. Each map builds on the previous ones, and together they lead you toward the two major objectives of meditation practice: stable attention and mindfulness, both of which we will look at more closely in this Interlude.
@@ -722,7 +722,7 @@ In the same way, if the mind is agitated, disturbed by the concerns of daily lif
 
 Don’t forget, however, that the path is as important as the goal. The Stages outlined in this book may bring you to a state of peace and Insight, but they are also an exciting journey of discovery into the nature of the mind. Relish in this beautiful and sometimes challenging journey. The goal isn’t just getting to a calm, quiet pool, but learning about the makeup of the water itself as it goes from choppy to still, from cloudy to crystal-clear.
 
-## STAGE ONE Establishing a Practice
+# STAGE ONE Establishing a Practice
 
 
 oal for Stage One is to develop a regular meditation practice. Put all
@@ -951,7 +951,7 @@ with mindfulness he breathes out.
 
 Ānāpānasati Sutta
 
-## SECOND INTERLUDE The Hindrances and Problems
+# SECOND INTERLUDE The Hindrances and Problems
 
 
 ALL THE mental skills needed in meditation are innate abilities we can selectively choose to cultivate. It’s no different from acquiring any new skill; whether learning a science, a musical instrument, or how to throw a Frisbee, we’re actually just training ourselves in a way that favors certain inherent abilities over others. Think of meditation as mental training that exercises certain “mental muscles” so they respond more easily and better serve your needs.
@@ -1230,7 +1230,7 @@ IN CONCLUSION The Five Hindrances are more than just obstacles to meditation. Th
 
 When you achieve Stage Ten, these hindrances are completely overcome, absent from both meditation and daily life. And as long as you can regularly reach śamatha in your practice—or if you achieve sufficient Insight—they will not return.
 
-## STAGE TWO Interrupted Attention and Overcoming Mind- Wandering
+# STAGE TWO Interrupted Attention and Overcoming Mind- Wandering
 
 
 he goal for Stage Two is to shorten the periods of mind-wandering and
@@ -1431,7 +1431,7 @@ away from the practice. They’ll disappear on their own in time.
 
 CONCLUSION Consider every obstacle an opportunity to learn about the mind. If you practice diligently every day, it won’t be long before you have strengthened introspective awareness until periods of mind-wandering become fairly brief; you can quickly but gently direct attention back to the meditation object; and you can sustain attention on the meditation object for longer periods of time. If you don’t notice your attention improving much during a single session, trust that it will in the next few days and weeks of practice. If you simply follow these instructions, it will occur on its own, as surely as night follows day. You have mastered this Stage when you can consistently maintain your focus on the meditation object for minutes, while mind-wandering lasts only seconds.
 
-## STAGE THREE Extended Continuity of Attention and Overcoming Forgetting
+# STAGE THREE Extended Continuity of Attention and Overcoming Forgetting
 
 
 he goal for Stage Three is to overcome forgetting and falling asleep. Set your
@@ -1612,7 +1612,7 @@ CONCLUSION You have mastered Stage Three when forgetting and mind-wandering no l
 
 Because attention no longer shifts automatically to objects of desire and aversion, you can purposely hold your attention on an emotionally neutral object like the breath for extended periods of time. The ability to continuously sustain attention on the meditation object is remarkable, so take satisfaction in your accomplishment. You can now do something that most people can’t—something you may not have thought you were even capable of. Congratulations, you have reached the First Milestone Achievement and the real beginning of skilled meditation!
 
-## THIRD INTERLUDE How Mindfulness Works
+# THIRD INTERLUDE How Mindfulness Works
 
 
 PRACTICE of mindfulness leads to both psychological healing and profound spiritual insights. To understand how, we first need to look at the role of the mind in the formation of personality.
@@ -1695,7 +1695,7 @@ Yet, if the tree’s root still survives, new trunks can grow back. Unless you r
 
 The third level is like cutting off the entire trunk, yet the root is still there. The fourth level of mindfulness, the Insight of Awakening, will destroy the root.
 
-## STAGE FOUR Continuous Attention and Overcoming Gross Distraction and Strong Dullness
+# STAGE FOUR Continuous Attention and Overcoming Gross Distraction and Strong Dullness
 
 
 he goal for Stage Four is to overcome gross distraction and strong dullness.
@@ -1756,7 +1756,7 @@ Cultivating Continuous Introspective Awareness The role of introspective awarene
 
 But there are two drawbacks with using introspective attention to monitor the mind. The first I mentioned in Stage Three: when checking in, you have to disrupt your focus on the breath. That worked then, but it doesn’t now, since you’re trying to cultivate continuous attention. The other problem concerns what attention “sees” when turned inward. The “object” of your introspective attention actually comes from the contents of introspective awareness in the previous moment. Introspective attention can only produce a conceptual snapshot of what was just happening, a kind of delay or echo, whereas introspective awareness is capable of continuously monitoring the mind. This is a
 
-## rather subtle point. Take some time to think about it, since it has important consequences.
+# rather subtle point. Take some time to think about it, since it has important consequences.
 
 
 Figure 21. Overcoming gross distraction. Step One—Recognize when a gross distraction is present,
@@ -1987,7 +1987,7 @@ a long breath, he knows he breathes out a long breath. Breathing in a short brea
 
 Ānāpānasati Sutta
 
-## FOURTH INTERLUDE The Moments of Consciousness Model
+# FOURTH INTERLUDE The Moments of Consciousness Model
 
 
 xperience you learned about in the First Interlude introduced the ideas of attention and peripheral awareness. While that model was helpful for working through the first four Stages, it was incomplete. As you progress in your practice, you’ll need more detailed models of the mind to help make sense of your new experiences. Here, we present the Moments of Consciousness model. It builds on what you’ve already learned, recasting many of the concepts already used.
@@ -2128,7 +2128,7 @@ Powerful imagery, visions, and a sense of having experienced something profound 
 
 The Moments of Consciousness model will prove useful for understanding both the problem of subtle dullness and how to overcome it in Stage Five. It will also prove useful for the later Stages. Remember, this model and the others presented in this book were originally developed by meditators, for meditators, to help them achieve the ultimate goals of spiritual practice.
 
-## STAGE FIVE Overcoming Subtle Dullness and Increasing Mindfulness
+# STAGE FIVE Overcoming Subtle Dullness and Increasing Mindfulness
 
 
 he goal of Stage Five is to overcome subtle dullness and increase the power
@@ -2419,7 +2419,7 @@ CONCLUSION You’ve mastered this Stage when you’re able to consistently susta
 
 Mastering this Stage doesn’t involve reaching any particular level of mindfulness. Your mindfulness will continue to grow stronger through all the later Stages. Rather, it is the ability to consistently sustain and increase your overall mindfulness in each meditation session. Your meditations will steadily improve with each sitting.
 
-## FIFTH INTERLUDE The Mind-System
+# FIFTH INTERLUDE The Mind-System
 
 
 chapter, you will learn about the Mind-System model. It builds on the previous models presented in this book and provides a more complete picture, not just of consciousness, but of the mind as a whole. The Mind-System model originally comes from the ancient Yogācāra school of Buddhism.1 For the most part, this chapter simply explains that model using modern ideas from cognitive psychology to make things easier to understand. Occasionally, though, we introduce some new concepts2 to make our overall picture of the mind that much clearer.
@@ -2792,7 +2792,7 @@ salt, conch shell, milk and honey, the fragrance of fruit and flowers, and rays 
 
 Laṅkāvatāra Sūtra, IX (46)
 
-## STAGE SIX Subduing Subtle Distractions
+# STAGE SIX Subduing Subtle Distractions
 
 
 he goal of Stage Six is to subdue subtle distractions and develop
@@ -3075,7 +3075,7 @@ CONCLUSION You have mastered Stage Six once you have subdued subtle distractions
 
 You have reached the second Milestone Achievement: sustained exclusive focus of attention. This is quite an accomplishment. You have now completed the development of skilled concentration. In Stage Seven, you will make the transition to the practice of an adept. The most rewarding and joyous aspects of meditation await you.
 
-## SIXTH INTERLUDE The Stages of an Adept
+# SIXTH INTERLUDE The Stages of an Adept
 
 
 GES SEVEN through Ten describe the maturing practice of an adept meditator. This section of the path differs from previous Stages in four important ways. First, you don’t need to acquire any new skills. Just keep practicing the skills you’ve already mastered, and they’ll produce profound changes in how the mind-system works. Second, everything occurring in these Stages is actually part of a single, continuous process: unification of mind. Third, as unification proceeds, you’ll experience a variety of bizarre sensory phenomena, spontaneous body movements, and the arising of powerful energy. These accompany transformations occurring in the mind-system and eventually culminate in the unique experience of physical pliancy and meditative joy.1 Fourth, the practice of an adept inevitably leads to powerful Insight experiences rich with the potential for actual Insight.
@@ -3488,7 +3488,7 @@ nor Mara or Brahma can overturn such a victory.
 
 Dhammapada 104–105
 
-## STAGE SEVEN Exclusive Attention and Unifying the Mind
+# STAGE SEVEN Exclusive Attention and Unifying the Mind
 
 
 rtlessly sustain exclusive attention and
@@ -3701,7 +3701,7 @@ breathing out, he trains himself. Experiencing pleasure while breathing in, he t
 
 CONCLUSION You have mastered Stage Seven when you can consistently achieve effortlessness. The restless tendency of attention to follow objects in peripheral awareness has been tamed. When you first sit down, you still need to go through a “settling in” process—you’ll count your breaths, sharpen your attention and awareness, and diligently ignore everything, until the mind is pacified and competing intentions disappear. Then you can let go and cruise. When you can consistently achieve effortlessness and stay there for all or most of the sit, you have become an adept practitioner. You have reached the third Milestone Achievement and are ready to move to the next Stage.
 
-## SEVENTH INTERLUDE The Nature of Mind and Consciousness
+# SEVENTH INTERLUDE The Nature of Mind and Consciousness
 
 
 lude, we examine the changes that occur as the mind grows more unified in the higher Stages. We also provide a simple but profound revision to the Mind-System model to help you better understand and navigate the Stages to come. UNIFICATION: MINDFULNESS, PURIFICATION, AND INSIGHT As you progress through the higher Stages, the entire mind-system continues to unify, becoming ever more cohesive and harmonious, and ever less fragmented and conflicted. This process has three profound effects: mindfulness keeps improving, as does the “magic of mindfulness”; deep unconscious material rises to the surface, allowing for further purification; and profound Insight becomes more likely.
@@ -3916,7 +3916,7 @@ and information exchange.
 
 Pursuing this idea even further, multiple species are interconnected to form ecosystems. Ecosystems are interconnected to form biomes, and the biosphere is formed of interconnected biomes. Both the living and non-living parts of planet earth interact, changing each other to form a single, complex, interdependent system. Planets and stars form galactic and supragalactic systems. It’s not unreasonable to view the entire universe as one single, massively interconnected and interdependent system. Indeed, every structure we have identified—from atoms to persons to the universe as a whole—constitutes a natural individual by virtue of shared receptivity and information exchange. From this perspective, what we call consciousness is just a single, limited example of something that pervades the entire universe at every level.
 
-## STAGE EIGHT Mental Pliancy and Pacifying the Senses
+# STAGE EIGHT Mental Pliancy and Pacifying the Senses
 
 
 oal of Stage Eight is complete pacification of the senses and the full
@@ -4247,7 +4247,7 @@ Kimatthiya Sutta: Purpose and Benefits of Virtue, from the Anguttara Nikaya 10.1
 
 CONCLUSION You’ve mastered Stage Eight when you achieve physical pliancy and meditative joy almost every time you sit. Experiencing periods of Grade V pīti once or twice —or even every third or fourth time you sit—is not yet true mastery. Consistency is key. Ordinary sensations have disappeared from awareness. The perception of your body may have changed, feeling light and pleasant, and you have no need or desire to move. The illumination phenomenon, if present, has become an all- pervading light or a bright stable orb. The inner sound is either pleasant or just a meaningless, unobtrusive background noise. You still feel energy flowing through the body, circulating between the base of the spine and the crown of the head, and between the body core and periphery, but it’s much smoother and more pleasant. The intensity of joy and feelings of energy may grow so strong that they can’t be sustained, or they may make you want to end your meditation early. That’s normal. Becoming familiar with meditative joy so this doesn’t happen is the work of Stage Nine.
 
-## STAGE NINE Mental and Physical Pliancy and Calming the Intensity of Meditative Joy
+# STAGE NINE Mental and Physical Pliancy and Calming the Intensity of Meditative Joy
 
 
 uration of meditative joy that produces
@@ -4368,7 +4368,7 @@ these mental formations while breathing out, he trains himself.
 
 Ānāpānasati Sutta
 
-## STAGE TEN Tranquility and Equanimity
+# STAGE TEN Tranquility and Equanimity
 
 
 he goal of Stage Ten is for the qualities of śamatha to persist after you rise
@@ -4437,9 +4437,7 @@ Releasing the mind while breathing in, he trains himself. Releasing the mind
 
 while breathing out, he trains himself. Ānāpānasati Sutta
 
-## Final Thoughts
-
-
+# Final Thoughts
 
 
 The goal beyond Stage Ten is to use the power of śamatha for the continued
@@ -4484,7 +4482,7 @@ And know the place for the first time.
 
 The illusion of separate Selfhood, with all its attendant suffering, is gone. We can be fully present as persons, here and now, realizing that this “personhood” is just an ever-changing, Self-less construct arbitrarily imposed on an interconnected whole; “here” is merely another construct imposed on infinite space, and “now” is a similar construct imposed on eternity.
 
-## Acknowledgments
+# Acknowledgments
 
 
 I AM ETERNALLY grateful to my teachers Upasaka Kema Ananda and Joti Dhamma Bhikkhu. It was Kema who first introduced me to the power and clarity of the Buddhadhamma, inspiring me to take Upasaka vows and dedicate myself to meditation and to realizing the highest goals of the spiritual path. Joti Dhamma subsequently guided my study and practice for many years through thousands of hours of discussion and instruction. I am also indebted to Namgyal Rinpoche, Karma Tenzin Dorje, also known as the Venerable Bhikkhu Ananda Bodhi, who was my teachers’ teacher, and who established a lineage that transcends the sectarian boundaries of traditional Buddhism.
@@ -4499,7 +4497,7 @@ In particular, I want to acknowledge Allegra Ahlquist, Pam and Tim Ballingham, B
 
 Last but not least, my very special thanks to Michael Chu and Tracy Young, Aaron and Frieda Huang, CC Lee, Tina Bow, and all the other members of the Chinese Buddhist community of Southern California who have generously supported my teaching for so many years. Without you, this book might never have happened.
 
-## APPENDIX A Walking Meditation
+# APPENDIX A Walking Meditation
 
 
 LKING MEDITATION is both a powerful practice in its own right and an indispensable complement to sitting practice. Too often it’s not taken seriously enough; we imagine a meditator to be someone who only sits cross-legged with eyes closed. But walking meditation is just as effective as sitting for developing stable attention and powerful mindfulness. It’s even more effective for some things. The best way to make rapid progress is to combine the two.
@@ -4582,7 +4580,7 @@ Needless to say, you will be walking very, very slowly. Practice in a secluded l
 
 Continue this practice until all twenty-seven sensations are so familiar that you immediately recognize any variation in them. At this point, your awareness will be metacognitive, your perception of the sensations quite clear and sharp, and your attention both exclusive and effortless.
 
-## APPENDIX B Analytical Meditation
+# APPENDIX B Analytical Meditation
 
 
 LYTICAL MEDITATION means just what it sounds like: thinking about something. Of course, it’s a more structured type of thinking. You carefully choose a topic and systematically examine it with a stable, clear, and focused mind. In fact, to qualify as analytical “meditation,” the thinking and contemplation should happen in a state corresponding to Stage Four, where the chosen subject of analysis never disappears entirely from attention. If you don’t have the stability of Stage Four, your mind will wander off on tangents. Maintaining a continuous awareness of the breath in the background is a powerful way to stabilize your attention.
@@ -4627,7 +4625,7 @@ Sometimes, however, the bell will ring to end your session before you obtain a c
 
 If there is no flaw, what’s most important is to consolidate and integrate your new understanding so you won’t have to repeat the whole problem-solving process. In some cases, it’s helpful to create mental “cues” for yourself that can help bring you back to this state of realization and insight. An especially effective way of doing this is to hold the fruit of your meditation in mind as the object of non-analytical meditation. In other words, take the thought, idea, or insight itself as your meditation object, allowing it to take root in your mind. That creates a strong imprint, so you can easily revisit this state of realization in the future by recalling the outcome of this meditation and holding it as the focus of your attention.
 
-## APPENDIX C Loving-Kindness Meditation
+# APPENDIX C Loving-Kindness Meditation
 
 
 THIS MEDITATION conditions your mind to readily enter a state of ease, peace, love, and happiness. It also cultivates loving-kindness and compassion toward all beings, including you. The practice is based on this simple formula:
@@ -4712,7 +4710,7 @@ Conclude by holding a strong wish for these feelings to continue to remain stron
 
 A FINAL NOTE It’s not uncommon for people to object to this practice because they find it contrived. Please don’t judge it until you’ve tried it. This is one of the most powerful meditation practices known for transforming the way your mind works. You don’t need to believe that the feelings of loving-kindness you send out have any literal effect on others, although it helps if you do. The point is, we all possess infinite resources of patience, forgiveness, compassion, love, and happiness within us. This practice trains the mind and heart to tap into those resources more easily. The satisfaction and enjoyment this practice produces eventually makes accessing those resources automatic.
 
-## APPENDIX D The Jhānas
+# APPENDIX D The Jhānas
 
 
 WHAT IS JHĀNA? The Pāli word jhāna can refer either to meditation in general, or to one specific type of advanced meditative state. Jhāna originally comes from the verb jhāyati, meaning to meditate, and the traditional word for meditator is jhāyim. Some have playfully compared the word jhāna to the verb jhāpeti, which means to burn up, because jhāna practice literally “burns up” mental defilements.1
@@ -4973,7 +4971,7 @@ The tranquility and equanimity of the fourth jhāna often persist for a while af
 
 Despite the fourth luminous jhāna’s many virtues, it doesn’t result in the complete absence of craving, or in the perfect equanimity that would entail.37 However, through experiencing the bliss of equanimity in the fourth jhāna, you begin to understand the possibility of perfect bliss and perfect equanimity.
 
-## APPENDIX E Mindful Review
+# APPENDIX E Mindful Review
 
 
 S MINDFULNESS in meditation improves, we naturally grow more mindful in daily life as well. Yet, you’ve probably noticed this spillover just isn’t as strong or consistent as it could be, often failing right when we need it most. In the morning, we may resolve to be more mindful, only to realize in the evening that we weren’t nearly as successful as we’d hoped. This Mindful Review practice is the most powerful tool I know of for improving mindfulness in daily life. The personal transformations it produces not only remove obstacles to your meditation practice but lead to a happier life in general.
@@ -5092,7 +5090,7 @@ However, it works the other way as well. The more often you decline to act out o
 
 This practice will produce more mindfulness with clear comprehension in your daily life, and you will become more skilled at replacing unwholesome thoughts and intentions with wholesome ones. This practice certainly won’t put an end to craving by itself. That only happens through achieving a higher stage of Awakening.10 What it will do is reduce how often you act out of craving, and shorten the periods when you dwell in a state of craving. Desire and aversion will lose their iron grip, and you will grow in generosity, love, patience, understanding, and compassion. Your meditation practice will flourish, easing your passage through the adept Stages. Most important, both Self-clinging and your attachment to the notion of separate Selfhood will steadily erode. When the time comes, Insight into no-Self will arise quickly and easily, and you’ll achieve Awakening without a prolonged and painful “dark night of the soul.”
 
-## APPENDIX F Insight and the “Dark Night”
+# APPENDIX F Insight and the “Dark Night”
 
 
 ONE OF the great advantages of śamatha is that it makes it easier to confront the Insights into impermanence, emptiness, the pervasive nature of suffering, and the insubstantiality of the Self that produce Awakening.
@@ -5107,9 +5105,7 @@ As Insight matures, individual sub-minds reorganize their internal models to acc
 
 Figure 57 cont. The “true” nature of reality, as revealed through Insight experiences, directly conflicts with all of these assumptions: there are no “things,” only process; all we ever really experience are the fabrications of our own minds; the Self I think I am is as impermanent and empty as everything else; the world can never be the source of my happiness. When these truths are realized by the deep unconscious minds, it is severely disruptive. Figure 57 cont. As Insight matures, individual sub-minds reorganize their internal models to accommodate the new information. This transformation brings about a completely new worldview, life takes on a new and deeper meaning and purpose than ever before, and there is a much greater sense of ease, regardless of what may happen.
 
-## About the Authors
-
-
+# About the Authors
 
 
 © Michael O’Shea Culadasa (John Yates, PhD) is a meditation master with over four decades of experience in the Tibetan and Theravadin Buddhist traditions. A former professor, he taught physiology and neuroscience for many years, and later worked in the field of complementary and alternative medicine. He is the author of A Physician’s Guide to Therapeutic Massage, currently in its third edition. Matthew Immergut, PhD, is an associate professor of sociology at Purchase College, SUNY. His areas of research include new religious movements, charismatic authority, the intersection of social theory and Buddhist philosophy, and contemplative practices for the college classroom. He is a longtime and passionate meditator, and a dedicated student of Culadasa. Jeremy Graves graduated with highest honors from UC Berkeley, where he studied the convergence of globalization and literature. A student of Culadasa since 2011, he has accumulated roughly a year and a half of extended retreat time under his teacher’s mentorship. Jeremy’s approach to Buddhist practice combines the insights of science, art, and devotional practice.
@@ -5130,7 +5126,7 @@ authors.simonandschuster.com/Jeremy-Graves
 
 @TouchstoneBooks
 
-## Glossary
+# Glossary
 
 
 Access concentration (upacāra-samādhi): A concentrated state of mind that provides “access” to meditative absorption (jhāna) and Insight (vipassanā). Traditional teachings define the specific factors needed for access concentration as exclusive attention (ekaggatā) and unification of mind (ekodibhāva, cittas’ekagata); intentionally directed attention (vitakka); sustained attention (vicara); meditative joy (pīti); and pleasure/happiness (sukha). Acquired appearance (uggaha-nimitta): When the meditation object appears free of conceptual overlays. This usually occurs around Stage Six, where, for the first time, the meditation object is truly the sensations of the breath. Compare with Initial appearance. Adept meditator: Someone who has moved from skill development (skilled meditator) to exercising mastery of those skills. Stage Seven is a transition point where all previous skills, such as exclusive attention and mindfulness, gradually become effortless. By Stage Eight, the transition from skilled meditator to adept meditator is complete, and the third Milestone has been achieved. Agitation Due to Worry and Remorse: One of the five hindrances. Alternating attention: Attention that rapidly shifts back and forth between objects. Alternating attention gives the sense of attending to two or more objects at the same time. However, the focus of attention is actually moving between different objects extremely rapidly. This fast movement of attention becomes experientially clear as you progress through the Stages. Alternating attention is the basis of both multitasking and distraction. See also gross distraction and subtle distraction. Analytical meditation: A reflective practice involving systematic recollection and analysis. Essentially, it means thinking about a carefully chosen topic in a structured way, and with a very stable, calm, and focused state of mind. This should happen in a state corresponding to Stage Four, where the chosen subject of analysis never disappears entirely from attention. Attention: The cognitive ability to select and analyze specific information and ignore other information arising from a vast field of internal and external stimuli. Attention is one of two forms of conscious awareness. Peripheral awareness is the second: we pay attention to some things, while simultaneously being aware of, but not attending to, others. Attention isolates some small part of the field of conscious awareness from the rest so that it can be identified, interpreted, labeled, categorized, and its significance evaluated. The function of attention is discernment, analysis, and discrimination. Awakening: Awakening means understanding reality as it is, rather than as we mistakenly believe it to be. This also means understanding the true nature of the mind. Through realizing this truth at a deep, intuitive level—as opposed to a merely conceptual level—true wisdom is gained, freeing us from ignorance, delusion, dissatisfaction, and suffering. Prior to Awakening, we are trapped not by external conditions but by our own misperceptions and prejudices.
@@ -5149,7 +5145,7 @@ distractions in the background. Because “single-pointed” may seem to imply t
 
 Worldly Desire: One of the five hindrances. The pursuit of, delighting in, and clinging to any of the pleasures related to our material existence. This also means the desire to avoid their opposites. These desires include: gaining material objects and preventing their loss; having pleasurable experiences and avoiding pain; achieving fame, power, and influence while preventing infamy, subjugation, and impotence; and attaining the love, praise, and admiration of others while avoiding blame or hatred.
 
-## Notes
+# Notes
 
 
 INTRODUCTION 1. To Awaken means to understand reality as it is, rather than as we mistakenly believe it to be, to
@@ -5338,9 +5334,7 @@ meditation: practicing śamatha first, followed by vipassanā; practicing vipass
 
 and śamatha and vipassanā developed together.
 
-## Śamatha Followed by Vipassanā
-
-
+# Śamatha Followed by Vipassanā
 
 
 Samādhi and sati are developed equally, but not applied to diligent investigation until later. This
@@ -6945,7 +6939,7 @@ Christian will experience it one way, and an atheist in a different way. For St.
 
 involved feelings of having lost all connection with God—of, essentially, being abandoned by God.
 
-## Index
+# Index
 
 
 A note about the index: The pages referenced in this index refer to the page numbers in the print edition. Clicking on a page number will take you to the ebook location that corresponds to the beginning of that page in the print edition. For a comprehensive list of locations of any word or phrase, use your reading system’s search function. NOTE: Bold numbers refer to figure captions and boxed text. abdomen, 23, 47, 51, 173, 174, 175, 220, 222 Abhidhamma, 147, 148 access concentration, 230–31, 271, 322–23 acquired appearance, 225, 231, 236, 293–94 action

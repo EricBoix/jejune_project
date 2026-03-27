@@ -1,6 +1,6 @@
 import re
 
-from ConvertPdfToMarkdown import StructuralInfoBase
+from ConvertPdfToMarkdown import StructuralInfoBase, Splitter
 
 
 class StructuralInfo(StructuralInfoBase):
@@ -9,6 +9,28 @@ class StructuralInfo(StructuralInfoBase):
     notions of StructuralInfoBase.
     """
 
+    class chapter_to_paragraph_splitter:
+        def __init__(self):
+            self.breaking_pattern = "\n   "
+
+        def holds_new_sublevels(self, content_text):
+            return Splitter._holds_new_sublevels(
+                self,
+                [self.breaking_pattern],
+                content_text,
+            )
+
+        def split(self, content_text):
+            return Splitter._split_on_single_pattern(
+                self, self.breaking_pattern, content_text, remove_separator=True
+            )
+
+        def get_sublevel_name(self, content_text):
+            return None
+
+        def extract_sublevel_name(self, content_text):
+            return
+
     def __init__(self):
         StructuralInfoBase.__init__(self)
         self.total_page_number = 578
@@ -16,7 +38,7 @@ class StructuralInfo(StructuralInfoBase):
         # written in text) in the cover illustration and thus cannot be
         # automatically extracted.
         self.book_title = "The MIND ILLUMINATED: A Complete Meditation Guide Integrating Buddhist Wisdom and Brain Science for Greater Mindfulness"
-        self.chapter_to_paragraph_breaking_pattern = "\n   "
+
         self.pages_info = {
             0: {
                 # The cover page being pure illustration (no text), its
