@@ -2,11 +2,7 @@ import os
 from markdown_pdf import MarkdownPdf, Section
 from Converter import Converter
 from StructuralInfo import StructuralInfo
-from ConvertPdfToMarkdown import (
-    print_document_pages,
-    print_document_paragraphs,
-    print_document_sentences,
-)
+from ConvertPdfToMarkdown import PrintDocument
 
 converter = Converter(
     pdf_filename=os.path.join(
@@ -33,6 +29,6 @@ pdf.save(target_file_basename + ".pdf")
 
 # On debugging purposes
 if False:
-    print_document_pages(document)
-    print_document_paragraphs(document)
-    print_document_sentences(document)
+    PrintDocument(document).pages()
+    PrintDocument(document).paragraphs()
+    PrintDocument(document).sentences()

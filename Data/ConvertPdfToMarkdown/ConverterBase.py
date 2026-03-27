@@ -14,6 +14,7 @@ from .Model import (
 )
 from .PageLayout import PageLayout
 from .Warning import WarnAndExit
+from .Traces import Debug
 
 # To realize the conversion per se
 import nltk
@@ -276,6 +277,7 @@ class ConverterBase:
             reference_prefix: Prefix for reference text (e.g., "Chapter")
             contents: list of text and associated layout to be treated
         """
+        Debug(f"########### break_level_into_sublevels, level: {level}")
         if not level.get_text_with_layout():
             Warning(f"DocumentHierarchicalLevel {level} with NO text content.")
 
@@ -283,12 +285,18 @@ class ConverterBase:
             contents = level.get_text_with_layout()
         for level_content in contents:
             content_text = level_content.text
+            Debug(
+                f"####### break_level_into_sublevels, considering following contents: {content_text}"
+            )
             content_layout = level_content.page_layout
             if not content_text:
                 Warning(f"level with NO text in {reference_prefix}.")
                 continue
             parts = level_splitter.split(content_text)
             while parts:
+                Debug(
+                    f"### break_level_into_sublevels, ({len(parts)}) splitted parts: {parts}"
+                )
                 new_layout = content_layout.__copy__()
                 new_layout.set_reference_text(
                     f"[{reference_prefix}: {level.name}, "
@@ -440,6 +448,9 @@ class ConverterBase:
             for chapter in chapter.get_chapters():  # Recursing
                 self.reconstitute_paragraphs_spreading_over_two_pages(chapter)
         if isinstance(chapter, Paragraph):
+            Warning(
+                "FIXME FIXME FIXME: a SuperChapter made of Paragraphs (that is without ChaptersOfParagraphs) has pages. Yet we return and do nothing..."
+            )
             # SuperChapter can have paragraphs as sublevels
             return
 

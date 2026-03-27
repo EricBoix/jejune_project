@@ -1,5 +1,5 @@
 import re
-from ConvertPdfToMarkdown import StructuralInfoBase, WarnAndExit
+from ConvertPdfToMarkdown import StructuralInfoBase, WarnAndExit, Splitter
 
 
 class StructuralInfo(StructuralInfoBase):
@@ -7,15 +7,17 @@ class StructuralInfo(StructuralInfoBase):
     # - "type" can be "illustration" (with an optional "header" boolean flag)
     # - a "chapter_info" can have an optional "illumination_delimiter"
 
-    class superchapter_to_chapter_splitter:
+    class superchapter_to_chapter_splitter(Splitter):
         def __init__(self):
             # Sub-chapters typically start with e.g.
             #    "85. Time to Die\n\n".
             # We thus need to define three parts for the pattern
-            # 1. the chapter number
-            self.chapter_number_pattern = r"\d+\.[ ]"
+            # 1. the chapter number (refer to the peculiarities section of the
+            #    Readme.md for an explanation on which there can be one or no
+            #    occurrence of the whitespace character)
+            self.chapter_number_pattern = r"\d+\.[ ]?"
             # 2. the name of the chapter per se
-            self.chapter_name_pattern = r"[A-Za-z| ]+"
+            self.chapter_name_pattern = r"[A-Za-z-’|?|!|,| ]+"
             # 3. the two trailing return
             self.chapter_name_trailing_returns = r"\n\n"
 
@@ -36,69 +38,34 @@ class StructuralInfo(StructuralInfoBase):
                 self.middle_page_chapter_name_heading_returns
                 + self.breaking_pattern_one
             )
+            # Technical variables:
+            self.breaking_patterns = [
+                self.breaking_pattern_one,
+                self.breaking_pattern_two,
+            ]
 
         def holds_new_sublevels(self, content_text):
-            match = re.search(self.breaking_pattern_one, content_text)
-            if match:
-                return True
-            match = re.search(self.breaking_pattern_two, content_text)
-            if match:
-                return True
-            return False
+            return Splitter._holds_new_sublevels(
+                self, self.breaking_patterns, content_text
+            )
 
         def split(self, content_text):
-            if not self.holds_new_sublevels(content_text):
-                Warning("split() was called when there was nothing to split.")
-                # Wrap the input in a list because the caller expects the
-                # returned value to be the result of re.split()
-                return [content_text]
-
-            # As stated in the documentation of the re package:
-            #    If capturing parentheses are used in pattern, then the text of
-            #    all groups in the pattern are also returned as part of the
-            #    resulting list.
-            parts_one = re.split(r"(" + self.breaking_pattern_one + r")", content_text)
-            if parts_one[0] == "":
-                # As stated in the documentation of the re package:
-                #    If there are capturing groups in the separator and it
-                #    matches at the start of the string, the result will start
-                #    with an empty string.
-                # In which case we thus have to remove the heading empty string.
-                del parts_one[0]
-            if parts_one[-1] == "":
-                # As stated in the documentation of the re package:
-                #    The same holds for the end of the string.
-                del parts_one[-1]
-            resulting_parts = []
-            for parts in parts_one:
-                resulting_parts += re.split(self.breaking_pattern_two, parts)
-            return resulting_parts
+            return Splitter._split(self, self.breaking_patterns, content_text)
 
         def get_sublevel_name(self, content_text):
-            match = re.search(self.breaking_pattern_one, content_text)
-            if match:
-                return re.search(
-                    self.chapter_number_pattern + self.chapter_name_pattern,
-                    match.group(0),
-                ).group(0)
-            match = re.search(self.breaking_pattern_two, content_text)
-            if match:
-                name_match = re.search(
-                    self.chapter_number_pattern + self.chapter_name_pattern,
-                    match.group(0),
-                ).group(0)
-                return name_match
-            Warning("Sublevel name not found.")
-            return None
+            return Splitter._get_sublevel_name(
+                self,
+                self.breaking_patterns,
+                self.chapter_number_pattern + self.chapter_name_pattern,
+                content_text,
+            )
 
         def extract_sublevel_name(self, content_text):
-            match = re.search(self.breaking_pattern_one, content_text)
-            if match:
-                return re.sub(self.breaking_pattern_one, "", content_text)
-            match = re.search(self.breaking_pattern_two, content_text)
-            if match:
-                return re.sub(self.breaking_pattern_one, "", content_text)
-            WarnAndExit("Unable to extract chapter name.")
+            return Splitter._extract_sublevel_name(
+                self,
+                self.breaking_patterns,
+                content_text,
+            )
 
     class chapter_to_paragraph_splitter:
         def __init__(self):
@@ -115,24 +82,16 @@ class StructuralInfo(StructuralInfoBase):
             self.breaking_pattern = r"\n\n" + r"|" + r"\n    "
 
         def holds_new_sublevels(self, content_text):
-            match = re.search(self.breaking_pattern, content_text)
-            if match:
-                return True
-            return False
+            return Splitter._holds_new_sublevels(
+                self,
+                [self.breaking_pattern],
+                content_text,
+            )
 
         def split(self, content_text):
-            if not self.holds_new_sublevels(content_text):
-                Warning(
-                    "Split() probably shouldn't be called when there is nothing to split."
-                )
-            result = re.split(self.breaking_pattern, content_text)
-            # When the breaking pattern occurs at the very beginning of the
-            # string, the re.split() list will start with an empty string
-            # followed by the encountered separator. Clean that up:
-            if result[0] == "":
-                del result[0]
-                del result[0]  # Things have changed since the first del ;-)
-            return result
+            return Splitter._split_on_single_pattern(
+                self, self.breaking_pattern, content_text, remove_separator=True
+            )
 
         def get_sublevel_name(self, content_text):
             return None

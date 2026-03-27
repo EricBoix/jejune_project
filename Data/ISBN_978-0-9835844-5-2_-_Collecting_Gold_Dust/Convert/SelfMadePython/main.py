@@ -1,11 +1,7 @@
 from os import path
 from Converter import Converter
 from StructuralInfo import StructuralInfo
-from ConvertPdfToMarkdown import (
-    print_document_pages,
-    print_document_paragraphs,
-    print_document_sentences,
-)
+from ConvertPdfToMarkdown import PrintDocument, print_document_raw_pages
 
 pdf_filename = path.join(
     path.dirname(__file__),
@@ -28,6 +24,6 @@ document.to_markdown("output.md")
 
 # On debugging purposes
 if False:
-    print_document_pages(document)
-    print_document_paragraphs(document)
-    print_document_sentences(document)
+    PrintDocument(document).pages()
+    PrintDocument(document).paragraphs()
+    PrintDocument(document).sentences()
