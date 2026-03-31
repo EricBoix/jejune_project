@@ -146,6 +146,8 @@ class Splitter:
             # (that is the result will end with an empty string)
         if resulting_parts[-1] == "":
             del resulting_parts[-1]
+        if resulting_parts[-1] == "\n":
+            del resulting_parts[-1]
         return resulting_parts
 
     def _split(self, patterns, content_text):
@@ -171,6 +173,8 @@ class Splitter:
         resulting_parts = []
         for part_text in first_parts:
             resulting_parts += self._split_on_single_pattern(patterns[1], part_text)
+        if resulting_parts[-1] == "\n":
+            del resulting_parts[-1]
         return resulting_parts
 
     def _get_sublevel_name(

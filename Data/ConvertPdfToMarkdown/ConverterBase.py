@@ -381,7 +381,9 @@ class ConverterBase:
                     else:
                         # When there is no sublevel name, this indicates that
                         # we shouldn't breaking the level
-                        new_sublevel.set_name("Ghost sublevel")
+                        new_sublevel.set_name(
+                            f"Nameless sublevel of type {type(new_sublevel)}"
+                        )
                         new_sublevel.append_text(parts[0])
                         # Note: parts[1] is the separator that is simply dropped.
                     del parts[0]

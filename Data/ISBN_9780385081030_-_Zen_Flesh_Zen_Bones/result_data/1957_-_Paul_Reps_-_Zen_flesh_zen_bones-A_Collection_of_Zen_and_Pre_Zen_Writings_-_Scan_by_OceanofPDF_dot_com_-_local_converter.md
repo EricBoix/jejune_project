@@ -2696,7 +2696,7 @@ SHIVA REPLIES:
 62. In rain during a black night, enter that blackness as the form of forms.
 
 63. When a moonless raining night is not present, close eyes and find blackness before you. Opening eyes, see blackness. So faults disappear
-## Ghost sublevel
+## Nameless sublevel of type <class 'ConvertPdfToMarkdown.Model.ChapterOfParagraphs'>
 
 
 forever.

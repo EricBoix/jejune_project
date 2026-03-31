@@ -5,6 +5,7 @@
 - [Introduction](#introduction)
 - [Running things](#running-things)
 - [Testing](#testing)
+- [To be fixed](#to-be-fixed)
 
 ## Introduction
 
@@ -29,3 +30,7 @@ Within the above running context (directory and installed virtual environment)
 ```bash
 pytest test_main.py
 ```
+
+## To be fixed
+
+- As mentioned in `StructuralInfo::chapter_to_paragraph_splitter::__init__()`, they are two breaking patterns (refer to attribute `breaking_pattern`). We should be using an additional hierarchical level with a `SuperChapter` to sanitize things.
