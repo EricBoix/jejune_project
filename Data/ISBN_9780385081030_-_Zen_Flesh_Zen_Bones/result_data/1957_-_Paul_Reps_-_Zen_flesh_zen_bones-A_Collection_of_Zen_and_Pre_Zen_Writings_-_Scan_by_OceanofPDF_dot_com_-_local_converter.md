@@ -2787,9 +2787,7 @@ forever.
 
 105. Enter the sound of your name and, through this sound, all sounds.
 
-106. I am existing. This is mine. This is this. 0 Beloved, even in such know illimitably.
-
-107. This consciousness is the spirit of guidance of each one. Be this one.
+106. I am existing. This is mine. This is this. 0 Beloved, even in such know illimitably. 107. This consciousness is the spirit of guidance of each one. Be this one.
 
 108. Here is a sphere of change, change, change. Through change consume change.
 
@@ -2815,6 +2813,4 @@ One answer: Inayat Khan tells a Hindu story of a fish who went to a queen fish a
 
 The queen fish explained: “You live, move, and have your being in the sea. The sea is within you and without you, and you are made of sea, and you will end in sea. The sea surrounds you as your own being.”
 
-Another answer:
-
-* “Mu” is the negative symbol in Chinese, meaning “No thing” or “Nay.”
+Another answer: * “Mu” is the negative symbol in Chinese, meaning “No thing” or “Nay.”

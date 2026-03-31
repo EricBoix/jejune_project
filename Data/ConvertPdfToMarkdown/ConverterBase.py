@@ -561,7 +561,7 @@ class ConverterBase:
                 Warning(
                     f"which are respectively {type(ill_starting_paragraph._owning_hierarchical_level)} and {type(ill_ending_paragraph._owning_hierarchical_level)}."
                 )
-                return
+                continue
 
             # Not having the same hierarchical parent also means crossing
             # a chapter boundary. We can see no good reasons to do so.
@@ -572,7 +572,7 @@ class ConverterBase:
                 Warning(
                     f"Choosing not to merge {ill_starting_paragraph} from page {ill_starting_paragraph.page_layout.page_number} and {ill_ending_paragraph} from page {ill_ending_paragraph.page_layout.page_number}, because they are not siblings."
                 )
-                return
+                continue
 
             #### Proceed with the merging of two paragraphs into a single one:
             first_sentence_of_ill_starting_paragraph = (
@@ -581,6 +581,9 @@ class ConverterBase:
             last_sentence_of_ill_ending_paragraph = (
                 ill_ending_paragraph.get_sentences()[-1]
             )
+            if last_sentence_of_ill_ending_paragraph.is_complete():
+                # Being complete, let's assume there is nothing to be done
+                continue
             # First merge the two sentences:
             last_sentence_of_ill_ending_paragraph.append(
                 first_sentence_of_ill_starting_paragraph

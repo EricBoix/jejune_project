@@ -1,6 +1,7 @@
 from __future__ import annotations  # Allow forward references in type hints
 from abc import ABC
 from typing import Generic, List, Optional, TypeVar, TYPE_CHECKING
+import re
 from mdutils.mdutils import MdUtils  # Added import
 from .PageLayout import PageLayout
 from .Warning import Warning, WarnAndExit
@@ -23,9 +24,7 @@ class Sentence:
     """
 
     def __init__(self, text: str, layout: PageLayout) -> None:
-        # FIXME If we rename this membre attribute to text, then we might
-        # be able to gain some "genericity" in the breakdown process ?
-        self.sentence = text
+        self.text = text
         self.page_layout = layout.__copy__()
         # The owning Paragraph in the hierarchy of levels
         self._owning_hierarchical_level = None
@@ -34,16 +33,29 @@ class Sentence:
         """
         Append text to the current sentence.
         """
-        self.sentence += " " + other.sentence
+        self.text += " " + other.text
 
     def set_owning_hierarchical_level(self, parent) -> None:
         self._owning_hierarchical_level = parent
+
+    def is_complete(self):
+        # The problem is hard, refer e.g. to
+        # https://stackoverflow.com/questions/71590785/nlp-check-if-a-detected-sentence-is-a-complete-sentence
+        # We'll keep the check low-tech (and wrong) with only checking
+        # whether the sentence does
+        # - start with a capital letter
+        # - end with punctuation
+        if not self.text[0].isupper():
+            return False
+        if not bool(re.search(r"[.!?]$", self.text)):
+            return False
+        return True
 
     def to_markdown(self, md_file: MdUtils, dummy_level) -> None:
         """
         Add this sentence's content to the given MdUtils object.
         """
-        md_file.new_line(repr(self.sentence))
+        md_file.new_line(repr(self.text))
 
 
 class DocumentHierarchicalLevel(ABC, Generic[T]):
@@ -268,7 +280,7 @@ class Paragraph(DocumentHierarchicalLevel[Sentence]):
         # Note: we can not delegate the markdown generation to
         # Sentence.to_markdown() since we would have to use md_file.new_line()
         # which (as expected) adds an unwanted mandatory line break
-        paragraph_as_text = " ".join([sentence.sentence for sentence in sentences])
+        paragraph_as_text = " ".join([sentence.text for sentence in sentences])
         md_file.new_paragraph(paragraph_as_text)
 
 

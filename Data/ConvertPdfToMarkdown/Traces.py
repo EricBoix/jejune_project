@@ -120,6 +120,6 @@ class PrintDocument:
             print(
                 sentence.page_layout.reference_text,
                 ":\n",
-                sentence.sentence,
+                sentence.text,
                 "\n",
             )

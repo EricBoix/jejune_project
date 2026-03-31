@@ -31,9 +31,9 @@ class Converter(ConverterBase):
 
     def __assert_chapter_name(self, page_number, beginning_page):
         chapter_name = self.structural_info._get_chapter_name(page_number)
-        if not re.search(chapter_name + "[\n\n\n]", beginning_page.sentence):
+        if not re.search(chapter_name + "[\n\n\n]", beginning_page.text):
             WarnAndExit(
-                f"Chapter page (page number {page_number}) does not seem to start with {chapter_name}, but with {repr(beginning_page.sentence)}"
+                f"Chapter page (page number {page_number}) does not seem to start with {chapter_name}, but with {repr(beginning_page.text)}"
             )
 
     def assert_chapters_name_coherence(self):
