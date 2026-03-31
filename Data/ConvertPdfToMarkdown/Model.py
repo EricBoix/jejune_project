@@ -154,8 +154,8 @@ class DocumentHierarchicalLevel(ABC, Generic[T]):
             if sublevel.page_layout.page_number == page_number:
                 sublevel_of_that_page = sublevel
         if sublevel_of_that_page is None:
-            WarnAndExit(
-                f"Error: unable to find the last sublevel of page number {page_number} in chapter {sublevel.name}"
+            Warning(
+                f"unable to find the last sublevel of page number {page_number} in hierarchy {self.name}"
             )
         return sublevel_of_that_page
 
@@ -164,12 +164,33 @@ class DocumentHierarchicalLevel(ABC, Generic[T]):
         Concatenate another DocumentHierarchicalLevel to this one and dispose
         of the other. This method assumes that this instance and the other DocumentHierarchicalLevel both share the same hierarchical parent.
         """
+        if type(self) != type(other):
+            WarnAndExit("Cannot merge two different types.")
         if self._owning_hierarchical_level != other._owning_hierarchical_level:
-            raise ValueError("Cannot concatenate children from different parent.")
+            if type(self._owning_hierarchical_level) != type(
+                other._owning_hierarchical_level
+            ):
+                # We should inquire further but we are probably in the case
+                # where:
+                #  - self and other are both paragraphs
+                #  - type(parent(self)) is a SuperChapter
+                #  - type(parent(other)) is a ChapterOfParagraph (that belongs
+                #    to the same SuperChapter)
+                # Although the paragraphs follow themselves, they do not share
+                # the same parent (but the same grand-parent).
+                Warning(f"Choosing not to merge {self} and {other}, because")
+                Warning(f"their respective parent are of different types, that")
+                Warning(
+                    f"are {type(self._owning_hierarchical_level)} and {type(other._owning_hierarchical_level)}."
+                )
+                return
+            else:
+                Warning(
+                    f"Choosing not to merge {self} from page {self.page_layout.page_number} and {other} from page {other.page_layout.page_number}, because they are not siblings."
+                )
+                return
         if self._owning_hierarchical_level is None:
-            raise ValueError(
-                "DocumentHierarchicalLevel has no owning hierarchical level."
-            )
+            WarnAndExit("DocumentHierarchicalLevel has no owning hierarchical level.")
         self.sublevels.extend(other.sublevels)
         self._owning_hierarchical_level.remove_sublevel(other)
         self._owning_hierarchical_level.renumber_sublevels()

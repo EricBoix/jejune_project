@@ -11,6 +11,7 @@ from .Model import (
     SuperChapter,
     Paragraph,
     Sentence,
+    TopLevelChapter,
 )
 from .PageLayout import PageLayout
 from .Warning import WarnAndExit
@@ -177,10 +178,30 @@ class ConverterBase:
         return True
 
     def _chapter_get_first_paragraph_of_given_page(self, chapter, page_number):
-        return chapter.get_first_sublevel_of_given_page(page_number)
+        level = chapter.get_first_sublevel_of_given_page(page_number)
+        if level == None:
+            return None
+        if isinstance(level, Paragraph):
+            return level
+        if isinstance(level, Sentence):
+            WarnAndExit("We should have crossed a Paragraph before.")
+        if isinstance(level, ChapterOfParagraphs):
+            # We juste need to recuse.
+            return self._chapter_get_first_paragraph_of_given_page(level, page_number)
+        WarnAndExit(f"Unforeseen type {level} within type {chapter}")
 
     def _chapter_get_last_paragraph_of_given_page(self, chapter, page_number):
-        return chapter.get_last_sublevel_of_given_page(page_number)
+        level = chapter.get_last_sublevel_of_given_page(page_number)
+        if level == None:
+            return None
+        if isinstance(level, Paragraph):
+            return level
+        if isinstance(level, Sentence):
+            WarnAndExit("We should have crossed a Paragraph before.")
+        if isinstance(level, ChapterOfParagraphs):
+            # We juste need to recuse.
+            return self._chapter_get_last_paragraph_of_given_page(level, page_number)
+        WarnAndExit(f"Unforeseen type {level} within type {chapter}")
 
     def sanitize_newlines_and_multiple_whitespaces(self, input_text):
 
@@ -220,8 +241,8 @@ class ConverterBase:
         self.breaks_document_into_chapters()  # Calling the derived version
         for chapter in self.document.get_chapters():
             self.break_level(chapter)
-        for chapter in self.document.get_chapters():
-            self.reconstitute_paragraphs_spreading_over_two_pages(chapter)
+        for top_level_chapter in self.document.get_chapters():
+            self.reconstitute_paragraphs_spreading_over_two_pages(top_level_chapter)
 
     def get_document(self):
         return self.document
@@ -427,7 +448,7 @@ class ConverterBase:
         for sublevel in sublevels:
             self.break_level(sublevel)
 
-    def reconstitute_paragraphs_spreading_over_two_pages(self, chapter):
+    def reconstitute_paragraphs_spreading_over_two_pages(self, top_level_chapter):
         """
         When a page ends with an unfinished Paragraph then the next page begins
         with the end of that Paragraph. In order to reconstitute such Paragraphs
@@ -444,21 +465,20 @@ class ConverterBase:
            standing over two ill reconstituted Paragraphs) gets also properly
            reconstituted.
         """
-        if isinstance(chapter, SuperChapter):
-            for chapter in chapter.get_chapters():  # Recursing
-                self.reconstitute_paragraphs_spreading_over_two_pages(chapter)
-        if isinstance(chapter, Paragraph):
-            Warning(
-                "FIXME FIXME FIXME: a SuperChapter made of Paragraphs (that is without ChaptersOfParagraphs) has pages. Yet we return and do nothing..."
-            )
-            # SuperChapter can have paragraphs as sublevels
+        # Design notes: by segmenting the reconstitution by TopLevelChapters
+        # (two paragraphs belonging to two different TopLevelChapters will
+        # never be merged) the assumptions are
+        # - TopLevelChapters never have a page in common
+        # - SubChapters do sometimes lie over two pages and can thus have
+        #   paragraphs that require to be merged
+        if not isinstance(top_level_chapter, TopLevelChapter):
             return
 
-        if len(chapter.pages) == 1:
+        if len(top_level_chapter.pages) == 1:
             # Nothing to do for a single page
             return
-        for page_index in range(0, len(chapter.pages) - 1):
-            current_page = chapter.pages[page_index]
+        for page_index in range(0, len(top_level_chapter.pages) - 1):
+            current_page = top_level_chapter.pages[page_index]
             page_number = current_page.page_number
             if not self._page_requires_paragraph_continuation(page_number):
                 continue
@@ -468,16 +488,16 @@ class ConverterBase:
                 )
             )
             if self.structural_info._is_chapter_beginning_page(next_page_number):
-                # The next page is the starting page of a new chapter. This
-                # implies that the current page is the last page of this
-                # chapter which is thus complete. There is hence nothing to be
-                # collected from the next page
+                # The next page is the starting page of a new
+                # top_level_chapter. This implies that the current page is the
+                # last page of this top_level_chapter which is thus complete.
+                # There is hence nothing to be collected from the next page
                 continue
 
-            if (
-                self._chapter_get_first_paragraph_of_given_page(chapter, page_number)
-                is None
-            ):
+            ill_starting_paragraph = self._chapter_get_first_paragraph_of_given_page(
+                top_level_chapter, next_page_number
+            )
+            if ill_starting_paragraph is None:
                 # The current page has no paragraph. One of the reasons for
                 # a page without paragraphs can be that
                 # - initially the page had a paragraph (that was ill starting)
@@ -488,26 +508,29 @@ class ConverterBase:
                 #   up merged into its previous page last paragraph)
                 # - hence the page ended up with no paragraph at all
                 continue
-
-            ill_ending_paragraph = self._chapter_get_last_paragraph_of_given_page(
-                chapter, page_number
-            )
-            if not ill_ending_paragraph.get_sentences():
-                # This paragraph is devoid of sentence content. Nothing can
-                # be merged
+            if not isinstance(ill_starting_paragraph, Paragraph):
+                Warning("Ill starting paragraph is not ... a paragraph.")
+                Warning("Not merging.")
                 continue
 
-            ill_starting_paragraph = self._chapter_get_first_paragraph_of_given_page(
-                chapter, next_page_number
+            ill_ending_paragraph = self._chapter_get_last_paragraph_of_given_page(
+                top_level_chapter, page_number
             )
-
-            if ill_starting_paragraph is None:
+            if ill_ending_paragraph is None:
                 # The next page has no paragraph. Besides the reason given
                 # above for encountering a page without paragraphs, it can
                 # also happen that the page initial paragraphs got dropped
                 # during the sanitation process. Anyhow, if there is no
                 # possible end for the paragraph, then there is nothing to
                 # merge...
+                continue
+            if not isinstance(ill_ending_paragraph, Paragraph):
+                Warning("Ill ending paragraph is not ... a paragraph.")
+                Warning("Not merging.")
+                continue
+            if not ill_ending_paragraph.get_sentences():
+                # This paragraph is devoid of sentence content. Nothing can
+                # be merged
                 continue
 
             #### Asserting some preconditions before merging the two paragraphs:
@@ -517,6 +540,39 @@ class ConverterBase:
                 WarnAndExit(
                     f"Error: the page layout of the two paragraphs to be merged is the same. This is not expected.\nParagraph ending on page number {page_number} has page layout {repr(ill_ending_paragraph.page_layout)}\nParagraph starting on page number {next_page_number} has page layout {repr(ill_starting_paragraph.page_layout)}"
                 )
+
+            # At least the types of parents of ill_ending and ill_starting
+            # paragraphs should be of the same type. Otherwise we are crossing # some boundary.
+            if type(ill_starting_paragraph._owning_hierarchical_level) != type(
+                ill_ending_paragraph._owning_hierarchical_level
+            ):
+                # We should inquire further but we are probably in the case
+                # where:
+                #  - self and other are both paragraphs
+                #  - type(parent(self)) is a SuperChapter
+                #  - type(parent(other)) is a ChapterOfParagraph (that belongs
+                #    to the same SuperChapter)
+                # Although the paragraphs follow themselves, they do not share
+                # the same parent (but maybe the same grand-parent).
+                Warning(
+                    f"Choosing not to merge {ill_starting_paragraph} and {ill_ending_paragraph}, because"
+                )
+                Warning(f"their respective parents are of different types: ")
+                Warning(
+                    f"which are respectively {type(ill_starting_paragraph._owning_hierarchical_level)} and {type(ill_ending_paragraph._owning_hierarchical_level)}."
+                )
+                return
+
+            # Not having the same hierarchical parent also means crossing
+            # a chapter boundary. We can see no good reasons to do so.
+            if (
+                ill_starting_paragraph._owning_hierarchical_level
+                != ill_ending_paragraph._owning_hierarchical_level
+            ):
+                Warning(
+                    f"Choosing not to merge {ill_starting_paragraph} from page {ill_starting_paragraph.page_layout.page_number} and {ill_ending_paragraph} from page {ill_ending_paragraph.page_layout.page_number}, because they are not siblings."
+                )
+                return
 
             #### Proceed with the merging of two paragraphs into a single one:
             first_sentence_of_ill_starting_paragraph = (

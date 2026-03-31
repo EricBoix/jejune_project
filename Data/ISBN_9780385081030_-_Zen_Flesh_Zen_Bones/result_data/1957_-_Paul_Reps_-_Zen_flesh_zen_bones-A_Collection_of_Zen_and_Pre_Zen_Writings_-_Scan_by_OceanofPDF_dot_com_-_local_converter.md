@@ -15,9 +15,7 @@ Centreing, a transcription of ancient Sanskrit manuscripts, first appeared in th
 
 Thanks are due the publishers named above for permission to gather the material together here. And most of all am I grateful to Nyogen Senzaki, ‘homeless monk’ exemplar-friend collaborator, who so delighted with me in transcribing the first three books, even as that prescient man of Kashmir, Lakshmanjoo, did on the fourth.
 
-The first Zen patriarch Bodhidharma brought Zen to China from India in the sixth century. According to his biography recorded in the year 1004
-
-by the Chinese teacher Dogen after nine years in China Bodhidharma wished to go home and gathered his disciples about him to test their apperception.
+The first Zen patriarch Bodhidharma brought Zen to China from India in the sixth century. According to his biography recorded in the year 1004 by the Chinese teacher Dogen after nine years in China Bodhidharma wished to go home and gathered his disciples about him to test their apperception.
 
 Dofuku said: ‘In my opinion truth is beyond affirmation or negation, for this is the way it moves.’
 
@@ -68,9 +66,7 @@ The Zen habit of self-searching through meditation to realize one’s true natur
 
 The Noh dramas are Zen stories. Zen spirit has come to mean not only peace and understanding, but devotion to art and to work, the rich unfolding of contentment, opening the door to insight, the expression of innate beauty, the intangible charm of incompleteness. Zen carries many meanings, none of them, entirely definable. If they a defined they are not Zen.
 
-It has been said that if you have Zen in your life, you have no fear, no doubt, no unnecessary craving, and no extreme emotion. Neither illiberal attitudes nor egotistical actions trouble you. You serve humanity humbly, fulfilling your presence in this world with loving-kindness and observing your passing as a petal falling from a flower. Serene you enjoy life in
-
-blissful tranquility. Such is the spirit of Zen, whose venture is thousands of temples in China and Japan, priests and monks, wealth and prestige, and often the very formalism it would itself transcend.
+It has been said that if you have Zen in your life, you have no fear, no doubt, no unnecessary craving, and no extreme emotion. Neither illiberal attitudes nor egotistical actions trouble you. You serve humanity humbly, fulfilling your presence in this world with loving-kindness and observing your passing as a petal falling from a flower. Serene you enjoy life in blissful tranquility. Such is the spirit of Zen, whose venture is thousands of temples in China and Japan, priests and monks, wealth and prestige, and often the very formalism it would itself transcend.
 
 To study Zen, the flowering of one’s nature, is no easy task in any age or civilization. Many teachers, true and false, have purposed to assist others in this accomplishment. It is from innumerable and actual adventures in Zen that these stories have evolved. May the reader in turn realize them in living experience today.
 ## 1. A Cup of Tea

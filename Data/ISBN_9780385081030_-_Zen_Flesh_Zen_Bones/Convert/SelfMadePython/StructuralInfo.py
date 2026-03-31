@@ -130,7 +130,17 @@ class StructuralInfo(StructuralInfoBase):
             67: {"drop_page": True},  # Empty page
             87: {"drop_page": True},  # Empty page
             124: {"paragraph_fits_on_page": True},
+            125: {"paragraph_fits_on_page": True},
+            181: {"paragraph_fits_on_page": True},
+            182: {"paragraph_fits_on_page": True},
             194: {"paragraph_fits_on_page": True},
+            195: {"paragraph_fits_on_page": True},
+            196: {"paragraph_fits_on_page": True},
+            197: {"paragraph_fits_on_page": True},
+            198: {"paragraph_fits_on_page": True},
+            199: {"paragraph_fits_on_page": True},
+            200: {"paragraph_fits_on_page": True},
+            201: {"paragraph_fits_on_page": True},
         }
 
     def convert_to_logical_page_number(self, page_number):
