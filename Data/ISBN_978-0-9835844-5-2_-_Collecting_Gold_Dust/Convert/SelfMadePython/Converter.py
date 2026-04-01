@@ -2,7 +2,11 @@ import sys
 import re
 import roman
 
-from ConvertPdfToMarkdown import ConverterBase, ChapterOfParagraphs, Document
+from ConvertPdfToMarkdown import (
+    ConverterBase,
+    SuperChapter,
+    DocumentWithSubChapters,
+)
 from ExtractedPage import ExtractedPage
 
 
@@ -12,12 +16,12 @@ class Converter(ConverterBase):
     """
 
     def __init__(self, pdf_filename, structural_info):
-        document = Document(structural_info.book_title)
-        return ConverterBase.__init__(self, pdf_filename, document, structural_info)
+        document = DocumentWithSubChapters(structural_info.book_title)
+        ConverterBase.__init__(self, pdf_filename, document, structural_info)
 
     def breaks_document_into_chapters(self):
         return ConverterBase.breaks_document_into_chapters(
-            self, ExtractedPage, ChapterOfParagraphs
+            self, ExtractedPage, SuperChapter
         )
 
     def _page_requires_paragraph_continuation(self, page_number):
@@ -259,6 +263,4 @@ class Converter(ConverterBase):
                 # chapter name
                 return self.chapter_page_header(extracted_page)
 
-        print("Header for page number ", page_number, " is not defined")
-        print("Exiting")
-        sys.exit()
+        WarnAndExit("Header for page number ", page_number, " is not defined")

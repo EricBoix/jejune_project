@@ -326,69 +326,101 @@ class ConverterBase:
                 )
                 new_sublevel = sublevel_factory(new_layout)
 
-                if len(parts) == 1:
-                    # There is only an unbreakable (in sublevels) single block
-                    # of text that must thus end-up in a paragraph (as opposed
-                    # to an undetermined ChapterOfParagraphs).
-                    # Hence if the sublevel that we are trying to create is
-                    # a Paragraph then we do proceed. This might eventually
-                    # end-up with a SuperChapter holding a single Paragraph
-                    # but this is a valid case.
-                    if isinstance(new_sublevel, Paragraph):
-                        new_sublevel.append_text(parts[0])
-                        parts = None
-                    elif isinstance(new_sublevel, ChapterOfParagraphs):
-                        # Out of unbreakable text that should end-up in
-                        # Paragraph, we are required to create
-                        # - a (single) ChapterOfParagraphs
-                        # - within a SuperChapter
-                        # In order to resolve this contradiction we renounce
-                        # the creation of a ChapterOfParagraphs and instead we
-                        # fold back to the logic of the previous case context
-                        # (create a Paragraph in a ChapterOfParagraphs) and we
-                        # create a Paragraph (within a SuperChapter):
-                        self.break_superchapter_into_paragraphs(level, [level_content])
-                        # We have dealt with the last part of this level_content
-                        # and we are back to dealing with the next level_content
-                        # of the for loop
-                        parts = None
-                        break
-                    else:
-                        WarnAndExit(
-                            f"We should be adding a (or to a) Paragraph. Instead we are adding to a {type(level)}"
-                        )
-                else:
-                    # The first entry of parts is the full matching pattern of
-                    # the chapter that can include separators (\n) that must be
-                    # cleaned-up:
+                if len(parts) >= 2:
+                    # This is the default case we we expect to find a new
+                    # sub-level and its content.
+                    # The first entry of parts should be the full matching
+                    # pattern of the new sublevel. But two things can happen
+                    # 1. it is indeed the new sub-level name but this name
+                    #    can include separators (\n) that must be cleaned-up,
+                    # 2. this is not some new sub-level name but simply some
+                    #    text (that should end up in a Paragraph as opposed
+                    #    to a sub-level)
+                    # So let us first investigate on the situation
                     full_chapter_pattern = parts[0]
                     new_sublevel_name = level_splitter.get_sublevel_name(
                         full_chapter_pattern
                     )
-                    # The second entry of parts is the textual content of the
-                    # sublevel.
-                    # Note that the design chose to store the name of the
-                    # sublevel as a member attribute: in other terms we store
-                    # the name of the sublevel in new_sublevel.name as opposed
-                    # to another possible design that would simply piggy back
-                    # that name. Yet this member attribute is only used by the
-                    # Converter and is not destined to be of any usage once the
-                    # conversion is made.
                     if new_sublevel_name:
+                        # We are indeed in the generic case of a sub-level
+                        # creation. The second entry of parts should thus be
+                        # the textual content of the sublevel.
+                        #
+                        # Technical note: the design chose to store the name
+                        # of the sublevel as a member attribute: in other terms
+                        # we store the name of the sublevel in
+                        # new_sublevel.name as opposed to another possible
+                        # design that would simply piggy back that name. Yet
+                        # this member attribute is only used by the Converter
+                        # and is not destined to be of any usage once the
+                        # conversion is made.
                         new_sublevel.set_name(new_sublevel_name)
                         new_sublevel.append_text(parts[1])
-                        del parts[1]
-                    else:
-                        # When there is no sublevel name, this indicates that
-                        # we shouldn't breaking the level
-                        new_sublevel.set_name(
-                            f"Nameless sublevel of type {type(new_sublevel)}"
-                        )
-                        new_sublevel.append_text(parts[0])
-                        # Note: parts[1] is the separator that is simply dropped.
-                    del parts[0]
+                        # We can clean up and proceed
+                        del parts[0]
+                        del parts[0]
+                        level.add_sublevel(new_sublevel)
+                        # All is done we can loop
+                        continue
 
-                level.add_sublevel(new_sublevel)
+                # We are left with the ugly duckling twins (that are born from
+                # the same original mishap, that is the fact that we cannot use
+                # parts[1] to extract the new sublevel name)
+                # 1. the case were len(parts)==1: there is only an unbreakable
+                #    (in sublevels) single block of text that must thus end-up
+                #    in a paragraph (as opposed to an undetermined
+                #    ChapterOfParagraphs).
+                # 2. the case were parts[1] did exist but cannot be considered
+                #    as the textual content of a new sub-level because parts[0]
+                #    was not a new sublevel name. Hence parts[0] has to be
+                #    re-interpreted as the textual content of the current level
+                #    that should NOT be broken.
+                #
+                # Hence if the sublevel that we are trying to create is a
+                # Paragraph then it suffices to proceed. This might eventually
+                # end-up with a SuperChapter holding a single Paragraph but
+                # this is a valid case.
+                if isinstance(new_sublevel, Paragraph):
+                    new_sublevel.append_text(parts[0])
+                    if len(parts) == 1:
+                        parts = None
+                    else:
+                        del parts[0]
+                    level.add_sublevel(new_sublevel)
+                    continue
+                elif isinstance(new_sublevel, ChapterOfParagraphs):
+                    # Out of unbreakable text that should end-up in a
+                    # Paragraph, we are required to create
+                    # - a (single) ChapterOfParagraphs
+                    # - within a SuperChapter
+                    # In order to resolve this contradiction we renounce
+                    # the creation of a ChapterOfParagraphs and instead we
+                    # fold back to the logic of the previous case context
+                    # (create a Paragraph in a ChapterOfParagraphs) and we
+                    # create a Paragraph (within a SuperChapter). We thus
+                    # interrupt the the new_sublevel creation and reformulate
+                    # what needs to be done.
+                    class new_paragraph_content:
+                        pass
+
+                    new_paragraph_content.page_layout = content_layout
+                    new_paragraph_content.text = parts[0]
+                    self.break_superchapter_into_paragraphs(
+                        level, [new_paragraph_content]
+                    )
+                    # We have dealt with the last part of this level_content
+                    # and we are back to dealing with the next level_content
+                    # of the for loop
+                    if len(parts) == 1:
+                        parts = None
+                        break
+                    else:
+                        del parts[0]
+                        continue
+                else:
+                    WarnAndExit(
+                        f"We should be adding a (or to a) Paragraph. Instead we are adding to a {type(level)}"
+                    )
 
     def break_chapter_into_paragraphs(self, chapter: ChapterOfParagraphs) -> None:
         self.break_level_into_sublevels(

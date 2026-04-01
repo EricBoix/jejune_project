@@ -21,8 +21,6 @@ class Converter(ConverterBase):
         )
 
     def _page_requires_paragraph_continuation(self, page_number):
-        # if self.structural_info._page_is_illustration(page_number):
-        #     return False
         return ConverterBase._page_requires_paragraph_continuation(self, page_number)
 
     def sanitize_page_text(self, extracted_page):

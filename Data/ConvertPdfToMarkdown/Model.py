@@ -273,9 +273,8 @@ class Paragraph(DocumentHierarchicalLevel[Sentence]):
         sentences = self.get_sublevels()
         if not sentences:
             print("FIXME FIXME FIXME FIXME FIXME")
-            Warning(
-                "Useless paragraph with no sentences.\nOptimisation inquiry required."
-            )
+            Warning("Useless paragraph with no sentences.")
+            Warning("Optimisation inquiry required.")
             return
         # Note: we can not delegate the markdown generation to
         # Sentence.to_markdown() since we would have to use md_file.new_line()

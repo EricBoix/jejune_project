@@ -8,18 +8,62 @@ class StructuralInfo(StructuralInfoBase):
     # - "type" can be "illustration" (with an optional "header" boolean flag)
     # - a "chapter_info" can have an optional "illumination_delimiter"
 
+    class superchapter_to_chapter_splitter(Splitter):
+        def __init__(self):
+            # Sub-chapters typically start with e.g.
+            #    "\n\n\nUSING WISDOM\n.
+            # We thus need to define three parts for the pattern
+            # 1. the ante chapter breaking lines
+            self.chapter_name_ante_pattern = r"\n\n\n"
+            # 2. the name of the chapter per se. Note that the minimum number
+            # for matching has to be
+            # - at least 2 in order not to match the first (capital letter of
+            #   a sentence) e.g. "Stand by me."
+            # - at least three not to match e.g. "A cat was run over." where the
+            #   the initial capital and its following whitespace would match.
+            # For the upper limit to, well a full line should suffice.
+            self.chapter_name_pattern = r"[A-Z|?|\”|\“|,| ]{3,100}"
+            # 3. the trailing return
+            self.chapter_name_post_pattern = r"\n"
+
+            self.breaking_pattern = (
+                self.chapter_name_ante_pattern
+                + self.chapter_name_pattern
+                + self.chapter_name_post_pattern
+            )
+
+        def holds_new_sublevels(self, content_text):
+            return Splitter._holds_new_sublevels(
+                self, [self.breaking_pattern], content_text
+            )
+
+        def split(self, content_text):
+            # As stated in the documentation of the re package:
+            #    If capturing parentheses are used in pattern, then the text of
+            #    all groups in the pattern are also returned as part of the
+            #    resulting list.
+            return Splitter._split_on_single_pattern(
+                self, r"(" + self.breaking_pattern + r")", content_text
+            )
+
+        def get_sublevel_name(self, content_text):
+            return Splitter._get_sublevel_name(
+                self,
+                [self.breaking_pattern],
+                self.chapter_name_pattern,
+                content_text,
+            )
+
+        def extract_sublevel_name(self, content_text):
+            return Splitter._extract_sublevel_name(
+                self,
+                [self.breaking_pattern],
+                content_text,
+            )
+
     class chapter_to_paragraph_splitter:
         def __init__(self):
-            # The paragraph termination varies within the document.
-            # - the second part of the pattern happens on sub-chapter
-            #   beginnings.
-            # - Instead of simply starting a new paragraph we should be starting
-            #   a new sub-chapter!
-            # Deal with both cases. Additionally, notice that we must avoid
-            # having two capturing groups: refer to e.g.
-            # https://stackoverflow.com/questions/11320231/re-split-with-multiple-arguments-or-returns-none
-            # and thus patterns are NOT wrapped in parentheses.
-            self.breaking_pattern = "\n    " + "|" + "\n\n\n"
+            self.breaking_pattern = "\n    "
 
         def holds_new_sublevels(self, content_text):
             return Splitter._holds_new_sublevels(

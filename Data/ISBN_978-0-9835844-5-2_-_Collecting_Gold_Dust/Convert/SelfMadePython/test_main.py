@@ -4,6 +4,20 @@ from pathlib import Path
 from os import path
 
 
+def test_subchapter_breaking_pattern():
+    import re
+
+    # Example taken from
+    #  level.name=='Mindfulness is a Lifestyle Change' and
+    #  level_content.page_number==45
+    SUB_CHAPTER_PATTERN = r"\n\n\n[A-Z| ]{3,50}\n"
+    text = "Next, you\nlearn how to keep these already developed insights alive. Finally, you\nfigure out how to develop even deeper levels of insight.\n\n\nMEDITATING ALL THE TIME\nWe must be walking on the Noble Eightfold Path of sīla (moral conduct),\nsamādhi (stability of mind), and paññā (wisdom)."
+    match = re.search(SUB_CHAPTER_PATTERN, text)
+    assert match is not None
+    assert match.start() == 137
+    assert match.end() == 164
+
+
 def test_main_output_matches_reference():
     script_dir = Path(__file__).parent
 

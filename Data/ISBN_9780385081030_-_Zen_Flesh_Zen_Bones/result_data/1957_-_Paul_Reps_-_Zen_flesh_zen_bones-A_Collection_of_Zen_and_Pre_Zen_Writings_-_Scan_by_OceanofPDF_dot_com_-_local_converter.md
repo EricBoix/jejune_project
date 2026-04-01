@@ -2695,14 +2695,9 @@ SHIVA REPLIES:
 
 62. In rain during a black night, enter that blackness as the form of forms.
 
-63. When a moonless raining night is not present, close eyes and find blackness before you. Opening eyes, see blackness. So faults disappear
-## Nameless sublevel of type <class 'ConvertPdfToMarkdown.Model.ChapterOfParagraphs'>
-
-
-forever.
+63. When a moonless raining night is not present, close eyes and find blackness before you. Opening eyes, see blackness. So faults disappear forever.
 
 64. Just as you have the impulse to do something, stop.
-
 ## 65. Center on the sound a-u-m without any a or m
 
 

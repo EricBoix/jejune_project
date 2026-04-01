@@ -33,7 +33,7 @@ def print_document_raw_pages(pdf_filename):
     for page_number in range(len(reader.pages)):
         page = reader.pages[page_number]
         print("############### Page number ", page_number, "############")
-        print(repr(page.extract_text()))
+        print(repr(page.extract_text(extraction_mode="layout")))
 
     print("##########################################################")
     print("################## END OF RAW DOCUMENT ###################")
