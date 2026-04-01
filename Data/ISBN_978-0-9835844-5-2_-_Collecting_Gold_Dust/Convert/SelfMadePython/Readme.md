@@ -33,4 +33,4 @@ pytest test_main.py
 
 ## To be fixed
 
-- As mentioned in `StructuralInfo::chapter_to_paragraph_splitter::__init__()`, they are two breaking patterns (refer to attribute `breaking_pattern`). We should be using an additional hierarchical level with a `SuperChapter` to sanitize things.
+- Some subchapters (quite a few actually) are missing. For examples look for `RESTLESSNESS`. Conjecture: the missing ones are appearing on the top of Extracted pages. They thus miss the leading `\n\n\n`. Introduce two sub-patterns like it was done for Zen flesh Zen Bones.
