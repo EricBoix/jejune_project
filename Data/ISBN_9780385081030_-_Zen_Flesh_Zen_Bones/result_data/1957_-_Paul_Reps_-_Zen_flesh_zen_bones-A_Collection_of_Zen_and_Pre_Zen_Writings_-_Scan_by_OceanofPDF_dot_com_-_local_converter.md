@@ -2793,6 +2793,9 @@ SHIVA REPLIES:
 
 112. Beloved, at this moment let mind, knowing, breath, form, be included.
 
+# What Is Zen?
+
+
 What Is Zen?
 
 Try if you wish. But Zen comes of itself. True Zen shows in everyday living, CONSCIOUSNESS in action. More than any limited awareness, it opens every inner door to our infinite nature.

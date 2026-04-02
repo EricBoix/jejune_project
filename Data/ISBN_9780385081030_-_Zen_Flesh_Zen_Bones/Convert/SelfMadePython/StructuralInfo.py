@@ -156,6 +156,12 @@ class StructuralInfo(StructuralInfoBase):
                     "fix": "sound a-u-m without any a or m.",
                 },
             },
+            207: {
+                "type": "chapter",
+                "chapter_info": {
+                    "name": "What Is Zen?",
+                },
+            },
         }
 
     def convert_to_logical_page_number(self, page_number):
