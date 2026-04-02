@@ -14,7 +14,7 @@ from .Model import (
     TopLevelChapter,
 )
 from .PageLayout import PageLayout
-from .Warning import WarnAndExit
+from .Warning import Warning, WarnAndExit
 from .Traces import Debug
 
 # To realize the conversion per se
@@ -155,8 +155,24 @@ class ConverterBase:
                 new_extracted_page.extract_chapter_name(new_chapter_name)
 
             # We are back to the default flow of treatment
-            self.sanitize_page_text(new_extracted_page)
+            self.sanitize_page_text(new_extracted_page)  # In derived class
+            self.fix_typos(new_extracted_page)
             current_chapter.add_page(new_extracted_page)
+
+    def fix_typos(self, extracted_page):
+        """Apply typo fixes on extracted pages that require it."""
+        page_number = extracted_page.page_number
+        typo_and_fix = self.structural_info.get_typo_and_fix(page_number)
+        if typo_and_fix is None:
+            return
+        typo = typo_and_fix["typo"]
+        if not re.search(typo, extracted_page.text):
+            Warning(f"Couldn't find typo in extracted page number {page_number}:")
+            Warning(f"  - typo: {typo}")
+            Warning(f"  - page text: {extracted_page.text}")
+            return
+        extracted_page.text = re.sub(typo, typo_and_fix["fix"], extracted_page.text)
+        Debug(f"Typo fixed on page {page_number}")
 
     def _assert_reader_page_number_is_coherent(self, page_number):
         # Slightly paranoid check on the reader numbering job coherence. When

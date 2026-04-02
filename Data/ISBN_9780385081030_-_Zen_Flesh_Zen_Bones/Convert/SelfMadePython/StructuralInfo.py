@@ -122,25 +122,40 @@ class StructuralInfo(StructuralInfoBase):
                 "chapter_info": {
                     "name": "Foreword",
                 },
+                "typo_and_fix": {
+                    "typo": "Centreing",
+                    "fix": "Centering",
+                },
             },
-            8: {"paragraph_fits_on_page": True},
-            9: {"paragraph_fits_on_page": True},
             10: {"paragraph_fits_on_page": True},
+            14: {
+                "typo_and_fix": {
+                    # Yes there is a lot of extra whitespaces in the original
+                    "typo": "Sometimes    when    becomes",
+                    "fix": "Sometimes when he becomes",
+                },
+            },
+            15: {
+                "typo_and_fix": {
+                    "typo": "utterly ashamed",
+                    "fix": "utterly ashamed.",
+                },
+            },
             45: {"drop_page": True},  # Empty page
             67: {"drop_page": True},  # Empty page
             87: {"drop_page": True},  # Empty page
-            124: {"paragraph_fits_on_page": True},
             125: {"paragraph_fits_on_page": True},
             181: {"paragraph_fits_on_page": True},
             182: {"paragraph_fits_on_page": True},
-            194: {"paragraph_fits_on_page": True},
             195: {"paragraph_fits_on_page": True},
-            196: {"paragraph_fits_on_page": True},
-            197: {"paragraph_fits_on_page": True},
-            198: {"paragraph_fits_on_page": True},
-            199: {"paragraph_fits_on_page": True},
-            200: {"paragraph_fits_on_page": True},
             201: {"paragraph_fits_on_page": True},
+            203: {
+                "paragraph_fits_on_page": True,
+                "typo_and_fix": {
+                    "typo": "sound a-u-m without any a or m",
+                    "fix": "sound a-u-m without any a or m.",
+                },
+            },
         }
 
     def convert_to_logical_page_number(self, page_number):

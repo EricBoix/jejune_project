@@ -96,6 +96,13 @@ class StructuralInfoBase:
             return True
         return False
 
+    def get_typo_and_fix(self, page_number):
+        if not page_number in self.pages_info:
+            return None
+        if not "typo_and_fix" in self.pages_info[page_number]:
+            return None
+        return self.pages_info[page_number]["typo_and_fix"]
+
     def _get_page_number_finishing_last_paragraph(self, page_number):
         """
         A page that is followed by one (or many) skipped pages will need to skip such pages in order to retrieve the end of its last paragraph.

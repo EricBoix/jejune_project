@@ -11,7 +11,7 @@ The Gateless Gate was first published in 1934 by John Murray, Los Angeles. It is
 
 10 Bulls was first published in 1935 by DeVorss and Company, Los Angeles, and subsequently by Ralph R. Phillips, Portland, Oregon. It is a translation from the Chinese of a famous twelfth century commentary upon the stages of awareness leading to enlightenment and is here illustrated by one of Japan’s best contemporary woodblock artists.
 
-Centreing, a transcription of ancient Sanskrit manuscripts, first appeared in the Spring 1955 issue of Gentry magazine, New York. It presents in ancient teaching, still alive in Kashmir and parts of India after more than four thousand years that may well be the roots of Zen.
+Centering, a transcription of ancient Sanskrit manuscripts, first appeared in the Spring 1955 issue of Gentry magazine, New York. It presents in ancient teaching, still alive in Kashmir and parts of India after more than four thousand years that may well be the roots of Zen.
 
 Thanks are due the publishers named above for permission to gather the material together here. And most of all am I grateful to Nyogen Senzaki, ‘homeless monk’ exemplar-friend collaborator, who so delighted with me in transcribing the first three books, even as that prescient man of Kashmir, Lakshmanjoo, did on the fourth.
 
@@ -89,7 +89,7 @@ It was evening and a heavy rain was falling. Gudo was thoroughly wet. His straw 
 
 The woman who offered him the sandals seeing how wet he was invited him to remain for the night in her home. Gudo accepted, thanking her. He entered and recited a sutra before the family shrine. He then was introduced to the woman’s mother, and to her children. Observing that the entire family was depressed Gudo asked what was wrong.
 
-‘My husband is a gambler and a drunkard,’ the housewife told him. ‘When he happens to win he drinks and becomes abusive. When he losses he borrows money from others. Sometimes when becomes thoroughly drunk he does not come home at all. What can I do?
+‘My husband is a gambler and a drunkard,’ the housewife told him. ‘When he happens to win he drinks and becomes abusive. When he losses he borrows money from others. Sometimes when he becomes thoroughly drunk he does not come home at all. What can I do?
 
 ‘I will help him,’ said Gudo. ‘Here is some money. Get me a gallon of fine wine and something good to eat. Then you may retire. I will meditate before the shrine.’
 
@@ -104,7 +104,7 @@ In the morning when the husband awoke he had forgotten about the previous night.
 ‘I am Gudo of Kyoto and I am going on to Edo,’ replied the Zen master.
 
 
-The man was utterly ashamed He apologized profusely to the teacher of his emperor.
+The man was utterly ashamed. He apologized profusely to the teacher of his emperor.
 
 Gudo smiled. ‘Everything in this life is impermanent’ he explained. ‘Life is very brief. If you keep on gambling and drinking yon will have no time left to accomplish anything else, and you will cause your family to suffer too.’
 
@@ -2698,8 +2698,8 @@ SHIVA REPLIES:
 63. When a moonless raining night is not present, close eyes and find blackness before you. Opening eyes, see blackness. So faults disappear forever.
 
 64. Just as you have the impulse to do something, stop.
-## 65. Center on the sound a-u-m without any a or m
 
+65. Center on the sound a-u-m without any a or m.
 
 66. Silently intone a word ending in AH. Then in the HH effortlessly, the spontaneity.
 
@@ -2726,7 +2726,6 @@ SHIVA REPLIES:
 77. This so-called universe appears as a juggling, a picture show. To be happy look upon it so.
 
 78. 0 Beloved, put attention neither on pleasure or pain but between these.
-
 
 79. Toss attachment for body aside, realizing I am everywhere. One who is everywhere is joyous.
 
