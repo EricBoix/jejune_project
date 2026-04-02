@@ -20,9 +20,9 @@ class ExtractedPage(ExtractedPageBase):
             # in layout mode
             original_page_text = self.original_pdf_page.extract_text()
 
-        # For some undocumented reason the pdfreader output has "\t" characters
-        # instead of whitespaces. Brutally convert those tabulations to
-        # whitespaces
+        # For some undocumented reason pdfreader output has TAB ("\t"
+        # character) in place of spaces. Brutally convert those tabulations to
+        # spaces everywhere:
         original_page_text = re.sub("\\t", " ", original_page_text)
 
         # Remove the heading bunch of whitespaces (and assimilated characters)
