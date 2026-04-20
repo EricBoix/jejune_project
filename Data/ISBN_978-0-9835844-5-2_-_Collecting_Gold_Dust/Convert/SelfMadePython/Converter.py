@@ -6,6 +6,7 @@ from ConvertPdfToMarkdown import (
     ConverterBase,
     SuperChapter,
     DocumentWithSubChapters,
+    WarnAndExit,
 )
 from ExtractedPage import ExtractedPage
 

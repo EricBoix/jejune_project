@@ -87,3 +87,51 @@ class Splitter:
                 ).group(0)
         Warning("Sublevel name not found.")
         return None
+
+
+class SinglePatternSplitter(Splitter):
+    """A splitter using a single pattern to detect the breaking zone. A second sub-pattern is used to extract the name of the document structural element."""
+
+    def __init__(self, breaking_pattern, name_pattern):
+        self.breaking_pattern = breaking_pattern
+        self.name_pattern = name_pattern
+
+    def holds_new_sublevels(self, content_text):
+        return Splitter._holds_new_sublevels(
+            self, [self.breaking_pattern], content_text
+        )
+
+    def split(self, content_text):
+        # As stated in the documentation of the re package:
+        #    If capturing parentheses are used in pattern, then the text of
+        #    all groups in the pattern are also returned as part of the
+        #    resulting list.
+        return Splitter._split_on_single_pattern(
+            self, r"(" + self.breaking_pattern + r")", content_text
+        )
+
+    def get_sublevel_name(self, content_text):
+        return Splitter._get_sublevel_name(
+            self,
+            [self.breaking_pattern],
+            self.name_pattern,
+            content_text,
+        )
+
+
+class NameLessSinglePatternSplitter(SinglePatternSplitter):
+    """When breaking paragraphs into sentences there is no need to extract a name for the Sentence structural element."""
+
+    def __init__(self, breaking_pattern):
+        SinglePatternSplitter.__init__(self, breaking_pattern, "dummy_pattern")
+
+    def split(self, content_text):
+        return Splitter._split_on_single_pattern(
+            self, self.breaking_pattern, content_text, remove_separator=True
+        )
+
+    def get_sublevel_name(self, dummy_content_text):
+        return None
+
+    def extract_sublevel_name(self, dummy_content_text):
+        return

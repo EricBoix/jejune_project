@@ -1,6 +1,8 @@
-import re
-
-from ConvertPdfToMarkdown import StructuralInfoBase, Splitter
+from ConvertPdfToMarkdown import (
+    StructuralInfoBase,
+    SinglePatternSplitter,
+    NameLessSinglePatternSplitter,
+)
 
 
 class StructuralInfo(StructuralInfoBase):
@@ -9,27 +11,36 @@ class StructuralInfo(StructuralInfoBase):
     notions of StructuralInfoBase.
     """
 
-    class chapter_to_paragraph_splitter:
+    class superchapter_to_chapter_splitter(SinglePatternSplitter):
         def __init__(self):
-            self.breaking_pattern = "\n   "
+            # Sub-chapters are typically of the form e.g.
+            #     \nMEDITATION: THE SCIENCE AND ART OF LIVING\n
+            #     \nPUTTING THIS PRACTICE INTO CONTEXT\n
+            # We thus need to define three parts for the pattern
+            # 1. the ante chapter breaking lines
+            chapter_name_ante_pattern = r"\n"
+            # 2. the name of the chapter per se. Note that the minimum number
+            # for matching has to be
+            # - at least 2 in order not to match the first (capital letter of
+            #   a sentence) e.g. "Stand by me."
+            # - at least three not to match e.g. "A cat was run over." where the
+            #   the initial capital and its following whitespace would match.
+            # For the upper limit to, well a full line should suffice.
+            chapter_name_pattern = r"[A-Z|:| ]{3,100}"
+            # 3. the trailing return
+            chapter_name_post_pattern = r"\n"
 
-        def holds_new_sublevels(self, content_text):
-            return Splitter._holds_new_sublevels(
-                self,
-                [self.breaking_pattern],
-                content_text,
+            breaking_pattern = (
+                chapter_name_ante_pattern
+                + chapter_name_pattern
+                + chapter_name_post_pattern
             )
+            SinglePatternSplitter.__init__(self, breaking_pattern, chapter_name_pattern)
 
-        def split(self, content_text):
-            return Splitter._split_on_single_pattern(
-                self, self.breaking_pattern, content_text, remove_separator=True
-            )
-
-        def get_sublevel_name(self, content_text):
-            return None
-
-        def extract_sublevel_name(self, content_text):
-            return
+    class chapter_to_paragraph_splitter(NameLessSinglePatternSplitter):
+        def __init__(self):
+            breaking_pattern = "\n   "
+            NameLessSinglePatternSplitter.__init__(self, breaking_pattern)
 
     def __init__(self):
         StructuralInfoBase.__init__(self)

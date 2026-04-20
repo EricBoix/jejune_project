@@ -1,7 +1,7 @@
 import re
 from ConvertPdfToMarkdown import (
     ConverterBase,
-    ChapterOfParagraphs,
+    SuperChapter,
     DocumentWithSubChapters,
     WarnAndExit,
 )
@@ -19,7 +19,7 @@ class Converter(ConverterBase):
 
     def breaks_document_into_chapters(self):
         return ConverterBase.breaks_document_into_chapters(
-            self, ExtractedPage, ChapterOfParagraphs
+            self, ExtractedPage, SuperChapter
         )
 
     def sanitize_page_text(self, extracted_page):

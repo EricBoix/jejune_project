@@ -10,7 +10,7 @@ from .Model import (
 from .ConverterBase import ConverterBase
 from .ExtractedPageBase import ExtractedPageBase
 from .StructuralInfoBase import StructuralInfoBase
-from .Splitter import Splitter
+from .Splitter import Splitter, SinglePatternSplitter, NameLessSinglePatternSplitter
 from .PageLayout import PageLayout
 from .Warning import Warning, set_warning_mode, WarnAndExit
 from .Traces import (

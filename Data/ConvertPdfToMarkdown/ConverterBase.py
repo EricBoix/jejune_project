@@ -22,7 +22,7 @@ import nltk
 
 # Refer to
 # https://stackoverflow.com/questions/78862426/unable-to-use-nltk-functions
-nltk.download("punkt_tab")
+nltk.download("punkt_tab", quiet=True)
 
 
 class ConverterBase:
@@ -194,30 +194,40 @@ class ConverterBase:
         return True
 
     def _chapter_get_first_paragraph_of_given_page(self, chapter, page_number):
-        level = chapter.get_first_sublevel_of_given_page(page_number)
-        if level == None:
-            return None
-        if isinstance(level, Paragraph):
-            return level
-        if isinstance(level, Sentence):
-            WarnAndExit("We should have crossed a Paragraph before.")
-        if isinstance(level, ChapterOfParagraphs):
-            # We juste need to recuse.
-            return self._chapter_get_first_paragraph_of_given_page(level, page_number)
-        WarnAndExit(f"Unforeseen type {level} within type {chapter}")
+        for sublevel in chapter.get_sublevels():
+            if isinstance(sublevel, ChapterOfParagraphs):
+                # We just need to recuse:
+                sublevel_result = self._chapter_get_first_paragraph_of_given_page(
+                    sublevel, page_number
+                )
+                if sublevel_result is None:
+                    continue
+                return sublevel_result
+            if isinstance(sublevel, Sentence):
+                WarnAndExit("We should have crossed a Paragraph before.")
+            if isinstance(sublevel, Paragraph):
+                if sublevel.has_page_number(page_number):
+                    return sublevel
+        Warning(f"Paragraph of {chapter} with page number {page_number} not found.")
+        return None
 
     def _chapter_get_last_paragraph_of_given_page(self, chapter, page_number):
-        level = chapter.get_last_sublevel_of_given_page(page_number)
-        if level == None:
-            return None
-        if isinstance(level, Paragraph):
-            return level
-        if isinstance(level, Sentence):
-            WarnAndExit("We should have crossed a Paragraph before.")
-        if isinstance(level, ChapterOfParagraphs):
-            # We juste need to recuse.
-            return self._chapter_get_last_paragraph_of_given_page(level, page_number)
-        WarnAndExit(f"Unforeseen type {level} within type {chapter}")
+        sublevel_of_that_page = None
+        for sublevel in chapter.get_sublevels():
+            if isinstance(sublevel, ChapterOfParagraphs):
+                # We just need to recuse:
+                result = self._chapter_get_last_paragraph_of_given_page(
+                    sublevel, page_number
+                )
+                if result is not None and result.has_page_number(page_number):
+                    sublevel_of_that_page = result
+                    continue
+            if isinstance(sublevel, Sentence):
+                WarnAndExit("We should have crossed a Paragraph before.")
+            if isinstance(sublevel, Paragraph):
+                if sublevel.has_page_number(page_number):
+                    sublevel_of_that_page = sublevel
+        return sublevel_of_that_page
 
     def sanitize_newlines_and_multiple_whitespaces(self, input_text):
 
@@ -320,27 +330,34 @@ class ConverterBase:
 
         if not contents:
             contents = level.get_text_with_layout()
+        # The current level is either
+        # - the level at which we entered this function (that is we didn't
+        #   encounter a sublevel yet)
+        # - the (last) sublevel that was created (that is after we encountered
+        #   some sublevel to create)
+        current_level = level
         for level_content in contents:
             content_text = level_content.text
             Debug(
                 f"####### break_level_into_sublevels, considering following contents: {content_text}"
             )
-            content_layout = level_content.page_layout
             if not content_text:
                 Warning(f"level with NO text in {reference_prefix}.")
                 continue
+
+            content_layout = level_content.page_layout
+            new_layout = content_layout.__copy__()
+            new_layout.set_reference_text(
+                f"[{reference_prefix}: {current_level.name}, "
+                f"reader page number: {content_layout.reader_page_number}, "
+                f"page number: {content_layout.page_number}]"
+            )
+
             parts = level_splitter.split(content_text)
             while parts:
                 Debug(
                     f"### break_level_into_sublevels, ({len(parts)}) splitted parts: {parts}"
                 )
-                new_layout = content_layout.__copy__()
-                new_layout.set_reference_text(
-                    f"[{reference_prefix}: {level.name}, "
-                    f"reader page number: {content_layout.reader_page_number}, "
-                    f"page number: {content_layout.page_number}]"
-                )
-                new_sublevel = sublevel_factory(new_layout)
 
                 if len(parts) >= 2:
                     # This is the default case we we expect to find a new
@@ -361,6 +378,7 @@ class ConverterBase:
                         # We are indeed in the generic case of a sub-level
                         # creation. The second entry of parts should thus be
                         # the textual content of the sublevel.
+                        new_sublevel = sublevel_factory(new_layout)
                         #
                         # Technical note: the design chose to store the name
                         # of the sublevel as a member attribute: in other terms
@@ -372,11 +390,14 @@ class ConverterBase:
                         # conversion is made.
                         new_sublevel.set_name(new_sublevel_name)
                         new_sublevel.append_text(parts[1])
+                        self.break_level(new_sublevel)
                         # We can clean up and proceed
                         del parts[0]
                         del parts[0]
                         level.add_sublevel(new_sublevel)
-                        # All is done we can loop
+                        # Before looping, we need to record that the context
+                        # level is now the freshly created new sub-level
+                        current_level = new_sublevel
                         continue
 
                 # We are left with the ugly duckling twins (that are born from
@@ -396,15 +417,18 @@ class ConverterBase:
                 # Paragraph then it suffices to proceed. This might eventually
                 # end-up with a SuperChapter holding a single Paragraph but
                 # this is a valid case.
-                if isinstance(new_sublevel, Paragraph):
-                    new_sublevel.append_text(parts[0])
+                new_sublevel_type = type(sublevel_factory(None))
+                if new_sublevel_type == Paragraph:
+                    new_paragraph = Paragraph(new_layout)
+                    new_paragraph.append_text(parts[0])
+                    self.break_level(new_paragraph)
                     if len(parts) == 1:
                         parts = None
                     else:
                         del parts[0]
-                    level.add_sublevel(new_sublevel)
+                    current_level.add_sublevel(new_paragraph)
                     continue
-                elif isinstance(new_sublevel, ChapterOfParagraphs):
+                elif new_sublevel_type == ChapterOfParagraphs:
                     # Out of unbreakable text that should end-up in a
                     # Paragraph, we are required to create
                     # - a (single) ChapterOfParagraphs
@@ -419,10 +443,10 @@ class ConverterBase:
                     class new_paragraph_content:
                         pass
 
-                    new_paragraph_content.page_layout = content_layout
+                    new_paragraph_content.page_layout = new_layout
                     new_paragraph_content.text = parts[0]
                     self.break_superchapter_into_paragraphs(
-                        level, [new_paragraph_content]
+                        current_level, [new_paragraph_content]
                     )
                     # We have dealt with the last part of this level_content
                     # and we are back to dealing with the next level_content
@@ -481,11 +505,9 @@ class ConverterBase:
             return
         if isinstance(level, ChapterOfParagraphs):
             self.break_chapter_into_paragraphs(level)
-            self.break_sublevels(level)  # Recursing
             return
         if isinstance(level, SuperChapter):
             self.break_superchapter_into_chapters(level)
-            self.break_sublevels(level)  # Recursing
             return
         WarnAndExit(f"Chapter of unknown type {type(level)}")
 

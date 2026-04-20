@@ -101,10 +101,7 @@ The man was delighted. He drank the wine at once and laid himself down on the fl
 
 In the morning when the husband awoke he had forgotten about the previous night. ‘Who are you? Where do yon come from?’ he asked Gudo, who still was meditating.
 
-‘I am Gudo of Kyoto and I am going on to Edo,’ replied the Zen master.
-
-
-The man was utterly ashamed. He apologized profusely to the teacher of his emperor.
+‘I am Gudo of Kyoto and I am going on to Edo,’ replied the Zen master. The man was utterly ashamed. He apologized profusely to the teacher of his emperor.
 
 Gudo smiled. ‘Everything in this life is impermanent’ he explained. ‘Life is very brief. If you keep on gambling and drinking yon will have no time left to accomplish anything else, and you will cause your family to suffer too.’
 
@@ -121,6 +118,7 @@ You may return now,’ suggested Gudo.
 ‘I am going to follow you all the rest of my life,’ declared the man.
 
 Modern Zen teachers in Japan spring from the lineage of a famous master who was the successor of Gudo. His name was Mu-nan, the man who never returned back.
+
 ## 3. Is That So?
 
 
@@ -275,16 +273,14 @@ His followers thought he was joking, but one of them started to write.
 
 Then Hoshin dictated:
 
-I came from brilliancy
-
-
-And return to brilliancy.
+I came from brilliancy And return to brilliancy.
 
 What is this?
 
 The poem was one line short of the customary four, so, the disciple said: ‘Master, we are one line short.’
 
 Hoshin, with the roar of a conquering lion, shouted ‘Kaa!’ and was gone.
+
 ## 11. The Story of Shunkai
 
 
@@ -304,16 +300,14 @@ In this particular temple the wife of the head priest became jealous of Shunkai�
 
 Shunkai the same night with a can of kerosene set fire to the five hundred year old temple and burned it to the ground. In the morning she found herself in the hands of the police.
 
-A young lawyer became interested in her and endeavored to make her sentence lighter. ‘Do not help me,’ she told him. I might decide to do something else which would only imprison me again.’
-
-
-At last a sentence of seven years was completed, and Shunkai was released from the prison, where the sixty-three-year-old warden also had become enamored of her.
+A young lawyer became interested in her and endeavored to make her sentence lighter. ‘Do not help me,’ she told him. I might decide to do something else which would only imprison me again.’ At last a sentence of seven years was completed, and Shunkai was released from the prison, where the sixty-three-year-old warden also had become enamored of her.
 
 But now everyone looked upon her as a ‘jailbird’. No one would associate with her. Even the Zen people, who are supposed to believe in enlightenment in this life and with this body, shunned her. Zen, Shunkai found, was one thing and the followers of Zen quite another. Her relatives would have nothing to do with her. She grew sick, poor, and weak.
 
 She met a Shinshu priest who taught her the name of the Buddha of Love, and in this Shunkai found some solace and peace of mind. She passed away when she was still exquisitely beautiful and hardly thirty years old.
 
 She wrote her own story in a futile endeavor to support herself and some of it she told to a woman writer. So it reached the Japanese people. Those who rejected Shunkai, those who slandered and hated her, now read of her life with tears of remorse.
+
 ## 12. Happy Chinaman
 
 
@@ -390,16 +384,14 @@ Shoun walked up and hit the coffin with his staff. ‘Mother, your son has retur
 
 When Shoun was old he knew his end was approaching. He asked his disciples to gather around him in the morning telling them he was going to pass on at noon. Burning incense before the picture of his mother and his old teacher, he wrote a poem:
 
-For fifty-six years I lived as best I could,
-
-
-Making my way in this world.
+For fifty-six years I lived as best I could, Making my way in this world.
 
 Now the rain has ended, the clouds are clearing,
 
 The blue sky has a full moon.
 
 His disciples gathered about him, reciting a sutra, and Shoun passed on during the invocation.
+
 ## 16. Not Far from Buddahood
 
 
@@ -442,16 +434,14 @@ It was not yet clear to Kusuda how such teaching could remove the fear of death.
 
 ‘My friend told me when one learns Zen one loses his fear of death. Each time I come here all you tell me is to take care of my patients. I know that much. If that is your so-called Zen, I am not going to visit you any more.’
 
-Nan-in smiled and patted the doctor. ‘I have been too strict with you. Let me give you a koan. ‘ He presented Kusuda with Joshu’s Mu to work over, which is the first mind-enlightening problem in the book called The Gateless Gate.
-
-
-Kusuda pondered this problem of Mu (No-thing) for two years. At length he thought he had reached certainty of mind.
+Nan-in smiled and patted the doctor. ‘I have been too strict with you. Let me give you a koan. ‘ He presented Kusuda with Joshu’s Mu to work over, which is the first mind-enlightening problem in the book called The Gateless Gate. Kusuda pondered this problem of Mu (No-thing) for two years. At length he thought he had reached certainty of mind.
 
 But his teacher commented: “You are not in yet.’
 
 Kusuda continued in concentration for another year and a half. His mind became placid. Problems dissolved. No-thing became the truth. He served his patients well and, without even knowing it, be was free from concern over life and death.
 
 Then when he visited Nan-in his old teacher just smiled.
+
 ## 18. A Parable
 
 
@@ -524,12 +514,12 @@ He heard the cry of an owl. This also was refused.
 
 The sound of one hand was not the locusts.
 
-
 For more than ten times Toyo visited Mokurai with different sounds. All were wrong. For almost a year he pondered what the sound of one hand might be.
 
 At last little Toyo entered true meditation and transcended all sounds. ‘I could collect no more,’ he explained later.’ so I reached the soundless sound.’
 
 Toyo had realized the sound of one hand.
+
 ## 22. My Heart Burns Like Fire
 
 
@@ -977,8 +967,8 @@ I have had enough about moonlight,
 
 Ask no more.
 
-
 Only listen to the voice of pines and cedars when no wind stirs.
+
 ## 51. Sour Miso
 
 
@@ -1572,12 +1562,12 @@ Three years passed. Still Matajuro labored on. Thinking of his future he was sad
 
 But one day Banzo crept up behind him and gave him a terrific blow with a wooden sword.
 
-
 The following day, when Matajuro was cooking rice, Banzo, again sprang upon him unexpectedly.
 
 After that, day and night, Matajuro had to defend himself from unexpected thrusts. Not a moment passed in any day that he did not have to think of the taste of Banzo’s sword.
 
 He learned so rapidly he brought smiles to the face of his master. Matajuro became the greatest swordsman in the land.
+
 ## 92. Fire-Poker Zen
 
 
@@ -1718,8 +1708,8 @@ When he enters this condition his ego-shell is crushed and he can shake the heav
 
 Just concentrate your whole energy into this Mu, and do not allow any discontinuation. When you enter this Mu and there is no discontinuation, your attainment will be as a candle burning and illuminating the whole universe.
 
-
 Has a dog Buddha-nature? This is the most serious question of all. If you say yes or no, You lose your own Buddha-nature.
+
 ## 2. Hyakujo’s Fox
 
 
@@ -1739,10 +1729,7 @@ That evening Hyakujo gave a talk to the monks and told them this story about the
 
 Obaku, upon hearing the story, asked Hyakujo: “I understand that a long time ago because a certain person gave a wrong Zen answer he became a fox for five hundred rebirths. Now I want to ask: If some modern master is asked many questions and he always gives the right answer, what will become of him?”
 
-Hyakujo said: “You come here near me and I will tell you.”
-
-
-Obaku went near Hyakujo and slapped the teacher’s face with his hand, for he knew this was the answer his teacher intended to give him.
+Hyakujo said: “You come here near me and I will tell you.” Obaku went near Hyakujo and slapped the teacher’s face with his hand, for he knew this was the answer his teacher intended to give him.
 
 Hyakujo clapped his hands and laughed at this discernment. “I thought a Persian had a red beard,” he said, “and now I know a Persian who has a red beard.”
 
@@ -1753,6 +1740,7 @@ Mumon’s comment: “The enlightened man is not subject.” How can this answer
 To understand this clearly one has to have just one eye.
 
 Controlled or not controlled? The same dice shows two faces. Not controlled or controlled, Both are a grievous error.
+
 ## 3. Gutei’s Finger
 
 
@@ -2090,8 +2078,8 @@ Mumon’s comment: The sixth patriarch certainly was kind in such an emergency. 
 
 You cannot describe it, you cannot picture it, You cannot admire it, you cannot sense it. It is your true self, it has nowhere to hide.
 
-
 When the world is destroyed, it will not be destroyed.
+
 ## 24. Without Words, Without Silence
 
 
@@ -2161,10 +2149,7 @@ Mumon’s comment: When Tokusan was in his own country he was not satisfied with
 
 Tokusan replied: “This is a commentary I have made on the Diamond Sutra after many years of work.”
 
-The old woman said: “I read that sutra which says: ‘The past mind cannot be held, the present mind cannot be held, the future mind cannot be
-
-
-held.’ You wish some tea and refreshments. Which mind do you propose to use for them?”
+The old woman said: “I read that sutra which says: ‘The past mind cannot be held, the present mind cannot be held, the future mind cannot be held.’ You wish some tea and refreshments. Which mind do you propose to use for them?”
 
 Tokusan was as though dumb. Finally he asked the woman: “Do you know of any good teacher around here?”
 
@@ -2173,6 +2158,7 @@ The old woman referred him to Ryutan, not more than five miles away. So he went 
 A hundred hearings cannot surpass one seeing, But after you see the teacher, that one glance cannot surpass a
 
 hundred hearings. His nose was very high But he was blind after all.
+
 ## 29. Not the Wind, Not the Flag
 
 
@@ -2424,7 +2410,6 @@ Before the first step is taken the goal is reached. Before the tongue is moved t
 
 Amban, a layman Zen student, said: “Mumon has just published forty-eight koans and called the book Gateless Gate. He criticizes the old patriarchs’ words and actions. I think he is very mischievous. He is like an old doughnut seller trying to catch a passerby to force his doughnuts down his mouth. The customer can neither swallow nor spit out the doughnuts, and this causes suffering. Mumon has annoyed everyone enough, so I think I shall add one more as a bargain. I wonder if he himself can eat this bargain.
 
-
 If he can, and digest it well, it will be fine, but if not, we will have to put it back into the frying pan with his forty-eight also and cook them again. Mumon, you eat first, before someone else does:
 
 “Buddha, according to a sutra, once said: ‘Stop, stop. Do not speak. The ultimate truth is not even to think.’”
@@ -2434,6 +2419,7 @@ Amban’s comment: Where did that so-called teaching come from? How is it that o
 Then Amban put his palms together, folded his hands, and said: “Stop, stop. Do not speak. The ultimate truth is not even to think. And now I will make a little circle on the sutra with my finger and add that five thousand other sutras and Vimalakirti’s gateless gate all are here!”
 
 If anyone tells you fire is light, Pay no attention. When two thieves meet they need no introduction: They recognize each other without question.
+
 
 # 10 BULLS
 

@@ -151,6 +151,9 @@ class DocumentHierarchicalLevel(ABC, Generic[T]):
             for index, sublevel in enumerate(self.sublevels, start=1):
                 sublevel.set_number(index)
 
+    def has_page_number(self, page_number):
+        return self.page_layout.page_number == page_number
+
     def get_first_sublevel_of_given_page(self, page_number):
         for sublevel in self.sublevels:
             if sublevel.page_layout.page_number == page_number:

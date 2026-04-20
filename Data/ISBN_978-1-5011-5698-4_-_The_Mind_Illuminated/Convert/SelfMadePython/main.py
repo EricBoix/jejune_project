@@ -1,7 +1,11 @@
 from os import path
 from Converter import Converter
 from StructuralInfo import StructuralInfo
-from ConvertPdfToMarkdown import print_document_raw_pages, PrintDocument
+from ConvertPdfToMarkdown import (
+    print_document_raw_pages,
+    set_warning_mode,
+    PrintDocument,
+)
 from markdown_pdf import MarkdownPdf, Section
 
 pdf_filename = path.join(
@@ -15,6 +19,7 @@ pdf_filename = path.join(
 if False:
     print_document_raw_pages(pdf_filename)
 
+set_warning_mode(True)
 converter = Converter(
     pdf_filename=pdf_filename,
     structural_info=StructuralInfo(),
