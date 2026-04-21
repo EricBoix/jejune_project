@@ -341,6 +341,29 @@ class ChapterOfParagraphs(TopLevelChapter, DocumentHierarchicalLevel[Paragraph])
             return top_level_text_list
         WarnAndExit("Error: ChapterOfParagraphs with NO text_with_layout content.")
 
+    def get_reference(self) -> str:
+        """
+        A reference within the document for human consumption.
+        """
+        owner_name = (
+            self._owning_hierarchical_level.name
+            if self._owning_hierarchical_level
+            else "unknown"
+        )
+        page_reader = self.page_layout.reader_page_number if self.page_layout else "?"
+        page_num = self.page_layout.page_number if self.page_layout else "?"
+        return (
+            "Chapter "
+            + str(self._number)
+            # Just to add parentheses
+            + repr(owner_name)
+            + ", page "
+            + str(page_reader)
+            + " (index page number "
+            + str(page_num)
+            + ")"
+        )
+
 
 class SuperChapter(TopLevelChapter, DocumentHierarchicalLevel[ChapterOfParagraphs]):
     def __init__(self, name: str) -> None:

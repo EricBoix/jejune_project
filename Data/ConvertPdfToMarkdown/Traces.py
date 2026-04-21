@@ -1,5 +1,6 @@
+import sys
 import pypdf
-from .Model import ChapterOfParagraphs, Paragraph
+from .Model import ChapterOfParagraphs, SuperChapter, Paragraph
 
 _debug_mode = False
 
@@ -65,7 +66,7 @@ class PrintDocument:
         print("############ DOCUMENT AS SET OF PARAGRAPHS ###############")
         print("##########################################################")
         print("##########################################################\n")
-        for chapter in self._document.chapters:
+        for chapter in self._document.get_chapters():
             print("###################################################################")
             print("################## Chapter name: ", chapter.name)
             print("###################################################################")
@@ -104,6 +105,36 @@ class PrintDocument:
                     self._print_paragraph_and_sentences(sublevel)
 
     def _print_chapter(self, chapter):
+        if isinstance(chapter, SuperChapter):
+            self._print_super_chapter(chapter)
+            return
+        if isinstance(chapter, ChapterOfParagraphs):
+            self._print_chapter_of_paragraphs(self, chapter)
+
+    def _print_super_chapter(self, super_chapter):
+        if not isinstance(super_chapter, SuperChapter):
+            print("Chapter ", super_chapter.name, "is not a SuperChapter.")
+            print("Exiting.")
+            sys.exit()
+        print("###################################################################")
+        print("################## Super Chapter name: ", super_chapter.name)
+        print("###################################################################")
+        for sublevel in super_chapter.get_sublevels():
+            if isinstance(sublevel, ChapterOfParagraphs):
+                self._print_chapter_of_paragraphs(sublevel)
+                continue
+            if isinstance(sublevel, Paragraph):
+                self._print_paragraph_and_sentences(sublevel)
+                continue
+            print("Chapter ", super_chapter.name, "is of unknown type.")
+            print("Exiting.")
+            sys.exit()
+
+    def _print_chapter_of_paragraphs(self, chapter):
+        if not isinstance(chapter, ChapterOfParagraphs):
+            print("Chapter ", chapter.name, "is not a ChapterOfParagraphs.")
+            print("Exiting.")
+            sys.exit()
         print("###################################################################")
         print("################## Chapter name: ", chapter.name)
         print("###################################################################")
@@ -111,7 +142,7 @@ class PrintDocument:
             self._print_paragraph_and_sentences(paragraph)
 
     def _print_paragraph_and_sentences(self, paragraph):
-        print("### Paragraph (ref:", paragraph.get_reference(), ")")
+        print("###", paragraph.get_reference())
         sentences = paragraph.get_sentences()
         if not sentences:
             print("PARAGRAPH IS EMPTY OF SENTENCES")

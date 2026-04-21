@@ -99,11 +99,7 @@ class ConverterBase:
                 page_number,
             )
             new_extracted_page_layout.set_reference_text(
-                "[Page: "
-                + str(new_extracted_page_layout.reader_page_number)
-                + " (page number: "
-                + str(new_extracted_page_layout.page_number)
-                + ")]"
+                f"[Page: {new_extracted_page_layout.reader_page_number} (page number: {new_extracted_page_layout.page_number})]"
             )
             # The usage of ExtractedPage, that can be a derived class, prevents
             # the declaration of this member function to be done in the parent
@@ -241,19 +237,6 @@ class ConverterBase:
         # Remove such formatting characters to preserve only the text content:
         result = re.sub("\n", " ", input_text)
 
-        # HISTORICAL NOTES: for some long forgot reason, and when development
-        # stage was centered on pages (as opposed to paragraphs), there was a
-        # need for removing the  newline characters ("\n") but only when they
-        # were preceded or followed either by a single whitespace or some
-        # character (examples "here\nand", "here \nand", "here\n and"). Because
-        # finding the proper regex to do so was quite difficult, the following
-        # keeps track of the sub() call, in case it is needed later on.
-        # The regexp logic is that we need to use both lookbehind and lookahead
-        # notations and can be understood as: look for a newline preceded
-        # (?<=...)  by any character that is not an extended whitespace (\s)
-        # and followed (?=[^\s]) by any character that is not a whitespace:
-        #    result_text = re.sub("(?<=[^\s])\n(?=[^\s])", " ", input_text)
-
         # The above clean-up might create multiple whitespaces, while some
         # other occurrences of multiple whitespaces are (randomly?) encountered.
         # Remove them all:
@@ -306,6 +289,65 @@ class ConverterBase:
             new_sentence = Sentence(new_sentence_text, new_sentence_layout)
             paragraph.add_sentence(new_sentence)
 
+    def _try_create_sublevel(
+        self, level, sublevel_factory, new_layout, parts, level_splitter
+    ):
+        """Try to create a sublevel from parts[0] (name) and parts[1] (content).
+        Returns the new sublevel if created, None otherwise."""
+        if len(parts) < 2:
+            return None
+        new_sublevel_name = level_splitter.get_sublevel_name(parts[0])
+        if not new_sublevel_name:
+            return None
+        new_sublevel = sublevel_factory(new_layout)
+        new_sublevel.set_name(new_sublevel_name)
+        new_sublevel.append_text(parts[1])
+        self.break_level(new_sublevel)
+        del parts[0]
+        del parts[0]
+        level.add_sublevel(new_sublevel)
+        return new_sublevel
+
+    def _handle_unbreakable_text(
+        self, parts, sublevel_factory, new_layout, current_level
+    ):
+        """Handle text that cannot be broken into sublevels.
+        Returns: 'break' to exit while loop, 'continue' to continue, None otherwise."""
+        new_sublevel_type = type(sublevel_factory(None))
+
+        if new_sublevel_type == Paragraph:
+            new_paragraph = Paragraph(new_layout)
+            new_paragraph.append_text(parts[0])
+            self.break_level(new_paragraph)
+            current_level.add_sublevel(new_paragraph)
+            if len(parts) == 1:
+                parts.clear()
+            else:
+                del parts[0]
+            return "continue"
+
+        if new_sublevel_type == ChapterOfParagraphs:
+            # Create a Paragraph directly in the SuperChapter instead of
+            # a ChapterOfParagraphs containing a single paragraph.
+            class ParagraphContent:
+                pass
+
+            ParagraphContent.page_layout = new_layout
+            ParagraphContent.text = parts[0]
+            self.break_any_level_chapter_into_paragraphs(
+                current_level, [ParagraphContent]
+            )
+            if len(parts) == 1:
+                parts.clear()
+                return "break"
+            del parts[0]
+            return "continue"
+
+        WarnAndExit(
+            f"Expected Paragraph or ChapterOfParagraphs, got {new_sublevel_type}"
+        )
+        return None
+
     def break_level_into_sublevels(
         self,
         level: DocumentHierarchicalLevel,
@@ -314,33 +356,18 @@ class ConverterBase:
         reference_prefix: str,
         contents=None,
     ) -> None:
-        """
-        Generic method to break a hierarchical level into sublevels using regex.
-
-        Args:
-            level: Parent level to break into sublevels
-            pattern: Regex pattern to split page text
-            sublevel_factory: Factory function that creates sublevels from PageLayout
-            reference_prefix: Prefix for reference text (e.g., "Chapter")
-            contents: list of text and associated layout to be treated
-        """
+        """Break a hierarchical level into sublevels using the provided splitter."""
         Debug(f"########### break_level_into_sublevels, level: {level}")
-        if not level.get_text_with_layout():
-            Warning(f"DocumentHierarchicalLevel {level} with NO text content.")
 
         if not contents:
             contents = level.get_text_with_layout()
-        # The current level is either
-        # - the level at which we entered this function (that is we didn't
-        #   encounter a sublevel yet)
-        # - the (last) sublevel that was created (that is after we encountered
-        #   some sublevel to create)
+            if not contents:
+                Warning(f"DocumentHierarchicalLevel {level} with NO text content.")
+
         current_level = level
         for level_content in contents:
             content_text = level_content.text
-            Debug(
-                f"####### break_level_into_sublevels, considering following contents: {content_text}"
-            )
+            Debug(f"####### break_level_into_sublevels, contents: {content_text}")
             if not content_text:
                 Warning(f"level with NO text in {reference_prefix}.")
                 continue
@@ -355,125 +382,25 @@ class ConverterBase:
 
             parts = level_splitter.split(content_text)
             while parts:
-                Debug(
-                    f"### break_level_into_sublevels, ({len(parts)}) splitted parts: {parts}"
+                Debug(f"### break_level_into_sublevels, ({len(parts)}) parts: {parts}")
+
+                new_sublevel = self._try_create_sublevel(
+                    level, sublevel_factory, new_layout, parts, level_splitter
                 )
-
-                if len(parts) >= 2:
-                    # This is the default case we we expect to find a new
-                    # sub-level and its content.
-                    # The first entry of parts should be the full matching
-                    # pattern of the new sublevel. But two things can happen
-                    # 1. it is indeed the new sub-level name but this name
-                    #    can include separators (\n) that must be cleaned-up,
-                    # 2. this is not some new sub-level name but simply some
-                    #    text (that should end up in a Paragraph as opposed
-                    #    to a sub-level)
-                    # So let us first investigate on the situation
-                    full_chapter_pattern = parts[0]
-                    new_sublevel_name = level_splitter.get_sublevel_name(
-                        full_chapter_pattern
-                    )
-                    if new_sublevel_name:
-                        # We are indeed in the generic case of a sub-level
-                        # creation. The second entry of parts should thus be
-                        # the textual content of the sublevel.
-                        new_sublevel = sublevel_factory(new_layout)
-                        #
-                        # Technical note: the design chose to store the name
-                        # of the sublevel as a member attribute: in other terms
-                        # we store the name of the sublevel in
-                        # new_sublevel.name as opposed to another possible
-                        # design that would simply piggy back that name. Yet
-                        # this member attribute is only used by the Converter
-                        # and is not destined to be of any usage once the
-                        # conversion is made.
-                        new_sublevel.set_name(new_sublevel_name)
-                        new_sublevel.append_text(parts[1])
-                        self.break_level(new_sublevel)
-                        # We can clean up and proceed
-                        del parts[0]
-                        del parts[0]
-                        level.add_sublevel(new_sublevel)
-                        # Before looping, we need to record that the context
-                        # level is now the freshly created new sub-level
-                        current_level = new_sublevel
-                        continue
-
-                # We are left with the ugly duckling twins (that are born from
-                # the same original mishap, that is the fact that we cannot use
-                # parts[1] to extract the new sublevel name)
-                # 1. the case were len(parts)==1: there is only an unbreakable
-                #    (in sublevels) single block of text that must thus end-up
-                #    in a paragraph (as opposed to an undetermined
-                #    ChapterOfParagraphs).
-                # 2. the case were parts[1] did exist but cannot be considered
-                #    as the textual content of a new sub-level because parts[0]
-                #    was not a new sublevel name. Hence parts[0] has to be
-                #    re-interpreted as the textual content of the current level
-                #    that should NOT be broken.
-                #
-                # Hence if the sublevel that we are trying to create is a
-                # Paragraph then it suffices to proceed. This might eventually
-                # end-up with a SuperChapter holding a single Paragraph but
-                # this is a valid case.
-                new_sublevel_type = type(sublevel_factory(None))
-                if new_sublevel_type == Paragraph:
-                    new_paragraph = Paragraph(new_layout)
-                    new_paragraph.append_text(parts[0])
-                    self.break_level(new_paragraph)
-                    if len(parts) == 1:
-                        parts = None
-                    else:
-                        del parts[0]
-                    current_level.add_sublevel(new_paragraph)
+                if new_sublevel:
+                    current_level = new_sublevel
                     continue
-                elif new_sublevel_type == ChapterOfParagraphs:
-                    # Out of unbreakable text that should end-up in a
-                    # Paragraph, we are required to create
-                    # - a (single) ChapterOfParagraphs
-                    # - within a SuperChapter
-                    # In order to resolve this contradiction we renounce
-                    # the creation of a ChapterOfParagraphs and instead we
-                    # fold back to the logic of the previous case context
-                    # (create a Paragraph in a ChapterOfParagraphs) and we
-                    # create a Paragraph (within a SuperChapter). We thus
-                    # interrupt the the new_sublevel creation and reformulate
-                    # what needs to be done.
-                    class new_paragraph_content:
-                        pass
 
-                    new_paragraph_content.page_layout = new_layout
-                    new_paragraph_content.text = parts[0]
-                    self.break_superchapter_into_paragraphs(
-                        current_level, [new_paragraph_content]
-                    )
-                    # We have dealt with the last part of this level_content
-                    # and we are back to dealing with the next level_content
-                    # of the for loop
-                    if len(parts) == 1:
-                        parts = None
-                        break
-                    else:
-                        del parts[0]
-                        continue
-                else:
-                    WarnAndExit(
-                        f"We should be adding a (or to a) Paragraph. Instead we are adding to a {type(level)}"
-                    )
+                action = self._handle_unbreakable_text(
+                    parts, sublevel_factory, new_layout, current_level
+                )
+                if action == "break":
+                    break
+                if action == "continue":
+                    continue
 
-    def break_chapter_into_paragraphs(self, chapter: ChapterOfParagraphs) -> None:
-        self.break_level_into_sublevels(
-            level=chapter,
-            level_splitter=self.structural_info.chapter_to_paragraph_splitter(),
-            sublevel_factory=Paragraph,
-            reference_prefix="Chapter",
-        )
-        chapter.renumber_paragraphs()
-
-    def break_superchapter_into_paragraphs(
-        self, chapter: SuperChapter, contents=None
-    ) -> None:
+    def break_any_level_chapter_into_paragraphs(self, chapter, contents=None) -> None:
+        """The chapter argument can be of any level e.g. a SuperChapter or a ChapterOfParagraphs..."""
         self.break_level_into_sublevels(
             level=chapter,
             level_splitter=self.structural_info.chapter_to_paragraph_splitter(),
@@ -498,18 +425,16 @@ class ConverterBase:
         chapter.renumber_chapters()
 
     def break_level(self, level):
-
-        if isinstance(level, Paragraph):
-            self.break_paragraph_into_sentences(level)
-            # Down at the leaf level: recursion doesn't get deeper.
+        LEVEL_HANDLERS = {
+            Paragraph: self.break_paragraph_into_sentences,
+            ChapterOfParagraphs: self.break_any_level_chapter_into_paragraphs,
+            SuperChapter: self.break_superchapter_into_chapters,
+        }
+        handler = LEVEL_HANDLERS.get(type(level))
+        if handler:
+            handler(level)
             return
-        if isinstance(level, ChapterOfParagraphs):
-            self.break_chapter_into_paragraphs(level)
-            return
-        if isinstance(level, SuperChapter):
-            self.break_superchapter_into_chapters(level)
-            return
-        WarnAndExit(f"Chapter of unknown type {type(level)}")
+        WarnAndExit(f"Level of type {type(level)} has no break handler.")
 
     def break_sublevels(self, level):
         """Assuming this level was already broken into sublevels, recurse the breaking on its sublevels"""

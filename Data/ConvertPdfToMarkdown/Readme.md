@@ -7,6 +7,7 @@
 - [Model class diagram](#model-class-diagram)
 - [References How to recover document structure and plain text from PDF?](#references-how-to-recover-document-structure-and-plain-text-from-pdf)
 - [References Converting PDF to markdown techniques](#references-converting-pdf-to-markdown-techniques)
+- [Historical notes](#historical-notes)
 
 ## Installation
 
@@ -82,3 +83,10 @@ classDiagram
 ## References Converting PDF to markdown techniques
 
 https://medium.com/data-science-collective/convert-pdfs-to-markdown-using-local-llms-c5232f3b50fc
+
+## Historical notes
+
+### Extracting special regexp patterns
+
+When development stage was centered on pages (as opposed to paragraphs), there was a need for removing the  newline characters ("\n") but only when they were preceded or followed either by a single whitespace or some character (examples "here\nand", "here \nand", "here\n and"). Because finding the proper regex to do so was not trivial (your milage may vary), the following keeps track of the sub() call, in case it is needed later on. The regexp logic is that we need to use both lookbehind and lookahead notations and can be understood as: look for a newline preceded (?<=...)  by any character that is not an extended whitespace (\s) and followed (?=[^\s]) by any character that is not a whitespace:
+ ```result_text = re.sub("(?<=[^\s])\n(?=[^\s])", " ", input_text)```
