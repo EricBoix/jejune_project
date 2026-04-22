@@ -25,8 +25,6 @@ converter = Converter(
     structural_info=StructuralInfo(),
 )
 
-
-# FIXME converter.assert_chapters_name_coherence()
 document = converter.get_document()
 
 # Generate the markdown file

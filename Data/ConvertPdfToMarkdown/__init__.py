@@ -10,6 +10,7 @@ from .Model import (
 from .ConverterBase import ConverterBase
 from .DocumentBuilder import DocumentBuilder
 from .DocumentBreaker import DocumentBreaker
+from .TextExtractor import TextExtractor
 from .TextSanitizer import TextSanitizer
 from .ParagraphMerger import ParagraphMerger
 from .ExtractedPageBase import ExtractedPageBase

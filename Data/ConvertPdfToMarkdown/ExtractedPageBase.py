@@ -35,9 +35,6 @@ class ExtractedPageBase(ABC):
             "Reader page number (written on paper and/or as given by pdf viewer): "
             + repr(self.page_layout.reader_page_number)
             + "\n"
-            + "Original Text: "
-            + repr(self.original_pdf_page.extract_text(extraction_mode="layout"))
-            + "\n"
             + "Extracted text: "
             + repr(self.text)
         )

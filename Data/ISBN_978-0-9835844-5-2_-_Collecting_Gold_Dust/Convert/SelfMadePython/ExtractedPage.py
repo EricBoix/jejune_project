@@ -21,13 +21,6 @@ class ExtractedPage(ExtractedPageBase):
         self.chapter_name_separator_first_occurrence = 100
         self.removed_header = None
 
-        original_page_text = self.original_pdf_page.extract_text(
-            extraction_mode="layout"
-        )
-
-        # Remove the heading bunch of whitespaces (and assimilated characters)
-        self.text = original_page_text.lstrip()
-
     def set_removed_header(self, removed_header):
         self.removed_header = removed_header
 

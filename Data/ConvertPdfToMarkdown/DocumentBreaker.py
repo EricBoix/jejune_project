@@ -20,6 +20,7 @@ class DocumentBreaker:
         reader: PdfReader,
         document,
         structural_info,
+        extracted_texts: dict[int, str],
         is_chapter_beginning_page_callback,
         get_chapter_name_callback,
         sanitize_page_text_callback,
@@ -28,6 +29,7 @@ class DocumentBreaker:
         self.reader = reader
         self.document = document
         self.structural_info = structural_info
+        self.extracted_texts = extracted_texts
         self.is_chapter_beginning_page = is_chapter_beginning_page_callback
         self.get_chapter_name = get_chapter_name_callback
         self.sanitize_page_text = sanitize_page_text_callback
@@ -63,6 +65,7 @@ class DocumentBreaker:
                 new_extracted_page_layout,
                 self.reader.pages[page_number],  # Original page
             )
+            new_extracted_page.set_text(self.extracted_texts[page_number])
 
             if not self.is_chapter_beginning_page(new_extracted_page):
                 # When the new extracted page is not the beginning of a chapter

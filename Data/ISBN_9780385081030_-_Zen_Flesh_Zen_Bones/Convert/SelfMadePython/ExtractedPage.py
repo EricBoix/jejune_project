@@ -46,13 +46,6 @@ class ExtractedPage(ExtractedPageBase):
         # for a chapter title:
         self.chapter_name_separator_first_occurrence = 100
 
-        original_page_text = self.original_pdf_page.extract_text(
-            extraction_mode="layout"
-        )
-
-        # Remove the heading bunch of whitespaces (and assimilated characters)
-        self.text = original_page_text.lstrip()
-
     def is_chapter_beginning_page(self):
         match = re.search(self.chapter_name_separator_regex, self.text)
         if not match:

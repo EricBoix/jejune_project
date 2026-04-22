@@ -8,6 +8,7 @@ from .Warning import Warning, WarnAndExit
 from .Traces import Debug
 from .DocumentBuilder import DocumentBuilder
 from .DocumentBreaker import DocumentBreaker
+from .TextExtractor import TextExtractor
 
 
 class ConverterBase(DocumentBuilder):
@@ -65,15 +66,27 @@ class ConverterBase(DocumentBuilder):
             )
         return chapter_extracted_page
 
+    def sanitize_page_text(self, extracted_page):
+        """
+        Default page text sanitization (no-op).
+        Override in derived classes for book-specific sanitization.
+        """
+        pass
+
     def breaks_document_into_chapters(
         self,
         ExtractedPageDerived: Type = None,
         ChapterDerived: Type[TopLevelChapter] = None,
     ):
+        # Pre-extract all page texts
+        text_extractor = TextExtractor(self.reader, self.structural_info)
+        extracted_texts = text_extractor.extract_all()
+
         document_breaker = DocumentBreaker(
             self.reader,
             self.document,
             self.structural_info,
+            extracted_texts,
             self.is_chapter_beginning_page,
             self.get_chapter_name,
             self.sanitize_page_text,

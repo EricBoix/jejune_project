@@ -11,23 +11,6 @@ class ExtractedPage(ExtractedPageBase):
         self.chapter_name_separator_first_occurrence = 100
         self.figure_separator = r"((?:\n)+Figure)"
 
-        try:
-            original_page_text = self.original_pdf_page.extract_text(
-                extraction_mode="layout"
-            )
-        except NotImplementedError:
-            # Fallback for PDFs with filter arrays that pypdf can't handle
-            # in layout mode
-            original_page_text = self.original_pdf_page.extract_text()
-
-        # For some undocumented reason pdfreader output has TAB ("\t"
-        # character) in place of spaces. Brutally convert those tabulations to
-        # spaces everywhere:
-        original_page_text = re.sub("\\t", " ", original_page_text)
-
-        # Remove the heading bunch of whitespaces (and assimilated characters)
-        self.text = original_page_text.lstrip()
-
     def is_chapter_beginning_page(self):
         match = re.search(self.chapter_name_separator_regex, self.text)
         if not match:
