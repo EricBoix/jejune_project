@@ -109,7 +109,7 @@ class PrintDocument:
             self._print_super_chapter(chapter)
             return
         if isinstance(chapter, ChapterOfParagraphs):
-            self._print_chapter_of_paragraphs(self, chapter)
+            self._print_chapter_of_paragraphs(chapter)
 
     def _print_super_chapter(self, super_chapter):
         if not isinstance(super_chapter, SuperChapter):

@@ -50,7 +50,7 @@ class StructuralInfo(StructuralInfoBase):
         # automatically extracted.
         self.book_title = "The MIND ILLUMINATED: A Complete Meditation Guide Integrating Buddhist Wisdom and Brain Science for Greater Mindfulness"
 
-        self.pages_info = {
+        self._pages_info = {
             0: {
                 # The cover page being pure illustration (no text), its
                 # (absence of) content is dropped.
@@ -123,6 +123,10 @@ class StructuralInfo(StructuralInfoBase):
             549: {"type": "generic", "paragraph_fits_on_page": True},
             571: {"type": "generic", "paragraph_fits_on_page": True},
         }
+
+    @property
+    def pages_info(self) -> dict:
+        return self._pages_info
 
     def convert_to_logical_page_number(self, page_number):
         if page_number == 0:

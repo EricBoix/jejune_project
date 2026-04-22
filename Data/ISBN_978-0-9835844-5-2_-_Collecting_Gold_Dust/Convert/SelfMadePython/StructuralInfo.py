@@ -97,7 +97,7 @@ class StructuralInfo(StructuralInfoBase):
         # numbering of the body pages
         self.page_numbering_offset = 16
 
-        self.pages_info = {
+        self._pages_info = {
             0: {"drop_page": True},  # Front cover
             1: {"drop_page": True},  # Book title
             2: {"drop_page": True},  # Illustration
@@ -249,6 +249,10 @@ class StructuralInfo(StructuralInfoBase):
             },
             159: {"type": "illustration"},  # This Back cover of the book
         }
+
+    @property
+    def pages_info(self) -> dict:
+        return self._pages_info
 
     def convert_to_logical_page_number(self, page_number):
         if page_number == 0:

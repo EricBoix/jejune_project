@@ -8,6 +8,9 @@ from .Model import (
     Document,
 )
 from .ConverterBase import ConverterBase
+from .DocumentBuilder import DocumentBuilder
+from .TextSanitizer import TextSanitizer
+from .ParagraphMerger import ParagraphMerger
 from .ExtractedPageBase import ExtractedPageBase
 from .StructuralInfoBase import StructuralInfoBase
 from .Splitter import Splitter, SinglePatternSplitter, NameLessSinglePatternSplitter

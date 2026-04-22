@@ -1,16 +1,22 @@
 import re
+from abc import ABC
 from .Warning import Warning, WarnAndExit
 
 
-class ExtractedPageBase:
+class ExtractedPageBase(ABC):
     """
-    Representation of a pdf extracted page
+    Representation of a pdf extracted page.
+
     Attributes
     ----------
     page_number: int
         The index of the page as it appears extracted by pydf::PdfReader()
     original_pdf_page: str
-        the text as original extracted by the constructor caller
+        The text as originally extracted by the constructor caller
+
+    Subclasses should override:
+    - is_chapter_beginning_page(): Returns True if page starts a chapter
+    - extract_chapter_name(): Extracts chapter name from page text (optional)
     """
 
     def __init__(self, page_number, layout, original_page):

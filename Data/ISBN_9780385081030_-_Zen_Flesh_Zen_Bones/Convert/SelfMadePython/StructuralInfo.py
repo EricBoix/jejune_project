@@ -106,7 +106,7 @@ class StructuralInfo(StructuralInfoBase):
         # FIXME: could the book_title be extracted automatically ?
         self.book_title = "ZEN FLESH, ZEN BONES"
 
-        self.pages_info = {
+        self._pages_info = {
             0: {"drop_page": True},  # Front cover
             1: {"drop_page": True},  # Book title
             2: {"drop_page": True},  # Table Of Content (TOC)
@@ -163,6 +163,10 @@ class StructuralInfo(StructuralInfoBase):
                 },
             },
         }
+
+    @property
+    def pages_info(self) -> dict:
+        return self._pages_info
 
     def convert_to_logical_page_number(self, page_number):
         return page_number

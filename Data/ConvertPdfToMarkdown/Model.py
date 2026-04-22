@@ -239,10 +239,6 @@ class Paragraph(DocumentHierarchicalLevel[Sentence]):
         DocumentHierarchicalLevel.__init__(self, name="Paragraph")
         self.page_layout = layout
 
-    # Keep old method name for backwards compatibility
-    set_owning_chapter = DocumentHierarchicalLevel.set_owning_hierarchical_level
-    add_sentence = DocumentHierarchicalLevel.add_sublevel
-    get_sentence = DocumentHierarchicalLevel.get_sublevel
     remove_sentence = DocumentHierarchicalLevel.remove_sublevel
     get_sentences = DocumentHierarchicalLevel.get_sublevels
 

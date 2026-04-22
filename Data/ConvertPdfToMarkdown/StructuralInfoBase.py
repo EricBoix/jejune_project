@@ -1,31 +1,32 @@
+from abc import ABC, abstractmethod
 from .Warning import Warning, WarnAndExit
 
-# The structural information constituted by the presence of chapters,
-# illustrations, illumination, headers ... is quite often difficult
-# to be automatically discovered. While waiting for better (and free)
-# tools, the following was manually extracted and summarized in the
-# following dictionary.
 
+class StructuralInfoBase(ABC):
+    """
+    Base class for structural information about a PDF document.
 
-class StructuralInfoBase:
-    # Derived classes commit to have a pages_info dictionary of the form
-    #
-    # self.pages_info = {
-    #    0: {                                # 0 stands for the page number
-    #       "type": "chapter",
-    #       "chapter_info": {                  # Additional info for chapters
-    #          "name": "Preamble",
-    #          "illumination_delimiter": None,
-    #       },
-    #    },
-    #    1: {
-    #       "type": "generic",
-    #       "drop_page": True,             # Optional flag to drop content
-    #    },
-    # }
-    #
-    # Derived classes can extend the available type, that by default are
-    # restricted to be among.  {"chapter", "generic"}
+    Subclasses must implement pages_info property returning a dict:
+    {
+        0: {                                # page number as key
+            "type": "chapter",              # "chapter" or "generic"
+            "chapter_info": {               # required for "chapter" type
+                "name": "Preamble",
+                "illumination_delimiter": None,
+            },
+        },
+        1: {
+            "type": "generic",
+            "drop_page": True,              # optional flag to drop content
+        },
+    }
+    """
+
+    @property
+    @abstractmethod
+    def pages_info(self) -> dict:
+        """Return dict mapping page numbers to their structural info."""
+        ...
 
     def __init__(self):
         # Technical (optimisation) variable used to hold the correspondance
