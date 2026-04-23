@@ -1,5 +1,7 @@
+import re
 from abc import ABC, abstractmethod
 from .Warning import Warning, WarnAndExit
+from .Traces import Debug
 
 
 class StructuralInfoBase(ABC):
@@ -35,6 +37,16 @@ class StructuralInfoBase(ABC):
         #  - a key is a page number
         #  - the associated value holds the current chapter number for that key
         self._chapter_page = {}
+        self._chapter_splitter_instance = None
+
+    def get_chapter_splitter(self):
+        """Get or create the chapter splitter for this document.
+
+        Each derived StructuralInfo defines a chapter_splitter inner class.
+        """
+        if self._chapter_splitter_instance is None:
+            self._chapter_splitter_instance = self.chapter_splitter(self)
+        return self._chapter_splitter_instance
 
     def set_chapter_page_number(self, page_number: int, chapter_page_number: int):
         """Set the chapter page number of the page designated by page number.
@@ -87,7 +99,7 @@ class StructuralInfoBase(ABC):
             return None
         return chapter_info["name"]
 
-    def _is_chapter_beginning_page(self, page_number):
+    def _holds_new_chapter(self, page_number):
         if not page_number in self.pages_info:
             return False
         if not "type" in self.pages_info[page_number]:
@@ -102,6 +114,21 @@ class StructuralInfoBase(ABC):
         if not "typo_and_fix" in self.pages_info[page_number]:
             return None
         return self.pages_info[page_number]["typo_and_fix"]
+
+    def fix_typos(self, extracted_page):
+        """Apply typo fixes on extracted pages that require it."""
+        page_number = extracted_page.page_number
+        typo_and_fix = self.get_typo_and_fix(page_number)
+        if typo_and_fix is None:
+            return
+        typo = typo_and_fix["typo"]
+        if not re.search(typo, extracted_page.text):
+            Warning(f"Couldn't find typo in extracted page number {page_number}:")
+            Warning(f"  - typo: {typo}")
+            Warning(f"  - page text: {extracted_page.text}")
+            return
+        extracted_page.text = re.sub(typo, typo_and_fix["fix"], extracted_page.text)
+        Debug(f"Typo fixed on page {page_number}")
 
     def _get_page_number_finishing_last_paragraph(self, page_number):
         """

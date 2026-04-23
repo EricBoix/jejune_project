@@ -26,6 +26,6 @@ class TextExtractor:
                 text = original_page.extract_text()
             # Normalize tabs to spaces (some PDFs have tabs instead of spaces)
             text = text.replace("\t", " ")
-            # lstrip is required before is_chapter_beginning_page classification
+            # lstrip is required before holds_new_chapter classification
             extracted_texts[page_number] = text.lstrip()
         return extracted_texts

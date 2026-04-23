@@ -30,8 +30,11 @@ class Converter(ConverterBase):
             return False
         return ConverterBase._page_requires_paragraph_continuation(self, page_number)
 
+    def _chapter_splitter(self):
+        return self.structural_info.get_chapter_splitter()
+
     def sanitize_remove_header(self, extracted_page):
-        if self.is_chapter_beginning_page(extracted_page):
+        if self._chapter_splitter().holds_new_chapter(extracted_page):
             # Chapters have no headers
             return
 
@@ -74,7 +77,7 @@ class Converter(ConverterBase):
         """
         page_number = extracted_page.page_number
         text_to_fix = extracted_page.text
-        if not self.is_chapter_beginning_page(extracted_page):
+        if not self._chapter_splitter().holds_new_chapter(extracted_page):
             print("Erroneous call to Converter::sanitize_fix_illumination()")
             print("  This extracted page does not seem to be a chapter starting page.")
             print("  Extracted page: ", extracted_page)
@@ -137,7 +140,9 @@ class Converter(ConverterBase):
         # beginning of the text (that would be overwritten by the illumination
         # drawing of the leading character):
         illumination_part = re.sub(
-            extracted_page.chapter_name_separator_regex + "( *)", "", illumination_part
+            self._chapter_splitter().chapter_name_separator_regex + "( *)",
+            "",
+            illumination_part,
         )
         # Eventually remove the occurrence (or the couple occurrences) of
         # returns + whitespaces that were added to reserve some space for the
@@ -154,18 +159,10 @@ class Converter(ConverterBase):
         manual cleaning is alas required e.g. remove the header of the page (when there is one).
         """
         self.sanitize_remove_header(extracted_page)
-        if self.is_chapter_beginning_page(extracted_page):
+        if self._chapter_splitter().holds_new_chapter(extracted_page):
             self.sanitize_fix_illumination(extracted_page)
 
-    def is_chapter_beginning_page(self, extracted_page):
-        base_says = ConverterBase.is_chapter_beginning_page(self, extracted_page)
-        if base_says:
-            return True
-        return extracted_page.is_chapter_beginning_page()
-
     def get_chapter_name(self, extracted_page):
-        if ConverterBase.is_chapter_beginning_page(self, extracted_page):
-            return ConverterBase.get_chapter_name(self, extracted_page)
         # Two stages must be distinguished:
         # - Prior to the construction of the chapter of this page: in this case
         #   the chapter name still stands within the extracted_page content
@@ -184,8 +181,8 @@ class Converter(ConverterBase):
         )
         if chapter_name_already_extracted:
             return chapter_name_already_extracted
-        # Fold back to the prior to construction case
-        return extracted_page.get_chapter_name()
+        # Fold back to the prior to construction case (use chapter_splitter)
+        return self._chapter_splitter().get_chapter_name(extracted_page)
 
     def chapter_page_header(self, extracted_page):
         return (
@@ -211,7 +208,7 @@ class Converter(ConverterBase):
 
         # First headers of pages starting a new chapter have that new
         # chapter name as header
-        if self.is_chapter_beginning_page(extracted_page):
+        if self._chapter_splitter().holds_new_chapter(extracted_page):
             return self.get_chapter_name(extracted_page)
 
         ####### Concerning the Preamble (from page 0 to 20 included)

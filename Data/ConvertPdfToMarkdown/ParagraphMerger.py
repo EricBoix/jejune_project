@@ -83,7 +83,7 @@ class ParagraphMerger:
                     page_number
                 )
             )
-            if self.structural_info._is_chapter_beginning_page(next_page_number):
+            if self.structural_info._holds_new_chapter(next_page_number):
                 continue
 
             ill_starting_paragraph = self._chapter_get_first_paragraph_of_given_page(

@@ -1,6 +1,4 @@
-import re
 from abc import ABC
-from .Warning import Warning, WarnAndExit
 
 
 class ExtractedPageBase(ABC):
@@ -14,9 +12,8 @@ class ExtractedPageBase(ABC):
     original_pdf_page: str
         The text as originally extracted by the constructor caller
 
-    Subclasses should override:
-    - is_chapter_beginning_page(): Returns True if page starts a chapter
-    - extract_chapter_name(): Extracts chapter name from page text (optional)
+    Note: Chapter detection and extraction is handled by chapter_splitter
+    classes defined in each book's StructuralInfo.
     """
 
     def __init__(self, page_number, layout, original_page):
@@ -38,22 +35,3 @@ class ExtractedPageBase(ABC):
             + "Extracted text: "
             + repr(self.text)
         )
-
-    def is_chapter_beginning_page(self):
-        """Sometimes (is a derived class) a rule applied on the text of the
-        the extracted page suffice to decide whether the extracted page is
-        the beginning of a chapter or not"""
-        return False
-
-    def extract_chapter_name(self, chapter_name):
-        if not re.search(chapter_name, self.text):
-            Warning(
-                f"chapter name {chapter_name} was not found in extracted page {self.text}"
-            )
-            return
-        chapter_text = self.text.lstrip(chapter_name)
-        if not chapter_text:
-            WarnAndExit(
-                f"Chapter name extraction yields an empty text.\nWas trying to extract chapter name: {chapter_name} Out of ExtractedPageBase text: {self.text}"
-            )
-        self.text = chapter_text

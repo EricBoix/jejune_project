@@ -1,4 +1,5 @@
 import re
+from typing import Optional
 from ConvertPdfToMarkdown import StructuralInfoBase, WarnAndExit, Splitter
 
 
@@ -6,6 +7,76 @@ class StructuralInfo(StructuralInfoBase):
     # The structural information per se with extension specifics
     # - "type" can be "illustration" (with an optional "header" boolean flag)
     # - a "chapter_info" can have an optional "illumination_delimiter"
+
+    class chapter_splitter:
+        """Chapter splitter for Zen Flesh, Zen Bones.
+
+        Detects chapter boundaries based on:
+        1. Static declarations in pages_info (type == "chapter")
+        2. Pattern matching the chapter title followed by the distributor name
+        """
+
+        def __init__(self, structural_info):
+            self.structural_info = structural_info
+            self.distributor_name_pattern = r"OceanofPDF[.]com"
+            # Three whitespaces (more or less)
+            self.chapter_name_extractor_regex = r"(\n){3}"
+            # The pattern that should match a chapter title definition
+            self.chapter_name_separator_regex = (
+                # a bunch of capital letters, or digits with possible white
+                # spaces and/or returns
+                r"[A-Z\d (\n)]+"
+                # _exactly_ three returns,
+                + r"(?<!(\n))"
+                + self.chapter_name_extractor_regex
+                + r"(?!(\n))"
+                # at least 8 white spaces,
+                + r"( *){8}"
+                # a specific string (refer above)
+                + self.distributor_name_pattern
+            )
+            # The maximum number of characters within an extracted page to look
+            # for a chapter title:
+            self.chapter_name_separator_first_occurrence = 100
+
+        def holds_new_chapter(self, extracted_page) -> bool:
+            # First check static declaration in pages_info
+            if self.structural_info._holds_new_chapter(extracted_page.page_number):
+                return True
+            # Then check regex pattern
+            match = re.search(self.chapter_name_separator_regex, extracted_page.text)
+            if not match:
+                return False
+            if match.start() > self.chapter_name_separator_first_occurrence:
+                return False
+            return True
+
+        def get_chapter_name(self, extracted_page) -> Optional[str]:
+            # First check static declaration in pages_info
+            if self.structural_info._holds_new_chapter(extracted_page.page_number):
+                return self.structural_info._get_chapter_name(
+                    extracted_page.page_number
+                )
+            # Then use regex extraction
+            chapter_name = re.split(
+                self.chapter_name_extractor_regex, extracted_page.text
+            )
+            if not chapter_name:
+                WarnAndExit(
+                    f"Chapter name {chapter_name} not found in extracted page {extracted_page.text}"
+                )
+            return chapter_name[0]
+
+        def extract_chapter_name(self, extracted_page, chapter_name):
+            """Remove chapter name from page text."""
+            # If distributor pattern not in text, use simple removal
+            if re.search(self.distributor_name_pattern, extracted_page.text) is None:
+                extracted_page.text = extracted_page.text.lstrip(chapter_name)
+                return
+            # For regex-detected chapters (with distributor pattern), remove full pattern
+            extracted_page.text = re.sub(
+                self.chapter_name_separator_regex, "", extracted_page.text
+            )
 
     class superchapter_to_chapter_splitter(Splitter):
         def __init__(self):

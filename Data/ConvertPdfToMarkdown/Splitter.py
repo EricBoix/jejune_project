@@ -1,5 +1,14 @@
 import re
+from typing import Optional, Protocol
+
 from .Warning import Warning, WarnAndExit
+
+
+class ChapterSplitter(Protocol):
+    """Protocol for chapter boundary detection at page level."""
+
+    def holds_new_chapter(self, extracted_page) -> bool: ...
+    def get_chapter_name(self, extracted_page) -> Optional[str]: ...
 
 
 class Splitter:

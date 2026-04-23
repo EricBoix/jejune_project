@@ -26,9 +26,3 @@ class Converter(ConverterBase):
         manual cleaning is alas required.
         """
         extracted_page.sanitize_figures()
-
-    def is_chapter_beginning_page(self, extracted_page):
-        return extracted_page.is_chapter_beginning_page()
-
-    def get_chapter_name(self, extracted_page):
-        return extracted_page.get_chapter_name()
