@@ -1,3 +1,4 @@
+from abc import ABC, abstractmethod
 from typing import List, Optional, Protocol
 
 import nltk
@@ -24,7 +25,7 @@ class ContentWithLayout(Protocol):
     page_layout: PageLayout
 
 
-class DocumentBuilder(TextSanitizer):
+class DocumentBuilder(TextSanitizer, ABC):
     """Builds document hierarchy by breaking levels into sublevels."""
 
     def __init__(self, document, structural_info):
@@ -34,7 +35,7 @@ class DocumentBuilder(TextSanitizer):
 
     def build_document(self):
         """Build the Document object out of converter extracted chapters."""
-        self.breaks_document_into_chapters()  # Calling the derived version
+        self.break_document_into_chapters()  # Calling the derived version
         for chapter in self.document.get_chapters():
             self.break_level(chapter)
         for top_level_chapter in self.document.get_chapters():
@@ -42,9 +43,10 @@ class DocumentBuilder(TextSanitizer):
                 top_level_chapter
             )
 
-    def breaks_document_into_chapters(self):
-        """Override in derived class."""
-        raise NotImplementedError("Subclass must implement breaks_document_into_chapters")
+    @abstractmethod
+    def break_document_into_chapters(self):
+        """Break document into chapters. Must be implemented by subclass."""
+        pass
 
     def break_paragraph_into_sentences(self, paragraph: Paragraph):
         paragraph_layout = paragraph.page_layout

@@ -15,8 +15,8 @@ class Converter(ConverterBase):
         document = DocumentWithSubChapters(structural_info.book_title)
         ConverterBase.__init__(self, pdf_filename, document, structural_info)
 
-    def breaks_document_into_chapters(self):
-        return ConverterBase.breaks_document_into_chapters(
+    def break_document_into_chapters(self):
+        return ConverterBase.break_document_into_chapters(
             self, ExtractedPage, SuperChapter
         )
 

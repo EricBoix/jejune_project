@@ -41,7 +41,7 @@ class ConverterBase(DocumentBuilder):
         """
         pass
 
-    def breaks_document_into_chapters(
+    def break_document_into_chapters(
         self,
         ExtractedPageDerived: Type = None,
         ChapterDerived: Type[TopLevelChapter] = None,
