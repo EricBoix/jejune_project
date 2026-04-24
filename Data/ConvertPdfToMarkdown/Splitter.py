@@ -12,19 +12,22 @@ class ChapterSplitter(Protocol):
 
 
 class Splitter:
-    def _extract_sublevel_name(self, patterns, content_text):
+    def _find_first_match(self, patterns, content_text):
+        """Return first regex match across patterns, or None."""
         for pattern in patterns:
             match = re.search(pattern, content_text)
             if match:
-                return re.sub(pattern, "", content_text)
+                return match
+        return None
+
+    def _extract_sublevel_name(self, patterns, content_text):
+        match = self._find_first_match(patterns, content_text)
+        if match:
+            return re.sub(match.re.pattern, "", content_text)
         WarnAndExit("Unable to extract chapter name.")
 
     def _holds_new_sublevels(self, patterns, content_text):
-        for pattern in patterns:
-            match = re.search(pattern, content_text)
-            if match:
-                return True
-        return False
+        return self._find_first_match(patterns, content_text) is not None
 
     def _split_on_single_pattern(self, pattern, content_text, remove_separator=False):
         resulting_parts = re.split(pattern, content_text)
@@ -84,16 +87,9 @@ class Splitter:
     def _get_sublevel_name(
         self, sublevel_patterns, name_extraction_pattern, content_text
     ):
-        for pattern in sublevel_patterns:
-            # Note: the following re.search is exactly the one encountered
-            # in Splitter._holds_new_sublevels(), which somehow bypasses the
-            # DRY (Don't Repeat Yourself) principle
-            match = re.search(pattern, content_text)
-            if match:
-                return re.search(
-                    name_extraction_pattern,
-                    match.group(0),
-                ).group(0)
+        match = self._find_first_match(sublevel_patterns, content_text)
+        if match:
+            return re.search(name_extraction_pattern, match.group(0)).group(0)
         Warning("Sublevel name not found.")
         return None
 
