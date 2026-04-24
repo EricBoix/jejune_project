@@ -67,12 +67,6 @@ class DocumentBreaker:
             new_extracted_page_layout.set_reference_text(
                 f"[Page: {new_extracted_page_layout.reader_page_number} (page number: {new_extracted_page_layout.page_number})]"
             )
-            # The usage of ExtractedPage, that can be a derived class, prevents
-            # the declaration of this member function to be done in the parent
-            # class. This is because although all derived classes will define
-            # exactly the same function definition, the concrete ExtractedPage
-            # class type might (and thus will) differ from one derivation of
-            # a converter to another one.
             new_extracted_page = ExtractedPageDerived(
                 page_number,
                 new_extracted_page_layout,

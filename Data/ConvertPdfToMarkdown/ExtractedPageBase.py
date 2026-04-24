@@ -1,7 +1,4 @@
-from abc import ABC
-
-
-class ExtractedPageBase(ABC):
+class ExtractedPageBase:
     """
     Representation of a pdf extracted page.
 
