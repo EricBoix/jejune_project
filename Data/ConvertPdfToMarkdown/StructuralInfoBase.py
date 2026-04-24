@@ -161,3 +161,7 @@ class StructuralInfoBase(ABC):
         the page number (as string) as printed on the page (editor's choice)
         """
         return str(page_number)
+
+    def sanitize_page_text(self, extracted_page):
+        """Sanitize page text. Override in derived classes for book-specific sanitization."""
+        pass

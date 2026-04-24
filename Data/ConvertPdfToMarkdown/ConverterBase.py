@@ -34,13 +34,6 @@ class ConverterBase(DocumentBuilder):
             )
         return chapter_extracted_page
 
-    def sanitize_page_text(self, extracted_page):
-        """
-        Default page text sanitization (no-op).
-        Override in derived classes for book-specific sanitization.
-        """
-        pass
-
     def break_document_into_chapters(
         self,
         ChapterDerived: Type[TopLevelChapter] = None,
@@ -49,7 +42,6 @@ class ConverterBase(DocumentBuilder):
             self.pdf_filename,
             self.document,
             self.structural_info,
-            self.sanitize_page_text,
         )
         document_breaker.break_document_into_chapters(ChapterDerived)
 

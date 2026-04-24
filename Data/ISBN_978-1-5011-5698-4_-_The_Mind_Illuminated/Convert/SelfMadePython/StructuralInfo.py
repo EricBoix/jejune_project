@@ -6,6 +6,7 @@ from ConvertPdfToMarkdown import (
     NameLessSinglePatternSplitter,
     WarnAndExit,
 )
+from Sanitizer import Sanitizer
 
 
 class StructuralInfo(StructuralInfoBase):
@@ -96,6 +97,7 @@ class StructuralInfo(StructuralInfoBase):
 
     def __init__(self):
         StructuralInfoBase.__init__(self)
+        self._sanitizer = Sanitizer()
         # The original pdf document has a title that is depicted (as opposed to
         # written in text) in the cover illustration and thus cannot be
         # automatically extracted.
@@ -183,3 +185,6 @@ class StructuralInfo(StructuralInfoBase):
         if page_number == 0:
             return "Cover"
         return str(page_number)
+
+    def sanitize_page_text(self, extracted_page):
+        self._sanitizer.sanitize_page_text(extracted_page)

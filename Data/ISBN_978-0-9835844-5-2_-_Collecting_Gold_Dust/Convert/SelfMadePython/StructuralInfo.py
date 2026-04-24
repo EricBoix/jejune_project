@@ -4,6 +4,7 @@ from typing import Optional
 import roman
 
 from ConvertPdfToMarkdown import StructuralInfoBase, Splitter, WarnAndExit
+from Sanitizer import Sanitizer
 
 
 class StructuralInfo(StructuralInfoBase):
@@ -148,6 +149,7 @@ class StructuralInfo(StructuralInfoBase):
 
     def __init__(self):
         StructuralInfoBase.__init__(self)
+        self._sanitizer = None
         # The original pdf document has a title that is depicted (as opposed to
         # written in text) in the cover illustration and thus cannot be
         # automatically extracted. This title ends-up embedded in some headers
@@ -354,3 +356,10 @@ class StructuralInfo(StructuralInfoBase):
         return (
             self.convert_to_logical_page_number(page_number) + r" \| " + self.book_title
         )
+
+    def set_page_header_callback(self, get_page_header):
+        """Set the page header callback and create the sanitizer."""
+        self._sanitizer = Sanitizer(self, get_page_header)
+
+    def sanitize_page_text(self, extracted_page):
+        self._sanitizer.sanitize_page_text(extracted_page)

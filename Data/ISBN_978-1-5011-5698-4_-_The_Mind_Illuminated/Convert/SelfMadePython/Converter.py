@@ -3,7 +3,6 @@ from ConvertPdfToMarkdown import (
     SuperChapter,
     DocumentWithSubChapters,
 )
-from Sanitizer import Sanitizer
 
 
 class Converter(ConverterBase):
@@ -12,12 +11,8 @@ class Converter(ConverterBase):
     """
 
     def __init__(self, pdf_filename, structural_info):
-        self.sanitizer = Sanitizer()
         document = DocumentWithSubChapters(structural_info.book_title)
         ConverterBase.__init__(self, pdf_filename, document, structural_info)
 
     def break_document_into_chapters(self):
         return ConverterBase.break_document_into_chapters(self, SuperChapter)
-
-    def sanitize_page_text(self, extracted_page):
-        self.sanitizer.sanitize_page_text(extracted_page)

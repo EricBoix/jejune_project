@@ -21,12 +21,10 @@ class DocumentBreaker:
         pdf_filename,
         document,
         structural_info,
-        sanitize_page_text_callback,
     ):
         self.document = document
         self.structural_info = structural_info
         self.chapter_splitter = structural_info.get_chapter_splitter()
-        self.sanitize_page_text = sanitize_page_text_callback
 
         # Parse PDF and validate
         self.reader = PdfReader(pdf_filename)
@@ -144,6 +142,6 @@ class DocumentBreaker:
                 )
 
             # We are back to the default flow of treatment
-            self.sanitize_page_text(new_extracted_page)  # In derived class
+            self.structural_info.sanitize_page_text(new_extracted_page)
             self.structural_info.fix_typos(new_extracted_page)
             current_chapter.add_page(new_extracted_page)

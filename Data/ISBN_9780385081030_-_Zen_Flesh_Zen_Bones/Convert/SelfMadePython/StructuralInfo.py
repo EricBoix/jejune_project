@@ -1,6 +1,7 @@
 import re
 from typing import Optional
 from ConvertPdfToMarkdown import StructuralInfoBase, WarnAndExit, Splitter
+from Sanitizer import Sanitizer
 
 
 class StructuralInfo(StructuralInfoBase):
@@ -176,6 +177,7 @@ class StructuralInfo(StructuralInfoBase):
 
     def __init__(self):
         StructuralInfoBase.__init__(self)
+        self._sanitizer = Sanitizer(self)
         # FIXME: could the book_title be extracted automatically ?
         self.book_title = "ZEN FLESH, ZEN BONES"
 
@@ -243,3 +245,6 @@ class StructuralInfo(StructuralInfoBase):
 
     def convert_to_logical_page_number(self, page_number):
         return page_number
+
+    def sanitize_page_text(self, extracted_page):
+        self._sanitizer.sanitize_page_text(extracted_page)
