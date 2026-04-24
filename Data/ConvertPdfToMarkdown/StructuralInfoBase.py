@@ -24,6 +24,15 @@ class StructuralInfoBase(ABC):
     }
     """
 
+    # Dictionary key constants
+    KEY_TYPE = "type"
+    KEY_CHAPTER_INFO = "chapter_info"
+    KEY_NAME = "name"
+    KEY_DROP_PAGE = "drop_page"
+    KEY_TYPO_AND_FIX = "typo_and_fix"
+    KEY_TYPO = "typo"
+    KEY_FIX = "fix"
+
     @property
     @abstractmethod
     def pages_info(self) -> dict:
@@ -69,7 +78,7 @@ class StructuralInfoBase(ABC):
     def _page_is_dropped(self, page_number):
         if not page_number in self.pages_info:
             return False
-        if not "drop_page" in self.pages_info[page_number]:
+        if not self.KEY_DROP_PAGE in self.pages_info[page_number]:
             return False
         return True
 
@@ -90,36 +99,36 @@ class StructuralInfoBase(ABC):
 
     def _get_chapter_info(self, page_number):
         chapter_page = self._get_chapter_page(page_number)
-        if not "chapter_info" in chapter_page:
+        if not self.KEY_CHAPTER_INFO in chapter_page:
             WarnAndExit(
                 f"Chapter page without chapter_info (page number {page_number})."
             )
-        return chapter_page["chapter_info"]
+        return chapter_page[self.KEY_CHAPTER_INFO]
 
     def _get_chapter_name(self, page_number):
         chapter_info = self._get_chapter_info(page_number)
-        if not "name" in chapter_info:
+        if not self.KEY_NAME in chapter_info:
             Warning(
                 f"chapter_info of chapter page (page number {page_number}) without name.",
             )
             return None
-        return chapter_info["name"]
+        return chapter_info[self.KEY_NAME]
 
     def _holds_new_chapter(self, page_number):
         if not page_number in self.pages_info:
             return False
-        if not "type" in self.pages_info[page_number]:
+        if not self.KEY_TYPE in self.pages_info[page_number]:
             return False
-        if self.pages_info[page_number]["type"] == "chapter":
+        if self.pages_info[page_number][self.KEY_TYPE] == "chapter":
             return True
         return False
 
     def get_typo_and_fix(self, page_number):
         if not page_number in self.pages_info:
             return None
-        if not "typo_and_fix" in self.pages_info[page_number]:
+        if not self.KEY_TYPO_AND_FIX in self.pages_info[page_number]:
             return None
-        return self.pages_info[page_number]["typo_and_fix"]
+        return self.pages_info[page_number][self.KEY_TYPO_AND_FIX]
 
     def fix_typos(self, extracted_page):
         """Apply typo fixes on extracted pages that require it."""
@@ -127,13 +136,13 @@ class StructuralInfoBase(ABC):
         typo_and_fix = self.get_typo_and_fix(page_number)
         if typo_and_fix is None:
             return
-        typo = typo_and_fix["typo"]
+        typo = typo_and_fix[self.KEY_TYPO]
         if not re.search(typo, extracted_page.text):
             Warning(f"Couldn't find typo in extracted page number {page_number}:")
             Warning(f"  - typo: {typo}")
             Warning(f"  - page text: {extracted_page.text}")
             return
-        extracted_page.text = re.sub(typo, typo_and_fix["fix"], extracted_page.text)
+        extracted_page.text = re.sub(typo, typo_and_fix[self.KEY_FIX], extracted_page.text)
         Debug(f"Typo fixed on page {page_number}")
 
     def _get_page_number_finishing_last_paragraph(self, page_number):
