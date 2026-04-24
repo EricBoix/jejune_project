@@ -99,20 +99,11 @@ class StructuralInfoBase(ABC):
 
     def _get_chapter_info(self, page_number):
         chapter_page = self._get_chapter_page(page_number)
-        if not self.KEY_CHAPTER_INFO in chapter_page:
-            WarnAndExit(
-                f"Chapter page without chapter_info (page number {page_number})."
-            )
         return chapter_page[self.KEY_CHAPTER_INFO]
 
     def _get_chapter_name(self, page_number):
         chapter_info = self._get_chapter_info(page_number)
-        if not self.KEY_NAME in chapter_info:
-            Warning(
-                f"chapter_info of chapter page (page number {page_number}) without name.",
-            )
-            return None
-        return chapter_info[self.KEY_NAME]
+        return chapter_info.get(self.KEY_NAME)
 
     def _holds_new_chapter(self, page_number):
         if not page_number in self.pages_info:

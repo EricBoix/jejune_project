@@ -30,24 +30,54 @@ class DocumentBreaker:
 
         # Parse PDF and validate
         self.reader = PdfReader(pdf_filename)
-        if len(self.reader.pages) != structural_info.total_page_number:
-            WarnAndExit(
-                f"Erroneous number of pages: was expecting {structural_info.total_page_number} but got {len(self.reader.pages)}"
-            )
-        for page_number in range(structural_info.total_page_number):
-            self._assert_reader_page_number_is_coherent(page_number)
+        self._validate_all_pages()
 
         # Pre-extract all page texts
         text_extractor = TextExtractor(self.reader, structural_info)
         self.extracted_texts = text_extractor.extract_all()
 
-    def _assert_reader_page_number_is_coherent(self, page_number):
+    def _validate_all_pages(self):
+        """Perform all upfront page validation."""
+        if len(self.reader.pages) != self.structural_info.total_page_number:
+            WarnAndExit(
+                f"Erroneous number of pages: was expecting "
+                f"{self.structural_info.total_page_number} but got {len(self.reader.pages)}"
+            )
+        for page_number in range(self.structural_info.total_page_number):
+            self._validate_page(page_number)
+
+    def _validate_page(self, page_number):
+        """Validate a single page."""
+        self._validate_reader_page_coherence(page_number)
+        self._validate_page_structure(page_number)
+
+    def _validate_reader_page_coherence(self, page_number):
+        """Validate reader page number matches expected."""
         original_reader_page = self.reader.pages[page_number]
         original_reader_page_number = self.reader.get_page_number(original_reader_page)
         if page_number != original_reader_page_number:
             Warning(
-                f"Python page number does not match pypdf::reader page number:\n   - Python page number:  {page_number}\n   - pypdf::reader page number: {original_reader_page_number}"
+                f"Python page number does not match pypdf::reader page number:\n"
+                f"   - Python page number:  {page_number}\n"
+                f"   - pypdf::reader page number: {original_reader_page_number}"
             )
+
+    def _validate_page_structure(self, page_number):
+        """Validate page has required structural info."""
+        pages_info = self.structural_info.pages_info
+        if page_number not in pages_info:
+            return
+
+        page_info = pages_info[page_number]
+        key_type = self.structural_info.KEY_TYPE
+        key_chapter_info = self.structural_info.KEY_CHAPTER_INFO
+        key_name = self.structural_info.KEY_NAME
+
+        if page_info.get(key_type) == "chapter":
+            if key_chapter_info not in page_info:
+                WarnAndExit(f"Chapter page {page_number} missing chapter_info.")
+            elif key_name not in page_info[key_chapter_info]:
+                WarnAndExit(f"Chapter page {page_number} missing name in chapter_info.")
 
     def break_document_into_chapters(
         self,
