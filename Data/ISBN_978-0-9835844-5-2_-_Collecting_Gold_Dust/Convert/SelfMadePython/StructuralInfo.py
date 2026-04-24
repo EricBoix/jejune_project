@@ -352,7 +352,5 @@ class StructuralInfo(StructuralInfoBase):
 
     def book_title_page_header(self, page_number):
         return (
-            self.convert_to_logical_page_number(page_number)
-            + r" \| "
-            + self.book_title
+            self.convert_to_logical_page_number(page_number) + r" \| " + self.book_title
         )

@@ -1,8 +1,7 @@
 
-COLLECTING GOLD DUST: Nurturing the Dhamma in Daily Living
-==========================================================
+# COLLECTING GOLD DUST: Nurturing the Dhamma in Daily Living
 
-# Introduction (ghost chapter)
+## Introduction (ghost chapter)
 
 
 COLLECTING GOLD DUST
@@ -31,7 +30,7 @@ it’ll just be a burden.
 
 Create your world. It’s a game called Master Mind.
 
-# Acknowledgements
+## Acknowledgements
 
 
 My special gratitude goes to my teacher, the late Venerable Shwe Oo Min Sayadaw Bhaddanta Kosalla Mahāthera, who taught me the Dhamma and right attitude for my spiritual development and meditation practice.
@@ -40,7 +39,7 @@ I want to express my appreciation to all yogis. Their questions and difficulties
 
 Finally, I would like to thank everyone who has contributed to the completion of this book. Sayadaw U Tejaniya
 
-# Dear Reader
+## Dear Reader
 
 
 It doesn’t take long for a yogi (meditator) new to Sayadaw U Tejaniya to notice humor permeating his teachings. Whether it is making an observation on his surroundings or commenting on the environment of the mind, Sayadaw, or “the Teacher” as his disciples fondly call him, delivers his teachings with a good dose of wit.
@@ -69,7 +68,7 @@ Finally, this book is by no means comprehensive, and not meant to replace Sayada
 
 This book is dedicated to all the beings in the universe.  With much mettā, Tony Reardon Laura Zan
 
-# On Language
+## On Language
 
 
 We work within the limits of language to describe the process of clear seeing that is at times difficult to pin down with words. As such, some rules of grammar may be bent a teeny bit. A construct like “the mind is knowing” instead of “the mind knows” is used in instances where it seems more appropriate to describe something in process. The following words are used interchangeably: watching, being aware, observing, being mindful, recognizing, noticing, and paying attention. You may also see the word “yogi” used often, which is Sayadaw’s reference to a meditator. “Dhamma” with a big “D” refers to the teachings of the Buddha and the practice of meditation while “dhamma” with a little “d” refers to natural phenomena, natural law, or object.
@@ -80,7 +79,7 @@ We have also used the singular “they” as a gender-neutral pronoun where poss
 
 Pāḷi and English words have been used throughout the book although we have limited Pāḷi usage to make this daily life book as accessible as possible.
 
-# A Note from the Teacher
+## A Note from the Teacher
 
 
 You may be finished with a formal retreat for now but remember that the dhamma is everything, so it is everywhere, all the time. Don’t lose track of that. You can persevere and continue practicing at home. Practicing the Dhamma includes all the practices of right thought (which is a fundamental part of right view), right speech, and right action. Practicing the Dhamma begins with a mindset change that, if we are able to take it on, may eventually lead to a lifestyle change. It is really worth the effort. The right efforts bear fruit when sufficient conditions are fulfilled. The Buddha said, “If you look after the Dhamma, the Dhamma will look after you.” Looking after the Dhamma simply means practicing it. After a certain point, the Dhamma will carry you along on its wave. So keep going!
@@ -145,7 +144,7 @@ Finally, we all have to live, but we must ask ourselves: Are we truly alive? If 
 
 When I know the mind is aware, there is a very strong feeling of goodness. I greatly wish for yogis to understand and appreciate fully the value of awareness + wisdom and their role in helping develop all of the wholesome qualities of the mind. This is the basic understanding that will carry the rest of the practice.
 
-# Mindfulness is a Lifestyle Change
+## Mindfulness is a Lifestyle Change
 
 
 When a retreat begins, defilements will negotiate with the yogi: “Okay, how long do you want to practice for? One month? Two months? Three months? All right. We’ll leave you alone for that long. But when the retreat is over, then it’s our turn again!” And it really is their turn again. Delusion loves hearing the line, “The retreat is over!” It is very common to think that we’ve finished meditating. When this happens, it is now time for defilements to come back out to play.
@@ -155,7 +154,7 @@ When I was younger, I went for long retreats of six to ten months at a time. My 
 When you return home, remember that you are there, at home. You should remain in the present moment there. The present moment is the only real thing. Stay where you are because the now is always now, there is no “after now.” You’re trying to have mindfulness in this mind and the only effort is to remember to be mindful in the present moment. Through everything in your life you are remembering to be mindful, remembering how to be mindful, and building and maintaining samādhi, or stability of the mind.
 
 You use the information that you have, combined with intelligence, logic, and reasoning to figure out how to practice correctly. Next, you learn how to keep these already developed insights alive. Finally, you figure out how to develop even deeper levels of insight.
-## MEDITATING ALL THE TIME
+### MEDITATING ALL THE TIME
 
 
 We must be walking on the Noble Eightfold Path of sīla (moral conduct), samādhi (stability of mind), and paññā (wisdom). This particular aspect of meditation, where you need to be practicing it all the time for it to be alive and beneficial becomes apparent to someone who practices continuously. We really need to be a close friend of the Dhamma in order to grow in the Dhamma. It is when we are in such close communion with the Dhamma that we can grow in it. Otherwise, there is not much growth. How can the Dhamma grow in us if we are not always living the Dhamma?
@@ -176,7 +175,7 @@ Let’s use a business analogy to think about meditation. You secure some initia
 
 Does all this discourage you or propel you to press forward and go the distance? Sometimes it is hard to tell yogis the truth because I worry that I might make it all sound too difficult! (Laughs.) But it’s the truth. Can you imagine how much practice that is going to take? We want to turn the momentum of the current mind completely around so that it is going in the direction of wholesome momentum rather than unwholesome momentum. Now, when we look, it is natural for liking and disliking to arise. When we hear something, liking and disliking arises in the mind. That is natural for us now. Later, with more practice, it becomes natural for awareness + wisdom to be present when we look, hear, smell, touch, taste, or think. Then we can begin to trust that awareness + wisdom.
 
-## MAINTAINING A STABLE MIND
+### MAINTAINING A STABLE MIND
 
 
 While I began practicing from a young age, I really started practicing at home in the midst of much suffering. I was in constant pain and sleep was my only rest. Every morning I woke up and the difficulty started again. I did not communicate much at the time. The only question I asked myself at that time was, “Why is the mind suffering?” This question really motivated me to keep watching the mind all the time. At first it was just suffering and I didn’t know why. But slowly, from watching that continuously, awareness and samādhi grew and the mind became more peaceful. There was less suffering.
@@ -195,12 +194,12 @@ Sometimes, even if you’re not watching a lot of objects, you can know the main
 
 Yogis want to improve the quality of the mind but if you haven’t seen the mind, the mind cannot change! In daily life, you may put in a lot of effort into your work with little energy left for awareness and awareness needs some energy as well. If you are not skillful at using just enough energy for awareness, you’ll use too much energy and won’t have enough to do normal work. Learn to use just enough energy, and then practice continuously. You will become skillful if you do this every day.
 
-## BECOMING ENERGIZED
+### BECOMING ENERGIZED
 
 
 It’s very important to know the meditating mind that is at work because it allows us to see cause and effect and also helps us to continue doing the work. It strengthens and energizes the mind. Even when we observe that awareness is present, we must also be clear about the object it is knowing. Both must be clear in order to have a complete picture of the workings of awareness in the present moment and thus for wisdom to arise.
 
-## HOW DO WE MAKE INROADS?
+### HOW DO WE MAKE INROADS?
 
 
 For most of us, awareness + wisdom are not ready and on standby so defilements are allowed to arise over and over. It’s a vicious cycle: we can’t get peace; then we can’t make inroads into the practice; so we can’t get peace. Even if we forget about wisdom for a while, we are not even able to really continuously maintain just awareness and stability of mind in our lives.
@@ -215,7 +214,7 @@ Skill and understanding of how to do right practice is very important. When we b
 
 I would liken mindfulness to a mother tending to a baby. Having children is a huge enterprise, as all mothers will know. I once observed a mother caring for her two-year-old and saw just how skillful she was with the toddler as he sat on her lap. She held a conversation with four other people while feeding the child. As the toddler moved in her lap, she adjusted along with him, and every now and then gave him some food, and if he didn’t like what she gave him, she would put the piece down and give him a different piece and later on pick up the original piece again to give the child. Sometimes she would eat it herself, always going with the flow, not making judgments of the child. Meditation is like this. We may find it difficult in the beginning to mind what we are doing and be mindful as well but it’s all practice and habits.
 
-## INQUIRY AS A PART OF PRACTICE
+### INQUIRY AS A PART OF PRACTICE
 
 
 If thoughts are too subtle, and you don’t catch the thoughts, then the causes will not show themselves. So there can be awareness and stability of mind, but wisdom is missing from the picture. There needs to be a little bit of inquiry. First, we are mindful of what is happening as we move around in daily life. Then, later on, we’ll begin to notice why our limbs are moving like that. There’s a reason behind it. Whether it’s action, speech or mind, there’s some kind of idea behind these actions. There is no speech or action without some idea fueling it.
@@ -244,7 +243,7 @@ When I practiced at home, I would talk with my teacher once every week or so. If
 
 My teacher never told me not to think. He didn’t exactly encourage me to think either, but he did ask me questions that required me to be aware and to reflect on how I was practicing. I eventually discovered the answers and realized that one finds answers by being aware and by questioning. When you begin with the why, you are already bringing out your internal curiosity and intelligence. You’ll have many questions initially in the learning phase, but you won’t have that many in the wisdom phase. At that time, the mind will be clearer and less cluttered. The student is inside you. The teacher is also inside you.
 
-## “IF YOU LOOK AFTER THE DHAMMA,
+### “IF YOU LOOK AFTER THE DHAMMA,
 
 
 THE DHAMMA WILL LOOK AFTER YOU” This work is possible. You need to be patient and work through it for a few years continuously and patiently. You need to taste the full flavors of Dhamma: of knowing, of awareness, and of understanding. You all have to cultivate your own energy and your own wisdom. When you have tasted enough Dhamma, it will lead you along. When I practiced like that, I finally understood the meaning of if you look after the Dhamma, the Dhamma will look after you. Or if you take care of the Dhamma, the Dhamma will take care of you. When you really practice long term, the practice just becomes nature. When the practice becomes nature, it also becomes your nature to understand dhamma nature.
@@ -254,11 +253,11 @@ Sometimes meditators are under the impression that they must practice in a speci
 You are learning how meditation operates.
 
 
-# Take a Closer Look
+## Take a Closer Look
 
 
 My teacher constantly reminded me that all the problems in the world originate from the trio of lobha, dosa, and moha. Keep an eye on them. Watching and keeping these unwholesome qualities at bay will allow the wholesome qualities to arise automatically.
-## THE SPECTRUM OF WANTING
+### THE SPECTRUM OF WANTING
 
 
 When there are lots of pleasant physical sensations, we may become greedy for more. Watch this greed while continuing to keep an eye on awareness as much as possible. When the wanting is very subtle and not detectable, you are at least still able to recognize the presence of awareness. With an awareness of awareness, it is harder for the mind to get lost in the pleasant sensations. Additionally, having to work at being continuously aware makes it harder for greed to wallow in the feeling.
@@ -269,14 +268,14 @@ Lobha entwines itself around an object. Will it wrap itself around an object and
 
 Let’s deconstruct attachment down to its nature. You may be attracted to a particular person and you think you like the person as a whole. What exactly is it that you like about this person? Do you like their eyes or hair? Do you like the way they behave or the way they smile? Are you attracted to a mental quality? Do you have some idea about this person? Are they kind? Do they evoke a certain feeling that you do not get elsewhere? What particular characteristic is the mind wrapping itself around? Delusion can be so strong that we are initially attracted to a particular characteristic but as we are trapped and move towards the object, we come to believe we like the whole thing. Delusion spreads the view that this whole thing is fantastic! Only one or two characteristics reel us in and then delusion ensnares us whole. Check what catches your own mind and notice the experiences you are trying to recreate or re-experience through this particular product, person or experience.
 
-## THE WISH FOR EVERYTHING TO BE OKAY
+### THE WISH FOR EVERYTHING TO BE OKAY
 
 
 Everyone has a lot of craving, but there is one very strong, but elusive craving. It is the desire for everything in life to be okay. This desire for everything to be okay is very strong and powerful, but we are not aware of it because it hits us at the subconscious level. We grow up thinking that everything must work out the way we want it to and become upset when something tiny goes wrong. The mind immediately becomes frustrated at the slightest hiccup. For example, if we want 10 things and we get all of them, the mind calms down without a problem. If we can’t get one or two out of ten, the mind becomes agitated. If we can’t get half, the mind goes into depression. If we can’t get any, the mind may go crazy.
 
 Don’t expect that everything should be okay. The future is open and there is a 50% chance that the things that we do not want can happen to us. We need to be prepared for this eventuality. What is obvious is that we will age, become sick, be separated from our loved ones and die. Dukkha is certain.
 
-## WHY IS THERE AVERSION?
+### WHY IS THERE AVERSION?
 
 
 Let’s talk about aversion and the gamut of emotions ranging from sadness, sorrow, and fear, to hatred, anger, ill will, and other forms of aversion. Why is there aversion? Why is it happening? Whose aversion is it? Study this emotion as it arises and as it is happening in order to understand its nature. If there is some kind of understanding already about the nature of aversion, it is very hard for it to grow in intensity.
@@ -287,7 +286,7 @@ So you see, it’s not enough to just to know whenever something arises. You hav
 
 Investigate these things and study the mind’s phenomena at work. Recognize the internal chatter every time there is thinking. What kinds of thoughts are there when you are alone? What kinds of thoughts are there when you are with others? How does the mind think in these circumstances? You need to see all of these things.
 
-## ZERO TO ONE MILLION
+### ZERO TO ONE MILLION
 
 
 There was a time in my lay life when I had been practicing continuously for a year or so and I hadn’t had a major bout of anger for quite some time. I woke up sick one day and I went to work anyway and managed the family business alone. Little dissatisfactions accumulated throughout the day but I didn’t take the time to work through them or clear them out.
@@ -300,7 +299,7 @@ Seeing all of this in one big picture, I made a vow that I wouldn’t let someth
 
 Ask yourself why when you find yourself getting angry at something. Question why you continue to be angry and why you are getting even angrier. There’s fuel somewhere. With many people, anger would go straight from zero to one to one million! Instead of cooling it with water, we’re all dousing this anger with gasoline! So whoosh, whoosh, whoosh, of course it would grow!
 
-## DELUSION
+### DELUSION
 
 
 There are always subtle defilements underneath and delusion is always there. Delusion is there whenever wisdom is not there. It is only in those brief moments when wisdom is present that delusion is not present. How many times does the idea of “I” not happen? You may notice it for a brief moment then delusion comes in to cover the wisdom up immediately.
@@ -324,7 +323,7 @@ Wisdom increases faith; anyone who understands the value of mindfulness and has 
 goes out; when there is more fire, the burning continues.
 
 
-# Reflect. Learn. Keep Going.
+## Reflect. Learn. Keep Going.
 
 
 Daily life will be full of ups and downs when greed, anger, delusion, and all their relatives come on strong. The wisdom you’ve got may not be sufficient enough to stop them. How do you approach such a situation? The first step is to accept whatever is happening in the mind as it is. Accept that this is just the nature of the mind. Unless you accept, you will be fighting defilements with defilements. I draw the analogy of trying to accelerate a car with one foot on the brakes! The car won’t move.
@@ -340,7 +339,7 @@ Cultivate curiosity and interest—they are important ingredients. Don’t be af
 PAY ATTENTION TO SKILL AND RIGHT EFFORT The dhamma encompasses everything. All the good and all the bad are all nature. You may only want the good and not the bad but that’s impossible to have. You will have negative reactions. When there is insufficient understanding into phenomena or the wrong attitude towards an experience, you will have a negative reaction and you can’t stop that. Just know that a reaction is happening. Know it and understand it, but don’t try and stop it. Everything will fall into place once there is understanding. Wisdom will know how to balance, do what needs to be done and drop the unnecessary bits. Don’t force something to happen. This goes against nature. While you can’t get something just because you want it or you work for it, there are two things that will move us forward: how much you do and how skillful you are. Pay attention to applying skill and right effort— these pieces deserve your attention. Meditation is not like the lottery; you don’t pay a little and win a huge windfall.
 
 Reducing defilements is a learning process, and you will find that your understanding slowly emerges and moves toward the middle path as you recognize the extremes. Suppressing and expressing are the two different extremes, but you will experience them. Watch what the mind does in those moments, learn what is beneficial and adjust accordingly. If you think something is good, you’re at one extreme, if you think something is bad you’re at the other extreme. You have to see things as they are and where they lie. Therein lies the Middle Way. For example, when a defilement arises in the mind, you neither try to stop nor encourage the defilement. Exercise right view in remembering that this defilement is not you. The defilement will express the amount of power it has and you can’t prevent that. Just step back and keep an eye on the defilement, consistently and patiently, learning and figuring out how it functions and its job description. This is a learning process.
-## HOW TO WORK WITH DIFFICULTIES
+### HOW TO WORK WITH DIFFICULTIES
 
 
 How can we view the world through the lens of Dhamma? When we are thinking about the world, we are already thinking about concepts; we are thinking about people, places, and situations. When the mind pays attention to concepts, either wholesome or unwholesome states of minds will come up depending on how much wisdom we have.
@@ -368,7 +367,7 @@ If you want to improve, you first work continuously without a break. You also us
 got to be savvy and learn from your practice.
 
 
-# Day-to-Day
+## Day-to-Day
 
 
 When you are aware of what’s happening in the mind, you begin to notice the undesirable parts and will want to change. This is a beginning. The lessons are all there for you to go through and learn. Later on, if you really come to understand that something that is wrong is wrong, you will not repeat it again.
@@ -390,7 +389,7 @@ DOING WHAT SHOULD BE DONE Yogis usually know about the Five Precepts and Eight P
 There are two aspects of sīla or moral conduct: the doing of what should be done, and the not doing of what should not be done. If you know the Pātimokkha (the Buddhist monastic code), the Buddha says to do good, avoid evil, and purify the mind. The Buddha says to do what should be done. The Five and Eight Precepts that we always talk about is abstaining from that which should not be done. Remember that there is also the other side: do as much as possible of what should be done.
 
 If we are being mindful all the time and wisdom is growing, we begin to understand what should and shouldn’t be done, because we will observe the effects of our actions and learn from that. In my experience, my behavior changed through continuous practice. I became very calm and spoke very little or not at all if it was not important. I was serious when I did talk. Being very careful in speech became important in my practice. I practiced refraining from lying, slander, gossip, talking nonsense, speaking harshly, and idle chatter. And as a result, my meditation deepened.
-## CAUSES AND CONDITIONS
+### CAUSES AND CONDITIONS
 
 
 Every person acts largely out of their own past causes and conditions. People brought up in Asia have a certain cultural conditioning and people brought up in the Americas or Europe have their own kind of conditioning. Then there’s individual conditioning, parental influences, and each person’s experiences throughout life; there are so many combinations and permutations that everybody has a unique footprint.
@@ -405,7 +404,7 @@ I say this a lot: when yogis successfully observe something unwholesome and it p
 
 I usually tell yogis to stay away from the storyline, but it can help to see the idea that the story carries. The story might be, “Anne was making a noise and I felt really angry with her” while the idea behind that might be “people shouldn’t make noise.” This idea influences the mind. But when it is seen clearly for what it is, that this idea is not helpful, then it can be let go.
 
-## RELATING TO OTHERS WISELY
+### RELATING TO OTHERS WISELY
 
 
 We get into a lot of trouble when there is attachment. When you or the other person is clinging to each other or to the relationship, double trouble! For example, thinking that you will be okay only if your children are okay implies that the mind is reliant on somebody else for its mood and that takes away the mind’s freedom. This is a strong delusion. With attachment come anger, anxiety, fear, and doubt but if there’s wisdom there can be loving-kindness, compassion, sympathetic joy, and equanimity. When the mind doesn’t believe that its suffering comes from other people, situation or places, then it is free.
@@ -414,7 +413,7 @@ An old couple was once asked how their relationship had lasted 50 years. One of 
 
 So, love as much as you can but do not get attached. What emotions come up when you think about someone you love? If there is only love, there is only happiness. But love can get mixed up with a bit of attachment and that’s followed by fear. Loss is a natural part of life so there will be loss eventually. We need to understand it instead of fearing it. Every day we are losing time, losing the object, losing awareness, in every moment.
 
-## SPEAKING MINDFULLY
+### SPEAKING MINDFULLY
 
 
 We must be aware of ourselves every time we speak; come to know the many steps the mind goes through to speak. If yogis make a habit of knowing themselves, then awareness when speaking will naturally become part of that habit.
@@ -443,7 +442,7 @@ It’s good to know, as information, that, it is possible to be mindful when you
 
 It is very easy for defilements to come into our speech when we speak about ourselves, when the “I” becomes involved. At home we usually speak without mindfulness and it is this habit, rather than mindfulness, that tends to come in when we speak. When we are speaking, there are three things we can be mindful of: our mind, our speech and our body. If we know our mind then we should definitely be able to filter that into knowing our speech and our body as well.
 
-## SEEING IS DIFFERENT FROM LOOKING
+### SEEING IS DIFFERENT FROM LOOKING
 
 
 You need to have your eyes open while meditating in daily life. I learned how to be aware with my eyes open because fellow shopkeepers used to tease me when I meditated at work with my eyes closed. They thought I was sleeping on the job! So I learned to pay attention to the internal landscape while keeping my eyes open. I eventually became more skillful at knowing the difference between seeing and looking, and the people I worked with didn’t even know that I was meditating.
@@ -454,7 +453,7 @@ When we do not understand the reality of seeing, then sometimes putting attentio
 
 It’s a similar story with the act of looking. We want to pay attention to the mind that is doing the work of focusing on seeing in order to pick up something visually or to use certain information in order to function. You can’t physically know looking but you can know that the act of looking is happening. It’s not something tangible but you can know that it is happening. This is because reality is not solid. We can understand reality or we can know reality but that’s all we can do. If we are able to be aware of awareness, able to know the mind that is doing the work of being aware, then that awareness will pick up seeing or looking on its own. These little skills are necessary, particularly in daily life.
 
-## THE PROCESS OF EATING
+### THE PROCESS OF EATING
 
 
 All six sense doors are working while you’re eating. Do you know everything that is happening? If you forget yourself while you are eating, there will be a lot of eagerness there. Eating often has a kind of excitement and eagerness that accompanies it. So before you start eating, check and see if there is eagerness. When this excitement calms down, awareness will become steadier.
@@ -465,7 +464,7 @@ Taste has nothing to do with it. Some of you probably were turned off by the sme
 
 So, let’s relate this to your daily life. When you are outside and you judge a certain kind of sound as distracting or bad, then perhaps you will go looking for a place where there are no sounds. Can you find any place without sound? You have to understand the nature of sound. You may consider a certain kind of sound noisy, distracting, or bad. You may then go in search of a place without sounds. But can you find any place that is completely silent?
 
-## THINKING PROCESSES
+### THINKING PROCESSES
 
 
 We need insight into the nature of the thinking mind because much of our suffering comes from thoughts. Have you ever thought, “What if this car gets into an accident?” How did that feel? There is fear when “I” is involved but the mind is free when it knows a thought as just a thought.
@@ -482,21 +481,21 @@ Know that not all Dhamma-related thinking will necessarily be wholesome. Sometim
 
 If you can see the wanting to think, know that. Observe the intensity of the wanting. When, through skillful observation, the wanting diminishes, the thoughts will also diminish. If you can’t see the intentions to think just switch back and forth between thoughts and body as objects.
 
-## LOST IN THOUGHT
+### LOST IN THOUGHT
 
 
 Do you know that you are walking when you are walking around in daily life? You will often be lost in thought. If you realize that this is happening, just know, “The mind is thinking.” What is important is what is happening in this moment. You can do what you need to do when you arrive at your destination; there’s no need to think about it now. This way the mind will also think less about the future. You can expend a lot of mental energy speculating about the future without actually knowing what is going to happen. If you discover a very different outcome than what you had expected, you have spent a lot of energy on imagination!
 
 There was a businessman who went to the market to buy goods wholesale to resell later. His journey to the market was filled with thoughts of various prices, how he would try to get there before everybody to get the first pick of goods. When he arrived he found there was nothing there for him! This businessman was a yogi and so he was aware of what his mind was doing this whole time. He realized how much time he had wasted speculating and determined that on future market trips he would relax and make decisions when he arrived.
 
-## MEMORIES AND PLANNING
+### MEMORIES AND PLANNING
 
 
 The concept or story is about the past or future but the knowing of that is in the present moment. You need to consider how you might respond to a certain situation so that you arrive prepared, but this is not the same as worrying about a situation. If you are planning and knowing with wisdom that this is happening, that’s the present moment. Planning is necessary but could be done with either defilements or wisdom. Do you worry when you’re planning? Some people plan with greed and others with anxiety but there is a way to plan and think in a relaxed way.
 
 Thinking about past events will also happen naturally from time to time and there’s nothing you can do about it. You can’t go back and change the situation. You can only revisit the past in thought. However, you can learn a lesson and not repeat the same mistakes. One yogi realized that the idea of “one second” of time was a concept and the past dropped away for him with this understanding.
 
-## AWARENESS AT WORK
+### AWARENESS AT WORK
 
 
 Meditating at work is a skill and by skill, I mean lots of practice! Initially, of course, when you pay attention to outside phenomena, you can’t concentrate on phenomena inside; when you put your mind inside you can’t really be aware of what is happening outside. Initially you might not be able to be aware of inside and outside when you are working but try to practice whenever you can to allow momentum to build. At some point awareness will kick in naturally while you’re doing something you’re really absorbed in. Getting to this level of awareness requires consistent practice.
@@ -509,12 +508,12 @@ When you have a continuous practice that reminds and remembers and knows the min
 
 We encounter this all the time. In Western society, people wait in a queue or line because there is a belief that people should wait their turn for something. There is a dissonance when someone cuts that queue/line and thoughts that they should be in line start coming up. Or different thoughts of fairness might come up. There could be another kind of belief, “I wanted to get to my food and she has slowed that down by jumping the queue.” The mind has convinced itself of all these strands of thought! At times like these, we should ask ourselves, “What internal belief is being thwarted here?” Right now, someone’s actions are frustrating these beliefs and the mind justifies this anger against the other person!
 
-## STRINGING EACH OTHER ALONG
+### STRINGING EACH OTHER ALONG
 
 
 In daily life, we give each other compliments and thank each other for their compliments. We string each other along by reinforcing the need to look good and feel good. If instead we had said, “You look really terrible,” the listener might get irritated because people want to feel good. We are often at the mercy of other people’s words, compliments or insults and are generally automatically affected. When there is an understanding of how these thoughts work in the background, the wanting will disappear.
 
-## FEELING LIKE BEING TAKEN ADVANTAGE OF
+### FEELING LIKE BEING TAKEN ADVANTAGE OF
 
 
 It is very important that there is a right attitude when we are working in the world. Sometimes we may feel like we are being taken advantage of or being taken for granted. How different would it be if we thought these people were acting in a certain way because they didn’t know any better? If someone were bullying you, it would be really tough to handle! You may get tense, agitated or angry with the bully. What if you thought that this person was only inadvertently doing these things because she didn’t know better? How would you feel then? You can better understand and forgive. SELF-JUDGMENTS “Bad” is just a label. Don’t label yourself that. When the mind is wholesome, the person is good and when the mind is unwholesome, the person is bad. It’s only for that moment and that’s always changing. Continue to practice and take your time; the fact that you are practicing shows that your mind wants to become better and that means that the mind will become better.
@@ -523,21 +522,21 @@ When doubt is strong in the mind, do not pay attention to these thoughts. Once w
 
 Everyone has his or her own path and there’s a natural course that needs to unfold for each person. You can watch what’s happening in the mind and understand it, but you can’t force it. You may learn a technique at a retreat, but it is when you go home that you can apply that technique all the time. That’s when your life changes.
 
-## PRECONCEPTIONS
+### PRECONCEPTIONS
 
 
 How do you experience silence? How do you experience the stillness of a garden or the woods? I’ve asked different people this question. Fear comes up for some people. Youngsters tell me that they get bored when there’s nothing to occupy them. As you can see, good or bad depends on the person experiencing it, depending on their preconceived feelings of it.
 
 There are tons of these accumulations that you have from childhood and you really want to see these ideas that have built up over the years. If these little preconceptions are seen properly, then the mind will no longer be disturbed by what is happening. If you continue to meditate regularly, there ought to be fewer and fewer attachments.
 
-## GIVING COMES IN DIFFERENT WAYS
+### GIVING COMES IN DIFFERENT WAYS
 
 
 The market where I had my shop was a very busy place. Lots of shops were lined up side by side with narrow alleys between them. Shopkeepers sent goods in and out with carriers who ran back and forth for the shopkeepers. People would run quite blindly, not caring who was in the way. I would get irritated whenever I had to get out of the way, which was quite often! I knew that people would run into me if I didn’t move aside, but also became annoyed that I was the one who always had to be careful. This was a daily occurrence.
 
 When I began to practice continuously, I became mindful of my irritation with this market situation. After being mindful of it regularly for a long time, I actually began to see it as a good practice to give space to these people to prevent accidents and I saw moving aside as a practice of generosity. As I practiced day after day and mindfulness arose, good actions also followed. The aversion that accompanied the critical mind decreased. With aversion gone, I began to feel mettā for these people.
 
-## DIFFERENT EXPERIENCES, DIFFERENT REACTIONS
+### DIFFERENT EXPERIENCES, DIFFERENT REACTIONS
 
 
 In daily life, where wisdom may be weak, you want initially to pay attention to awareness. The mind can recognize the situation happening while awareness naturally collects data in the background. As awareness picks up more data from the experience, and the picture becomes complete and wholesome minds grow stronger, you will eventually stop acting out of defilements.
@@ -571,7 +570,7 @@ We are not patient with gentle awareness; we do not believe it will work or trus
 it will grow into something.
 
 
-# A Lighter Approach
+## A Lighter Approach
 
 
 When I began to meditate in earnest at home, my awareness was inconsistent. I over-compensated for this spotty awareness by putting in a lot more personal effort. I wanted to be as mindful as possible but I was just too tired to do any more than that. Even then, there was only so much I could do. After some time, I began to notice a lighter, general, but discontinuous awareness that, done day after day, formed a pattern of long-term practice. The momentum that came out of general awareness created these dots that came together to form a tsunami of awareness that could be seen clearly.
@@ -581,7 +580,7 @@ We do not believe gentle awareness will work or trust that it will grow into som
 The idea of figuratively looking lightly out of the corner of your eye describes a kind of awareness that watches the workings of the mind in its receiving state. The mind becomes aware of all the objects that match this mental frequency. Alternatively, when we turn and pay attention solely on the objects, and make too much effort to see these objects, it will feel like the objects have disappeared because the observer and observed are no longer at the same frequency. We can use an analogy with the optometrist here. When you go to the optometrist, they might have you try out different power lenses to determine what would work for you. When the power is right for you, then you see the letters clearly. When the optometrist tries out a power that is too low or high, the letters on the chart become blurry. It’s the same deal with the mind that is at the right frequency with objects. While you may assume that putting in more personal effort will yield better results, you may still not be able to see clearly.
 
 A light, general awareness allows us to continue functioning, to do the activities we need to do while a light recognition of what is happening works steadily in the background. This very gentle awareness, while not continuous in the beginning, will eventually gain momentum. When it becomes a natural, continuous awareness, it will really feel like you’re aware and you’ll feel like you’re living this awareness in everything that you’re doing. For me, it was at this point that I really understood the true nature of vipassanā meditation and began to believe that it is possible to become enlightened while living life.
-## USING WISDOM
+### USING WISDOM
 
 
 Meditators often forget to use their natural wisdom when they meditate at home because they haven’t practiced using it. Investigate and use your wisdom to check in on whether awareness is present and how much effort is being used instead of blindly putting in more effort. Here are some considerations: Can you see your level of effort? Is there stability of mind? Do you know what that experience is like? Do you know your level of confidence or faith? Is wisdom at work? Meditators can normally recognize when there is awareness. However, fewer meditators can recognize wisdom at work.
@@ -598,7 +597,7 @@ We need to use wisdom the way we use our intelligence to solve problems, grow ou
 
 Set yourself free! Do what you need to do to meditate instead of holding certain ideas in your heads without considering an appropriate solution.
 
-## CREATING A DHAMMA COMMUNITY
+### CREATING A DHAMMA COMMUNITY
 
 
 Before I began meditating, I was the black sheep of the family. My words carried little to no weight because I was known to lie about things. But about three years into my practice, I spoke less and less, as I watched my speech very carefully. By then, everyone would listen whenever I spoke because what I said was something of value. They listened because they knew that what I said had a lot of thought behind it. Sometimes my family would be unnerved because they knew what I was saying to be the truth.
@@ -634,7 +633,7 @@ Only when we see the nature of the mind
 will we understand the nature of dhamma.
 
 
-# Continuing the Work
+## Continuing the Work
 
 
 A CAUSE AND EFFECT CHAIN yogi in one of my retreats had some questions surrounding free will. When we talk about the process of conditioning, remember there’s a stream of minds in the conditioned process. The conditions in one mind bring the effect into the next mind and then, whatever the mind chooses to do in the next moment adds a little to that quality, or takes away from that quality. It then passes away and then this condition gives rise to the next mind and then it passes away and the effect is given to the next mind. Every mind begins with something, a condition, but that mind has a moment in the present to choose its contribution to the moment in terms of action or non-action, before that mind passes away. “Everything is conditioned” just means that there is a stream that’s going on and the present moment has been conditioned by the past. At the same time, there is an element of choice in the present through wisdom because wisdom has free will. As a result, that wisdom has the ability to choose to take whatever action or non-action it would like. All things are conditioned but also you cannot imagine the vastness of kamma that you have accumulated that has the potential to flower in every moment.
@@ -646,7 +645,7 @@ If only delusion were present, then the conditioning is set and this person woul
 Awareness allows the mind to choose. You might hear someone talk about something or you might come across a book that opens up a bit of wisdom. You may borrow some wisdom from a book or person, consider it, and apply it to your life to bring about more wisdom. In this way, we can see how awareness + wisdom yields freedom of choice.
 
 While I’ve said all this, I also don’t advise yogis to reflect too much on these matters. It’s easy to get lost in conceptualization and abstraction on these topics, and thus to drift far from the present moment. One of the conditions for wisdom to arise is to think deeply about the Dhamma, but it absolutely needs to be grounded in Right View and Right Thought.
-## BUILDING UP INSIGHTS
+### BUILDING UP INSIGHTS
 
 
 When we are experiencing an emotion, we can both be with the emotion and understand the nature of the mind that is feeling aversion or craving for this emotion. This is a more powerful realization than just being relieved of the emotion for a moment. Understanding that this is just mind, and there’s no one here, but only conditions is an insight.
@@ -661,7 +660,7 @@ I would like yogis, especially for those who have been practicing for years, to 
 
 Of course it is not possible to just switch, to immediately change the paradigm. But it is good to have this information because this will enable you to sometimes switch into this new mode. This way you will slowly understand what is actually happening and this will enable you to let go of the old paradigm. That’s why momentum is so important, when things continue under their own steam and you can really see that you are not involved. If you just practice continuously and correctly, understanding will arise. Once you gain some understanding that this process is just happening, the mind will start seeing things more and more from this perspective.
 
-## GATHERING MOMENTUM, COLLECTING GOLD DUST
+### GATHERING MOMENTUM, COLLECTING GOLD DUST
 
 
 If you reflect on this life alone and add up the amount of time that you have spent trying to be aware, to grow the practice, and wisdom, you will find that it is a small amount of time. Ignorance and defilements have been our companions from the time we were born. Things may seem impermanent but defilements always seem to be permanently there! If you understand cause and effect, however, you’ll see that defilements have always had their way. They are the ones whose impressions have run very deep. They are very strongly impressed in the mind and they leave a very long shadow to carry on their work through cause and effect. If our practice is intermittent, then we will not become any more skillful and any understanding will come to a standstill. If we neglect our practice altogether, delusion will begin to grow again and cloud over all the things that we once understood.
@@ -685,7 +684,7 @@ May All Beings Be Happy!
 Everybody has wholesome and unwholesome qualities in the mind but learning to cultivate the wholesome qualities is meditation. How do we cultivate these good qualities?
 
 
-# Appendix: Mindfulness in Brief
+## Appendix: Mindfulness in Brief
 
 
 Satipaṭṭhāna, or meditation on the four foundations of mindfulness (body, feelings, mind and dhamma) cultivates the good qualities in our minds. Everybody has wholesome and unwholesome qualities in the mind but learning to cultivate the wholesome qualities is meditation. How do we cultivate these good qualities? Meditation involves the things we observe (called objects) and that which is observing (the mind). It is important to remember that sights, sounds, touch, taste, smells, and thoughts or the experiences arising at the six sense doors do not meditate. We do not have to do anything to these experiences because they will always be there. These objects are just happening in the body and / or mind. Meditation is this latter part, the work of the mind, and the work to transform the mind.
@@ -744,7 +743,7 @@ If you are strongly attached to ideas, there will be triggers when someone else 
 
 Be a little extra careful at home. It is so much more interesting at home when mindfulness is always present, and especially when we bring mindfulness to daily life situations. In your talking to others you learn to see others’ intentions and learn to speak in a way that helps you to manage yourself and manage the conversation as well. We begin to know what we are going to say before we say it and eventually have time to choose the skillful path.
 
-# Dedication
+## Dedication
 
 
 This wonderful gift of Dhamma comes to you from the community of meditators and supporters for whom the Dhamma

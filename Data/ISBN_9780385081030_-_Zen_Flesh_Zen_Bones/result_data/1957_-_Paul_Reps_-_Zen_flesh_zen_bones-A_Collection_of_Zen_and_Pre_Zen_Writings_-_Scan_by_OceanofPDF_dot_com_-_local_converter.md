@@ -1,8 +1,7 @@
 
-ZEN FLESH, ZEN BONES
-====================
+# ZEN FLESH, ZEN BONES
 
-# Foreword
+## Foreword
 
 
 101 Zen Stories was first published in 1919 by Rider and Company, London, and David McKay Company, Philadelphia. These stories recount actual experiences of Chinese and Japanese Zen teachers over a period of more than five centuries.
@@ -43,7 +42,7 @@ The problem of our mind, relating conscious to preconscious awareness takes us d
 
 PAUL REPS
 
-# 101 ZEN STORIES
+## 101 ZEN STORIES
 
 
 Transcribed by Nyogen Senzaki and Paul Reps
@@ -69,7 +68,7 @@ The Noh dramas are Zen stories. Zen spirit has come to mean not only peace and u
 It has been said that if you have Zen in your life, you have no fear, no doubt, no unnecessary craving, and no extreme emotion. Neither illiberal attitudes nor egotistical actions trouble you. You serve humanity humbly, fulfilling your presence in this world with loving-kindness and observing your passing as a petal falling from a flower. Serene you enjoy life in blissful tranquility. Such is the spirit of Zen, whose venture is thousands of temples in China and Japan, priests and monks, wealth and prestige, and often the very formalism it would itself transcend.
 
 To study Zen, the flowering of one’s nature, is no easy task in any age or civilization. Many teachers, true and false, have purposed to assist others in this accomplishment. It is from innumerable and actual adventures in Zen that these stories have evolved. May the reader in turn realize them in living experience today.
-## 1. A Cup of Tea
+### 1. A Cup of Tea
 
 
 Nan-in, a Japanese master during the Meiji era (1868-1912) received a university professor who came to inquire about Zen.
@@ -80,7 +79,7 @@ The professor watched the overflow until he no longer could restrain himself. �
 
 ‘Like this cup,’ Nan-in said. ‘You are full of your own opinions and speculations. How can I show you Zen unless you first empty your cup? ‘
 
-## 2. Finding a Diamond on a Muddy Road
+### 2. Finding a Diamond on a Muddy Road
 
 
 Gudo was the emperor’s teacher of his time. Nevertheless, he used to travel done as a wandering mendicant. Once when he was on his way to Edo, the cultural and political center of the shogunate, he approached a little village mad Takenaka.
@@ -119,7 +118,7 @@ You may return now,’ suggested Gudo.
 
 Modern Zen teachers in Japan spring from the lineage of a famous master who was the successor of Gudo. His name was Mu-nan, the man who never returned back.
 
-## 3. Is That So?
+### 3. Is That So?
 
 
 The Zen master Hakuin was praised by his neighbors as one living a pure life.
@@ -138,7 +137,7 @@ The mother and father of the girl at once went to Hakuin to ask his forgiveness,
 
 Hakuin was willing. In yielding the child, all he said was, ‘Is that so?’
 
-## 4. Obedience
+### 4. Obedience
 
 
 The master Bankei’s talks were attended not only by Zen students but by persons of all ranks and sects. He never quoted sutras nor indulged in scholastic dissertations. Instead his words were spoken directly from his heart to the harts of his listeners.
@@ -161,7 +160,7 @@ The priest proudly stepped over to the right.
 
 ‘You see,’ observed Bankei, ‘you are obeying me and I think you are a very gentle person. Now sit down and listen.’
 
-## 5. If You Love, Love Openly
+### 5. If You Love, Love Openly
 
 
 Twenty monks and one nun, who was named Eshun, were practicing meditation with a certain Zen master.
@@ -174,7 +173,7 @@ Eshun did not reply. The following day the master gave a lecture to the group, a
 
 Addressing the one who had written her, she said: ‘If you really love me so much, come and embrace me now.’
 
-## 6. No Loving-Kindness
+### 6. No Loving-Kindness
 
 
 There was an old woman in China who had supported a monk for over twenty years. She had built a little hut for him and fed him while he was meditating. Finally she wondered just what progress he had made in all this time.
@@ -193,7 +192,7 @@ The girl returned and related what he had said.
 
 She at once went to the hut of the monk and burned it down.
 
-## 7. Announcement
+### 7. Announcement
 
 
 Tanzan wrote sixty postal cards on the last day of his life, and asked an attendant to mail them. Then he passed away.
@@ -208,7 +207,7 @@ Tanzan
 
 27 July 1892.
 
-## 8. Great Waves
+### 8. Great Waves
 
 
 In the early days of the Meiji era there lived a well-known wrestler called O-nami, Great Waves.
@@ -227,7 +226,7 @@ In the morning the teacher found O-nami meditating, a faint smile on his face. H
 
 The same day O-nami entered the wrestling contests and won. After that, no one in Japan was able to defeat him.
 
-## 9. The Moon cannot be Stolen
+### 9. The Moon cannot be Stolen
 
 
 Ryokan, a Zen master, lived the simplest kind of life in a little hut at the foot of a mountain. One evening a thief visited the hut only to discover there was nothing in it to stea1.
@@ -238,7 +237,7 @@ The thief was bewildered. He took the clothes and slunk away.
 
 Ryokan sat naked, watching the moon. ‘Poor fellow,’ he mused, ‘I wish I could give him this beautiful moon.’
 
-## 10. The Last Poem of Hoshin
+### 10. The Last Poem of Hoshin
 
 
 The Zen master Hoshin lived in China many years. Then he returned to the northeastern part of Japan, where he taught his disciples. When he was getting very old, he told them a story he had heard in China.
@@ -281,7 +280,7 @@ The poem was one line short of the customary four, so, the disciple said: ‘Mas
 
 Hoshin, with the roar of a conquering lion, shouted ‘Kaa!’ and was gone.
 
-## 11. The Story of Shunkai
+### 11. The Story of Shunkai
 
 
 The exquisite Shunkai whose other name was Suzu was compelled to marry against her wishes when she was quite young. Later, after this marriage had ended, she attended the university, where she studied philosophy.
@@ -308,7 +307,7 @@ She met a Shinshu priest who taught her the name of the Buddha of Love, and in t
 
 She wrote her own story in a futile endeavor to support herself and some of it she told to a woman writer. So it reached the Japanese people. Those who rejected Shunkai, those who slandered and hated her, now read of her life with tears of remorse.
 
-## 12. Happy Chinaman
+### 12. Happy Chinaman
 
 
 Anyone walking about Chinatowns in America will observe statues of a stout fellow carrying a linen sack. Chinese merchants call him Happy Chinaman or Laughing Buddha.
@@ -325,7 +324,7 @@ Hotei immediately plopped his sack down on the ground in silent answer.
 
 At once the Happy Chinaman swung the sack over his shoulder and continued on his way.
 
-## 13. A Buddha
+### 13. A Buddha
 
 
 In Tokyo in the Meiji era there lived two prominent teachers of opposite characteristics. One, Unsho, an instructor in Shingon, kept Buddha’s precepts scrupulously. He never drank intoxicants, nor did he eat after eleven o’clock in the morning.
@@ -344,7 +343,7 @@ One day Unsho visited Tanzan, who was drinking wine at the time, not even a drop
 
 ‘A Buddha.’ answered Tanzan.
 
-## 14. Muddy Road
+### 14. Muddy Road
 
 
 Tanzan and Ekido were once traveling together down a muddy road. A heavy rain was still falling.
@@ -359,7 +358,7 @@ Ekido did not speak again until that night when they reached a lodging temple. T
 
 ‘I left the girl there,’ said Tanzan. ‘Are you still carrying her?’
 
-## 15. Shoun and His Mother
+### 15. Shoun and His Mother
 
 
 Shoun became a teacher of Soto Zen. When he was still a student his father passed away, leaving him to care for his old mother.
@@ -392,7 +391,7 @@ The blue sky has a full moon.
 
 His disciples gathered about him, reciting a sutra, and Shoun passed on during the invocation.
 
-## 16. Not Far from Buddahood
+### 16. Not Far from Buddahood
 
 
 A university student while visiting Gasan asked him: ‘Have you ever read the Christian Bible?’
@@ -405,7 +404,7 @@ The student continued reading: ‘Ask and it shall be given you, seek and ye sha
 
 Gasan remarked: ‘That is excellent. Whoever said that is not far from Buddhahood.’
 
-## 17. Stingy in Teaching
+### 17. Stingy in Teaching
 
 
 A young physician in Tokyo named Kusuda met a college friend who had been studying Zen. The young doctor asked him what Zen was.
@@ -442,14 +441,14 @@ Kusuda continued in concentration for another year and a half. His mind became p
 
 Then when he visited Nan-in his old teacher just smiled.
 
-## 18. A Parable
+### 18. A Parable
 
 
 Buddha told a parable in a sutra: A man traveling across a field encountered a tiger. He fled, the tiger after him. Coming to a precipice, he caught hold of the root of a wild vine and swung himself down over the edge. The tiger sniffed at him from above. Trembling, the man looked down to where, far below, mother tiger was waiting to eat him. Only the vine sustained him.
 
 Two mice one white and one black, little by little started to gnaw away the vine. The man saw a luscious strawberry near him. Grasping the vine with one hand, he plucked the strawberry with the other. How sweet it tasted!
 
-## 19. The First Principle
+### 19. The First Principle
 
 
 When one goes to Obaku temple in Kyoto one sees carved over the gate the words ‘ The First principle ‘. The letters are unusually large, and those who appreciate calligraphy always admire them as being a masterpiece. They were drawn by Kosen two hundred years ago.
@@ -468,7 +467,7 @@ Then, when the young man stepped outside for a few moments, Kosen thought: ‘No
 
 ‘A masterpiece,’ pronounced the pupil.
 
-## 20. A Mother’s Advice
+### 20. A Mother’s Advice
 
 
 Jiun, a Shingon master, war a well-known Sanskrit scholar of the Tokugawa era. When he was young he used to deliver lectures to his brother students.
@@ -479,7 +478,7 @@ His mother heard about this and wrote him a letter:
 
 There is no end to information and commentation, glory and honor. I wish you would stop this lecture business. Shut yourself up in a little temple in a remote part of the mountain. Devote your time to meditation and in this way attain hue realization.’
 
-## 21. The Sound of One Hand
+### 21. The Sound of One Hand
 
 
 The masts of Kennin temple was Mokurai, Silent Thunder. He had a little protégé named Toyo who was only twelve years old. Toyo saw the olds disciples visit the master’s room each morning and evening to receive instruction in sanzen or personal guidance in which they were given koans to stop mind- wandering.
@@ -520,7 +519,7 @@ At last little Toyo entered true meditation and transcended all sounds. ‘I cou
 
 Toyo had realized the sound of one hand.
 
-## 22. My Heart Burns Like Fire
+### 22. My Heart Burns Like Fire
 
 
 Soyen Shaku, the first Zen teacher to come to America, said: ‘My heart burns like fire but my eyes are as cold as dead ashes.’ He made the following rules, which he practiced every day of his life.
@@ -541,7 +540,7 @@ Have the fearless attitude of a hero and the loving heart of a child.
 
 Upon retiring sleep as if you had entered your last sleep. Upon awakening, leave your bed behind you instantly as if you had cast away a pair of old shoes.
 
-## 23. Eshun’s Departure
+### 23. Eshun’s Departure
 
 
 When Eshun, the Zennun, was past sixty and about to leave the world, she asked some monks to pile up wood in the yard.
@@ -554,7 +553,7 @@ Seating herself firmly in the center of the funeral pyre, she had it set fire ar
 
 The flames arose, and she passed away.
 
-## 24. Reciting Sutras
+### 24. Reciting Sutras
 
 
 A farmer requested a Tendai priest to recite sutras for his wife, who had died. After the recitation was over the farmer asked: ‘Do you think my wife will gain merit from this?’
@@ -567,7 +566,7 @@ The priest explained that it was the desire of a Buddhist to offer blessings and
 
 That is a fine teaching,’ concluded the farmer, ‘but please make one exception. I have a neighbor who is rough and mean to me. Just exclude him from all those sentient beings.’
 
-## 25. Three Days More
+### 25. Three Days More
 
 
 Suiwo, the disciple of Hakuin, was a good teacher. During one summer seclusion period, a pupil came to him from a southern island of Japan.
@@ -582,7 +581,7 @@ The pupil remained three years but could not pass this test. One night he came i
 
 On the second day the pupil was enlightened.
 
-## 26. Trading Dialogue for Lodging
+### 26. Trading Dialogue for Lodging
 
 
 Provided he makes and wins an argument about Buddhism with those who live there any wandering monk can remain in a Zen temple. If he is defeated, he has to move on.
@@ -609,14 +608,14 @@ Thus he won and so I have no right to remain here.’ With this, the traveler le
 
 ‘Why, the minute he saw me he held up one finger, insulting me by insinuating that I have only one eye. Since he was a stranger I thought I would be polite to him, so I held up two fingers congratulating him that he her two eyes. Then the impolite wretch held up three fingers, suggesting that between us we only have three eyes. So I got mad and started to punch him, bur he ran out and that ended it.’
 
-## 27. The Voice of Happiness
+### 27. The Voice of Happiness
 
 
 After Bankei had passed away, a blind man who lived near the master’s temple told a friend: ‘Since I am blind, I cannot watch a person’s face, so I must judge his character by the sound of his voice. Ordinarily when I hear someone congratulate another upon his happiness or success, I also hear a secret tone of envy. When condolence is expressed for the misfortune of another. I hear pleasure and satisfaction as if the one condoling was really glad there was something left to gain in his own world.
 
 ‘In all my experience however, Bankei’s voice was always sincere. Whenever he expressed happiness, I heard nothing but happiness, and whenever he expressed sorrow, sorrow was all I heard.’
 
-## 28. Open Your Own Treasure House
+### 28. Open Your Own Treasure House
 
 
 Daiju visited the master Baso in China. Baso asked: ‘What do you seek?’
@@ -633,7 +632,7 @@ Daiju was enlightened! Ever after he urged his friends:
 
 ‘Open your own treasure house and use those treasures.’
 
-## 29. No Water, No Moon
+### 29. No Water, No Moon
 
 
 When the nun Chiyono studied Zen under Bukko of Engarku she was unable to attain the fruits of meditation for a long time.
@@ -652,7 +651,7 @@ No more water in the Pail!
 
 No more moon in the water!
 
-## 30. Calling Card
+### 30. Calling Card
 
 
 Keichu, the great Zen teacher of the Meiji era, was the head of Tofuku, a cathedral in Kyoto. One day the governor of Kyoto called upon him for the first time.
@@ -665,7 +664,7 @@ The attendant carried the card back with apologies. ‘That was my error,’ sai
 
 ‘Oh, is that Kitagaki?’ exclaimed the teacher when he saw the card. ‘I want to see that fellow.
 
-## 31. Everything is Best
+### 31. Everything is Best
 
 
 When Banzan was walking through a market he overheard a conversation between a butcher and his customer.
@@ -676,7 +675,7 @@ When Banzan was walking through a market he overheard a conversation between a b
 
 At these words Banzan became enlightened.
 
-## 32. Inch Time Foot Gem
+### 32. Inch Time Foot Gem
 
 
 A lord asked Takuan, a Zen teacher to suggest how he might pass the time. He felt his day very long attending his office and sitting stiffly to receive the homage of others.
@@ -691,7 +690,7 @@ This day will not come again.
 
 Each minute is worth a priceless gem.
 
-## 33. Mokusen’s Hand
+### 33. Mokusen’s Hand
 
 
 Mokusen Hiki was living in a temple in the province of Tamba. One of his adherents complained of the stinginess of his wife. Mokusen visited the adherent’s wife and showed her his clenched fist before her face.
@@ -710,7 +709,7 @@ Then he opened his hand flat in her face and asked: ‘Suppose it were always li
 
 After his visit, this wife helped her husband to distribute as well as to save.
 
-## 34. A Smile in His Lifetime
+### 34. A Smile in His Lifetime
 
 
 Mokugen was never known to smile until his last day on earth. When his time came to pass away he said to his faithful ones: ‘You have studied under me for more than ten years. Show me your real interpretation of Zen. Whoever expresses this most clearly shall be my successor and receive my robe and bowl.’
@@ -723,14 +722,14 @@ The teacher’s face became even more severe. ‘Is that all you understand?’ 
 
 Encho reached out and moved the cup back again. A beautiful smile broke ova the features of Mokugen. ‘You rascal,’ he told Encho. ‘You worked with me ten years and have not yet seen my whole body. Take the robe and bowl. They belong to you.’
 
-## 35. Every-Minute Zen
+### 35. Every-Minute Zen
 
 
 Zen students are with their masters at last ten years before they presume to teach others. Nan-in was visited by Tenno, who, having passed his apprenticeship, had become a teacher. The day happened to be rainy, so Tenno wore wooden clogs and carried an umbrella. After greeting him Nan- in remarked: ‘I suppose you left your wooden clogs in the vestibule. I want to know if your umbrella is on the right or left side of the clogs.’
 
 Tenno, confused, had no instant answer. He realized that he was unable to carry his Zen every minute. He became Nan-in’s pupil, and he studied six more years to accomplish his every-minute Zen.
 
-## 36. Flower Shower
+### 36. Flower Shower
 
 
 Subhuti was Buddha’s disciple. He was able to understand the potency of emptiness, the viewpoint that nothing exists accept in its relationship of subjectivity and objectivity.
@@ -743,7 +742,7 @@ One day Subhuti, in a mood of sublime emptiness was sitting under a tree. Flower
 
 ‘You have not spoken of emptiness, we have not heard emptiness,’ responded the gods. This is the true emptiness.’ And blossoms showered upon Subhuti as rain.
 
-## 37. Publishing the Sutras
+### 37. Publishing the Sutras
 
 
 Tetsugen, a devotee of Zen in Japan, decided to publish the sutras, which at that time were available only in Chinese. The books were to be printed with wood block in an edition of seven thousand copies, a tremendous undertaking.
@@ -758,7 +757,7 @@ For a third time he started his work, and after twenty years his wish was fulfil
 
 The Japanese tell their children that Tetsugen made three sets of sutras, and that the first two invisible sets surpass even the last.
 
-## 38. Gisho’s Work
+### 38. Gisho’s Work
 
 
 Gisho was ordained as a nun when she was ten years old. She received training just as the little boys did. When she reached the age of sixteen she traveled from one Zen master to another, studying with them all.
@@ -787,7 +786,7 @@ She should receive still more blows from my iron fist.
 
 After Gisho was enlightened she went to the province of Banshu, started her own Zen temple and taught two hundred other nuns until she passed away one year in the month of August.
 
-## 39. Sleeping in the Dayime
+### 39. Sleeping in the Dayime
 
 
 The master Soya Shaku passed from this world when he was sixty-one years of age. Fulfilling his life’s work, he left a great teaching, far richer than that of most Zen masters. His pupils used to sleep in the daytime during midsummer, and while he overlooked this he himself never wasted a minute.
@@ -798,14 +797,14 @@ Three hours passed when, suddenly waking he hard his master enter, but it was to
 
 ‘I beg your pardon, I beg your pardon,’ his teacher whispered, stepping carefully over Soyen’s body as if it were that of some distinguished guest. After this, Soyen never slept again in the afternoon.
 
-## 40. In Dreamland
+### 40. In Dreamland
 
 
 ‘Our schoolmaster used to take a nap every afternoon,’ related a disciple of Soyen Shaku. ‘We children asked him why he did it and he told us: ‘I go to dreamland to meet the old sages just as Confucius did.’ When Confucius slept, he would dream of ancient sages and later tell his followers about them.
 
 ‘It was extremely hot one day so some of us took a nap. Our schoolmaster scolded us. “We went to dreamland to meet the ancient sages the same as Confucius did,” we explained. “What was the message from those sages?” our schoolmaster demanded. One of us replied: “We went to dreamland and met the sages and asked than if our schoolmaster came there every afternoon, but they said they had never seen any such fellow.”
 
-## 41. Joshu’s Zen
+### 41. Joshu’s Zen
 
 
 Joshu began the study of Zen when he was sixty years old and continued until he was eighty, when he realized Zen.
@@ -818,7 +817,7 @@ Joshu replied: ‘Throw it out.’
 
 ‘Well,’ said Joshu, ‘then carry it out.’
 
-## 42. The Dead Man’s Answer
+### 42. The Dead Man’s Answer
 
 
 When Mamiya, who later became a well-known preacher, went to a teacher for personal guidance, he was asked to explain the sound of one hand.
@@ -831,7 +830,7 @@ The next time Mamiya appeared before his teacher he was again asked what he had 
 
 ‘I haven’t solved that yet,’ replied Mamiya, looking up. ‘Dead men do not speak,’ said the teacher.’ Get out!’
 
-## 43. Zen in a Beggar’s Life
+### 43. Zen in a Beggar’s Life
 
 
 Tosui was a well-known Zen teacher of his time. He had lived in several temples and taught in various provinces.
@@ -848,7 +847,7 @@ Tosui slept soundly the remainder of the night, but the disciple could not sleep
 
 ‘I have said you could not do as I.’ concluded Tosui. ‘Get out of here and do not bother me again.’
 
-## 44. The Thief Who Became a Disciple
+### 44. The Thief Who Became a Disciple
 
 
 One evening as Shichiri Kojun was reciting sutras a thief with a sharp sword entered, demanding either his money or his life, Shichiri told him: ‘Do not disturb me. You an find the money in that drawer.’ Then he resumed his recitation.
@@ -863,7 +862,7 @@ A few days afterwards the fellow was caught and confessed, among others, the off
 
 After he had finished his prison term, the men went to Shichiri and became his disciple.
 
-## 45. Right and Wrong
+### 45. Right and Wrong
 
 
 When Bankei held his seclusion weeks of meditation, pupils from many parts of Japan came to attend. During one of the gatherings a pupil was caught stealing. The matter was reported to Bankei with the request that the culprit be expelled.
@@ -876,7 +875,7 @@ When Bankei had read the petition he called everyone before him. ‘You are wise
 
 A torrent of tears cleansed the face of the brother who had stolen. All the desire to steal had vanished.
 
-## 46. How Grass and Trees Become Enlightened
+### 46. How Grass and Trees Become Enlightened
 
 
 During the Kamkura period, Shinkan studied Tendai six years and then studied Zen seven years; then he went to China and contemplated Zen for thirteen years more.
@@ -889,7 +888,7 @@ One day a fifty-year-old student of enlightenment said to Shinkan: ‘I have stu
 
 ‘I never thought of it in that way,’ marveled the old man. Then go home and think it over,’ finished Shinkan.
 
-## 46. The Stingy Artist
+### 46. The Stingy Artist
 
 
 Gessen was an artist monk. Before he would start a drawing or painting he always insisted upon being paid in advance and his fees were high. He was known as the ‘Stingy Artist’.
@@ -918,7 +917,7 @@ His teacher had passed away without realizing his wish build a temple and Gessen
 
 After Gessen had accomplished his three wishes he threw away his brushes and artist’s materials and retiring to the mountains never painted again.
 
-## 47. Accurate Proportion
+### 47. Accurate Proportion
 
 
 Sen no Rikyu, a tea-master, wished to hang a flower basket on a column. He asked a carpenter to help him, directing the man to place it a little higher or lower, to the right or left, until he had found exactly the right spot. That’s the place,’ said Sen no Rikyu finally.
@@ -927,7 +926,7 @@ The carpenter, to test the master, marked the spot and then pretended he had for
 
 But so accurate was the tea-master’s sense of proportion that it was not until the carpenter reached the identical spot again that its location was approved.
 
-## 48. Black-Nosed Buddha
+### 48. Black-Nosed Buddha
 
 
 A nun who was searching for enlightenment made a statue of Buddha and covered it with gold leaf. Wherever she went she carried this golden Buddha with her.
@@ -936,7 +935,7 @@ Years passed and, still carrying her Buddha, the nun came to live in a small tem
 
 The nun wished to burn incense before her golden Buddha. Not liking the idea of the perfume straying to the others, she devised a funnel through which the smoke would ascend only to her statue. This blackened the nose of the Golden Buddha making it especially ugly.
 
-## 50. Ryonen’s Clear Realization
+### 50. Ryonen’s Clear Realization
 
 
 The Buddhist nun known as Ryonen was born in 1797. She was a granddaughter of the famous Japanese warrior Shingen.
@@ -967,7 +966,7 @@ I have had enough about moonlight,
 
 Ask no more. Only listen to the voice of pines and cedars when no wind stirs.
 
-## 51. Sour Miso
+### 51. Sour Miso
 
 
 The cook monk Dairyo, at Bankei’s monastery, decided that he would take good care of his old teacher’s health and give him only fresh miso, a paste of soy beans mixed with wheat and yeast that often ferments. Bankei, noticing that he was being served better miso than his pupils, asked: ‘Who is the cook today?’
@@ -980,12 +979,12 @@ Finally in desperation an adherent called loudly to Bankei: ‘You may be all ri
 
 At that Bankei opened the door. He was smiling. He told Dairyo: ‘I insist on eating the same food as the least of my followers. When you become the teacher I do not want you to forget this.’
 
-## 52. Your Light may go out
+### 52. Your Light may go out
 
 
 A student of Tendai a philosophical school of Buddhism, came to the Zen abode of Gasan as a pupil. When he was departing a few years later, Gasan warned him: ‘Studying the truth speculatively is useful as a way of collecting preaching material. But remember that unless you meditate constantly your light of truth may go out.’
 
-## 53. The Giver Should be Thankful
+### 53. The Giver Should be Thankful
 
 
 While Seisetsu was the master of Engaku in Kamakura he required larger quarters, since those in which he was teaching were overcrowded. Umezu Seibei, a merchant of Edo, decided to donate five hundred pieces of gold called ryo toward the construction of a more commodious school. This money he brought to the teacher.
@@ -1006,7 +1005,7 @@ Umezu gave Seisetsu the sack of gold, but he was dissatisfied with the attitude 
 
 ‘Why should I?’ inquired Seisetsu. ‘The giver should be thankful.’
 
-## 54. Last Will and Testament
+### 54. Last Will and Testament
 
 
 Ikkyu, a famous Zen teacher of the Ashikaga era, was the son of the emperor. When he was very young, his mother left the palace and went to study Zen in a temple. In this way Prince Ikkyu also became a student. When his mother passed on, she left with him a letter. It read:
@@ -1025,7 +1024,7 @@ September first.
 
 PS. The teaching of Buddha was mainly for the purpose of enlightening others. If you are dependent a any of its methods, you are naught but an ignorant insect. There are 80,000, books on Buddhism and if you should read all of them and still not see your own nature, you will not understand even this letter. This is my will and testament.
 
-## 55. The Tea-Master and the Assassin
+### 55. The Tea-Master and the Assassin
 
 
 Taiko, a warrior who lived in Japan before the Tokugawa era, studied Cha- no-yu, tea etiquette, with Sen no Rikyu, a teacher of that aesthetical expression of calmness and contentment.
@@ -1044,7 +1043,7 @@ The tea-master apologized. ‘It is my mistake. Come back in and have some tea. 
 
 In this predicament the warrior realized he could not very well kill the tea-master, so he gave up the idea.
 
-## 56. The True Path
+### 56. The True Path
 
 
 Just before Ninakawa passed away the Zen master Ikkyu visited him. ‘Shall I lead you on Ikkyu asked.
@@ -1055,7 +1054,7 @@ Ikkyu answered: ‘If you think you really come and go, that is your delusion. L
 
 With his words Ikkyu had revealed the path so clearly that Ninakawa smiled and passed away.
 
-## 57. The Gates of Paradise
+### 57. The Gates of Paradise
 
 
 A soldier named Nobushige came to Hakuin, and asked: ‘Is there really a paradise and a hell?’
@@ -1074,7 +1073,7 @@ At these words the samurai, perceiving the master’s discipline, sheathed his s
 
 ‘Here open the gates of paradise,’ said Hakuin.
 
-## 58. Arresting the Stone Buddha
+### 58. Arresting the Stone Buddha
 
 
 A merchant bearing fifty rolls of cotton goods on his shoulder stopped to rest from the heat of the day beneath a shelter when a large stone Buddha was standing. Then he fell asleep, and when he awoke his goods had disappeared. He immediately reported the matter to the police.
@@ -1091,7 +1090,7 @@ The people hastened to apologize. “I shall have to impose a fine on you,’ sa
 
 One of the rolls of cloth, which the people brought, was quickly recognized by the merchant as his own, and thus the thief was easily discovered. The merchant recovered his goods, and the cotton rolls were returned to the people.
 
-## 59. Soldiers of Humanity
+### 59. Soldiers of Humanity
 
 
 Once a division of the Japanese army was engaged in I sham battle, and some of the officers found it necessary to make their headquarters in Gasan’s temple.
@@ -1102,7 +1101,7 @@ This made the army men angry, as they were used to very differential treatment. 
 
 Gasan answered sternly: ‘Who do you think we are? We are soldiers of humanity aiming to save all sentient beings.’
 
-## 60. The Tunnel
+### 60. The Tunnel
 
 
 Zenkai, the son of a samurai, journeyed to Edo and there became the retainer of a high official. He fell in love with the official’s wife and was discovered. In self-defense, he slew the official. Then he ran away with the wife.
@@ -1125,7 +1124,7 @@ At last the tunnel was completed and the people could use it and travel in safet
 
 ‘How can I cut off my own teacher’s head?’ asked the younger man with tears in his eyes.
 
-## 61. Gudo and the Emperor
+### 61. Gudo and the Emperor
 
 
 The emperor Goyozei was studying Zen under Gudo. He inquired: ‘In Zen this very mind is Buddha. Is this correct?’
@@ -1144,7 +1143,7 @@ The emperor hesitated to inquire further about these things his mind could not g
 
 The emperor respected Zen and old Gudo more than ever after his enlightenment, and he even permitted Gudo to wear his hat in the palace in winter. When Gudo was over eighty he used to fall asleep in the midst of his lecture, and the emperor would quietly retire to another room so his beloved teacher might enjoy the rest his ageing body required.
 
-## 62. In the Hands of Destiny
+### 62. In the Hands of Destiny
 
 
 A great Japanese warrior named Nobunaga decided to attack the enemy although he had only one tenth the number of men the opposition commanded. He knew that he would win, but his soldiers were in doubt.
@@ -1157,12 +1156,12 @@ Nobunaga entered the shrine and offered a silent prayer. He came forth and tosse
 
 ‘Indeed not,’ said Nobunaga, showing a coin, which had been doubled, with heads facing either way.
 
-## 63. Killing
+### 63. Killing
 
 
 Gasan instructed his adherents one day: ‘Those who speak against killing and who desire to spare the live of all conscious beings are right. It is good to protect even animals and insects. But what about those persons who kill time, what about those who are destroying wealth and those who destroy political economy? We should not overlook them. Furthermore, what of the one who preaches without enlightenment? He is killing Buddhism.’
 
-## 64. Kasan Sweated
+### 64. Kasan Sweated
 
 
 Kasan was asked to officiate at the funeral of a provincial lord. He had never met lords and nobler before so he was nervous.
@@ -1171,7 +1170,7 @@ When the ceremony started, Kasan sweated.
 
 Afterwards, when he had returned, he gathered his pupils together. Kasan confessed that he was not yet qualified to be a teacher for he lacked the sameness of bearing in the world of fame that he possessed in the secluded temple. Then Kasan resigned and became the pupil of another master. Eight years later he returned to his former pupils, enlightened.
 
-## 65. The Subjugation of a Ghost
+### 65. The Subjugation of a Ghost
 
 
 A young wife fell sick and was about to die. ‘I love you so much,’ she told her husband, ‘I do not want to leave you. Do not go from me to any other woman. If you do, I will return as a ghost and cause you endless trouble.’
@@ -1192,7 +1191,7 @@ The next night, when the ghost appeared the man flattered her and told her that 
 
 There was no longer any ghost to answer the question.
 
-## 66.Children of His Majesty
+### 66.Children of His Majesty
 
 
 Yamaoka Tesshu was a tutor of the emperor. He was also a master of fencing and a profound student of Zen.
@@ -1205,7 +1204,7 @@ The emperor, observing how worn his garments were, gave Yamaoka some money to bu
 
 ‘I provided clothes for the children of Your Majesty,’ explained Yamaoka.
 
-## 67. What Are You Doing! What Are You Saying!
+### 67. What Are You Doing! What Are You Saying!
 
 
 In modern times a great deal of nonsense is talked about masters and disciples, and about the inheritance of a master’s teaching by favorite pupils, entitling them to pass the truth on to their adherents. Of course Zen should be imparted in this way, from heart to heart, and in the past it was really accomplished. Silence and humility reigned rather than profession and assertion. The one who received such a teaching kept the matter hidden even after twenty years. Not until another discovered through his own need that a real master was at hand was it learned that the teaching had been imparted, and even then the occasion arose quite naturally and the teaching made its way in its own right. Under no circumstance did the teacher ever claim ‘I am the successor of So-and-so.’ Such a claim would prove quite the contrary
@@ -1222,7 +1221,7 @@ Mu-nan who never had been angry before yelled: ‘What are you doing!’
 
 Shoju shouted back: ‘What are you saying!’
 
-## 68. One Note of Zen
+### 68. One Note of Zen
 
 
 After Kakua visited the emperor he disappeared and no one knew what became of him. He was the first Japanese to study Zen in China, but since he showed nothing of it, save one note, he is not remembered for having brought Zen into his country.
@@ -1235,7 +1234,7 @@ Kakua stood before the emperor in silence. He then produced a flute from the fol
 
 Bowing politely, he disappeared.
 
-## 69. Eating the Blame
+### 69. Eating the Blame
 
 
 Circumstances arose one day which delayed preparation of the dinner of a Sate Zen master, Fugai, and his followers. In haste the cook went to the garden with his curved knife and cut off the tops of green vegetables, chopped them together, and made soup, unaware that in his haste he had included a part of a snake in the vegetables.
@@ -1244,7 +1243,7 @@ The followers of Fugai thought they never had tasted such good soup. But when th
 
 ‘Oh, thank you, master,’ replied the cook, taking the morsel and eating it quickly.’
 
-## 70. The Most Valuable Thing in the World
+### 70. The Most Valuable Thing in the World
 
 
 Sozan, a Chinese Zen master, was asked by a student: ‘What is the most valuable thing in the world?’
@@ -1255,7 +1254,7 @@ The master replied: The head of a dead cat.’
 
 Sozan replied: ‘Because no one can name its price.’
 
-## 71. Learning to be Silent
+### 71. Learning to be Silent
 
 
 The pupils of the Tendai School used to study meditation before Zen entered Japan. Four of them who were intimate friends promised one another to observe seven days of silence.
@@ -1268,7 +1267,7 @@ The second pupil was surprised to hear the first one talk. ‘We are not suppose
 
 ‘I am the only one who has not talked,’ muttered the fourth pupil.
 
-## 72. The Blockhead Lord
+### 72. The Blockhead Lord
 
 
 Two Zen teachers Daigu and Gudo, were invited to visit a lord. Upon arriving, Gudo said to the lord: ‘You are wise by nature and have an inborn ability to learn Zen.’
@@ -1277,7 +1276,7 @@ Two Zen teachers Daigu and Gudo, were invited to visit a lord. Upon arriving, Gu
 
 So, instead of building a temple for Gudo the lord built it for Daigu and studied Zen with him.
 
-## 73. Ten Successors
+### 73. Ten Successors
 
 
 Zen pupils take a vow that even if they are killed by their teacher, they intend to learn Zen. Usually they cut a finger and seal their resolution with blood. In time the vow has become a men formality, and for this reason the pupil who died by the hand of Ekido was made to appear a martyr. Ekido had become a severe teacher. His pupils feared him. One of them on duty, striking the gong to tell the time of day, missed his beats when his eye was attracted by a beautiful girl passing the temple gate.
@@ -1288,7 +1287,7 @@ The pupil’s guardian, hearing of the accident went directly to Ekido. Knowing 
 
 After this took place, he was able to produce under his guidance more than ten enlightened successors, a very unusual number.
 
-## 74. True Reformation
+### 74. True Reformation
 
 
 Ryokan devoted his life to the study of Zen. One day he heard that his nephew, despite the admonitions of relatives, was spending his money on a courtesan. Inasmuch as the nephew had taken Ryokan’s place in managing the family estate and the property was in danger of being dissipated, the relatives asked Ryokan to do something about it.
@@ -1301,7 +1300,7 @@ The nephew helped him willingly. ‘Thank you,’ finished Ryokan, ‘you see, a
 
 Take good care of yourself.’ Then Ryokan left, never mentioning a word about the courtesan or the complaints of the relatives. But, from that morning on, the dissipations of the nephew ended.
 
-## 75. Temper
+### 75. Temper
 
 
 A Zen student came to Bankei and complained: ‘Master, I have an ungovernable temper. How can I cure it?’
@@ -1316,7 +1315,7 @@ A Zen student came to Bankei and complained: ‘Master, I have an ungovernable t
 
 ‘Then,’ concluded Bankei, ‘it must not be your own nature. If it were, you could show it to me at any time. When you were born you did not have if and your parents did not give it to you. Think that over.’
 
-## 76. The Stone Mind
+### 76. The Stone Mind
 
 
 Hogen, a Chinese Zen teacher, lived alone in a small temple in the country. One day four traveling monks appeared and asked if they might make a fire in his yard to warm themselves.
@@ -1327,7 +1326,7 @@ One of the monks replied: ‘From the Buddhist viewpoint everything is an object
 
 ‘Your head must feel very heavy’, observed Hogen. ‘if you are carrying around a stone like that in your mind.’
 
-## 77. No Attachment to Dust
+### 77. No Attachment to Dust
 
 
 Zengetsu, a Chinese master of the T’ang dynasty, wrote the following advice for his pupils:
@@ -1356,7 +1355,7 @@ Some things though right, were considered wrong for generations. Since the value
 
 Live with cause and leave results to the great law of the universe. Pass each day in peaceful contemplation.
 
-## 78. Real Prosperity
+### 78. Real Prosperity
 
 
 A rich man asked Sengai to write something for the continued prosperity of his family so that it might be treasured from generation to generation.
@@ -1367,7 +1366,7 @@ The rich man became angry. I asked you to write something for the happiness of m
 
 ‘No joke is intended,’ explained Sengai. ‘If before you yourself die your son should die, this would grieve you greatly. If your grandson should pass away before your son, both of you would be broken hearted. If your family, generation after generation, passes away in the order I have named, it will be the natural course of life. I call this real prosperity.’
 
-## 79. Incense Burner
+### 79. Incense Burner
 
 
 A woman of Nagasaki named Kame was one of the few makers of incense burners in Japan. Such a burner is a work of art to be used only in a tea room or before a family shrine.
@@ -1382,7 +1381,7 @@ At last receiving the inspiration, Kame made the incense burner. After it was co
 
 At last, picking up a hammer, Kame smashed it to bits. She saw it was not the perfect creation her mind demanded.
 
-## 80.The Real Miracle
+### 80.The Real Miracle
 
 
 When Bankei was preaching at Ryumon temple, a Shinshu priest, who believed in salvation through the repetition of the name of the Buddha of Love, was jealous of his large audience and wanted to debate with him.
@@ -1395,7 +1394,7 @@ Can you do such a wonderful thing?’
 
 Bankei replied lightly: ‘Perhaps your fox can perform that trick, but that is not the manner of Zen. My miracle is that when I feel hungry I eat, and when I feel thirsty I drink.’
 
-## 81. Just Go to Sleep
+### 81. Just Go to Sleep
 
 
 Gasan was sitting at the bedside of Tekisui three days before his teacher’s passing. Tekisui had already chosen him as his successor.
@@ -1412,7 +1411,7 @@ Suppose you cannot find anyone?’ continued Tekisui.
 
 Gasan answered loudly: ‘Don’t ask such foolish questions. Just go to sleep.’
 
-## 82. Nothing Exists
+### 82. Nothing Exists
 
 
 Yamaoka Tesshu, as a young student of Zen, visited one master after another. He called upon Dokuon of Shokoku.
@@ -1423,7 +1422,7 @@ Dokuon, who was smoking quietly, said nothing. Suddenly he whacked Yamaoka with 
 
 ‘If nothing exists,’ inquired Dokuon, ‘where did this anger come from?’
 
-## 83. No Work, No Food
+### 83. No Work, No Food
 
 
 Hyakujo, the Chinese Zen master, used to labor with his pupils even at the age of eighty, trimming the gardens, cleaning the grounds, and pruning the trees.
@@ -1434,7 +1433,7 @@ That day the master did not eat. The next day he did not eat, nor the next. ‘H
 
 The day they did, the teacher worked and ate the same as before. In the evening he instructed them: ‘No work no food.’
 
-## 84. True Friends
+### 84. True Friends
 
 
 A long time ago in China there were two friends, one who played the harp skillfully and one who listened skillfully.
@@ -1445,7 +1444,7 @@ When the one played about water, the listener would exclaim: ‘Here is the runn
 
 But the listener fell sick and died. The first friend cut the strings of his harp and never played again. Since that time the cutting of harp strings has always been a sign of intimate friendship.
 
-## 85. Time to Die
+### 85. Time to Die
 
 
 Ikkyu, the Zen master, was very clever even as a boy. His teacher had a precious teacup, a rare antique. Ikkyu happened to break this cup and was greatly perplexed. Hearing the footsteps of his teacher, he held the pieces of the cup behind him. When the master appeared, Ikkyu asked: ‘Why do people have to die?’
@@ -1454,7 +1453,7 @@ Ikkyu, the Zen master, was very clever even as a boy. His teacher had a precious
 
 Ikkyu, producing the shattered cup, added: ‘It was time for your cup to die.’
 
-## 86. The Living Buddha and the Tubmaker
+### 86. The Living Buddha and the Tubmaker
 
 
 Zen masters give personal guidance in a secluded room. No one enters while teacher and pupil are together.
@@ -1467,14 +1466,14 @@ One day while the tubmaker was there Mokurai wished to give personal guidance to
 
 Mokurai had to go outside to see his disciple.
 
-## 87. Three Kinds of Disciples
+### 87. Three Kinds of Disciples
 
 
 A Zen master named Gettan lived in the latter part of the Tokugawa era. He used to say: ‘ There are three kinds of disciples: those who impart Zen to others, those who maintain the temples and shrines, and then there are the rice bags and the clothes-hangers.’
 
 Gasan expressed the same idea. When he was studying under Tekisui, his teacher was very severe. Sometimes he even beat him. Other pupils would not stand this kind of teaching and quit. Gasan remained saying: ‘A poor disciple utilizes a teacher’s influence. A fair disciple admires a teacher’s kindness. A good disciple grows strong under a teacher’s discipline.’
 
-## 88. How to Write a Chinese Poem
+### 88. How to Write a Chinese Poem
 
 
 A well-known Japanese poet was asked how to compose a Chinese poem. The usual Chinese poem is four lines,’ he explained. The first line contains the initial phrase; the second line, the continuation of that phase; the third line turns from this subject and begins a new one; and the fourth line brings the first three lines together. A popular Japanese song illustrates this:
@@ -1487,7 +1486,7 @@ A soldier may kill with his sword,
 
 But these girls slay men with their eyes.’
 
-## 89. Zen Dialogue
+### 89. Zen Dialogue
 
 
 Zen teachers train their young pupils to express themselves. Two Zen temples; each had a child protégé. One child going to obtain vegetables each morning would meet the other on the way.
@@ -1514,7 +1513,7 @@ The next day the children met a third time.
 
 ‘I am going to market to buy vegetables,’ the other replied.
 
-## 90. The Last Rap
+### 90. The Last Rap
 
 
 Tangen had studied with Sengai since childhood. When he was twenty he wanted to have his teacher and visit others for comparative study, but Sengai would not permit this. Every time Tangen suggested it, Sengai would give him a rap on the head.
@@ -1529,7 +1528,7 @@ When Tangen related this to his elder brother the other said: ‘What is the mat
 
 ‘I did not cancel my permission,’ said Sengai. ‘I just wished to give him one last smack over the head, for when he returns he will be enlightened and I will not be able to reprimand him again.’
 
-## 91. The Taste of Banzo’s Sword
+### 91. The Taste of Banzo’s Sword
 
 
 Matajuro Yagyu was the son of a famous swordsman. His father, believing that his son’s work was too mediocre to anticipate mastership, disowned him.
@@ -1566,7 +1565,7 @@ After that, day and night, Matajuro had to defend himself from unexpected thrust
 
 He learned so rapidly he brought smiles to the face of his master. Matajuro became the greatest swordsman in the land.
 
-## 92. Fire-Poker Zen
+### 92. Fire-Poker Zen
 
 
 Hakuin used to tell his pupils about an old woman who had a teashop, praising her understanding of Zen. The pupils refused to believe what he told them and would go to the teashop to find out for themselves.
@@ -1575,7 +1574,7 @@ Whenever the woman saw them coming she could tell it once whether they had come 
 
 Nine out of ten of them could not escape her beating.
 
-## 93. Storyteller’s Zen
+### 93. Storyteller’s Zen
 
 
 Encho was a famous storyteller. His tales of love stirred the hearts of his listeners. When he narrated a story of war, it was as if the listeners themselves were on the field of battle.
@@ -1592,7 +1591,7 @@ Encho was keenly disappointed. He studied further and tried again. Yamaoka rejec
 
 It took Encho five years to be able to tell Yamaoka the legend as his mother had told it to him. In this way, Yamaoka imparted Zen to Encho.
 
-## 94. Midnight Excursion
+### 94. Midnight Excursion
 
 
 Many pupils were studying meditation under the Zen master Sengai. One of them used to arise at night, climb over the temple wall, and go to town on a pleasure jaunt.
@@ -1605,7 +1604,7 @@ Sengai said: ‘It is very chilly in the early morning. Do be careful not to cat
 
 The pupil never went out at night again.
 
-## 95. A Letter to a Dying Man
+### 95. A Letter to a Dying Man
 
 
 Bassui wrote the following letter to one of his disciples who was about to die:
@@ -1614,7 +1613,7 @@ The essence of your mind is not born so it will never die. It is not an existenc
 
 ‘I know you are very ill. Like a good Zen student, you are facing that sickness squarely. You may not know exactly who is suffering, but question yourself: What is the essence of this mind? Think only of this. You will need no more. Covet nothing. Your end which is endless is as a snowflake dissolving in the pure air.’
 
-## 96.A Drop of Water
+### 96.A Drop of Water
 
 
 A Zen master named Gisan asked a young student to bring him a pail of water to cool his bath.
@@ -1625,7 +1624,7 @@ The student brought the water and, after cooling the bath, threw on to the groun
 
 The young student attained Zen in that instant. He changed his name to Tekisui, which means a drop of water.
 
-## 97. Teaching the Ultimate
+### 97. Teaching the Ultimate
 
 
 In early times in Japan, bamboo-and-paper lanterns wee used with candles inside. A blind man, visiting a friend one night was offered a lantern to carry home with him.
@@ -1638,7 +1637,7 @@ The blind man started off with the lantern and before he had walked very far som
 
 ‘Your candle has burned out brother,’ replied the stranger.
 
-## 98. Non-Attachment
+### 98. Non-Attachment
 
 
 Kitano Gempo, abbot of Eihei temple was ninety-two years old when he passed away in the year 1933. He endeavored his whole life not to be attached to anything. As a wandering mendicant when he was twenty he happened to meet a traveler who smoked tobacco. As they walked together down a mountain road they stopped under a tree to rest. The traveler offered Kitano a smoke, which he accepted, as he was very hungry at the time.
@@ -1653,7 +1652,7 @@ When he was twenty-three years old he studied I-King, the profoundest doctrine o
 
 When he was twenty-eight he studied Chinese calligraphy and poetry. He grew so skilful in these arts that his teacher praised him. Kitano mused: ‘If I don’t stop now, I’ll be a poet not a Zen teacher.’ So he never wrote another poem.
 
-## 99. Tasui’s Vinegar
+### 99. Tasui’s Vinegar
 
 
 Tosui was the Zen master who left the formalism of temples to live under a bridge with beggars. When he was getting very old, a friend helped him to earn his living without begging. He showed Tosui how to collect rice and manufacture vinegar from it and Tosui did this until he passed away.
@@ -1662,7 +1661,7 @@ While Tosui was making vinegar, one of the beggars gave him a picture of the Bud
 
 ‘Mr. Amida Buddha: This little loom is quite narrow. I can let you remain as a transient. But don’t think I am asking you to help me to be reborn in your paradise.’
 
-## 100. The Silent Temple
+### 100. The Silent Temple
 
 
 Shochi was a one-eyed teacher of Zen, sparkling with enlightenment. He taught his disciple in Tofuku temple.
@@ -1673,7 +1672,7 @@ Even the reciting of sutras was abolished by the teacher. His pupils had nothing
 
 What the master passed away, an old neighbor heard the ringing of bells and the recitation of sutras. Then she knew Shoichi had gone.
 
-## 101. Buddha’s Zen
+### 101. Buddha’s Zen
 
 
 Buddha said:
@@ -1681,13 +1680,13 @@ Buddha said:
 ‘I consider the positions of kings and rulers as that of dust motes. I observe treasure of gold and gems as so many bricks and pebbles. I look upon the finest silken robes as tattered rags. I see myriad worlds of the universe as small seeds of fruit, and the greatest lake in India as a drop of oil on my foot. I perceive the teachings of the world to be the illusion of, magicians. I discern the highest conception of emancipation as golden brocade in a dream, and view the holy path of the illuminated one as flowers appearing in one’s eyes. I see meditation as a pillar of a mountain, Nirvana as a nightmare of daytime. I look upon the judgment of right and wrong as the serpentine dance of a dragon, and the rise and fall of beliefs as but traces left by the four seasons.’
 
 
-# THE GATELESS GATE
+## THE GATELESS GATE
 
 
 by Ekai, called Mumon
 
 Transcribed by Nyogen Senzaki and Paul Reps
-## 1. Joshu’s Dog
+### 1. Joshu’s Dog
 
 
 A monk asked Joshu, a Chinese Zen master: “Has a dog Buddha-nature or not?”
@@ -1708,7 +1707,7 @@ Just concentrate your whole energy into this Mu, and do not allow any discontinu
 
 Has a dog Buddha-nature? This is the most serious question of all. If you say yes or no, You lose your own Buddha-nature.
 
-## 2. Hyakujo’s Fox
+### 2. Hyakujo’s Fox
 
 
 Once when Hyakujo delivered some Zen lectures an old man attended them, unseen by the monks. At the end of each talk when the monks left so did he. But one day he remained after they had gone, and Hyakujo asked him: “Who are you?”
@@ -1739,7 +1738,7 @@ To understand this clearly one has to have just one eye.
 
 Controlled or not controlled? The same dice shows two faces. Not controlled or controlled, Both are a grievous error.
 
-## 3. Gutei’s Finger
+### 3. Gutei’s Finger
 
 
 Gutei raised his finger whenever he was asked a question about Zen. A boy attendant began to imitate him in this way. When anyone asked the boy what his master had preached about, the boy would raise his finger.
@@ -1754,7 +1753,7 @@ Gutei cheapens the teaching of Tenryu, Emancipating the boy with a knife. Compar
 
 hand Old Gutei is a poor imitator.
 
-## 4. A Beardless Foreigner
+### 4. A Beardless Foreigner
 
 
 Wakuan complained when he saw a picture of bearded Bodhidharma: “Why hasn’t that fellow a beard?”
@@ -1763,7 +1762,7 @@ Mumon’s comment: If you want to study Zen, you must study it with your heart. 
 
 One should not discuss a dream In front of a simpleton. Why has Bodhidharma no beard? What an absurd question!
 
-## 5. Kyogen Mounts the Tree
+### 5. Kyogen Mounts the Tree
 
 
 Kyogen said: “Zen is like a man hanging in a tree by his teeth over a precipice. His hands grasp no branch, his feet rest on no limb, and under the tree another person asks him: ‘Why did Bodhidharma come to China from India?’”
@@ -1774,7 +1773,7 @@ Mumon’s comment: In such a predicament the most talented eloquence is of no us
 
 Kyogen is truly a fool Spreading that ego-killing poison That closes his pupils’ mouths And lets their tears stream from their dead eyes.
 
-## 6. Buddha Twirls a Flower
+### 6. Buddha Twirls a Flower
 
 
 When Buddha was in Grdhrakuta mountain he turned a flower in his fingers and held it before his listeners. Every one was silent. Only Maha-Kashapa smiled at this revelation, although he tried to control the lines of his face.
@@ -1785,7 +1784,7 @@ Mumon’s comment: Golden-faced Gautama thought he could cheat anyone. He made t
 
 At the turning of a flower His disguise was exposed. No one in heaven or earth can surpass Maha-Kashapa’s wrinkled face.
 
-## 7. Joshu Washes the Bowl
+### 7. Joshu Washes the Bowl
 
 
 A monk told Joshu: “I have just entered the monastery. Please teach me.”
@@ -1802,7 +1801,7 @@ Mumon’s comment: Joshu is the man who opens his mouth and shows his heart. I d
 
 It is too clear and so it is hard to see. A dunce once searched for a fire with a lighted lantern. Had he known what fire was, He could have cooked his rice much sooner.
 
-## 8. Keichu’s Wheel
+### 8. Keichu’s Wheel
 
 
 Getsuan said to his students: “Keichu, the first wheel-maker of China, made two wheels of fifty spokes each. Now, suppose you removed the nave uniting the spokes. What would become of the wheel? And had Keichu done this, could he be called the master wheel-maker?”
@@ -1811,7 +1810,7 @@ Mumon’s comment: If anyone can answer this question instantly, his eyes will b
 
 When the hubless wheel turns, Master or no master can stop it. It turns above heaven and below earth, South, north, east, and west.
 
-## 9. A Buddha before History
+### 9. A Buddha before History
 
 
 A monk asked Seijo: “I understand that a Buddha who lived before recorded history sat in meditation for ten cycles of existence and could not realize the highest truth, and so could not become fully emancipated. Why was this so?”
@@ -1826,7 +1825,7 @@ Mumon’s comment: I will allow his realization, but I will not admit his unders
 
 It is better to realize mind than body. When mind is realized one need not worry about body. When mind and body become one The man is free. Then he desires no praising.
 
-## 10. Seizei Alone and Poor
+### 10. Seizei Alone and Poor
 
 
 A monk named Seizei asked of Sozan: “Seizei is alone and poor. Will you give him support?”
@@ -1841,7 +1840,7 @@ Mumon’s comment: Seizei overplayed his hand. Why was it so? Because Sozan had 
 
 The poorest man in China, The bravest man in China, He barely sustains himself, Yet wishes to rival the wealthiest.
 
-## 11. Joshu Examines a Monk in Meditation
+### 11. Joshu Examines a Monk in Meditation
 
 
 Joshu went to a place where a monk had retired to meditate and asked him: “What is, is what?”
@@ -1864,7 +1863,7 @@ If anyone thinks that the one’s insight exceeds the other’s, he has no eyes.
 
 The light of the eyes is as a comet, And Zen’s activity is as lightning. The sword that kills the man Is the sword that saves the man.
 
-## 12. Zuigan Calls His Own Master
+### 12. Zuigan Calls His Own Master
 
 
 Zuigan called out to himself every day: “Master.”
@@ -1883,7 +1882,7 @@ Mumon’s comment: Old Zuigan sells out and buys himself. He is opening a puppet
 
 Some Zen students do not realize the true man in a mask Because they recognize ego-soul. Ego-soul is the seed of birth and death, And foolish people call it the true man.
 
-## 13. Tokusan Holds His Bowl
+### 13. Tokusan Holds His Bowl
 
 
 Tokusan went to the dining room from the meditation hall holding his bowl. Seppo was on duty cooking. When he met Tokusan he said: “The dinner drum is not yet beaten. Where are you going with your bowl?”
@@ -1900,7 +1899,7 @@ Mumon’s comment: Speaking about ultimate truth, both Ganto and Tokusan did not
 
 Whoever understands the first truth Should understand the ultimate truth. The last and first, Are they not the same?
 
-## 14. Nansen Cuts the Cat in Two
+### 14. Nansen Cuts the Cat in Two
 
 
 Nansen saw the monks of the eastern and western halls fighting over a cat. He seized the cat and told the monks: “If any of you say a good word, you can save the cat.”
@@ -1915,7 +1914,7 @@ Mumon’s comment: Why did Joshu put his sandals on his head? If anyone answers 
 
 Had Joshu been there, He would have enforced the edict oppositely. Joshu snatches the sword And Nansen begs for his life.
 
-## 15. Tozan’s Three Blows
+### 15. Tozan’s Three Blows
 
 
 Tozan went to Ummon. Ummon asked him where he had come from.
@@ -1946,7 +1945,7 @@ Now, I want to ask: Did Tozan deserve the three blows? If you say yes, not only 
 
 The lioness teaches her cubs roughly; The cubs jump and she knocks them down. When Ummon saw Tozan his first arrow was light; His second arrow shot deep.
 
-## 16. Bells and Robes
+### 16. Bells and Robes
 
 
 Ummon asked: “The world is such a wide world, why do you answer a bell and don ceremonial robes?”
@@ -1957,7 +1956,7 @@ Sound comes to the ear, the ear goes to sound. When you blot out sound and sense
 
 When you understand, you belong to the family; When you do not understand, you are a stranger. Those who do not understand belong to the family, And when they understand they are strangers.
 
-## 17. The Three Calls of the Emperor’s Teacher
+### 17. The Three Calls of the Emperor’s Teacher
 
 
 Chu, called Kokushi, the teacher of the emperor, called to his attendant: “Oshin.”
@@ -1986,7 +1985,7 @@ prisoner is doubly in trouble. When there is no place for Zen in the head of our
 
 grievous trouble. If you try to hold up the gate and door of a falling house, You also will be in trouble.
 
-## 18. Tozan’s Three Pounds
+### 18. Tozan’s Three Pounds
 
 
 A monk asked Tozan when he was weighing some flax: “What is Buddha?”
@@ -1997,7 +1996,7 @@ Mumon’s comment: Old Tozan’s Zen is like a clam. The minute the shell opens 
 
 Three pounds of flax in front of your nose, Close enough, and mind is still closer. Whoever talks about affirmation and negation Lives in the right and wrong region.
 
-## 19. Everyday Life Is the Path
+### 19. Everyday Life Is the Path
 
 
 Joshu asked Nansen: “What is the path?”
@@ -2018,7 +2017,7 @@ Mumon’s comment: Nansen could melt Joshu’s frozen doubts at once when Joshu 
 
 In spring, hundreds of flowers; in autumn, a harvest moon; In summer, a refreshing breeze; in winter, snow will accompany you. If useless things do not hang in your mind, Any season is a good season for you.
 
-## 20. The Enlightened Man
+### 20. The Enlightened Man
 
 
 Shogen asked: “Why does the enlightened man not stand on his feet and explain himself?” And he also said: “It is not necessary for speech to come from the tongue.”
@@ -2027,7 +2026,7 @@ Mumon’s comment: Shogen spoke plainly enough, but how many will understand? If
 
 If the feet of enlightenment moved, the great ocean would overflow; If that head bowed, it would look down upon the heavens. Such a body has no place to rest… Let another continue this poem.
 
-## 21. Dried Dung
+### 21. Dried Dung
 
 
 A monk asked Ummon: “What is Buddha?”
@@ -2038,7 +2037,7 @@ Mumon’s comment: It seems to me Ummon is so poor he cannot distinguish the tas
 
 Lightning flashes, Sparks shower. In one blink of your eyes You have missed seeing.
 
-## 22. Kashapa’s Preaching Sign
+### 22. Kashapa’s Preaching Sign
 
 
 Ananda asked Kashapa: “Buddha gave you the golden-woven robe of successorship. What else did he give you?”
@@ -2053,7 +2052,7 @@ Mumon’s comment: If one understands this, he will see the old brotherhood stil
 
 The point of the question is dull but the answer is intimate. How many persons hearing it will open their eyes? Elder brother calls and younger brother answers, This spring does not belong to the ordinary season.
 
-## 23. Do Not Think Good, Do Not Think Not-Good
+### 23. Do Not Think Good, Do Not Think Not-Good
 
 
 When he became emancipated the sixth patriarch received from the fifth patriarch the bowl and robe given from the Buddha to his successors, generation after generation.
@@ -2078,7 +2077,7 @@ You cannot describe it, you cannot picture it, You cannot admire it, you cannot 
 
 When the world is destroyed, it will not be destroyed.
 
-## 24. Without Words, Without Silence
+### 24. Without Words, Without Silence
 
 
 A monk asked Fuketsu: “Without speaking, without silence, how can you express the truth?”
@@ -2089,7 +2088,7 @@ Mumon’s comment: Fuketsu used to have lightning Zen. Whenever he had the oppor
 
 Without revealing his own penetration, He offered another’s words, not his to give. Had he chattered on and on, Even his listeners would have been embarrassed.
 
-## 25. Preaching from the Third Seat
+### 25. Preaching from the Third Seat
 
 
 In a dream Kyozan went to Maitreya’s Pure Land. He recognized himself seated in the third seat in the abode of Maitreya. Someone announced: “Today the one who sits in the third seat will preach.”
@@ -2102,7 +2101,7 @@ When he opens his mouth he is lost. When he seals his mouth he is lost. If he do
 
 In the light of day, Yet in a dream he talks of a dream. A monster among monsters, He intended to deceive the whole crowd.
 
-## 26. Two Monks Roll Up the Screen
+### 26. Two Monks Roll Up the Screen
 
 
 Hogen of Seiryo monastery was about to lecture before dinner when he noticed that the bamboo screen lowered for meditation had not been rolled up. He pointed to it. Two monks arose from the audience and rolled it up.
@@ -2113,7 +2112,7 @@ Mumon’s comment: I want to ask you: Which of those two monks gained and which 
 
 When the screen is rolled up the great sky opens, Yet the sky is not attuned to Zen. It is best to forget the great sky And to retire from every wind.
 
-## 27. It Is Not Mind, It Is Not Buddha, It Is Not Things
+### 27. It Is Not Mind, It Is Not Buddha, It Is Not Things
 
 
 A monk asked Nansen: “Is there a teaching no master ever preached before?”
@@ -2128,7 +2127,7 @@ Mumon’s comment: Old Nansen gave away his treasure-words. He must have been gr
 
 Nansen was too kind and lost his treasure. Truly, words have no power. Even though the mountain becomes the sea, Words cannot open another’s mind.
 
-## 28. Blow Out the Candle
+### 28. Blow Out the Candle
 
 
 Tokusan was studying Zen under Ryutan. One night he came to Ryutan and asked many questions. The teacher said: “The night is getting old. Why don’t you retire?”
@@ -2157,7 +2156,7 @@ A hundred hearings cannot surpass one seeing, But after you see the teacher, tha
 
 hundred hearings. His nose was very high But he was blind after all.
 
-## 29. Not the Wind, Not the Flag
+### 29. Not the Wind, Not the Flag
 
 
 Two monks were arguing about a flag. One said: “The flag is moving.”
@@ -2170,7 +2169,7 @@ Mumon’s comment: The sixth patriarch said: “The wind is not moving, the flag
 
 Wind, flag, mind moves, The same understanding. When the mouth opens All are wrong.
 
-## 30. This Mind Is Buddha
+### 30. This Mind Is Buddha
 
 
 Daibai asked Baso: “What is Buddha?”
@@ -2181,7 +2180,7 @@ Mumon’s comment: If anyone wholly understands this, he is wearing Buddha’s c
 
 Under blue sky, in bright sunlight, One need not search around. Asking what Buddha is Is like hiding loot in one’s pocket and declaring oneself innocent.
 
-## 31. Joshu Investigates
+### 31. Joshu Investigates
 
 
 A traveling monk asked an old woman the road to Taizan, a popular temple supposed to give wisdom to the one who worships there. The old woman said: “Go straight ahead.” When the monk proceeded a few steps, she said to herself: “He also is a common church-goer.”
@@ -2194,7 +2193,7 @@ Mumon’s comment: The old woman understood how war is planned, but she did not 
 
 When the question is common The answer is also common. When the question is sand in a bowl of boiled rice The answer is a stick in the soft mud.
 
-## 32. A Philosopher Asks Buddha
+### 32. A Philosopher Asks Buddha
 
 
 A philosopher asked Buddha: “Without words, without the wordless, will you tell me truth?”
@@ -2211,7 +2210,7 @@ Mumon’s comment: Ananda was the disciple of the Buddha. Even so, his opinion d
 
 To tread the sharp edge of a sword, To run on smooth-frozen ice, One needs no footsteps to follow. Walk over the cliffs with hands free.
 
-## 33. This Mind Is Not Buddha
+### 33. This Mind Is Not Buddha
 
 
 A monk asked Baso: “What is Buddha?”
@@ -2224,7 +2223,7 @@ If you meet a fencing-master on the road, you may give him your
 
 sword, If you meet a poet, you may offer him your poem. When you meet others, say only a part of what you intend. Never give the whole thing at once.
 
-## 34. Learning Is Not the Path
+### 34. Learning Is Not the Path
 
 
 Nansen said: “Mind is not Buddha. Learning is not the path.”
@@ -2233,7 +2232,7 @@ Mumon’s comment: Nansen was getting old and forgot to be ashamed. He spoke out
 
 When the sky is clear the sun appears, When the earth is parched rain will fall. He opened his heart fully and spoke out, But it was useless to talk to pigs and fish.
 
-## 35. Two Souls
+### 35. Two Souls
 
 
 “Seijo, the Chinese girl,” observed Goso, “had two souls, one always sick at home and the other in the city, a married woman with two children. Which was the true soul?”
@@ -2242,7 +2241,7 @@ Mumon’s comment: When one understands this, he will know it is possible to com
 
 The moon above the clouds is the same moon, The mountains and rivers below are all different. Each is happy in its unity and variety. This is one, this is two.
 
-## 36. Meeting a Zen Master on the Road
+### 36. Meeting a Zen Master on the Road
 
 
 Goso said: “When you meet a Zen master on the road you cannot talk to him, you cannot face him with silence. What are you going to do?”
@@ -2251,7 +2250,7 @@ Mumon’s comment: In such a case, if you can answer him intimately, your realiz
 
 Meeting a Zen master on the road, Face him neither with words nor silence. Give him an uppercut And you will be called one who understands Zen.
 
-## 37. A Buffalo Passes Through the Enclosure
+### 37. A Buffalo Passes Through the Enclosure
 
 
 Goso said: “When a buffalo goes out of his enclosure to the edge of the abyss, his horns and his head and his hoofs all pass through, but why can’t the tail also pass?”
@@ -2260,7 +2259,7 @@ Mumon’s comment: If anyone can open one eye at this point and say a word of Ze
 
 If the buffalo runs, he will fall into the trench; If he returns, he will be butchered. That little tail Is a very strange thing.
 
-## 38. An Oak Tree in the Garden
+### 38. An Oak Tree in the Garden
 
 
 A monk asked Joshu why Bodhidharma came to China.
@@ -2273,7 +2272,7 @@ Words cannot describe everything. The heart’s message cannot be delivered in w
 
 this life.
 
-## 39. Ummon’s Sidetrack
+### 39. Ummon’s Sidetrack
 
 
 A Zen student told Ummon: “Brilliancy of Buddha illuminates the whole universe.”
@@ -2290,7 +2289,7 @@ Mumon’s comment: If anyone perceives Ummon’s particular skillfulness, he wil
 
 When a fish meets the fishhook If he is too greedy, he will be caught. When his mouth opens His life already is lost.
 
-## 40. Tipping Over a Water Vase
+### 40. Tipping Over a Water Vase
 
 
 Hyakujo wished to send a monk to open a new monastery. He told his pupils that whoever answered a question most ably would be appointed. Placing a water vase on the ground, he asked: “Who can say what this is without calling its name?”
@@ -2305,7 +2304,7 @@ Mumon’s comment: Isan was brave enough, but he could not escape Hyakujo’s tr
 
 Giving up cooking utensils, Defeating the chatterbox, Though his teacher sets a barrier for him His feet will tip over everything, even the Buddha.
 
-## 41. Bodhidharma Pacifies the Mind
+### 41. Bodhidharma Pacifies the Mind
 
 
 Bodhidharma sits facing the wall. His future successor stands in the snow and presents his severed arm to Bodhidharma. He cries: “My mind is not pacified. Master, pacify my mind.”
@@ -2320,7 +2319,7 @@ Mumon’s comment: That broken-toothed old Hindu, Bodhidharma, came thousands of
 
 Why did Bodhidharma come to China? For years monks have discussed this. All the troubles that have followed since Came from that teacher and disciple.
 
-## 42. The Girl Comes Out from Meditation
+### 42. The Girl Comes Out from Meditation
 
 
 In the time of Buddha Shakyamuni, Manjusri went to the assemblage of the Buddhas. When he arrived there, the conference was over and each Buddha had returned to his own Buddha-land. Only one girl was yet unmoved in deep meditation.
@@ -2339,7 +2338,7 @@ If you understand this intimately, you yourself can enter the great meditation w
 
 One could not awaken her, the other could. Neither are good actors. One wears the mask of god, one a devil’s mask. Had both failed, the drama still would be a comedy.
 
-## 43. Shuzan’s Short Staff
+### 43. Shuzan’s Short Staff
 
 
 Shuzan held out his short staff and said: “If you call this a short staff, you oppose its reality. If you do not call it a short staff, you ignore the fact. Now what do you wish to call this?”
@@ -2348,7 +2347,7 @@ Mumon’s comment: If you call this a short staff, you oppose its reality. If yo
 
 Holding out the short staff, He gave an order of life or death. Positive and negative interwoven, Even Buddhas and patriarchs cannot escape this attack.
 
-## 44. Basho’s Staff
+### 44. Basho’s Staff
 
 
 Basho said to his disciple: “When you have a staff, I will give it to you. If you have no staff, I will take it away from you.”
@@ -2357,7 +2356,7 @@ Mumon’s comment: When there is no bridge over the creek the staff will help me
 
 With this staff in my hand I can measure the depths and shallows of the world. The staff supports the heavens and makes firm the earth. Everywhere it goes the true teaching will be spread.
 
-## 45. Who Is He?
+### 45. Who Is He?
 
 
 Hoen said: “The past and future Buddhas, both are his servants. Who is he?”
@@ -2366,7 +2365,7 @@ Mumon’s comment: If you realize clearly who he is, it is as if you met your ow
 
 Do not fight with another’s bow and arrow. Do not ride another’s horse. Do not discuss another’s faults. Do not interfere with another’s work.
 
-## 46. Proceed from the Top of the Pole
+### 46. Proceed from the Top of the Pole
 
 
 Sekiso asked: “How can you proceed on from the top of a hundred-foot pole?” Another Zen teacher said: “One who sits on the top of a hundred- foot pole has attained a certain height but still is not handling Zen freely. He should proceed on from there and appear with his whole body in the ten parts of the world.”
@@ -2375,7 +2374,7 @@ Mumon’s comment: One can continue his steps or turn his body freely about on t
 
 The man who lacks the third eye of insight Will cling to the measure of the hundred feet. Such a man will jump from there and kill himself, Like a blind man misleading other blind men.
 
-## 47. Three Gates of Tosotsu
+### 47. Three Gates of Tosotsu
 
 
 Tosotsu built three barriers and made the monks pass through them. The first barrier is studying Zen. In studying Zen the aim is to see one’s own true nature. Now where is your true nature?
@@ -2390,7 +2389,7 @@ Otherwise he will be living on poor food and not even enough of that to satisfy 
 
 An instant realization sees endless time. Endless time is as one moment. When one comprehends the endless moment He realizes the person who is seeing it.
 
-## 48. One Road of Kembo
+### 48. One Road of Kembo
 
 
 A Zen pupil asked Kembo: “All Buddhas of the ten parts of the universe enter the one road of Nirvana. Where does that road begin?”
@@ -2403,7 +2402,7 @@ Mumon’s comment: One teacher enters the deep sea and scratches the earth and r
 
 Before the first step is taken the goal is reached. Before the tongue is moved the speech is finished. More than brilliant intuition is needed To find the origin of the right road.
 
-## 49. Amban’s Addition
+### 49. Amban’s Addition
 
 
 Amban, a layman Zen student, said: “Mumon has just published forty-eight koans and called the book Gateless Gate. He criticizes the old patriarchs’ words and actions. I think he is very mischievous. He is like an old doughnut seller trying to catch a passerby to force his doughnuts down his mouth. The customer can neither swallow nor spit out the doughnuts, and this causes suffering. Mumon has annoyed everyone enough, so I think I shall add one more as a bargain. I wonder if he himself can eat this bargain.
@@ -2419,7 +2418,7 @@ Then Amban put his palms together, folded his hands, and said: “Stop, stop. Do
 If anyone tells you fire is light, Pay no attention. When two thieves meet they need no introduction: They recognize each other without question.
 
 
-# 10 BULLS
+## 10 BULLS
 
 
 by Kakuan
@@ -2427,7 +2426,7 @@ by Kakuan
 Transcribed by Nyogen Senzaki and Paul Reps
 
 Illustrated by Tomikichiro Tokuriki
-## 1. The Search for the Bull
+### 1. The Search for the Bull
 
 
 In the pasture of this world, I endlessly push aside the tall grasses in
@@ -2438,7 +2437,7 @@ distant mountains, My strength failing and my vitality exhausted, I cannot find 
 
 Comment: The bull never has been lost. What need is there to search? Only because of separation from my true nature, I fail to find him. In the confusion of the senses I lose even his tracks. Far from home, I see many crossroads, but which way is the right one I know not. Greed and fear, good and bad, entangle me.
 
-## 2. Discovering the Footprints
+### 2. Discovering the Footprints
 
 
 Along the riverbank under the trees, I discover footprints! Even under the fragrant grass I see his prints. Deep in remote mountains they are found. These traces no more can be hidden than one’s nose, looking
@@ -2447,28 +2446,28 @@ heavenward.
 
 Comment: Understanding the teaching, I see the footprints of the bull. Then I learn that, just as many utensils are made from one metal, so too are myriad entities made of the fabric of self. Unless I discriminate, how will I perceive the true from the untrue? Not yet having entered the gate, nevertheless I have discerned the path.
 
-## 3. Perceiving the Bull
+### 3. Perceiving the Bull
 
 
 I hear the song of the nightingale. The sun is warm, the wind is mild, willows are green along the shore, Here no bull can hide! What artist can draw that massive head, those majestic horns?
 
 Comment: When one hears the voice, one can sense its source. As soon as the six senses merge, the gate is entered. Wherever one enters one sees the head of the bull! This unity is like salt in water, like color in dyestuff. The slightest thing is not apart from self.
 
-## 4. Catching the Bull
+### 4. Catching the Bull
 
 
 I seize him with a terrific struggle. His great will and power are inexhaustible. He charges to the high plateau far above the cloud-mists, Or in an impenetrable ravine he stands.
 
 Comment: He dwelt in the forest a long time, but I caught him today! Infatuation for scenery interferes with his direction. Longing for sweeter grass, he wanders away. His mind still is stubborn and unbridled. If I wish him to submit, I must raise my whip.
 
-## 5. Taming the Bull
+### 5. Taming the Bull
 
 
 The whip and rope are necessary, Else he might stray off down some dusty road. Being well trained, he becomes naturally gentle. Then, unfettered, he obeys his master.
 
 Comment: When one thought arises, another thought follows. When the first thought springs from enlightenment, all subsequent thoughts are true. Through delusion, one makes everything untrue. Delusion is not caused by objectivity; it is the result of subjectivity. Hold the nose-ring tight and do not allow even a doubt.
 
-## 6. Riding the Bull Home
+### 6. Riding the Bull Home
 
 
 Mounting the bull, slowly I return homeward. The voice of my flute intones through the evening. Measuring with hand-beats the pulsating harmony, I direct the endless
@@ -2477,28 +2476,28 @@ rhythm. Whoever hears this melody will join me.
 
 Comment: This struggle is over; gain and loss are assimilated. I sing the song of the village woodsman, and play the tunes of the children. Astride the bull, I observe the clouds above. Onward I go, no matter who may wish to call me back.
 
-## 7. The Bull Transcended
+### 7. The Bull Transcended
 
 
 Astride the bull, I reach home. I am serene. The bull too can rest. The dawn has come. In blissful repose, Within my thatched dwelling I have abandoned the whip and rope.
 
 Comment: All is one law, not two. We only make the bull a temporary subject. It is as the relation of rabbit and trap, of fish and net. It is as gold and dross, or the moon emerging from a cloud. One path of clear light travels on throughout endless time.
 
-## 8. Both Bull and Self Transcended
+### 8. Both Bull and Self Transcended
 
 
 Whip, rope, person, and bull — all merge in No-Thing. This heaven is so vast no message can stain it. How may a snowflake exist in a raging fire? Here are the footprints of the patriarchs.
 
 Comment: Mediocrity is gone. Mind is clear of limitation. I seek no state of enlightenment. Neither do I remain where no enlightenment exists. Since I linger in neither condition, eyes cannot see me. If hundreds of birds strew my path with flowers, such praise would be meaningless.
 
-## 9. Reaching the Source
+### 9. Reaching the Source
 
 
 Too many steps have been taken returning to the root and the source. Better to have been blind and deaf from the beginning! Dwelling in one’s true abode, unconcerned with that without — The river flows tranquilly on and the flowers are red.
 
 Comment: From the beginning, truth is clear. Poised in silence, I observe the forms of integration and disintegration. One who is not attached to “form” need not be “reformed.” The water is emerald, the mountain is indigo, and I see that which is creating and that which is destroying.
 
-## 10. In the World
+### 10. In the World
 
 
 Barefooted and naked of breast, I mingle with the people of the world. My clothes are ragged and dust-laden, and I am ever blissful. I use no magic to extend my life; Now, before me, the dead trees become alive.
@@ -2506,7 +2505,7 @@ Barefooted and naked of breast, I mingle with the people of the world. My clothe
 Comment: Inside my gate, a thousand sages do not know me. The beauty of my garden is invisible. Why should one search for the footprints of the patriarchs? I go to the market place with my wine bottle and return home with my staff. I visit the wineshop and the market, and everyone I look upon becomes enlightened.
 
 
-# CENTERING
+## CENTERING
 
 
 Transcribed by Paul Reps
@@ -2775,7 +2774,7 @@ SHIVA REPLIES:
 
 112. Beloved, at this moment let mind, knowing, breath, form, be included.
 
-# What Is Zen?
+## What Is Zen?
 
 
 What Is Zen?

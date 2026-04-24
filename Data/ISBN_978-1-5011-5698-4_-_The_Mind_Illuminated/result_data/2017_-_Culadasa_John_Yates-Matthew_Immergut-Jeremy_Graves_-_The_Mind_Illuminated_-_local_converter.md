@@ -1,8 +1,7 @@
 
-The MIND ILLUMINATED: A Complete Meditation Guide Integrating Buddhist Wisdom and Brain Science for Greater Mindfulness
-=======================================================================================================================
+# The MIND ILLUMINATED: A Complete Meditation Guide Integrating Buddhist Wisdom and Brain Science for Greater Mindfulness
 
-# Foreword
+## Foreword
 
 
 SO HOW does a neuroscientist end up as a meditation master? The two disciplines are different, to be sure. My training in brain science deals with neurons and synapses, while my study of meditation is concerned with matters of attention, introspective awareness, and investigating the nature of subjective experience. But in many ways, I’ve found that the two modes of understanding the world are more complementary than one might think, and they’ve given me a unique insight into how mindfulness actually changes the brain and our perceptions of the world around us.
@@ -45,7 +44,7 @@ The core of my career as a dedicated lay practitioner has been a combination of 
 
 I am especially blessed to have been present for this great intersection of the various Buddhist practice traditions, once so isolated from each other, as they have come together in the great melting pot of a developing global culture. I am equally blessed to have witnessed the tremendous advances in technology and research that are revealing the nature of physical reality, which includes unlocking the mysteries of the human brain. In particular, I feel deep appreciation and gratitude for the opportunity to bear witness to and participate in a process in which the cumulative wisdom of these Buddhist traditions rubs shoulders with Western scientific inquiry. This has all been part of my own personal journey, from despair to joy and from ignorance to wisdom, for which I am incredibly grateful. This book is my offering to all Truth seekers everywhere who are on their own special journeys.
 
-# Introduction
+## Introduction
 
 
 MY PURPOSE in writing this book was to create a detailed and comprehensive meditation manual that is easy to use. Much has been written about the many benefits of meditation and its contributions to emotional, psychological, and social well-being. But there is surprisingly little information available on how the mind works and how to train it. This is an attempt to fill that conspicuous need.
@@ -53,7 +52,7 @@ MY PURPOSE in writing this book was to create a detailed and comprehensive medit
 This book is appropriate for anyone with a strong interest in meditation, from a complete beginner to someone who has practiced for decades. It will be particularly useful for those who already have a practice and feel ready to go further on the contemplative path. It’s also for people who are dissatisfied with their progress despite years of meditation. This includes practitioners who feel they’ve actually benefited from meditation, but who have started to believe the more profound states of consciousness meditation offers are beyond their reach. Rest assured, the full rewards of meditation are closer than you think.
 
 By necessity, the material I cover is often quite detailed and nuanced. Yet, it is my sincere belief that anyone with motivation can succeed. And it doesn’t have to take a long time. The whole training process is divided into ten distinct, easy- to-identify Stages, with thorough explanations and instructions presented along the way—from your first steps on the contemplative path, all the way to being an adept practitioner at the threshold of Awakening.1
-##          MEDITATION: THE SCIENCE AND ART OF LIVING
+###          MEDITATION: THE SCIENCE AND ART OF LIVING
 
 
 Meditation is a science, the systematic process of training the mind. It is the science of meditation that allows people from all walks of life to experience the same amazing benefits. A regular sitting practice has been shown to enhance concentration, lower blood pressure, and improve sleep. It is used to treat chronic pain, post-traumatic stress, anxiety, depression, and obsessive- compulsive disorders. Meditators develop valuable insights into their personality, behaviors, and relationships, making it easier to recognize and change past conditioning and counterproductive views that make life difficult. They have a greater awareness and sensitivity to others, which is enormously helpful at work and in personal relationships. The calming and relaxing effects of meditation also translate into increased emotional stability when confronting the inevitable stresses of life. Yet, these are only incidental benefits.
@@ -74,7 +73,7 @@ All this is possible because true happiness comes from within, which means we ca
 
 Therefore, make the aim of your meditation the cultivation of a mind capable of this type of Awakening. This is the perspective from which this book is written. I sincerely hope it will be your perspective as well. There’s so much myth and mystery surrounding Awakening that many people tend to dismiss it. Rest assured, it’s a goal within everyone’s reach. The Buddha said that, with proper training, it should take no longer than seven years,2 and can happen even more quickly. Here you will learn all you need to know about what must be done, how to do it, and why. Think of this book as a traveler’s guide, providing you with maps of the territory and detailed directions for getting where you want to go.
 
-##                A MODERN ROAD MAP FOR MEDITATION
+###                A MODERN ROAD MAP FOR MEDITATION
 
 
 This book is the result of discovering how few longtime practitioners have ever experienced any of the more exalted states of meditation, much less the profound realizations that it offers. What I learned is that, even after many years of trying, people weren’t making the kind of progress they should have. The sincerity of their aspirations and the amount of time they spent practicing were definitely not the problem. What they lacked was a clear understanding of exactly which skills they needed to cultivate, in what order, and how to go about doing it. Put another way, what they needed but didn’t have was a clear map of the process.
@@ -93,7 +92,7 @@ Keep in mind that all these source teachings were intended for monastics living 
 
 A book like this inevitably requires its own technical vocabulary. Some of these terms are influenced by Western psychology and cognitive sciences, and a few come from the ancient languages of India: Pali and Sanskrit.6 Many others are familiar words you’re quite used to hearing, such as attention and awareness, but I will use them in a very specific way. Taking a little extra time to learn the meaning of these terms will be immensely helpful. It gives us a precise language to describe the practice and understand subtle experiences and states of mind. I define these key terms as simply and clearly as possible, boldfacing and italicizing them each time they appear in a new context. You can find them all defined in the glossary at the back of the book.
 
-##                 PUTTING THIS PRACTICE INTO CONTEXT
+###                 PUTTING THIS PRACTICE INTO CONTEXT
 
 
 The meditation landscape in the West is a vibrant but confusing place. Tibetan practices emphasize elaborate visualizations or sophisticated analytical meditations, whereas Zen strips meditation down to the bare bones, giving you minimal instructions like, “Just sit.” Some Theravada teachers emphasize rigorously cultivating mindfulness to the exclusion of stable, focused attention, while others insist that intense concentration leading to deep meditative absorption7 is best. Rather than argue for any specific technique, this book will help you make sense of all these different approaches without having to reject any of them. But to do this, I first need to clarify an important set of terms commonly found in meditation literature, showing how they relate to each other and to the goal of Awakening.8 These terms are: śamatha9 (tranquility or calm abiding), vipassanā10 (Insight), samādhi (concentration or stable attention), and sati (mindfulness).
@@ -116,7 +115,7 @@ Also, brief episodes of śamatha can occur long before you become an adept pract
 
 The Ten Stages provide a systematic process for developing stable attention and mindfulness together, in balance, with śamatha and vipassanā as outcomes. The most accurate and useful description of this method is “Śamatha-Vipassanā meditation,” or “the practice of Tranquility and Insight.” Again, the practice offered in this book doesn’t have to be a replacement for other techniques, but instead can complement any other type of meditation you already do. You can use the Ten Stages approach in combination with, or as a precursor to, any of the many Mahayana or Theravada practices.
 
-##                             HOW TO USE THIS BOOK
+###                             HOW TO USE THIS BOOK
 
 
 Here’s a brief summary of the book’s structure so you have an idea where you’re headed. It begins with an overview of all Ten Stages and the Four Milestone Achievements that mark your progress through the Stages. Detailed chapters on each Stage follow, with a series of Interludes that come between the Stages.
@@ -130,7 +129,7 @@ Together the Stages and Interludes will lead you on a profound adventure of self
 The Ten Stages of Meditation: The monk is the meditator. The rope he holds represents vigilant, alert mindfulness. The goad in his other hand represents strong intention and firm resolve. The elephant represents the mind. The black color of the elephant represents the Five Hindrances and the Seven Problems they give rise to. The monkey represents scattering of attention, and the black color represents subtle and gross distraction, forgetting, and mind-wandering. The rabbit represents subtle dullness. The flames represent vigilance and effort, and when effort is no longer required, the flames disappear. The length of the road between successive Stages indicates the relative time required to progress from one Stage to the next. The Stages come closer together until Stage Seven, then they begin to stretch out again. Because the road folds back, it is possible to jump up to higher Stages or fall back to lower ones.
 
 
-# An Overview of the Ten Stages
+## An Overview of the Ten Stages
 
 
 THE ENTIRE process of training the mind unfolds through Ten Stages. Each Stage has its own distinct characteristics, challenges to overcome, and specific techniques for working through those challenges. The Stages mark gradual improvements in your abilities. As you make progress, there will also be Four Milestone Achievements that divide the Ten Stages into four distinct parts. These are especially significant transition points in your practice where mastery of certain skills takes your meditation to a whole new level.
@@ -146,7 +145,7 @@ Revisit this chapter from time to time so that you keep the big picture
 fresh in your mind.
 
 This chapter outlines the general arc of the practice, and the rest of the chapters provide the details. It will be helpful to revisit this chapter from time to time to keep the big picture fresh in your mind. The more clearly you understand the Stages, and why they happen in the order that they do, the quicker and more enjoyably you will walk the path toward happiness and freedom.
-##                          HOW THE PROCESS UNFOLDS
+###                          HOW THE PROCESS UNFOLDS
 
 
 Each of the Ten Stages on the path to becoming an adept meditator is defined in terms of certain skills that you have to master. Only when you have mastered the skills of a particular Stage will you be able to master the next Stage. This is because your abilities as a meditator gradually build on each other. Just as you have to learn to walk before you can run, you must move through the Stages in order, without skipping any of them. To make progress, you should correctly determine your current Stage, work diligently with the techniques you’re given, and move on only when you have achieved mastery. Mastery of one Stage is a requirement for the mastery of the next, and none can be skipped. Taking “shortcuts” just creates problems and ultimately prolongs the process—so they’re not really shortcuts. Diligence is all you need to make the fastest progress possible.
@@ -165,7 +164,7 @@ Figure 1. Progression through the stages is not linear: Expect to be moving betw
 
 It’s common to have occasional or even frequent meditation experiences that correspond to more advanced Stages. Even a beginning meditator at Stage Two may have experiences that resemble those of advanced Stages. When this happens, you might overestimate your abilities and try to replicate that experience instead of working to master the skills for your current Stage. Such experiences have no real significance in terms of your progress, although they do show you what is possible. Use them as inspiration, while continuing to work toward mastering your current Stage. Isolated meditation experiences can happen at any time, but if they can’t be repeated, consistently and intentionally, they are of little value. Once your practice matures, you will have the knowledge and skills to consistently create these kinds of experiences.
 
-##       THE RATE OF PROGRESS THROUGH THE TEN STAGES
+###       THE RATE OF PROGRESS THROUGH THE TEN STAGES
 
 
 Some books give the impression that it takes many, many years or even decades to become an adept meditator. This simply isn’t true! For householders who practice properly, it’s possible to master the Ten Stages within a few months or years.1 What you need is a regular daily sitting practice of one to two hours per day in combination with some of the supplemental practices described in the appendices. Meditation retreats are quite helpful, but ones lasting months or years are certainly not necessary. Diligent daily meditation, combined with occasional longer periods of practice, will be enough for success.
@@ -178,7 +177,7 @@ Another factor that affects your progress is the problem of compartmentalization
 
 The most important factor for improving quickly is a clear understanding of each Stage. That means recognizing the mental faculties you need to cultivate, as well as the correct methods to overcome specific obstacles. It also means not getting ahead of yourself. Be systematic and practice at the appropriate level. Just as a scalpel is more effective for surgery than a large knife, skillful means and positive reinforcement are much better for pacifying the mind than blind, stubborn persistence. Finesse and patience pay off.
 
-##              THE TEN STAGES OF MEDITATIVE TRAINING
+###              THE TEN STAGES OF MEDITATIVE TRAINING
 
 
 Here, I briefly describe each Stage’s distinct characteristics, goals, challenges, and the techniques for achieving those goals and working through those challenges. Four particularly significant achievements divide the Ten Stages into four distinct parts: One through Three are the Stages of a novice; Four through Six are the Stages of a skilled meditator; Seven is a transition Stage; and Eight through Ten are the Stages of an adept. (See Table 1.) It is helpful to think of each Stage in terms of the Milestone that lies ahead. You will also notice a number of bold and italicized key terms. Don’t worry if you don’t know what the terms mean or can’t remember everything being presented here. All of it is explained in greater detail in later chapters and the glossary. Figure <<Converter note: picture removed>> 2. If the skills and insights you learn on the cushion don’t infuse your daily life, progress will be quite slow. It’s like filling a leaky bucket.
@@ -189,7 +188,7 @@ Stage One: Establishing a Practice
 
 THE NOVICE Stage Two: Interrupted Attention and Overcoming Mind-Wandering
 
-##       MEDITATOR
+###       MEDITATOR
 
 
 Stage Three: Extended Attention and Overcoming Forgetting
@@ -220,7 +219,7 @@ Milestone Four: Persistence of the Mental Qualities of an Adept
 
 The Novice—Stages One through Three
 
-## STAGE ONE: ESTABLISHING A PRACTICE
+### STAGE ONE: ESTABLISHING A PRACTICE
 
 
 This Stage is about developing a consistent and diligent meditation practice. Being consistent means setting a clear daily schedule for when you’re going to meditate, and sticking to it except when there are circumstances beyond your control. Diligence means engaging wholeheartedly in the practice rather than spending your time on the cushion planning or daydreaming.
@@ -237,7 +236,7 @@ strong motivation, cultivating discipline and diligence.
 
 Mastery: Never missing a daily practice session. STAGE TWO: INTERRUPTED ATTENTION AND OVERCOMING MIND-
 
-## WANDERING
+### WANDERING
 
 
 Stage Two involves the simple practice of keeping your attention on the breath. This is easier said than done. You will discover that attention is easily captured by a distraction, making you forget that you’re supposed to be paying attention to the breath. Forgetting quickly leads to mind-wandering, which can last a few seconds, several minutes, or the entire meditation session. This sequence is so important it’s worth committing to memory—the untrained mind produces distractions that lead to forgetting, which results in mind-wandering. In Stage Two, you only work with the last event—mind-wandering.
@@ -266,7 +265,7 @@ Mastery: You can sustain attention on the meditation object for minutes,
 
 while most periods of mind-wandering last only a few seconds.
 
-## STAGE THREE: EXTENDED ATTENTION AND OVERCOMING FORGETTING
+### STAGE THREE: EXTENDED ATTENTION AND OVERCOMING FORGETTING
 
 
 Stages Two and Three are similar, but mind-wandering gets shorter and shorter until it stops altogether. The biggest challenge during this Stage is forgetting, but sleepiness often becomes a problem as well.
@@ -289,7 +288,7 @@ Mastery: Rarely forgetting the breath or falling asleep. MILESTONE ONE: CONTINUO
 
 The Skilled Meditator—Stages Four through Six
 
-## STAGE FOUR: CONTINUOUS ATTENTION AND OVERCOMING GROSS
+### STAGE FOUR: CONTINUOUS ATTENTION AND OVERCOMING GROSS
 
 
 DISTRACTION AND STRONG DULLNESS You can stay focused on the breath more or less continuously, but attention still shifts rapidly back and forth between the breath and various distractions. Whenever a distraction becomes the primary focus of your attention, it pushes the meditation object into the background. This is called gross distraction. But when the mind grows calm, there tends to be another problem, strong dullness. To deal with both of these challenges, you develop continuous introspective awareness to alert you to their presence.
@@ -312,7 +311,7 @@ Mastery: Gross distractions no longer push the breath into the background,
 
 and breath sensations don’t fade or become distorted due to strong dullness.
 
-## STAGE FIVE: OVERCOMING SUBTLE DULLNESS AND INCREASING
+### STAGE FIVE: OVERCOMING SUBTLE DULLNESS AND INCREASING
 
 
 MINDFULNESS You have overcome gross distractions and strong dullness, but there is a tendency to slip into stable subtle dullness. This makes the breath sensations less vivid and causes peripheral awareness to fade. Unrecognized, subtle dullness can lead you to overestimate your abilities and move on to the next Stage prematurely, which leads to concentration with dullness. You will experience only a shallow facsimile of the later Stages, and your practice will come to a dead end. To overcome subtle dullness, you must sharpen your faculties of attention and awareness.
@@ -333,7 +332,7 @@ Mastery: You can sustain or even increase the power of your mindfulness
 
 during each meditation session.
 
-## STAGE SIX: SUBDUING SUBTLE DISTRACTION
+### STAGE SIX: SUBDUING SUBTLE DISTRACTION
 
 
 Attention is fairly stable but still alternates between the meditation object and subtle distractions in the background. You’re now ready to bring your faculty of attention to a whole new level where subtle distractions fall away completely. You will achieve exclusive attention to the meditation object, also called single- pointed attention.
@@ -360,14 +359,14 @@ potential distractions. Mastery: Subtle distractions have almost entirely disapp
 
 unwavering exclusive attention together with vivid mindfulness.
 
-## MILESTONE TWO: SUSTAINED EXCLUSIVE FOCUS OF ATTENTION
+### MILESTONE TWO: SUSTAINED EXCLUSIVE FOCUS OF ATTENTION
 
 
 With mastery of Stages Four through Six, your attention no longer alternates back and forth from the breath to distractions in the background. You can focus on the meditation object to the exclusion of everything else, and your scope of attention is also stable. Dullness has completely disappeared, and mindfulness takes the form of a powerful metacognitive introspective awareness. That is, you’re now aware of your state of mind in every moment, even as you focus on the breath. You have accomplished the two major objectives of meditative training: stable attention and powerful mindfulness. With these abilities you’re now a skilled meditator, and have achieved the second Milestone.
 
 The Transition—Stage Seven
 
-## STAGE SEVEN: EXCLUSIVE ATTENTION AND UNIFYING THE MIND
+### STAGE SEVEN: EXCLUSIVE ATTENTION AND UNIFYING THE MIND
 
 
 You can now investigate any object with however broad or narrow a focus you choose. But you have to stay vigilant and make a continuous effort to keep subtle distractions and subtle dullness at bay.
@@ -402,14 +401,14 @@ and jhāna practices add variety at this Stage. Mastery: You can drop all effort
 
 unprecedented degree of stability and clarity.
 
-## MILESTONE THREE: EFFORTLESS STABILITY OF ATTENTION
+### MILESTONE THREE: EFFORTLESS STABILITY OF ATTENTION
 
 
 The third Milestone is marked by effortlessly sustained exclusive attention together with powerful mindfulness.6 This state is called mental pliancy, and occurs because of the complete pacification of the discriminating mind, meaning mental chatter and discursive analysis have stopped. Different parts of the mind are no longer so resistant or preoccupied with other things, and diverse mental processes begin to coalesce around a single purpose. This unification of mind means that, rather than struggling against itself, the mind functions more as a coherent, harmonious whole. You have completed the transition from being a skilled meditator to an adept meditator.7
 
 The Adept Meditator—Stages Eight through Ten
 
-## STAGE EIGHT: MENTAL PLIANCY AND PACIFYING THE SENSES
+### STAGE EIGHT: MENTAL PLIANCY AND PACIFYING THE SENSES
 
 
 With mental pliancy, you can effortlessly sustain exclusive attention and mindfulness, but physical pain and discomfort still limit how long you can sit. The bizarre sensations and involuntary movements that began in Stage Seven not only continue, but may intensify. With continuing unification of mind and complete pacification of the senses, physical pliancy arises, and these problems disappear. Pacifying the senses doesn’t imply going into some trance. It just means that the five physical senses, as well as the mind sense,8 temporarily grow quiet while you meditate.
@@ -440,7 +439,7 @@ your mental state is one of intense joy. With this mental and physical pliancy,
 
 you can sit for hours without dullness, distraction, or physical discomfort.
 
-## STAGE NINE: MENTAL AND PHYSICAL PLIANCY AND CALMING THE INTENSITY
+### STAGE NINE: MENTAL AND PHYSICAL PLIANCY AND CALMING THE INTENSITY
 
 
 OF MEDITATIVE JOY With mental and physical pliancy comes meditative joy, a unique state of mind that brings great happiness and physical pleasure.
@@ -461,17 +460,17 @@ Mastery: Consistently evoking mental and physical pliancy, accompanied by
 
 profound tranquility and equanimity.
 
-## STAGE TEN: TRANQUILITY AND EQUANIMITY
+### STAGE TEN: TRANQUILITY AND EQUANIMITY
 
 
 You enter Stage Ten with all the qualities of śamatha: effortlessly stable attention, mindfulness, joy, tranquility, and equanimity. At first these qualities immediately fade after the meditation has ended. But as you continue to practice, they persist longer and longer between meditation sessions. Eventually they become the normal condition of the mind. Because the characteristics of śamatha never disappear entirely, whenever you sit on the cushion, you quickly regain a fully developed meditative state.9 You have mastered Stage Ten when the qualities of śamatha persist for many hours after you rise from the cushion. Once Stage Ten is mastered, the mind is described as unsurpassable.10
 
-## MILESTONE FOUR: PERSISTENCE OF THE MENTAL QUALITIES OF AN ADEPT
+### MILESTONE FOUR: PERSISTENCE OF THE MENTAL QUALITIES OF AN ADEPT
 
 
 When you have mastered Stage Ten, the many positive mental qualities you experience during meditation are strongly present even between meditation sessions, so your daily life is imbued with effortlessly stable attention, mindfulness, joy, tranquility, and equanimity.11 This is the fourth and final Milestone and marks the culmination of an adept meditator’s training.
 
-##  CULTIVATING THE RIGHT ATTITUDE AND SETTING CLEAR
+###  CULTIVATING THE RIGHT ATTITUDE AND SETTING CLEAR
 
 
 INTENTIONS We naturally tend to think of ourselves as the agent responsible for producing results through will and effort. Certain words we can’t avoid using when we talk about meditation, such as “achieve” and “master,” only reinforce this idea. We often believe we should be in control, the masters of our own minds. But that belief only creates problems for your practice. It will lead you to try to willfully force the mind into submission. When that inevitably fails, you will tend to get discouraged and blame yourself. This can turn into a habit unless you realize there is no “self” in charge of the mind, and therefore nobody to blame. As you continue to meditate, this fact of “no-Self” becomes increasingly clear, but you can’t afford to wait for that Insight. For the sake of making progress, it’s best to drop this notion, at least at an intellectual level, as soon as possible.
@@ -575,11 +574,11 @@ Attempting to force your attention to remain stable is like trying to make a sap
 Care for the mind like a skilled gardener, and everything will flower and fruit in due time.
 
 
-# FIRST INTERLUDE Conscious Experience and the Objectives of Meditation
+## FIRST INTERLUDE Conscious Experience and the Objectives of Meditation
 
 
 HIS chapter, I introduce a basic, conceptual model of Conscious Experience. You can consider this a map of the topography—the landscape of the mind, so to speak. The meditation instructions are like the roads allowing you to explore this landscape comfortably. However, remember that a map is only a representation, not the thing itself. When circumstances change—as your practice improves— you’ll find yourself wanting a new map. This is why, in later chapters, I provide two additional, much more in-depth models of the mind for you to work from. Each map builds on the previous ones, and together they lead you toward the two major objectives of meditation practice: stable attention and mindfulness, both of which we will look at more closely in this Interlude.
-##                  A MODEL OF CONSCIOUS EXPERIENCE
+###                  A MODEL OF CONSCIOUS EXPERIENCE
 
 
 Consciousness1 consists of whatever we’re experiencing in the moment. It’s a lot like vision: just as the objects in our field of vision change from one moment to the next, objects in our field of conscious awareness, like sights, sounds, smells, and other external phenomena, also arise and pass away. Of course, this field isn’t just limited to what we perceive with our outer senses. It also includes internal mental objects, which come in the form of transitory thoughts, feelings, and memories.
@@ -714,7 +713,7 @@ An expanded scope is a lot like alternating attention, in that you can include m
 
 This is a skill you cultivate mainly in Stage Six, after your focus of attention has become more stable. You learn to control the scope through a series of exercises where you deliberately shift between a narrow and a broad focus. In both Stages Six and Seven, you give particular emphasis to exclusive focus on the meditation object. By Stage Eight, you have mastered control of your scope and can broaden your focus so it includes the entire field of conscious awareness in a single, open, and expansive “non-focus.” Ordinarily, having so broad a focus would just mean being dimly aware of many things at once.10 Fortunately, we can also increase the power of consciousness, meaning everything will still be quite clear. This brings us to the second objective of meditation, mindfulness.
 
-##   THE SECOND OBJECTIVE OF MEDITATION: MINDFULNESS
+###   THE SECOND OBJECTIVE OF MEDITATION: MINDFULNESS
 
 
 When the mindfulness of a samurai warrior fails, he loses his life. When we lack mindfulness in daily life, something similar happens. We become so entangled in our own thoughts and emotions that we forget the bigger picture. Our perspective narrows, and we lose our way. We do and say regretful things that cause needless suffering to ourselves and others. Mindfulness allows us to recognize our options, choose our responses wisely, and take control over the direction of our lives. It also gives us the power to change our past conditioning and become the person we want to be. Most importantly, mindfulness leads to Insight, Wisdom, and Awakening.
@@ -797,7 +796,7 @@ available for both.
 
 Proper training in mindfulness changes this equation, providing more conscious power for optimal interaction, and no more trade-offs. The goal, therefore, is to increase the total power of consciousness available for both attention and awareness. The result is peripheral awareness that is clearer, and attention that gets used more appropriately: purposefully, in the present moment, and without becoming bogged down in judgment and projection.
 
-## INCREASING THE POWER OF MINDFULNESS
+### INCREASING THE POWER OF MINDFULNESS
 
 
 Increasing the power of consciousness isn’t a mysterious process. It’s a lot like weight training. You simply do exercises where you practice sustaining close attention and strong peripheral awareness at the same time. This is the only way to make consciousness more powerful. The more vivid you can make your attention while still sustaining awareness, the more power you will gain. You will learn a number of different exercises as you move through the Stages. In the higher Stages of meditation, attention and awareness actually merge together to become one fully integrated system—more about that in the chapter on Stage Eight.
@@ -830,7 +829,7 @@ take things personally. Attention plays an appropriate role within the
 
 context of a broad and powerful awareness.
 
-##                                          SUMMARY
+###                                          SUMMARY
 
 
 The two main objectives of meditation practice are: • Developing stable attention. • Cultivating powerful mindfulness that optimizes the interaction between attention and awareness. A famous analogy in Zen compares the mind to a pool of water. This is a helpful way to think about the training and goals of meditation. If the water is agitated, churned up by wind and currents, it doesn’t provide a clear reflection, nor can we see to the bottom. But as the water calms, the debris that made the pool muddy begins to settle, and the water itself becomes clear. A calm pool also reflects the sky and clouds perfectly.
@@ -840,7 +839,7 @@ In the same way, if the mind is agitated, disturbed by the concerns of daily lif
 Don’t forget, however, that the path is as important as the goal. The Stages outlined in this book may bring you to a state of peace and Insight, but they are also an exciting journey of discovery into the nature of the mind. Relish in this beautiful and sometimes challenging journey. The goal isn’t just getting to a calm, quiet pool, but learning about the makeup of the water itself as it goes from choppy to still, from cloudy to crystal-clear.
 
 
-# STAGE ONE Establishing a Practice
+## STAGE ONE Establishing a Practice
 
 
 oal for Stage One is to develop a regular meditation practice. Put all
@@ -858,12 +857,12 @@ this doesn’t happen, rather than chastising yourself and trying to force
 yourself to practice, work on strengthening your motivation and intentions
 
 instead. Stage One: The meditator begins to chase the running elephant, holding a goad in one hand and a rope in the other. These represent the vigilant, alert mindfulness (rope) and strong intention (goad) that will eventually be used to tame the elephant (the mind). The elephant is being led by a running monkey (scattering of attention). • The elephant is all black, meaning the mind is dominated by the Five Hindrances and the Seven Problems. • The monkey is all black, meaning attention scatters because there is little intentional control over its movements. • The flame indicates the effort required to move from Stage One to Stage Two.
-##                      PRACTICE GOALS FOR STAGE ONE
+###                      PRACTICE GOALS FOR STAGE ONE
 
 
 There are two goals for Stage One. First, you’ll learn how to prepare for practice, and to use a simple method to enter meditation gradually. Second, and more important, is to establish a consistent daily practice where you meditate to the best of your ability throughout every session. To succeed, you’ll need to recognize the obstacles that stand in your way and create solutions. Mastering this Stage provides you with the strong foundation you need to progress rapidly through the Ten Stages.
 
-##                       HOW TO BEGIN YOUR PRACTICE
+###                       HOW TO BEGIN YOUR PRACTICE
 
 
 The basic practice used in this book is quite simple. Direct your attention toward a well-defined meditation object. Whenever your attentions slips, redirect it back to that object. Repeat this as often as needed. Rather than jump right in, though, you’ll start with two preliminary practices to help prepare your body and mind for a smooth transition to the meditation object.
@@ -964,7 +963,7 @@ Step Four—Focus on sensations of the breath at the nose, but continue to be aw
 
 As you move through these four steps, always remember to relax your body, calm your mind, and deliberately evoke feelings of contentment. It’s like gradually settling into a spa. Continually notice any pleasant sensations contributing to a sense of relaxation, well-being, and overall happiness. As you will learn, relaxation and happiness play an important role in the process of training the mind.
 
-## STEP ONE: FOCUS ON THE PRESENT
+### STEP ONE: FOCUS ON THE PRESENT
 
 
 First, close your eyes and spend a few moments becoming fully present. Take in everything presented to the senses. With your eyes closed, you’ll find the two main sensory stimuli are sounds and sensations originating on or in the body. Open your peripheral awareness fully. Next, allow your attention to tune in to and range freely among any of the sounds, bodily sensations, smells, or thoughts you may experience. Within this holistic panorama, the one limitation you place on movements of attention is to remain in the present, here and now.
@@ -977,7 +976,7 @@ You’ll also be aware of all kinds of other mental activity: memories, thoughts
 
 In general, mindfully observing thoughts is tricky, so it’s better to focus on sounds, smells, and physical sensations to avoid being hooked by thoughts. A helpful phrase to remember when dealing with distractions of any kind is, let it come, let it be, let it go. Don’t try to suppress it, just let it come into peripheral awareness. Don’t engage the distraction or focus attention on it, simply disregard it and let it be in the background. Then, let it go away by itself. This is a passive process. There is nothing to “do” but allow these objects to arise and pass away on their own, moment by moment. When you find your attention has been captured by a thought, just come back to the present.
 
-## STEP TWO: FOCUS ON BODILY SENSATIONS
+### STEP TWO: FOCUS ON BODILY SENSATIONS
 
 
 Once you have become fully present with every kind of sensory stimulus, limit your attention to bodily sensations. These include all physical sensations arising on or in the body, such as touch, pressure, warmth, coolness, movement, tingling, deep visceral sensations like a rumbling in your stomach, and so forth. With your attention limited to bodily sensations, let everything else slip into the background of peripheral awareness. Nothing should be suppressed or excluded from your field of conscious awareness. Just let sounds, smells, and thoughts keep circulating in the background, but don’t focus on them. Let them come, let them be, and let them go in peripheral awareness while you restrict all movements of attention to bodily sensations. Whenever you notice your attention going to a sound or thought, bring it back to the body.
@@ -1016,7 +1015,7 @@ Summary of the Basic Practice Sit down, close your eyes, and go through the Six-
 
 The time it takes to work through this entire sequence varies from person to person, and from one session to the next. For a novice, just moving through the Four-Step Transition may take most or all of the session. As you improve, you will proceed more quickly. Eventually, you will move through the Six Points and from the free-ranging attention of daily life to a stable focus on the meditation object in a matter of minutes or seconds.
 
-##                            ESTABLISHING A PRACTICE
+###                            ESTABLISHING A PRACTICE
 
 
 Now that you understand how to begin your practice, we’ll focus on the primary goal of Stage One: establishing a regular, daily practice. This may seem obvious, perhaps trivial, but few meditators, even those professing years of experience, maintain a truly consistent practice regimen. Yet, to truly reap the many benefits of meditation, you must master this first Stage by overcoming the obstacles and taking the necessary steps.
@@ -1027,12 +1026,12 @@ You’ll have to overcome four major obstacles: not enough time,
 
 procrastination, reluctance and resistance to practicing, and doubt.
 
-## TIME
+### TIME
 
 
 Finding time to practice is your initial big challenge. When you first decide to take up meditation, you’re naturally eager. Maybe you found inspiration from a book or lecture. Perhaps you attended a meditation class or have a friend who meditates. At first, sheer enthusiasm helps you find time to practice. Yet, as your early excitement fades, you soon begin to feel the pressure of other demands. We will discuss some practical solutions for overcoming this obstacle, but the most effective antidote is actually quite simple: as you would do with anything else you’re committed to, you must make the time to meditate. I don’t know anyone who has established a meditation practice in his or her “spare” time. And besides, for most of us, spare time is rare. If you don’t set a regular schedule, you most likely won’t meditate. Make your practice a priority. PROCRASTINATION Procrastination is one of the classic “problems” in meditation. Modern life tends to be busy, full of deadlines, and stressful. Maybe you started meditating to manage your stress better, only to find that practicing is just another demand on your overextended time and energy. When this happens, it’s easy to say, “I’ll meditate after I take care of such-and-such,” or “I’ll have more time to meditate tomorrow.” This is why you must make practice a priority. Otherwise, you’ll always find something more important to do first. Also, once you’ve been meditating regularly for a while, the aftereffects will make you more at ease and relaxed. Ironically, you will feel like you have more time, not less.
 
-## RELUCTANCE AND RESISTANCE
+### RELUCTANCE AND RESISTANCE
 
 
 The reason many turn to meditation is the promise of greater mindfulness and inner peace. However, when you sit down and discover how wild and uncontrollable your mind can be, you may easily get frustrated and conclude that meditation is all work and little reward. This is where reluctance and resistance to practice usually appear. Whereas procrastination keeps us from sitting down, reluctance and resistance lead us to spend our time on the cushion daydreaming, fantasizing, or making plans rather than actually meditating. In other words, you’ll do almost anything to avoid what you now think is a boring, difficult, and unsatisfying task. The keys to overcoming reluctance and resistance are inspiration and motivation. When you first start practicing, you’ll need to get your inspiration from somewhere else. However, once you start making progress, your own success provides motivation. SELF-DOUBT We tend to stick with activities we are naturally good at and avoid the ones we struggle with. When you discover you can’t control your unruly mind, you may begin doubting your abilities. “Maybe I’m different in some way or just lack self- discipline.” Or you might believe you aren’t “smart” or “spiritual” enough for meditation. It’s easy to think some inherent obstacle is holding you back, especially if you start comparing your experiences with what other people seem to be achieving. Yet, the real obstacle is self-doubt, which is powerful and can rob you of your enthusiasm and determination to establish a regular practice. Without a regular practice, it will take a long time before you see any real improvement, which will only create more doubt. At the root of self-doubt is the classic hindrance of Doubt explained in the Second Interlude. There, you’ll also
@@ -1053,7 +1052,7 @@ that’s best for you, cultivate the right attitude, and generate strong
 
 motivation.
 
-## SETTING A TIME AND PLACE
+### SETTING A TIME AND PLACE
 
 
 Ideally, you should meditate at the same time every day. You learn to associate that time with meditation and are less likely to procrastinate because you don’t have to decide when to meditate. Choose a period that doesn’t conflict with other activities and obligations. You may have to make some adjustments to your daily schedule. If the same time is simply impossible, pick a place in your normal routine (e.g., before breakfast or after your regular exercise) that will be the same each day. Having a fixed period, whether set by the clock or your daily routine, is the best way to become consistent.
@@ -1084,7 +1083,7 @@ to have a place just for meditating.
 
 Finally, creating a regular place for meditation is just as important as setting a regular time. Choose a comfortable space where you won’t be disturbed. It should be quiet and secluded enough to feel like your special meditation spot. The ideal situation is to have a place just for meditating. However, if that’s not possible, it can also be a space you use for other things when you’re done. But it should be a place where you can keep your meditation cushions, a shawl, or anything else you might use. Design and decorate it in ways that inspire you and remind you of why you’re meditating and what you hope to gain. Some people like to set up an altar as well. It doesn’t matter if it’s religious or not. Its purpose is to inspire and motivate you in your practice.
 
-## THE RIGHT POSTURE
+### THE RIGHT POSTURE
 
 
 Any comfortable position works for meditation, as long as it’s not so comfy that you fall asleep. There are four traditional meditation postures: sitting, standing, walking, and lying down. They all work, and none is more “correct” than the others. Here, we’ll focus on some pointers to help you find a good sitting position.
@@ -1097,7 +1096,7 @@ You can’t overcome all discomfort by adjusting your posture. Eliminate
 
 what you can, but accept what remains as part of your practice. Remain as still as you can during sitting meditation, despite any discomfort. This can be challenging for a beginner, but always wait as long as you can before moving. Then, don’t stop meditating when you change position, but rather move slowly and deliberately with full attention to the sensations in your body as you shift. You will likely discover that, although whatever caused you to move in the first place has disappeared, another irritating sensation, possibly more intense, soon takes its place. You simply can’t overcome all physical discomfort by adjusting your posture.
 
-## THE RIGHT ATTITUDE
+### THE RIGHT ATTITUDE
 
 
 To succeed, we need to approach the practice in a relaxed manner, free from judgment and expectations. Although we may start out this way, we can quickly slip into a critical, striving attitude when faced with problems such as mind- wandering, sleepiness, and impatience. This attitude becomes the greatest impediment to our continued progress. When words like “struggle” or “difficult” come to mind, or if you feel like you’re “trying really hard, but not making any progress,” you’ll know it’s time to examine your attitude.
@@ -1110,7 +1109,7 @@ didn’t do.”
 
 —Stephanie Nash So let go of expectations and generate an attitude of faith, trust, and confidence: faith in the method, trust that the results will come with continued practice, and confidence in your own ability. Joyful effort and diligence are the right attitude. Rather than striving, focus on the positive, pleasant elements of each session, joyfully repeating the same simple tasks as many times as needed to achieve the goal. This is precisely what diligence means. With spiritual practice in general, and meditation in particular, small measures repeated consistently produce huge results. The only place for great effort in meditation is in adjusting your schedule to actually spend more time practicing. Realize there are no failures in meditation, except for actually failing to do the practice. As fellow teacher Stephanie Nash is fond of saying, “A good meditation is one you did— the only bad meditation is one you didn’t do.” Take her wise advice to heart.
 
-## STAYING MOTIVATED
+### STAYING MOTIVATED
 
 
 You wouldn’t be reading this right now if you weren’t somehow inspired to explore meditation. Keep yourself inspired, and find new sources of encouragement. Make a point of frequently reminding yourself why you decided to meditate and what the benefits are. Reflect on the admirable qualities of experienced meditators you know. Read books, go to lectures, and listen to recorded talks. Think about how you and everyone around you will benefit from your practice. Do all you can to stay motivated, just as you would if beginning an exercise program or learning to play an instrument.
@@ -1134,7 +1133,7 @@ with mindfulness he breathes out.
 Ānāpānasati Sutta
 
 
-# SECOND INTERLUDE The Hindrances and Problems
+## SECOND INTERLUDE The Hindrances and Problems
 
 
 ALL THE mental skills needed in meditation are innate abilities we can selectively choose to cultivate. It’s no different from acquiring any new skill; whether learning a science, a musical instrument, or how to throw a Frisbee, we’re actually just training ourselves in a way that favors certain inherent abilities over others. Think of meditation as mental training that exercises certain “mental muscles” so they respond more easily and better serve your needs.
@@ -1416,7 +1415,7 @@ PHYSICAL DISCOMFORT One. Use physical discomfort as part of the practice to
 develop the Insight that pain is inevitable but suffering is
 
 optional. See Stages Three and Four.
-##                                        IN CONCLUSION
+###                                        IN CONCLUSION
 
 
 The Five Hindrances are more than just obstacles to meditation. They are the same obstacles that thwart a happy, productive existence. By practicing meditation and overcoming them, we accomplish something of inestimable value, which has far-reaching benefits for every other part of our lives as well.
@@ -1424,7 +1423,7 @@ The Five Hindrances are more than just obstacles to meditation. They are the sam
 When you achieve Stage Ten, these hindrances are completely overcome, absent from both meditation and daily life. And as long as you can regularly reach śamatha in your practice—or if you achieve sufficient Insight—they will not return.
 
 
-# STAGE TWO Interrupted Attention and Overcoming Mind- Wandering
+## STAGE TWO Interrupted Attention and Overcoming Mind- Wandering
 
 
 he goal for Stage Two is to shorten the periods of mind-wandering and
@@ -1450,7 +1449,7 @@ become shorter, periods of attention to the breath will grow longer, and
 you’ll have achieved your goal. Stage Two: The meditator is still chasing the elephant, but the elephant and the monkey have slowed a bit, now walking instead of running.
 
 • The top of the elephant’s head has turned white, indicating that laziness, procrastination, resistance, reluctance, and doubt are sufficiently overcome to establish a regular practice. • The top of the monkey’s head is white, signifying that periods of mind-wandering are growing shorter. • The flames indicate that effort is required.
-##                       PRACTICE GOALS FOR STAGE TWO
+###                       PRACTICE GOALS FOR STAGE TWO
 
 
 Stage One was preparatory, teaching you how to establish a practice and getting you seated and attentive to the sensations of the breath at the tip of the nose. Stage Two marks the beginning of the process of training the mind as you try to stay focused on the breath. It takes work to calm the mind, but you will work smart, not hard, using finesse, patience, and positive reinforcement.
@@ -1515,7 +1514,7 @@ must find further challenges to keep it actively engaged.
 
 As your perception grows sharper and you can clearly identify all the points in the breath cycle, it becomes less challenging and your interest fades. Remember, willpower is not very effective for anything in meditation, including sustaining attention, so the mind must find further challenges to stay actively engaged. The next challenge is to observe as many different sensations as possible during the course of each in- and out-breath, and to discern the pauses as clearly as possible. Figure <<Converter note: picture removed>> 12. Following the breath engages the mind by giving it a challenge and can be treated like a game. Find the beginnings and endings of each part of the breath cycle, and the pauses in between. Then try to observe all these points with equal clarity.
 
-##                          QUICK REVIEW OF STAGE TWO PRACTICE
+###                          QUICK REVIEW OF STAGE TWO PRACTICE
 
 
 gradual transition to the sensations of the breath at the tip of the nose, and count ten breaths. Hold the
@@ -1578,7 +1577,7 @@ The antidote that calms monkey-mind is to become “grounded in the body.” Thi
 
 The basic rule for training the mind in meditation is to always intentionally select the locus of attention. That is, you must intentionally choose the “area” (i.e., breath sensations, bodily sensations, thoughts, or some combination) you want attention restricted to. Every practice for achieving stable attention is based on this principle. With monkey-mind, attention is constantly moving, so you finesse the situation by intentionally expanding this area. You let the mind keep moving, but only within the boundaries that you’ve intentionally set. Instead of trying to hold the monkey still, you give it a larger cage to move in.
 
-##        OVERCOMING IMPATIENCE AND CULTIVATING JOY
+###        OVERCOMING IMPATIENCE AND CULTIVATING JOY
 
 
 It’s inevitable that, fairly soon, you’ll get impatient and think, “This isn’t working, there must be an easier way,” or “I could be doing something better with my time.” These thoughts and feelings arise because something you wanted, hoped for, or expected hasn’t happened.
@@ -1611,7 +1610,7 @@ Bringing the different parts of the mind into harmony is crucial for achieving o
 
 Figure 15. By making meditation satisfying and enjoyable, the part of the mind that wants to meditate can get the other parts to stop resisting and join in.
 
-##                           A FORMULA FOR SUCCESS IN MEDITATION
+###                           A FORMULA FOR SUCCESS IN MEDITATION
 
 
 practice: relax and look for the joy; observe; let it come, let it be, and let it go. Recite it every time you sit,
@@ -1645,7 +1644,7 @@ away from the practice. They’ll disappear on their own in time.
 CONCLUSION Consider every obstacle an opportunity to learn about the mind. If you practice diligently every day, it won’t be long before you have strengthened introspective awareness until periods of mind-wandering become fairly brief; you can quickly but gently direct attention back to the meditation object; and you can sustain attention on the meditation object for longer periods of time. If you don’t notice your attention improving much during a single session, trust that it will in the next few days and weeks of practice. If you simply follow these instructions, it will occur on its own, as surely as night follows day. You have mastered this Stage when you can consistently maintain your focus on the meditation object for minutes, while mind-wandering lasts only seconds.
 
 
-# STAGE THREE Extended Continuity of Attention and Overcoming Forgetting
+## STAGE THREE Extended Continuity of Attention and Overcoming Forgetting
 
 
 he goal for Stage Three is to overcome forgetting and falling asleep. Set your
@@ -1661,7 +1660,7 @@ while engaging with the breath as fully as possible. These three intentions and
 the actions they produce are simply elaborations of those from Stage Two.
 
 Once they become habits, you’ll rarely forget the breath. Stage Three: The meditator has caught up with the elephant enough to put the rope around its neck, meaning the power of mindfulness is beginning to restrain the mind. A rabbit has appeared on the elephant’s back, representing subtle dullness that leads to drowsiness and sleep. The monkey, elephant, and rabbit are all looking back at the meditator, signifying they’ve begun to respond to the meditator’s efforts. • The elephant’s head, ears, and trunk have turned white because the hindrances and problems are not as strong as before. • The monkey’s head is white, meaning periods of mind-wandering have become shorter and forgetting happens less often. • The face of the rabbit is white, indicating the meditator is learning to recognize dullness before it becomes strong enough to cause falling asleep. • The flames indicate the effort required to progress to Stage Four.
-##                      PRACTICE GOALS FOR STAGE THREE
+###                      PRACTICE GOALS FOR STAGE THREE
 
 
 You begin Stage Three with longer periods of sustained attention to the breath. The mind still wanders sometimes, but not for as long. Just keep practicing what you learned in Stage Two, and mind-wandering will eventually stop completely.
@@ -1670,7 +1669,7 @@ The main goal for this Stage is to overcome forgetting. To do this, you’ll use
 
 You have mastered Stage Three when you no longer forget the breath. This is also the first Milestone Achievement: continuous attention to the meditation object.
 
-##                            HOW FORGETTING HAPPENS
+###                            HOW FORGETTING HAPPENS
 
 
 Our field of conscious awareness contains much more than just the meditation object. It also includes an awareness of bodily sensations and things in our surroundings, as well as a constant stream of thoughts and feelings. Any of these is a potential distraction, but an actual distraction is one that competes with the meditation object for your attention. When attention alternates between the breath and a sound, thought, feeling, or bodily sensation, flickering even briefly between the two, it’s a distraction. There are typically several such distractions in your field of conscious awareness at any one time. You might not notice these movements of attention because they’re so rapid. Nevertheless, this alternating attention creates a scattering of attention to distractions. These are the distractions that potentially cause forgetting.
@@ -1703,7 +1702,7 @@ Eventually, attention stops returning to the meditation object altogether, and f
 
 Forgetting often happens gradually, but if the distracting thought or sensation is highly “charged,” attention can get captured quickly and intensely, and the meditation object disappears at once from consciousness. Still, whether it happens quickly or slowly, the result is the same: you forget about the breath, and you also forget what you were doing. Then, once attention tires of that distraction, it moves on to something else. Mind-wandering begins.
 
-##                           OVERCOMING FORGETTING
+###                           OVERCOMING FORGETTING
 
 
 You overcome forgetting by catching distractions before they cause you to forget. To do this, you first need to extend the periods of attention to the breath so you can look introspectively at the mind and see what’s happening. Extended periods of stable attention are achieved using the technique of following the breath from Stage Two. However, in this Stage, you’ll look at the breath sensations in much greater detail, and will learn the related technique of connecting. The other key to overcoming forgetting is cultivating introspective awareness. This allows you to see the distractions that are about to make you forget the breath. The practices of labeling and checking in will develop this ability.
@@ -1722,7 +1721,7 @@ correct for distractions before they cause forgetting.
 
 Sustaining Attention Through Following and Connecting Following and connecting are tools you’ll use over many Stages to develop greater vividness, clarity, and stability of attention. At this Stage, you use them to sustain attention on the meditation object for longer periods without losing peripheral awareness. Both methods give the mind a series of simple tasks to perform, or “games” to play, that make following the breath more interesting. This helps counter the tendency for attention to abandon the breath for something else. Following and connecting should always be done in a relaxed manner, rather than with driven intensity.
 
-## FOLLOWING
+### FOLLOWING
 
 
 As you progress through the Stages, you will follow the breath with ever closer attention in pursuit of ever more detail. In Stage Two, this meant identifying the beginning and end of both the in- and out-breaths, as well as the pauses separating the two. Your first goal in Stage Three, if you haven’t reached it already, is to discern each of these with equal clarity.
@@ -1735,7 +1734,7 @@ With practice, the number of sensations you recognize will increase. It’s poss
 
 Even as you engage more closely with the breath, it’s very important to also maintain extrospective awareness. This may not be easy. When you focus closely, the mind naturally tends to drop awareness of bodily sensations and external stimuli. Don’t let this happen, because you’ll become more vulnerable to both forgetting and drowsiness. Furthermore, emphasizing both attention and peripheral awareness at the same time increases the total power of consciousness. (See First Interlude.) More conscious power is the key to making progress in later Stages. Finally, when you allow for the full range and content of awareness, there’s great potential for Insight, even at these early Stages. You’re not only observing the breath, but watching and learning from the activity of your mind as a whole.
 
-## CONNECTING
+### CONNECTING
 
 
 Once you can clearly discern and easily follow the sensations of the breath, you may need a new challenge to engage your attention. This is why we introduce connecting here, even though it’s a more advanced technique. Connecting is an extension of following that involves making comparisons and associations.
@@ -1746,7 +1745,7 @@ Once you reach Stages Four and Five, your introspective awareness will have impr
 
 You’ll continue using following and connecting in Stages Four and Five, so don’t set your expectations too high right now. You may even find connecting isn’t particularly useful at this Stage. We describe it here only because there are some who will benefit from using it sooner.
 
-##                     FOLLOWING AND CONNECTING IN SILENCE
+###                     FOLLOWING AND CONNECTING IN SILENCE
 
 
 noticed that a lot of the mental activity takes the form of inner dialogue. Like a sports commentator
@@ -1769,7 +1768,7 @@ Cultivate introspective awareness. With introspective awareness, you’re
 
 aware of what’s happening in your mind.
 
-## LABELING
+### LABELING
 
 
 Up to now, you’ve relied on spontaneous introspective awareness—or what we’ve called the “aha!” moment—to alert you to forgetting and mind-wandering. When you positively reinforce these spontaneous realizations, awareness learns to catch mind-wandering faster and faster, so that now your mind only wanders for a few seconds. However, your awareness probably isn’t strong enough for you to recall what distraction was occupying your attention before your “aha!” moment. You have enough conscious power to “wake up,” but not enough to know what was going on in the mind. It’s like when someone suddenly asks you what you’re thinking about, but you just can’t remember.
@@ -1782,7 +1781,7 @@ Extending Attention and Increasing Introspective Awareness Figure 17. Labeling. 
 
 Then let go of the distraction and return to the breath.
 
-## CHECKING IN
+### CHECKING IN
 
 
 The second part of cultivating introspective awareness involves checking in using introspective attention. Instead of waiting for introspective awareness to arise spontaneously, as you’ve done until now, you intentionally turn your attention inward to see what’s happening in the mind. Doing this check-in requires longer periods of stable attention. That’s why following and connecting are so important at this Stage. These techniques give you more stable attention, making it easier to momentarily shift attention and see what’s happening in the mind.
@@ -1801,14 +1800,14 @@ Always check in very gently and briefly, turning your attention inward to evalua
 
 Train yourself to check in regularly with introspective attention. To start, try every half-dozen breaths or so—but don’t start counting them. Checking in should become a habit. Each time you check in with attention, you strengthen the power and consistency of introspective awareness. Also, the more often checking in leads to discovering gross distraction and tightening up your focus, the less often you will forget the breath.
 
-## PUTTING THE PRACTICES TOGETHER
+### PUTTING THE PRACTICES TOGETHER
 
 
 Each practice by itself strengthens introspective awareness, but they also work together to overcome forgetting. The labeling of distractions trains awareness to know which distractions to watch out for in the future when you’re checking in. You could say labeling teaches introspective awareness to recognize the “faces of your abductors”—those dangerous distractions that steal your attention and cause you to forget.
 
 When checking in, you can also use labeling. If you check in and notice that a distracting thought, memory, or emotion was about to take you away, you can give it a simple label and re-engage with the breath until the distraction fades. But remember, you aren’t trying to eliminate distractions entirely from awareness. As long as they stay in the background, let them come, let them be, and let them go. If you practice diligently, by the time you reach Stage Four you’ll have completely stable attention, and be able to keep watch over the entire horizon of the mind with introspective awareness.
 
-##                              PAIN AND DISCOMFORT
+###                              PAIN AND DISCOMFORT
 
 
 As we start sitting longer, pain and other unpleasant sensations such as numbness, tingling, and itching appear. Our bodies aren’t used to staying still. When we’re fairly stationary in daily life, we still move and fidget. Even when sleeping, we constantly change positions to stay comfortable. The good news is it gets easier to sit still over time. The better news is that eventually you won’t have any physical discomfort at all. In fact, sitting still becomes so deliciously pleasant that it takes an act of will to move. But getting accustomed to true stillness takes time and practice.
@@ -1821,7 +1820,7 @@ After you move, the discomfort often returns quickly or reappears elsewhere. Whe
 
 We’ll discuss meditating with pain and discomfort more in Stage Four, when they’re even more distracting. For now, just remember that by meditating on these harmless sources of pain, we gain Insight into the nature of desire and aversion by watching how resistance and impatience create suffering. As you progress, you will discover a profound truth: in life, as in meditation, physical pain is unavoidable, but suffering of every kind is entirely optional.
 
-##                          DULLNESS AND DROWSINESS
+###                          DULLNESS AND DROWSINESS
 
 
 Once you start to have longer periods of stable attention, you will face the problem of drowsiness and falling asleep. Why does dullness arise right when our concentration starts to improve? The first reason is that when we meditate, we intentionally turn the mind inward. But we’ve been conditioned our entire life to associate turning inward with going to sleep. The second is that as we succeed in taming the mind and calming its normal state of relative agitation, the overall energy level drops.
@@ -1872,7 +1871,7 @@ look for dullness as well.
 
 Remember, it’s always best to recognize and correct for dullness before it gets too strong. Introspective attention, and eventually introspective awareness, are what alert you to dullness before you get drowsy and fall asleep. So, each time you check in for gross distractions, look for dullness as well. Also, keep in mind that your intention isn’t just to get rid of sleepiness, but to learn about the nature of dullness. Therefore, follow the breath, and when dullness arises, consider it an opportunity to learn and practice. In time, through effort and training, dullness will naturally disappear.
 
-##                                       CONCLUSION
+###                                       CONCLUSION
 
 
 You have mastered Stage Three when forgetting and mind-wandering no longer occur, and the breath stays continually in conscious awareness. This is a whole new pattern of behavior for your mind. The mind still roams, but it’s “tethered” to the meditation object, never getting too far away; the unconscious mental processes that sustain attention never entirely let go of the meditation object.
@@ -1880,7 +1879,7 @@ You have mastered Stage Three when forgetting and mind-wandering no longer occur
 Because attention no longer shifts automatically to objects of desire and aversion, you can purposely hold your attention on an emotionally neutral object like the breath for extended periods of time. The ability to continuously sustain attention on the meditation object is remarkable, so take satisfaction in your accomplishment. You can now do something that most people can’t—something you may not have thought you were even capable of. Congratulations, you have reached the First Milestone Achievement and the real beginning of skilled meditation!
 
 
-# THIRD INTERLUDE How Mindfulness Works
+## THIRD INTERLUDE How Mindfulness Works
 
 
 PRACTICE of mindfulness leads to both psychological healing and profound spiritual insights. To understand how, we first need to look at the role of the mind in the formation of personality.
@@ -1896,7 +1895,7 @@ Who we are today was shaped by our past. The imprints of past experiences exert 
 Unconscious conditioning is like a collection of invisible programs. These programs were set in motion, often long ago, by conscious experiences. Our reaction to those experiences—our thoughts, emotions, speech, and actions— may have been appropriate at the time. The problem is they have become programmed patterns, submerged in the unconscious, that don’t change. They lie dormant until they’re triggered by something in the present. When that happens, we often get so focused on the triggering event and our own emotions that these unconscious programs don’t take in any new information about the current situation. That’s why they don’t change.
 
 The practice of mindfulness works because it provides new information to these programs. But how much reprogramming happens depends on our degree of mindfulness. In other words, mindfulness has different levels of application. At its most basic level, mindfulness is simply about moderating behavior. The magic of mindfulness—its power to transform you as a person—only starts working when we move beyond the first level. At the second level, by maintaining more powerful mindfulness for longer periods in daily life, we become less reactive and more intentionally present. The third level entails reprogramming the deep conditioning that has shaped our personality, and only occurs in meditation. The fourth level is the radical reconditioning of the innate tendencies that create all our suffering, and only occurs through Insight experience.
-##                   LEVEL ONE: MODERATING BEHAVIOR
+###                   LEVEL ONE: MODERATING BEHAVIOR
 
 
 Over and over, specific situations in daily life happen to trigger our programmed patterns of behavior. For example, if your partner, or even a stranger, says something that pushes one of your buttons, you may become angry or annoyed. Without mindfulness, we react emotionally instead of responding rationally and intentionally. Often, we just create more problems for ourself. At the very least, we end up in a bad mood and become less effective at whatever we’re doing.
@@ -1909,7 +1908,7 @@ options, make wiser choices, and take control of your behavior.
 
 But if we can stay mindful, we’ll also be calmer, and not react as quickly or be so distracted by our own emotions. This allows us to be more attentive to our feelings and aware of the situation and the potential consequences of our actions, so we can regulate our behavior in positive ways. Just being aware that our suffering has more to do with our emotional reactions than with what triggered them can help us let go of those negative emotions more easily. Mindfully acknowledging our emotions and taking responsibility for our reactions lets us recognize more options, choose wiser responses, and take control of our behavior. Awareness in the present moment allows us to slow down and change our behavior, but it doesn’t make any permanent changes. The next time we’re in a similar situation, we’ll behave in the same automatic, reactive way—unless, of course, we’re mindful once again.
 
-##        LEVEL TWO: BECOMING LESS REACTIVE AND MORE
+###        LEVEL TWO: BECOMING LESS REACTIVE AND MORE
 
 
 RESPONSIVE Everyone would like to make smarter choices. However, healthier responses to life situations are only one of the benefits of attention and awareness working together. The true “magic” of mindfulness is something completely different, producing extraordinary spiritual and psychological transformations. That’s why therapists now use mindfulness training to help treat all kinds of emotional and behavioral problems, such as stress, anger, phobias, compulsive behaviors, eating disorders, addiction, and depression. The magic of mindfulness allows these people to overcome the psychological root of their problems. Thus people who have cultivated mindfulness are more attuned and less reactive. They have greater self-control and self-awareness, better communication skills and relationships, clearer thinking and intentions, and more resilience to change.
@@ -1934,7 +1933,7 @@ Of course, it’s much harder to stay mindful when it matters most, in difficult
 
 Then you’ll build up the skill and the “mental muscle” to stay mindful in the face of greater challenges.
 
-##     LEVEL THREE: REPROGRAMMING DEEP CONDITIONING
+###     LEVEL THREE: REPROGRAMMING DEEP CONDITIONING
 
 
 In daily life, even if we’re mindful every moment, unskillful conditioning can only get reprogramed when something triggers it. So, while it’s essential to practice in daily life, mindfulness in formal meditation is even more effective, because we don’t have to wait for something to trigger an unconscious program to practice with. Instead, when our minds grow stable and quiet, all kinds of deep memories, thoughts, and emotions that drive our unconscious programs can come to the surface. Then they can be purified by the illuminating power of mindfulness.
@@ -1955,7 +1954,7 @@ This purification occurs mainly in Stage Four, but also at Stage Seven.
 
 LEVEL FOUR: MINDFULNESS, INSIGHT, AND THE END OF
 
-##                                         SUFFERING
+###                                         SUFFERING
 
 
 Unquestionably, the most valuable effect of mindfulness is its ability to radically reprogram our deepest misconceptions about the nature of reality, and about who and what we are. Our gut intuition tells us we’re separate selves in a world of other people and objects, and that our individual suffering and happiness depend on external circumstances. This may seem like common sense, but it’s a misperception that comes from our innate programing,3 and which is continually reinforced by cultural conditioning. As we practice mindfulness, however, we accumulate more and more evidence that things are very different from what we believed. In particular, the thoughts, feelings, and memories we associate with a sense of self are seen more objectively, revealing themselves to be constantly changing, impersonal, and often contradictory processes occurring in different parts of the mind.
@@ -1968,7 +1967,7 @@ reality, and of who and what we think we are. These are Insight experiences. Whe
 
 You may be understandably skeptical about what I’m saying. You may even doubt that such a transformation is desirable. That’s all right. Use the illuminating power of mindfulness to explore these very questions. Are “you” your thoughts? Are “you” your feelings? Keep asking these questions. As your meditation improves, you’ll find out for yourself.
 
-## A METAPHOR FOR THE LEVELS OF MINDFULNESS
+### A METAPHOR FOR THE LEVELS OF MINDFULNESS
 
 
 Here is a metaphor to help you remember the different levels at which mindfulness works. Say you regularly walk in the countryside along a narrow trail with a thornbush growing alongside it. As you start practicing mindfulness, you become present enough in daily life to recognize your options and moderate your behavior. So, you’re able to dodge the thornbush, keeping your face from getting scratched or having a thorn rip a hole in your shirt. This is the first level of mindfulness. Yet, the thornbush will still be there, and if you aren’t mindful tomorrow, you’ll get snagged then. In other words, nothing changes in the long term. There is no magic involved in this kind of mindfulness.
@@ -1986,7 +1985,7 @@ The third level is like cutting off the entire trunk, yet the root is still ther
 The fourth level of mindfulness, the Insight of Awakening, will destroy the root.
 
 
-# STAGE FOUR Continuous Attention and Overcoming Gross Distraction and Strong Dullness
+## STAGE FOUR Continuous Attention and Overcoming Gross Distraction and Strong Dullness
 
 
 he goal for Stage Four is to overcome gross distraction and strong dullness.
@@ -1998,7 +1997,7 @@ becomes continuous, and notice and immediately correct for strong dullness
 and gross distraction. Eventually, noticing and correcting become completely
 
 automatic. Stage Four: The elephant and the monkey have slowed enough that there’s slack in the meditator’s rope. • The shoulders and forelegs of the elephant are white, signifying the weakening of Laziness and Lethargy, and strong dullness is being overcome. • The shoulders and arms of the monkey are white, signifying that forgetting and mind-wandering have been overcome, and the meditator is working on gross distraction. • The front legs of the rabbit are white, because the meditator is learning to recognize and counteract progressive subtle dullness. • There is a flame representing the effort required to reach Stage Five.
-##                        PRACTICE GOALS FOR STAGE FOUR
+###                        PRACTICE GOALS FOR STAGE FOUR
 
 
 You begin this Stage with a clear sense that your attention is much more stable and continuous—and compared to previous Stages, it certainly is! However, your attention still alternates, shifting almost imperceptibly fast to a sound, thought, or feeling, then returning to the breath. The meditation object always remains in attention, but not exclusively.
@@ -2007,7 +2006,7 @@ The primary goal at this Stage is to overcome the scattering of attention caused
 
 As your mind grows calmer and more stable in this Stage, you will experience a deep purification. Stored unconscious residues from the past well up to the surface and are released. The result is a profound healing. You don’t have to do anything to help things along. This purification is a natural process of the mind. Simply allow it to unfold organically.
 
-##                   REVIEW OF GROSS AND SUBTLE DISTRACTION
+###                   REVIEW OF GROSS AND SUBTLE DISTRACTION
 
 
 how it constantly shifts and changes. Physical sensations, thoughts, memories, and emotions continue to
@@ -2032,7 +2031,7 @@ completely into the background to become an object in peripheral awareness. Stri
 
 entirely from consciousness, it is different from the forgetting characteristic of Stage Three.
 
-##           LEARNING TO OVERCOME GROSS DISTRACTION
+###           LEARNING TO OVERCOME GROSS DISTRACTION
 
 
 There is a common misconception that stilling the mind means getting rid of thoughts and blocking out all distractions. Often, students try to suppress these by focusing more intensely on the meditation object. This may seem like a reasonable strategy. Yet brute force never works for long in meditation. You simply can’t force the mind to do something it doesn’t want to. Also, since you have increased your mindfulness throughout the preceding Stages, you’re more conscious than ever of all the background mental activity, which also makes suppression impossible.
@@ -2054,7 +2053,7 @@ Cultivating Continuous Introspective Awareness The role of introspective awarene
 But there are two drawbacks with using introspective attention to monitor the mind. The first I mentioned in Stage Three: when checking in, you have to disrupt your focus on the breath. That worked then, but it doesn’t now, since you’re trying to cultivate continuous attention. The other problem concerns what attention “sees” when turned inward. The “object” of your introspective attention actually comes from the contents of introspective awareness in the previous moment. Introspective attention can only produce a conceptual snapshot of what was just happening, a kind of delay or echo, whereas introspective awareness is capable of continuously monitoring the mind. This is a
 
 
-# rather subtle point. Take some time to think about it, since it has important consequences.
+## rather subtle point. Take some time to think about it, since it has important consequences.
 
 
 Figure 21. Overcoming gross distraction. Step One—Recognize when a gross distraction is present,
@@ -2096,7 +2095,7 @@ Persistent Distractions: Pain, Insights, and Emotions Sometimes, a strong and pe
 At this Stage, the arising of strong and persistent distractions is actually
 
 a sign of progress!
-## PAIN AND DISCOMFORT AS A DISTRACTION
+### PAIN AND DISCOMFORT AS A DISTRACTION
 
 
 Every meditator must learn to deal with pain, numbness, itching, and other potentially distracting sensations. In this Stage, they become much more noticeable. During Stage Three, you experienced pain and discomfort because you weren’t used to sitting still for long periods. Now, pain becomes a way for the mind to resist practicing. Your mind will tend to magnify ordinary discomforts. It will even create painful sensations that have no physical cause, especially during longer sits or meditation retreats. Such pain often disappears once you make it the focus of your attention, only to show up elsewhere a little later. Regardless of its source, pain must now be confronted as part of your practice.
@@ -2123,7 +2122,7 @@ Sometimes, painful sensations just don’t go away. When this happens, stay with
 
 Unavoidable physical discomfort is also an opportunity to discover the true nature of pain. You will eventually learn to distinguish between physical discomfort as a sensation, and the mind’s unnecessary reaction to it, which is suffering. In the words of the Buddha, “When the uninstructed worldling experiences a painful feeling, he feels two things—a bodily one and a mental one. . . . When the instructed noble disciple experiences a painful feeling, he feels one thing—a bodily one, and not a mental one.”1 Pain disappears completely in the later Stages.
 
-## THE PROBLEM OF DISCURSIVE BRILLIANCE
+### THE PROBLEM OF DISCURSIVE BRILLIANCE
 
 
 Seemingly brilliant insights are a much more pleasant kind of gross distraction. For instance, you may find new ways of dealing with personal problems. Or you may gain insights into your mind and behavior, or into profound philosophical and metaphysical concepts. These insights can emerge unbidden from the unconscious, appearing in peripheral awareness and tempting you to take notice. Other times, they suddenly spring onto center stage. These insights are often quite valid and very useful—which is what makes them so seductive as potential distractions.
@@ -2214,7 +2213,7 @@ Don’t focus on the breath too intensely for too long at this Stage. If you att
 
 Figure 26. Connecting: Compare the different parts of your breath cycle with the corresponding parts of the previous breath cycle. Is the current in-breath or out-breath longer or shorter when compared to the previous breath? Has the length of the pauses changed? Do the in-breath, out-breath, or pauses change when there’s more or less subtle distraction, or more or less dullness?
 
-##             LEARNING TO OVERCOME STRONG DULLNESS
+###             LEARNING TO OVERCOME STRONG DULLNESS
 
 
 As you become more skilled at dealing with distractions, strong dullness will become your next major obstacle. We gave you some tools in Stage Three for working with the drowsiness caused by strong dullness. In this Stage, your goal is to overcome strong dullness entirely.
@@ -2243,7 +2242,7 @@ automatic, you’ll have completely overcome strong dullness.
 
 A well-trained mind won’t slip into strong dullness except when extremely fatigued. Eventually, even progressive subtle dullness will rarely occur. You will still experience stable subtle dullness until you overcome it in Stage Five.
 
-##             THREE STEPS FOR OVERCOMING STRONG DULLNESS
+###             THREE STEPS FOR OVERCOMING STRONG DULLNESS
 
 
 progressive subtle dullness is present.
@@ -2270,7 +2269,7 @@ on it.
 
 Be prepared to spend entire sessions working with dullness. Welcome it as an opportunity to investigate the nature of dullness. At some point during your sit, usually after many interventions, dullness may even disappear entirely. When this happens, you’ll notice your mind feels light and alert. And with experience, you’ll be able to recognize when all traces of dullness have disappeared completely. You have achieved the goal for this Stage when progressive subtle dullness rarely arises, and when it does, is quickly noticed and corrected for.
 
-##                                THE SEDUCTION OF DULLNESS
+###                                THE SEDUCTION OF DULLNESS
 
 
 pleasurable sensations, paranormal experiences like channeling, past-life recollections, and the overall
@@ -2295,7 +2294,7 @@ experiences and found meaning and value in them. If you find some significance i
 
 it aside and explore it at another time.
 
-##                                            CONCLUSION
+###                                            CONCLUSION
 
 
 You have mastered Stage Four when you’re free from both gross distractions and strong dullness. Physical sensations, thoughts, memories, and emotions still arise, but they no longer draw attention away. Dullness no longer leads to drowsiness, nor causes perception of the breath sensations to grow dim or take on hypnagogic distortions. By the end of Stage Four, you can direct and sustain your attention at will. This is a unique and powerful ability.
@@ -2311,7 +2310,7 @@ a long breath, he knows he breathes out a long breath. Breathing in a short brea
 Ānāpānasati Sutta
 
 
-# FOURTH INTERLUDE The Moments of Consciousness Model
+## FOURTH INTERLUDE The Moments of Consciousness Model
 
 
 xperience you learned about in the First Interlude introduced the ideas of attention and peripheral awareness. While that model was helpful for working through the first four Stages, it was incomplete. As you progress in your practice, you’ll need more detailed models of the mind to help make sense of your new experiences. Here, we present the Moments of Consciousness model. It builds on what you’ve already learned, recasting many of the concepts already used.
@@ -2319,7 +2318,7 @@ xperience you learned about in the First Interlude introduced the ideas of atten
 This model is drawn from the Theravada Buddhist Abhidhamma, and includes some elaborations and expansions by a later Buddhist school known as the Yogācāra. This Interlude and the next take ideas about the mind from both these sources and explore them using modern terminology and a more science- based framework.
 
 Keep in mind that this model is intended to help you understand both your own experiences and the meditation instructions better. Don’t bother with trying to decide whether the description is literally true or not. As your meditation skills mature, you’ll have plenty of time to decide what you think, based on your own experiences. What’s more important is that the model is useful for making sense of and working more effectively in your practice.
-##                       MOMENTS OF CONSCIOUSNESS
+###                       MOMENTS OF CONSCIOUSNESS
 
 
 Our everyday conscious experience of the world—the thoughts and sensations that arise and pass away—appear to flow together seamlessly from one moment to the next. However, according to the Moments of Consciousness model, this is an illusion. If we observed closely enough, we would find that experience is actually divided into individual moments of consciousness. These conscious “mind moments” occur one at a time, in much the same way that a motion picture film is actually divided into separate frames. Because the frames pass so quickly and are so numerous, motion on the film seems fluid. Similarly, these discrete moments of consciousness are so brief and numerous that they seem to form one continuous and uninterrupted stream of consciousness.
@@ -2410,7 +2409,7 @@ The lack of intention results in more non-perceiving moments, so
 
 dullness grows stronger.
 
-##   APPLYING THE MOMENTS OF CONSCIOUSNESS MODEL TO
+###   APPLYING THE MOMENTS OF CONSCIOUSNESS MODEL TO
 
 
 MEDITATION Let’s look at what might happen during a single breath cycle in meditation using the Moments of Consciousness model, starting with the in-breath. The subjective experience is one of fairly continuous attention to the breath sensations, but with subtle distractions such as knee pain or feelings of restlessness standing out from the background of peripheral awareness. What’s actually happening, according to the model, is that a large number of separate moments of consciousness11 are arising and passing away during the course of the in-breath. Most are moments of attention with the changing sensations of the breath as their object, but others have knee pain, thoughts about lunch, or feelings of restlessness as their object. Attention isn’t actually moving between the breath and these distractions. Instead, successive moments of attention hold different objects. Interspersed among these moments of attention are moments of peripheral awareness of other bodily sensations, sounds, thoughts, and emotions, creating the “background.” Then, during the out-breath, if the pain in your knee draws your attention, a greater proportion of moments of attention are devoted to knee pain than to the breath. Subjectively, the pain is now a gross distraction, and the breath slips away into the background.
@@ -2470,7 +2469,7 @@ Powerful imagery, visions, and a sense of having experienced something profound 
 The Moments of Consciousness model will prove useful for understanding both the problem of subtle dullness and how to overcome it in Stage Five. It will also prove useful for the later Stages. Remember, this model and the others presented in this book were originally developed by meditators, for meditators, to help them achieve the ultimate goals of spiritual practice.
 
 
-# STAGE FIVE Overcoming Subtle Dullness and Increasing Mindfulness
+## STAGE FIVE Overcoming Subtle Dullness and Increasing Mindfulness
 
 
 he goal of Stage Five is to overcome subtle dullness and increase the power
@@ -2480,7 +2479,7 @@ of mindfulness. Set and hold the intention to notice and immediately correct
 for subtle dullness. Powerful mindfulness will become a habit of the mind. Stage Five: The meditator has started to gain some control over the elephant, and now leads it and uses the goad. The monkey continues to interfere, but now follows behind, tugging at the elephant’s tail. • The elephant is half white. The hindrance of Laziness and Lethargy has been overcome, so strong dullness has disappeared; the hindrances of Sense Desire, Aversion, and Doubt are weakening as well. • The monkey is also half white. Gross distraction has been completely overcome. • The front half of the rabbit is white as well, because progressive subtle dullness has been overcome. The back half that is still black indicates the presence of non-progressive subtle dullness, which will be overcome at this Stage.
 
 • The flame is becoming smaller, indicating less effort is now required.
-##                      PRACTICE GOALS FOR STAGE FIVE
+###                      PRACTICE GOALS FOR STAGE FIVE
 
 
 At the start of Stage Five, attention is much more stable. You’re free from gross distraction, but still experience subtle distraction. You’ve also overcome strong dullness and progressive subtle dullness, but remain in a state of stable subtle dullness.
@@ -2489,7 +2488,7 @@ Your goals for this Stage are to completely overcome the tendency to slip more d
 
 You’ve mastered Stage Five when you’ve completely overcome stable subtle dullness and the intensity of mindfulness actually increases as your session progresses.
 
-##                     THE DANGER OF SUBTLE DULLNESS
+###                     THE DANGER OF SUBTLE DULLNESS
 
 
 This new level of stable attention is precisely what makes us more vulnerable to slipping into a deeper state of sustained subtle dullness. That’s because the mental agitation that stimulated the mind and helped keep us awake in the earlier Stages has subsided. As subtle dullness deepens, it causes both peripheral awareness and subtle distractions to fade. If we don’t recognize this as a sign of subtle dullness, it can easily be mistaken for the strong, exclusive focus of Stage Six. The pleasant feelings that accompany subtle dullness can also be misinterpreted as first signs of the meditative joy of advanced Stages. Without guidance, meditators often confuse a deeper state of subtle dullness with having achieved the more lofty states of later Stages.
@@ -2498,14 +2497,14 @@ Without guidance, you might confuse a deeper state of subtle dullness
 
 with having achieved a Stage Six or Seven level of practice. We can sustain this type of subtle dullness for very long periods. It’s often described in these kinds of terms: “My concentration was so deep, an hour seemed like only minutes.” Or, “I don’t know where I went, but I was just gone, and felt so peaceful and happy.” When the pleasure of dullness is particularly strong and our peripheral awareness of thoughts and sensations fades completely, our meditation can even seem to fit the description of a meditative absorption (jhāna). We can quickly get attached to such experiences, prizing them as proof of our meditative skills. Yet, relative to the practice goals in this book, they are complete dead ends. It’s crucial we learn to recognize and overcome subtle dullness to progress in your practice. Therefore, do not skip this Stage!
 
-##                       OVERCOMING SUBTLE DULLNESS
+###                       OVERCOMING SUBTLE DULLNESS
 
 
 Subtle dullness has three characteristics: (1) the vividness and clarity of the meditation object decline; (2) both extrospective and introspective peripheral awareness fade; (3) there is a comfortable, relaxed, and pleasant feeling. These occur together, though only one or two may be obvious at a time. We need to learn to identify these characteristics in order to know when subtle dullness is growing deeper.
 
 The Characteristics of Subtle Dullness
 
-## LOSS OF VIVIDNESS
+### LOSS OF VIVIDNESS
 
 
 As subtle dullness deepens, the sensations of the breath are no longer as vivid, and your perception of the fine details aren’t as sharp and clear as before. Once you learn to look for this change in perception, it’s quite noticeable.
@@ -2520,7 +2519,7 @@ An increase in the number of subtle distractions also causes a loss of vividness
 
 Although dullness and distractions produce similar changes in perception, when dullness is the cause, vividness and clarity decline more gradually, without as much fluctuation—and, of course, there’s no increase in the number of subtle distractions. Vividness and clarity decline because non-perceiving mind moments gradually replace perceiving ones. You must become skilled at recognizing this decline. Just like with strong dullness in Stage Four, we rely on introspective awareness to alert us to the loss of vividness and clarity so we can increase the intensity of our perception again. Yet, this isn’t so easy because it’s precisely when subtle dullness deepens that introspective awareness starts to fade.
 
-## THE FADING OF EXTROSPECTIVE AND INTROSPECTIVE AWARENESS
+### THE FADING OF EXTROSPECTIVE AND INTROSPECTIVE AWARENESS
 
 
 Initially, your perception of the breath is clear and vivid, and you remain mindfully aware of physical sensations and mental objects in the periphery. But when subtle dullness deepens, your field of conscious awareness shrinks. Sounds and bodily sensations fade from awareness, sometimes becoming imperceptible. Thoughts are fewer and don’t occur as often. At the same time, feelings of relaxation and contentment grow, eventually dominating introspective awareness. You will be introspectively aware of a sense of comfort and ease, rather than of dullness. This is a tricky situation. Introspective awareness, the very thing you need in order to catch deepening subtle dullness, has itself been affected by subtle dullness!
@@ -2533,7 +2532,7 @@ fewer.
 
 This problem is similar to the one in Stage Three. There, you needed introspective awareness to detect gross distractions and drowsiness, but it wasn’t developed enough yet to do the job. So instead, you used attention to “check in,” looking into the mind for distraction and dullness. In this Stage, you will also periodically check in with attention to look for the presence of subtle dullness.
 
-## THE PLEASURE OF DULLNESS
+### THE PLEASURE OF DULLNESS
 
 
 Having dealt with pain and discomfort in the preceding Stage, it’s now easier to sit comfortably for longer periods. Also, because you have more stable attention and feel satisfied with your progress, your meditations are often pleasant. You have to learn to distinguish this more wholesome kind of pleasure from the pleasurable feelings of subtle dullness. Pleasantness by itself isn’t a reliable sign of subtle dullness.
@@ -2578,7 +2577,7 @@ You want to detect any deepening of subtle dullness as soon as possible.
 
 Then apply the appropriate antidote.
 
-##        INCREASING MINDFULNESS WITH BODY SCANNING
+###        INCREASING MINDFULNESS WITH BODY SCANNING
 
 
 The second major goal of this Stage is to increase mindfulness. We could develop the skills of mindfulness without increasing the overall power of the mind, but that wouldn’t do the job. We’d be left with a less effective mindfulness that’s easily lost.
@@ -2769,7 +2768,7 @@ purpose of this practice is to develop sustained, clear attention to your
 
 usual meditation object.
 
-##    UNDERSTANDING STAGE FIVE FROM THE MOMENTS OF
+###    UNDERSTANDING STAGE FIVE FROM THE MOMENTS OF
 
 
 CONSCIOUSNESS MODEL The Moments of Consciousness model gives us a better understanding of the practice at this Stage. Think about a digital photograph. The vividness and clarity of the image depend on the number of pixels. Likewise, the vividness and clarity of the meditation object depend on the number of perceiving moments of attention whose content is the meditation object. If perceiving moments decrease and non-perceiving moments increase, subtle dullness is setting in and the quality of perception declines.
@@ -2790,7 +2789,7 @@ moments in the future.
 
 Finally, body scanning involves the intention to perceive extremely subtle sensations in unfamiliar areas of the body. This recruits still more moments of consciousness, increasing the conscious power of the mind and leading to greater mindfulness. When this intention is applied properly and often enough, powerful mindfulness turns into a habit both on and off the cushion.
 
-##                                       CONCLUSION
+###                                       CONCLUSION
 
 
 You’ve mastered this Stage when you’re able to consistently sustain a high level of intense and clear perception—of both attention and introspective awareness— during most or all of your session. Attention will gain intensity, making all the details of the meditation object quite vivid. It will also gain in clarity, so you can experience the actual arising and passing away of individual breath sensations. You’ll naturally abandon abstract concepts like “inhale” and “exhale,” which you were in the habit of using to follow the breath. Even though attention is extremely focused, you remain extrospectively aware. Your introspective awareness detects and automatically corrects for any subtle dullness.
@@ -2798,7 +2797,7 @@ You’ve mastered this Stage when you’re able to consistently sustain a high l
 Mastering this Stage doesn’t involve reaching any particular level of mindfulness. Your mindfulness will continue to grow stronger through all the later Stages. Rather, it is the ability to consistently sustain and increase your overall mindfulness in each meditation session. Your meditations will steadily improve with each sitting.
 
 
-# FIFTH INTERLUDE The Mind-System
+## FIFTH INTERLUDE The Mind-System
 
 
 chapter, you will learn about the Mind-System model. It builds on the previous models presented in this book and provides a more complete picture, not just of consciousness, but of the mind as a whole. The Mind-System model originally comes from the ancient Yogācāra school of Buddhism.1 For the most part, this chapter simply explains that model using modern ideas from cognitive psychology to make things easier to understand. Occasionally, though, we introduce some new concepts2 to make our overall picture of the mind that much clearer.
@@ -2810,7 +2809,7 @@ The Mind-System model is a powerful tool. It will give you a much
 deeper grasp of what you’ve experienced so far, and what’s to come in
 
 later Stages.
-##                              THE MIND AS A SYSTEM
+###                              THE MIND AS A SYSTEM
 
 
 You’ll notice we’re calling it the “mind-system,” instead of the “mind.”3 That’s because, although we usually talk about the mind as if it were a single entity, it’s really made up of many distinct but interconnected processes. This complex system is composed of two main parts, the conscious mind and the unconscious mind. The conscious mind is the part of our psyche we experience directly, while the unconscious is the part that, with its many complex “behind the scenes” activities, we can only know indirectly through inference.
@@ -2841,7 +2840,7 @@ The sensory and discriminating minds are each composed of many individual sub-mi
 
 Figure 38. The unconscious part of the mind-system is divided into two major parts: the sensory mind and the discriminating mind. The sensory and discriminating minds are each composed of many individual sub-minds that function simultaneously and autonomously.
 
-## THE SENSORY MIND
+### THE SENSORY MIND
 
 
 The sensory mind is only concerned with information coming in from the “outside” by way of the physical senses. Within the sensory mind, there are five sub-minds, each with its own sensory field corresponding to one of the five physical senses.10 One sub-mind works exclusively on phenomena concerned with vision, another exclusively on phenomena concerned with hearing, and so forth. Each sensory sub-mind has its own specialty, so to speak, called its cognitive domain, as well as its own function to perform.
@@ -2866,7 +2865,7 @@ The products of information processing by the sensory minds are
 
 projected into consciousness as input for the discriminating mind.
 
-## THE DISCRIMINATING MIND
+### THE DISCRIMINATING MIND
 
 
 The sensory minds don’t project every sense-percept they generate into consciousness, but those they do become available to the discriminating mind. It assimilates that information, further processing these sense-percepts and transforming them into more complex mental representations—in other words, into perceptions.14 For example, the visual mind will project a collection of sense-percepts into consciousness as, say, an image of a rapidly moving black- and-red thing, or an even more specific image, such as a black-and-red bird flying by. The discriminating mind takes that and creates more elaborate representations of this simple concept by combining it with memories, previous sense-percepts and other stored information, and even things from our imagination. The image of a black-and-red bird thus becomes transformed into the specific conceptual object: “red-winged blackbird.” The original sense- percepts may have been accompanied by a hedonic feeling of pleasure at the gracefulness of the shape and the combination of black and red. The discriminating mind might then add its own emotional overtones, such as an experience of “happiness” at seeing and correctly identifying such a beautiful bird.
@@ -2893,7 +2892,7 @@ the sensory mind. Each sub-mind performs specialized activities and
 
 has its own particular function and purpose.
 
-## A CLOSER LOOK AT THE DISCRIMINATING MIND
+### A CLOSER LOOK AT THE DISCRIMINATING MIND
 
 
 Let’s zoom in and look at these discriminating sub-minds in more detail. There’s a continuous stream of information flowing into consciousness. Each sub-mind only takes from consciousness the information relevant to its particular job and ignores the rest. After the selected information has been discriminated and recombined in various ways, the result may be projected back into consciousness. In our earlier example, one particular sub-mind of the discriminating mind projected the final perception of a “red-winged blackbird” into consciousness. However, in the interim following the earlier image of a “black-and-red moving object,” many other sub-minds may have projected information into consciousness that contributed to that final perception.
@@ -2906,7 +2905,7 @@ In Stage Two, we talked about how different parts of the mind may have different
 
 One of the reasons we usually function without too much trouble is because, in a manner of speaking, “not all discriminating sub-minds are created equal.” In fact, they’re arranged in a hierarchy. At the top are sub-minds in charge of things like personal values, self-image, and weighing consequences. These tend to dominate other sub-minds, such as the erotic sub-mind, or the sub-mind responsible for anger. SOME FINAL POINTS ABOUT THE SENSORY AND DISCRIMINATING SUB-
 
-## MINDS
+### MINDS
 
 
 The activities of the sensory and discriminating sub-minds don’t just determine what sensations we perceive, or what thoughts and emotions arise in consciousness. They also dictate the movements of attention. In the Moments of Consciousness model, we discussed how every perceiving mind moment has an element of intention associated with it. Part of the intention associated with each moment of awareness is for certain things to become objects of attention. This intention may be strong or weak, but when it’s strong enough, our attention automatically shifts to the new object. That’s why we experience a constant movement of attention as we go through the day. A strong intention for your focus to be drawn to specific objects also explains the coarser kinds of scattered attention when we’re meditating: gross distraction, forgetting the meditation object, and mind-wandering. It’s also responsible for the experience of subtle distraction, when attention briefly alternates with other objects, even while we’re focusing on the breath.
@@ -2915,7 +2914,7 @@ The final point to make about these sub-minds concerns how active they are in a 
 
 On the other hand, the discriminating sub-minds remain continuously active, even during deep sleep, or when we’re awake but not consciously thinking. We’re all familiar with the evidence for this ongoing activity “beneath the surface.” For example, say you forgot where you left your wallet, or you can’t think of a specific word, no matter how hard you try. You give up and go do something else, then suddenly, minutes or hours later, the answer pops into your head. Similarly, the solution to a difficult problem often appears seemingly out of nowhere and at the strangest times, sometimes even in dreams. Dreaming itself is evidence of the discriminating sub-minds continuously at work. In fact, a sub- mind with a task to perform will remain active even during deep, dreamless sleep. This explains why we sometimes wake up in the morning with a feeling of anxiety, unease, or some other emotion that seems to have no apparent cause.
 
-##                  FUNCTIONS OF THE CONSCIOUS MIND
+###                  FUNCTIONS OF THE CONSCIOUS MIND
 
 
 Here’s the picture presented so far: every sub-mind belongs either to the unconscious sensory or unconscious discriminating mind. Each sub-mind performs its own specialized task independently of others, and all at the same time. Each can project content into consciousness, as well as initiate actions. Obviously, there’s enormous potential for conflict and inefficiency, if not total chaos. This is where consciousness fits into the picture: the conscious mind provides an “interface” that allows these unconscious sub-minds to communicate with each other and work together cooperatively.
@@ -2932,7 +2931,7 @@ Figure 40. The conscious mind is like the “boardroom of the mind-system,” wh
 
 KEY POINT ONE: THE CONSCIOUS MIND AND THE MIND-
 
-##                                                   SYSTEM
+###                                                   SYSTEM
 
 
 takes place there, the conscious mind can be regarded as a “space” where things happen. Everything that
@@ -2949,7 +2948,7 @@ mind, the unconscious sub-minds couldn’t work together to perform their many d
 
 EXECUTIVE FUNCTIONS, MIND-SYSTEM INTERACTIONS,
 
-##                                        AND INTENTIONS
+###                                        AND INTENTIONS
 
 
 Higher-order cognitive tasks—things like regulating, organizing, inhibition, planning, and so forth—are referred to by psychologists as executive functions. Five kinds of situations require executive function because preprogrammed behavior is not sufficient:18 planning and decision making; correcting errors and troubleshooting; situations that require novel actions or complicated sequences of action; dangerous or complex situations; and situations requiring the inhibition of our usual conditioned and habitual responses, in order to take a different course of action. These executive functions are a crucial mind-system activity. They involve many sub-minds interacting through consciousness to: coordinate the activities of sub-minds; communicate information between sub- minds; discriminate between conflicting information from different sub-minds; decide between conflicting intentions of different sub-minds; integrate new information into appropriate sub-minds; and program new patterns of behavior into individual sub-minds.
@@ -3066,7 +3065,7 @@ Automatic responses result from programs, inborn or learned, that are already pr
 
 KEY POINT TWO: EXECUTIVE FUNCTIONS AND THE MIND-
 
-##                                                SYSTEM
+###                                                SYSTEM
 
 
 of executive functions. Learning any skill, like meditation or playing an instrument, involves effort, trial and
@@ -3083,7 +3082,7 @@ In other words, consciously practicing a skill trains unconscious sub-minds to p
 
 perfectly.
 
-##                                 THE NARRATING MIND
+###                                 THE NARRATING MIND
 
 
 The narrating mind22 is a sub-mind of the much larger discriminating mind. However, it has a very special role and importance all its own.23 It takes in all the information projected by other sub-minds, combining, integrating, and organizing it into a meaningful summary. The narrating mind then produces a very specific kind of mind moment called a binding moment of consciousness. The narrating mind, and the binding moments it produces, are such a subtle and ubiquitous part of the mind-system that they are easily overlooked, just as a fish might overlook the very water in which it swims. However, their subtlety belies their importance.
@@ -3114,7 +3113,7 @@ The narrating mind uses this “I-It” or “Self-Other” structure to organiz
 
 Drawing on stored information about past experiences and earlier narratives, the discriminating mind also further processes the output of the narrating mind, creating a personal history for the ego-Self, and a description of the world. In the future, perceptions and interpretations based on these complex constructs will trigger desire, aversion, and emotional reactions intended to protect and further enhance the ego-Self’s well-being. The narrating mind then integrates those self- oriented thoughts and emotions into a whole new story. And this cyclical process of reinforcing the ego-Self goes on and on.
 
-##           KEY POINT THREE: CONTENTS OF CONSCIOUSNESS AND
+###           KEY POINT THREE: CONTENTS OF CONSCIOUSNESS AND
 
 
 THE MIND-SYSTEM
@@ -3222,7 +3221,7 @@ salt, conch shell, milk and honey, the fragrance of fruit and flowers, and rays 
 Laṅkāvatāra Sūtra, IX (46)
 
 
-# STAGE SIX Subduing Subtle Distractions
+## STAGE SIX Subduing Subtle Distractions
 
 
 he goal of Stage Six is to subdue subtle distractions and develop
@@ -3238,7 +3237,7 @@ stable attention and mindfulness, and you will achieve both exclusive, single-
 pointed attention and metacognitive introspective awareness. Stage Six: The meditator leads, the elephant and the monkey follow. As the mind becomes pacified, the practice becomes easier and more satisfying. The meditator no longer has to use the goad as much, and can look ahead instead of always looking back. The rabbit, which is completely white, watches from the side of the road as the meditator, elephant, and monkey pass by. • The elephant is white except for the hindquarters. The attraction of subtle dullness has been overcome; Sense Desire, Ill Will, and Doubt are becoming much weaker.
 
 • The monkey is likewise all white, except for the legs and tail. Subtle distractions are being subdued at this Stage. • There is a small flame indicating effort is still required.
-##                       PRACTICE GOALS FOR STAGE SIX
+###                       PRACTICE GOALS FOR STAGE SIX
 
 
 You begin this Stage with a more energized mind, so objects of attention are clear and vivid. Peripheral awareness is also brighter and more open. Just as turning up the light in a dark room illuminates objects in the shadows, your heightened conscious power reveals thoughts and sensations previously too subtle to detect. It may even seem like there are more subtle distractions than before, but you’ve just become more aware of the ones that were already present and scattering your attention.
@@ -3249,12 +3248,12 @@ Your second goal, which you’ll work on at the same time, is to develop metacog
 
 You have mastered Stage Six when attention rarely alternates with bodily sensations and ambient sounds, thoughts are at most infrequent and fleeting, and metacognitive awareness is continuous. When you can sustain exclusive attention together with powerful mindfulness for long periods, you have reached the second major Milestone, and are a Skilled Meditator.
 
-##  DEVELOPING AND SUSTAINING EXCLUSIVE ATTENTION TO
+###  DEVELOPING AND SUSTAINING EXCLUSIVE ATTENTION TO
 
 
 SUBDUE SUBTLE DISTRACTIONS Developing exclusive focus means ignoring subtle distractions. Subtle distractions are like children who keep trying to get the attention of a parent occupied with an important activity. If you ignore them consistently enough, they get tired of trying and don’t interrupt as often. Yet, if you stop ignoring them, even for a moment, they’ll be back clamoring for attention again. In the same way, you subdue subtle distractions by not giving them the energy of your attention.
 
-##                               THE ENERGY OF ATTENTION
+###                               THE ENERGY OF ATTENTION
 
 
 stir up related thoughts. If you ignore the thought and focus on something else, it fades and disappears.
@@ -3381,7 +3380,7 @@ By practicing experiencing the whole body with the breath, you pacify the mind, 
 
 CULTIVATING METACOGNITIVE INTROSPECTIVE
 
-##                                        AWARENESS
+###                                        AWARENESS
 
 
 Your first goal is to bring attention to a whole new level by subduing subtle distractions while maintaining introspective awareness. The second is to refine this awareness until it becomes metacognitive introspective awareness. We call it “meta”cognitive because that implies a broader view from a higher perspective. It’s like taking in a panorama from a hilltop, versus being lower down and seeing only the few things immediately surrounding you. From this higher perspective, the object of consciousness is the mind itself.7
@@ -3412,7 +3411,7 @@ moments of attention and awareness.
 
 Cultivating metacognitive introspective awareness means increasing the proportion of these moments of metacognitive awareness scattered among other moments of attention and awareness. Holding a strong intention to be an objective observer of your own mind causes the narrating mind to increase its information binding activity, thus producing more moments of metacognitive awareness. Consistently ignoring thoughts (introspective attention) and irrelevant sensations (extrospective attention) further increases the proportion of moments of consciousness available for metacognitive introspective awareness.
 
-##                               METACOGNITIVE ATTENTION
+###                               METACOGNITIVE ATTENTION
 
 
 information. That information doesn’t undergo a lot of conceptual reinterpretation, and no separate,
@@ -3431,7 +3430,7 @@ perspective of metacognitive introspective attention, the sense of being a Self 
 
 is someone or something that is the “witness” to what is happening in the mind.
 
-##      USING MEDITATIVE ABSORPTION TO ENHANCE YOUR
+###      USING MEDITATIVE ABSORPTION TO ENHANCE YOUR
 
 
 MEDITATION SKILLS Meditative absorption is a powerful method that can greatly speed up your progress through the Ten Stages. The whole-body practice described below is particularly helpful for letting go of discursive thoughts, and will train your mind to enter a state of meditative absorption. We’ll introduce other absorption practices in later Stages.
@@ -3450,7 +3449,7 @@ emotional problems seem to disappear, and there is an exhilarating feeling of
 
 transcendence.
 
-##                   THE SEVEN CONDITIONS FOR ACHIEVING FLOW
+###                   THE SEVEN CONDITIONS FOR ACHIEVING FLOW
 
 
 following conditions:
@@ -3519,7 +3518,7 @@ Practice this first jhāna whenever conditions are right for access. Always noti
 
 Until you have mastered Stage Six, keep practicing these whole-body jhānas. Don’t worry about whether or not you practice all four of them. While helpful and pleasurable, jhānas are not an end in themselves. For now, their only purpose is to help you master Stage Six and prepare you for faster progress through the next Stages. There are much deeper jhānas yet to come.
 
-##                                       CONCLUSION
+###                                       CONCLUSION
 
 
 You have mastered Stage Six once you have subdued subtle distractions and can sustain a high level of metacognitive introspective awareness. Your mindfulness is quite strong, and you perceive the meditation object clearly and vividly. You also have complete control over your scope of attention, allowing you to examine any object with as broad or narrow a focus as you choose. When you sit, it takes a little while for attention to stabilize, but after that, subtle distractions are more or less completely absent. Thoughts may intrude once in a while, but are often absent even from peripheral awareness. Sensations and sounds continue in peripheral awareness, but only rarely become subtle distractions. When they do, they are quickly and automatically corrected for. Remember, you’ve only subdued subtle distractions. You haven’t permanently eliminated them. Therefore, you must stay continually vigilant to keep subtle dullness and distractions from returning.
@@ -3527,11 +3526,11 @@ You have mastered Stage Six once you have subdued subtle distractions and can su
 You have reached the second Milestone Achievement: sustained exclusive focus of attention. This is quite an accomplishment. You have now completed the development of skilled concentration. In Stage Seven, you will make the transition to the practice of an adept. The most rewarding and joyous aspects of meditation await you.
 
 
-# SIXTH INTERLUDE The Stages of an Adept
+## SIXTH INTERLUDE The Stages of an Adept
 
 
 GES SEVEN through Ten describe the maturing practice of an adept meditator. This section of the path differs from previous Stages in four important ways. First, you don’t need to acquire any new skills. Just keep practicing the skills you’ve already mastered, and they’ll produce profound changes in how the mind-system works. Second, everything occurring in these Stages is actually part of a single, continuous process: unification of mind. Third, as unification proceeds, you’ll experience a variety of bizarre sensory phenomena, spontaneous body movements, and the arising of powerful energy. These accompany transformations occurring in the mind-system and eventually culminate in the unique experience of physical pliancy and meditative joy.1 Fourth, the practice of an adept inevitably leads to powerful Insight experiences rich with the potential for actual Insight.
-##     THE TRANSITION FROM SKILLED TO ADEPT PRACTICE:
+###     THE TRANSITION FROM SKILLED TO ADEPT PRACTICE:
 
 
 FROM TRAINING THE MIND TO TRANSFORMING THE MIND The transition from skilled to adept meditator essentially means shifting from training the mind to transforming the mind. Understanding this difference is very important. There are so many new methods introduced in the coming Stages that it’s possible to become preoccupied with technique, successfully achieving śamatha while unwittingly dismissing Insight opportunities as mere disruptions of your practice. Don’t let this happen. The real point of adept practice is reshaping your mind into a powerful instrument capable of the kind of investigation that produces Insight and Awakening.
@@ -3540,7 +3539,7 @@ Up to this point, all your progress has been the result of skill development. In
 
 However, the transition from skill development to transforming the way the mind works actually began in Stage Six with pacifying the mind. Continuously applying the skill of ignoring mental objects caused a shift in functioning of the mind-system that kept the problem from arising in the first place. The discriminating mind stopped projecting mental objects into consciousness as potential distractions. Metacognitive awareness and the acquired appearance of the meditation object are other examples of shifts in mental functioning that resulted from simply continuing to exercise certain skills.
 
-##                        SKILL DEVELOPMENT VERSUS MASTERY
+###                        SKILL DEVELOPMENT VERSUS MASTERY
 
 
 of what it means to become a virtuoso musician. First, you must master all the necessary skills—scales,
@@ -3569,7 +3568,7 @@ differently as it becomes more unified.
 
 In fact, everything from Stage Seven onward happens not because our skills improve any further, but because the mind-system itself starts functioning differently. Specifically, by consistently applying the skills we’ve already mastered, the mind becomes more and more unified. This is the fundamental difference between the practice of an adept and everything that has preceded it.
 
-##            AN OVERVIEW OF THE UNIFICATION PROCESS
+###            AN OVERVIEW OF THE UNIFICATION PROCESS
 
 
 Stages Seven through Ten involve a profound unification of the mind. This doesn’t mean the mind somehow fuses into a single, monolithic entity. Rather, the many discriminating and sensory sub-minds start working together in harmony. This unification is what gives rise to śamatha. This overview, along with the diagram, describes the sequence of events in the unification process, and what happen at each Stage. As you will see, some events unfold across several Stages. For example, pacification of the discriminating mind begins at Stage Six and continues through Stage Seven. The relationship of individual Stages to the overall process will become clear as we go along.
@@ -3606,7 +3605,7 @@ Ten, there is . . .
 
 Persistence of śamatha between meditation sessions.
 
-##                    A SUMMARY OF THE UNIFICATION PROCESS
+###                    A SUMMARY OF THE UNIFICATION PROCESS
 
 
 to unify, and culminates with the effortlessness of mental pliancy in Stage Eight, at which point you have
@@ -3629,7 +3628,7 @@ established.
 
 • By the end of Stage Ten, the śamatha of the adept continues uninterrupted in daily life.
 
-##       PACIFICATION OF THE SENSES AND MEDITATIVE JOY
+###       PACIFICATION OF THE SENSES AND MEDITATIVE JOY
 
 
 As the mind grows more unified, you will experience both complete pacification of the senses and the arising of meditative joy. The former begins with a variety of unusual sensory experiences that eventually lead to total quieting of the senses, as well as physical pliancy and the bliss of physical pliancy. Meditative joy, on the other hand, is preceded by distinctive energy currents, which increase in intensity until you experience the full fruition of joy and the bliss of mental pliancy. These two processes happen at the same time, and although they’re connected, each has its own specific characteristics.
@@ -3656,7 +3655,7 @@ Before pacification of the senses is complete, however, you’ll experience a ho
 
 Keep in mind that all these amazing, even fantastic-sounding pacification experiences have no significance in themselves except to indicate that the mind is growing more unified. Also, unlike the meditation experiences that occur during the first six Stages, the pacification process can differ significantly from person to person. You may well have experiences different from those we describe here. Nevertheless, the basic features should be recognizably the same.
 
-## PACIFICATION OF THE BODILY SENSES
+### PACIFICATION OF THE BODILY SENSES
 
 
 As the process of pacification unfolds, you’ll likely experience some bizarre physical sensations and autonomic reactions before you reach physical pliancy. For instance, you may encounter feelings of warmth or coolness on the skin. These may be stationary or moving, increasing or decreasing in intensity, and either pleasant or unpleasant. You may experience chills, shivers, skin flushing, hot flashes, and find your hairs standing on end. There may be itchiness, or a sensation like insects crawling on your skin. You may encounter numbness, tingling, electric-like shocks, or sharp pinpricks. There can be pleasurable feelings in some particular body part, including sexual sensations, or there can be waves of pleasure spreading over the entire body. People often feel very light, as if they were floating, but there can also be sensations of heaviness and pressure, especially in or on top of the head. Another common sensation is of falling forward or to one side, or of the body or head twisting, even though no actual movement takes place. There may be dizziness and nausea as well. Some people experience only a few of these, while others may have to deal with them all. Most meditators fall somewhere in between. In any case, what you experience during the process of pacification is so different from complete pacification that you may find it hard to believe they are connected at all.
@@ -3685,7 +3684,7 @@ Not every meditator will have experiences where the body seems to be in such a d
 
 Please understand, we’re not describing a trancelike state. Any strong or unusual tactile stimulus—say, someone touching your shoulder—will register in consciousness, though you may prefer not to respond. This shows that the mind continues to process sensory information at an unconscious level. Also, all you need to do to become fully aware of ordinary tactile sensations is to intentionally shift your attention. You can easily move back and forth between isolated sensations and the altered perceptions of physical pliancy. Yet, if your bodily senses are strongly pacified, it may take you a few moments to regain your normal awareness of the whole body. You might even need to move some part of your body to completely restore normal proprioception, especially if you’ve been sitting in physical pliancy for a long time. Typically, there’s some inner resistance to giving up the pleasure of physical pliancy.
 
-## PACIFICATION OF THE VISUAL SENSE
+### PACIFICATION OF THE VISUAL SENSE
 
 
 Normally, even with our eyes closed, the visual mind isn’t truly quiescent. It keeps searching for possible images to present in consciousness, though usually all we can see through our eyelids are subtle changes in light and shadow. Still, the mind tends to generate its own imagery, sometimes in abundance—a common distraction during meditation. Either way, it’s rare for someone to experience a complete absence of visual awareness.
@@ -3706,7 +3705,7 @@ often takes the form of an “all-pervading” light, which seems to come
 
 from nowhere and everywhere at once.
 
-## PACIFICATION OF THE AUDITORY SENSE
+### PACIFICATION OF THE AUDITORY SENSE
 
 
 The auditory sense also produces unusual phenomena as it’s pacified. However, unlike the other senses, these experiences won’t change much or at all as pacification proceeds. That is to say, the auditory phenomena you’ll encounter during pacification are much the same as what you’ll experience once pacification is complete.
@@ -3725,12 +3724,12 @@ imagined sounds, and “tunes in the head” get replaced by a kind of
 
 white noise.
 
-## PACIFICATION OF THE SENSES OF TASTE AND SMELL
+### PACIFICATION OF THE SENSES OF TASTE AND SMELL
 
 
 When there’s nothing to taste or smell, and when attention is not directed to these senses, they tend to remain completely absent from conscious awareness.10 Likewise, most meditators, even with physical pliancy, are simply unaware of any tastes or smells. Yet, there is the occasional meditator who reports the scent of incense, flowers, or some other fragrance. There are also a few who experience a pleasant taste. These mind-generated perceptions are sometimes referred to as “divine fragrances” and “nectars.” Their presence in a few meditators, together with the absence of the illumination phenomenon in some, and perhaps the absence of white noise in others, all demonstrate how pacification experiences can vary from person to person.
 
-## THE SIGNIFICANCE OF THESE STRANGE SENSATIONS
+### THE SIGNIFICANCE OF THESE STRANGE SENSATIONS
 
 
 During pacification of the senses, it’s as if the sensory minds react to being ignored by throwing up all sorts of strange and sometimes unpleasant sensations that have nothing to do with anything happening externally.11 Also, even though these inner lights and sounds may help prevent distraction by ordinary stimuli, they often don’t appear until the senses have already begun to grow quiet. Thus, it appears inner light and sound are more a result of pacification than a contributing cause. However, arising as they often do, just when the practice has become tedious, they can provide encouragement and reassurance, and boost motivation.
@@ -3821,7 +3820,7 @@ soles. Figure 46. The flow of energy becomes a circular and continuous movement 
 
 Remember, these energy currents are actually manifestations of unification of mind and lead to a mental state called meditative joy. There is absolutely nothing in the human body that corresponds anatomically to these energy currents or the channels through which they seem to move.15 This means that despite their intensity, these currents can’t actually harm the body.
 
-##               IMPORTANT REMINDERS ABOUT EXTRAORDINARY
+###               IMPORTANT REMINDERS ABOUT EXTRAORDINARY
 
 
 EXPERIENCES
@@ -3872,7 +3871,7 @@ slow and arduous for others. The biggest obstacles are the hindrances of
 
 aversion, and agitation due to worry and remorse.
 
-## THE HINDRANCE OF AVERSION
+### THE HINDRANCE OF AVERSION
 
 
 The hindrance of aversion keeps physical pliancy and the blisses of physical and mental pliancy from arising.17 Any negative mental state such as impatience, fear, resentment, hatred, or a critical attitude toward ourself or others can disrupt progress. Likewise, both stubbornness and a domineering or manipulative attitude can also create roadblocks. As long as any of these are present—even if we’re not conscious of them—it will impede the flowering of pacification and physical and mental pliancy.
@@ -3893,7 +3892,7 @@ misdeeds and worry about the future will agitate the mind.
 
 Joy is a state of mind most easily understood by comparing it with its opposite, grief and sadness. Those who grieve are often filled with remorse. Sadness makes us pessimistic, lacking in confidence, and consequently we worry about all kinds of things. Joy, on the other hand, is associated with happiness, optimism, and confidence. Joyful people don’t worry because they feel confident enough to deal with whatever comes their way. They also sincerely regret any harm they cause, are eager to set things right, and try to change their ways in the future. Remember, joy and sadness are incompatible mental states that simply cannot coexist!19 As your mind grows more unified through pacifying the senses, meditative joy begins to develop, and as it increases, it eventually dispels agitation due to worry and remorse. However, don’t just wait for this process to unfold on its own.
 
-## SOME POWERFUL REMEDIES
+### SOME POWERFUL REMEDIES
 
 
 Please don’t make the mistake of blaming yourself if you have these kinds of difficulties in meditation. And don’t blame yourself for blaming yourself! No one comes to this practice without ample cause for aversion, worry, and remorse. Creating more self-directed negativity won’t help. Instead, purify your mind of aversion and ill will to speed up and smooth out the process of pacifying the senses. The practice of loving-kindness meditation (Appendix C) is a powerful and effective tool for this.
@@ -3934,7 +3933,7 @@ becomes concentrated.
 
 Māhānama Sutta
 
-##  INSIGHT EXPERIENCES AND THE ATTAINMENT OF INSIGHT
+###  INSIGHT EXPERIENCES AND THE ATTAINMENT OF INSIGHT
 
 
 You’ve likely gained a lot of insight as a result of your practice by now—insights into why you think and react the way you do, how your mind works, and better ways of dealing with life situations. You’ll notice I’m using “insight” written with a lowercase i. That’s because I’m referring to the “ordinary” insights that help us in our life, but don’t radically transform how we understand the world and our place in it. However, from this point forward, you will increasingly have Insight experiences that can trigger the kind of Insight (vipassanā) that leads to Awakening. What makes them Insight experiences is the way they challenge your understanding of how things are by clearly demonstrating they’re different from what you previously believed. This type of Insight is the real goal of meditation practice.
@@ -3998,7 +3997,7 @@ nor Mara or Brahma can overturn such a victory.
 Dhammapada 104–105
 
 
-# STAGE SEVEN Exclusive Attention and Unifying the Mind
+## STAGE SEVEN Exclusive Attention and Unifying the Mind
 
 
 rtlessly sustain exclusive attention and
@@ -4010,7 +4009,7 @@ against dullness and distraction, the mind becomes completely accustomed
 to effortlessly sustaining attention and mindfulness. Stage Seven: The meditator allows the elephant to go ahead, following behind to keep the monkey and the rabbit, who still follow, away from the elephant. Distraction and dullness have been overcome but continue to be a threat, which requires ongoing vigilance and effort to prevent their return. • The elephant is mostly white now, because the hindrances of Sense Desire and Doubt no longer intrude during meditation. Only the tail and back feet are black, representing the hindrances of Ill Will and Agitation Due to Worry and Remorse. These two will be the last to go.
 
 • There is a small flame indicating the continuing need for some effort.
-##                     PRACTICE GOALS FOR STAGE SEVEN
+###                     PRACTICE GOALS FOR STAGE SEVEN
 
 
 You enter Stage Seven as a skilled meditator—you can achieve uninterrupted, exclusive attention, along with a powerful mindfulness that includes continuous metacognitive awareness. At first, it can take some time and effort in each meditation session to reach this level of focus, and there will still be days when you can’t quite get there. Also, as wonderful as these new abilities are, you can only sustain them through ongoing effort and vigilance. Any lapse can lead to a loss of focus and, if not quickly corrected for, the return of subtle distractions and even dullness. This constant watchfulness and the subtle effort needed to sustain exclusive focus, which continues throughout most of Stage Seven, is tiring and quickly mars the initial satisfaction you felt at your achievement.
@@ -4029,7 +4028,7 @@ You’ll also encounter a few other obstacles at this Stage. Long periods of mai
 
 You have mastered Stage Seven when you can consistently let go of all effort, yet stable attention and powerful mindfulness persist. You have completely pacified the discriminating mind and made your first great strides toward unifying the mind.
 
-##  COMPLETE PACIFICATION OF THE DISCRIMINATING MIND
+###  COMPLETE PACIFICATION OF THE DISCRIMINATING MIND
 
 
 Complete pacification of the discriminating mind means that the competing agendas of all the individual thinking/emotional sub-minds get set aside in favor of a single, consciously held intention. In other words, the mind-system as a whole becomes more fully unified around the conscious intention to attend exclusively to the breath. When competing intentions are eliminated, attention naturally becomes more stable.
@@ -4096,7 +4095,7 @@ When you feel stuck, restless, and doubtful, try not to react to these feelings.
 
 There are three additional practices you can do to add variety to your meditation and help you through these dry periods: an investigation into the nature of thoughts through introspective awareness; an intense form of close following; and practicing the “pleasure jhānas.” These practices are all very rewarding in themselves, while still unifying and training the mind in stable attention and mindfulness.
 
-## INVESTIGATION OF MENTAL OBJECTS
+### INVESTIGATION OF MENTAL OBJECTS
 
 
 This practice involves maintaining exclusive focus on the breath as you non- discursively investigate mental objects with metacognitive introspective awareness. This kind of purposeful activity helps counteract feelings of boredom due to the dryness of this Stage, while deepening your understanding of how the mind works at the same time. Observing the breath has become quite automatic by now, and this practice requires only a partial shift of conscious power from attention to metacognitive awareness. Because you’re maintaining exclusive attention on the breath, pacification of the discriminating mind continues.
@@ -4189,7 +4188,7 @@ Purification of Mind Revisited At this Stage, you may also re-encounter the puri
 
 Why didn’t these issues come up in Stage Four? Most likely because they were met with too much inner resistance at the time, were too deeply buried, or were just too subtle to be recognized earlier. If you haven’t already, start using the Mindful Review practice described in Appendix E. This practice will stir up material needing purification so it can more readily emerge in the silence of meditation. By confronting your present attitudes and behaviors as part of the Mindful Review practice, you lessen your resistance to those deeper issues.
 
-##        UNIFICATION OF THE DISCRIMINATING MIND AND
+###        UNIFICATION OF THE DISCRIMINATING MIND AND
 
 
 RECOGNIZING EFFORTLESSNESS Before unification, many unconscious sub-minds have conflicting intentions. Through the pacification process, sub-minds of the discriminating mind start coming together around the common intention to focus on the sensations of the breath. With this growing consensus, there are fewer dissenting sub-minds to project distracting mental objects into peripheral awareness.
@@ -4234,13 +4233,13 @@ breathing out, he trains himself. Experiencing pleasure while breathing in, he t
 
 Ānāpānasati Sutta
 
-##                                        CONCLUSION
+###                                        CONCLUSION
 
 
 You have mastered Stage Seven when you can consistently achieve effortlessness. The restless tendency of attention to follow objects in peripheral awareness has been tamed. When you first sit down, you still need to go through a “settling in” process—you’ll count your breaths, sharpen your attention and awareness, and diligently ignore everything, until the mind is pacified and competing intentions disappear. Then you can let go and cruise. When you can consistently achieve effortlessness and stay there for all or most of the sit, you have become an adept practitioner. You have reached the third Milestone Achievement and are ready to move to the next Stage.
 
 
-# SEVENTH INTERLUDE The Nature of Mind and Consciousness
+## SEVENTH INTERLUDE The Nature of Mind and Consciousness
 
 
 lude, we examine the changes that occur as the mind grows more unified in the higher Stages. We also provide a simple but profound revision to the Mind-System model to help you better understand and navigate the Stages to come. UNIFICATION: MINDFULNESS, PURIFICATION, AND INSIGHT As you progress through the higher Stages, the entire mind-system continues to unify, becoming ever more cohesive and harmonious, and ever less fragmented and conflicted. This process has three profound effects: mindfulness keeps improving, as does the “magic of mindfulness”; deep unconscious material rises to the surface, allowing for further purification; and profound Insight becomes more likely.
@@ -4432,7 +4431,7 @@ Temporal binding moments are always being projected into consciousness, but can 
 Spatial binding is another fundamental form of information binding. Visual percepts and sounds, for example, are located on an internal mental map of surrounding space, with our body in the center. In the same way, tactile percepts are associated with specific locations on an internal map of the body. Spatial binding is so ubiquitous that we usually become aware of it only by its absence. You may have already experienced one example18 of this in Stage Six, when the breath seemed to appear disconnected from the nose. This dislocation happens when breath sense-percepts become divorced from our internal map of the body. All such meditation experiences clearly demonstrate that our sense of space results from unconscious sub-minds organizing, integrating, and projecting binding moments into consciousness.
 
 These are just a few examples of the different unconscious processes contributing to conscious experience that can be revealed through meditation. As you proceed, you may also experience how temporally and spatially bound sense-percepts from different senses get combined together in the unconscious. Another possibility is seeing how bound collections of sense-percepts arrive in consciousness already recognized and labeled. These are further integrated with other stored concepts, allowing their potential significance to be evaluated. Then, still more conceptual binding gives rise to desire, aversion, loving-kindness, compassion, and other forms of intention. From these, in turn, flow the even more complex conceptual formations that produce actions and reactions. Any or all of these phenomena, and a variety of others not mentioned here, may be revealed in meditation.
-##                      THE NATURE OF CONSCIOUSNESS
+###                      THE NATURE OF CONSCIOUSNESS
 
 
 To make the Mind-System model even more accurate, we need to make one last change. The particular information exchange locus we have been calling the conscious mind is not a place or locus after all. The information exchange process we call consciousness doesn’t actually happen in a particular part of the brain. Nor is it even a specific function of the brain. That was just a convenient way for us to talk about it. Consciousness is simply the fact of information exchange, and refers specifically to information exchange occurring at the highest level in the mind-system. But information exchange happens at every other level in the mind-system, too. Information exchange anywhere, in any form, is the result of shared receptivity, and shared receptivity is an expression of interconnectedness. Put another way, consciousness is simply the inevitable result of the interconnectedness of different parts of the brain, and of the shared receptivity that results in information exchange between them.
@@ -4468,7 +4467,7 @@ and information exchange.
 Pursuing this idea even further, multiple species are interconnected to form ecosystems. Ecosystems are interconnected to form biomes, and the biosphere is formed of interconnected biomes. Both the living and non-living parts of planet earth interact, changing each other to form a single, complex, interdependent system. Planets and stars form galactic and supragalactic systems. It’s not unreasonable to view the entire universe as one single, massively interconnected and interdependent system. Indeed, every structure we have identified—from atoms to persons to the universe as a whole—constitutes a natural individual by virtue of shared receptivity and information exchange. From this perspective, what we call consciousness is just a single, limited example of something that pervades the entire universe at every level.
 
 
-# STAGE EIGHT Mental Pliancy and Pacifying the Senses
+## STAGE EIGHT Mental Pliancy and Pacifying the Senses
 
 
 oal of Stage Eight is complete pacification of the senses and the full
@@ -4492,12 +4491,12 @@ You have two goals for this Stage. As an adept meditator—with a highly complia
 The second major goal is complete pacification of the senses, which produces physical pliancy and fully developed meditative joy. Since both pacification of the senses and meditative joy result from the same unification process, we treat them as two parts of a single goal. To pacify the senses, you will exclude all sense objects from attention while sustaining metacognitive awareness. To cultivate meditative joy, you don’t need to do anything different or special, just keep practicing. It will arise naturally once the sensory minds grow quiet and the mind as a whole becomes sufficiently unified.
 
 You’ve mastered Stage Eight when your eyes perceive only an inner light, your ears perceive only an inner sound, your body is suffused with pleasure and comfort, and your mental state is one of intense joy.
-##               EXERCISING THE NEWLY COMPLIANT MIND
+###               EXERCISING THE NEWLY COMPLIANT MIND
 
 
 Your first goal is to exercise the skills you’ve already mastered in order to explore the nature of the mind and fully develop its inherent abilities. Mental pliancy gives you effortlessly stable attention and sustained, powerful mindfulness, particularly in the form of metacognitive introspective awareness. The practices in the next section will help you experiment with attention. Those in the following section will enhance your metacognitive awareness.
 
-##                            WHEN TO DO WHICH PRACTICES
+###                            WHEN TO DO WHICH PRACTICES
 
 
 even joy corresponding to the various grades of pīti (see Sixth Interlude). Expect these to intensify
@@ -4522,7 +4521,7 @@ You may not yet realize the full extent of your abilities. You can focus your at
 
 Here are two structured practices for you to try. These are particularly useful for the early part of Stage Eight, where you’re exploring and developing the capabilities of your mind. However, they’ll remain useful long after you’ve moved beyond this Stage.
 
-## MOMENTARY CONCENTRATION
+### MOMENTARY CONCENTRATION
 
 
 This practice involves momentarily shifting your focus of attention to various objects in peripheral awareness. Even though awareness is relatively free of mental objects like thoughts and images, sensations are still prominent. These include both ordinary and mind-generated sensations, energy movements, and actual bodily movements. You’re also introspectively aware of feelings of pleasure or displeasure, desire or aversion, patience or impatience, curiosity, and so forth. Any of these can become a momentary object of concentration. Your attention is now so stable you can quickly and easily shift your focus from one object to another, maintaining exclusive focus with each.
@@ -4539,7 +4538,7 @@ When the object passes away, attention will automatically return to the breath.
 
 Next, experiment with redistributing your alternating attention, increasing the ratio between moments of attention to the other object and to the breath. In other words, the breath will shift from being the primary object, moving into the background while the chosen object comes to occupy the main focus of attention. This is exactly the same experience we called gross distraction when it happened involuntarily, but it’s now entirely intentional. Explore how attention alternates and the type of information this provides, then consider ways you can use this to learn more about yourself and how your mind works.
 
-## MEDITATING ON ARISING AND PASSING AWAY
+### MEDITATING ON ARISING AND PASSING AWAY
 
 
 In this practice, you closely investigate the arising and passing away of various phenomena with attention. While practicing momentary concentration, you probably already noticed how particular sensations or affective reactions arise, then quickly pass away—often to be immediately replaced by a new but closely related object. For example, if the object is an ongoing sound, you will find it actually consists of a series of separate sounds arising and passing away one after another. If it’s a single, brief noise, you’ll notice that even after the actual sound has stopped, it continues to reverberate in the mind. If it’s an emotion or mental state, you’ll notice that it’s actually made of a series of closely related but different mental states, arising and passing in waves. Other times, the new object will be something quite different, but you’ll notice there’s a causal relationship between it and the last object to pass away. For example, if someone sneezes, as the sound disappears, it may be immediately followed by an image of a person sneezing. When that image passes, it might be replaced by a thought about catching a cold. You can make any of these objects your focus of attention. Because of mental pliancy, whenever the causal sequence comes to an end, your attention will always return to the breath, instead of being captured by something new. It’s as though attention were tied to the breath by an elastic band that always pulls it right back.
@@ -4552,7 +4551,7 @@ exceed anything you’ve experienced before.
 
 You may have noticed before how phenomena arise and pass away, but the swiftness of your mind and the clarity of your perception now exceed anything you’ve experienced before. The power and control you have while doing this are very satisfying and quickly take on the qualities of flow—much like what you experienced with the whole-body jhānas in Stage Six. Although jhāna-like, this flow state is not jhāna. The main differences are that you have complete intentional control in every moment, which you don’t have in jhāna, and the objects of attention are constantly changing. It’s not unusual to experience Grades III and IV pīti while doing this practice. Don’t get attached to these experiences. Just keep practicing as before, allowing pacification and joy to develop naturally on their own.
 
-##              EXERCISING THE COMPLIANT MIND AND COMPLETE
+###              EXERCISING THE COMPLIANT MIND AND COMPLETE
 
 
 PACIFICATION OF THE SENSES
@@ -4593,7 +4592,7 @@ away from the object, toward the act of knowing itself.
 
 From now on, no matter how you use attention, hold the intention for peripheral awareness to become more and more metacognitive, working toward a complete and continuous observation of the activities and state of the mind itself. You don’t exclude extrospective content from peripheral awareness or attention. Rather, to whatever extent extrospective sensations are present, they’re experienced as part of the activity occurring in the mind, rather than as objects in and of themselves. For example, in the hearing of a sound, the primary object of your observation isn’t the “sound” that’s being heard, but the mental act of “hearing.” This is also true for mental objects. Remain metacognitively aware of them as content of field of conscious awareness, but with the objects themselves being secondary. It’s as much about how you know as it is what you know. The next two practices will help you develop and strengthen metacognitive awareness. They can be used for many other purposes in the future as well.
 
-## CHOICELESS ATTENTION
+### CHOICELESS ATTENTION
 
 
 Recall that some objects arrive in awareness with the intention that they will also become objects of attention. The practice of choiceless attention involves allowing attention to move freely in pursuit of the objects that arrive with the strongest intention to become objects of attention. In terms of the Mind-System model, choiceless attention is not truly “choiceless.” Rather, a powerful consensus of unified sub-minds has chosen to allow such objects to become the focus of attention. Monitoring this free movement of attention with metacognitive introspective awareness is an effective exercise for making this awareness more powerful.
@@ -4610,7 +4609,7 @@ Most important, however, is the strong, continuous metacognitive quality of awar
 
 As with the meditation on arising and passing away, you may find yourself entering a flow state, accompanied by Grades III and IV pīti consisting of incomplete pacification of the senses. This shows that the mind is continuing to unify as you engage in these practices.
 
-## MEDITATION ON DEPENDENT ARISING
+### MEDITATION ON DEPENDENT ARISING
 
 
 As metacognitive awareness grows stronger, the causal relationships between various sensory and mental events become clearer. This happens because one of the basic functions of peripheral awareness is to perceive the relationships of objects to each other and to the whole. In this meditation, you follow mental events as they occur in sequence. Specifically, consciousness of a sensation or thought (contact) is followed by an affective response (feeling), leading to desire or aversion (craving), then to the arising of an intention to act (“becoming”), and finally to the action itself (“birth”). This is also called following the “links” of dependent arising,2 the causal relationship between mental processes described in traditional Buddhist literature. By intentionally tracking these causal links with attention, the Meditation on Dependent Arising makes metacognitive awareness more powerful and provides Insight into how mental processes unfold.
@@ -4631,7 +4630,7 @@ As with choiceless attention, this meditation practice strongly exercises metaco
 
 UNIFYING THE MIND, PACIFYING THE SENSES, AND THE
 
-##                          ARISING OF MEDITATIVE JOY
+###                          ARISING OF MEDITATIVE JOY
 
 
 The second major goal of this Stage is the complete pacification of the senses, accompanied by the full arising of meditative joy. Both pacification and joy are different aspects of the same unification process (see Sixth Interlude). Pacification and joy are what we experience subjectively, whereas unification describes what happens at the unconscious level.
@@ -4662,7 +4661,7 @@ Sensory pacification happens for two reasons. First, when you exercise exclusive
 
 Therefore, all you have to do is keep exercising exclusive attention and cultivating metacognitive awareness using the practices for Exercising the Newly Compliant Mind until the senses are fully pacified. There is only one major obstacle that you must first overcome: unusual, mind-generated sensations.
 
-## UNUSUAL SENSATIONS
+### UNUSUAL SENSATIONS
 
 
 Before they’re unified enough, the sensory minds react strongly to being ignored. They start projecting lights, sounds, and all sorts of strange and sometimes unpleasant bodily sensations into consciousness that have nothing to do with anything happening externally (see Sixth Interlude).3 These mind-generated sensory phenomena tend to dominate this Stage. They can be quite disturbing, as well as distracting, since they’re so unusual. It’s almost as if the sensory minds resist being ignored like stubborn children. Their whole purpose seems to be to capture your attention and arouse your interest. Interestingly, though, the more they do this, the less they project immediate, real-time sensory information into peripheral awareness. This shows that the process of pacification is actually under way.
@@ -4709,7 +4708,7 @@ Meditative absorptions (jhāna) are flow states that can also help you take adva
 
 You may have experienced some mild, brief episodes of meditative joy in Stages Four through Seven. You will have experienced longer, more intense episodes if you did the whole-body and pleasure jhāna practices in Stages Six and Seven. However, the joy of Grades IV and V pīti in Stage Eight is something you’ve likely never experienced before.
 
-## ENERGY CURRENTS AND INVOLUNTARY MOVEMENTS
+### ENERGY CURRENTS AND INVOLUNTARY MOVEMENTS
 
 
 Before achieving fully developed meditative joy, you’ll encounter various energy currents, involuntary movements, and autonomic activity, all of which can be quite uncomfortable. Eventually the movements and autonomic reactions will stop, the energy currents will be pleasant, and you’ll experience the meditative joy of Grade V pīti. But until then, the flow of newly available energy due to increasing unification is quite turbulent.
@@ -4736,7 +4735,7 @@ By the end of Stage Eight, you can consistently unify your mind enough for susta
 
 To conclude with our analogy, when all the tethered horses pull in the same direction, they form a powerful team that moves smoothly and is easily controlled. So, too, a unified mind displays a smooth, controlled power in the movement of mental energy, and turbulence completely disappears. But not until the end of Stage Nine will unification be complete enough for that to happen. Until then, you can expect your meditation to be dominated by experiences of excess, uncontrolled energy.
 
-##     PRACTICES TO HELP ACHIEVE PHYSICAL PLIANCY AND
+###     PRACTICES TO HELP ACHIEVE PHYSICAL PLIANCY AND
 
 
 MEDITATIVE JOY At some point, you’ll experience the manifestations of physical pliancy, such as the absence of ordinary tactile sensations, feelings of weightlessness or floating, and pleasurable sensations throughout the body (Grade IV pīti). When this happens, it’s time to temporarily abandon the practices described in the section on Exercising the Newly Compliant Mind. You’re in the home stretch for this Stage. Now the most important thing is to completely ignore bodily sensations of any kind. Here are two practices that can help.
@@ -4805,7 +4804,7 @@ First jhāna is characterized by profound calmness; a clear, sharp perception of
 
 Should you wish to continue to the second and higher luminous jhānas, instructions are provided in Appendix D. The luminous jhānas are an extremely effective way of advancing your practice.
 
-##                                     GETTING STUCK
+###                                     GETTING STUCK
 
 
 You can get stuck at any point during the process of pacification of the senses and the arising of meditative joy. You’ll know because you’ll consistently have disruptive and often unpleasant experiences in meditation, with little or no sign of change or improvement. Say, for example, that every time after you sit down and achieve effortlessness, you always experience abrupt, violent jerking movements, or unpleasant tingling, itchiness, and hot flashes that just get more disagreeable over time. Or, you experience intensely unpleasant energy sensations and severe pain in your chest or neck, or constantly feel like you’re falling over. Maybe you often get dizzy, sweat, or feel nauseated. While a certain amount of this is normal, when it happens consistently and doesn’t improve, something is blocking your progress. As we explained in the Sixth Interlude, it may be the hindrances of aversion and agitation due to worry and remorse. To the degree these hindrances are present, even at a subconscious level, they prevent unification of mind and normal progress through the grades of pīti.
@@ -4850,7 +4849,7 @@ disenchantment and dispassion. The purpose and benefit of disenchantment and dis
 
 Kimatthiya Sutta: Purpose and Benefits of Virtue, from the Anguttara Nikaya 10.1.1.1
 
-##                                        CONCLUSION
+###                                        CONCLUSION
 
 
 You’ve mastered Stage Eight when you achieve physical pliancy and meditative joy almost every time you sit. Experiencing periods of Grade V pīti once or twice —or even every third or fourth time you sit—is not yet true mastery. Consistency is key.
@@ -4858,7 +4857,7 @@ You’ve mastered Stage Eight when you achieve physical pliancy and meditative j
 Ordinary sensations have disappeared from awareness. The perception of your body may have changed, feeling light and pleasant, and you have no need or desire to move. The illumination phenomenon, if present, has become an all- pervading light or a bright stable orb. The inner sound is either pleasant or just a meaningless, unobtrusive background noise. You still feel energy flowing through the body, circulating between the base of the spine and the crown of the head, and between the body core and periphery, but it’s much smoother and more pleasant. The intensity of joy and feelings of energy may grow so strong that they can’t be sustained, or they may make you want to end your meditation early. That’s normal. Becoming familiar with meditative joy so this doesn’t happen is the work of Stage Nine.
 
 
-# STAGE NINE Mental and Physical Pliancy and Calming the Intensity of Meditative Joy
+## STAGE NINE Mental and Physical Pliancy and Calming the Intensity of Meditative Joy
 
 
 uration of meditative joy that produces
@@ -4872,7 +4871,7 @@ arise. Stage Nine: The meditator sits in meditation, while the elephant rests pe
 In Stages Nine and Ten, you fully unify the mind, moving from a state of highly excited meditative joy and happiness1 to one of serene joy and happiness. The resulting śamatha has five qualities of mind: fully stable attention, powerful mindfulness, joy, tranquility, and equanimity.2
 
 Although meditation experiences in these final Stages are quite consistent from one person to the next, they are often described in very different ways, partly because it’s hard to put such rare, subtle experiences into familiar terms. The other reason is that people explain their experiences according to the diverse conceptual models provided by the particular traditions they follow. However, as your practice progresses, you’ll start recognizing the common experiences these various descriptions all point toward. Here, we give a general description, using only the conceptual models we’ve introduced in this book, while avoiding the unique particulars belonging to specific traditions.
-##                       PRACTICE GOALS FOR STAGE NINE
+###                       PRACTICE GOALS FOR STAGE NINE
 
 
 You’ve reached Stage Nine when there’s complete pacification of the senses and fully developed meditative joy. This means that almost every time you sit, you can enter a state of mental and physical pliancy, accompanied by the blisses of mental and physical pliancy. This is also called Grade V or pervading pīti, which you experience as circulating energy, physical comfort, pleasure, stability, and intense joy. Although you can regularly achieve this grade of pīti, each time you do, the growing intensity of the joy and energy of the experience inevitably disrupts it.
@@ -4909,7 +4908,7 @@ Useful Practices for Calming Pīti and Maturing Joy By repeatedly focusing your 
 
 Other practices that help calm pīti have the added benefit of being conducive to Insight. These include the Meditation on Dependent Arising (page 307), and Finding the Still Point and Realizing the Witness (page 318). Another extremely powerful practice for calming pīti and generating Insight is meditating on the mind.
 
-## MEDITATING ON THE MIND
+### MEDITATING ON THE MIND
 
 
 Meditating on the mind itself3 involves bringing attention and awareness together in a completely open state. Essentially, you’re fusing attention and awareness. To achieve this, you expand your scope of attention until it includes everything in your field of conscious awareness, both extrospective and introspective. This is similar to how you expanded your scope of attention to include the whole body in Stage Six, except that you’re expanding it to include much, much more than just bodily sensations. And, as with the whole-body practice, the amount of conscious power required for attention to encompass so much is enormous. That means much of the excess mental energy made available through unification can get put to immediate use, instead of just agitating the mind.
@@ -4940,7 +4939,7 @@ The main purpose of this practice for this Stage is to generate stable, consiste
 
 The description of the mind in a resting state may sound like the cessation event discussed in the Seventh Interlude. To be clear, they are not the same; this is not cessation, and consciousness does have content, just not a cognizable object. However, this investigation can give rise to the same Insights as the cessation experience.
 
-## INSIGHT: EMPTINESS AND THE NATURE OF MIND
+### INSIGHT: EMPTINESS AND THE NATURE OF MIND
 
 
 By observing the nature of the mind in both its active and passive states, it eventually becomes clear that all objects of consciousness are constructs of the mind. All we’ve ever known is what the mind itself has produced. The true nature of these mind-made objects of consciousness is simply the nature of mind itself. You may have already grasped this intellectually, but you now experience it directly. True, there may have been some external stimulus that caused your unconscious sub-minds to project a particular object into consciousness, but all we can ever observe is the mental object, a product of the mind itself—not the source of the original stimulus. To put it another way, the “thing-in-itself” that stimulated the mind to produce the object can never be observed. The mind creates its own “reality,” made entirely of cognitive-emotional constructs produced in response to unknown, and ultimately unknowable,4 forces acting on the mind through the senses. Furthermore, the perceived appearance of these constructs has far more to do with the nature of the constructing mind than with the actual sources of sensory data. The one thing we can be sure of is that the true nature of that unknown source is quite different from anything the mind projects. This is what is referred to as the “emptiness”5 of all phenomena. The objects of consciousness arising and passing away in the mind are like waves rising and disappearing on the ocean’s surface. Just as the waves have no existence apart from the ocean, arising due to forces acting on the ocean, so, too, with the contents of consciousness and the mind.
@@ -4998,7 +4997,7 @@ these mental formations while breathing out, he trains himself.
 Ānāpānasati Sutta
 
 
-# STAGE TEN Tranquility and Equanimity
+## STAGE TEN Tranquility and Equanimity
 
 
 he goal of Stage Ten is for the qualities of śamatha to persist after you rise
@@ -5018,7 +5017,7 @@ practicing and śamatha will last longer each time after you get up. You
 don’t need to do anything new.
 
 As with the goals for the other adept Stages, all you have to do is keep practicing, and śamatha will last longer and longer each time after you get up. You don’t need to do anything new. However, you can practice mindfulness in daily life in a way that prevents śamatha from eroding as quickly.
-##                           THE ROLE OF EQUANIMITY
+###                           THE ROLE OF EQUANIMITY
 
 
 When you rise from meditation, you soon become engaged with external stimuli that the mind must respond to. Many of the mind’s responses involve habitual reactions in the form of desire and aversion. Equanimity means non-reactivity, so as long as equanimity is strong enough, these mental habits will have little effect.
@@ -5029,7 +5028,7 @@ Equanimity is what ultimately prolongs śamatha outside meditation. Equanimity w
 
 SUSTAINING ŚAMATHA WITH JOY, EQUANIMITY, AND
 
-##                                      MINDFULNESS
+###                                      MINDFULNESS
 
 
 Although śamatha tends to fade after we get up, a state of joy tends to linger. Joy produces pleasure and happiness, and this positive affect, coming entirely from within, makes us less likely to react to external events with desire or aversion. That is, post-meditative joy can also help sustain equanimity. It goes the other direction, too: equanimity keeps desire and aversion from eroding unification of mind, which in turn supports and sustains the continuation of joy in everyday life. The two reinforce each other. Therefore, the key to extending śamatha in everyday life is to support joy and reinforce equanimity through mindfulness.
@@ -5044,7 +5043,7 @@ pleasant experiences, and less repelled by unpleasant experiences.
 
 As equanimity grows stronger in meditation, the mind outside of meditation grows less prone to grasping, and we feel less compelled to pursue pleasant experiences. You’ll also enjoy pleasant experiences more fully because you’re no longer attached to them, hoping they continue. Similarly, you’ll be less and less repelled by unpleasant experiences, facing them with growing equanimity. Practice sustaining joy and equanimity by remaining mindful, until some vestige of śamatha persists when you next sit down to meditate. By the time you settle on the cushion, the body will already be still and comfortable, and physical pliancy will soon follow. Since joy, tranquility, and equanimity have not yet fully faded, they quickly return to full strength.
 
-##                                 PRACTICES FOR STAGE TEN
+###                                 PRACTICES FOR STAGE TEN
 
 
 Arising and Passing Away, Choiceless Attention, the Meditation on Dependent Arising, Realizing the
@@ -5055,7 +5054,7 @@ Through these practices, Insight accumulates and matures, and the experience of 
 
 follows.
 
-##                                         CONCLUSION
+###                                         CONCLUSION
 
 
 You have mastered Stage Ten and achieved the fourth and final Milestone when śamatha typically persists from one regular meditation session to the next. Strong desires are noticeably weaker, negative mental reactions rarely occur, and anger and ill will virtually disappear. Others may find you generally happy and easily pleased, relaxed, agreeable, unaggressive, and peaceful. You will be relatively immune to disturbing events, and physical pain won’t particularly bother you. On mastering Stage Ten, the mind is described as unsurpassable.1 It’s an ideal instrument for achieving and deepening profound Insight into the true nature of reality and a liberation that is not subject to passing away. The following sequence from the Buddha describes the process by which mastery is achieved:
@@ -5077,7 +5076,7 @@ Releasing the mind while breathing in, he trains himself. Releasing the mind
 while breathing out, he trains himself. Ānāpānasati Sutta
 
 
-# Final Thoughts
+## Final Thoughts
 
 
 The goal beyond Stage Ten is to use the power of śamatha for the continued
@@ -5126,7 +5125,7 @@ And know the place for the first time.
 
 The illusion of separate Selfhood, with all its attendant suffering, is gone. We can be fully present as persons, here and now, realizing that this “personhood” is just an ever-changing, Self-less construct arbitrarily imposed on an interconnected whole; “here” is merely another construct imposed on infinite space, and “now” is a similar construct imposed on eternity.
 
-# Acknowledgments
+## Acknowledgments
 
 
 I AM ETERNALLY grateful to my teachers Upasaka Kema Ananda and Joti Dhamma Bhikkhu. It was Kema who first introduced me to the power and clarity of the Buddhadhamma, inspiring me to take Upasaka vows and dedicate myself to meditation and to realizing the highest goals of the spiritual path. Joti Dhamma subsequently guided my study and practice for many years through thousands of hours of discussion and instruction. I am also indebted to Namgyal Rinpoche, Karma Tenzin Dorje, also known as the Venerable Bhikkhu Ananda Bodhi, who was my teachers’ teacher, and who established a lineage that transcends the sectarian boundaries of traditional Buddhism.
@@ -5141,7 +5140,7 @@ In particular, I want to acknowledge Allegra Ahlquist, Pam and Tim Ballingham, B
 
 Last but not least, my very special thanks to Michael Chu and Tracy Young, Aaron and Frieda Huang, CC Lee, Tina Bow, and all the other members of the Chinese Buddhist community of Southern California who have generously supported my teaching for so many years. Without you, this book might never have happened.
 
-# APPENDIX A Walking Meditation
+## APPENDIX A Walking Meditation
 
 
 LKING MEDITATION is both a powerful practice in its own right and an indispensable complement to sitting practice. Too often it’s not taken seriously enough; we imagine a meditator to be someone who only sits cross-legged with eyes closed. But walking meditation is just as effective as sitting for developing stable attention and powerful mindfulness. It’s even more effective for some things. The best way to make rapid progress is to combine the two.
@@ -5153,14 +5152,14 @@ As a part of your daily practice, you can do walking meditation first to help ca
 The best location for walking meditation practice is outdoors. An open space where you won’t be interrupted, such as a backyard, garden, or park is perfect. A place with some sort of natural beauty is ideal, but not essential, since aesthetic enjoyment isn’t the main point. A quiet city sidewalk also works quite well. Use a path you can follow easily, so you don’t need to make decisions about where to go as you walk. Otherwise, just plan your path in advance and make adjustments as needed. Of course, you can also walk indoors. Choose a large room or a hallway that allows you to go about twenty feet or so before you have to turn around. You can also just walk a circular path in a smaller room.
 
 Begin doing the walking practice for fifteen to thirty minutes at a time. In general, you will likely find that thirty minutes is a good period. As you get into the practice, you may find you want to walk for an hour or more at a time. Walking meditation is easy and relaxing, so the biggest constraint on how long you walk each day is simply time and opportunity.
-##                      WALKING THROUGH THE STAGES
+###                      WALKING THROUGH THE STAGES
 
 
 Each technique used in walking meditation builds on the skills you’ve already developed in your sitting practice. Since the skills being developed in walking meditation are the same as with your sitting practice, the progression of walking techniques is described in the same sequence. This is helpful for organizing a discussion such as this, but there’s actually a lot of latitude for customizing these practices according to your own experience. Still, no matter which technique you happen to use, always remember to keep an attitude of interest, exploration, relaxation, and enjoyment. The more meditation becomes associated with feelings of happiness and pleasure, the stronger your motivation and the faster your progress.
 
 Stage One: Staying in the Present Stage One walking meditation is simple and relaxed, and quite like the Four Step Transition described for Stage One sitting meditation. To begin with, as in Step One of the transition, it’s all about exploring the present moment. You allow your attention to move freely while keeping your awareness open as you walk. The only restriction is to stay fully in the present, the here and now. By the end of this Stage, however, your attention will be continuously focused on the sensations of walking, just like with Step Four of the transition to the breath.
 
-## EXPLORING WALKING
+### EXPLORING WALKING
 
 
 Before you even begin the formal walking practice, you first need to experiment with various walking speeds while carefully observing their differences. Begin by walking at a normal, unhurried pace. Notice how automatic the process is, barely needing any attention at all. The mind is free to go where it will. At first, you’ll notice all sorts of things in your surroundings, but you’ll quickly find yourself caught up in thoughts and memories that take you away from the present. When you catch your mind wandering, simply bring yourself back to the present by focusing your attention on the sensations in your feet. For the next few steps, keep your attention on your feet to help you stay in the here and now. Notice how similar this is to sitting meditation: you can be aware of everything around you—sights, sounds, and other sensations—while keeping your attention on your feet. Now release your attention from the feet, allowing it to continue exploring the present as you walk at a normal pace.
@@ -5171,7 +5170,7 @@ Finally, try walking very, very slowly, as if you were trying to sneak around. N
 
 Again, you’re just experimenting to familiarize yourself with the effects speed has on attention, awareness, and your ability to stay in the present. This will be very useful information to have at different Stages of walking practice, allowing you to adjust your speed for different purposes. Most will find one or two sessions of experimenting with different speeds is enough, but feel free to continue as long as you’re still learning from it.
 
-## THE PRACTICE
+### THE PRACTICE
 
 
 To begin your formal practice, choose a comfortable pace, one that is slow enough to easily observe changing sensations in the soles of your feet, but fast enough to be mostly automatic—what might be called “slow normal.” Spend more and more time attending to the sensations in your feet as you walk. They will eventually become your primary meditation object, but don’t restrict your attention to them just yet. For now, your primary objective is just to remain in the present as you walk. This means your attention can move from your feet to anything happening in the moment that you find interesting. However, these must always be intentional movements of attention! If you are outside, there will be sounds, interesting and attractive visual objects, and odors. Intentionally allow the mind to observe and explore them. Feel the warmth of sunlight, the coolness of shade, and the breeze touching your face. Investigate and engage fully with these things, taking it all in. Whenever an object of attention goes away or ceases to be interesting, return to the sensations in your feet.
@@ -5190,14 +5189,14 @@ So far, you’ve used the sensations in your feet mainly as an anchor to help st
 
 It’s easy to distinguish between attention and peripheral awareness during Step-by-Step walking. Your attention is on your feet, and peripheral awareness mostly takes care of itself, so stabilizing attention can be your main concern. Whenever introspective awareness alerts you that you have forgotten what you were doing and the mind has wandered, STOP. Just as when sitting, celebrate your “aha!” moment of reawakening to the present. To further strengthen your introspective awareness, give a simple label to whatever your mind was preoccupied with (see the section in Stage Three on Cultivating Introspective Awareness through Labeling and Checking In). Then gently direct your attention back to the sensations of walking.
 
-## THE INTENTIONAL PAUSE
+### THE INTENTIONAL PAUSE
 
 
 When sitting, you addressed distractions that were about to cause you to forget by tightening up your focus on the breath. The way to deal with distractions when walking is slightly different. When walking, especially outside, there are all sorts of things to see, hear, feel, and smell. Be alert to the way your mind, and especially your attention, reacts to these things. When some distracting sense object strongly draws your attention, instead of refocusing your attention immediately on the feet, take a little time to explore the distraction. No matter what it is—a sound, a breeze, or maybe the pleasant warmth as you step from shade into sunlight—just stop where you are, even in mid-stride. Deliberately direct your attention to the distracting object. Make it the new focus of your attention. Take time to examine and enjoy it fully. Once your interest wanes, direct your attention back to the foot waiting to move and start walking again. The idea is to maintain intentional control over the movements of your attention as you take in the totality of your experience. If you have been doing walking practice in a relatively closed and uninteresting environment, try going outdoors or find a more stimulating location.
 
 You should only investigate sensory distractions this way. If the distraction is a thought or memory or any other mental object, focus your attention more closely on the sensations of walking. On the other hand, feel free to think about the sensory objects you are seeing, hearing, or feeling during these pauses, but do so very lightly. Stay fully present and don’t get caught up in thought. For example, if you hear a dog barking in the distance, you may stop and, as you listen, have thoughts about where the sound may be coming from or why it’s barking. But don’t start thinking about the dog’s owners, or wondering what breed it is, or anything else that takes you away from the here and now. Just keep your attention on the sound, and be aware of any subtle thoughts in the background. When thinking, try to be aware that you are thinking. Your general attitude during walking practice should always be one of interest and enjoyment. If you ever start to feel the practice is difficult or tedious, stop walking, relax, and examine your state of mind. You will almost certainly find that you were not really in the present moment.
 
-## CHECKING IN
+### CHECKING IN
 
 
 As you can tell, walking meditation in these early Stages involves a lot of stopping and starting. We stop walking when we realize forgetting or mind- wandering has occurred. We also intentionally pause to address distractions. This kind of “stop-and-go” meditation isn’t a problem. In fact, it’s exactly as it should be. Just as in sitting meditation, forgetting and mind-wandering will occur less and less often. Also, distractions that once might have drawn your attention strongly enough to warrant an intentional pause are instead quite adequately known through peripheral awareness. Soon, you won’t be stopping as often.
@@ -5214,7 +5213,7 @@ Stages Four and Five: Increasing the Power of Consciousness Everything in the ne
 
 When a novel or interesting sensation presents itself, you can still intentionally redirect your attention and examine it if you want. However, don’t stop walking. From now on, when you make some other sensation the new focus of your attention, continue walking and maintain an awareness of the walking sensations in the background. That said, you should still feel free to intentionally pause and check in at any time. In other words, don’t stop for distractions that want your attention, but when your attention is stable, you can stop at any point and freely investigate your surroundings. As this practice matures, you will experience novel insights into how the mind works, helping you maintain an attitude of interest, exploration, and enjoyment.
 
-## INVESTIGATING AND OBSERVING
+### INVESTIGATING AND OBSERVING
 
 
 Investigating and observing is a new exercise you can do while checking in. It’s a further refinement of the checking-in practice that helps you explore some of the differences between attention and awareness.
@@ -5249,7 +5248,7 @@ In the two practices below, you’ll sometimes be attracted to things other than
 
 NINE-PART STEPPING MEDITATION While walking very slowly, divide each of the three parts of a single step—lifting, moving, and placing—into three smaller parts, for a total of nine distinct parts. Where exactly you make these divisions is completely up to you, but I’ll describe how I do it to help get you started. The first part of lifting is where the heel and middle part of the foot leave the ground; the second part is where the ball of the foot comes up; and the third is where the toes break contact with the ground. The first part of moving is when the foot rises vertically in the air; the second part is when it moves forward horizontally; the third part is when it’s lowered toward the ground. When walking very slowly like this, I find it more natural to place the front of my foot on the ground first, rather than the heel. The first part of placing is where the toes and ball of the foot make contact; the second part is where the rest of the foot makes contact; the third part is the shifting of weight onto the foot. Once you have decided how to divide your steps, practice clearly distinguishing each of the nine parts with every step.
 
-## FOLLOWING SENSATIONS OF WALKING
+### FOLLOWING SENSATIONS OF WALKING
 
 
 Once it’s easy for you to identify all nine parts in every step, you’re ready to try following specific sensations in each of the nine parts. Begin by clearly identifying one distinctive and recurring sensation in each of the nine parts. The most challenging ones to find will be during the three parts of the moving phase, but persist until you can recognize one in each part. Once you get good at identifying one distinctive sensation for each of the nine parts, look for a second, and then a third. Make it your goal to be able to follow at least three distinct sensations in each of the nine parts of every step. Do this without losing peripheral awareness.
@@ -5259,11 +5258,11 @@ Needless to say, you will be walking very, very slowly. Practice in a secluded l
 Continue this practice until all twenty-seven sensations are so familiar that you immediately recognize any variation in them. At this point, your awareness will be metacognitive, your perception of the sensations quite clear and sharp, and your attention both exclusive and effortless.
 
 
-# APPENDIX B Analytical Meditation
+## APPENDIX B Analytical Meditation
 
 
 LYTICAL MEDITATION means just what it sounds like: thinking about something. Of course, it’s a more structured type of thinking. You carefully choose a topic and systematically examine it with a stable, clear, and focused mind. In fact, to qualify as analytical “meditation,” the thinking and contemplation should happen in a state corresponding to Stage Four, where the chosen subject of analysis never disappears entirely from attention. If you don’t have the stability of Stage Four, your mind will wander off on tangents. Maintaining a continuous awareness of the breath in the background is a powerful way to stabilize your attention.
-##                  TOPICS FOR ANALYTICAL MEDITATION
+###                  TOPICS FOR ANALYTICAL MEDITATION
 
 
 Topics for analytical meditation fall into three general categories. First are teachings, doctrines, or other ideas you wish to understand more deeply. Second are problems you want to solve or decisions you need to make. Last are experiences, thoughts, or realizations that seem to point to a valuable insight.
@@ -5274,17 +5273,17 @@ Problems that might become the focus of analytical meditation can be personal pr
 
 And although supra-mundane Insight cannot be achieved during analytical meditations, you can contemplate Insight experiences you’ve already had, which is fruitful for deepening and consolidating those Insights.
 
-##                       PROBLEM SOLVING AND INSIGHT
+###                       PROBLEM SOLVING AND INSIGHT
 
 
 There are four stages to solving a problem: preparation, incubation, solution, and verification.
 
-## PREPARATION
+### PREPARATION
 
 
 When we prepare to solve a problem, we focus our attention on the ideas and information relevant to a solution, setting aside anything irrelevant. Psychologists call this conscious process of distinguishing what is important from what is irrelevant selective encoding.
 
-## INCUBATION
+### INCUBATION
 
 
 The next stage, incubation, is where the problem gets solved. In the incubation stage, we combine and recombine all the relevant information, searching among those new combinations for a solution. This trial-and-error process is called selective combination. We also compare the present problem and its potential solutions with similar past problems and their actual solutions. This selective comparison helps us appraise the possible solutions we already have, and provides us with additional possible solutions. These activities occur at an unconscious level as well as consciously.
@@ -5299,14 +5298,14 @@ When it comes to working out complex and subtle problems, non-insight problem so
 
 Finally, the unconscious mind also has access to everything going on in the conscious mind, including its partial successes as well as its failures, so it can take advantage of this information. The conscious mind, on the other hand, has access to nothing that goes on in the unconscious mind until it becomes conscious. SOLUTION When we eventually solve a problem, the solution may come in the form of a sudden, intuitive insight delivered from the unconscious—that is, as an “insight solution.” On the other hand, we may have the conscious experience of “all the pieces falling into place” as we systematically think about the problem, in which case it’s a non-insight solution. In the simplest example of the former, an insight solution leaps immediately into consciousness, seemingly out of the blue. The most basic form of non-insight solution is when conscious reasoning leads directly to an answer. But it doesn’t often happen that way. As we shall see, in most cases both conscious and unconscious processes have, in fact, contributed to that solution.
 
-## VERIFICATION
+### VERIFICATION
 
 
 The final step in the process of problem solving is to verify the solution. Even logical, non-insight solutions need to be verified through practical application. But intuitive insight solutions must first be validated by logic—unless you’re willing to proceed on the basis of a wild “hunch.” Such verification always occurs in consciousness, and indeed, this is where the conscious mind really comes into its own in the problem-solving process. Many otherwise effective solutions are unacceptable for social, legal, moral, or other reasons. Also, a solution that fits the general pattern of the problem perfectly may still not match the specifics of a problem. In other words, it may work in principle, but not in practice.
 
 Real-life problem solving is usually a recursive process, and the solutions to most problems are arrived at through first solving a series of lesser problems. The conscious and unconscious parts of the mind-system interact, meaning that both non-insight and insight processes are involved. First, the conscious mind sets up the problem. Then both the conscious and unconscious minds begin to work on it simultaneously. While we’re consciously thinking the problem through, new ideas for how to solve the problem will “pop into the mind.” These are insights, though none of them necessarily provides an “insight solution” to the overall problem. We then consciously evaluate these ideas, deciding whether they’re useful or not—that is, we verify them through logical analysis. If these ideas don’t provide the answer we’re looking for, we continue to ponder the problem, and as we do, more new ideas keep emerging into consciousness for consideration. As you can see, neither conscious analysis nor intuitive insight is inherently better. But they complement each other perfectly. Together, they are far more powerful than either process could ever be by itself. We see this in ordinary experience, too; we all know people who, to their detriment, rely too heavily on either logic or intuition.
 
-##                               THE FORMAL METHOD
+###                               THE FORMAL METHOD
 
 
 This is a traditional, structured practice that corresponds quite closely to the psychological principles of problem solving we just discussed. The structure of the meditation also has four phases: preparation and the initial approach to the topic; incubation and analysis; the outcome; and verifying and review. This method is intended to maximize your use of both conscious logical processes and unconscious intuitive processes.
@@ -5323,7 +5322,7 @@ Sometimes the topic speaks to you immediately, in which case you are ready to mo
 
 If the topic still doesn’t speak to you the next time, it might just be too big. You need to simplify it. For example, try focusing on a single statement, or choose a simpler version of the problem or question. Just be patient. Trying to force the analysis prematurely can impede the very unconscious processing you are trying to invoke. II. INCUBATION AND ANALYSIS Having located the end of the thread, follow wherever it may lead you. Take the word, phrase, thought, or idea that emerged as your starting point and begin thinking about it. Analyze and investigate it from different perspectives. Test the logic and relevance of different thoughts as they come to you. Explore the relationship of your beginning thought to other concepts within the topic, remaining open to the possibility that some deeper meaning may emerge. Regardless of how abstract the topic may seem, stay open to thoughts and memories from personal experience that may arise, and test their relevance when they do. Regardless of the topic, you seek a level of understanding that goes beyond the abstract and intellectual to include the experiential. III. THE OUTCOME: UNDERSTANDING, RESOLUTION, AND DECISION, OR
 
-## DEEPENING INSIGHT
+### DEEPENING INSIGHT
 
 
 The desired outcome is for some sort of natural conclusion—an understanding, a solution or decision, or a deeper insight—to arise from your reflections. You’ll feel a sense of completion and accomplishment. Unless some detail calls for further investigation, proceed to the fourth phase, verifying and reviewing.
@@ -5337,7 +5336,7 @@ Sometimes, however, the bell will ring to end your session before you obtain a c
 If there is no flaw, what’s most important is to consolidate and integrate your new understanding so you won’t have to repeat the whole problem-solving process. In some cases, it’s helpful to create mental “cues” for yourself that can help bring you back to this state of realization and insight. An especially effective way of doing this is to hold the fruit of your meditation in mind as the object of non-analytical meditation. In other words, take the thought, idea, or insight itself as your meditation object, allowing it to take root in your mind. That creates a strong imprint, so you can easily revisit this state of realization in the future by recalling the outcome of this meditation and holding it as the focus of your attention.
 
 
-# APPENDIX C Loving-Kindness Meditation
+## APPENDIX C Loving-Kindness Meditation
 
 
 THIS MEDITATION conditions your mind to readily enter a state of ease, peace, love, and happiness. It also cultivates loving-kindness and compassion toward all beings, including you. The practice is based on this simple formula:
@@ -5423,13 +5422,13 @@ May I continue to be filled with loving-kindness.
 May I continue to be truly happy.
 
 Conclude by holding a strong wish for these feelings to continue to remain strong, and resolve to live in a way that makes this possible. Make it your purpose to embody these precious qualities of mind for the sake of sharing them with others. That is, commit to using this meditation as a model for the practice of loving-kindness in daily life.
-##                                      A FINAL NOTE
+###                                      A FINAL NOTE
 
 
 It’s not uncommon for people to object to this practice because they find it contrived. Please don’t judge it until you’ve tried it. This is one of the most powerful meditation practices known for transforming the way your mind works. You don’t need to believe that the feelings of loving-kindness you send out have any literal effect on others, although it helps if you do. The point is, we all possess infinite resources of patience, forgiveness, compassion, love, and happiness within us. This practice trains the mind and heart to tap into those resources more easily. The satisfaction and enjoyment this practice produces eventually makes accessing those resources automatic.
 
 
-# APPENDIX D The Jhānas
+## APPENDIX D The Jhānas
 
 
 WHAT IS JHĀNA? The Pāli word jhāna can refer either to meditation in general, or to one specific type of advanced meditative state. Jhāna originally comes from the verb jhāyati, meaning to meditate, and the traditional word for meditator is jhāyim. Some have playfully compared the word jhāna to the verb jhāpeti, which means to burn up, because jhāna practice literally “burns up” mental defilements.1
@@ -5692,13 +5691,13 @@ The tranquility and equanimity of the fourth jhāna often persist for a while af
 
 Despite the fourth luminous jhāna’s many virtues, it doesn’t result in the complete absence of craving, or in the perfect equanimity that would entail.37 However, through experiencing the bliss of equanimity in the fourth jhāna, you begin to understand the possibility of perfect bliss and perfect equanimity.
 
-# APPENDIX E Mindful Review
+## APPENDIX E Mindful Review
 
 
 S MINDFULNESS in meditation improves, we naturally grow more mindful in daily life as well. Yet, you’ve probably noticed this spillover just isn’t as strong or consistent as it could be, often failing right when we need it most. In the morning, we may resolve to be more mindful, only to realize in the evening that we weren’t nearly as successful as we’d hoped. This Mindful Review practice is the most powerful tool I know of for improving mindfulness in daily life. The personal transformations it produces not only remove obstacles to your meditation practice but lead to a happier life in general.
 
 You will regularly review and reflect on your thoughts, emotions, speech, and actions. By performing this review consistently, you will increase the power and effectiveness of mindfulness in your daily life, which in turn helps your meditation progress by removing obstacles to unification of mind, pacification of the senses, and the arising of meditative joy.
-##                          MINDFULNESS IN DAILY LIFE
+###                          MINDFULNESS IN DAILY LIFE
 
 
 Being mindful in daily life means attention and awareness are used optimally during normal activities. Ideally, you have enough introspective awareness to be fully cognizant of what you’re doing, saying, thinking, and feeling, as well as enough extrospective awareness to be similarly cognizant of the context in which this all takes place. Extrospective and introspective awareness work together with, and in support of, paying appropriate attention to what matters most in the current situation.
@@ -5709,7 +5708,7 @@ Such mindfulness in daily life is crucial for success in śamatha-vipassanā. No
 
 Being more mindful affects both our behavior and psychology. It changes how we speak and act in ways that dramatically reduce or entirely eliminate the causes for agitation due to worry and remorse. However, the psychological benefits run much deeper and are ultimately far more important. Clinging to Self is greatly reduced, and your thoughts, emotions, and intentions are driven far less by worldly desire and aversion. That’s why cultivating mindfulness with clear comprehension in daily life is an indispensable component of the practice.
 
-##          A BRIEF DESCRIPTION OF MINDFUL REFLECTION
+###          A BRIEF DESCRIPTION OF MINDFUL REFLECTION
 
 
 Here are the basic steps of the Mindful Reflection practice: 1. Set aside a period of up to half an hour each day. Ideally, it will coincide with
@@ -5740,7 +5739,7 @@ I recommend doing this practice once a day, though you can do it more often if y
 
 Regularly practicing Mindful Review will steadily improve your mindfulness in daily life and increase the metacognitive aspect of awareness that constitutes clear comprehension. Mindfulness with clear comprehension allows you to change the thoughts, emotions, speech, and actions with which you’d normally react to events. Your behavior will be driven less by craving and Self-clinging, so unwholesome speech and acts will be replaced by wholesome ones. Your life will become happier, and your meditation practice will thrive.
 
-##                   CHOOSING EVENTS FOR REFLECTION
+###                   CHOOSING EVENTS FOR REFLECTION
 
 
 Choose a few particularly unwholesome events involving thoughts and emotions, speech, or actions since your last mindful reflection. These events are often associated with turmoil or agitation and can be overt, like an argument where hurtful things were said, or subtler, involving irritation or judgmental thoughts about someone. However, unwholesome events don’t always create agitation, and wholesome events can sometimes produce turmoil. So, to distinguish between the two, use this principle: an event is unwholesome if it causes harm and suffering to yourself or others that is unnecessary and could be avoided.
@@ -5765,7 +5764,7 @@ becomes character, and character becomes destiny.
 
 Therefore, remember to include these purely mental events when choosing things for reflection. As with speech and action, tradition provides us with some useful guidelines for evaluating our thoughts and mental states:7 unwholesome thoughts are rooted in desire, greed, lust, and envy; anger, hatred, and ill will; and cruel disregard, or even a wish, for other’s pain and suffering. On the other hand, wholesome thought renounces the illusion that true satisfaction comes from anywhere but within, and recognizes that all beings are alike in their wish to find pleasure and avoid pain. Wholesome thoughts are rooted in generosity, loving-kindness, patience, understanding, forgiveness, compassion, and empathy for the happiness of others.
 
-##                             PART ONE: MINDFULNESS
+###                             PART ONE: MINDFULNESS
 
 
 Evoke the Details: Once you’ve chosen events for reflection, examine each in detail. Begin by carefully recalling the particulars of what triggered this event, and the thoughts and emotions that arose at the time. The more you can bring back the emotions you felt, the better. Clearly evoking the thoughts and emotions from the original incident makes it more likely that the sub-minds involved will tune in to your conscious reflection. This is essential because, while what appears in consciousness is potentially available to every sub-mind, any particular sub-mind may or may not tune in. However, be careful: don’t get caught up in those thoughts and emotions! Never lose awareness of where you are now and what you’re doing.
@@ -5780,7 +5779,7 @@ To feel deep, sincere regret about being responsible for things that shouldn’t
 
 Summary: This first part of the practice focuses on how mindful you were at the time of the event as you apply mindfulness retrospectively to what happened and its consequences. Through this kind of reflection, you can train yourself to mindfully observe these same acts of body, speech, and mind as they unfold in real time. You’ll be more continuously mindful in general, and more fully mindful when it matters most. At first, even though this practice helps you to become more mindful, that won’t always immediately change what you think, feel, say, or do. This is normal. Some patterns of behavior are more deeply ingrained than others. Over time, however, your behavior will change. The second part of the Mindful Review helps by allowing you to better understand the roots of your behavior.
 
-##  PART TWO: MINDFULNESS WITH CLEAR COMPREHENSION
+###  PART TWO: MINDFULNESS WITH CLEAR COMPREHENSION
 
 
 Mindfulness with clear comprehension means knowing our underlying motives and intentions, and how they relate to our personal values and aspirations. In this part of the review, we’ll focus on the intentions driving the particular thoughts, emotions, speech, and actions of the selected event. Of the two parts of the Mindful Review, this is the one that ultimately has the most impact and significance. Its powerful psychological effects will quickly bring you closer to Awakening.
@@ -5789,7 +5788,7 @@ Just as the consequences of a thought or an act can be wholesome or unwholesome,
 
 As your reflections will readily confirm, whenever you knowingly do or say something that’s unwholesome in terms of its consequences, the underlying motivation is selfish desire or aversion. These are both forms of craving. Craving, in turn, is driven by attachment to the belief in a separate Self, together with the assumption that our happiness and unhappiness depend on satisfying our cravings. These are two mutually reinforcing delusions. Thus craving, delusion, and Self-clinging are all inextricably intertwined and mutually interdependent.
 
-##                INTENTIONS AND UNINTENDED CONSEQUENCES
+###                INTENTIONS AND UNINTENDED CONSEQUENCES
 
 
 need to address the issue of unintended consequences. Sometimes the things we regret doing happened
@@ -5829,7 +5828,7 @@ However, it works the other way as well. The more often you decline to act out o
 This practice will produce more mindfulness with clear comprehension in your daily life, and you will become more skilled at replacing unwholesome thoughts and intentions with wholesome ones. This practice certainly won’t put an end to craving by itself. That only happens through achieving a higher stage of Awakening.10 What it will do is reduce how often you act out of craving, and shorten the periods when you dwell in a state of craving. Desire and aversion will lose their iron grip, and you will grow in generosity, love, patience, understanding, and compassion. Your meditation practice will flourish, easing your passage through the adept Stages. Most important, both Self-clinging and your attachment to the notion of separate Selfhood will steadily erode. When the time comes, Insight into no-Self will arise quickly and easily, and you’ll achieve Awakening without a prolonged and painful “dark night of the soul.”
 
 
-# APPENDIX F Insight and the “Dark Night”
+## APPENDIX F Insight and the “Dark Night”
 
 
 ONE OF the great advantages of śamatha is that it makes it easier to confront the Insights into impermanence, emptiness, the pervasive nature of suffering, and the insubstantiality of the Self that produce Awakening.
@@ -5850,7 +5849,7 @@ Figure 57 cont. The “true” nature of reality, as revealed through Insight ex
 
 Figure 57 cont. As Insight matures, individual sub-minds reorganize their internal models to accommodate the new information. This transformation brings about a completely new worldview, life takes on a new and deeper meaning and purpose than ever before, and there is a much greater sense of ease, regardless of what may happen.
 
-# About the Authors
+## About the Authors
 
 
 © Michael O’Shea Culadasa (John Yates, PhD) is a meditation master with over four decades of experience in the Tibetan and Theravadin Buddhist traditions. A former professor, he taught physiology and neuroscience for many years, and later worked in the field of complementary and alternative medicine. He is the author of A Physician’s Guide to Therapeutic Massage, currently in its third edition. Matthew Immergut, PhD, is an associate professor of sociology at Purchase College, SUNY. His areas of research include new religious movements, charismatic authority, the intersection of social theory and Buddhist philosophy, and contemplative practices for the college classroom. He is a longtime and passionate meditator, and a dedicated student of Culadasa.
@@ -5873,7 +5872,7 @@ authors.simonandschuster.com/Jeremy-Graves
 
 @TouchstoneBooks
 
-# Glossary
+## Glossary
 
 
 Access concentration (upacāra-samādhi): A concentrated state of mind that provides “access” to meditative absorption (jhāna) and Insight (vipassanā). Traditional teachings define the specific factors needed for access concentration as exclusive attention (ekaggatā) and unification of mind (ekodibhāva, cittas’ekagata); intentionally directed attention (vitakka); sustained attention (vicara); meditative joy (pīti); and pleasure/happiness (sukha). Acquired appearance (uggaha-nimitta): When the meditation object appears free of conceptual overlays. This usually occurs around Stage Six, where, for the first time, the meditation object is truly the sensations of the breath. Compare with Initial appearance. Adept meditator: Someone who has moved from skill development (skilled meditator) to exercising mastery of those skills. Stage Seven is a transition point where all previous skills, such as exclusive attention and mindfulness, gradually become effortless. By Stage Eight, the transition from skilled meditator to adept meditator is complete, and the third Milestone has been achieved. Agitation Due to Worry and Remorse: One of the five hindrances. Alternating attention: Attention that rapidly shifts back and forth between objects. Alternating attention gives the sense of attending to two or more objects at the same time. However, the focus of attention is actually moving between different objects extremely rapidly. This fast movement of attention becomes experientially clear as you progress through the Stages. Alternating attention is the basis of both multitasking and distraction. See also gross distraction and subtle distraction. Analytical meditation: A reflective practice involving systematic recollection and analysis. Essentially, it means thinking about a carefully chosen topic in a structured way, and with a very stable, calm, and focused state of mind. This should happen in a state corresponding to Stage Four, where the chosen subject of analysis never disappears entirely from attention. Attention: The cognitive ability to select and analyze specific information and ignore other information arising from a vast field of internal and external stimuli. Attention is one of two forms of conscious awareness. Peripheral awareness is the second: we pay attention to some things, while simultaneously being aware of, but not attending to, others. Attention isolates some small part of the field of conscious awareness from the rest so that it can be identified, interpreted, labeled, categorized, and its significance evaluated. The function of attention is discernment, analysis, and discrimination. Awakening: Awakening means understanding reality as it is, rather than as we mistakenly believe it to be. This also means understanding the true nature of the mind. Through realizing this truth at a deep, intuitive level—as opposed to a merely conceptual level—true wisdom is gained, freeing us from ignorance, delusion, dissatisfaction, and suffering. Prior to Awakening, we are trapped not by external conditions but by our own misperceptions and prejudices.
@@ -5896,9 +5895,9 @@ distractions in the background. Because “single-pointed” may seem to imply t
 
 Worldly Desire: One of the five hindrances. The pursuit of, delighting in, and clinging to any of the pleasures related to our material existence. This also means the desire to avoid their opposites. These desires include: gaining material objects and preventing their loss; having pleasurable experiences and avoiding pain; achieving fame, power, and influence while preventing infamy, subjugation, and impotence; and attaining the love, praise, and admiration of others while avoiding blame or hatred.
 
-# Notes
+## Notes
 
-## INTRODUCTION
+### INTRODUCTION
 
 
 1. To Awaken means to understand reality as it is, rather than as we mistakenly believe it to be, to
@@ -5937,7 +5936,7 @@ through Six still correspond quite closely to Asanga’s, and are numbered accor
 
 two models align:
 
-##     CULADASA                                                        ASANGA
+###     CULADASA                                                        ASANGA
 
 
 1. Establishing a Practice 2. Interrupted Attention 1. Stoppage (sthaapaya)
@@ -6091,7 +6090,7 @@ meditation: practicing śamatha first, followed by vipassanā; practicing vipass
 and śamatha and vipassanā developed together.
 
 
-# Śamatha Followed by Vipassanā
+## Śamatha Followed by Vipassanā
 
 
 Samādhi and sati are developed equally, but not applied to diligent investigation until later. This
@@ -6137,7 +6136,7 @@ practices, steadily making progress in both. To do this, simply take advantage o
 Insight teachers whenever they’re available to you, and participate in meditation retreats that emphasize
 
 either practice.
-## AN OVERVIEW OF THE TEN STAGES
+### AN OVERVIEW OF THE TEN STAGES
 
 
 1. The Dalai Lama has said, “If one knows the nature, order and distinctions of the levels explained above
@@ -6242,7 +6241,7 @@ remaining sambojjhaṅgā are the investigation of phenomena (dhamma vicaya) and
 
 (viriya), both of which are exercised throughout the practice of the Ten Stages.
 
-## FIRST INTERLUDE
+### FIRST INTERLUDE
 
 
 Conscious Experience and the Objectives of Meditation 1. Consciousness is a process of information exchange taking place within the mind. 2. Attention and peripheral awareness are associated with two different brain networks that process
@@ -6377,7 +6376,7 @@ reach a peak sometime between four and eight a.m., and are lowest sometime betwe
 
 p.m. 4. Upaḍḍha Sutta, “Half (of the Holy Life).” Samyutta Nikaya 45.2.
 
-## SECOND INTERLUDE
+### SECOND INTERLUDE
 
 
 The Hindrances and Problems 1. Often referred to as the jhāna factors. 2. Cittass’ekagata in Pali. Cittassa = mind. Ekagata, from eka = one and gata = gone, means “gone to one” or
@@ -6406,14 +6405,14 @@ nocebo effect. The nocebo effect, a harmful response that is entirely belief-dri
 
 the placebo effect. 8. Vicāra in Pali and Sanskrit.
 
-## STAGE TWO
+### STAGE TWO
 
 
 Interrupted Attention and Overcoming Mind-Wandering 1. As the philosopher Schopenhauer remarks, “A man can surely do what he wills to do, but he cannot
 
 determine what he wills.”
 
-## THIRD INTERLUDE
+### THIRD INTERLUDE
 
 
 How Mindfulness Works 1. Consciousness researcher Susan Blackmore challenges us to ask ourselves as many times as we can, every
@@ -6432,7 +6431,7 @@ really are. This programing is innate, because it was evolutionarily advantageou
 
 regard itself as a separate entity in competition with others for food, territory, mates, etc.
 
-## STAGE FOUR
+### STAGE FOUR
 
 
 Continuous Attention and Overcoming Gross Distraction and Strong Dullness 1. In the Buddha’s Words: An Anthology of Discourses from the Pali Canon, ed. Bhikkhu Bodhi. Boston:
@@ -6475,7 +6474,7 @@ diminished processing of sensations translates into decreased cortical stimulati
 
 energy level of the mind begins to fall, and dullness arises.
 
-## FOURTH INTERLUDE
+### FOURTH INTERLUDE
 
 
 The Moments of Consciousness Model 1. People with damage to certain regions of the visual cortex experience a condition known as akinetopsia,
@@ -6594,7 +6593,7 @@ consciousness. If there has, there will be no problem with staying highly concen
 
 strong peripheral awareness.
 
-## STAGE FIVE
+### STAGE FIVE
 
 
 Overcoming Subtle Dullness and Increasing Mindfulness 1. Meditators using a meditation object other than the sensations of the breath, such as a mantra or a
@@ -6631,7 +6630,7 @@ related to the “space” element in particular so different now than a few mom
 
 space element be said to “reside”?
 
-## FIFTH INTERLUDE
+### FIFTH INTERLUDE
 
 
 The Mind-System 1. The specific source for the Mind-System model is the description of the mind given in the Laṅkāvatāra
@@ -6824,7 +6823,7 @@ mind of an arahant continues to use the self-other construct, since it’s essen
 
 mind’s natural function, but the narrative “I” no longer gives rise to the sense of being a separate self.
 
-## STAGE SIX
+### STAGE SIX
 
 
 Subduing Subtle Distractions 1. “Single-pointed” may sound like your focus is narrow or small, but it doesn’t mean that at all. It refers to
@@ -6857,7 +6856,7 @@ But whether as awareness or attention, metacognitive introspection has a special
 
 which is a result of this higher, and therefore more distanced perspective. 8. Csikszentmihalyi, Mihaly. Flow: The Psychology of Optimal Experience. New York: Harper & Row, 1990.
 
-## SIXTH INTERLUDE
+### SIXTH INTERLUDE
 
 
 The Stages of an Adept 1. Traditionally, all these unusual phenomena fall under the single umbrella term pīti in Pali (prīti in
@@ -7088,7 +7087,7 @@ for deliverance (muñcitu-kamyatā-ñana), and knowledge of re-observation (pa�
 
 1998. 21. Referred to as the “lubrication” of Insight by śamatha.
 
-## STAGE SEVEN
+### STAGE SEVEN
 
 
 Exclusive Attention and Unifying the Mind 1. “Unified mind” is our interpretation of cittass’ ekagata in Pali. Cittassa = mind. Ekagata, from eka = one
@@ -7353,7 +7352,7 @@ from: Hameroff, Stuart R., Alfred W. Kaszniak, and A. C. Scott, eds. Toward a Sc
 
 III. Boston: MIT Press, 1999.
 
-## STAGE EIGHT
+### STAGE EIGHT
 
 
 Mental Pliancy and Pacifying the Senses 1. It has been claimed that the mind cannot know itself, that consciousness cannot take itself as an object, in
@@ -7478,7 +7477,7 @@ usage, we use the term nimitta to mean the illumination phenomenon when discussi
 
 jhānas.
 
-## STAGE NINE
+### STAGE NINE
 
 
 Mental and Physical Pliancy and Calming the Intensity of Meditative Joy 1. Pīti-sukha in Pali; prīti-sukha in Sanskrit. 2. Passaddhi and upekkhā in Pali; prasrabdhi and upeksha in Sanskrit. 3. This practice is similar to the Tibetan Kagyu practice called the Great Seal (Mahamudra), and the
@@ -7503,17 +7502,17 @@ into interconnectedness, impermanence (anicca), the emptiness of phenomena (suñ
 
 (dukkha).
 
-## STAGE TEN
+### STAGE TEN
 
 
 Tranquility and Equanimity 1. Anuttara citta in Pali.
 
-## FINAL THOUGHTS
+### FINAL THOUGHTS
 
 
 1. cf. Mahāsatipaṭṭhāna Sutta, Digha Nikaya 22.
 
-## APPENDIX D
+### APPENDIX D
 
 
 The Jhānas 1. The word samādhi is used in close association with jhāna. Samādhi derives from sam-a-dha, meaning “to
@@ -7768,7 +7767,7 @@ http://www.accesstoinsight.org/tipitaka/dn/dn.02.0.than.html. 36. This serves as
 
 Sanskrit).
 
-## APPENDIX E
+### APPENDIX E
 
 
 Mindful Review 1. Sati-sampajañña in Pali, smṛti-samprajanya in Sanskrit. 2. Akusala in Pali, akuśala in Sanskrit. 3. Sammā-vācā in Pali, samyag-vāc in Sanskrit. 4. Sammā-kammanta in Pali, samyak-karmānta in Sanskrit. 5. Sammā-ājīva in Pali, samyag-ājīva in Sanskrit. 6. Interpersonal misconduct. This is usually spoken of in terms of sexual misconduct (kāmesu micchācāra in
@@ -7785,7 +7784,7 @@ non-returner (anāgāmi in Pali and Sanskrit). For a non-returner, there is no �
 
 habits of desire and aversion.
 
-## APPENDIX F
+### APPENDIX F
 
 
 Insight and the “Dark Night” 1. How we experience the dark night depends largely on our pre-existing conceptual framework. A
@@ -7795,7 +7794,7 @@ Christian will experience it one way, and an atheist in a different way. For St.
 involved feelings of having lost all connection with God—of, essentially, being abandoned by God.
 
 
-# Index
+## Index
 
 
 A note about the index: The pages referenced in this index refer to the page numbers in the print edition. Clicking on a page number will take you to the ebook location that corresponds to the beginning of that page in the print edition. For a comprehensive list of locations of any word or phrase, use your reading system’s search function. NOTE: Bold numbers refer to figure captions and boxed text. abdomen, 23, 47, 51, 173, 174, 175, 220, 222 Abhidhamma, 147, 148 access concentration, 230–31, 271, 322–23 acquired appearance, 225, 231, 236, 293–94 action

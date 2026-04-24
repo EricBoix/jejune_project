@@ -3,7 +3,7 @@ from abc import ABC
 from typing import Generic, List, Optional, TypeVar, TYPE_CHECKING
 import re
 import nltk
-from mdutils.mdutils import MdUtils  # Added import
+from mdutils.mdutils import MdUtils
 
 # Ensure NLTK data is available (downloads once if missing)
 for resource, path in [
@@ -418,13 +418,15 @@ class DocumentHierarchicalRoot:
         """
         Generate a markdown file representing the document.
         """
-        md_file = MdUtils(file_name=filepath, title=self.title)
+        md_file = MdUtils(
+            file_name=filepath, title=self.title, title_header_style="atx"
+        )
         for chapter in self.get_chapters():
-            chapter.to_markdown(md_file, level=1)
+            chapter.to_markdown(md_file, level=2)
         # Appending a "table a content" makes the Markdown to Pdf conversion
         # fail. This is because (well inquire on that) converting the table of
-        # contents requires converting has markdown links (things of the
-        # form "[some name](#some-name-tag)") and resolving them, when they
+        # contents requires converting markdown links (things of the form
+        # "[some name](#some-name-tag)") and resolving them, when they
         # do not exist in the text:
         #    md_file.new_table_of_contents(table_title="Contents", depth=2)
         md_file.create_md_file()
