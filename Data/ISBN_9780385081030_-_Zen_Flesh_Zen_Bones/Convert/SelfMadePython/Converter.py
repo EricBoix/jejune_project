@@ -1,6 +1,5 @@
 from ConvertPdfToMarkdown import (
     ConverterBase,
-    ExtractedPage,
     SuperChapter,
     DocumentWithSubChapters,
 )
@@ -18,9 +17,7 @@ class Converter(ConverterBase):
         ConverterBase.__init__(self, pdf_filename, document, structural_info)
 
     def break_document_into_chapters(self):
-        return ConverterBase.break_document_into_chapters(
-            self, ExtractedPage, SuperChapter
-        )
+        return ConverterBase.break_document_into_chapters(self, SuperChapter)
 
     def _page_requires_paragraph_continuation(self, page_number):
         return ConverterBase._page_requires_paragraph_continuation(self, page_number)

@@ -43,7 +43,6 @@ class ConverterBase(DocumentBuilder):
 
     def break_document_into_chapters(
         self,
-        ExtractedPageDerived: Type = None,
         ChapterDerived: Type[TopLevelChapter] = None,
     ):
         document_breaker = DocumentBreaker(
@@ -52,9 +51,7 @@ class ConverterBase(DocumentBuilder):
             self.structural_info,
             self.sanitize_page_text,
         )
-        document_breaker.break_document_into_chapters(
-            ExtractedPageDerived, ChapterDerived
-        )
+        document_breaker.break_document_into_chapters(ChapterDerived)
 
     def get_document(self):
         return self.document

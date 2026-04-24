@@ -3,6 +3,7 @@ from typing import Type
 
 from pypdf import PdfReader
 
+from .ExtractedPage import ExtractedPage
 from .Model import TopLevelChapter
 from .PageLayout import PageLayout
 from .TextExtractor import TextExtractor
@@ -50,7 +51,6 @@ class DocumentBreaker:
 
     def break_document_into_chapters(
         self,
-        ExtractedPageDerived: Type = None,
         ChapterDerived: Type[TopLevelChapter] = None,
     ):
         current_chapter = None
@@ -67,7 +67,7 @@ class DocumentBreaker:
             new_extracted_page_layout.set_reference_text(
                 f"[Page: {new_extracted_page_layout.reader_page_number} (page number: {new_extracted_page_layout.page_number})]"
             )
-            new_extracted_page = ExtractedPageDerived(
+            new_extracted_page = ExtractedPage(
                 page_number,
                 new_extracted_page_layout,
                 self.reader.pages[page_number],  # Original page
