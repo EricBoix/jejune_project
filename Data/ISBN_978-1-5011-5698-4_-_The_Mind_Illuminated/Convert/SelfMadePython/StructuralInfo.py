@@ -179,4 +179,4 @@ class StructuralInfo(StructuralInfoBase):
     def convert_to_logical_page_number(self, page_number):
         if page_number == 0:
             return "Cover"
-        return page_number
+        return str(page_number)

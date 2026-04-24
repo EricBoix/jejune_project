@@ -320,7 +320,7 @@ class StructuralInfo(StructuralInfoBase):
         if page_number >= 1 and page_number <= self.page_numbering_offset + 1:
             return roman.toRoman(page_number).lower()
         else:
-            return page_number - self.page_numbering_offset
+            return str(page_number - self.page_numbering_offset)
 
     def _page_is_illustration(self, page_number):
         if not page_number in self.pages_info:
@@ -350,7 +350,7 @@ class StructuralInfo(StructuralInfoBase):
 
     def book_title_page_header(self, page_number):
         return (
-            str(self.convert_to_logical_page_number(page_number))
+            self.convert_to_logical_page_number(page_number)
             + r" \| "
             + self.book_title
         )

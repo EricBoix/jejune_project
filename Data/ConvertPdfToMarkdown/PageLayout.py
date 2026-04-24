@@ -9,7 +9,10 @@ class PageLayout:
 
     def __init__(self, reader_page_number, page_number):
         self._reader_page_number = reader_page_number
-        self._page_number = page_number
+        if isinstance(reader_page_number, int):
+            self._page_number = page_number
+        elif isinstance(reader_page_number, str):
+            self._page_number = int(page_number)
         self._reference_text = "DUMMY UNDEFINED VALUE"
 
     def __copy__(self):

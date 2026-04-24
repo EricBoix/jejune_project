@@ -139,3 +139,19 @@ class StructuralInfoBase(ABC):
         while self._page_is_skipped(next_page_number):
             next_page_number += 1
         return next_page_number
+
+    def convert_to_logical_page_number(self, page_number):
+        """
+        Some pdf books (generally also available in paper form) propose an
+        ad-hoc page numbering scheme (think e.g. of roman numbering based page numbers or starting the numbering after the pages holding the editor's
+        notes). There is thus a correspondance between the page number at the
+        pdf language level (that always exists) and the optional editor's page numbering.
+        Parameters
+        ----------
+        page_number : int
+            the page number at the PDF level
+        Returns
+        -------
+        the page number (as string) as printed on the page (editor's choice)
+        """
+        return str(page_number)

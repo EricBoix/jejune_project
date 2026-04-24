@@ -188,10 +188,8 @@ class Converter(ConverterBase):
         return (
             self.get_chapter_name(extracted_page)
             + r" \| "
-            + str(
-                self.structural_info.convert_to_logical_page_number(
-                    extracted_page.page_number
-                )
+            + self.structural_info.convert_to_logical_page_number(
+                extracted_page.page_number
             )
         )
 
@@ -227,7 +225,7 @@ class Converter(ConverterBase):
         if page_number == 17:
             return ""
         if page_number >= 18 and page_number < 20:
-            return str(self.structural_info.convert_to_logical_page_number(page_number))
+            return self.structural_info.convert_to_logical_page_number(page_number)
         if page_number <= 19 and page_number <= 21:
             return ""
 
@@ -253,8 +251,8 @@ class Converter(ConverterBase):
                     self.structural_info.book_title
                     + self.get_chapter_name(fake_extracted_page)
                     + " ||"
-                    + str(logical_page_number)
-                    + str(logical_page_number)
+                    + logical_page_number
+                    + logical_page_number
                 )
             else:
                 # Even pages have a different header pattern based on the current
