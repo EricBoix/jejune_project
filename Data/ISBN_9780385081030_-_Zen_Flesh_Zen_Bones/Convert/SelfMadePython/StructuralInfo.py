@@ -170,10 +170,12 @@ class StructuralInfo(StructuralInfoBase):
         def extract_sublevel_name(self, content_text):
             return
 
+    @property
+    def total_page_number(self) -> int:
+        return 209
+
     def __init__(self):
         StructuralInfoBase.__init__(self)
-
-        self.total_page_number = 209
         # FIXME: could the book_title be extracted automatically ?
         self.book_title = "ZEN FLESH, ZEN BONES"
 

@@ -142,10 +142,12 @@ class StructuralInfo(StructuralInfoBase):
         def extract_sublevel_name(self, content_text):
             return
 
+    @property
+    def total_page_number(self) -> int:
+        return 160
+
     def __init__(self):
         StructuralInfoBase.__init__(self)
-
-        self.total_page_number = 160
         # The original pdf document has a title that is depicted (as opposed to
         # written in text) in the cover illustration and thus cannot be
         # automatically extracted. This title ends-up embedded in some headers

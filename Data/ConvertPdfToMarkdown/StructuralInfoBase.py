@@ -30,6 +30,12 @@ class StructuralInfoBase(ABC):
         """Return dict mapping page numbers to their structural info."""
         ...
 
+    @property
+    @abstractmethod
+    def total_page_number(self) -> int:
+        """Return total number of pages in the PDF document."""
+        ...
+
     def __init__(self):
         # Technical (optimisation) variable used to hold the correspondance
         # between a given page number and the chapter to which that page
