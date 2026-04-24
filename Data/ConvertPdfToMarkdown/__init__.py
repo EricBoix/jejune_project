@@ -13,7 +13,7 @@ from .DocumentBreaker import DocumentBreaker
 from .TextExtractor import TextExtractor
 from .TextSanitizer import TextSanitizer
 from .ParagraphMerger import ParagraphMerger
-from .ExtractedPageBase import ExtractedPageBase
+from .ExtractedPage import ExtractedPage
 from .StructuralInfoBase import StructuralInfoBase
 from .Splitter import Splitter, SinglePatternSplitter, NameLessSinglePatternSplitter
 from .PageLayout import PageLayout

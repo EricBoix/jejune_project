@@ -1,4 +1,4 @@
-class ExtractedPageBase:
+class ExtractedPage:
     """
     Representation of a pdf extracted page.
 

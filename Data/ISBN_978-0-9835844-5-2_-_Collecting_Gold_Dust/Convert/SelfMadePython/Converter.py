@@ -3,7 +3,7 @@ import roman
 
 from ConvertPdfToMarkdown import (
     ConverterBase,
-    ExtractedPageBase,
+    ExtractedPage,
     SuperChapter,
     DocumentWithSubChapters,
     WarnAndExit,
@@ -23,7 +23,7 @@ class Converter(ConverterBase):
 
     def break_document_into_chapters(self):
         return ConverterBase.break_document_into_chapters(
-            self, ExtractedPageBase, SuperChapter
+            self, ExtractedPage, SuperChapter
         )
 
     def _page_requires_paragraph_continuation(self, page_number):
