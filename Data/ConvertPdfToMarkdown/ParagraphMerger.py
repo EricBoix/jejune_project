@@ -115,7 +115,7 @@ class ParagraphMerger:
                 )
 
             # Check parent types match
-            if type(ill_starting_paragraph._owning_hierarchical_level) != type(
+            if type(ill_starting_paragraph._owning_hierarchical_level) is not type(
                 ill_ending_paragraph._owning_hierarchical_level
             ):
                 Warning(

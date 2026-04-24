@@ -2,7 +2,18 @@ from __future__ import annotations  # Allow forward references in type hints
 from abc import ABC
 from typing import Generic, List, Optional, TypeVar, TYPE_CHECKING
 import re
+import nltk
 from mdutils.mdutils import MdUtils  # Added import
+
+# Ensure NLTK data is available (downloads once if missing)
+for resource, path in [
+    ("punkt_tab", "tokenizers/punkt_tab"),
+    ("averaged_perceptron_tagger_eng", "taggers/averaged_perceptron_tagger_eng"),
+]:
+    try:
+        nltk.data.find(path)
+    except LookupError:
+        nltk.download(resource, quiet=True)
 from .PageLayout import PageLayout
 from .Warning import Warning, WarnAndExit
 
@@ -41,15 +52,18 @@ class Sentence:
     def is_complete(self):
         # The problem is hard, refer e.g. to
         # https://stackoverflow.com/questions/71590785/nlp-check-if-a-detected-sentence-is-a-complete-sentence
-        # We'll keep the check low-tech (and wrong) with only checking
-        # whether the sentence does
-        # - start with a capital letter
-        # - end with punctuation
+        # We check:
+        # - starts with a capital letter
+        # - ends with punctuation
+        # - contains a verb (using NLTK POS tagging)
         if not self.text[0].isupper():
             return False
         if not bool(re.search(r"[.!?]$", self.text)):
             return False
-        return True
+        tokens = nltk.word_tokenize(self.text)
+        tagged = nltk.pos_tag(tokens)
+        has_verb = any(tag.startswith("VB") for _, tag in tagged)
+        return has_verb
 
     def to_markdown(self, md_file: MdUtils, dummy_level) -> None:
         """
@@ -179,10 +193,10 @@ class DocumentHierarchicalLevel(ABC, Generic[T]):
         Concatenate another DocumentHierarchicalLevel to this one and dispose
         of the other. This method assumes that this instance and the other DocumentHierarchicalLevel both share the same hierarchical parent.
         """
-        if type(self) != type(other):
+        if type(self) is not type(other):
             WarnAndExit("Cannot merge two different types.")
         if self._owning_hierarchical_level != other._owning_hierarchical_level:
-            if type(self._owning_hierarchical_level) != type(
+            if type(self._owning_hierarchical_level) is not type(
                 other._owning_hierarchical_level
             ):
                 # We should inquire further but we are probably in the case

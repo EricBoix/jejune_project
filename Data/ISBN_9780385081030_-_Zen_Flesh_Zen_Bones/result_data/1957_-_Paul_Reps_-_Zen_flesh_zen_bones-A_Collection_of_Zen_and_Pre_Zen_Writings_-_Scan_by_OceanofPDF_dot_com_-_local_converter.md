@@ -965,9 +965,7 @@ Sixty-six times have these eyes beheld the changing scene of autumn.
 
 I have had enough about moonlight,
 
-Ask no more.
-
-Only listen to the voice of pines and cedars when no wind stirs.
+Ask no more. Only listen to the voice of pines and cedars when no wind stirs.
 
 ## 51. Sour Miso
 
@@ -2533,9 +2531,7 @@ Machines, ledgers, dancers, athletes balance. Just as centering or balance augme
 
 If we are conscious in part, this implies more inclusive consciousness. Have you a hand? Yes. That you know without doubt. But until asked the question were you cognizant of the hand apart?
 
-Surely men as inspiritors, known and unknown to the world, have shared a common uncommon discovery. The Tao of Lao-tse, Nirvana of Buddha, Jehovah of Moses, the Father of Jesus, the Allah of Mohammed — all point to the experience.
-
-No-thing-ness, spirit—once touched, the whole life clears.
+Surely men as inspiritors, known and unknown to the world, have shared a common uncommon discovery. The Tao of Lao-tse, Nirvana of Buddha, Jehovah of Moses, the Father of Jesus, the Allah of Mohammed — all point to the experience. No-thing-ness, spirit—once touched, the whole life clears.
 
 DEVI SAYS:
 
