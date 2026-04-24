@@ -48,7 +48,9 @@ class LevelBreaker:
         self.break_level = break_level_callback
         self.break_paragraphs = break_paragraphs_callback
 
-    def break_into_sublevels(self, contents: Optional[List[ContentWithLayout]] = None) -> None:
+    def break_into_sublevels(
+        self, contents: Optional[List[ContentWithLayout]] = None
+    ) -> None:
         """Break a hierarchical level into sublevels using the provided splitter."""
         Debug(f"########### break_into_sublevels, level: {self.level}")
 
