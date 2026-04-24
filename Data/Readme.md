@@ -11,6 +11,12 @@
 
 ```bash
 cd `git rev-parse --show-toplevel`/Data
+make setup
+```
+
+Or manually:
+
+```bash
 python3.10 -m venv venv
 source ./venv/bin/activate
 pip install -r requirements.txt
@@ -19,8 +25,21 @@ pip install -e ./ConvertPdfToMarkdown
 
 ## Running tests
 
+With the help of `make`
+
 ```bash
 cd `git rev-parse --show-toplevel`/Data
+make test              # Run tests (assumes venv exists)
+make clean-test        # Clean slate: remove venv, recreate, run tests
+```
+
+Or manually:
+
+```bash
+cd `git rev-parse --show-toplevel`/Data
+# To avoid cache possible nasty side-effects
+deactivate && \rm -fr venv __pycache__/ 
+python3.10 -m venv venv
 source ./venv/bin/activate
 pytest                       # all tests
 pytest -v                    # verbose
