@@ -1,7 +1,8 @@
 from .Model import (
     Sentence,
     Paragraph,
-    ChapterOfParagraphs,
+    TopLevelChapterOfParagraphs,
+    SubChapterOfParagraphs,
     SuperChapter,
     DocumentHierarchicalRoot,
     DocumentWithSubChapters,

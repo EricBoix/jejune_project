@@ -1,6 +1,11 @@
 import sys
 import pypdf
-from .Model import ChapterOfParagraphs, SuperChapter, Paragraph
+from .Model import (
+    TopLevelChapterOfParagraphs,
+    SubChapterOfParagraphs,
+    SuperChapter,
+    Paragraph,
+)
 
 _debug_mode = False
 
@@ -99,7 +104,7 @@ class PrintDocument:
             print("################## Super Chapter name: ", superchapter.name)
             print("###################################################################")
             for sublevel in superchapter.get_sublevels():
-                if isinstance(sublevel, ChapterOfParagraphs):
+                if isinstance(sublevel, (TopLevelChapterOfParagraphs, SubChapterOfParagraphs)):
                     self._print_chapter(sublevel)
                 elif isinstance(sublevel, Paragraph):
                     self._print_paragraph_and_sentences(sublevel)
@@ -108,7 +113,7 @@ class PrintDocument:
         if isinstance(chapter, SuperChapter):
             self._print_super_chapter(chapter)
             return
-        if isinstance(chapter, ChapterOfParagraphs):
+        if isinstance(chapter, (TopLevelChapterOfParagraphs, SubChapterOfParagraphs)):
             self._print_chapter_of_paragraphs(chapter)
 
     def _print_super_chapter(self, super_chapter):
@@ -120,7 +125,7 @@ class PrintDocument:
         print("################## Super Chapter name: ", super_chapter.name)
         print("###################################################################")
         for sublevel in super_chapter.get_sublevels():
-            if isinstance(sublevel, ChapterOfParagraphs):
+            if isinstance(sublevel, (TopLevelChapterOfParagraphs, SubChapterOfParagraphs)):
                 self._print_chapter_of_paragraphs(sublevel)
                 continue
             if isinstance(sublevel, Paragraph):
@@ -131,7 +136,7 @@ class PrintDocument:
             sys.exit()
 
     def _print_chapter_of_paragraphs(self, chapter):
-        if not isinstance(chapter, ChapterOfParagraphs):
+        if not isinstance(chapter, (TopLevelChapterOfParagraphs, SubChapterOfParagraphs)):
             print("Chapter ", chapter.name, "is not a ChapterOfParagraphs.")
             print("Exiting.")
             sys.exit()

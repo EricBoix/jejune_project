@@ -310,7 +310,11 @@ class TopLevelChapter:
         return self.pages
 
 
-class ChapterOfParagraphs(TopLevelChapter, DocumentHierarchicalLevel[Paragraph]):
+class TopLevelChapterOfParagraphs(
+    TopLevelChapter, DocumentHierarchicalLevel[Paragraph]
+):
+    """Chapter with pages, used as direct children of Document."""
+
     def __init__(self, name: str) -> None:
         DocumentHierarchicalLevel.__init__(self, name)
         TopLevelChapter.__init__(self)
@@ -322,39 +326,10 @@ class ChapterOfParagraphs(TopLevelChapter, DocumentHierarchicalLevel[Paragraph])
     get_paragraphs = DocumentHierarchicalLevel.get_sublevels
 
     def get_text_with_layout(self):
-        # This is kludgy. When a ChapterOfParagraphs is used within a
-        # SuperChapter then it is not a TopLevelChapter anymore but simply
-        # a "sub-chapter". Because they are two possible use cases for
-        # ChapterOfParagraphs, a first one as effective TopLevelChapter and
-        # a second one as "sub-chapter", we distinguish which is which at
-        # runtime.
-        # When this is assumed (or believed) to be a "sub-chapter" because its
-        # DocumentHierarchicalLevel text member attribute actually has some
-        # content, then return that content
-        hierarchical_level_text_list = DocumentHierarchicalLevel.get_text_with_layout(
-            self
-        )
-        if hierarchical_level_text_list:
-            hierarchical_level_text = hierarchical_level_text_list[0].text
-        else:
-            hierarchical_level_text = None
-        top_level_text_list = TopLevelChapter.get_text_with_layout(self)
-        if top_level_text_list:
-            top_level_text = top_level_text_list[0].text
-        else:
-            top_level_text = None
-        if hierarchical_level_text and top_level_text:
-            WarnAndExit("Failed duck type for ChapterOfParagraphs.")
-        if hierarchical_level_text:
-            return hierarchical_level_text_list
-        if top_level_text:
-            return top_level_text_list
-        WarnAndExit("Error: ChapterOfParagraphs with NO text_with_layout content.")
+        return self.pages
 
     def get_reference(self) -> str:
-        """
-        A reference within the document for human consumption.
-        """
+        """A reference within the document for human consumption."""
         owner_name = (
             self._owning_hierarchical_level.name
             if self._owning_hierarchical_level
@@ -365,7 +340,6 @@ class ChapterOfParagraphs(TopLevelChapter, DocumentHierarchicalLevel[Paragraph])
         return (
             "Chapter "
             + str(self._number)
-            # Just to add parentheses
             + repr(owner_name)
             + ", page "
             + str(page_reader)
@@ -375,7 +349,47 @@ class ChapterOfParagraphs(TopLevelChapter, DocumentHierarchicalLevel[Paragraph])
         )
 
 
-class SuperChapter(TopLevelChapter, DocumentHierarchicalLevel[ChapterOfParagraphs]):
+class SubChapterOfParagraphs(DocumentHierarchicalLevel[Paragraph]):
+    """Sub-chapter with text, used as children of SuperChapter."""
+
+    def __init__(self, name: str) -> None:
+        DocumentHierarchicalLevel.__init__(self, name)
+
+    add_paragraph = DocumentHierarchicalLevel.add_sublevel
+    remove_paragraph = DocumentHierarchicalLevel.remove_sublevel
+    get_paragraph = DocumentHierarchicalLevel.get_sublevel
+    renumber_paragraphs = DocumentHierarchicalLevel.renumber_sublevels
+    get_paragraphs = DocumentHierarchicalLevel.get_sublevels
+
+    def get_text_with_layout(self):
+        return [self]
+
+    def get_reference(self) -> str:
+        """A reference within the document for human consumption."""
+        owner_name = (
+            self._owning_hierarchical_level.name
+            if self._owning_hierarchical_level
+            else "unknown"
+        )
+        page_reader = self.page_layout.reader_page_number if self.page_layout else "?"
+        page_num = self.page_layout.page_number if self.page_layout else "?"
+        return (
+            "SubChapter "
+            + str(self._number)
+            + repr(owner_name)
+            + ", page "
+            + str(page_reader)
+            + " (index page number "
+            + str(page_num)
+            + ")"
+        )
+
+
+# Backward compatibility alias
+# CLEAN ME ChapterOfParagraphs = TopLevelChapterOfParagraphs
+
+
+class SuperChapter(TopLevelChapter, DocumentHierarchicalLevel[SubChapterOfParagraphs]):
     def __init__(self, name: str) -> None:
         DocumentHierarchicalLevel.__init__(self, name)
         TopLevelChapter.__init__(self)
@@ -433,7 +447,7 @@ class DocumentHierarchicalRoot:
 
 
 class Document(
-    DocumentHierarchicalRoot, DocumentHierarchicalLevel[ChapterOfParagraphs]
+    DocumentHierarchicalRoot, DocumentHierarchicalLevel[TopLevelChapterOfParagraphs]
 ):
     def __init__(self, title: str) -> None:
         DocumentHierarchicalRoot.__init__(self, title)

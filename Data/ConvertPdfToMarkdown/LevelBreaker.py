@@ -2,7 +2,7 @@ from typing import Callable, List, Optional, Protocol, Tuple
 
 from .Model import (
     DocumentHierarchicalLevel,
-    ChapterOfParagraphs,
+    SubChapterOfParagraphs,
     Paragraph,
 )
 from .PageLayout import PageLayout
@@ -125,7 +125,7 @@ class LevelBreaker:
             current_level.add_sublevel(new_paragraph)
             return False, remaining
 
-        if new_sublevel_type == ChapterOfParagraphs:
+        if new_sublevel_type == SubChapterOfParagraphs:
             # Create a Paragraph directly in the SuperChapter instead of
             # a ChapterOfParagraphs containing a single paragraph.
             class ParagraphContent:

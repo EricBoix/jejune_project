@@ -4,7 +4,8 @@ from typing import List, Optional, Protocol
 import nltk
 
 from .Model import (
-    ChapterOfParagraphs,
+    TopLevelChapterOfParagraphs,
+    SubChapterOfParagraphs,
     DocumentHierarchicalLevel,
     DocumentHierarchicalRoot,
     SuperChapter,
@@ -97,15 +98,15 @@ class DocumentBuilder(TextSanitizer, ABC):
         chapter.renumber_paragraphs()
 
     def break_superchapter_into_chapters(self, chapter: SuperChapter) -> None:
-        def chapter_of_paragraph_factory(layout: PageLayout) -> ChapterOfParagraphs:
-            chapter_of_paragraph = ChapterOfParagraphs("")
-            chapter_of_paragraph.page_layout = layout
-            return chapter_of_paragraph
+        def subchapter_factory(layout: PageLayout) -> SubChapterOfParagraphs:
+            subchapter = SubChapterOfParagraphs("")
+            subchapter.page_layout = layout
+            return subchapter
 
         breaker = LevelBreaker(
             level=chapter,
             level_splitter=self.structural_info.superchapter_to_chapter_splitter(),
-            sublevel_factory=chapter_of_paragraph_factory,
+            sublevel_factory=subchapter_factory,
             reference_prefix="Sub-Chapter",
             break_level_callback=self.break_level,
             break_paragraphs_callback=self.break_any_level_chapter_into_paragraphs,
@@ -116,7 +117,8 @@ class DocumentBuilder(TextSanitizer, ABC):
     def break_level(self, level: DocumentHierarchicalLevel) -> None:
         LEVEL_HANDLERS = {
             Paragraph: self.break_paragraph_into_sentences,
-            ChapterOfParagraphs: self.break_any_level_chapter_into_paragraphs,
+            TopLevelChapterOfParagraphs: self.break_any_level_chapter_into_paragraphs,
+            SubChapterOfParagraphs: self.break_any_level_chapter_into_paragraphs,
             SuperChapter: self.break_superchapter_into_chapters,
         }
         handler = LEVEL_HANDLERS.get(type(level))

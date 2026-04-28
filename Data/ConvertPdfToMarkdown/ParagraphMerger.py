@@ -1,5 +1,6 @@
 from .Model import (
-    ChapterOfParagraphs,
+    TopLevelChapterOfParagraphs,
+    SubChapterOfParagraphs,
     Paragraph,
     Sentence,
     TopLevelChapter,
@@ -22,7 +23,7 @@ class ParagraphMerger:
 
     def _chapter_get_first_paragraph_of_given_page(self, chapter, page_number: int):
         for sublevel in chapter.get_sublevels():
-            if isinstance(sublevel, ChapterOfParagraphs):
+            if isinstance(sublevel, (TopLevelChapterOfParagraphs, SubChapterOfParagraphs)):
                 sublevel_result = self._chapter_get_first_paragraph_of_given_page(
                     sublevel, page_number
                 )
@@ -40,7 +41,7 @@ class ParagraphMerger:
     def _chapter_get_last_paragraph_of_given_page(self, chapter, page_number: int):
         sublevel_of_that_page = None
         for sublevel in chapter.get_sublevels():
-            if isinstance(sublevel, ChapterOfParagraphs):
+            if isinstance(sublevel, (TopLevelChapterOfParagraphs, SubChapterOfParagraphs)):
                 result = self._chapter_get_last_paragraph_of_given_page(
                     sublevel, page_number
                 )
