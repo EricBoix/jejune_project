@@ -30,10 +30,3 @@ class PageLayout:
     @property
     def page_number(self):
         return self._page_number
-
-    @property
-    def reference_text(self):
-        return self._reference_text
-
-    def set_reference_text(self, value):
-        self._reference_text = value

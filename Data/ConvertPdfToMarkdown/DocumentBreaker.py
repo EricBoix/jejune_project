@@ -92,9 +92,6 @@ class DocumentBreaker:
                 self.structural_info.convert_to_logical_page_number(page_number),
                 page_number,
             )
-            new_extracted_page_layout.set_reference_text(
-                f"[Page: {new_extracted_page_layout.reader_page_number} (page number: {new_extracted_page_layout.page_number})]"
-            )
             new_extracted_page = ExtractedPage(
                 page_number,
                 new_extracted_page_layout,
@@ -125,7 +122,9 @@ class DocumentBreaker:
                     new_extracted_page.page_number,
                     new_extracted_page.page_number,
                 )
-                new_chapter_name = self.chapter_splitter.get_chapter_name(new_extracted_page)
+                new_chapter_name = self.chapter_splitter.get_chapter_name(
+                    new_extracted_page
+                )
                 if new_chapter_name is None:
                     WarnAndExit(
                         f"This looks like a new chapter yet it has no name.\nThis was the content of the extracted page: {new_extracted_page}"

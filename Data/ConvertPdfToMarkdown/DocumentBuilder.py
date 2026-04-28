@@ -69,18 +69,12 @@ class DocumentBuilder(TextSanitizer, ABC):
                 continue
 
             new_sentence_layout = paragraph_layout.__copy__()
-            new_sentence_layout.set_reference_text(
-                "[Sentence: on reader page number: "
-                + str(paragraph_layout.reader_page_number)
-                + " within "
-                + paragraph_layout.reference_text
-                + "]"
-            )
             new_sentence_text = self.sanitize_newlines_and_multiple_whitespaces(
                 new_sentence_text
             )
             new_sentence = Sentence(new_sentence_text, new_sentence_layout)
             paragraph.add_sublevel(new_sentence)
+            paragraph.renumber_sublevels()
 
     def break_any_level_chapter_into_paragraphs(
         self, chapter, contents: Optional[List[ContentWithLayout]] = None
@@ -90,12 +84,11 @@ class DocumentBuilder(TextSanitizer, ABC):
             level=chapter,
             level_splitter=self.structural_info.chapter_to_paragraph_splitter(),
             sublevel_factory=Paragraph,
-            reference_prefix="Chapter",
             break_level_callback=self.break_level,
             break_paragraphs_callback=self.break_any_level_chapter_into_paragraphs,
         )
         breaker.break_into_sublevels(contents)
-        chapter.renumber_paragraphs()
+        chapter.renumber_sublevels()
 
     def break_superchapter_into_chapters(self, chapter: SuperChapter) -> None:
         def subchapter_factory(layout: PageLayout) -> SubChapterOfParagraphs:
@@ -107,12 +100,11 @@ class DocumentBuilder(TextSanitizer, ABC):
             level=chapter,
             level_splitter=self.structural_info.superchapter_to_chapter_splitter(),
             sublevel_factory=subchapter_factory,
-            reference_prefix="Sub-Chapter",
             break_level_callback=self.break_level,
             break_paragraphs_callback=self.break_any_level_chapter_into_paragraphs,
         )
         breaker.break_into_sublevels()
-        chapter.renumber_chapters()
+        chapter.renumber_sublevels()
 
     def break_level(self, level: DocumentHierarchicalLevel) -> None:
         LEVEL_HANDLERS = {

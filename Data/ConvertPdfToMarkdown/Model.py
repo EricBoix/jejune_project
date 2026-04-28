@@ -29,7 +29,22 @@ if TYPE_CHECKING:
 T = TypeVar("T", bound="DocumentHierarchicalLevel | None")
 
 
-class Sentence:
+class Numbered:
+    def __init__(self) -> None:
+        # Numbering of this hierarchical level is the position within the
+        # container of the owning hierarchical level. Note that this numbering
+        # is for human consumption and thus starts at 1, not 0.
+        self._number: Optional[int] = None
+
+    @property
+    def number(self) -> Optional[int]:
+        return self._number
+
+    def set_number(self, number: int) -> None:
+        self._number = number
+
+
+class Sentence(Numbered):
     """
     A sentence _has_ a Layout (a page identifier for the reader to retrieve it)
     """
@@ -71,8 +86,24 @@ class Sentence:
         """
         md_file.new_line(repr(self.text))
 
+    def get_document_reference_long(self) -> str:
+        # Paragraphs are nameless so we must grab the grand-parent
+        owner_name = (
+            self._owning_hierarchical_level._owning_hierarchical_level.name
+            if self._owning_hierarchical_level
+            else "unknown"
+        )
+        paragraph_number = (
+            self._owning_hierarchical_level._number
+            if self._owning_hierarchical_level
+            else "unknown"
+        )
+        page_reader = self.page_layout.reader_page_number if self.page_layout else "?"
 
-class DocumentHierarchicalLevel(ABC, Generic[T]):
+        return f'Chapter "{owner_name}", paragraph number {paragraph_number}, sentence number {self._number} on page {page_reader}'
+
+
+class DocumentHierarchicalLevel(ABC, Generic[T], Numbered):
     """
     A chapter, a sub-chapter, a sub-sub-chapter, with an optional list of sublevels.
     The type parameter T specifies the allowed sublevel type.
@@ -95,10 +126,6 @@ class DocumentHierarchicalLevel(ABC, Generic[T]):
         self.page_layout: Optional[PageLayout] = None
         # The parent in the hierarchy of levels
         self._owning_hierarchical_level = None
-        # Numbering of this hierarchical level is the position within the
-        # container of the owning hierarchical level. Note that this numbering
-        # is for human consumption and thus starts at 1, not 0.
-        self._number: Optional[int] = None
 
     def get_text_with_layout(self):
         # Used to get some (artificial) genericity with DocumentHierarchicalRoot
@@ -143,13 +170,6 @@ class DocumentHierarchicalLevel(ABC, Generic[T]):
 
     def set_owning_hierarchical_level(self, parent) -> None:
         self._owning_hierarchical_level = parent
-
-    @property
-    def number(self) -> Optional[int]:
-        return self._number
-
-    def set_number(self, number: int) -> None:
-        self._number = number
 
     def set_name(self, name: str) -> None:
         self.name = name
@@ -256,7 +276,7 @@ class Paragraph(DocumentHierarchicalLevel[Sentence]):
     remove_sentence = DocumentHierarchicalLevel.remove_sublevel
     get_sentences = DocumentHierarchicalLevel.get_sublevels
 
-    def get_reference(self) -> str:
+    def get_document_reference_long(self) -> str:
         # A reference within the document for human consumption.
         owner_name = (
             self._owning_hierarchical_level.name
@@ -322,13 +342,11 @@ class TopLevelChapterOfParagraphs(
     add_paragraph = DocumentHierarchicalLevel.add_sublevel
     remove_paragraph = DocumentHierarchicalLevel.remove_sublevel
     get_paragraph = DocumentHierarchicalLevel.get_sublevel
-    renumber_paragraphs = DocumentHierarchicalLevel.renumber_sublevels
-    get_paragraphs = DocumentHierarchicalLevel.get_sublevels
 
     def get_text_with_layout(self):
         return self.pages
 
-    def get_reference(self) -> str:
+    def get_document_reference_long(self) -> str:
         """A reference within the document for human consumption."""
         owner_name = (
             self._owning_hierarchical_level.name
@@ -358,13 +376,11 @@ class SubChapterOfParagraphs(DocumentHierarchicalLevel[Paragraph]):
     add_paragraph = DocumentHierarchicalLevel.add_sublevel
     remove_paragraph = DocumentHierarchicalLevel.remove_sublevel
     get_paragraph = DocumentHierarchicalLevel.get_sublevel
-    renumber_paragraphs = DocumentHierarchicalLevel.renumber_sublevels
-    get_paragraphs = DocumentHierarchicalLevel.get_sublevels
 
     def get_text_with_layout(self):
         return [self]
 
-    def get_reference(self) -> str:
+    def get_document_reference_long(self) -> str:
         """A reference within the document for human consumption."""
         owner_name = (
             self._owning_hierarchical_level.name
@@ -385,10 +401,6 @@ class SubChapterOfParagraphs(DocumentHierarchicalLevel[Paragraph]):
         )
 
 
-# Backward compatibility alias
-# CLEAN ME ChapterOfParagraphs = TopLevelChapterOfParagraphs
-
-
 class SuperChapter(TopLevelChapter, DocumentHierarchicalLevel[SubChapterOfParagraphs]):
     def __init__(self, name: str) -> None:
         DocumentHierarchicalLevel.__init__(self, name)
@@ -398,10 +410,6 @@ class SuperChapter(TopLevelChapter, DocumentHierarchicalLevel[SubChapterOfParagr
     remove_chapter = DocumentHierarchicalLevel.remove_sublevel
     get_chapters = DocumentHierarchicalLevel.get_sublevels
     renumber_chapters = DocumentHierarchicalLevel.renumber_sublevels
-    # For the case where the SuperChapter only has a single Chapter that
-    # is thus skipped:
-    get_paragraphs = DocumentHierarchicalLevel.get_sublevels
-    renumber_paragraphs = DocumentHierarchicalLevel.renumber_sublevels
 
     def is_SuperChapterOfParagraph(self):
         if not self.get_sublevels():

@@ -35,7 +35,6 @@ class LevelBreaker:
         level: DocumentHierarchicalLevel,
         level_splitter: Splitter,
         sublevel_factory: Callable[[Optional[PageLayout]], DocumentHierarchicalLevel],
-        reference_prefix: str,
         break_level_callback: Callable[[DocumentHierarchicalLevel], None],
         break_paragraphs_callback: Callable[
             [DocumentHierarchicalLevel, Optional[List[ContentWithLayout]]], None
@@ -44,7 +43,6 @@ class LevelBreaker:
         self.level = level
         self.level_splitter = level_splitter
         self.sublevel_factory = sublevel_factory
-        self.reference_prefix = reference_prefix
         self.break_level = break_level_callback
         self.break_paragraphs = break_paragraphs_callback
 
@@ -57,25 +55,18 @@ class LevelBreaker:
         if not contents:
             contents = self.level.get_text_with_layout()
             if not contents:
-                Warning(
-                    f"DocumentHierarchicalLevel {self.level} with NO text content."
-                )
+                Warning(f"DocumentHierarchicalLevel {self.level} with NO text content.")
 
         current_level = self.level
         for level_content in contents:
             content_text = level_content.text
             Debug(f"####### break_into_sublevels, contents: {content_text}")
             if not content_text:
-                Warning(f"level with NO text in {self.reference_prefix}.")
+                Warning(f"level with NO text.")
                 continue
 
             content_layout = level_content.page_layout
             new_layout = content_layout.__copy__()
-            new_layout.set_reference_text(
-                f"[{self.reference_prefix}: {current_level.name}, "
-                f"reader page number: {content_layout.reader_page_number}, "
-                f"page number: {content_layout.page_number}]"
-            )
 
             parts = self.level_splitter.split(content_text)
             while parts:
@@ -110,8 +101,10 @@ class LevelBreaker:
         return new_sublevel, parts[2:]
 
     def _handle_unbreakable_text(
-        self, new_layout: PageLayout, current_level: DocumentHierarchicalLevel,
-        parts: List[str]
+        self,
+        new_layout: PageLayout,
+        current_level: DocumentHierarchicalLevel,
+        parts: List[str],
     ) -> Tuple[bool, List[str]]:
         """Handle text that cannot be broken into sublevels.
         Returns (should_break, remaining_parts) tuple."""

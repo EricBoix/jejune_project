@@ -75,10 +75,10 @@ class PrintDocument:
             print("###################################################################")
             print("################## Chapter name: ", chapter.name)
             print("###################################################################")
-            for paragraph in chapter.paragraphs:
+            for paragraph in chapter.get_sublevels():
                 print(
                     "Paragraph (ref:",
-                    paragraph.get_reference(),
+                    paragraph.get_document_reference_long(),
                     "):\n",
                     paragraph.text,
                     "\n",
@@ -104,7 +104,9 @@ class PrintDocument:
             print("################## Super Chapter name: ", superchapter.name)
             print("###################################################################")
             for sublevel in superchapter.get_sublevels():
-                if isinstance(sublevel, (TopLevelChapterOfParagraphs, SubChapterOfParagraphs)):
+                if isinstance(
+                    sublevel, (TopLevelChapterOfParagraphs, SubChapterOfParagraphs)
+                ):
                     self._print_chapter(sublevel)
                 elif isinstance(sublevel, Paragraph):
                     self._print_paragraph_and_sentences(sublevel)
@@ -125,7 +127,9 @@ class PrintDocument:
         print("################## Super Chapter name: ", super_chapter.name)
         print("###################################################################")
         for sublevel in super_chapter.get_sublevels():
-            if isinstance(sublevel, (TopLevelChapterOfParagraphs, SubChapterOfParagraphs)):
+            if isinstance(
+                sublevel, (TopLevelChapterOfParagraphs, SubChapterOfParagraphs)
+            ):
                 self._print_chapter_of_paragraphs(sublevel)
                 continue
             if isinstance(sublevel, Paragraph):
@@ -136,26 +140,25 @@ class PrintDocument:
             sys.exit()
 
     def _print_chapter_of_paragraphs(self, chapter):
-        if not isinstance(chapter, (TopLevelChapterOfParagraphs, SubChapterOfParagraphs)):
+        if not isinstance(
+            chapter, (TopLevelChapterOfParagraphs, SubChapterOfParagraphs)
+        ):
             print("Chapter ", chapter.name, "is not a ChapterOfParagraphs.")
             print("Exiting.")
             sys.exit()
         print("###################################################################")
         print("################## Chapter name: ", chapter.name)
         print("###################################################################")
-        for paragraph in chapter.get_paragraphs():
+        for paragraph in chapter.get_sublevels():
             self._print_paragraph_and_sentences(paragraph)
 
     def _print_paragraph_and_sentences(self, paragraph):
-        print("###", paragraph.get_reference())
+        print("###", paragraph.get_document_reference_long())
         sentences = paragraph.get_sentences()
         if not sentences:
             print("PARAGRAPH IS EMPTY OF SENTENCES")
             return
         for sentence in sentences:
             print(
-                sentence.page_layout.reference_text,
-                ":\n",
-                sentence.text,
-                "\n",
+                f"{sentence.text} \n   [Reference: {sentence.get_document_reference_long()}]"
             )
