@@ -43,7 +43,7 @@ class StructuralInfo(StructuralInfoBase):
             #     \nPUTTING THIS PRACTICE INTO CONTEXT\n
             # We thus need to define three parts for the pattern
             # 1. the ante chapter breaking lines
-            chapter_name_ante_pattern = r"\n"
+            ante_pattern = r"\n"
             # 2. the name of the chapter per se. Note that the minimum number
             # for matching has to be
             # - at least 2 in order not to match the first (capital letter of
@@ -51,16 +51,11 @@ class StructuralInfo(StructuralInfoBase):
             # - at least three not to match e.g. "A cat was run over." where the
             #   the initial capital and its following whitespace would match.
             # For the upper limit to, well a full line should suffice.
-            chapter_name_pattern = r"[A-Z|:| ]{3,100}"
+            name_pattern = r"[A-Z|:| ]{3,100}"
             # 3. the trailing return
-            chapter_name_post_pattern = r"\n"
-
-            breaking_pattern = (
-                chapter_name_ante_pattern
-                + chapter_name_pattern
-                + chapter_name_post_pattern
-            )
-            SinglePatternSplitter.__init__(self, breaking_pattern, chapter_name_pattern)
+            post_pattern = r"\n"
+            breaking_pattern = ante_pattern + name_pattern + post_pattern
+            SinglePatternSplitter.__init__(self, breaking_pattern, name_pattern)
 
     class chapter_to_paragraph_splitter(NameLessSinglePatternSplitter):
         def __init__(self):
