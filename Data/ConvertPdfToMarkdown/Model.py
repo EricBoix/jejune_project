@@ -44,7 +44,28 @@ class Numbered:
         self._number = number
 
 
-class Sentence(Numbered):
+class Parent:
+    """Reference to a higher level within a hierarchy."""
+
+    def __init__(self) -> None:
+        self._owning_hierarchical_level = None
+
+    def set_owning_hierarchical_level(self, parent) -> None:
+        self._owning_hierarchical_level = parent
+
+    @property
+    def owning_hierarchical_level(self) -> Optional[DocumentHierarchicalLevel]:
+        return self._owning_hierarchical_level
+
+    @property
+    def hierarchical_toplevel(self) -> Optional[DocumentHierarchicalLevel]:
+        level = self
+        while level.owning_hierarchical_level:
+            level = level.owning_hierarchical_level
+        return level
+
+
+class Sentence(Numbered, Parent):
     """
     A sentence _has_ a Layout (a page identifier for the reader to retrieve it)
     """
@@ -52,17 +73,12 @@ class Sentence(Numbered):
     def __init__(self, text: str, layout: PageLayout) -> None:
         self.text = text
         self.page_layout = layout.__copy__()
-        # The owning Paragraph in the hierarchy of levels
-        self._owning_hierarchical_level = None
 
     def append(self, other: Sentence) -> None:
         """
         Append text to the current sentence.
         """
         self.text += " " + other.text
-
-    def set_owning_hierarchical_level(self, parent) -> None:
-        self._owning_hierarchical_level = parent
 
     def is_complete(self):
         # The problem is hard, refer e.g. to
@@ -89,27 +105,28 @@ class Sentence(Numbered):
     def get_document_reference_long(self) -> str:
         # Paragraphs are nameless so we must grab the grand-parent
         owner_name = (
-            self._owning_hierarchical_level._owning_hierarchical_level.name
-            if self._owning_hierarchical_level
+            self.owning_hierarchical_level.owning_hierarchical_level.name
+            if self.owning_hierarchical_level
             else "unknown"
         )
         paragraph_number = (
-            self._owning_hierarchical_level._number
-            if self._owning_hierarchical_level
+            self.owning_hierarchical_level.number
+            if self.owning_hierarchical_level
             else "unknown"
         )
         page_reader = self.page_layout.reader_page_number if self.page_layout else "?"
 
-        return f'Chapter "{owner_name}", paragraph number {paragraph_number}, sentence number {self._number} on page {page_reader}'
+        return f"Source document: {self.hierarchical_toplevel.get_title()}, Chapter: {owner_name}, paragraph number {paragraph_number}, sentence number {self._number} on page {page_reader}"
 
 
-class DocumentHierarchicalLevel(ABC, Generic[T], Numbered):
+class DocumentHierarchicalLevel(ABC, Generic[T], Numbered, Parent):
     """
     A chapter, a sub-chapter, a sub-sub-chapter, with an optional list of sublevels.
     The type parameter T specifies the allowed sublevel type.
     """
 
     def __init__(self, name: str) -> None:
+        Parent.__init__(self)
         self.name: str = name
         if not self.name:
             Warning("DocumentHierarchicalLevel created with no given name.")
@@ -124,8 +141,6 @@ class DocumentHierarchicalLevel(ABC, Generic[T], Numbered):
         # The page where this Hierarchical level is encountered within the
         # original document
         self.page_layout: Optional[PageLayout] = None
-        # The parent in the hierarchy of levels
-        self._owning_hierarchical_level = None
 
     def get_text_with_layout(self):
         # Used to get some (artificial) genericity with DocumentHierarchicalRoot
@@ -163,13 +178,6 @@ class DocumentHierarchicalLevel(ABC, Generic[T], Numbered):
 
     def get_sublevels(self):
         return self.sublevels
-
-    @property
-    def owning_hierarchical_level(self):
-        return self._owning_hierarchical_level
-
-    def set_owning_hierarchical_level(self, parent) -> None:
-        self._owning_hierarchical_level = parent
 
     def set_name(self, name: str) -> None:
         self.name = name
@@ -215,9 +223,9 @@ class DocumentHierarchicalLevel(ABC, Generic[T], Numbered):
         """
         if type(self) is not type(other):
             WarnAndExit("Cannot merge two different types.")
-        if self._owning_hierarchical_level != other._owning_hierarchical_level:
-            if type(self._owning_hierarchical_level) is not type(
-                other._owning_hierarchical_level
+        if self.owning_hierarchical_level != other.owning_hierarchical_level:
+            if type(self.owning_hierarchical_level) is not type(
+                other.owning_hierarchical_level
             ):
                 # We should inquire further but we are probably in the case
                 # where:
@@ -230,7 +238,7 @@ class DocumentHierarchicalLevel(ABC, Generic[T], Numbered):
                 Warning(f"Choosing not to merge {self} and {other}, because")
                 Warning(f"their respective parent are of different types, that")
                 Warning(
-                    f"are {type(self._owning_hierarchical_level)} and {type(other._owning_hierarchical_level)}."
+                    f"are {type(self.owning_hierarchical_level)} and {type(other.owning_hierarchical_level)}."
                 )
                 return
             else:
@@ -238,11 +246,11 @@ class DocumentHierarchicalLevel(ABC, Generic[T], Numbered):
                     f"Choosing not to merge {self} from page {self.page_layout.page_number} and {other} from page {other.page_layout.page_number}, because they are not siblings."
                 )
                 return
-        if self._owning_hierarchical_level is None:
+        if self.owning_hierarchical_level is None:
             WarnAndExit("DocumentHierarchicalLevel has no owning hierarchical level.")
         self.sublevels.extend(other.sublevels)
-        self._owning_hierarchical_level.remove_sublevel(other)
-        self._owning_hierarchical_level.renumber_sublevels()
+        self.owning_hierarchical_level.remove_sublevel(other)
+        self.owning_hierarchical_level.renumber_sublevels()
 
     def to_markdown(self, md_file: MdUtils, level) -> None:
         """
@@ -279,8 +287,8 @@ class Paragraph(DocumentHierarchicalLevel[Sentence]):
     def get_document_reference_long(self) -> str:
         # A reference within the document for human consumption.
         owner_name = (
-            self._owning_hierarchical_level.name
-            if self._owning_hierarchical_level
+            self.owning_hierarchical_level.name
+            if self.owning_hierarchical_level
             else "unknown"
         )
         page_reader = self.page_layout.reader_page_number if self.page_layout else "?"
@@ -345,8 +353,8 @@ class TopLevelChapterOfParagraphs(
     def get_document_reference_long(self) -> str:
         """A reference within the document for human consumption."""
         owner_name = (
-            self._owning_hierarchical_level.name
-            if self._owning_hierarchical_level
+            self.owning_hierarchical_level.name
+            if self.owning_hierarchical_level
             else "unknown"
         )
         page_reader = self.page_layout.reader_page_number if self.page_layout else "?"
@@ -375,8 +383,8 @@ class SubChapterOfParagraphs(DocumentHierarchicalLevel[Paragraph]):
     def get_document_reference_long(self) -> str:
         """A reference within the document for human consumption."""
         owner_name = (
-            self._owning_hierarchical_level.name
-            if self._owning_hierarchical_level
+            self.owning_hierarchical_level.name
+            if self.owning_hierarchical_level
             else "unknown"
         )
         page_reader = self.page_layout.reader_page_number if self.page_layout else "?"
@@ -420,6 +428,9 @@ class DocumentHierarchicalRoot:
 
     def __init__(self, title) -> None:
         self.title = title
+
+    def get_title(self) -> str:
+        return self.title
 
     def get_chapter_name(self, page_number):
         chapter = self.get_first_sublevel_of_given_page(page_number)

@@ -1,6 +1,11 @@
 import re
 from typing import Optional
-from ConvertPdfToMarkdown import StructuralInfoBase, WarnAndExit, Splitter
+from ConvertPdfToMarkdown import (
+    MultiplePatternSplitter,
+    StructuralInfoBase,
+    Splitter,
+    WarnAndExit,
+)
 from Sanitizer import Sanitizer
 
 
@@ -79,7 +84,7 @@ class StructuralInfo(StructuralInfoBase):
                 self.chapter_name_separator_regex, "", extracted_page.text
             )
 
-    class superchapter_to_chapter_splitter(Splitter):
+    class superchapter_to_chapter_splitter(MultiplePatternSplitter):
         def __init__(self):
             # Sub-chapters typically start with e.g.
             #    "85. Time to Die\n\n".
@@ -115,28 +120,10 @@ class StructuralInfo(StructuralInfoBase):
                 self.breaking_pattern_one,
                 self.breaking_pattern_two,
             ]
-
-        def holds_new_sublevels(self, content_text):
-            return Splitter._holds_new_sublevels(
-                self, self.breaking_patterns, content_text
-            )
-
-        def split(self, content_text):
-            return Splitter._split(self, self.breaking_patterns, content_text)
-
-        def get_sublevel_name(self, content_text):
-            return Splitter._get_sublevel_name(
+            MultiplePatternSplitter.__init__(
                 self,
                 self.breaking_patterns,
                 self.chapter_number_pattern + self.chapter_name_pattern,
-                content_text,
-            )
-
-        def extract_sublevel_name(self, content_text):
-            return Splitter._extract_sublevel_name(
-                self,
-                self.breaking_patterns,
-                content_text,
             )
 
     class chapter_to_paragraph_splitter:

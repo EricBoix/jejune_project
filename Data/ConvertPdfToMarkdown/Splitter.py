@@ -124,6 +124,38 @@ class SinglePatternSplitter(Splitter):
         )
 
 
+class MultiplePatternSplitter(Splitter):
+    """A splitter using a list of possible patterns to detect the breaking zone. A second sub-pattern is used to extract the name of the document structural element."""
+
+    def __init__(self, breaking_patterns, name_pattern):
+        self.breaking_patterns = breaking_patterns
+        self.name_pattern = name_pattern
+
+    def holds_new_sublevels(self, content_text):
+        return Splitter._holds_new_sublevels(
+            self, self.breaking_patterns, content_text
+        )
+
+    def split(self, content_text):
+        return Splitter._split(self, self.breaking_patterns, content_text)
+
+    def get_sublevel_name(self, content_text):
+        return Splitter._get_sublevel_name(
+            self,
+            self.breaking_patterns,
+            self.name_pattern,
+            content_text,
+        )
+
+    def extract_sublevel_name(self, content_text):
+            return Splitter._extract_sublevel_name(
+                self,
+                self.breaking_patterns,
+                content_text,
+            )
+
+
+
 class NameLessSinglePatternSplitter(SinglePatternSplitter):
     """When breaking paragraphs into sentences there is no need to extract a name for the Sentence structural element."""
 

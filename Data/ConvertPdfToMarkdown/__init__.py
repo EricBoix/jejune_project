@@ -16,7 +16,12 @@ from .TextSanitizer import TextSanitizer
 from .ParagraphMerger import ParagraphMerger
 from .ExtractedPage import ExtractedPage
 from .StructuralInfoBase import StructuralInfoBase
-from .Splitter import Splitter, SinglePatternSplitter, NameLessSinglePatternSplitter
+from .Splitter import (
+    Splitter,
+    SinglePatternSplitter,
+    MultiplePatternSplitter,
+    NameLessSinglePatternSplitter,
+)
 from .PageLayout import PageLayout
 from .Warning import Warning, set_warning_mode, WarnAndExit
 from .Traces import (
@@ -25,3 +30,4 @@ from .Traces import (
     Debug,
     set_debug_mode,
 )
+from .WriteAsLangchainDocuments import WriteAsLangchainDocuments
