@@ -339,10 +339,6 @@ class TopLevelChapterOfParagraphs(
         DocumentHierarchicalLevel.__init__(self, name)
         TopLevelChapter.__init__(self)
 
-    add_paragraph = DocumentHierarchicalLevel.add_sublevel
-    remove_paragraph = DocumentHierarchicalLevel.remove_sublevel
-    get_paragraph = DocumentHierarchicalLevel.get_sublevel
-
     def get_text_with_layout(self):
         return self.pages
 
@@ -372,10 +368,6 @@ class SubChapterOfParagraphs(DocumentHierarchicalLevel[Paragraph]):
 
     def __init__(self, name: str) -> None:
         DocumentHierarchicalLevel.__init__(self, name)
-
-    add_paragraph = DocumentHierarchicalLevel.add_sublevel
-    remove_paragraph = DocumentHierarchicalLevel.remove_sublevel
-    get_paragraph = DocumentHierarchicalLevel.get_sublevel
 
     def get_text_with_layout(self):
         return [self]

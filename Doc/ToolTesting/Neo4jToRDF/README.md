@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The purpose of this directory is to implement a Neo4j database exportation code  that 
+The purpose of this directory is to implement a Neo4j database exportation code  that
 
 - is written in Python
 - logs into a neo4j database (using the authentication info provided in a `.env`file)

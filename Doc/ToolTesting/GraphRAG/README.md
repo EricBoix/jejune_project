@@ -78,7 +78,7 @@ docker run --interactive --tty --rm  \
            neo4j/neo4j-admin neo4j-admin database dump neo4j --to-path=/backups
 ```
 
-and check the `backup/` sub-directory for the new existence of `neo4j.dump` file.
+and check the `backups/` sub-directory for the new existence of `neo4j.dump` file.
 
 ```bash
 rm -fr data     # WARNING: this deletes all your databases !
