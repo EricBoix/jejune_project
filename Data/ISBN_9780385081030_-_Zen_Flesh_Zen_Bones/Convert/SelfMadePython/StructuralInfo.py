@@ -1,11 +1,9 @@
 import re
-from typing import Optional
 from ConvertPdfToMarkdown import (
     ChapterSplitter,
     MultiplePatternSplitter,
     NameLessSinglePatternSplitter,
     StructuralInfoBase,
-    WarnAndExit,
 )
 from Sanitizer import Sanitizer
 
