@@ -1,9 +1,10 @@
 import re
 from typing import Optional
 from ConvertPdfToMarkdown import (
+    ChapterSplitter,
+    NameLessSinglePatternSplitter,
     StructuralInfoBase,
     SinglePatternSplitter,
-    NameLessSinglePatternSplitter,
     WarnAndExit,
 )
 from Sanitizer import Sanitizer
@@ -15,7 +16,7 @@ class StructuralInfo(StructuralInfoBase):
     notions of StructuralInfoBase.
     """
 
-    class chapter_splitter:
+    class chapter_splitter(ChapterSplitter):
         """Chapter splitter for The Mind Illuminated.
 
         Detects chapter boundaries based on:
@@ -24,41 +25,16 @@ class StructuralInfo(StructuralInfoBase):
         """
 
         def __init__(self, structural_info):
-            self.structural_info = structural_info
-            self.chapter_name_separator_regex = r"((?:\n){3,}(\w| ))"
-            self.chapter_name_separator_first_occurrence = 100
-
-        def holds_new_chapter(self, extracted_page) -> bool:
-            # First check static declaration in pages_info
-            if self.structural_info._holds_new_chapter(extracted_page.page_number):
-                return True
-            # Then check regex pattern
-            match = re.search(self.chapter_name_separator_regex, extracted_page.text)
-            if not match:
-                return False
-            if match.start() > self.chapter_name_separator_first_occurrence:
-                return False
-            return True
-
-        def get_chapter_name(self, extracted_page) -> Optional[str]:
-            # First check static declaration in pages_info
-            if self.structural_info._holds_new_chapter(extracted_page.page_number):
-                return self.structural_info._get_chapter_name(
-                    extracted_page.page_number
-                )
-            # Then use regex extraction
-            chapter_name = re.split(
-                self.chapter_name_separator_regex, extracted_page.text
+            structural_info = structural_info
+            chapter_name_separator_regex = r"((?:\n){3,}(\w| ))"
+            chapter_name_separator_first_occurrence = 100
+            ChapterSplitter.__init__(
+                self,
+                structural_info,
+                chapter_name_separator_regex,
+                chapter_name_separator_regex,  # Extractor = Separator
+                chapter_name_separator_first_occurrence,
             )
-            if not chapter_name:
-                WarnAndExit(
-                    f"Chapter name {chapter_name} not found in extracted page {extracted_page.text}"
-                )
-            return chapter_name[0]
-
-        def extract_chapter_name(self, extracted_page, chapter_name):
-            """Remove chapter name from page text."""
-            extracted_page.text = extracted_page.text.lstrip(chapter_name)
 
     class superchapter_to_chapter_splitter(SinglePatternSplitter):
         def __init__(self):

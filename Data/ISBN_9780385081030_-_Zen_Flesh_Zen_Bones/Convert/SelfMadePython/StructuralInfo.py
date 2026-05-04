@@ -1,9 +1,10 @@
 import re
 from typing import Optional
 from ConvertPdfToMarkdown import (
+    ChapterSplitter,
     MultiplePatternSplitter,
+    NameLessSinglePatternSplitter,
     StructuralInfoBase,
-    Splitter,
     WarnAndExit,
 )
 from Sanitizer import Sanitizer
@@ -14,7 +15,7 @@ class StructuralInfo(StructuralInfoBase):
     # - "type" can be "illustration" (with an optional "header" boolean flag)
     # - a "chapter_info" can have an optional "illumination_delimiter"
 
-    class chapter_splitter:
+    class chapter_splitter(ChapterSplitter):
         """Chapter splitter for Zen Flesh, Zen Bones.
 
         Detects chapter boundaries based on:
@@ -23,18 +24,17 @@ class StructuralInfo(StructuralInfoBase):
         """
 
         def __init__(self, structural_info):
-            self.structural_info = structural_info
             self.distributor_name_pattern = r"OceanofPDF[.]com"
             # Three whitespaces (more or less)
-            self.chapter_name_extractor_regex = r"(\n){3}"
+            chapter_name_extractor_regex = r"(\n){3}"
             # The pattern that should match a chapter title definition
-            self.chapter_name_separator_regex = (
+            chapter_name_separator_regex = (
                 # a bunch of capital letters, or digits with possible white
                 # spaces and/or returns
                 r"[A-Z\d (\n)]+"
                 # _exactly_ three returns,
                 + r"(?<!(\n))"
-                + self.chapter_name_extractor_regex
+                + chapter_name_extractor_regex
                 + r"(?!(\n))"
                 # at least 8 white spaces,
                 + r"( *){8}"
@@ -43,46 +43,24 @@ class StructuralInfo(StructuralInfoBase):
             )
             # The maximum number of characters within an extracted page to look
             # for a chapter title:
-            self.chapter_name_separator_first_occurrence = 100
-
-        def holds_new_chapter(self, extracted_page) -> bool:
-            # First check static declaration in pages_info
-            if self.structural_info._holds_new_chapter(extracted_page.page_number):
-                return True
-            # Then check regex pattern
-            match = re.search(self.chapter_name_separator_regex, extracted_page.text)
-            if not match:
-                return False
-            if match.start() > self.chapter_name_separator_first_occurrence:
-                return False
-            return True
-
-        def get_chapter_name(self, extracted_page) -> Optional[str]:
-            # First check static declaration in pages_info
-            if self.structural_info._holds_new_chapter(extracted_page.page_number):
-                return self.structural_info._get_chapter_name(
-                    extracted_page.page_number
-                )
-            # Then use regex extraction
-            chapter_name = re.split(
-                self.chapter_name_extractor_regex, extracted_page.text
+            chapter_name_separator_first_occurrence = 100
+            ChapterSplitter.__init__(
+                self,
+                structural_info,
+                chapter_name_separator_regex,
+                chapter_name_extractor_regex,
+                chapter_name_separator_first_occurrence,
             )
-            if not chapter_name:
-                WarnAndExit(
-                    f"Chapter name {chapter_name} not found in extracted page {extracted_page.text}"
-                )
-            return chapter_name[0]
 
         def extract_chapter_name(self, extracted_page, chapter_name):
             """Remove chapter name from page text."""
             # If distributor pattern not in text, use simple removal
             if re.search(self.distributor_name_pattern, extracted_page.text) is None:
-                extracted_page.text = extracted_page.text.lstrip(chapter_name)
+                ChapterSplitter.extract_chapter_name(self, extracted_page, chapter_name)
                 return
-            # For regex-detected chapters (with distributor pattern), remove full pattern
-            extracted_page.text = re.sub(
-                self.chapter_name_separator_regex, "", extracted_page.text
-            )
+            # For regex-detected chapters (with distributor pattern), remove
+            # the full pattern
+            extracted_page.text = re.sub(self.separator_regex, "", extracted_page.text)
 
     class superchapter_to_chapter_splitter(MultiplePatternSplitter):
         def __init__(self):
@@ -92,16 +70,16 @@ class StructuralInfo(StructuralInfoBase):
             # 1. the chapter number (refer to the peculiarities section of the
             #    Readme.md for an explanation on which there can be one or no
             #    occurrence of the whitespace character)
-            self.chapter_number_pattern = r"\d+\.[ ]?"
+            chapter_number_pattern = r"\d+\.[ ]?"
             # 2. the name of the chapter per se
-            self.chapter_name_pattern = r"[A-Za-z-’|?|!|,| ]+"
+            chapter_name_pattern = r"[A-Za-z-’|?|!|,| ]+"
             # 3. the two trailing return
-            self.chapter_name_trailing_returns = r"\n\n"
+            chapter_name_trailing_returns = r"\n\n"
 
-            self.breaking_pattern_one = (
-                self.chapter_number_pattern
-                + self.chapter_name_pattern
-                + self.chapter_name_trailing_returns
+            breaking_pattern_one = (
+                chapter_number_pattern
+                + chapter_name_pattern
+                + chapter_name_trailing_returns
             )
             # The above pattern works and the chapter name that matches can be
             # safely extracted when this chapter appears at the head of a page.
@@ -110,23 +88,22 @@ class StructuralInfo(StructuralInfoBase):
             # typical mid-page chapter page is thus e.g.
             #              "\n\n\n86. The Living Buddha and the Tubmaker\n\n"
             # The pattern thus becomes r"(\n\n\n)\d+\.[ ][A-Za-z| ]+"
-            self.middle_page_chapter_name_heading_returns = r"\n\n\n"
-            self.breaking_pattern_two = (
-                self.middle_page_chapter_name_heading_returns
-                + self.breaking_pattern_one
+            middle_page_chapter_name_heading_returns = r"\n\n\n"
+            breaking_pattern_two = (
+                middle_page_chapter_name_heading_returns + breaking_pattern_one
             )
             # Technical variables:
-            self.breaking_patterns = [
-                self.breaking_pattern_one,
-                self.breaking_pattern_two,
+            breaking_patterns = [
+                breaking_pattern_one,
+                breaking_pattern_two,
             ]
             MultiplePatternSplitter.__init__(
                 self,
-                self.breaking_patterns,
-                self.chapter_number_pattern + self.chapter_name_pattern,
+                breaking_patterns,
+                chapter_number_pattern + chapter_name_pattern,
             )
 
-    class chapter_to_paragraph_splitter:
+    class chapter_to_paragraph_splitter(NameLessSinglePatternSplitter):
         def __init__(self):
             # The paragraph termination varies within the document:
             #  - within the Foreword chapter it takes the form of a double
@@ -138,25 +115,8 @@ class StructuralInfo(StructuralInfoBase):
             # having two capturing groups: refer to e.g.
             # https://stackoverflow.com/questions/11320231/re-split-with-multiple-arguments-or-returns-none
             # and thus patterns are NOT wrapped in parentheses.
-            self.breaking_pattern = r"\n\n" + r"|" + r"\n    "
-
-        def holds_new_sublevels(self, content_text):
-            return Splitter._holds_new_sublevels(
-                self,
-                [self.breaking_pattern],
-                content_text,
-            )
-
-        def split(self, content_text):
-            return Splitter._split_on_single_pattern(
-                self, self.breaking_pattern, content_text, remove_separator=True
-            )
-
-        def get_sublevel_name(self, content_text):
-            return None
-
-        def extract_sublevel_name(self, content_text):
-            return
+            breaking_pattern = r"\n\n" + r"|" + r"\n    "
+            NameLessSinglePatternSplitter.__init__(self, breaking_pattern)
 
     @property
     def total_page_number(self) -> int:

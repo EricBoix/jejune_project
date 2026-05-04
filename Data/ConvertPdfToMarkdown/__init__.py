@@ -17,8 +17,9 @@ from .ParagraphMerger import ParagraphMerger
 from .ExtractedPage import ExtractedPage
 from .StructuralInfoBase import StructuralInfoBase
 from .Splitter import (
-    Splitter,
+    ChapterSplitter,
     SinglePatternSplitter,
+    Splitter,
     MultiplePatternSplitter,
     NameLessSinglePatternSplitter,
 )

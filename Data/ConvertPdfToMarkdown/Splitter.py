@@ -4,11 +4,48 @@ from typing import Optional, Protocol
 from .Warning import Warning, WarnAndExit
 
 
-class ChapterSplitter(Protocol):
-    """Protocol for chapter boundary detection at page level."""
+class ChapterSplitter:
+    """Top level splitter, that is chapter boundary."""
 
-    def holds_new_chapter(self, extracted_page) -> bool: ...
-    def get_chapter_name(self, extracted_page) -> Optional[str]: ...
+    def __init__(
+        self,
+        structural_info,
+        separator_regex,
+        extractor_regex,
+        separator_first_occurrence,
+    ):
+        self.structural_info = structural_info
+        self.separator_regex = separator_regex
+        self.extractor_regex = extractor_regex
+        self.separator_first_occurrence = separator_first_occurrence
+
+    def holds_new_chapter(self, extracted_page) -> bool:
+        # First check static declaration in pages_info
+        if self.structural_info._holds_new_chapter(extracted_page.page_number):
+            return True
+        # Then check regex pattern
+        match = re.search(self.separator_regex, extracted_page.text)
+        if not match:
+            return False
+        if match.start() > self.separator_first_occurrence:
+            return False
+        return True
+
+    def get_chapter_name(self, extracted_page) -> Optional[str]:
+        # First check static declaration in pages_info
+        if self.structural_info._holds_new_chapter(extracted_page.page_number):
+            return self.structural_info._get_chapter_name(extracted_page.page_number)
+        # Then use regex extraction
+        chapter_name = re.split(self.extractor_regex, extracted_page.text)
+        if not chapter_name:
+            WarnAndExit(
+                f"Chapter name {chapter_name} not found in extracted page {extracted_page.text}"
+            )
+        return chapter_name[0]
+
+    def extract_chapter_name(self, extracted_page, chapter_name):
+        """Remove chapter name from page text."""
+        extracted_page.text = extracted_page.text.lstrip(chapter_name)
 
 
 class Splitter:
@@ -132,9 +169,7 @@ class MultiplePatternSplitter(Splitter):
         self.name_pattern = name_pattern
 
     def holds_new_sublevels(self, content_text):
-        return Splitter._holds_new_sublevels(
-            self, self.breaking_patterns, content_text
-        )
+        return Splitter._holds_new_sublevels(self, self.breaking_patterns, content_text)
 
     def split(self, content_text):
         return Splitter._split(self, self.breaking_patterns, content_text)
@@ -148,12 +183,11 @@ class MultiplePatternSplitter(Splitter):
         )
 
     def extract_sublevel_name(self, content_text):
-            return Splitter._extract_sublevel_name(
-                self,
-                self.breaking_patterns,
-                content_text,
-            )
-
+        return Splitter._extract_sublevel_name(
+            self,
+            self.breaking_patterns,
+            content_text,
+        )
 
 
 class NameLessSinglePatternSplitter(SinglePatternSplitter):

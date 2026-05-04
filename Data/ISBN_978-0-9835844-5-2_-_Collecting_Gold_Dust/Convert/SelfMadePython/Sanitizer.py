@@ -125,7 +125,7 @@ class Sanitizer:
         # beginning of the text (that would be overwritten by the illumination
         # drawing of the leading character):
         illumination_part = re.sub(
-            self.chapter_splitter.chapter_name_separator_regex + "( *)",
+            self.chapter_splitter.separator_regex + "( *)",
             "",
             illumination_part,
         )
