@@ -102,6 +102,7 @@ class Splitter:
             # list())
             return [content_text]
         if len(patterns) > 2:
+            # Things were simply not tested with more than two patterns...
             WarnAndExit("Capturing groups ambiguity with too many patterns")
         # As stated in the documentation of the re package:
         #    If capturing parentheses are used in pattern, then the text of
@@ -110,13 +111,12 @@ class Splitter:
         first_parts = self._split_on_single_pattern(
             r"(" + patterns[0] + r")", content_text
         )
-        # Notice that in the second pattern is not transformed to become
-        # a capturing group ( that is placed into parentheses( + pattern +)).
-        # Otherwise trouble happens with extra None thrown into the list.
-        # Things where not tested with more than two patterns...
+
         resulting_parts = []
         for part_text in first_parts:
-            resulting_parts += self._split_on_single_pattern(patterns[1], part_text)
+            resulting_parts += self._split_on_single_pattern(
+                r"(" + patterns[1] + r")", part_text
+            )
         if resulting_parts[-1] == "\n":
             del resulting_parts[-1]
         return resulting_parts
@@ -126,7 +126,9 @@ class Splitter:
     ):
         match = self._find_first_match(sublevel_patterns, content_text)
         if match:
-            return re.search(name_extraction_pattern, match.group(0)).group(0)
+            # Deal with the multiline case
+            sublevel_name = re.search(name_extraction_pattern, match.group(0)).group(0)
+            return re.sub("\n", " ", sublevel_name)
         Warning("Sublevel name not found.")
         return None
 

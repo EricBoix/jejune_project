@@ -1,15 +1,10 @@
-import re
-from typing import Optional
-
 import roman
 
 from ConvertPdfToMarkdown import (
     ChapterSplitter,
+    MultiplePatternSplitter,
     NameLessSinglePatternSplitter,
-    SinglePatternSplitter,
     StructuralInfoBase,
-    Splitter,
-    WarnAndExit,
 )
 from Sanitizer import Sanitizer
 
@@ -50,25 +45,31 @@ class StructuralInfo(StructuralInfoBase):
                 chapter_name_separator_first_occurrence,
             )
 
-    class superchapter_to_chapter_splitter(SinglePatternSplitter):
+    # class superchapter_to_chapter_splitter(SinglePatternSplitter):
+    class superchapter_to_chapter_splitter(MultiplePatternSplitter):
         def __init__(self):
-            # Sub-chapters typically start with e.g.
-            #    "\n\n\nUSING WISDOM\n.
-            # We thus need to define three parts for the pattern
-            # 1. the ante chapter breaking lines
-            ante_pattern = r"\n\n\n"
-            # 2. the name of the chapter per se. Note that the minimum number
-            # for matching has to be
-            # - at least 2 in order not to match the first (capital letter of
-            #   a sentence) e.g. "Stand by me."
-            # - at least three not to match e.g. "A cat was run over." where the
-            #   the initial capital and its following whitespace would match.
-            # For the upper limit to, well a full line should suffice.
-            name_pattern = r"[A-Z|?|\”|\“|,| ]{3,100}"
-            # 3. the trailing return
-            post_pattern = r"\n"
-            breaking_pattern = ante_pattern + name_pattern + post_pattern
-            SinglePatternSplitter.__init__(self, breaking_pattern, name_pattern)
+            # Refer to comments of test class TestChapterRegex within
+            # test_main.py for explanations
+            chapter_name_characters = r"[A-Z|?|’| \u201c\u201d,]{3,100}"
+            multi_lines_chapter_name = (
+                r"(?:"
+                + chapter_name_characters
+                + r"\n(?! ))*"
+                + chapter_name_characters
+            )
+            middle_page_subchapter_pattern = (
+                r"\n\n\n" + multi_lines_chapter_name + r"\n"
+            )
+            top_page_subchapter_pattern = r"^" + multi_lines_chapter_name
+            breaking_patterns = [  # Visual sugar
+                middle_page_subchapter_pattern,
+                top_page_subchapter_pattern,
+            ]
+            MultiplePatternSplitter.__init__(
+                self,
+                breaking_patterns,
+                multi_lines_chapter_name,
+            )
 
     class chapter_to_paragraph_splitter(NameLessSinglePatternSplitter):
         def __init__(self):
