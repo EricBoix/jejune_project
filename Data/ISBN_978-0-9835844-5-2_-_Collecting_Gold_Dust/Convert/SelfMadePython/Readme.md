@@ -33,4 +33,7 @@ pytest test_main.py
 
 ## To be fixed
 
-- Some subchapters (quite a few actually) are missing. For examples look for `RESTLESSNESS`. Conjecture: the missing ones are appearing on the top of pages. They thus miss the leading `\n\n\n`. Solving clue: introduce two sub-patterns like it was done for Zen flesh Zen Bones.
+- Some word get modified during extraction: within `output.md` look for
+  - the word `eperience` that was initially properly spelled in the sentence `discussing their experiences and discoveries`.
+  - the word `ecitement` that was initially properly spelled in the sentence `excitement calming down`
+- Some subchapters (quite a few actually) are erroneous. For example the original text doesn't have chapter named `A CAUSE AND EFFECT CHAIN` or `| |`...

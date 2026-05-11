@@ -3,6 +3,7 @@ from Converter import Converter
 from StructuralInfo import StructuralInfo
 from ConvertPdfToMarkdown import (
     PrintDocument,
+    WriteAsLangchainDocuments,
     print_document_raw_pages,
     set_warning_mode,
     set_debug_mode,
@@ -19,8 +20,8 @@ pdf_filename = path.join(
 if False:
     print_document_raw_pages(pdf_filename)
 
-set_warning_mode(True)
-set_debug_mode(True)
+# set_warning_mode(True)
+# set_debug_mode(True)
 converter = Converter(
     pdf_filename=pdf_filename,
     structural_info=StructuralInfo(),
@@ -34,3 +35,9 @@ if False:
     PrintDocument(document).pages()
     PrintDocument(document).paragraphs()
     PrintDocument(document).sentences()
+
+# For downstream Knowledge Graph extraction
+if True:
+    WriteAsLangchainDocuments(document).write_sentences(
+        "Sentences_as_LangChain_Document.json"
+    )
