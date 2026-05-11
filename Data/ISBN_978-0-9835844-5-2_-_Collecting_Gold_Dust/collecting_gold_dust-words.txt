@@ -1,0 +1,70 @@
+# Proper names
+Ashin
+Bago
+Bhaddanta
+Chiu
+Ghosh
+Kaminer
+Kosalla
+Mahāthera
+Mogok
+Moushumi
+Reardon
+Sajama
+Sayadaw
+Sayadawgyi
+Shambhala
+Sheng
+Shwe
+Sukha
+Sunanda
+Thet
+Tawya
+Tejaniya
+Thet
+Vicks
+Zeng
+# Path related terms
+ājīvaṭṭhamaka
+ānāpānasati
+anatta
+anicca
+bala
+dana
+dhammas
+dukkha
+kamma
+kuti
+kutis
+mettā
+Nibbāna
+paññā
+Pātimokkha
+Sādhu
+Satipaṭṭhāna
+samatha
+sīla
+vedanā
+Vihāras
+## Pali terms
+Arahato
+Bhagavato
+Dhammaṃ
+gacchāmi
+lobha
+moha
+Namo
+Pāḷi
+Sammā-Sambuddhassa
+saraṇaṃ
+# General terms
+dedicatedly
+jumpstart
+misbehaviors
+videogames
+# Ad-hoc/lingo/specific (non) terms
+# Note: cpell ignores the following entries...
+info@wisdomstreams.org
+www.ashintejaniya.org
+www.dharmaseed.org
+www.wisdomstreams.org
