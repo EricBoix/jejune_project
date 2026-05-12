@@ -15,7 +15,7 @@ class LangChainDocumentEncoder(json.JSONEncoder):
         if isinstance(obj, Sentence):
             return {
                 "__document__": True,
-                "metadata": obj.get_document_reference_long(),
+                "metadata": {"source": obj.get_document_reference_long()},
                 "page_content": obj.text,
             }
         # Let the base class default method raise the TypeError
@@ -52,7 +52,6 @@ class WriteAsLangchainDocuments:
                 print("Level ", sublevel, "not serializable as sentences ???")
                 print("Exiting.")
                 sys.exit()
-        print(type(collected_sentences))
         return collected_sentences
 
     def write_sentences(self, output_json_filename):

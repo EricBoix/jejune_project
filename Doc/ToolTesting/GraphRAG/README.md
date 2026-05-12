@@ -33,6 +33,15 @@ The original associated code, from which this work is partly derived, is availab
 
     Note: when ran on `2017_-_Culadasa_John_Yates-Matthew_Immergut-Jeremy_Graves_-_The_Mind_Illuminated_-_llamaparse_raw_conversion.md` this script will trigger ~5800 llm calls.
 
+    Usage of the version breaking down the document at the sentence level:
+
+    ```bash
+    python extracting_graph_semantic_chuncker.py \
+    --input_directory ../../../Data/ISBN_978-0-9835844-5-2_-_Collecting_Gold_Dust/ \
+    --load_markdown_document result_data/2019_-_Sayadaw-U-Tejaniya-Collecting-Gold-Dust-Web-Book-1_-_local_converter.md \
+    --load_json_document Convert/SelfMadePython/Sentences_as_LangChain_Document.json
+    ```
+
 ### Visually explore the resulting knowledge graph (with neo4j web UI)
 
 Interactively explore the extracted graph through neo4j web UI
