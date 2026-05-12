@@ -1,11 +1,24 @@
-# Hands on lowbrow exploration of GraphRAG in Python
+# Hands on lowbrow exploration of GraphRAG in Python<!-- omit in toc -->
+
+- [Introduction](#introduction)
+- [Running things: the simple extraction use case](#running-things-the-simple-extraction-use-case)
+  - [Notes](#notes)
+- [Further advanced document "chunckings"](#further-advanced-document-chunckings)
+- [Visually explore the resulting knowledge graph (with neo4j web UI)](#visually-explore-the-resulting-knowledge-graph-with-neo4j-web-ui)
+- [Use the knowledge graph programmatically](#use-the-knowledge-graph-programmatically)
+- [Dump/Restore the database content for later usage](#dumprestore-the-database-content-for-later-usage)
+- [References](#references)
+- [Next steps](#next-steps)
+  - [Improve observability](#improve-observability)
+  - [Improve the (graph) extraction process](#improve-the-graph-extraction-process)
+  - [Ingesting a Markdown file](#ingesting-a-markdown-file)
 
 ## Introduction
 
 This directory explores, with a direct hands-on approach, a process of graph extraction (and exploitation) that is described in the ["Local GraphRAG with LLaMa 3.1 - LangChain, Ollama & Neo4j" youtube tutorial](https://www.youtube.com/watch?v=nkbyD4joa0A).
 The original associated code, from which this work is partly derived, is available through [this Coding Crash Courses git repository](https://github.com/Coding-Crashkurse/GraphRAG-with-Llama-3.1.git).
 
-## Running things
+## Running things: the simple extraction use case
 
 1. Launch a Neo4j database (to collect the extracted graph)
 
@@ -29,20 +42,36 @@ The original associated code, from which this work is partly derived, is availab
     python extracting_graph.py
     ```
 
-    (or `python extracting_graph.py > extract.log &` when the extracting is too lengthy or running on a remote server).
+### Notes
 
-    Note: when ran on `2017_-_Culadasa_John_Yates-Matthew_Immergut-Jeremy_Graves_-_The_Mind_Illuminated_-_llamaparse_raw_conversion.md` this script will trigger ~5800 llm calls.
-
-    Usage of the version breaking down the document at the sentence level:
+- when the extraction is too lengthy (or running on a remote ssh server) consider using
 
     ```bash
-    python extracting_graph_semantic_chuncker.py \
-    --input_directory ../../../Data/ISBN_978-0-9835844-5-2_-_Collecting_Gold_Dust/ \
-    --load_markdown_document result_data/2019_-_Sayadaw-U-Tejaniya-Collecting-Gold-Dust-Web-Book-1_-_local_converter.md \
-    --load_json_document Convert/SelfMadePython/Sentences_as_LangChain_Document.json
+    python extracting_graph.py > extract.log &
+    tail -f extract.log
     ```
 
-### Visually explore the resulting knowledge graph (with neo4j web UI)
+- when a pre-existing neo4j database content exists (look a the content of the `./data` directory), and depending on your filesystem rights setup) you might get an error message on
+
+    ```bash
+    docker run --interactive --tty --rm    --volume=`pwd`/data:/data    --volume=`pwd`/backups:/backups -it neo4j /bin/rm -fr /data/*
+    rmdir ./data
+    ```
+
+- when ran on `2017_-_Culadasa_John_Yates-Matthew_Immergut-Jeremy_Graves_-_The_Mind_Illuminated_-_llamaparse_raw_conversion.md` this script will trigger **~5800 llm calls**.
+
+## Further advanced document "chunckings"
+
+If you wish to break down the original document in chuncks that follow the sentence structure (as opposed to evenly sized chuncks with some overlap) use the following script (that depends on the output of `Data/ISBN_978-0-9835844-5-2_-_Collecting_Gold_Dust/Convert/SelfMadePython/main.py`) :
+
+```bash
+python extracting_graph_semantic_chuncker.py \
+--input_directory ../../../Data/ISBN_978-0-9835844-5-2_-_Collecting_Gold_Dust/ \
+--load_markdown_document result_data/2019_-_Sayadaw-U-Tejaniya-Collecting-Gold-Dust-Web-Book-1_-_local_converter.md \
+--load_json_document Convert/SelfMadePython/Sentences_as_LangChain_Document.json
+```
+
+## Visually explore the resulting knowledge graph (with neo4j web UI)
 
 Interactively explore the extracted graph through neo4j web UI
 
@@ -54,14 +83,28 @@ open http://localhost:7474/
 Run [`cypher (queries)`](https://neo4j.com/docs/cypher-manual/current/introduction/) like
 
 ```bash
-$:server connect   # Assert the UI is connected to the proper db server
-                    # (has to match what was configured in you .env file)
-:use neo4j         # Make sure you are connect to the right database
-                    # (has to match what was configured in you .env file)
-neo4j$ MATCH (n) RETURN n  # Displays the full extracted graph 
+# Assert the UI is connected to the proper db server (has to match what was 
+# configured in you .env file)
+$:server connect   
+# Make sure you are connect to the right database (again this has to match 
+# with what was configured in you .env file)
+$:use neo4j
+# Displays the full extracted graph with all its nodes. Caveat emptor: 
+# within the UI settings, the "Initial node display" integer parameter 
+# controls the number of nodes displayed which defaults to 300
+neo4j$ MATCH (n) RETURN n
+# Display the nodes with the "Person" label
+neo4j$ MATCH (n) WHERE n:Person RETURN n
+# Display the nodes NOT having the "Person" label
+neo4j$ MATCH (n) WHERE NOT n:Person RETURN n
+# Display the nodes not having "Document" as single label
+neo4j$ MATCH (n) WHERE NOT(SIZE(LABELS(n)) = 1 AND n:Document) RETURN n
+# A composition of the above
+neo4j$ MATCH (n) WHERE NOT(SIZE(LABELS(n)) = 1 AND n:Document) and NOT n:Person RETURN n
+...
 ```
 
-### Use the knowledge graph programmatically
+## Use the knowledge graph programmatically
 
 For example search the graph database with a Natural Language query by running the provided python script
 
@@ -75,7 +118,7 @@ Or search both the knowledge graph and the embedding space structures with
 python vector_and_graph_hybrid_search.py
 ```
 
-### Dump the database content for later usage
+## Dump/Restore the database content for later usage
 
 The following is a direct application of the [dump and load neo4j examples](https://neo4j.com/docs/operations-manual/current/docker/dump-load/)
 
@@ -89,6 +132,8 @@ docker run --interactive --tty --rm  \
 
 and check the `backups/` sub-directory for the new existence of `neo4j.dump` file.
 
+Restoring a previously dumped database is done with the following command
+
 ```bash
 rm -fr data     # WARNING: this deletes all your databases !
 docker run --interactive --tty --rm \
@@ -97,14 +142,6 @@ docker run --interactive --tty --rm \
     neo4j/neo4j-admin neo4j-admin database load neo4j --from-path=/backups
 docker compose up --detach
 ```
-
-Some (neo4j's Cypher) queries
-
-- `neo4j$ MATCH (n) RETURN n` to display all the nodes (caveat emptor: within the UI settings the "Initial node display" integer parameter controls the number of nodes displayed which, by default, is set to 300)
-- `MATCH (n) WHERE n:Person RETURN n` to display the nodes with the "Person" label
-- `MATCH (n) WHERE NOT n:Person RETURN n` to display the nodes not having the "Person" label
-- `MATCH (n) WHERE NOT(SIZE(LABELS(n)) = 1 AND n:Document) RETURN n` to display the nodes not having "Document" as single label
-- `MATCH (n) WHERE NOT(SIZE(LABELS(n)) = 1 AND n:Document) and NOT n:Person RETURN n` ...
 
 ## References
 
@@ -118,7 +155,7 @@ Some (neo4j's Cypher) queries
 ### Improve observability
 
 For the time being, tracing LLM calls (which is the minimum required for observability) is done by patching
-`venv/lib/python3.10/site-packages/langchain_ollama/chat_models.py` and adding the following line at line 947
+`venv/lib/python3.10/site-packages/langchain_ollama/chat_models.py` and adding the following line as first line of the _create_chat_stream member function:
 
 ```python
 print(" (chat client call) ", end='', flush=True)  # EBO was here: added

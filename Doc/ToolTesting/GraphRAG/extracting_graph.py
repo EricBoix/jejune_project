@@ -1,89 +1,100 @@
-# This code is derived from
+# Uses langchain's RecursiveCharacterTextSplitter for document breakdown.
+# Note: this code is derived from
 #   https://github.com/Coding-Crashkurse/GraphRAG-with-Llama-3.1.git
+import argparse
 import os
-from langchain_neo4j import Neo4jGraph
+import sys
+
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_experimental.graph_transformers import LLMGraphTransformer
-from neo4j import GraphDatabase
 from langchain_community.document_loaders import UnstructuredMarkdownLoader
-from langchain_ollama import ChatOllama
-from dotenv import load_dotenv
 
-DEBUG_PROMPT = "   "
-
-# Retrieve script context and parameters
-load_dotenv()
-
-graph = Neo4jGraph(
-    username=os.environ["NEO4J_USERNAME"], password=os.environ["NEO4J_PASSWORD"]
-)
-MODEL = os.environ["MODEL"]
-MODEL_URL = os.environ["MODEL_URL"]
-headers = {"Authorization": f'Bearer {os.environ["API_KEY"]}'}
-
-# Load the original text an start graph extraction
-# from langchain_community.document_loaders import TextLoader
-# loader = TextLoader(file_path="dummytext.txt")
-loader = UnstructuredMarkdownLoader(
-    file_path="../../../Data/ISBN_978-1-5011-5698-4_-_The_Mind_Illuminated/result_data/2017_-_Culadasa_John_Yates-Matthew_Immergut-Jeremy_Graves_-_The_Mind_Illuminated_-_llamaparse_manually_fixed.md"
-)
-docs = loader.load()
-
-text_splitter = RecursiveCharacterTextSplitter(chunk_size=250, chunk_overlap=24)
-documents = text_splitter.split_documents(documents=docs)
-
-llm = ChatOllama(
-    # Note: the following base_url will be auto-magically extended with
-    # a trailing "/api/chat"
-    base_url=MODEL_URL,
-    model=MODEL,
-    # How to pass authentication to OpenWebUI, refer to
-    # - https://github.com/langchain-ai/langchain/issues/25055
-    # - https://medium.com/learnwithrahul/running-ollama-remotely-in-a-secure-way-d14ba13c8d77
-    # - https://docs.openwebui.com/getting-started/api-endpoints/
-    client_kwargs={"headers": headers},
-    temperature=0,
-    format="json",
-)
-
-llm_transformer = LLMGraphTransformer(llm=llm)
-
-print(DEBUG_PROMPT + "Extracting graph :", end="", flush=True)
-graph_documents = llm_transformer.convert_to_graph_documents(documents)
-print(DEBUG_PROMPT + "\nGraph extracted.")
-print(DEBUG_PROMPT + "Resulting graph: ", graph_documents[0])
-graph.add_graph_documents(graph_documents, baseEntityLabel=True, include_source=True)
-
-### Proceed with database creation
-driver = GraphDatabase.driver(
-    uri=os.environ["NEO4J_URI"],
-    auth=(os.environ["NEO4J_USERNAME"], os.environ["NEO4J_PASSWORD"]),
+from graph_utils import (
+    DEBUG_PROMPT,
+    initialize_llm,
+    extract_graph,
+    create_neo4j_database,
 )
 
 
-def create_fulltext_index(tx):
-    # Note : "IF NOT EXISTS" is appended to the query in order to prevents
-    # an exception to be thrown should a full-text index on the same schema
-    # already exist (probably because of a previous run of this script).
-    query = """
-    CREATE FULLTEXT INDEX `fulltext_entity_id` IF NOT EXISTS
-    FOR (n:__Entity__) 
-    ON EACH [n.id];
-    """
-    tx.run(query)
+def parse_arguments():
+    parser = argparse.ArgumentParser(
+        description="Extract graph from documents using LLM and store in Neo4j."
+    )
+    parser.add_argument(
+        "--input_directory",
+        type=str,
+        metavar="DIR",
+        help="Directory to prefix to all loaded file paths.",
+    )
+    parser.add_argument(
+        "--load_markdown_document",
+        type=str,
+        metavar="MARKDOWN_FILE",
+        help="Load documents from a markdown file.",
+    )
+    parser.add_argument(
+        "--chunk_size",
+        type=int,
+        default=250,
+        metavar="SIZE",
+        help="Chunk size for text splitting (default: 250).",
+    )
+    parser.add_argument(
+        "--chunk_overlap",
+        type=int,
+        default=24,
+        metavar="OVERLAP",
+        help="Chunk overlap for text splitting (default: 24).",
+    )
+    args = parser.parse_args()
+
+    if args.load_markdown_document:
+        if args.input_directory:
+            args.markdown_file_path = os.path.join(
+                args.input_directory, args.load_markdown_document
+            )
+        else:
+            args.markdown_file_path = args.load_markdown_document
+
+    return args
 
 
-# Index creation
-try:
-    with driver.session() as session:
-        session.execute_write(create_fulltext_index)
-        print(DEBUG_PROMPT + "Neo4j database fulltext index created successfully.")
-except Exception as e:
-    print(DEBUG_PROMPT + "Neo4j database fulltext index creation failed.")
-    print(DEBUG_PROMPT + "Exception: ", repr(e))
-    # print(DEBUG_PROMPT + "Exiting.")
-    # sys.exit(1)
-    pass
+def load_documents_from_markdown(file_path, chunk_size=250, chunk_overlap=24):
+    loader = UnstructuredMarkdownLoader(file_path=file_path)
+    docs = loader.load()
+    text_splitter = RecursiveCharacterTextSplitter(
+        chunk_size=chunk_size, chunk_overlap=chunk_overlap
+    )
+    documents = text_splitter.split_documents(documents=docs)
+    return documents
 
-# Close the driver connection (writing the database)
-driver.close()
+
+def load_documents(args):
+    documents = []
+    if hasattr(args, "markdown_file_path"):
+        documents.extend(
+            load_documents_from_markdown(
+                args.markdown_file_path, args.chunk_size, args.chunk_overlap
+            )
+        )
+    if not documents:
+        print(DEBUG_PROMPT + "No documents loaded. Exiting.")
+        sys.exit()
+    else:
+        print(
+            DEBUG_PROMPT + "Number of documents for LLMGraphTransformer to deal with: ",
+            len(documents),
+        )
+    return documents
+
+
+def main():
+    args = parse_arguments()
+    documents = load_documents(args)
+    llm = initialize_llm()
+    graph_documents = extract_graph(llm, documents)
+    create_neo4j_database(graph_documents)
+
+
+if __name__ == "__main__":
+    main()
