@@ -14,9 +14,9 @@ from langchain_community.document_loaders import UnstructuredMarkdownLoader
 
 from graph_utils import (
     DEBUG_PROMPT,
-    initialize_llm,
-    extract_graph,
     create_neo4j_database,
+    extract_graph,
+    initialize_llm,
 )
 
 

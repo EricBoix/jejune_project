@@ -3,10 +3,14 @@
 - [Introduction](#introduction)
 - [Running things: the simple extraction use case](#running-things-the-simple-extraction-use-case)
   - [Notes](#notes)
-- [Further advanced document "chunckings"](#further-advanced-document-chunckings)
+- [Further advanced document "chunkings"](#further-advanced-document-chunkings)
 - [Visually explore the resulting knowledge graph (with neo4j web UI)](#visually-explore-the-resulting-knowledge-graph-with-neo4j-web-ui)
 - [Use the knowledge graph programmatically](#use-the-knowledge-graph-programmatically)
+  - [Displaying knowledge graph main characteristics](#displaying-knowledge-graph-main-characteristics)
+  - [Searching the database](#searching-the-database)
 - [Dump/Restore the database content for later usage](#dumprestore-the-database-content-for-later-usage)
+- [Scripting things](#scripting-things)
+  - [Collecting Gold Dust](#collecting-gold-dust)
 - [References](#references)
 - [Next steps](#next-steps)
   - [Improve observability](#improve-observability)
@@ -39,7 +43,9 @@ The original associated code, from which this work is partly derived, is availab
 
     ```bash
     # Extract the graph and store it in database
-    python extracting_graph.py
+    python extracting_graph.py \
+    --input_directory ../../../Data/ISBN_978-1-5011-5698-4_-_The_Mind_Illuminated/result_data/ \
+    --load_markdown_document 2017_-_Culadasa_John_Yates-Matthew_Immergut-Jeremy_Graves_-_The_Mind_Illuminated_-_llamaparse_manually_fixed.md
     ```
 
 ### Notes
@@ -47,22 +53,22 @@ The original associated code, from which this work is partly derived, is availab
 - when the extraction is too lengthy (or running on a remote ssh server) consider using
 
     ```bash
-    python extracting_graph.py > extract.log &
+    python extracting_graph.py [...] > extract.log &
     tail -f extract.log
     ```
 
 - when a pre-existing neo4j database content exists (look a the content of the `./data` directory), and depending on your filesystem rights setup) you might get an error message on
 
     ```bash
-    docker run --interactive --tty --rm    --volume=`pwd`/data:/data    --volume=`pwd`/backups:/backups -it neo4j /bin/rm -fr /data/*
+    docker run --interactive --tty --rm --volume=`pwd`/data:/data neo4j /usr/bin/rm -fr /data/*
     rmdir ./data
     ```
 
 - when ran on `2017_-_Culadasa_John_Yates-Matthew_Immergut-Jeremy_Graves_-_The_Mind_Illuminated_-_llamaparse_raw_conversion.md` this script will trigger **~5800 llm calls**.
 
-## Further advanced document "chunckings"
+## Further advanced document "chunkings"
 
-If you wish to break down the original document in chuncks that follow the sentence structure (as opposed to evenly sized chuncks with some overlap) use the following script (that depends on the output of `Data/ISBN_978-0-9835844-5-2_-_Collecting_Gold_Dust/Convert/SelfMadePython/main.py`) :
+If you wish to break down the original document in chunks that follow the sentence structure (as opposed to evenly sized chunks with some overlap) use the following script (that depends on the output of `Data/ISBN_978-0-9835844-5-2_-_Collecting_Gold_Dust/Convert/SelfMadePython/main.py`) :
 
 ```bash
 python extracting_graph_semantic_chuncker.py \
@@ -106,6 +112,14 @@ neo4j$ MATCH (n) WHERE NOT(SIZE(LABELS(n)) = 1 AND n:Document) and NOT n:Person 
 
 ## Use the knowledge graph programmatically
 
+### Displaying knowledge graph main characteristics
+
+```bash
+python display_neo4jdb_graph_characteristics.py
+```
+
+### Searching the database
+
 For example search the graph database with a Natural Language query by running the provided python script
 
 ```bash
@@ -141,6 +155,23 @@ docker run --interactive --tty --rm \
     --volume=`pwd`/backups:/backups \
     neo4j/neo4j-admin neo4j-admin database load neo4j --from-path=/backups
 docker compose up --detach
+```
+
+## Scripting things
+
+In order to reproduce resulting data production (cut and paste based)
+
+### Collecting Gold Dust
+
+```bash
+source ven/bin/activate
+docker compose up --detach
+python extracting_graph_semantic_chuncker.py --input_directory ../../../Data/ISBN_978-0-9835844-5-2_-_Collecting_Gold_Dust/ --load_markdown_document result_data/2019_-_Sayadaw-U-Tejaniya-Collecting-Gold-Dust-Web-Book-1_-_local_converter.md --load_json_document Convert/SelfMadePython/Sentences_as_LangChain_Document.json > extract.log 2>&1 &
+tail -f extract.log
+...
+docker compose down
+docker run --interactive --tty --rm  --volume=`pwd`/data:/data --volume=`pwd`/backups:/backups neo4j/neo4j-admin neo4j-admin database dump neo4j --to-path=/backups
+mv backups/neo4j.dump backups/neo4j.CollectingGoldDust.MarkdownTextSplitterAndSentences.dump
 ```
 
 ## References

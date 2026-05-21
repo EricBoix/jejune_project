@@ -1,6 +1,7 @@
 # Common utilities for graph extraction scripts
 import os
 import sys
+import networkx as nx
 
 from langchain_neo4j import Neo4jGraph
 from langchain_experimental.graph_transformers import LLMGraphTransformer
@@ -46,9 +47,9 @@ def initialize_llm():
 
 def extract_graph(llm, documents):
     llm_transformer = LLMGraphTransformer(llm=llm)
-    print(DEBUG_PROMPT + "Extracting graph :", end="", flush=True)
+    print(DEBUG_PROMPT + "Graph extracting: starting...", flush=True)
     graph_documents = llm_transformer.convert_to_graph_documents(documents)
-    print(DEBUG_PROMPT + "\nGraph extracted.")
+    print(DEBUG_PROMPT + "\nGraph extraction: done.")
     return graph_documents
 
 
@@ -81,7 +82,7 @@ def create_neo4j_database(graph_documents):
     try:
         with driver.session() as session:
             session.execute_write(create_fulltext_index)
-            print(DEBUG_PROMPT + "Neo4j database fulltext index created successfully.")
+            print(DEBUG_PROMPT + "Neo4j database fulltext index successfully created.")
     except Exception as e:
         print(DEBUG_PROMPT + "Neo4j database fulltext index creation failed.")
         print(DEBUG_PROMPT + "Exception: ", repr(e))
