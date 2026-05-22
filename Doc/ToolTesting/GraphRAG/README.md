@@ -68,13 +68,13 @@ The original associated code, from which this work is partly derived, is availab
 
 ## Further advanced document "chunkings"
 
-If you wish to break down the original document in chunks that follow the sentence structure (as opposed to evenly sized chunks with some overlap) use the following script (that depends on the output of `Data/ISBN_978-0-9835844-5-2_-_Collecting_Gold_Dust/Convert/SelfMadePython/main.py`) :
+If you wish to break down the original document in chunks that follow the sentence structure (as opposed to evenly sized chunks with some overlap) use the following script (that depends on the output of `Data/ISBN_978-0-9835844-5-2_-_Collecting_Gold_Dust/data_production.py`) :
 
 ```bash
 python extracting_graph_semantic_chuncker.py \
 --input_directory ../../../Data/ISBN_978-0-9835844-5-2_-_Collecting_Gold_Dust/ \
 --load_markdown_document result_data/2019_-_Sayadaw-U-Tejaniya-Collecting-Gold-Dust-Web-Book-1_-_local_converter.md \
---load_json_document Convert/SelfMadePython/Sentences_as_LangChain_Document.json
+--load_json_document result_data/2019_-_Sayadaw-U-Tejaniya-Collecting-Gold-Dust-Web-Book-1_-_Sentences_as_LangChain_Document.json
 ```
 
 ## Visually explore the resulting knowledge graph (with neo4j web UI)
@@ -107,6 +107,8 @@ neo4j$ MATCH (n) WHERE NOT n:Person RETURN n
 neo4j$ MATCH (n) WHERE NOT(SIZE(LABELS(n)) = 1 AND n:Document) RETURN n
 # A composition of the above
 neo4j$ MATCH (n) WHERE NOT(SIZE(LABELS(n)) = 1 AND n:Document) and NOT n:Person RETURN n
+# Nodes that are not documents together with their relations
+neo4j$ MATCH (n) WHERE NOT n:Document OPTIONAL MATCH (n)-[r]-(c) WHERE NOT c:Document RETURN n,r,c
 ...
 ```
 

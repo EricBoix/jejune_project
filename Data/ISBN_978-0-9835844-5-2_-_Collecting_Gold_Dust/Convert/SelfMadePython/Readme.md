@@ -23,6 +23,8 @@ pip install ../../../ConvertPdfToMarkdown
 python main.py
 ```
 
+Also refer to [`data_production.py`](../../data_production.py) script for usage examples.
+
 ## Testing
 
 Within the above running context (directory and installed virtual environment)
