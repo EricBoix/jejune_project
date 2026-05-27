@@ -5,7 +5,17 @@ Display markdown files in an editor like fashion (with range selection on openin
 ## Quick Start
 
 ```bash
-docker run -d -v /path/to/workspace:/config -p 8443:8443 lscr.io/linuxserver/code-server:latest
+# Build image (one-time)
+docker build -t code-server-uri-opener DockerContext/
+
+# Run container
+docker run -d -p 8443:8443 code-server-uri-opener
+```
+
+For persistent data (optional):
+
+```bash
+docker run -d -v /path/to/data:/config -p 8443:8443 code-server-uri-opener
 ```
 
 ## Usage examples
@@ -22,10 +32,16 @@ Open `samples/another-sample.md` with lines 14-16 selected:
 http://127.0.0.1:8443/?folder=/config#sel=/config/samples/another-sample.md:14:1:16:60
 ```
 
+Open `sample.md` and close all other editor tabs:
+
+```text
+http://127.0.0.1:8443/?folder=/config#sel=/config/sample.md:7:1:10:50&solo
+```
+
 ## URI Format
 
 ```text
-http://127.0.0.1:8443/?folder=/config#sel=<file>:<sl>:<sc>:<el>:<ec>
+http://127.0.0.1:8443/?folder=/config#sel=<file>:<sl>:<sc>:<el>:<ec>[&solo]
 ```
 
 | Parameter | Description                              |
@@ -35,6 +51,7 @@ http://127.0.0.1:8443/?folder=/config#sel=<file>:<sl>:<sc>:<el>:<ec>
 | `sc`      | Start column (1-indexed)                 |
 | `el`      | End line (1-indexed)                     |
 | `ec`      | End column (1-indexed)                   |
+| `&solo`   | Optional: close all other editor tabs    |
 
 ## Testing things a bit more deeply
 
@@ -53,6 +70,6 @@ The extension creates a temporary webview on activation that reads the URL hash 
 Only needed when modifying `extension.js` or `package.json`:
 
 ```bash
-cd workspace/my-ext/uri-opener
+cd DockerContext/my-ext/uri-opener
 npx @vscode/vsce package --allow-missing-repository
 ```

@@ -1,0 +1,10 @@
+*.vsix
+data/
+extensions/
+.local/
+.cache/
+.config/
+custom-cont-init.d/
+.bash_history
+.bashrc
+.profile

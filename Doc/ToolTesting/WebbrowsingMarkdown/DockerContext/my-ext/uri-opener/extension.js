@@ -17,11 +17,18 @@ function activate(context) {
     <script>
         const vscode = acquireVsCodeApi();
 
+        function parseHash(hash) {
+            if (!hash || !hash.startsWith('#sel=')) return null;
+            const content = hash.slice(5);
+            const solo = content.includes('&solo');
+            const sel = decodeURIComponent(content.replace('&solo', ''));
+            return { sel, solo };
+        }
+
         function checkHash() {
-            const hash = window.location.hash;
-            if (hash && hash.startsWith('#sel=')) {
-                const sel = decodeURIComponent(hash.slice(5));
-                vscode.postMessage({ type: 'selection', data: sel });
+            const parsed = parseHash(window.location.hash);
+            if (parsed) {
+                vscode.postMessage({ type: 'selection', data: parsed.sel, solo: parsed.solo });
             }
         }
 
@@ -31,10 +38,9 @@ function activate(context) {
 
         // Also check parent/top window
         try {
-            const topHash = window.top.location.hash;
-            if (topHash && topHash.startsWith('#sel=')) {
-                const sel = decodeURIComponent(topHash.slice(5));
-                vscode.postMessage({ type: 'selection', data: sel });
+            const parsed = parseHash(window.top.location.hash);
+            if (parsed) {
+                vscode.postMessage({ type: 'selection', data: parsed.sel, solo: parsed.solo });
             }
         } catch(e) {}
 
@@ -51,6 +57,9 @@ function activate(context) {
             if (match) {
                 const [, file, sl, sc, el, ec] = match;
                 panel.dispose();
+                if (msg.solo) {
+                    await vscode.commands.executeCommand('workbench.action.closeAllEditors');
+                }
                 await openFileWithRange(file, parseInt(sl), parseInt(sc), parseInt(el), parseInt(ec));
                 return;
             }
