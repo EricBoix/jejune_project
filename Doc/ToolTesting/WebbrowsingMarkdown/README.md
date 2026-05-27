@@ -16,10 +16,10 @@ Open `sample.md` with lines 7-10 selected/highlighted:
 http://127.0.0.1:8443/?folder=/config#sel=/config/sample.md:7:1:10:50
 ```
 
-Select lines 1-5 in a subdirectory file:
+Open `samples/another-sample.md` with lines 14-16 selected:
 
 ```text
-http://127.0.0.1:8443/?folder=/config#sel=/config/docs/readme.md:1:1:5:20
+http://127.0.0.1:8443/?folder=/config#sel=/config/samples/another-sample.md:14:1:16:60
 ```
 
 ## URI Format
