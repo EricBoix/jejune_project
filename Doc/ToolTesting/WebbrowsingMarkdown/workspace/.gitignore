@@ -1,1 +1,8 @@
 .bash_history
+.cache/
+.config/
+.local/
+.profile
+custom-cont-init.d/
+data/
+extensions/
