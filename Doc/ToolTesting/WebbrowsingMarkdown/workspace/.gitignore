@@ -3,7 +3,6 @@
 .config/
 .local/
 .profile
-custom-cont-init.d/
 data/
 extensions/
 workspace/
