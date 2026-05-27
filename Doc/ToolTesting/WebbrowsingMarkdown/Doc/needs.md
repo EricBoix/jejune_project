@@ -2,6 +2,11 @@
 
 - [The use case](#the-use-case)
 - [Evaluated solutions](#evaluated-solutions)
+  - [The VSCode way](#the-vscode-way)
+    - [Distinguishing vscode-server from code-server](#distinguishing-vscode-server-from-code-server)
+    - [Using code-server](#using-code-server)
+  - [Using the Monaco editor as component](#using-the-monaco-editor-as-component)
+  - [Converting to html using Mkdocs](#converting-to-html-using-mkdocs)
 
 ## The use case
 
@@ -57,6 +62,11 @@ Yet they are some restrictions (the devil is the details) when using `code-serve
 
 Because we want to have a server on premisses, our only choice is to go for code-server`. [vscode.dev (Visual Studio Code for the Web)](https://vscode.dev/) does provide the ability to [open a file directly using an URL (with line number)](https://github.com/coder/code-server/issues/1964#issuecomment-1546098145).
 But it looks like [code-server does **not** allow to set folder on Open](https://github.com/coder/code-server/issues/816) which is even more restrictive that allowing for a file in a folder and providing a line-number for the prompt. Assert on this !
+
+- URL to open a file at some specified line:
+  - Use e.g. `http://127.0.0.1:8443/?folder=/config&payload=[[%22gotoLineMode%22,%22true%22],[%22openFile%22,%22vscode-remote:///config/2019_-_Sayadaw-U-Tejaniya-Collecting-Gold-Dust-Web-Book-1_-_local_converter.md:100:40%22]]`
+  - Refer to [this issue](https://github.com/coder/code-server/issues/1964#issuecomment-2455939740)
+  - Preloading extensions (only works for VSZX registry): https://open-vsx.org/extension/lostintangent/workspace-layout
 
 ### Using the Monaco editor as component
 

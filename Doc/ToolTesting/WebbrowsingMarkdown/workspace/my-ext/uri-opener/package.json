@@ -1,0 +1,22 @@
+{
+  "name": "uri-opener",
+  "displayName": "URI Range Opener",
+  "description": "Open files with range selection via URI payload",
+  "version": "0.0.1",
+  "publisher": "local",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "uri-opener.openRange",
+        "title": "Open File with Range Selection"
+      }
+    ]
+  }
+}
