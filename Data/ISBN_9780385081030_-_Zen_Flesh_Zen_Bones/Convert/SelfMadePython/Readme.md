@@ -20,7 +20,7 @@ cd `git rev-parse --show-toplevel`/Data/ISBN_9780385081030_-_Zen_Flesh_Zen_Bones
 python3.10 -m venv venv
 source ./venv/bin/activate
 pip install -r ../../../requirements.txt
-pip install ../../../ConvertPdfToMarkdown
+pip install git+https://github.com/EricBoix/pdf-to-markdown.git
 python main.py
 ```
 

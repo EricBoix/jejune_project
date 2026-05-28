@@ -1,6 +1,6 @@
 import roman
 
-from ConvertPdfToMarkdown import (
+from pdf_to_markdown import (
     ChapterSplitter,
     MultiplePatternSplitter,
     NameLessSinglePatternSplitter,

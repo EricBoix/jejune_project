@@ -1,7 +1,7 @@
 from os import path
 from Converter import Converter
 from StructuralInfo import StructuralInfo
-from ConvertPdfToMarkdown import (
+from pdf_to_markdown import (
     PrintDocument,
     WriteAsLangchainDocuments,
     print_document_raw_pages,

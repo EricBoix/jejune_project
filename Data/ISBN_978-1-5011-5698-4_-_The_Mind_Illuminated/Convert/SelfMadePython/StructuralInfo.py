@@ -1,4 +1,4 @@
-from ConvertPdfToMarkdown import (
+from pdf_to_markdown import (
     ChapterSplitter,
     NameLessSinglePatternSplitter,
     StructuralInfoBase,

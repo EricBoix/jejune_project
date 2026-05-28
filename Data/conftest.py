@@ -14,7 +14,7 @@ POLLUTING_MODULE_PREFIXES = (
     "Converter",
     "ExtractedPage",
     "StructuralInfo",
-    "ConvertPdfToMarkdown",
+    "pdf_to_markdown",
     "pypdf",
 )
 

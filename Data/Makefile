@@ -9,7 +9,7 @@ test:
 setup:
 	$(PYTHON) -m venv $(VENV)
 	source ./$(VENV)/bin/activate && pip install -r requirements.txt
-	source ./$(VENV)/bin/activate && pip install -e ./ConvertPdfToMarkdown
+	source ./$(VENV)/bin/activate && pip install git+https://github.com/EricBoix/pdf-to-markdown.git
 
 clean:
 	rm -rf $(VENV) __pycache__ .pytest_cache

@@ -20,7 +20,7 @@ Or manually:
 python3.10 -m venv venv
 source ./venv/bin/activate
 pip install -r requirements.txt
-pip install -e ./ConvertPdfToMarkdown
+pip install git+https://github.com/EricBoix/pdf-to-markdown.git
 ```
 
 ## Running tests
