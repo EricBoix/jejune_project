@@ -1,6 +1,18 @@
 # jejuneness
 
-Don't let the [monkey](https://en.wikipedia.org/wiki/Monkey_mind) prevent you from sitting back on the [cushion](https://en.wikipedia.org/wiki/Zafu).
+Don't let the [monkey](https://en.wikipedia.org/wiki/Monkey_mind) hinder you from sitting back on the [cushion](https://en.wikipedia.org/wiki/Zafu).
+
+## Table of content<!-- omit in toc -->
+
+- [Workflow Overview](#workflow-overview)
+- [What's next](#whats-next)
+  - [Semantic Chunking](#semantic-chunking)
+
+## Workflow Overview
+
+![Knowledge Graph Workflow](Doc/Workflow/workflow.png)
+
+For details, see [Doc/Workflow/README.md](Doc/Workflow/README.md).
 
 ## What's next
 
