@@ -7,13 +7,6 @@
             "addWords": true
         },
         "the_mind_illuminated": true, // Enable that dictionary
-        "gold-dust-words": {
-            "name": "collecting_gold_dust",
-            "path": "${workspaceRoot}/Data/ISBN_978-0-9835844-5-2_-_Collecting_Gold_Dust/collecting_gold_dust-words.txt",
-            "description": "Words used for Collecting Gold Dust:words",
-            "addWords": true
-        },
-        "collecting_gold_dust": true, // Enable that dictionary
         "graphrag-python-sandbox-words": {
             "name": "graph_rag_python_sandbox",
             "path": "${workspaceRoot}/Doc/ToolTesting/GraphRAG/GraphRAG-words.txt",
