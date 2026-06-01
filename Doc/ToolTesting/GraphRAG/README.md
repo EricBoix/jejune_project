@@ -68,7 +68,7 @@ The original associated code, from which this work is partly derived, is availab
 
 ## Further advanced document "chunkings"
 
-If you wish to break down the original document in chunks that follow the sentence structure (as opposed to evenly sized chunks with some overlap) use the following script (that depends on the output of `Data/ISBN_978-0-9835844-5-2_-_Collecting_Gold_Dust/data_production.py`) :
+If you wish to break down the original document in chunks that follow the sentence structure (as opposed to evenly sized chunks with some overlap) use the following script (that depends on the output of [Collecting Gold Dust conversion](https://github.com/EricBoix/jj_doc_Collecting_Gold_Dust/blob/main/Readme.md)) :
 
 ```bash
 python extracting_graph_semantic_chuncker.py \

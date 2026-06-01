@@ -10,9 +10,9 @@ start
 
 #Yellow:<<artifact>>\nSource PDF Document|
 
-partition "1. Ingestion preparation (PDF to Markdown)\n<size:10>Data/ISBN_978-0-9835844-5-2_-_Collecting_Gold_Dust/</size>" {
+partition "1. Ingestion preparation (PDF to Markdown)\n<size:10>github/jj_doc_Collecting_Gold_Dust</size>" {
   :Run **data_production.py**
-  (uses Convert/SelfMadePython/main.py);
+  (uses Convert/main.py);
 }
 
 fork

@@ -13,9 +13,9 @@ Note: above image was generated from [workflow.puml](./workflow.puml) with `java
 
 ## Pipeline Summary
 
-| Stage | Directory | Script/Tool | Input | Output |
+| Stage | Directory/Repository | Script/Tool | Input | Output |
 | ----- | --------- | ----------- | ----- | ------ |
-| 1. PDF to Markdown | `Data/ISBN_978-0-9835844-5-2_-_Collecting_Gold_Dust/` | `data_production.py` | PDF | `.md` + `.json` |
+| 1. PDF to Markdown | [`Collecting Gold Dust` converter](https://github.com/EricBoix/jj_doc_Collecting_Gold_Dust/blob/main/Readme.md) | `Convert/main.py` | PDF | `.md` + `.json` |
 | 2. Markdown to Neo4j | `Doc/ToolTesting/GraphRAG/` | `extracting_graph*.py` | Markdown | Neo4j DB |
 | 3. Neo4j to RDF | `Doc/ToolTesting/Neo4jToRDF/` | `neo4j_to_rdf.py` | Neo4j DB | `.ttl` |
 | 4. Visualization | `Doc/ToolTesting/vis-network/` | `npm run dev` | `.ttl` | Web UI |
