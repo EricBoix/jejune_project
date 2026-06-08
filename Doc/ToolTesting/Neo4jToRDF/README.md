@@ -2,12 +2,12 @@
 
 ## Purpose
 
-The purpose of this directory is to implement a Neo4j database exportation code  that
+The purpose of this directory is to implement a Neo4j database exportation code that
 
-- is written in Python
 - logs into a neo4j database (using the authentication info provided in a `.env`file)
 - collects all the nodes and edges
 - exports this content to a newly created RDF file (using the Turtle format)
+- can be easily customized (node/edge filtering) and thus written in Python
 
 ## Setup
 
@@ -16,10 +16,15 @@ The purpose of this directory is to implement a Neo4j database exportation code 
 python3.10 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+```
+
+or equivalently run `make setup` and `source venv/bin/activate`
+
+```bash
 cp .env.example .env
 ```
 
-Edit `.env` with your Neo4j credentials e.g.
+and edit the resulting `.env` file to set your Neo4j credentials e.g.
 
 ```bash
 NEO4J_URI=bolt://localhost:7687
@@ -29,12 +34,13 @@ NEO4J_PASSWORD=your_password
 
 ## Usage
 
-Launch a live instance of Neo4j database server. For example simply trigger the `docker compose` demo located in [`Neo4jVisjsDocker/FromBackup`](../Neo4jVisjsDocker/FromBackup/README.md) located in this git repository.
+Launch a live instance of Neo4j database server: refer e.g. to [https://github.com/EricBoix/jj_neo4j_docker](https://github.com/EricBoix/jj_neo4j_docker).
+
 Then use
 
 ```bash
-python neo4j_to_rdf.py              # writes output.ttl
-python neo4j_to_rdf.py graph.ttl    # custom output path
+python neo4j_to_rdf.py              # Default output written to `output.ttl`
+python neo4j_to_rdf.py graph.ttl    # Custom filename given as output path
 ```
 
 ## RDF Mapping
@@ -46,3 +52,9 @@ python neo4j_to_rdf.py graph.ttl    # custom output path
   `ex:node_src neo:REL_TYPE ex:node_tgt`
 - **Relationships with properties**: direct triple plus reification
   via `rdf:Statement` blank node carrying the property literals
+
+## Devel debug notes
+
+```bash
+
+```
