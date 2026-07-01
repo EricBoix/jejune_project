@@ -6,16 +6,16 @@ Display markdown files in an editor like fashion (with range selection on openin
 
 ```bash
 # Build image (one-time)
-docker build -t code-server-uri-opener DockerContext/
+docker build -t jejuneness:code-server-uri-opener DockerContext/
 
 # Run container
-docker run -d -p 8443:8443 code-server-uri-opener
+docker run -d -p 8443:8443 jejuneness:code-server-uri-opener
 ```
 
 For persistent data (optional):
 
 ```bash
-docker run -d -v /path/to/data:/config -p 8443:8443 code-server-uri-opener
+docker run -d -v /path/to/data:/config -p 8443:8443 jejuneness:code-server-uri-opener
 ```
 
 ## Usage examples
@@ -63,7 +63,7 @@ git clean -Xdf
 
 ## How It Works
 
-The extension creates a temporary webview on activation that reads the URL hash fragment (`#sel=...`), parses the selection parameters, and opens the file with the specified range highlighted.
+The extension (refer to [`DockerContext/my-ext/uri-opener/`](./) subdirectory) creates a temporary webview on activation that reads the URL hash fragment (`#sel=...`), parses the selection parameters, and opens the file with the specified range highlighted.
 
 ## Rebuilding the Extension
 
