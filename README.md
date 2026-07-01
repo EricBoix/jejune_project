@@ -22,5 +22,4 @@ Don't let the [monkey](https://en.wikipedia.org/wiki/Monkey_mind) hinder you fro
 ## Needs
 
 - Refer to [the list of Needs](./Doc/Needs/Readme.md)
-- Move the [new feature issues](https://github.com/EricBoix/jejuneness/issues) to the Needs.
 - Knowledge graph visualisation: just google on that (Knowledge graph visualisation) and also PCA (Principal Component Analysis), MDS (Principal Coordinates Analysis, PCO or PCoA), Spectral Embedding of Graphs.
