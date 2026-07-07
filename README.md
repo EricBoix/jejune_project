@@ -6,6 +6,7 @@ Don't let the [monkey](https://en.wikipedia.org/wiki/Monkey_mind) hinder you fro
 
 - [Related repositories](#related-repositories)
 - [Needs](#needs)
+- [Working with VScode](#working-with-vscode)
 
 ## Related repositories
 
@@ -23,3 +24,9 @@ Don't let the [monkey](https://en.wikipedia.org/wiki/Monkey_mind) hinder you fro
 
 - Refer to [the list of Needs](./Doc/Needs/Readme.md)
 - Knowledge graph visualisation: just google on that (Knowledge graph visualisation) and also PCA (Principal Component Analysis), MDS (Principal Coordinates Analysis, PCO or PCoA), Spectral Embedding of Graphs.
+
+## Working with VScode
+
+Useful extensions:
+
+- [Matt Bierner's "Markdown Footnotes"](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-footnotes) for `[^1] footnote syntax support to VS Code's built-in Markdown preview`.

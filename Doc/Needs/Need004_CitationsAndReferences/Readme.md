@@ -1,6 +1,19 @@
-# Needs for citations and references
+# Needs for citations and references<!-- omit in toc -->
 
-## What exists
+## Table of content<!-- omit in toc -->
+
+- [Citation examples encountered in Buddhist litterature](#citation-examples-encountered-in-buddhist-litterature)
+  - [Classic abbreviations](#classic-abbreviations)
+    - [A somewhat arbitrary division](#a-somewhat-arbitrary-division)
+    - [WARNING: Sutta Number differs from PTS references](#warning-sutta-number-differs-from-pts-references)
+  - [Pali canon book abbreviations](#pali-canon-book-abbreviations)
+  - [Sentence/Paragraph number as margin annotation](#sentenceparagraph-number-as-margin-annotation)
+  - [Concerning page numbering](#concerning-page-numbering)
+- [The (almost) final need: division references at the sentence level](#the-almost-final-need-division-references-at-the-sentence-level)
+- [Tool testing](#tool-testing)
+- [References](#references)
+
+## Citation examples encountered in Buddhist litterature
 
 ### Classic abbreviations
 
@@ -8,7 +21,7 @@ If we look at Henepola Gunaratana's footnotes, in his article "Should we come ou
 ![Henepola Gunaratana's footnote](./HenepolaGunaratanaFootnotes.png "Henepola Gunaratana's footnote").
 (Majjhima Nikaya)
 
-#### An somewhat arbitrary division
+#### A somewhat arbitrary division
 
 The second part of footnote `21` (refer above), which goes `MLDB by BÑ && BB. 312` stands for `The `[`Middle Length Discourses of the Buddha`](https://en.wikipedia.org/wiki/Majjhima_Nik%C4%81ya) `translated by Bhikkhu Nanamoli and Bhikkhu Bodhi` and `312` is the number of some arbitrary division (made by the authors?) as sets of sentences (not a paragraph and bigger than a single sentence) as encountered in the paper edition.
 
@@ -19,6 +32,12 @@ Such divisions are quite similar to the ones used for [bible citation](https://e
 Alas verse divisions are quite arbitrary (and thus not unique) and we should prefer a standardized multi-level division system.
 Although as the one proposing such division (and in order to avoid any ambiguity or even mistake due to some failing division algorithm) we should provide the divided version of the original texts.
 As `dividers` we should provide the texts with the inclusion/integration within those texts of the build/computed division/references (in a fashion similar to the one used by [Robert Etienne](https://en.wikipedia.org/wiki/Chapters_and_verses_of_the_Bible) we he introduced is verse numbering).
+
+#### WARNING: Sutta Number differs from PTS references
+
+A reference to a sutta, based on volume and page, for [Pali Text Society (PTS)](https://en.wikipedia.org/wiki/Pali_Text_Society) (e.g. DN 1: Brahmajāla) is not the same as a reference based on number or name in sutta numbering.
+
+They are [Sutta Number to PTS Vol & Pg converters](https://palistudies.blogspot.com/2020/02/sutta-number-to-pts-reference-converter.html?m=1#more)
 
 ### Pali canon book abbreviations
 
@@ -61,3 +80,11 @@ of `document reference` "author_A, author_B book titled book_title, ISBN".
 
 If we adopt such division based referencing, we should not only provide the resulting divisions (and division references) but also the algorithms producing such divisions.
 Because the logic of the divisions are directly expressed by the code.
+
+## Tool testing
+
+Refer to [citeproc-py test](../../ToolTesting/CiteProc/Readme.md) for what could be done with the `Bibtex + Markdown + Python` stack.
+
+## References
+
+- [Academic Markdown and Citations](https://v4.chriskrycho.com/2015/academic-markdown-and-citations.html) by Chris Krycho.

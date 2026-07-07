@@ -1,5 +1,15 @@
 # List of needs
 
+## Plain list
+
+- 001: [Provide UI means to go from a KG Node/Transaction to the original citation](./Need001_FromKGNodeToOriginalText.md)
+- 002: [embedding metadata in a Markdown format](./Need002_MarkdownMetadata.md)
+- 003: [UI: JS/webGL based graph layout and visualization libraries](./Need003_GraphVisualization.md)
+- 004: [Citations and References](./Need004_CitationsAndReferences/Readme.md)
+- 005: [find/exhibit Buddhist Ontologies](./Need005_BuddhistOntologies.md)
+
+## To clean up
+
 As the [Demystifying Knowledge Graphs: a deep dive into RDF and beyond](https://medium.com/@tarekhaled/demystifying-knowledge-graphs-a-deep-dive-into-rdf-and-beyond-55bdcf093d65) states it
 
 Knowledge Graphs (KGs as opposed to RDBMSs) prioritize flexibility, semantic richness, and domain-specific relevance:

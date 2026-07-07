@@ -1,4 +1,4 @@
-# Looking for an RDF ontology of the Buddhist key concepts/words/notions...
+# Looking for an RDF ontology of the Buddhist key concepts/words/notions
 
 ## The problem
 
