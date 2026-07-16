@@ -1,29 +1,46 @@
-# Claude instructions
+# CLAUDE.md
 
-## The objective
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-We have at hand a set of markdown files that we wish to browse with the help of
+## Objective
 
-- a web-browser as only tool on the client side
-- code-server packaged within an open source Docker container on the server side
+Browser-only client, code-server Docker server setup that opens markdown files at a specific line/column range via URL hash fragment. The VS Code extension (`DockerContext/my-ext/uri-opener/`) handles the URI parsing and file-open-with-selection logic.
 
-We want to allow a user to access and browse those markdown based texts with an URI support
+## Key Commands
 
-- with an IDE reader like experience (although edition might not possible, just browsing)
-- allowing URI referencing that is refer to a specific position within the text with an URL (relative to the docker/Kubernetes deployment)
-- allowing the cursor positioning down to the line and column
-- allowing the a prescribed range to be selected (maybe with a character based range the way the open-with-selection extension does it)
+```bash
+# Build Docker image
+docker build -t jejuneness:code-server-uri-opener DockerContext/
 
-## Hints
+# Run container
+docker run -d -p 8443:8443 jejuneness:code-server-uri-opener
 
-- URI using `&payload=[["gotoLineMode","true"],["openFile","vscode-remote:///config/2019_-_Sayadaw-U-Tejaniya-Collecting-Gold-Dust-Web-Book-1_-_local_converter.md:100:50"]]` work natively. Only the range is missing.
-- Write a tiny ~50 lines extension that registers parser UriHandler, parser an URI of the form `<file>:sl=10:sc=1:el=12:ec=8` an calls e.g. `showTextDocument(uri, { selection })`
-- The best pattern is to use “workspace-local extension” (as opposed to cleanly registering the extension on VSX registry) that is locating the extension code in the repository in example `.vscode/extension/uri-opener` subdirectory (with an `extension.js` and a `package.json` files)
-- Possibly combine the above with devcontainer.json
-- Note that open-with-selection extension is not available on VSX registry
-- Place all this content in @/Doc/ToolTesting/WebbrowsingMarkdown/workspace subdirectory
+# Run with persistent data
+docker run -d -v /path/to/data:/config -p 8443:8443 jejuneness:code-server-uri-opener
 
+# Rebuild extension VSIX (only when extension.js or package.json changed)
+cd DockerContext/my-ext/uri-opener
+npx @vscode/vsce package --allow-missing-repository
 
-## Constraints
+# Clean generated files
+git clean -Xdf
+```
 
-Only the files located in @/Doc/ToolTesting/WebbrowsingMarkdown directory must be used as context. Exclude all other files of the git repository.
+## URI Format
+
+```text
+http://127.0.0.1:8443/?folder=/config#sel=<file>:<sl>:<sc>:<el>:<ec>[&solo]
+```
+
+Parameters: `file` (absolute path inside container), `sl`/`sc` (start line/col, 1-indexed), `el`/`ec` (end line/col, 1-indexed), `&solo` (close all other tabs).
+
+## Architecture
+
+**Docker multi-stage build** (`DockerContext/Dockerfile`):
+
+1. Stage 1 (`node:20-slim`): packages the extension via `vsce`, unzips the VSIX.
+2. Stage 2 (`lscr.io/linuxserver/code-server:latest`): copies unpacked extension into `/config/extensions/local.uri-opener-0.0.1/` — code-server picks it up as a workspace-local extension without registry registration.
+
+**Extension** (`DockerContext/my-ext/uri-opener/extension.js`): activates on `onStartupFinished`, creates a hidden webview that reads `window.location.hash` (and `window.top.location.hash`), posts the parsed `#sel=...` fragment back to the extension host, which calls `showTextDocument` with a `Selection`. Also registers a `uri-opener.openRange` command and a `vscode://` URI handler as alternative entry points.
+
+**No `devcontainer.json`** is used; the extension is installed at a fixed path that code-server auto-discovers.
