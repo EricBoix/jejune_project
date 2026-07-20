@@ -11,8 +11,8 @@ Don't let the [monkey](https://en.wikipedia.org/wiki/Monkey_mind) hinder you fro
 ## Related repositories
 
 - [jj_workflow_shell](https://github.com/EricBoix/jj_workflow_shell): shell based workflow orchestrator
-- [jj_build_knowledge_graph](https://github.com/EricBoix/jj_build_knowledge_graph)
-- [jj_neo4j_docker](https://github.com/EricBoix/jj_neo4j_docker)
+- [jejune_extract_knowledge_graph](https://github.com/EricBoix/jejune_extract_knowledge_graph)
+- [jejune_neo4j_docker](https://github.com/EricBoix/jejune_neo4j_docker)
 - [jj_neo4j_to_rdf_ttl](https://github.com/EricBoix/jj_neo4j_to_rdf_ttl)
 - [jj_vis_network_viewer](https://github.com/EricBoix/jj_vis_network_viewer)
 - Books:
