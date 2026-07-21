@@ -16,7 +16,7 @@ Don't let the [monkey](https://en.wikipedia.org/wiki/Monkey_mind) hinder you fro
 - [jj_neo4j_to_rdf_ttl](https://github.com/EricBoix/jj_neo4j_to_rdf_ttl)
 - [jj_vis_network_viewer](https://github.com/EricBoix/jj_vis_network_viewer)
 - Books:
-  - [Four Noble Truths](https://github.com/EricBoix/jj_doc_Four_Noble_Truths): a shallow tiny document for testing things
+  - [Four Noble Truths](https://github.com/EricBoix/jejune_doc_Four_Noble_Truths): a shallow tiny document for testing things
   - [Zen flesh, zen bones](https://github.com/EricBoix/jj_doc_Zen_Flesh_Zen_Bones)
   - [Collecting Gold Dust](https://github.com/EricBoix/jj_doc_Collecting_Gold_Dust)
 
