@@ -23,8 +23,7 @@ Never let the [monkey](https://en.wikipedia.org/wiki/Monkey_mind) hinder you fro
     their markdown, PDF, and sentence-level content over HTTP.
     Holds the canonical `full-catalog.yaml` (maintained by the [Catalog Curator](./Role.md#catalog-curator)).
 
-- Books — each book repository must provide a `.jejune/doc.yaml` self-description
-  (see [Document Steward role](./Role.md#document-steward)):
+- Documents/Books:
   - [Four Noble Truths](https://github.com/EricBoix/jejune_doc_Four_Noble_Truths): a tiny document for testing things
   - [Four Hundred Stanzas](https://github.com/EricBoix/jejune_doc_Four_Hundred_Stanzas)
   - [Zen flesh, zen bones](https://github.com/EricBoix/jejune_doc_Zen_Flesh_Zen_Bones)

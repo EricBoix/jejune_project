@@ -15,9 +15,10 @@ Responsibilities:
 
 - Creates a new `jejune_doc_<name>` repository and populates it with the source document
   (markdown and/or PDF in `original_data/`).
-- Adds a `.jejune/doc.yaml` self-description file specifying the document's title, authors,
+- Adds a `doc.yaml` file at the repository root specifying the document's title, authors,
   year, keywords, ISBN (if applicable), and the relative paths to its markdown file,
   optional PDF, and optional sentences file.
+  This file is editorial content and is committed to the repository.
 - Runs `jejune convert` to convert a PDF source to markdown when needed.
 - Runs `jejune graph extract <doc_dir>` to build the knowledge graph for the document.
 - Optionally makes a simple single document deployment to improve the document content.
