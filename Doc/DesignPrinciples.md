@@ -1,4 +1,11 @@
-# Jejune Design Principles
+# Jejune Design Principles<!-- omit in toc -->
+
+## Table of content<!-- omit in toc -->
+
+- [Ecosystem Repository Resolution](#ecosystem-repository-resolution)
+- [Inter-Component UI Invocation](#inter-component-ui-invocation)
+- [Concerning jejune\_cli](#concerning-jejune_cli)
+
 
 ## Ecosystem Repository Resolution
 
@@ -70,18 +77,42 @@ Arguments that are themselves URLs must be percent-encoded
 This pattern requires no shared memory, no message-passing API, and no
 coupling beyond the agreed query-parameter contract between the two components.
 
-## Role Inheritance
+## Concerning jejune\_cli
 
-The "developer" role is a conceptual base role inherited by all other roles:
+### jejune state machine
+
+`jejune next` suggests commands that should succeed and that must thus be validated before display. Two mechanisms combined:
+
+1. A heuristic state machine based on heuristic condition: this mechanism answers to "is this action relevant right now?".
+2. A per-command precondition registry: the single source of truth for "can this command run right now?".
+
+Both filters are applied before display by "jejune next".
+
+### Role Inheritance
+
+`jejune role list` displays:
 
 ```text
-developer
-├── doc-steward
-├── catalog-curator
-└── deployer
-       └── catalog-curator
+doc-steward      .jejune/ directory detected
+catalog-curator  full-catalog.yaml detected
+deployer         docker-compose.yml detected
+contributor      base role inherited by all other roles
 ```
 
-This means `JEJUNE_ROOT_DIR` configuration and the `ecosystem` command are
-visible regardless of the active role. No directory-level signal is needed to
-activate developer features; they are always present.
+And `jejune role hierarchy` shows:
+
+```text
+           ┌─────────────┐
+           │ contributor │
+           └─────────────┘
+                  │
+       ┌──────────┴─────────┐
+       │                    │
+┌─────────────┐    ┌─────────────────┐
+│ doc-steward │    │ catalog-curator │
+└─────────────┘    └─────────────────┘
+                            │
+                      ┌──────────┐
+                      │ deployer │
+                      └──────────┘
+```
