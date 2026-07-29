@@ -51,6 +51,25 @@ and `MARKDOWN_BROWSER_CONTEXT` in the subprocess environment.
 Run `jejune ecosystem` from any directory to see which repos are resolved via
 which tier for the active role.
 
+## Inter-Component UI Invocation
+
+When one UI component needs to hand off control to another running component
+(e.g. the docs-server landing page opening the kg-graph-viewer for a specific
+turtle file), the pattern used is **deep linking via query parameters**:
+
+1. The source component renders an `<a target="_blank">` whose `href` points at
+   the target component's URL with arguments encoded in the query string.
+2. The browser opens the target in a new tab; no JavaScript event handler is
+   needed on the source side.
+3. The target component reads `window.location.search` with `URLSearchParams`
+   on startup and initialises itself from the extracted values.
+
+Arguments that are themselves URLs must be percent-encoded
+(`encodeURIComponent`) so they survive embedding inside another URL.
+
+This pattern requires no shared memory, no message-passing API, and no
+coupling beyond the agreed query-parameter contract between the two components.
+
 ## Role Inheritance
 
 The "developer" role is a conceptual base role inherited by all other roles:
