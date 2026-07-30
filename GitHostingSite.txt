@@ -1,2 +1,0 @@
-GIT_HOSTING_SITE=https://github.com/EricBoix/
-REPOSITORY_NAME=jejune_project
