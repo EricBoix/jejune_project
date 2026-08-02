@@ -15,7 +15,7 @@ Responsibilities:
 
 - Creates a new `jejune_doc_<name>` repository and populates it with the source document
   (markdown and/or PDF in `original_data/`).
-- Adds a `doc.yaml` file at the repository root specifying the document's title, authors,
+- Adds a `catalog.yaml` file at the repository root specifying the document's title, authors,
   year, keywords, ISBN (if applicable), and the relative paths to its markdown file,
   optional PDF, and optional sentences file.
   This file is editorial content and is committed to the repository.
