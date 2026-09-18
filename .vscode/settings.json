@@ -9,7 +9,10 @@
         "graph_rag_python_sandbox": true, // Enable that dictionary
     },
     "cSpell.words": [
+        "Bierner's",
+        "Burbea",
         "neovis",
+        "pyproject",
         "superchapter"
     ],
     "[python]": {
