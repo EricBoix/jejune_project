@@ -37,7 +37,7 @@ Never let the [monkey](https://en.wikipedia.org/wiki/Monkey_mind) hinder you fro
 
 ## Roles
 
-See [Role.md](./Role.md) for the identified project roles (Document Steward, Catalog Curator, Deployer).
+Refer to [jejune CLI](https://github.com/EricBoix/jejune_cli) `roles` commands (e.g. `jejune roles list`, `jejune roles describe`, for descriptions of the identified project roles (Document Steward, Catalog Curator, Deployer).
 
 ## Working with VScode
 
