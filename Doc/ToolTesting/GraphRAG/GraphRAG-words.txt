@@ -1,0 +1,21 @@
+# Person names
+Bierner's
+Blumenfeld
+Burbea
+Damaso
+Sanoja
+# Technical names        
+Fuseki
+graphdb
+khaller
+langchain
+neovis
+neo4j
+Ontotext
+oxigraph
+pyproject
+Pythonic
+rdflib
+RDFS
+superchapter
+SPARQL

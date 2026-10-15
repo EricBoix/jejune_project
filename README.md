@@ -7,6 +7,8 @@ Never let the [monkey](https://en.wikipedia.org/wiki/Monkey_mind) hinder you fro
 - [Related repositories](#related-repositories)
 - [Needs](#needs)
 - [Roles](#roles)
+  - [Tool providers related roles](#tool-providers-related-roles)
+  - [Usage related roles](#usage-related-roles)
 - [Working with VScode](#working-with-vscode)
 
 ## Related repositories
@@ -37,7 +39,21 @@ Never let the [monkey](https://en.wikipedia.org/wiki/Monkey_mind) hinder you fro
 
 ## Roles
 
-Refer to [jejune CLI](https://github.com/EricBoix/jejune_cli) `roles` commands (e.g. `jejune roles list`, `jejune roles describe`, for descriptions of the identified project roles (Document Steward, Catalog Curator, Deployer).
+### Tool providers related roles
+
+Those roles are all documented through the [jejune CLI](https://github.com/EricBoix/jejune_cli) `roles` commands (e.g. `jejune roles list`, `jejune roles describe`...). Refer to it for concrete descriptions of the following identified project roles:
+
+- **Document Steward**: responsible for the lifecycle of an individual `jejune_doc_<name>`
+- **Catalog Curator**: responsible for the document collection as a whole
+- **Deployer**: configures a specific deployment of the jejune system.
+
+### Usage related roles
+
+TODO: for the following roles refer to [this issue](#3)
+
+- **Practitioner**
+- **Teacher/Researcher**
+- **AI Researcher**
 
 ## Working with VScode
 
