@@ -7,8 +7,6 @@ Never let the [monkey](https://en.wikipedia.org/wiki/Monkey_mind) hinder you fro
 - [Related repositories](#related-repositories)
 - [Needs](#needs)
 - [Roles](#roles)
-  - [Tool providers related roles](#tool-providers-related-roles)
-  - [Usage related roles](#usage-related-roles)
 - [Working with VScode](#working-with-vscode)
 
 ## Related repositories
@@ -22,8 +20,8 @@ Never let the [monkey](https://en.wikipedia.org/wiki/Monkey_mind) hinder you fro
   - [jj_neo4j_to_rdf_ttl](https://github.com/EricBoix/jj_neo4j_to_rdf_ttl)
   - [jejune_docs_server](https://github.com/EricBoix/jejune_docs_server):
     HTTP service (REST + Swagger) that bakes designated `jejune_doc_*` repositories and exposes
-    their markdown, PDF, and sentence-level content over HTTP.
-    Holds the canonical `full-catalog.yaml` (maintained by the [Catalog Curator](./Role.md#catalog-curator)).
+    their original PDF (when it exists), converted markdown, various available chunks and 
+    associated knowledge graphs extractions.
 
 - Documents/Books:
   - [Four Noble Truths](https://github.com/EricBoix/jejune_doc_Four_Noble_Truths): a tiny document for testing things
