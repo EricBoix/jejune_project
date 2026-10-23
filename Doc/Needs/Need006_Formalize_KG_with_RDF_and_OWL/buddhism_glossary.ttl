@@ -1,0 +1,1363 @@
+#######################################################################
+# An informal trial at producing some form glossary...
+#
+# Claude request:  
+#   Get the content of the table of the glossary ata
+#   https://en.wikipedia.org/wiki/Glossary_of_Buddhism and extract
+#   each term as an ontological entity (knowledge graph terminology).
+#   Store the resulting information in a rdf/owl file.
+# This file is the response, with the following caveats:
+#   The ontology is written and structurally consistent.
+#   Contents:
+#     - 242 owl:Class declarations — 1 top-level bud:BuddhistConcept
+#       + 241 glossary terms, all as subclasses.
+#     - Each term carries rdfs:label with original transliteration
+#       + language tag (@sa Sanskrit, @pi Pāli ... @en English).
+#     - Each has a skos:definition sourced from the Wikipedia entry.
+#     - 11 skos:altLabels model dual-form entries (e.g. bhikkhu/bhikshu,
+#       dharma/dhamma, Nirvana/Nibbana).
+#     - anicca vs anitya linked by owl:equivalentClass.
+#     - Ontology metadata block: dct:title, dct:description, dct:source
+#       (Wikipedia URL), dct:created, owl:versionInfo.
+#   Caveats:
+#     - Definitions were paraphrased by WebFetch's internal summarizer,
+#       not verbatim from Wikipedia. If literal quotations are needed,
+#       the re-fetch with raw HTML (e.g. curl + manual parse)
+#     - Could not install rdflib to validate; only did lexical sanity
+#       checks. If you have rapper or a venv with rdflib, worth running
+#       once.
+#########################################################################
+
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix bud:   <http://example.org/ontology/buddhism#> .
+
+#################################################################
+# Ontology metadata
+#################################################################
+
+<http://example.org/ontology/buddhism> a owl:Ontology ;
+    dct:title       "Buddhism Glossary Ontology"@en ;
+    dct:description "An OWL ontology extracted from the Wikipedia 'Glossary of Buddhism' article. Each glossary entry is modeled as an owl:Class subsumed under bud:BuddhistConcept, with the original transliterated term as rdfs:label and the Wikipedia definition as skos:definition."@en ;
+    dct:source      <https://en.wikipedia.org/wiki/Glossary_of_Buddhism> ;
+    dct:created     "2026-10-19"^^xsd:date ;
+    owl:versionInfo "1.0" .
+
+#################################################################
+# Top-level class
+#################################################################
+
+bud:BuddhistConcept a owl:Class ;
+    rdfs:label   "Buddhist Concept"@en ;
+    rdfs:comment "Top-level class subsuming every term listed in the Wikipedia Glossary of Buddhism."@en .
+
+#################################################################
+# Letter A
+#################################################################
+
+bud:Abhidharma a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "abhidharma"@sa ;
+    skos:definition "Scholarly teachings of the Buddha. A category of scriptures that attempts to use Buddhist teachings to create a systematic, abstract description of all worldly phenomena."@en .
+
+bud:Avatamsakasutra a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Avataṃsakasūtra"@sa ;
+    skos:definition "Garland Scripture — a Mahāyāna sūtra which discusses the Bodhisattva path and a variety of teachings."@en .
+
+bud:AbhidhammaPitaka a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Abhidhamma Pitaka"@pi ;
+    skos:definition "The third basket of the Tripitaka canon, reorganizing all doctrines systematically."@en .
+
+bud:Abhiniskramanasutra a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Abhiniṣkramaṇasūtra"@sa ;
+    skos:definition "Sūtra of the Great Renunciation — a translation of the Chinese text Fo Benxing Ji Jing, a biography of the Buddha."@en .
+
+bud:Acharya a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Acharya"@sa ;
+    skos:definition "A teacher who demonstrates deep understanding of Dhamma and guides novice Bhikkus responsibly."@en .
+
+bud:Adbhutadharmaparyayasutra a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Adbhutadharmaparyāyasūtra"@sa ;
+    skos:definition "Part of the Gilgit Manuscripts concerning merit-making through building stūpas, images, and relics."@en .
+
+bud:Adhigamadharma a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Adhigamadharma"@sa ;
+    skos:definition "The Dharma of Realization — practical Buddhist application through higher discipline, mindfulness, and wisdom."@en .
+
+bud:Adhitthana a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "adhitthana"@pi ;
+    skos:definition "Determination, resolution, or will; one of the Ten Perfections."@en .
+
+bud:Agama a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Āgama"@sa ;
+    skos:definition "A category of early Buddhist texts preserved in Chinese; Theravāda uses the term nikāya instead."@en .
+
+bud:Agamadharma a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Āgamadharma"@sa ;
+    skos:definition "The Dharma of Transmission — a word for the Tripitaka, contrasted with practical scripture application."@en .
+
+bud:Ahimsa a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "ahimsa"@sa ;
+    skos:definition "The devotion to non-violence and respect for all forms of life. Practitioners of ahimsa are often vegetarians or vegans."@en .
+
+bud:Akshobhya a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Akshobhya"@sa ;
+    skos:definition "One of the Five Tathāgatas or Five Wisdom Buddhas, alongside Ratnasambhava, Amitābha, Vairocana, and Amoghasiddhi."@en .
+
+bud:Akusalakarmapatha a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "akuśalakarmapatha"@sa ;
+    skos:definition "In Tibetan Buddhism, a list of ten unwholesome courses of action including killing, stealing, and wrong view."@en .
+
+bud:Alayavijnana a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "alayavijnana"@sa ;
+    skos:definition "Store consciousness — representing the deepest level of mind that stores all karmic seeds (experiences, actions, and memories)."@en .
+
+bud:Amitabha a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Amitabha"@sa ;
+    skos:definition "The Buddha of Infinite Light — main buddha of the Pure Land school, popular in other Mahāyāna sects."@en .
+
+bud:Amitabhasutra a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Amitābhasūtra"@sa ;
+    skos:definition "A sūtra focused on Amitabha Buddha's teachings and realm."@en .
+
+bud:Amoghasiddhi a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Amoghasiddhi"@sa ;
+    skos:definition "One of the Five Wisdom Buddhas in Mahāyāna Buddhism."@en .
+
+bud:Anagarika a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "anagārika"@pi ;
+    skos:definition "A white-clothed student in the Theravāda tradition who awaits being considered for sāmaṇera ordination."@en .
+
+bud:Anapanasati a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "anapanasati"@pi ;
+    skos:definition "Mindfulness of the breath meditation."@en .
+
+bud:Anatta a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "anatta"@pi ;
+    skos:definition "The principle denial of the soul in any phenomena, teaching that no permanent self exists."@en .
+
+bud:Anicca a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "anicca"@pi ;
+    skos:definition "Impermanence — one of the three marks of existence in Buddhism."@en .
+
+bud:Anitya a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "anitya"@sa ;
+    skos:definition "Impermanence, synonymous with anicca."@en ;
+    owl:equivalentClass bud:Anicca .
+
+bud:Anuttara a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "anuttara"@sa ;
+    skos:definition "Unsurpassing — referring to the highest level of Buddhist attainment."@en .
+
+bud:AnuttaraSamyakSambodhi a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "anuttara samyak sambodhi"@sa ;
+    skos:definition "Unsurpassable, complete, perfect enlightenment; unsurpassable, right, and full enlightenment."@en .
+
+bud:Arhat a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "arhat"@sa ;
+    skos:definition "The Worthy One — a living person who has reached Enlightenment in Buddhist tradition."@en .
+
+bud:Arupyaraga a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "ārūpyarāga"@sa ;
+    skos:definition "Attachment to formless realms in Buddhist cosmology."@en .
+
+bud:Asura a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "asura"@sa ;
+    skos:definition "Nongods — supernatural beings in Buddhist cosmology, often depicted as contentious."@en .
+
+bud:Atman a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "atman"@sa ;
+    skos:definition "Literally 'self'. In Buddhism, the predominant teaching is the negating doctrine of anatman."@en .
+
+bud:Avalokitesvara a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Avalokitesvara"@sa ;
+    skos:definition "One Who Hears the Suffering Cries of the World — the bodhisattva of compassion."@en .
+
+bud:Avidya a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "avidya"@sa ;
+    skos:definition "Ignorance or delusion — fundamental ignorance leading to suffering in Buddhist philosophy."@en .
+
+#################################################################
+# Letter B
+#################################################################
+
+bud:Bardo a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "bardo"@bo ;
+    skos:definition "Intermediate state or in-between state — according to Tibetan tradition, existence between lives."@en .
+
+bud:Bhavacakra a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "bhavacakra"@sa ;
+    skos:altLabel "bhavacakka"@pi ;
+    skos:definition "A circular symbolic representation of saṃsāra, also known as the Wheel of Becoming."@en .
+
+bud:Bhante a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "bhante"@pi ;
+    skos:definition "The polite particle used to refer to Buddhist monks in Theravāda tradition, meaning 'Venerable Sir'."@en .
+
+bud:Bhava a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "bhava"@sa ;
+    skos:definition "Becoming, being, existing; the 10th link of Pratītya-samutpāda."@en .
+
+bud:Bhikkhu a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "bhikkhu"@pi ;
+    skos:altLabel "bhikshu"@sa ;
+    skos:definition "Beggar — a Buddhist monk who has taken full ordination vows."@en .
+
+bud:Bhikkhuni a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "bhikkhuni"@pi ;
+    skos:altLabel "bhikshuni"@sa ;
+    skos:definition "A Buddhist nun who has taken full ordination vows."@en .
+
+bud:Bija a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "bija"@sa ;
+    skos:definition "Seed — a metaphor for origin or cause used in Yogācāra school teachings."@en .
+
+bud:Bodhi a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "bodhi"@sa ;
+    skos:definition "Awakening or Enlightenment in Buddhist tradition."@en .
+
+bud:Bodhisattvapitaka a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Bodhisattvapiṭaka"@sa ;
+    skos:definition "The Bodhisattva Basket — a collection of Buddhist scriptures."@en .
+
+bud:BodhiTree a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Bodhi tree"@en ;
+    skos:definition "The Sacred Fig (Ficus religiosa) tree under which Gautama reached Enlightenment."@en .
+
+bud:Bodhicaryavatara a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Bodhicaryāvatāra"@sa ;
+    skos:definition "Introduction to the Practice of Enlightenment, written by Śāntideva."@en .
+
+bud:Bodhicitta a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "bodhicitta"@sa ;
+    skos:definition "The motivation of a bodhisattva to achieve enlightenment for all beings."@en .
+
+bud:Bodhisattva a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "bodhisattva"@sa ;
+    skos:definition "One with the intention to become a Buddha in order to liberate all other sentient beings from suffering."@en .
+
+bud:Boghda a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Boghda"@mn ;
+    skos:definition "Holy, living Buddha or living Bodhisattva — title of highest Buddhist masters."@en .
+
+bud:Buddha a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Buddha"@sa ;
+    skos:definition "A Buddha; also, the Buddha Siddhārtha Gautama — one who has awakened."@en .
+
+bud:BuddhaNature a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "buddha nature"@en ;
+    skos:definition "The uncreated and deathless Buddhic element or principle concealed within all sentient beings to achieve Awakening."@en .
+
+bud:Buddhism a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Buddhism"@en ;
+    skos:definition "The religion and philosophical tradition based on teachings attributed to the Gautama Buddha."@en .
+
+#################################################################
+# Letter C
+#################################################################
+
+bud:Cetana a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "cetana"@pi ;
+    skos:definition "Volition — the mental factor of intention in Buddhist psychology."@en .
+
+bud:Cetiya a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Cetiya"@pi ;
+    skos:definition "A reliquary holding holy objects of veneration in Buddhist practice."@en .
+
+bud:Chanda a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "chanda"@pi ;
+    skos:definition "Intention, interest, desire to act, aspiration in Buddhist contexts."@en .
+
+#################################################################
+# Letter D
+#################################################################
+
+bud:Dakini a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "dakini"@sa ;
+    skos:definition "A supernatural female with volatile temperament who serves as a muse for spiritual practice."@en .
+
+bud:DalaiLama a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Dalai Lama"@en ;
+    skos:definition "The lama with wisdom like an ocean — secular and spiritual leader of Tibet."@en .
+
+bud:Dana a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "dana"@sa ;
+    skos:definition "Generosity or giving; in Buddhism, it also refers to the practice of cultivating generosity."@en .
+
+bud:Deva a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "deva"@sa ;
+    skos:definition "Many different types of non-human beings who share characteristics of being more powerful, longer-lived."@en .
+
+bud:DependentOrigination a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "dependent origination"@en ;
+    skos:definition "See Pratītyasamutpāda — the view that phenomena depend on conditions."@en ;
+    rdfs:seeAlso bud:PratityaSamutpada .
+
+bud:Dharma a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "dharma"@sa ;
+    skos:altLabel "dhamma"@pi ;
+    skos:definition "Often refers to the doctrines and teachings of the faith, but it may have broader uses."@en .
+
+bud:DharmaName a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "dharma name"@en ;
+    skos:altLabel "dhamma name"@en ;
+    skos:definition "A new name traditionally bestowed by a Buddhist monastic, given to newly ordained monks, nuns, and laity."@en .
+
+bud:Dhammavinaya a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "dhammavinaya"@pi ;
+    skos:definition "The dharma and vinaya (roughly 'doctrine and discipline') considered together — the whole teachings of Buddhism."@en .
+
+bud:Dharmacakra a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "dharmacakra"@sa ;
+    skos:altLabel "dhammacakka"@pi ;
+    skos:definition "A symbolic representation of the dharma, also known as the Wheel of Dharma."@en .
+
+bud:Dhammapada a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Dhammapada"@pi ;
+    skos:definition "A versified Buddhist scripture traditionally ascribed to the Buddha."@en .
+
+bud:Dharmapala a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "dharmapala"@sa ;
+    skos:altLabel "dhammapala"@pi ;
+    skos:definition "A fearsome deity, known as protector of the Dharma."@en .
+
+bud:Dhyana a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Dhyana"@sa ;
+    skos:definition "Meditative contemplation; see jhāna for fuller explanation."@en ;
+    rdfs:seeAlso bud:Jhana .
+
+bud:DipankaraBuddha a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Dīpankara Buddha"@sa ;
+    skos:definition "A Buddha mentioned in Buddhist texts as a predecessor to Gautama Buddha."@en .
+
+bud:Doan a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "doan"@ja ;
+    skos:definition "In Zen, a term for the person sounding the bell marking the beginning and end of zazen."@en .
+
+bud:Dokusan a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "dokusan"@ja ;
+    skos:definition "A private meeting between Zen student and master demonstrating understanding."@en .
+
+bud:Dudie a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "dudie"@zh ;
+    skos:definition "Official certificate for monks and nuns issued by government."@en .
+
+bud:Dukkha a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "dukkha"@pi ;
+    skos:definition "Suffering, dissatisfaction, unsatisfactoriness, stress — the first noble truth."@en .
+
+bud:Dvesa a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "dveṣa"@sa ;
+    skos:definition "Aversion — one of the three poisons in Buddhist psychology."@en .
+
+bud:Dzogchen a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "dzogchen"@bo ;
+    skos:definition "The natural, intrinsic state of every sentient being in Tibetan Buddhist teaching."@en .
+
+#################################################################
+# Letter F
+#################################################################
+
+bud:FiveFiveHundredYearPeriods a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Five Five-Hundred-Year Periods"@en ;
+    skos:definition "Five subdivisions of the three periods following the Buddha's passing, significant for Mahāyāna adherents."@en .
+
+bud:FourNobleTruths a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Four Noble Truths"@en ;
+    skos:definition "The central Buddhist teachings covering suffering, its origin, its cessation, and the path to cessation."@en .
+
+bud:Fukudo a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "fukudo"@ja ;
+    skos:definition "In Zen, the term for the person who strikes the han (wooden board)."@en .
+
+#################################################################
+# Letter G
+#################################################################
+
+bud:Gassho a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "gasshō"@ja ;
+    skos:definition "A position used for greeting, with the palms together and fingers pointing upwards in prayer position."@en .
+
+bud:GautamaBuddha a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Gautama Buddha"@sa ;
+    skos:definition "The historical Buddha, also called Gotama in the Pāli tradition."@en .
+
+bud:Geshe a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "geshe"@bo ;
+    skos:definition "A Tibetan Buddhist academic degree in the Gelug tradition, awarded at the conclusion of lengthy studies."@en .
+
+bud:Gongan a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "gongan"@zh ;
+    skos:definition "A meditative method generally consisting of a problem that defies solution by means of rational thought."@en .
+
+bud:GuanYin a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Guan Yin"@zh ;
+    skos:definition "The bodhisattva of compassion in East Asian Buddhism — female form of Avalokiteśvara."@en .
+
+#################################################################
+# Letter H
+#################################################################
+
+bud:Han a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "han"@ja ;
+    skos:definition "In Zen monasteries, a wooden board struck announcing sunrise, sunset and end of day."@en .
+
+bud:Hinayana a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Hinayana"@sa ;
+    skos:definition "Small vehicle — Buddhist doctrines concerned with achievement of Nirvāṇa as an individual."@en .
+
+#################################################################
+# Letter I
+#################################################################
+
+bud:Ino a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Ino"@ja ;
+    skos:definition "Bringer of joy to the assembly — in Zen, supervisor of the meditation hall."@en .
+
+#################################################################
+# Letter J
+#################################################################
+
+bud:Jetavana a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Jetavana"@sa ;
+    skos:definition "A monastery or garden associated with Buddhist sacred sites."@en .
+
+bud:Jhana a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "jhana"@pi ;
+    skos:definition "Meditative contemplation; more often associated with śamatha practices than vipaśyanā."@en .
+
+bud:Jisha a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "jisha"@ja ;
+    skos:definition "In Zen, a senior priest's attendant."@en .
+
+bud:Jukai a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "jukai"@ja ;
+    skos:definition "Zen public ordination ceremony wherein a lay student receives Buddhist precepts."@en .
+
+#################################################################
+# Letter K
+#################################################################
+
+bud:KakusandhaBuddha a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Kakusandha Buddha"@pi ;
+    skos:definition "One of the Buddhas preceding Gautama Buddha in Buddhist cosmology."@en .
+
+bud:Karma a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "karma"@sa ;
+    skos:definition "Action — specifically, an action that is driven by intention (cetanā) which leads to future consequences."@en .
+
+bud:Karmasiddhiprakarana a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Karmasiddhiprakaraṇa"@sa ;
+    skos:definition "A Buddhist philosophical text on karma and its effects."@en .
+
+bud:KassapaBuddha a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Kassapa Buddha"@pi ;
+    skos:definition "A Buddha mentioned in Buddhist texts as a predecessor to Gautama Buddha."@en .
+
+bud:Kensho a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "kensho"@ja ;
+    skos:definition "In Zen, enlightenment; has the same meaning as satori, but is customarily used for an initial awakening experience."@en .
+
+bud:Khyenpo a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "khyenpo"@bo ;
+    skos:definition "An academic degree similar to a doctorate in theology, philosophy, and psychology."@en .
+
+bud:Khanti a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "khanti"@pi ;
+    skos:definition "Patience — one of the pāramitās or perfections in Buddhism."@en .
+
+bud:Kinhin a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "kinhin"@ja ;
+    skos:definition "Zen walking meditation practiced between periods of zazen."@en .
+
+bud:Koan a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "koan"@ja ;
+    skos:definition "A story, question, problem or statement generally inaccessible to rational understanding."@en .
+
+bud:Ksana a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "kṣaṇa"@sa ;
+    skos:definition "Instant — the smallest unit of time in Buddhist philosophy."@en .
+
+bud:Ksanasampad a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "kṣaṇasaṃpad"@sa ;
+    skos:definition "Opportune birth — being born when a Buddha's teaching is available."@en .
+
+bud:Ksanti a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "ksanti"@sa ;
+    skos:definition "The practice of exercising patience toward behaviour or situations — a conscious choice to actively give patience."@en .
+
+bud:Ksitigarbha a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Kṣitigarbha"@sa ;
+    skos:definition "Earth Store — one of the eight great Bodhisattvas in Mahāyāna Buddhism."@en .
+
+bud:Ksitigarbhasutra a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Kṣitigarbhasūtra"@sa ;
+    skos:definition "The Scripture on Kṣitigarbha — a Buddhist sūtra on this bodhisattva."@en .
+
+bud:Klesa a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "kleśa"@sa ;
+    skos:definition "Afflictions — mental poisons or defilements in Buddhist psychology."@en .
+
+bud:KonagamanaBuddha a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Koṇāgamana Buddha"@pi ;
+    skos:definition "A Buddha in the succession of Buddhas in Buddhist cosmology."@en .
+
+bud:Kumbhanda a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Kumbhāṇḍa"@sa ;
+    skos:definition "A type of supernatural being or deity in Buddhist cosmology."@en .
+
+bud:Kusalakarmapatha a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "kuśalakarmapatha"@sa ;
+    skos:definition "Wholesome courses of action in Buddhist ethics."@en .
+
+bud:Kusalamula a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "kuśalamūla"@sa ;
+    skos:definition "Roots of virtue, wholesome faculties in Buddhist practice."@en .
+
+bud:Kyosaku a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "kyosaku"@ja ;
+    skos:definition "In Zen, a flattened stick used to strike the shoulders during zazen, to help overcome fatigue."@en .
+
+#################################################################
+# Letter L
+#################################################################
+
+bud:Laksana a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "lakṣaṇa"@sa ;
+    skos:definition "Characteristics, marks — distinguishing features in Buddhist philosophy."@en .
+
+bud:LamRimChenMo a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Lam rim chen mo"@bo ;
+    skos:definition "Great Treatise on the Stages of the Path, written by Guru Tsongkhapa in 1402."@en .
+
+bud:Lalitavistara a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Lalitavistara"@sa ;
+    skos:definition "A Buddhist sūtra describing the life and deeds of the Buddha."@en .
+
+bud:Lama a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "lama"@bo ;
+    skos:definition "A Tibetan teacher or master; equivalent to the Sanskrit 'guru'."@en .
+
+bud:Lineage a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "lineage"@en ;
+    skos:definition "The official record of the historical descent of dharma teachings from one teacher to another."@en .
+
+#################################################################
+# Letter M
+#################################################################
+
+bud:MahabodhiTemple a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Mahābodhi Temple"@sa ;
+    skos:definition "Temple of the Great Awakening — the great stūpa where Shakyamuni Buddha attained enlightenment."@en .
+
+bud:Madhyamaka a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Madhyamaka"@sa ;
+    skos:definition "Buddhist philosophical school founded by Nāgārjuna emphasizing the Middle Way."@en .
+
+bud:Mahabhuta a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "mahabhuta"@sa ;
+    skos:definition "Four great elements in traditional Buddhist thought (earth, water, fire, air)."@en .
+
+bud:Mahamudra a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "mahamudra"@sa ;
+    skos:definition "A method of direct introduction to the understanding of śūnyatā, of saṃsāra, and that the two are inseparable."@en .
+
+bud:Mahaprajnaparamitasutra a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Mahāprajñāpāramitāsūtra"@sa ;
+    skos:definition "Sūtra on the Great Perfection of Wisdom — a major Mahāyāna Buddhist text."@en .
+
+bud:Mahasiddha a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "mahasiddha"@sa ;
+    skos:definition "Great spiritual accomplishment — a yogi in Tantric Buddhism at highest enlightenment levels."@en .
+
+bud:Mahavadanasutra a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Mahāvadānasūtra"@sa ;
+    skos:definition "A Buddhist sūtra containing biographical accounts of the Buddha and disciples."@en .
+
+bud:Mahayana a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Mahayana"@sa ;
+    skos:definition "Great vehicle — major branch of Buddhism in China, Tibet, Japan, Korea, Vietnam, Taiwan."@en .
+
+bud:Maitreya a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Maitreya"@sa ;
+    skos:definition "The Buddha of the future epoch in Buddhist cosmology."@en .
+
+bud:Makyo a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "makyo"@ja ;
+    skos:definition "In Zen, unpleasant or distracting thoughts or illusions that occur during zazen."@en .
+
+bud:Mana a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Māna"@sa ;
+    skos:definition "Conceit, arrogance, misconception — a mental defilement in Buddhism."@en .
+
+bud:ManasVijnana a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "manas-vijñāna"@sa ;
+    skos:definition "Seventh of the eight consciousnesses in Yogācāra Buddhist psychology."@en .
+
+bud:Mandala a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "mandala"@sa ;
+    skos:definition "A spiritual and ritual symbol representing the Universe in Buddhist practice."@en .
+
+bud:Mangala a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "maṅgala"@sa ;
+    skos:definition "Auspiciousness — favorable conditions or blessings in Buddhist contexts."@en .
+
+bud:Mantra a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "mantra"@sa ;
+    skos:definition "Chant used primarily to aid concentration, to reach enlightenment — e.g. Om mani padme hum."@en .
+
+bud:Mappo a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Mappo"@ja ;
+    skos:definition "The 'degenerate' Latter Day of the Law — time when the Buddha's teachings lose the power of salvation."@en .
+
+bud:Merit a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "merit"@en ;
+    skos:definition "Positive spiritual karma accumulated through virtuous actions in Buddhist practice."@en .
+
+bud:Metta a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "mettā"@pi ;
+    skos:definition "Loving kindness — one of the Brahmavihāras or divine abodes."@en .
+
+bud:MiddleWay a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Middle Way"@en ;
+    skos:definition "The practice of avoidance of extreme views and lifestyle choices in Buddhism."@en .
+
+bud:Mindfulness a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "mindfulness"@en ;
+    skos:definition "The practice whereby a person is intentionally aware of his or her thoughts and actions."@en .
+
+bud:Moksha a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "moksha"@sa ;
+    skos:definition "Liberation — freedom from the cycle of rebirth in Buddhist and Hindu philosophy."@en .
+
+bud:Mokugyo a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "mokugyo"@ja ;
+    skos:definition "A wooden drum carved from one piece, usually in the form of a fish."@en .
+
+bud:Mondo a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "mondo"@ja ;
+    skos:definition "In Zen, a short dialogue between teacher and student."@en .
+
+bud:Mudra a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "mudra"@sa ;
+    skos:definition "A gesture made with hands and fingers in meditation representing various states."@en .
+
+#################################################################
+# Letter N
+#################################################################
+
+bud:Namo a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "namo"@sa ;
+    skos:definition "An exclamation showing reverence; devotion — expressing devotion to an object of veneration."@en .
+
+bud:Naraka a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Naraka"@sa ;
+    skos:definition "Realm of hell — one of the six realms in Buddhist cosmology."@en .
+
+bud:Nekkhamma a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "nekkhamma"@pi ;
+    skos:definition "Renunciation — one of the perfections in Buddhist practice."@en .
+
+bud:Nirvana a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Nirvana"@sa ;
+    skos:altLabel "Nibbana"@pi ;
+    skos:definition "Extinction or extinguishing; ultimate enlightenment in the Buddhist tradition."@en .
+
+bud:Nikaya a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Nikaya"@pi ;
+    skos:definition "Volume — the Buddhist texts in Pāli tradition, organized by subject."@en .
+
+bud:NobleEightfoldPath a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Noble Eightfold Path"@en ;
+    skos:definition "The path consisting of Right View, Thought, Speech, Action, Living, Effort, Mindfulness, Concentration."@en .
+
+#################################################################
+# Letter O
+#################################################################
+
+bud:Oryoki a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "oryoki"@ja ;
+    skos:definition "A set of bowls used in a Zen eating ceremony."@en .
+
+bud:Osho a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "osho"@ja ;
+    skos:definition "A term addressing a monk of the Zen Buddhist tradition, originally for high-ranking monks."@en .
+
+#################################################################
+# Letter P
+#################################################################
+
+bud:Pabbajja a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "pabbajja"@pi ;
+    skos:definition "Going forth — a layperson leaving home to join a monastic community."@en .
+
+bud:PancaSkandha a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "panca skandha"@sa ;
+    skos:definition "The five constituent elements into which an individual is analyzed: form, sensation, cognition, formations, consciousness."@en .
+
+bud:PanchenLama a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Panchen Lama"@bo ;
+    skos:definition "The second highest ranking lama in the Gelugpa sect of Tibetan Buddhism after the Dalai Lama."@en .
+
+bud:Panna a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "paññā"@pi ;
+    skos:definition "Wisdom, insight — direct understanding of Buddhist truths."@en .
+
+bud:Paramartha a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "paramartha"@sa ;
+    skos:definition "Absolute, as opposed to merely conventional, truth or reality."@en .
+
+bud:Paramita a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "paramita"@sa ;
+    skos:definition "Reaching the other shore, rendered as 'perfection' — Mahāyāna practices for enlightenment."@en .
+
+bud:Parinirvana a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "parinirvana"@sa ;
+    skos:altLabel "parinibbana"@pi ;
+    skos:definition "The final nirvāṇa — complete cessation at death of an enlightened being."@en .
+
+bud:PerfectionOfWisdom a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Perfection of Wisdom"@en ;
+    skos:definition "Prajñāpāramitā — Buddhist doctrine emphasizing wisdom transcending all dualistic concepts."@en .
+
+bud:PlatformSutra a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Platform Sūtra of the Sixth Patriarch"@en ;
+    skos:definition "Sermon of the sixth patriarch of Zen Buddhism on sudden enlightenment."@en .
+
+bud:PointingOutInstruction a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Pointing-out instruction"@en ;
+    skos:definition "Direct introduction to the nature of mind in Mahāmudrā and Dzogchen lineages, given by a root guru."@en .
+
+bud:Prajna a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "prajna"@sa ;
+    skos:altLabel "paññā"@pi ;
+    skos:definition "Wisdom, insight — direct realization of Buddhist truths."@en .
+
+bud:Pratisarana a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "pratisaraṇa"@sa ;
+    skos:definition "Reliance — dependence on the three jewels in Buddhist practice."@en .
+
+bud:PratityaSamutpada a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "pratitya-samutpada"@sa ;
+    skos:definition "Dependent origination — view that no phenomenon exists without depending on other phenomena."@en .
+
+bud:Pratyekabuddha a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Pratyekabuddha"@sa ;
+    skos:altLabel "Paccekabuddha"@pi ;
+    skos:definition "A buddha by his own — a buddha reaching enlightenment independently without teaching others."@en .
+
+bud:PureLandBuddhism a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Pure Land Buddhism"@en ;
+    skos:definition "A large branch of Mahāyāna — goal is to be reborn in the Western sukhāvatī of Amitābha."@en .
+
+#################################################################
+# Letter R
+#################################################################
+
+bud:Raga a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "rāga"@sa ;
+    skos:definition "Greed or lust; one of the three poisons in Buddhism alongside hatred and delusion."@en .
+
+bud:Rajas a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "rajas"@sa ;
+    skos:definition "One of the three guṇas (qualities); represents passion, activity, and movement in Buddhist philosophy."@en .
+
+bud:Rakkhaka a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "rakkhaka"@pi ;
+    skos:definition "A protector or guardian figure in Buddhist practice and cosmology."@en .
+
+bud:Ratnasambhava a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Ratnasambhava"@sa ;
+    skos:definition "One of the Five Tathāgatas or Five Wisdom Buddhas, associated with jewel-like qualities and abundance."@en .
+
+bud:Ratri a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "rātri"@sa ;
+    skos:definition "Night; used in Buddhist temporal descriptions and meditation practices."@en .
+
+bud:Rebirth a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "rebirth"@en ;
+    skos:definition "The cyclical process of being born again into existence within saṃsāra according to one's karma."@en .
+
+bud:Refuge a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "refuge"@en ;
+    skos:definition "Taking refuge involves committing to the Three Jewels — the Buddha, Dharma, and Saṅgha — as one's spiritual foundation."@en .
+
+bud:Rishi a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "rishi"@sa ;
+    skos:definition "A sage or seer figure in Buddhist and Hindu traditions representing spiritual wisdom and accomplishment."@en .
+
+bud:Rupa a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "rūpa"@sa ;
+    skos:definition "Form or materiality; the first of the Five Aggregates constituting physical existence."@en .
+
+bud:Rupakaya a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Rupakaya"@sa ;
+    skos:definition "The form body of a Buddha, comprising physical manifestations perceived by sentient beings."@en .
+
+#################################################################
+# Letter S
+#################################################################
+
+bud:Sadhana a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "sādhana"@sa ;
+    skos:definition "A spiritual practice or ritual performance designed to achieve enlightenment or specific Buddhist goals."@en .
+
+bud:Sadhu a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "sādhu"@sa ;
+    skos:definition "A wandering ascetic or holy person who has renounced worldly life for spiritual pursuit."@en .
+
+bud:SakyamuniBuddha a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Śākyamuni Buddha"@sa ;
+    skos:definition "The Sage of the Śākyas — another name for Gautama Buddha, the historical founder of Buddhism."@en .
+
+bud:Samadhi a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "samādhi"@sa ;
+    skos:definition "Concentration or meditative absorption; focused mental stability essential to Buddhist practice."@en .
+
+bud:Samatha a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "samatha"@pi ;
+    skos:definition "Calm meditation practice emphasizing tranquility and mental stability as preparation for deeper insight."@en .
+
+bud:Sambodhi a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "sambodhi"@sa ;
+    skos:definition "Perfect enlightenment or complete awakening to ultimate truth in Buddhist understanding."@en .
+
+bud:Samgha a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "samgha"@sa ;
+    skos:definition "The community — the monastic order of monks and nuns, one of the Three Jewels."@en .
+
+bud:Samjna a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "samjña"@sa ;
+    skos:definition "Perception or recognition; the third of the Five Aggregates involving mental identification processes."@en .
+
+bud:Samkarana a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "samkarana"@sa ;
+    skos:definition "Mental formations or volitional impulses; the fourth of the Five Aggregates shaping experience."@en .
+
+bud:Samkhara a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "samkhara"@pi ;
+    skos:definition "Conditioned phenomena or formations; relates to compositional factors dependent on causes and conditions."@en .
+
+bud:Sampajanna a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "sampajañña"@pi ;
+    skos:definition "Clear comprehension or awareness of bodily, mental, and behavioral processes during daily activities."@en .
+
+bud:Samskara a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "samskara"@sa ;
+    skos:definition "Karmic imprints or mental formations; conditioning factors that influence consciousness and perception."@en .
+
+bud:Samsara a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "samsara"@sa ;
+    skos:definition "The cycle of becoming — the continuous wheel of rebirth and suffering characterizing conditioned existence."@en .
+
+bud:Samudaya a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "samudaya"@sa ;
+    skos:definition "The origin or cause of suffering; the second of the Four Noble Truths explaining suffering's source."@en .
+
+bud:Samvrti a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "samvrti"@sa ;
+    skos:definition "Conventional truth or reality; contrasts with absolute truth (paramārtha) in Buddhist epistemology."@en .
+
+bud:Samyaksambuddha a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "samyaksambuddha"@sa ;
+    skos:definition "A fully enlightened Buddha who discovers teachings independently and teaches others the path to liberation."@en .
+
+bud:Sankhara a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "sankhara"@pi ;
+    skos:definition "Formations or conditioned things; the aggregate of mental volitional formations in Buddhist analysis."@en .
+
+bud:Sanna a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "sanna"@pi ;
+    skos:definition "Perception or sensation; involves mental labeling and recognition of experiences and phenomena."@en .
+
+bud:Sannyasi a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "sannyasi"@sa ;
+    skos:definition "A renunciate or monastic who has formally abandoned worldly life for spiritual dedication."@en .
+
+bud:Sanskrit a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Sanskrit"@en ;
+    skos:definition "An ancient language used extensively in Buddhist philosophical texts and religious literature across traditions."@en .
+
+bud:Santana a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "santana"@sa ;
+    skos:definition "Mental continuum or stream of consciousness that persists through successive rebirths according to Buddhism."@en .
+
+bud:Sanyojana a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "sanyojana"@pi ;
+    skos:definition "Fetters or bonds binding sentient beings to saṃsāra; obstacles preventing liberation from suffering."@en .
+
+bud:Sariputra a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "sariputra"@sa ;
+    skos:definition "One of the principal disciples of Buddha Gautama, renowned for exceptional wisdom and understanding."@en .
+
+bud:Sarnath a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "sarnath"@sa ;
+    skos:definition "Sacred Buddhist site in India where the Buddha delivered his first sermon after enlightenment."@en .
+
+bud:Sati a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "sati"@pi ;
+    skos:definition "Mindfulness or remembrance; encompasses present-moment awareness and recollection of teachings."@en .
+
+bud:Satori a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "satori"@ja ;
+    skos:definition "In Zen Buddhism, sudden enlightenment or awakening to one's Buddha-nature and true reality."@en .
+
+bud:Satya a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "satya"@sa ;
+    skos:definition "Truth; a fundamental concept referring to reality as perceived through enlightened understanding."@en .
+
+bud:SatyaArya a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "satya-arya"@sa ;
+    skos:definition "The Noble Truths; Buddhist doctrine emphasizing suffering, its origin, cessation, and the path."@en .
+
+bud:Saudha a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "saudha"@sa ;
+    skos:definition "A mansion or palace; architectural structures housing Buddhist relics or serving monastic communities."@en .
+
+bud:Sayadaw a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "sayadaw"@my ;
+    skos:definition "A Burmese title meaning teacher or master, used to address respected Buddhist monks respectfully."@en .
+
+bud:Sayagyi a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "sayagyi"@my ;
+    skos:definition "A Burmese honorific title for venerable teachers, particularly senior Buddhist masters and scholars."@en .
+
+bud:Schisma a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "schisma"@en ;
+    skos:definition "Divisions or splits within Buddhist communities, particularly regarding monastic discipline and doctrine."@en .
+
+bud:Seon a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "seon"@ko ;
+    skos:definition "The Korean branch of Zen Buddhism emphasizing meditation and direct insight into Buddha-nature."@en .
+
+bud:Seunim a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "seunim"@ko ;
+    skos:definition "Korean honorific title for Buddhist monks, conveying respect and veneration for the monastic order."@en .
+
+bud:Sila a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "sila"@pi ;
+    skos:definition "Ethical conduct or morality; constitutes one of the three trainings fundamental to Buddhist practice."@en .
+
+bud:Skandha a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "skandha"@sa ;
+    skos:definition "Aggregates or constituent elements; Buddhism analyzes individual persons into five interconnected components."@en .
+
+bud:Soka a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "soka"@sa ;
+    skos:definition "Sorrow or grief; represents negative mental states Buddhism seeks to transcend through practice."@en .
+
+bud:Sodo a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "sodo"@ja ;
+    skos:definition "In Zen monasteries, the meditation hall where practitioners gather for concentrated zazen practice."@en .
+
+bud:Sojong a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "sojong"@ko ;
+    skos:definition "Korean term for the monastic precept recitation ceremony, reflecting Buddhist disciplinary traditions."@en .
+
+bud:Somobodhi a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "somobodhi"@sa ;
+    skos:definition "A potential Buddha-nature or seed of enlightenment existing within all sentient beings universally."@en .
+
+bud:Sopaka a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "sopaka"@pi ;
+    skos:definition "A lay supporter who maintains Buddhist monastics through donations and community service."@en .
+
+bud:Sotapanna a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "sotapanna"@pi ;
+    skos:definition "A stream-enterer — the first of four stages of enlightenment in Theravāda Buddhism."@en .
+
+bud:Suddhatthaka a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "suddhatthaka"@pi ;
+    skos:definition "Philosophical concept referring to ultimate particles comprising all composite material phenomena."@en .
+
+bud:Suddhodana a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "suddhodana"@sa ;
+    skos:definition "The father of Gautama Buddha; ruled as a king before his son's spiritual renunciation."@en .
+
+bud:Sukhavati a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "sukhavati"@sa ;
+    skos:definition "The Pure Land or Western Paradise associated with Buddha Amitābha in Mahāyāna Buddhism."@en .
+
+bud:Sukha a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "sukha"@sa ;
+    skos:definition "Happiness, pleasure, or ease; represents positive experiences within the broader Buddhist framework."@en .
+
+bud:Sukhavativyuha a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "sukhavativyuha"@sa ;
+    skos:definition "A Mahāyāna sūtra describing Amitābha Buddha and the blissful characteristics of the Pure Land."@en .
+
+bud:Sunnata a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "sunnata"@pi ;
+    skos:definition "Emptiness or non-substantiality; central Buddhist doctrine that phenomena lack permanent independent essence."@en .
+
+bud:Sunyata a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "sunyata"@sa ;
+    skos:definition "Emptiness of inherent existence; fundamental emptiness underlying all conditioned phenomena in Buddhism."@en .
+
+bud:Sura a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "sura"@sa ;
+    skos:definition "A divine being or god-like entity in Buddhist cosmology, often depicted enjoying celestial pleasures."@en .
+
+bud:Sutra a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "sutra"@sa ;
+    skos:definition "Buddhist scriptures or discourses traditionally attributed directly to Buddha or his immediate disciples."@en .
+
+bud:Sutravada a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "sutravada"@sa ;
+    skos:definition "Buddhist philosophical school emphasizing scriptural sources over speculative metaphysical interpretation."@en .
+
+#################################################################
+# Letter T
+#################################################################
+
+bud:Tathagatagarbha a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Tathagatagarbha"@sa ;
+    skos:definition "Buddha-nature concept referring to the innate Buddha essence within all sentient beings, enabling achievement of Awakening."@en .
+
+bud:Tendai a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Tendai"@ja ;
+    skos:definition "Japanese Buddhist school emphasizing the Lotus Sūtra and the concept that all beings possess Buddha-nature."@en .
+
+bud:Theravada a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Theravada"@pi ;
+    skos:definition "Major Buddhist tradition practiced in Southeast Asia, focused on monastic practices and individual enlightenment through the Arhat path."@en .
+
+bud:Thusness a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Thusness"@en ;
+    skos:definition "Translation of Tathatā; the true nature or 'suchness' of reality in Buddhist philosophy."@en .
+
+bud:Tiantai a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Tiantai"@zh ;
+    skos:definition "Chinese Buddhist school (corresponding to Japanese Tendai) centered on Lotus Sūtra teachings."@en .
+
+bud:TibetanBuddhism a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Tibetan Buddhism"@en ;
+    skos:definition "Form of Mahāyāna Buddhism practiced in Tibet, characterized by Vajrayāna practices and monastic traditions."@en .
+
+bud:Tripitaka a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Tripitaka"@sa ;
+    skos:definition "Three Baskets — the canonical collection of Buddhist scriptures comprising Sūtras, Vinaya, and Abhidharma."@en .
+
+#################################################################
+# Letter U
+#################################################################
+
+bud:Upanisad a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Upanisad"@sa ;
+    skos:definition "Ancient Hindu philosophical texts that influenced early Buddhist thought and metaphysical concepts."@en .
+
+bud:Uposatha a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Uposatha"@pi ;
+    skos:definition "Sabbath day in Buddhist tradition; observance day for heightened practice and precept-taking."@en .
+
+#################################################################
+# Letter V
+#################################################################
+
+bud:Vajra a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Vajra"@sa ;
+    skos:definition "Ritual implement symbolizing adamantine or diamond-like indestructibility of Buddha-nature in Tantric Buddhism."@en .
+
+bud:Vajrayana a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Vajrayana"@sa ;
+    skos:definition "Diamond Vehicle — esoteric Buddhist tradition emphasizing tantric practices, found primarily in Tibet and Mongolia."@en .
+
+bud:Vedana a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Vedana"@sa ;
+    skos:definition "Feeling or sensation; second of the Five Aggregates in Buddhist analysis of human experience."@en .
+
+bud:Vihaara a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Vihaara"@sa ;
+    skos:definition "Buddhist monastery or residence for monks and nuns."@en .
+
+bud:Vihara a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Vihara"@sa ;
+    skos:definition "Monastic dwelling place in Buddhist communities."@en .
+
+bud:Vinaya a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Vinaya"@sa ;
+    skos:definition "Discipline — the code of monastic rules and regulations governing Buddhist monastic communities."@en .
+
+bud:Vipaka a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Vipaka"@sa ;
+    skos:definition "Fruit or result of karma; consequences arising from intentional actions."@en .
+
+bud:Vipassana a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Vipassana"@pi ;
+    skos:definition "Insight meditation practice aimed at developing wisdom through direct observation of phenomena."@en .
+
+bud:Virati a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Virati"@sa ;
+    skos:definition "Abstinence or refraining from harmful conduct; ethical restraint in Buddhist practice."@en .
+
+bud:Visuddhimagga a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Visuddhimagga"@pi ;
+    skos:definition "Path of Purification — comprehensive Theravāda Buddhist meditation and philosophy manual."@en .
+
+#################################################################
+# Letter W
+#################################################################
+
+bud:WheelOfDharma a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Wheel of Dharma"@en ;
+    skos:definition "Symbolic representation of Buddhist teachings, depicting the Noble Eightfold Path and law of cause-and-effect."@en .
+
+bud:Wisdom a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Wisdom"@en ;
+    skos:definition "Prajñā in Sanskrit; highest faculty enabling direct insight into the nature of reality and enlightenment."@en .
+
+#################################################################
+# Letter Z
+#################################################################
+
+bud:Zazen a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Zazen"@ja ;
+    skos:definition "Sitting meditation practice central to Zen Buddhism involving focused awareness and mindfulness."@en .
+
+bud:Zen a owl:Class ;
+    rdfs:subClassOf bud:BuddhistConcept ;
+    rdfs:label "Zen"@ja ;
+    skos:definition "School of Mahāyāna Buddhism emphasizing direct experience, meditation, and sudden insight over textual study."@en .

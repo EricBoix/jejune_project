@@ -15,6 +15,8 @@ A direct consequence if the need for enforcing the usage of
 
 ## References and strings to read
 
+- Get some inspiration from [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page)
+- Here is [trial of buddhism glossary](./Need006_Formalize_KG_with_RDF_and_OWL/buddhism_glossary.ttl) as extracted from the [Glossary of Buddhism Wikipedia page](https://en.wikipedia.org/wiki/Glossary_of_Buddhism). Refer to the heading comments of [`buddhism_glossary.ttl`](./Need006_Formalize_KG_with_RDF_and_OWL/buddhism_glossary.ttl) for some understanding on how it was build.
 - Finish the [Practical Guide to Building OWL Ontologies - Using Protégé 5.5 and Plugins](https://drive.google.com/file/d/1A3Y8T6nIfXQ_UQOpCAr_HFSCwpTqELeP/view) tutorial by Michael DeBellis (Edition 3.2, 2021)
 - Are they reasons for adopting OWL instead of the simpler (SKOS Simple Knowledge Organisation System) ? Side questions
   - SKOS is expressed in RDF and thus no need new tools beyond the ones used for the individuals (OWL terminology). Are they python libraries and tools for OWL ? (Protégé, ...) Read the [combined usage OF SKOS and OWL](https://medium.com/@nfigay/combined-usage-of-skos-and-owl-an-experimentation-on-the-digital-europa-thesaurus-41ae9d488512) article again ?
