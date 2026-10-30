@@ -10,3 +10,4 @@
 - 006: [Formalize KG with RDF and OWL](Need006_Formalize_KG_with_RDF_and_OWL.md)
 - 007: [find an RDF database](./Need007_RDF_Database.md)
 - 008: [find an Embedding Vector database](Need008_Embedding_Vector_Database.md)
+- 009: [Knowledge graph basic needs](./Need009_KG_representation.md))

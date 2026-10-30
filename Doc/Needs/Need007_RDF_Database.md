@@ -30,13 +30,11 @@ Because RDF allows for
   - blending/merging/evolving models
   - same data represented with multiple/diverse models
 
-A **must have** need:
+**Must have** needs:
 
-- descriptions/data can be added to edges (refer to [RDF star](https://www.ontotext.com/knowledgehub/fundamentals/what-is-rdf-star/)). Here are some classic examples of data that has to live/be-attached to edges:
-  - a comparison between two documents (books seen as nodes)
-  - different interpretations of a single concept (that can take the form of remark/article i.e. another document)
+- [Descriptions/data can be added to edges](./Need009_KG_representation.md)
 
-Needs "nice" to be satisfied
+**Nice to have** needs:
   
 - many existing ontologies and thus concrete means not to re-invent the wheel ([NIH](https://en.wikipedia.org/wiki/Not_invented_here) tendency)
 - easily adapting the display (data decorated by/with semantics) without heavy refactoring (e.g. node colors are plastically inherited from properties among which can be the ref:type)
