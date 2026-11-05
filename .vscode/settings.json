@@ -1,12 +1,11 @@
 {
     "cSpell.customDictionaries": {
-        "graphrag-python-sandbox-words": {
-            "name": "graph_rag_python_sandbox",
-            "path": "${workspaceRoot}/Doc/ToolTesting/GraphRAG/GraphRAG-words.txt",
-            "description": "Words used for GraphRAG python sandbox/testing",
+        "project-words": {
+            "name": "project",
+            "path": "${workspaceFolder}/project-words.txt",
+            "description": "Words used for the jejune_project",
             "addWords": true
-        },
-        "graph_rag_python_sandbox": true, // Enable that dictionary
+        }
     },
     "[python]": {
       "editor.defaultFormatter": "ms-python.black-formatter",

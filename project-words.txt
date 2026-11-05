@@ -1,21 +1,30 @@
 # Person names
 Bierner's
 Blumenfeld
+Brockden
 Burbea
 Damaso
+Landsdown
 Sanoja
-# Technical names        
+
+# Technical names
 Fuseki
 graphdb
+Honourable
+june
 khaller
 langchain
-neovis
 neo4j
+neovis
 Ontotext
 oxigraph
 pyproject
 Pythonic
 rdflib
 RDFS
-superchapter
 SPARQL
+superchapter
+
+# Miscellaneous
+jejunosity
+Russias

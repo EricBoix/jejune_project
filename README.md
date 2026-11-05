@@ -1,12 +1,17 @@
 # jejune project<!-- omit in toc -->
 
-Never let the [monkey](https://en.wikipedia.org/wiki/Monkey_mind) hinder you from sitting back on the [cushion](https://en.wikipedia.org/wiki/Zafu).
+jejune: [`empty; devoid of substance`](./About/Readme.md#jejune-definition)
+
+Purpose of the project: never let the [monkey](https://en.wikipedia.org/wiki/Monkey_mind) hinder you from sitting back on the [cushion](https://en.wikipedia.org/wiki/Zafu).
+
 
 ## Table of content<!-- omit in toc -->
 
 - [Related repositories](#related-repositories)
 - [Needs](#needs)
 - [Roles](#roles)
+  - [Tool providers related roles](#tool-providers-related-roles)
+  - [Usage related roles](#usage-related-roles)
 - [Working with VScode](#working-with-vscode)
 
 ## Related repositories
